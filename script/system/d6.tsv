@@ -1101,42 +1101,42 @@ D6E3D4	str	15	同期テスト中
 D6E3E4	str	35	相手の行動中です{rt}お待ちください{wc}		
 D6E408	str	35	相手選択中です{rt}お待ちください{wc}		
 D6E42C	str	31	相手の決定を{rt}待っています{wc}		
-D6E56C	str	11	ー　　　　		
-D6E578	str	11	ぱぴぷぺぽ		
-D6E584	str	11	ゃゅょっ　		
-D6E590	str	11	ぁぃぅぇぉ		
-D6E59C	str	11	ばびぶべぼ		
-D6E5A8	str	11	だぢづでど		
-D6E5B4	str	11	ざじずぜぞ		
-D6E5C0	str	11	がぎぐげご		
-D6E5CC	str	11	わ　を　ん		
-D6E5D8	str	11	らりるれろ		
-D6E5E4	str	11	や　ゆ　よ		
-D6E5F0	str	11	まみむめも		
-D6E5FC	str	11	はひふへほ		
-D6E608	str	11	なにぬねの		
-D6E614	str	11	たちつてと		
-D6E620	str	11	さしすせそ		
-D6E62C	str	11	かきくけこ		
-D6E638	str	11	あいうえお		
-D6E644	str	11	パピプペポ		
-D6E650	str	11	ャュョッヴ		
-D6E65C	str	11	ァィゥェォ		
-D6E668	str	11	バビブベボ		
-D6E674	str	11	ダヂヅデド		
-D6E680	str	11	ザジズゼゾ		
-D6E68C	str	11	ガギグゲゴ		
-D6E698	str	11	ワ　ヲ　ン		
-D6E6A4	str	11	ラリルレロ		
-D6E6B0	str	11	ヤ　ユ　ヨ		
-D6E6BC	str	11	マミムメモ		
-D6E6C8	str	11	ハヒフヘホ		
-D6E6D4	str	11	ナニヌネノ		
-D6E6E0	str	11	タチツテト		
-D6E6EC	str	11	サシスセソ		
-D6E6F8	str	11	カキクケコ		
-D6E704	str	11	アイウエオ		
-D6E710	str	11	わ　　　　		
+D6E56C	grid	11	ー　　　　		
+D6E578	grid	11	ぱぴぷぺぽ		
+D6E584	grid	11	ゃゅょっ　		
+D6E590	grid	11	ぁぃぅぇぉ		
+D6E59C	grid	11	ばびぶべぼ		
+D6E5A8	grid	11	だぢづでど		
+D6E5B4	grid	11	ざじずぜぞ		
+D6E5C0	grid	11	がぎぐげご		
+D6E5CC	grid	11	わ　を　ん		
+D6E5D8	grid	11	らりるれろ		
+D6E5E4	grid	11	や　ゆ　よ		
+D6E5F0	grid	11	まみむめも		
+D6E5FC	grid	11	はひふへほ		
+D6E608	grid	11	なにぬねの		
+D6E614	grid	11	たちつてと		
+D6E620	grid	11	さしすせそ		
+D6E62C	grid	11	かきくけこ		
+D6E638	grid	11	あいうえお		
+D6E644	grid	11	パピプペポ		
+D6E650	grid	11	ャュョッヴ		
+D6E65C	grid	11	ァィゥェォ		
+D6E668	grid	11	バビブベボ		
+D6E674	grid	11	ダヂヅデド		
+D6E680	grid	11	ザジズゼゾ		
+D6E68C	grid	11	ガギグゲゴ		
+D6E698	grid	11	ワ　ヲ　ン		
+D6E6A4	grid	11	ラリルレロ		
+D6E6B0	grid	11	ヤ　ユ　ヨ		
+D6E6BC	grid	11	マミムメモ		
+D6E6C8	grid	11	ハヒフヘホ		
+D6E6D4	grid	11	ナニヌネノ		
+D6E6E0	grid	11	タチツテト		
+D6E6EC	grid	11	サシスセソ		
+D6E6F8	grid	11	カキクケコ		
+D6E704	grid	11	アイウエオ		
+D6E710	grid	11	わ　　　　		
 D6E71C	str	19	【能力】　　　　		
 D6E730	str	19	【アイコン】　　		
 D6E744	str	19	【攻撃】　　　　		

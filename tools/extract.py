@@ -12,6 +12,9 @@ Files (UTF-8, tab-separated, header `id kind max jp en notes`, text in tools/tex
     script/system/<range>.tsv   pointed system strings (tools/strslots.py), one file per range (cf, d1, d6); id =
                                 ROM offset in hex; kind `str`; max = bytes the in-place slot holds (NUL excluded);
                                 longer text is relocated in phase 7. notes list alias pointers.
+                                kind `grid`: the name-entry screen's character grid rows (D6E56C-D6E710, drawn as text,
+                                read with the u16 input grid at 0xD16740): not dialogue, left out of the marker build
+                                and translator batches; they change with the English name entry (engine work).
 An empty `en` means "keep the Japanese": build.py inserts `en` where present, else `jp`.
 """
 import argparse
@@ -28,6 +31,7 @@ import textcodec  # noqa: E402
 SCRIPT = ROOT / 'script'
 COLS = ['id', 'kind', 'max', 'jp', 'en', 'notes']
 RANGE_NAMES = {0xCF12F0: 'cf', 0xD16800: 'd1', 0xD63000: 'd6'}
+GRID = (0xD6E56C, 0xD6E71C)      # name-entry grid rows, 12-byte slots
 
 
 def scene_names(d):
@@ -56,7 +60,8 @@ def extract(d):
         lo = next(a for a, b in strslots.RANGES if a <= s.addr < b)
         note = ' '.join('alias %X+%d' % (site, off) for site, off in s.aliases)
         out.setdefault('system/%s.tsv' % RANGE_NAMES[lo], []).append(
-            {'id': '%06X' % s.addr, 'kind': 'str', 'max': str(s.cap - 1), 'jp': textcodec.decode(s.text),
+            {'id': '%06X' % s.addr, 'kind': 'grid' if GRID[0] <= s.addr < GRID[1] else 'str',
+             'max': str(s.cap - 1), 'jp': textcodec.decode(s.text),
              'en': '', 'notes': note})
     return out
 

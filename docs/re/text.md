@@ -94,6 +94,13 @@ Argument counts are the digits shown; prove each with the marker build before th
   per `rt`, units per line counted at 0x030062A4[line]; no per-line limit. Story text is copied to IWRAM
   0x03003C48 first and drawn whole into EWRAM (tiles 0x02000020.., map 0x02003000..), then revealed left to right
   (a shot taken early shows a cut-off line: wait ~60 frames after a box opens).
+- **Printer B, unit routine 0x0800455C** (12 callers: the loop 0x08004A54, 0x0801C7B2, 0x0801C878): sprite text,
+  used by the yes/no prompts (CF1318-CF1564, `　はい　いいえ`). Never calls 0x08003B84: it decodes Shift-JIS itself
+  (controls by lead byte; 0x8140 returns 3 = x advances 16 px, no cell; codes > 0x9872 go through the kanji list),
+  copies the glyph into the cell at r1 (0x08004184) and places a 16x16 sprite with 0x08018CF4(0xE000, x [sp+4],
+  y [sp+0x28]). The loop moves the cell +0x80 and x +16 per unit, y +16 per `rt`. The prompt's cursor cells are
+  fixed (cells 0 and 3 of the option line, whatever the text). VWF entry `hookb` (tools/vwf.py) at its Shift-JIS
+  branch 0x0800497C. Found by watching ROM reads of CF146C (its marker drew blank).
 - Log printer 0x0803F5D6: copies lines into 16-unit slots (at most 15 units a line, longer lines continue in the
   next slot) and draws 10 lines.
 - **English: VWF hook** (`tools/vwf.py`, decision in docs/decisions.md D8). The stub at 0x08003B84 jumps to ARM code
