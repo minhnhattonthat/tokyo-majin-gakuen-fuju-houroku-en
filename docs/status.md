@@ -2,8 +2,14 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike and marker build (not started). Last build: `build/tmgfh_en.gba` 2026-11-22, sha1
+- **Phase:** 5. Engine spike and marker build (in progress). Last build: `build/tmgfh_en.gba` 2026-11-22, sha1
   8d9efb85a8f2.. (built from `script/`, identical to the dump), smoke ok.
+- **In progress (phase 5):** VWF engine done and proven in game (`tools/vwf.py`, `fonts/vwf.txt`, D8; details in
+  `docs/re/text.md` §Font). Marker build `build.py --marker` -> `build/tmgfh_marker.gba` boots, story boxes show
+  【B05.0002】 etc. Width gate so far in `tools/windows.tsv` (dialogue 232/218 px, 15 units; choice 112 px). Tour
+  with the glyph probe: `warp.py --all --rom build/tmgfh_marker.gba --out work/qa/marker --script
+  tools/debug/glyphlog.lua`, then `tools/glyphs.py build/tmgfh_marker.gba work/qa/marker --jp` (Japanese still drawn
+  through the text routine) and `--ids` (ids seen).
 - **Done:** Phase 4 extract (2026-11-22): `tools/extract.py` -> `script/scenes/<B05|A3.2>.tsv` (170 files, 14 526
   lines + 21 choices) and `script/system/{cf,d1,d6}.tsv` (2 677 pointed strings), columns `id kind max jp en notes`,
   notation `tools/textcodec.py` (Shift-JIS plus `{rt}` `{nl}` `{name1}` `{I000}` `{&Sx0}` .., other bytes `[XX]`).

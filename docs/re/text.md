@@ -79,9 +79,30 @@ Argument counts are the digits shown; prove each with the marker build before th
   (0xD1BF50+). The dialogue backgrounds are LZ77 8bpp blocks at 0xB5BC60.. (`docs/re/graphics.md`), so no
   unknown codec is needed.
 
-## Font
-- Dialogue glyphs are drawn into BG VRAM at runtime (VRAM 0x0000.., `work/qa/ppu_dlg`). Font in ROM: 4bpp glyphs
-  in Shift-JIS order at 0xC6FB48-0xCE5748 (`docs/re/graphics.md`). The draw routine and glyph size are phase 5.
+## Font (phase 5, verified in game with the marker build)
+- Font: 16x16 4bpp glyphs (colours 0 transparent, F white, D shadow right/below), 8 per row in banks: bank table
+  0x08D7DCC0 (22 u32), bank thresholds 0x08D7A5E6 (u16 Shift-JIS codes 8140, 8240, .. 9840); index = code - low
+  byte of the bank's threshold, glyph = bank + (idx>>3)*0x400 + (idx&7)*0x40 (top 2 tiles), +0x200 (bottom 2).
+  Codes above 0x9872 (JIS level 2) are looked up in a 132-entry list at 0x08D7A47C.
+- **Per-cell routine 0x08003B84** (Thumb; 42 callers): r0 = string unit (u16, read big-endian), r1 = 0x80-byte cell
+  (4 tiles TL TR BL BR) in a RAM buffer, r2 = map entry (row stride 0x40), r3 = colour, [sp] = tile index. Lead byte
+  < 0x80: control units (`rt` returns 1, `I` icon 0x11, `w` 2, `d` 3, `x`/`y` 0x1F+n, `&` number); else the glyph is
+  copied (0x08004184) and 4 map entries written with palette 0xC000. Callers move one cell (+0x80 tile bytes, +4 map
+  bytes, +4 tile index) per unit and handle `rt` themselves; no caller checks units for anything but 0000, `rt`,
+  `wc` (the choice skip scans u16s for `wc`, 0x080401A0) and the name codes.
+- Generic printer 0x08003AA0 (12 callers; story dialogue through 0x08003B40): loops units until 0000, a new map row
+  per `rt`, units per line counted at 0x030062A4[line]; no per-line limit. Story text is copied to IWRAM
+  0x03003C48 first and drawn whole into EWRAM (tiles 0x02000020.., map 0x02003000..), then revealed left to right
+  (a shot taken early shows a cut-off line: wait ~60 frames after a box opens).
+- Log printer 0x0803F5D6: copies lines into 16-unit slots (at most 15 units a line, longer lines continue in the
+  next slot) and draws 10 lines.
+- **English: VWF hook** (`tools/vwf.py`, decision in docs/decisions.md D8). The stub at 0x08003B84 jumps to ARM code
+  at 0x08F00000 for units whose first byte is A0-DF or F0-F9 (never used by the game). Each such unit is an MTE code
+  for 1-4 characters (table built per build from all English); the hook clears the cell and ORs the characters in at
+  a pixel cursor that runs on across consecutive cells (a strip). State (16 bytes) at EWRAM 0x0203A000 (zero in 12
+  mode RAM dumps). The encoder keeps the strip's ink inside the cells handed out so far (<= 16 px x units).
+  Font: `fonts/vwf.txt` (cap 9 px, x-height 6, shadow added like the Japanese glyphs; advance = width + 2, space 4)
+  plus 【】「」『』 cropped from the game font; ~5.8 px a character, 2.6 characters a unit in running text.
 
 ## Prior work
 - An AI-assisted English patch is listed on RetroGameTalk (thread 74417) with graphics text left in Japanese.

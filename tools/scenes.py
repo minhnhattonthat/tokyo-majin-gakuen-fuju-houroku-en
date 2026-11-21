@@ -66,7 +66,7 @@ def text_end(d, j):
             return j + 1
         if b in (1, 2) and d[j + 1] == 0:
             j += 2
-        elif 0x81 <= b <= 0x9F or 0xE0 <= b <= 0xFC:
+        elif 0x81 <= b <= 0x9F or 0xA0 <= b <= 0xFC:   # Shift-JIS lead, or a VWF unit (A0-DF, F0-F9; tools/vwf.py)
             j += 2
         else:
             j += 1

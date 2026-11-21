@@ -1,0 +1,3 @@
+variant	applies_to	lines	px	last_px	units	status	evidence	notes
+dialogue	scene kind=line	3	232	218	15	measured	work/qa/w1b/story_05 f002390, f002670	text starts x=8; visible to x=239 (screen edge); row 0 = speaker tag 【Name】, rows 1-2 text; the page-wait icon covers x=229-239 on row 2 (last_px); a row of more than 15 units wraps into the next map row (corrupt)
+choice	scene kind=choice	1 per option	112		7	measured	work/qa/c1, c2, c3 f000400	fixed box x=48-192, highlight bar x=56-176, text from x=64; the box does not grow, longer options run out of it (box widening is engine work if needed)

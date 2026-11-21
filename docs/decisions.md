@@ -13,3 +13,4 @@ decision replaces one, mark the old one "replaced by D<n>" instead of deleting i
 | D5 | 2026-11-22 | Graphics text left in Japanese | none (default), list | Translate all (titles, menus, banners, cards); keep the original Japanese logo only if no official English logo exists. |
 | D6 | 2026-11-22 | Specs and plans | need approval, pre-approved | Pre-approved: keep going through checkpoints. |
 | D7 | 2026-11-22 | Existing saves | user saves, none | None provided; build the debug tool as usual. |
+| D8 | 2026-11-22 | English font path (engineering default under D4/D6, not asked) | half-width 8 px pairs (28 chars a line), the game's fullwidth Latin cropped to VWF (~27), new compact VWF font (~38) | New VWF font `fonts/vwf.txt` through a hook in the per-cell glyph routine plus MTE units (`tools/vwf.py`): the most text per line with no change to any printer loop; style matches the game (white, dark shadow, 16 px rows). |

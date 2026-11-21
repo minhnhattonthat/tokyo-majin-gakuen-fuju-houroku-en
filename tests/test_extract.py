@@ -84,20 +84,22 @@ def test_text_banks_fully_covered(orig):
 def test_build_inserts_en(orig):
     import build
     script = extract.load()
-    row = dict(script['B05.0000'], en='【男】{rt}TEST {name1}')
+    import glyphs
+    row = dict(script['B05.0000'], en='【Man】{rt}TEST start {name1}')
     script['B05.0000'] = row
     out = build.build(orig, script)
     assert out != orig
     b, _ = scenes.table(out)
     sc = next(s for s in scenes.parse_all(out) if s.addr == b[5])
     first = next(t for t in sc.toks if t.kind == 'text')
-    assert textcodec.decode(first.text) == row['en']
+    text, jp = glyphs.Decoder(out).string(first.text.hex().upper())
+    assert text == row['en'] and not jp
 
 
 def test_slot_overflow_raises(orig):
     import build
     script = extract.load()
     k = '%06X' % strslots.scan(orig)[0].addr
-    script[k] = dict(script[k], en='x' * (int(script[k]['max']) + 1))
+    script[k] = dict(script[k], en='M' * (int(script[k]['max']) + 1))   # one 'M' a unit: 2 bytes each
     with pytest.raises(ValueError):
         build.build(orig, script)

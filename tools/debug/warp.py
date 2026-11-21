@@ -61,6 +61,8 @@ def run(row, a):
         cmd += ['--mash', mash]
     for v in (row.get('vars') or '').split():
         cmd += ['--var', v]
+    for s in a.script:
+        cmd += ['--script', s if os.path.isabs(s) else os.path.join(ROOT, s)]
     if row.get('sav'):
         cmd += ['--sav', os.path.join(ROOT, row['sav'])]
     if a.states:
@@ -100,6 +102,8 @@ def main():
     ap.add_argument('--jobs', type=int, default=3)
     ap.add_argument('--timeout', type=int, default=300)
     ap.add_argument('--states', action='store_true')
+    ap.add_argument('--script', action='append', default=[], help='extra Lua probe for every run (repeatable), '
+                    'e.g. tools/debug/glyphlog.lua: its lines land in each run\'s log.txt')
     a = ap.parse_args()
     rows = load_scenes()
     if a.list:
