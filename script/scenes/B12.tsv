@@ -1,108 +1,108 @@
 id	kind	max	jp	en	notes
-B12.0000	line		【不気味な男】{rt}か、身体が！！{rt}朽ちていく！！		
-B12.0001	line		【不気味な男】{rt}あ、梓あああ！！{rt}親殺しめェッ！！		
-B12.0002	line		【不気味な女】{rt}許さない！！{rt}許さないッ！！		
-B12.0003	line		【不気味な男】{rt}ぎゃああああ！！		
-B12.0004	line		【不気味な女】{rt}がああああッ！！		
-B12.0005	line		【伊涼】{rt}《邪氣》を封印するわッ。		
-B12.0006	line		【矢村】{rt}ああ。頼むッ。		
+B12.0000	line		【不気味な男】{rt}か、身体が！！{rt}朽ちていく！！	【Eerie Man】{rt}M-my body!! It's rotting away!!	
+B12.0001	line		【不気味な男】{rt}あ、梓あああ！！{rt}親殺しめェッ！！	【Eerie Man】{rt}A-Azusaaa!! You parent-killer!!	
+B12.0002	line		【不気味な女】{rt}許さない！！{rt}許さないッ！！	【Eerie Woman】{rt}I won't forgive you!! I won't forgive{rt}you!!	
+B12.0003	line		【不気味な男】{rt}ぎゃああああ！！	【Eerie Man】{rt}Gyaaaaah!!	
+B12.0004	line		【不気味な女】{rt}がああああッ！！	【Eerie Woman】{rt}Gaaaaah!!	
+B12.0005	line		【伊涼】{rt}《邪氣》を封印するわッ。	【Isuzu】{rt}I'll seal the Miasma.	
+B12.0006	line		【矢村】{rt}ああ。頼むッ。	【Yamura】{rt}Right. Do it.	
 B12.0007	line		【伊涼】{rt}邪氣封印ッ！！	【Isuzu】{rt}Miasma, be sealed!!	
-B12.0008	line		【梓】{rt}―――！？		
-B12.0009	line		【梓】{rt}あ―――		
-B12.0010	line		【梓】{rt}ああッ！！		
-B12.0011	line		【伊涼】{rt}どうしたの？		
-B12.0012	line		【伊涼】{rt}しっかりして、梓ちゃん！！		
-B12.0013	line		【梓】{rt}ひ、引き込まれる…。		
-B12.0014	line		【梓】{rt}私の心が―――！！		
-B12.0015	line		【アカガネ】{rt}始まったか―――。		
-B12.0016	line		【アカガネ】{rt}お前たち。		
-B12.0017	line		【アカガネ】{rt}その符を、俺に渡して{rt}もらおうか。		
-B12.0018	line		【矢村】{rt}何だって！？		
-B12.0019	line		【アカガネ】{rt}梓はもう―――、		
-B12.0020	line		【アカガネ】{rt}とうに現世（うつしよ）の{rt}人間ではない。		
-B12.0021	line		【アカガネ】{rt}彼女の両親の恨みの《念》が{rt}それを晴らすためだけに		
-B12.0022	line		【アカガネ】{rt}その魂をおのがもとへ釘付けに{rt}してしまっていたのだ…。		
-B12.0023	line		【梓】{rt}く、苦しい―――！！		
-B12.0024	line		【伊涼】{rt}梓ちゃんッ！！		
-B12.0025	line		【アカガネ】{rt}苦しむ者と苦しめる者――。		
-B12.0026	line		【アカガネ】{rt}《大罪》は、梓とその両親を{rt}対として蘇らせた。		
-B12.0027	line		【アカガネ】{rt}完全に《大罪》を{rt}封じるのには、		
-B12.0028	line		【アカガネ】{rt}梓と両親の両方を{rt}封じる必要があったのだ。		
-B12.0029	line		【矢村】{rt}馬鹿なッ。		
-B12.0030	line		【矢村】{rt}悪事を働いたのは{rt}彼女の両親じゃないか！！		
-B12.0031	line		【矢村】{rt}それなのに彼女までが{rt}《罪》を被るなんて―――		
-B12.0032	line		【矢村】{rt}そんなのは、間違ってる！！		
-B12.0033	line		【アカガネ】{rt}その通りだ。		
-B12.0034	line		【アカガネ】{rt}だから、俺にその符を渡せ。		
-B12.0035	line		【アカガネ】{rt}俺が梓の両親に宿っていた		
-B12.0036	line		【アカガネ】{rt}《大罪》の片割れを{rt}この身に受け、		
-B12.0037	line		【アカガネ】{rt}再び《大罪》を{rt}ひとつに集合させるッ。		
-B12.0038	line		【伊涼】{rt}でも、それでは{rt}あなたが――！！		
-B12.0039	line		【梓】{rt}うううッ！！		
-B12.0040	line		【アカガネ】{rt}迷っている暇はないッ！！		
-B12.0041	line		【アカガネ】{rt}梓にとり憑いていた《大罪》が{rt}制御を失い、		
-B12.0042	line		【アカガネ】{rt}暴走を始めようとしている。		
-B12.0043	line		【アカガネ】{rt}このままでは梓は《大罪》に{rt}食い尽くされてしまうッ。		
-B12.0044	line		【矢村】{rt}くそッ！！		
+B12.0008	line		【梓】{rt}―――！？	【Azusa】{rt}--!?	
+B12.0009	line		【梓】{rt}あ―――	【Azusa】{rt}Ah--	
+B12.0010	line		【梓】{rt}ああッ！！	【Azusa】{rt}Aah!!	
+B12.0011	line		【伊涼】{rt}どうしたの？	【Isuzu】{rt}What's wrong?	
+B12.0012	line		【伊涼】{rt}しっかりして、梓ちゃん！！	【Isuzu】{rt}Hang in there, Azusa-chan!!	
+B12.0013	line		【梓】{rt}ひ、引き込まれる…。	【Azusa】{rt}I-I'm being pulled in...	
+B12.0014	line		【梓】{rt}私の心が―――！！	【Azusa】{rt}My heart is--!!	
+B12.0015	line		【アカガネ】{rt}始まったか―――。	【Akagane】{rt}So it's begun--	
+B12.0016	line		【アカガネ】{rt}お前たち。	【Akagane】{rt}You two.	
+B12.0017	line		【アカガネ】{rt}その符を、俺に渡して{rt}もらおうか。	【Akagane】{rt}I'll have you hand that talisman to{rt}me.	
+B12.0018	line		【矢村】{rt}何だって！？	【Yamura】{rt}What!?	
+B12.0019	line		【アカガネ】{rt}梓はもう―――、	【Akagane】{rt}Azusa is--	
+B12.0020	line		【アカガネ】{rt}とうに現世（うつしよ）の{rt}人間ではない。	【Akagane】{rt}long since no longer of the mortal{rt}world.	
+B12.0021	line		【アカガネ】{rt}彼女の両親の恨みの《念》が{rt}それを晴らすためだけに	【Akagane】{rt}Her parents' grudge, their Thought,{rt}nailed her soul to them	
+B12.0022	line		【アカガネ】{rt}その魂をおのがもとへ釘付けに{rt}してしまっていたのだ…。	【Akagane】{rt}for no other purpose than to settle{rt}it...	
+B12.0023	line		【梓】{rt}く、苦しい―――！！	【Azusa】{rt}I-it hurts--!!	
+B12.0024	line		【伊涼】{rt}梓ちゃんッ！！	【Isuzu】{rt}Azusa-chan!!	
+B12.0025	line		【アカガネ】{rt}苦しむ者と苦しめる者――。	【Akagane】{rt}One who suffers and those who make{rt}her suffer--	
+B12.0026	line		【アカガネ】{rt}《大罪》は、梓とその両親を{rt}対として蘇らせた。	【Akagane】{rt}the Great Sin revived Azusa and her{rt}parents as a pair.	
+B12.0027	line		【アカガネ】{rt}完全に《大罪》を{rt}封じるのには、	【Akagane】{rt}To seal the Great Sin completely,	
+B12.0028	line		【アカガネ】{rt}梓と両親の両方を{rt}封じる必要があったのだ。	【Akagane】{rt}both Azusa and her parents had to be{rt}sealed.	
+B12.0029	line		【矢村】{rt}馬鹿なッ。	【Yamura】{rt}That's absurd.	
+B12.0030	line		【矢村】{rt}悪事を働いたのは{rt}彼女の両親じゃないか！！	【Yamura】{rt}Her parents are the ones who did{rt}wrong!!	
+B12.0031	line		【矢村】{rt}それなのに彼女までが{rt}《罪》を被るなんて―――	【Yamura】{rt}For her to bear the Sin as well--	
+B12.0032	line		【矢村】{rt}そんなのは、間違ってる！！	【Yamura】{rt}that's just wrong!!	
+B12.0033	line		【アカガネ】{rt}その通りだ。	【Akagane】{rt}Exactly.	
+B12.0034	line		【アカガネ】{rt}だから、俺にその符を渡せ。	【Akagane】{rt}So give me that talisman.	
+B12.0035	line		【アカガネ】{rt}俺が梓の両親に宿っていた	【Akagane】{rt}What dwelt in Azusa's parents, the{rt}other half	
+B12.0036	line		【アカガネ】{rt}《大罪》の片割れを{rt}この身に受け、	【Akagane】{rt}of the Great Sin, I will take into{rt}myself,	
+B12.0037	line		【アカガネ】{rt}再び《大罪》を{rt}ひとつに集合させるッ。	【Akagane】{rt}and bring the Great Sin back together{rt}as one.	
+B12.0038	line		【伊涼】{rt}でも、それでは{rt}あなたが――！！	【Isuzu】{rt}But then you'll--!!	
+B12.0039	line		【梓】{rt}うううッ！！	【Azusa】{rt}Uuugh!!	
+B12.0040	line		【アカガネ】{rt}迷っている暇はないッ！！	【Akagane】{rt}There's no time to hesitate!!	
+B12.0041	line		【アカガネ】{rt}梓にとり憑いていた《大罪》が{rt}制御を失い、	【Akagane】{rt}The Great Sin that possessed Azusa has{rt}lost control	
+B12.0042	line		【アカガネ】{rt}暴走を始めようとしている。	【Akagane】{rt}and is about to run wild.	
+B12.0043	line		【アカガネ】{rt}このままでは梓は《大罪》に{rt}食い尽くされてしまうッ。	【Akagane】{rt}At this rate, the Great Sin will devour{rt}Azusa completely.	
+B12.0044	line		【矢村】{rt}くそッ！！	【Yamura】{rt}Damn it!!	
 B12.0045	line		【矢村】{rt}{name1}殿。	【Yamura】{rt}{name1}-dono.	
-B12.0046	line		【矢村】{rt}教えてくださいッ。		
-B12.0047	line		【矢村】{rt}俺たちは―――		
-B12.0048	line		【矢村】{rt}どうすべきなのですか！？		
-B12.0049	choice		符を渡す{rt}符を渡さない{wc}		
-B12.0050	line		【矢村】{rt}{name1}殿―――。		
-B12.0051	line		【アカガネ】{rt}{name1}とか言ったか？		
-B12.0052	line		【アカガネ】{rt}お前の判断は正しい。		
-B12.0053	line		【アカガネ】{rt}さあ、早くそれを―――。		
-B12.0054	line		【犬】{rt}ＧＡＵッ！！		
-B12.0055	line		【矢村】{rt}うッ―――！？		
-B12.0056	line		【伊涼】{rt}符を―――！？		
-B12.0057	line		【アカガネ】{rt}すまんな。		
-B12.0058	line		【アカガネ】{rt}俺は、これをやり遂げずに、		
-B12.0059	line		【アカガネ】{rt}梓を見送る訳には{rt}いかんのだ―――。		
-B12.0060	line		【アカガネ】{rt}梓に憑いている片割れは、		
-B12.0061	line		【アカガネ】{rt}ひとつに戻りたいと{rt}願っている。		
-B12.0062	line		【アカガネ】{rt}俺がこの《大罪》を解き放てば{rt}梓から抜け出るだろう。		
-B12.0063	line		【アカガネ】{rt}お前たち。後は頼んだぞ。		
-B12.0064	line		【アカガネ】{rt}俺を―――		
-B12.0065	line		【アカガネ】{rt}《大罪》を止めてくれ。		
-B12.0066	line		【アカガネ】{rt}ＧＲＯＯＮッ！！		
-B12.0067	line		【矢村】{rt}こ、これが		
-B12.0068	line		【矢村】{rt}《邪氣》を受けたアカガネ…。		
-B12.0069	line		【矢村】{rt}アカガネの正体は―――		
-B12.0070	line		【矢村】{rt}人じゃなかったのかッ！！		
-B12.0071	line		【伊涼】{rt}すごい《力》―――！！		
-B12.0072	line		【矢村】{rt}奴を止めるには―――		
-B12.0073	line		【矢村】{rt}闘うしかないのか？		
-B12.0074	line		【アカガネ】{rt}ＧＡＵＵＵＵ―――ッ！！		
-B12.0075	line		【矢村】{rt}…許せ、アカガネ―――。		
-B12.0076	line		【梓】{rt}待って！！		
+B12.0046	line		【矢村】{rt}教えてくださいッ。	【Yamura】{rt}Please, tell me.	
+B12.0047	line		【矢村】{rt}俺たちは―――	【Yamura】{rt}What--	
+B12.0048	line		【矢村】{rt}どうすべきなのですか！？	【Yamura】{rt}should we do!?	
+B12.0049	choice		符を渡す{rt}符を渡さない{wc}	Hand it over{rt}Keep it{wc}	
+B12.0050	line		【矢村】{rt}{name1}殿―――。	【Yamura】{rt}{name1}-dono--	
+B12.0051	line		【アカガネ】{rt}{name1}とか言ったか？	【Akagane】{rt}{name1}, was it?	
+B12.0052	line		【アカガネ】{rt}お前の判断は正しい。	【Akagane】{rt}Your judgement is right.	
+B12.0053	line		【アカガネ】{rt}さあ、早くそれを―――。	【Akagane】{rt}Now, quickly, give it--	
+B12.0054	line		【犬】{rt}ＧＡＵッ！！	【Dog】{rt}GRAWR!!	
+B12.0055	line		【矢村】{rt}うッ―――！？	【Yamura】{rt}Ugh--!?	
+B12.0056	line		【伊涼】{rt}符を―――！？	【Isuzu】{rt}The talisman--!?	
+B12.0057	line		【アカガネ】{rt}すまんな。	【Akagane】{rt}Forgive me.	
+B12.0058	line		【アカガネ】{rt}俺は、これをやり遂げずに、	【Akagane】{rt}Until I finish this,	
+B12.0059	line		【アカガネ】{rt}梓を見送る訳には{rt}いかんのだ―――。	【Akagane】{rt}I can't see Azusa off--	
+B12.0060	line		【アカガネ】{rt}梓に憑いている片割れは、	【Akagane】{rt}The half that possesses Azusa	
+B12.0061	line		【アカガネ】{rt}ひとつに戻りたいと{rt}願っている。	【Akagane】{rt}wishes to become one again.	
+B12.0062	line		【アカガネ】{rt}俺がこの《大罪》を解き放てば{rt}梓から抜け出るだろう。	【Akagane】{rt}If I unleash this Great Sin, it should{rt}leave Azusa.	
+B12.0063	line		【アカガネ】{rt}お前たち。後は頼んだぞ。	【Akagane】{rt}You two. I leave the rest to you.	
+B12.0064	line		【アカガネ】{rt}俺を―――	【Akagane】{rt}Stop me--	
+B12.0065	line		【アカガネ】{rt}《大罪》を止めてくれ。	【Akagane】{rt}Stop the Great Sin.	
+B12.0066	line		【アカガネ】{rt}ＧＲＯＯＮッ！！	【Akagane】{rt}GRAOOOH!!	
+B12.0067	line		【矢村】{rt}こ、これが	【Yamura】{rt}S-so this is	
+B12.0068	line		【矢村】{rt}《邪氣》を受けたアカガネ…。	【Yamura】{rt}Akagane, taken by the Miasma...	
+B12.0069	line		【矢村】{rt}アカガネの正体は―――	【Yamura】{rt}Akagane's true form--	
+B12.0070	line		【矢村】{rt}人じゃなかったのかッ！！	【Yamura】{rt}He wasn't human!!	
+B12.0071	line		【伊涼】{rt}すごい《力》―――！！	【Isuzu】{rt}What incredible Power--!!	
+B12.0072	line		【矢村】{rt}奴を止めるには―――	【Yamura】{rt}To stop him--	
+B12.0073	line		【矢村】{rt}闘うしかないのか？	【Yamura】{rt}do we have no choice but to fight?	
+B12.0074	line		【アカガネ】{rt}ＧＡＵＵＵＵ―――ッ！！	【Akagane】{rt}GRAAAAH--!!	
+B12.0075	line		【矢村】{rt}…許せ、アカガネ―――。	【Yamura】{rt}...Forgive me, Akagane--	
+B12.0076	line		【梓】{rt}待って！！	【Azusa】{rt}Wait!!	
 B12.0077	line		【矢村】{rt}―――！？	【Yamura】{rt}--!?	
-B12.0078	line		【梓】{rt}私にも…手伝わせてッ。		
-B12.0079	line		【伊涼】{rt}梓ちゃん…。		
-B12.0080	line		【梓】{rt}逃げてばかりじゃいけない…。		
-B12.0081	line		【梓】{rt}ずっと私を護っていてくれた{rt}アカガネのために		
-B12.0082	line		【梓】{rt}私もあなたたちに{rt}《力》を貸したいッ！！		
-B12.0083	line		【梓】{rt}お願いしますッ。		
-B12.0084	line		【梓】{rt}ありがとうッ。		
-B12.0085	line		【梓】{rt}氏神様。{rt}あなたの《力》なら、		
-B12.0086	line		【梓】{rt}私の《念》を{rt}操る事ができるはず。		
-B12.0087	line		【梓】{rt}私も一緒に闘いますッ。		
-B12.0088	line		【梓】{rt}はいッ。		
-B12.0089	line		【梓】{rt}氏神様。		
-B12.0090	line		【梓】{rt}微弱ながら、私の《念》、{rt}あなたに託します！！		
-B12.0091	line		【梓】{rt}アカガネを―――{rt}止めて下さい。		
-B12.0092	line		【梓】{rt}そんなッ！！		
-B12.0093	line		【伊涼】{rt}梓ちゃん…。		
-B12.0094	line		【伊涼】{rt}―――ごめん。		
-B12.0095	line		【伊涼】{rt}ここは私たちに任せてッ。		
+B12.0078	line		【梓】{rt}私にも…手伝わせてッ。	【Azusa】{rt}Let me... help too.	
+B12.0079	line		【伊涼】{rt}梓ちゃん…。	【Isuzu】{rt}Azusa-chan...	
+B12.0080	line		【梓】{rt}逃げてばかりじゃいけない…。	【Azusa】{rt}I can't keep running away...	
+B12.0081	line		【梓】{rt}ずっと私を護っていてくれた{rt}アカガネのために	【Azusa】{rt}For Akagane, who protected me all this{rt}time,	
+B12.0082	line		【梓】{rt}私もあなたたちに{rt}《力》を貸したいッ！！	【Azusa】{rt}I want to lend you my Power too!!	
+B12.0083	line		【梓】{rt}お願いしますッ。	【Azusa】{rt}Please.	
+B12.0084	line		【梓】{rt}ありがとうッ。	【Azusa】{rt}Thank you.	
+B12.0085	line		【梓】{rt}氏神様。{rt}あなたの《力》なら、	【Azusa】{rt}O Ujigami. With your Power,	
+B12.0086	line		【梓】{rt}私の《念》を{rt}操る事ができるはず。	【Azusa】{rt}you should be able to wield my{rt}Thought.	
+B12.0087	line		【梓】{rt}私も一緒に闘いますッ。	【Azusa】{rt}I'll fight with you too.	
+B12.0088	line		【梓】{rt}はいッ。	【Azusa】{rt}Yes.	
+B12.0089	line		【梓】{rt}氏神様。	【Azusa】{rt}O Ujigami.	
+B12.0090	line		【梓】{rt}微弱ながら、私の《念》、{rt}あなたに託します！！	【Azusa】{rt}Weak though it is, I entrust my{rt}Thought to you!!	
+B12.0091	line		【梓】{rt}アカガネを―――{rt}止めて下さい。	【Azusa】{rt}Please--stop Akagane.	
+B12.0092	line		【梓】{rt}そんなッ！！	【Azusa】{rt}No!!	
+B12.0093	line		【伊涼】{rt}梓ちゃん…。	【Isuzu】{rt}Azusa-chan...	
+B12.0094	line		【伊涼】{rt}―――ごめん。	【Isuzu】{rt}--Sorry.	
+B12.0095	line		【伊涼】{rt}ここは私たちに任せてッ。	【Isuzu】{rt}Leave this to us.	
 B12.0096	line		【梓】{rt}…………。	【Azusa】{rt}......	
-B12.0097	line		【矢村】{rt}…分かっているはずだ。		
-B12.0098	line		【矢村】{rt}《邪氣》は傷つき弱った心に{rt}つけ込む。		
-B12.0099	line		【矢村】{rt}きみの心はまだ闘えるほど{rt}回復していない。		
-B12.0100	line		【矢村】{rt}その決意だけ貰っておくよ。		
-B12.0101	line		【梓】{rt}…はい。		
-B12.0102	line		【アカガネ】{rt}ＧＲＯＯＮッ！！		
-B12.0103	line		【矢村】{rt}アカガネ…。		
-B12.0104	line		【矢村】{rt}絶対にお前を―――		
-B12.0105	line		【矢村】{rt}《大罪》を止めてやる。		
-B12.0106	line		【矢村】{rt}貴様の《邪氣》、{rt}祓ってやるッ！！		
+B12.0097	line		【矢村】{rt}…分かっているはずだ。	【Yamura】{rt}...You must know.	
+B12.0098	line		【矢村】{rt}《邪氣》は傷つき弱った心に{rt}つけ込む。	【Yamura】{rt}Miasma preys on hearts that are hurt{rt}and weak.	
+B12.0099	line		【矢村】{rt}きみの心はまだ闘えるほど{rt}回復していない。	【Yamura】{rt}Your heart hasn't recovered enough to{rt}fight yet.	
+B12.0100	line		【矢村】{rt}その決意だけ貰っておくよ。	【Yamura】{rt}I'll accept just your resolve.	
+B12.0101	line		【梓】{rt}…はい。	【Azusa】{rt}...Okay.	
+B12.0102	line		【アカガネ】{rt}ＧＲＯＯＮッ！！	【Akagane】{rt}GRAOOOH!!	
+B12.0103	line		【矢村】{rt}アカガネ…。	【Yamura】{rt}Akagane...	
+B12.0104	line		【矢村】{rt}絶対にお前を―――	【Yamura】{rt}We will stop you--	
+B12.0105	line		【矢村】{rt}《大罪》を止めてやる。	【Yamura】{rt}stop the Great Sin, no matter what.	
+B12.0106	line		【矢村】{rt}貴様の《邪氣》、{rt}祓ってやるッ！！	【Yamura】{rt}I'll purge your Miasma!!	

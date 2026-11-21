@@ -254,7 +254,11 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 - b043-b047 (B11, A11): 《力場》 -> Power Field (the shrine's ground that powers Akagane). 符 (the weapon) ->
   talisman. Akagane calls Isuzu/Yamura "you two"; Isuzu calls him Akagane-san. The Eerie Man/Woman (Azusa's dead
   parents) speak coarse, mocking English ("brat", "Gyahaha").
-- Rows whose JP holds two boxes (`...{rt}{rt}【X】{rt}...`, only B11.0121, A12.4.0038, A12.4.0043, A12.9.0057):
+- b048-b050 (A12, B12): 《大罪》 -> Great Sin (first in B12; pairs with 《罪》 Sin). 《喜び》 -> Joy. 現世 -> the mortal
+  world. Choice B12.0049 符を渡す/渡さない -> Hand it over / Keep it. A12 voices: Cat Girl and One-Eyed Tengu speak
+  Kansai ("ya", dropped g's, "ain't"; Cat Girl adds "nya"); the Automaton Maker's 儚い tic -> "how fleeting".
+- A12.4.0038/0043 and A12.9.0057 start `【【` (a JP typo); merge tags them normally.
+- The only row whose JP holds two boxes (`...{rt}{rt}【X】{rt}...`) is B11.0121:
   the batch check wants the repeated speaker name in the English, so put `【X】` in the body to pass, then after
   merging rewrite the en by hand as one ordinary box with no inner tag (fit counts {rt}{rt}【X】{rt} as 5 lines on
   one page; a later `merge --overwrite` of that batch undoes the fix).

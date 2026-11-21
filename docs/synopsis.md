@@ -56,3 +56,11 @@ session; translators read it before their batch.
   Azusa's spirit calls them by Ki up 340 stone steps to a ruined shrine guarded by Akagane, a huntsman with dogs who
   protects her only inside the shrine's Power Field. Her parents' vengeful ghosts (Eerie Man/Woman, "parent-killer")
   attack; Akagane, they say, also died an unjust death. Yamura's talisman stops them; battle.
+- A12.x detours: Courier (Koshu Kaido runner), Aesthete (poet: "be this world's last poet"), Baptized Maiden (doubts
+  her prayers), Little Fist (anger), Cat Girl (dreamed of someone like the player), Cursed Blade Wielder (killing and
+  a person's "place"), Kunoichi (stalker "confession", then says it was a lie), One-Eyed Tengu (only happiness),
+  Foxfire Courtesan (love turning to jealousy, "the heart turns oni"), Automaton Maker (the pain and joy of making).
+- B12: the parents' ghosts rot away. Akagane explains Azusa is long dead; the Great Sin revived her and her parents
+  as a pair, so sealing it means sealing her too. Choice: hand Akagane the talisman or not; he takes it (his dog
+  snatches it), absorbs the parents' half of the Great Sin to draw out Azusa's half, and turns into a beast (he was
+  never human). Azusa offers her Thought to the Ujigami; Isuzu and Yamura tell her she's too weak; battle.
