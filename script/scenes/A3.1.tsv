@@ -1,56 +1,56 @@
 id	kind	max	jp	en	notes
-A3.1.0000	line		【槍使い】{rt}ダチってよ。		
-A3.1.0001	line		【槍使い】{rt}…友達ってよ、		
-A3.1.0002	line		【槍使い】{rt}どれくらいで、{rt}出来るモンなンだ？		
-A3.1.0003	line		【槍使い】{rt}小学校の時、{rt}初めて後ろに座ったヤツ、		
-A3.1.0004	line		【槍使い】{rt}アイツはいつ、友達に―――		
-A3.1.0005	line		【槍使い】{rt}なったンだろう？		
-A3.1.0006	line		【槍使い】{rt}……		
-A3.1.0007	line		【槍使い】{rt}ンでさ、どれくらいで、{rt}友達じゃなくなる？		
-A3.1.0008	line		【槍使い】{rt}ドコから友達じゃなくなる{rt}ンだ？		
-A3.1.0009	line		【槍使い】{rt}……		
-A3.1.0010	line		【槍使い】{rt}ダチとキレるってのは、{rt}イヤなモンだぜ。		
-A3.1.0011	line		【槍使い】{rt}……		
-A3.1.0012	line		【槍使い】{rt}アンタ、友達いねェだろ？		
-A3.1.0013	line		【槍使い】{rt}ああ、そうだ。		
-A3.1.0014	line		【槍使い】{rt}どンなに短い間でも、		
-A3.1.0015	line		【槍使い】{rt}どンなに微かなつながりでも、		
-A3.1.0016	line		【槍使い】{rt}一度、つながった線を{rt}キルっての、		
-A3.1.0017	line		【槍使い】{rt}コイツは、悲しいモンだ。		
-A3.1.0018	line		【槍使い】{rt}悲しくて…		
-A3.1.0019	line		【槍使い】{rt}辛くて…		
-A3.1.0020	line		【槍使い】{rt}でも、やらなきゃならねェ。		
-A3.1.0021	line		【槍使い】{rt}イヤなもンだ。		
-A3.1.0022	line		【槍使い】{rt}キらなくてもイイ解決方か。		
-A3.1.0023	line		【槍使い】{rt}…ちっと前のオレが、		
-A3.1.0024	line		【槍使い】{rt}アンタみたいに、{rt}考えられたらなァ。		
-A3.1.0025	line		【槍使い】{rt}ありがとよ。		
-A3.1.0026	line		【槍使い】{rt}でも、		
-A3.1.0027	line		【槍使い】{rt}オレは自分が正しいとは、{rt}思ってねぇ。		
-A3.1.0028	line		【槍使い】{rt}だから、気ィ使わなくて、{rt}イインだぜ。		
-A3.1.0029	line		【槍使い】{rt}ああ、そうだ。		
-A3.1.0030	line		【槍使い】{rt}どンなに短い間でも、		
-A3.1.0031	line		【槍使い】{rt}どンなに微かなつながりでも、		
-A3.1.0032	line		【槍使い】{rt}一度、つながった線を{rt}キルっての、		
-A3.1.0033	line		【槍使い】{rt}コイツは、悲しいモンだ。		
-A3.1.0034	line		【槍使い】{rt}悲しくて…		
-A3.1.0035	line		【槍使い】{rt}辛くて…		
-A3.1.0036	line		【槍使い】{rt}でも、ダチだからな。		
-A3.1.0037	line		【槍使い】{rt}でも、やらなきゃならねェ。		
-A3.1.0038	line		【槍使い】{rt}そうだな。		
-A3.1.0039	line		【槍使い】{rt}ダチ、…だからな。		
-A3.1.0040	line		【槍使い】{rt}やらなきゃなンねェ。		
-A3.1.0041	line		【槍使い】{rt}……		
-A3.1.0042	line		【槍使い】{rt}オレは…		
-A3.1.0043	line		【槍使い】{rt}オレは、アンタみたいには――		
-A3.1.0044	line		【槍使い】{rt}考えられねェ。		
-A3.1.0045	line		【槍使い】{rt}甘ッちょろいかい？		
-A3.1.0046	line		【槍使い】{rt}だがな、		
-A3.1.0047	line		【槍使い】{rt}オレは…		
-A3.1.0048	line		【槍使い】{rt}オレは、アンタみたいには――		
-A3.1.0049	line		【槍使い】{rt}考えられねェ。		
-A3.1.0050	line		【槍使い】{rt}甘ッちょろいかい？		
-A3.1.0051	line		【槍使い】{rt}だがな、		
-A3.1.0052	line		【槍使い】{rt}オレは…		
-A3.1.0053	line		【槍使い】{rt}オレは、アンタみたいには――		
-A3.1.0054	line		【槍使い】{rt}考えられねェ。		
+A3.1.0000	line		【槍使い】{rt}ダチってよ。	【Spear Wielder】{rt}Buddies, y'know.	
+A3.1.0001	line		【槍使い】{rt}…友達ってよ、	【Spear Wielder】{rt}...Friends, I mean,	
+A3.1.0002	line		【槍使い】{rt}どれくらいで、{rt}出来るモンなンだ？	【Spear Wielder】{rt}how long's it take to make one?	
+A3.1.0003	line		【槍使い】{rt}小学校の時、{rt}初めて後ろに座ったヤツ、	【Spear Wielder】{rt}The guy who first sat behind me in{rt}grade school,	
+A3.1.0004	line		【槍使い】{rt}アイツはいつ、友達に―――	【Spear Wielder】{rt}when'd he become--	
+A3.1.0005	line		【槍使い】{rt}なったンだろう？	【Spear Wielder】{rt}my friend, I wonder?	
+A3.1.0006	line		【槍使い】{rt}……	【Spear Wielder】{rt}......	
+A3.1.0007	line		【槍使い】{rt}ンでさ、どれくらいで、{rt}友達じゃなくなる？	【Spear Wielder】{rt}And then, how long's it take to stop{rt}bein' friends?	
+A3.1.0008	line		【槍使い】{rt}ドコから友達じゃなくなる{rt}ンだ？	【Spear Wielder】{rt}Where's the point you stop bein'{rt}friends?	
+A3.1.0009	line		【槍使い】{rt}……	【Spear Wielder】{rt}......	
+A3.1.0010	line		【槍使い】{rt}ダチとキレるってのは、{rt}イヤなモンだぜ。	【Spear Wielder】{rt}Fallin' out with a buddy is a lousy{rt}thing.	
+A3.1.0011	line		【槍使い】{rt}……	【Spear Wielder】{rt}......	
+A3.1.0012	line		【槍使い】{rt}アンタ、友達いねェだろ？	【Spear Wielder】{rt}You ain't got any friends, have ya?	
+A3.1.0013	line		【槍使い】{rt}ああ、そうだ。	【Spear Wielder】{rt}Yeah, that's right.	
+A3.1.0014	line		【槍使い】{rt}どンなに短い間でも、	【Spear Wielder】{rt}No matter how short it was,	
+A3.1.0015	line		【槍使い】{rt}どンなに微かなつながりでも、	【Spear Wielder】{rt}no matter how faint the bond,	
+A3.1.0016	line		【槍使い】{rt}一度、つながった線を{rt}キルっての、	【Spear Wielder】{rt}cuttin' a line that's been tied once,	
+A3.1.0017	line		【槍使い】{rt}コイツは、悲しいモンだ。	【Spear Wielder】{rt}that's a sad thing.	
+A3.1.0018	line		【槍使い】{rt}悲しくて…	【Spear Wielder】{rt}It's sad...	
+A3.1.0019	line		【槍使い】{rt}辛くて…	【Spear Wielder】{rt}it hurts...	
+A3.1.0020	line		【槍使い】{rt}でも、やらなきゃならねェ。	【Spear Wielder】{rt}but ya gotta do it.	
+A3.1.0021	line		【槍使い】{rt}イヤなもンだ。	【Spear Wielder】{rt}Lousy thing.	
+A3.1.0022	line		【槍使い】{rt}キらなくてもイイ解決方か。	【Spear Wielder】{rt}A way to settle it without cuttin' ties,{rt}huh.	
+A3.1.0023	line		【槍使い】{rt}…ちっと前のオレが、	【Spear Wielder】{rt}...If only the me from a little while{rt}back	
+A3.1.0024	line		【槍使い】{rt}アンタみたいに、{rt}考えられたらなァ。	【Spear Wielder】{rt}coulda thought like you.	
+A3.1.0025	line		【槍使い】{rt}ありがとよ。	【Spear Wielder】{rt}Thanks.	
+A3.1.0026	line		【槍使い】{rt}でも、	【Spear Wielder】{rt}But,	
+A3.1.0027	line		【槍使い】{rt}オレは自分が正しいとは、{rt}思ってねぇ。	【Spear Wielder】{rt}I don't think I'm in the right.	
+A3.1.0028	line		【槍使い】{rt}だから、気ィ使わなくて、{rt}イインだぜ。	【Spear Wielder】{rt}So ya don't gotta tiptoe around me.	
+A3.1.0029	line		【槍使い】{rt}ああ、そうだ。	【Spear Wielder】{rt}Yeah, that's right.	
+A3.1.0030	line		【槍使い】{rt}どンなに短い間でも、	【Spear Wielder】{rt}No matter how short it was,	
+A3.1.0031	line		【槍使い】{rt}どンなに微かなつながりでも、	【Spear Wielder】{rt}no matter how faint the bond,	
+A3.1.0032	line		【槍使い】{rt}一度、つながった線を{rt}キルっての、	【Spear Wielder】{rt}cuttin' a line that's been tied once,	
+A3.1.0033	line		【槍使い】{rt}コイツは、悲しいモンだ。	【Spear Wielder】{rt}that's a sad thing.	
+A3.1.0034	line		【槍使い】{rt}悲しくて…	【Spear Wielder】{rt}It's sad...	
+A3.1.0035	line		【槍使い】{rt}辛くて…	【Spear Wielder】{rt}it hurts...	
+A3.1.0036	line		【槍使い】{rt}でも、ダチだからな。	【Spear Wielder】{rt}But he's my buddy.	
+A3.1.0037	line		【槍使い】{rt}でも、やらなきゃならねェ。	【Spear Wielder】{rt}but ya gotta do it.	
+A3.1.0038	line		【槍使い】{rt}そうだな。	【Spear Wielder】{rt}Yeah.	
+A3.1.0039	line		【槍使い】{rt}ダチ、…だからな。	【Spear Wielder】{rt}'Cause he's... my buddy.	
+A3.1.0040	line		【槍使い】{rt}やらなきゃなンねェ。	【Spear Wielder】{rt}I gotta do it.	
+A3.1.0041	line		【槍使い】{rt}……	【Spear Wielder】{rt}......	
+A3.1.0042	line		【槍使い】{rt}オレは…	【Spear Wielder】{rt}I...	
+A3.1.0043	line		【槍使い】{rt}オレは、アンタみたいには――	【Spear Wielder】{rt}I can't think--	
+A3.1.0044	line		【槍使い】{rt}考えられねェ。	【Spear Wielder】{rt}like you do.	
+A3.1.0045	line		【槍使い】{rt}甘ッちょろいかい？	【Spear Wielder】{rt}Too soft, ya think?	
+A3.1.0046	line		【槍使い】{rt}だがな、	【Spear Wielder】{rt}But y'know,	
+A3.1.0047	line		【槍使い】{rt}オレは…	【Spear Wielder】{rt}I...	
+A3.1.0048	line		【槍使い】{rt}オレは、アンタみたいには――	【Spear Wielder】{rt}I can't think--	
+A3.1.0049	line		【槍使い】{rt}考えられねェ。	【Spear Wielder】{rt}like you do.	
+A3.1.0050	line		【槍使い】{rt}甘ッちょろいかい？	【Spear Wielder】{rt}Too soft, ya think?	
+A3.1.0051	line		【槍使い】{rt}だがな、	【Spear Wielder】{rt}But y'know,	
+A3.1.0052	line		【槍使い】{rt}オレは…	【Spear Wielder】{rt}I...	
+A3.1.0053	line		【槍使い】{rt}オレは、アンタみたいには――	【Spear Wielder】{rt}I can't think--	
+A3.1.0054	line		【槍使い】{rt}考えられねェ。	【Spear Wielder】{rt}like you do.	

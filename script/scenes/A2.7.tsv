@@ -1,49 +1,49 @@
 id	kind	max	jp	en	notes
-A2.7.0000	line		【符術士】{rt}アンタの前に、自分の大切な{rt}人、物、場所…		
-A2.7.0001	line		【符術士】{rt}そういうモンをみんなみんな、{rt}壊しよった憎い奴がおる。		
-A2.7.0002	line		【符術士】{rt}アンタは、ずっとソイツを{rt}追って		
-A2.7.0003	line		【符術士】{rt}ここまで旅をしてきはった。		
-A2.7.0004	line		【符術士】{rt}アンタはどうするつもりや？		
-A2.7.0005	line		【符術士】{rt}その、憎い敵を…？		
-A2.7.0006	line		【符術士】{rt}なッ…！？		
-A2.7.0007	line		【符術士】{rt}そのまま見逃すいうんかいッ！		
-A2.7.0008	line		【符術士】{rt}ワイには…理解でけへんわ！		
-A2.7.0009	line		【符術士】{rt}あんさん、何考えとんねんッ！		
-A2.7.0010	line		【符術士】{rt}敵やぞ！？全てを奪った		
-A2.7.0011	line		【符術士】{rt}いくら憎んでも憎み足りん、		
-A2.7.0012	line		【符術士】{rt}そういうヤツなんやで！？		
-A2.7.0013	line		【符術士】{rt}何でそないな事{rt}言えるんやッ！？		
-A2.7.0014	line		【符術士】{rt}ワイには…理解でけへんッ！		
-A2.7.0015	line		【符術士】{rt}何で悩むんや！？{rt}ソイツは敵やで！		
-A2.7.0016	line		【符術士】{rt}いくら憎んでも憎み足りん、		
-A2.7.0017	line		【符術士】{rt}そういうヤツなんやで！？		
-A2.7.0018	line		【符術士】{rt}……。		
-A2.7.0019	line		【符術士】{rt}そうやろな。		
-A2.7.0020	line		【符術士】{rt}ずっとずっと探し続けた、		
-A2.7.0021	line		【符術士】{rt}憎い敵なんやからな。		
-A2.7.0022	line		【符術士】{rt}ワイは、{rt}あんさんの意見に賛成や。		
-A2.7.0023	line		【符術士】{rt}とッ…友になるやて！？		
-A2.7.0024	line		【符術士】{rt}あんさん、何考えとんねんッ！		
-A2.7.0025	line		【符術士】{rt}敵やぞ！？全てを奪った		
-A2.7.0026	line		【符術士】{rt}いくら憎んでも憎み足りん、		
-A2.7.0027	line		【符術士】{rt}そういうヤツなんやで！？		
-A2.7.0028	line		【符術士】{rt}何でそないな事{rt}言えるんやッ！？		
-A2.7.0029	line		【符術士】{rt}ワイには…理解でけへんッ！		
-A2.7.0030	line		【符術士】{rt}…せやな。		
-A2.7.0031	line		【符術士】{rt}とりあえず名乗りを上げる。		
-A2.7.0032	line		【符術士】{rt}ほんでもって、勝負を…		
-A2.7.0033	line		【符術士】{rt}…ッて、		
-A2.7.0034	line		【符術士】{rt}ワイが答えてどないすんねん！		
-A2.7.0035	line		【符術士】{rt}あんさんに聞いとるんや、{rt}あんさんにッ！		
-A2.7.0036	line		【符術士】{rt}…まったく、本場顔負けの{rt}大ボケかましてくれよるわ。		
-A2.7.0037	line		【符術士】{rt}おいおいッ！		
-A2.7.0038	line		【符術士】{rt}今から泣いてどないすんねん！		
-A2.7.0039	line		【符術士】{rt}そんなんじゃ、{rt}先が思いやられるで！		
-A2.7.0040	line		【符術士】{rt}まず、冷静になる…か。		
-A2.7.0041	line		【符術士】{rt}せやな。闘いッちゅうモンは、{rt}冷静さを失った方が負けや。		
-A2.7.0042	line		【符術士】{rt}あんさん、ええスジしとるわ。		
-A2.7.0043	line		【符術士】{rt}ま、怒るのは当然やな。		
-A2.7.0044	line		【符術士】{rt}せやけど、怒りに身をまかせて{rt}状況を見る目…つまり、		
-A2.7.0045	line		【符術士】{rt}冷静さを失くしてしもうたら、{rt}絶対に相手には勝たれへん。		
-A2.7.0046	line		【符術士】{rt}短気は、己の寿命を{rt}縮めるもんや。		
-A2.7.0047	line		【符術士】{rt}くれぐれも気ィつけや！		
+A2.7.0000	line		【符術士】{rt}アンタの前に、自分の大切な{rt}人、物、場所…	【Talisman Sorcerer】{rt}In front of ya is the hateful guy who{rt}wrecked	
+A2.7.0001	line		【符術士】{rt}そういうモンをみんなみんな、{rt}壊しよった憎い奴がおる。	【Talisman Sorcerer】{rt}everythin' ya cared about: people,{rt}things, places, all of it.	
+A2.7.0002	line		【符術士】{rt}アンタは、ずっとソイツを{rt}追って	【Talisman Sorcerer】{rt}You've been chasin' him all this time,	
+A2.7.0003	line		【符術士】{rt}ここまで旅をしてきはった。	【Talisman Sorcerer】{rt}travellin' all the way here.	
+A2.7.0004	line		【符術士】{rt}アンタはどうするつもりや？	【Talisman Sorcerer】{rt}So what're ya gonna do?	
+A2.7.0005	line		【符術士】{rt}その、憎い敵を…？	【Talisman Sorcerer】{rt}With that hateful enemy...?	
+A2.7.0006	line		【符術士】{rt}なッ…！？	【Talisman Sorcerer】{rt}Wha...!?	
+A2.7.0007	line		【符術士】{rt}そのまま見逃すいうんかいッ！	【Talisman Sorcerer】{rt}You're sayin' you'll just let him go!?	
+A2.7.0008	line		【符術士】{rt}ワイには…理解でけへんわ！	【Talisman Sorcerer】{rt}I... I just don't get it!	
+A2.7.0009	line		【符術士】{rt}あんさん、何考えとんねんッ！	【Talisman Sorcerer】{rt}What're ya thinkin', pal!?	
+A2.7.0010	line		【符術士】{rt}敵やぞ！？全てを奪った	【Talisman Sorcerer】{rt}He's your enemy, ain't he!? He took{rt}everythin'!	
+A2.7.0011	line		【符術士】{rt}いくら憎んでも憎み足りん、	【Talisman Sorcerer】{rt}No matter how much ya hate him, it{rt}ain't enough,	
+A2.7.0012	line		【符術士】{rt}そういうヤツなんやで！？	【Talisman Sorcerer】{rt}that's the kinda guy he is, y'know!?	
+A2.7.0013	line		【符術士】{rt}何でそないな事{rt}言えるんやッ！？	【Talisman Sorcerer】{rt}How can ya say somethin' like that!?	
+A2.7.0014	line		【符術士】{rt}ワイには…理解でけへんッ！	【Talisman Sorcerer】{rt}I... I just don't get it!	
+A2.7.0015	line		【符術士】{rt}何で悩むんや！？{rt}ソイツは敵やで！	【Talisman Sorcerer】{rt}What's there to think about!? He's your{rt}enemy!	
+A2.7.0016	line		【符術士】{rt}いくら憎んでも憎み足りん、	【Talisman Sorcerer】{rt}No matter how much ya hate him, it{rt}ain't enough,	
+A2.7.0017	line		【符術士】{rt}そういうヤツなんやで！？	【Talisman Sorcerer】{rt}that's the kinda guy he is, y'know!?	
+A2.7.0018	line		【符術士】{rt}……。	【Talisman Sorcerer】{rt}.......	
+A2.7.0019	line		【符術士】{rt}そうやろな。	【Talisman Sorcerer】{rt}Figures.	
+A2.7.0020	line		【符術士】{rt}ずっとずっと探し続けた、	【Talisman Sorcerer】{rt}He's the hateful enemy	
+A2.7.0021	line		【符術士】{rt}憎い敵なんやからな。	【Talisman Sorcerer】{rt}ya've been searchin' for all this time.	
+A2.7.0022	line		【符術士】{rt}ワイは、{rt}あんさんの意見に賛成や。	【Talisman Sorcerer】{rt}I'm with ya on that one.	
+A2.7.0023	line		【符術士】{rt}とッ…友になるやて！？	【Talisman Sorcerer】{rt}B-become FRIENDS with him!?	
+A2.7.0024	line		【符術士】{rt}あんさん、何考えとんねんッ！	【Talisman Sorcerer】{rt}What're ya thinkin', pal!?	
+A2.7.0025	line		【符術士】{rt}敵やぞ！？全てを奪った	【Talisman Sorcerer】{rt}He's your enemy, ain't he!? He took{rt}everythin'!	
+A2.7.0026	line		【符術士】{rt}いくら憎んでも憎み足りん、	【Talisman Sorcerer】{rt}No matter how much ya hate him, it{rt}ain't enough,	
+A2.7.0027	line		【符術士】{rt}そういうヤツなんやで！？	【Talisman Sorcerer】{rt}that's the kinda guy he is, y'know!?	
+A2.7.0028	line		【符術士】{rt}何でそないな事{rt}言えるんやッ！？	【Talisman Sorcerer】{rt}How can ya say somethin' like that!?	
+A2.7.0029	line		【符術士】{rt}ワイには…理解でけへんッ！	【Talisman Sorcerer】{rt}I... I just don't get it!	
+A2.7.0030	line		【符術士】{rt}…せやな。	【Talisman Sorcerer】{rt}...Right.	
+A2.7.0031	line		【符術士】{rt}とりあえず名乗りを上げる。	【Talisman Sorcerer】{rt}First off, ya announce yerself.	
+A2.7.0032	line		【符術士】{rt}ほんでもって、勝負を…	【Talisman Sorcerer】{rt}And then, ya challenge him to...	
+A2.7.0033	line		【符術士】{rt}…ッて、	【Talisman Sorcerer】{rt}...Hey,	
+A2.7.0034	line		【符術士】{rt}ワイが答えてどないすんねん！	【Talisman Sorcerer】{rt}why am I the one answerin'!?	
+A2.7.0035	line		【符術士】{rt}あんさんに聞いとるんや、{rt}あんさんにッ！	【Talisman Sorcerer】{rt}I'm askin' YOU, pal, YOU!	
+A2.7.0036	line		【符術士】{rt}…まったく、本場顔負けの{rt}大ボケかましてくれよるわ。	【Talisman Sorcerer】{rt}...Jeez, that's a gag that'd put the{rt}Osaka pros to shame.	
+A2.7.0037	line		【符術士】{rt}おいおいッ！	【Talisman Sorcerer】{rt}Hey, hey!	
+A2.7.0038	line		【符術士】{rt}今から泣いてどないすんねん！	【Talisman Sorcerer】{rt}What're ya cryin' for already!?	
+A2.7.0039	line		【符術士】{rt}そんなんじゃ、{rt}先が思いやられるで！	【Talisman Sorcerer】{rt}Like that, I worry what's gonna become{rt}of ya!	
+A2.7.0040	line		【符術士】{rt}まず、冷静になる…か。	【Talisman Sorcerer】{rt}First, stay calm... huh.	
+A2.7.0041	line		【符術士】{rt}せやな。闘いッちゅうモンは、{rt}冷静さを失った方が負けや。	【Talisman Sorcerer】{rt}Right. In a fight, whoever loses their{rt}cool loses.	
+A2.7.0042	line		【符術士】{rt}あんさん、ええスジしとるわ。	【Talisman Sorcerer】{rt}You've got a real knack, pal.	
+A2.7.0043	line		【符術士】{rt}ま、怒るのは当然やな。	【Talisman Sorcerer】{rt}Well, gettin' angry's only natural.	
+A2.7.0044	line		【符術士】{rt}せやけど、怒りに身をまかせて{rt}状況を見る目…つまり、	【Talisman Sorcerer】{rt}But if ya give in to anger and lose your{rt}eye for the situation, I mean,	
+A2.7.0045	line		【符術士】{rt}冷静さを失くしてしもうたら、{rt}絶対に相手には勝たれへん。	【Talisman Sorcerer】{rt}if ya lose your cool, ya'll never beat{rt}him.	
+A2.7.0046	line		【符術士】{rt}短気は、己の寿命を{rt}縮めるもんや。	【Talisman Sorcerer】{rt}A short temper shortens your own{rt}life.	
+A2.7.0047	line		【符術士】{rt}くれぐれも気ィつけや！	【Talisman Sorcerer】{rt}So you be real careful!	

@@ -1,43 +1,43 @@
 id	kind	max	jp	en	notes
-A3.0.0000	line		【弓使い】{rt}ボクんち、{rt}すっごい大家族でさ。		
-A3.0.0001	line		【弓使い】{rt}何するにも早い物{rt}勝ちなんだよッ。		
-A3.0.0002	line		【弓使い】{rt}ご飯のオカズも、{rt}３時のオヤツも		
-A3.0.0003	line		【弓使い】{rt}全―――部！{rt}食べた者勝ち！		
-A3.0.0004	line		【弓使い】{rt}ちょっと油断すると{rt}もう空っぽ！		
-A3.0.0005	line		【弓使い】{rt}あーあ、たまには{rt}みんなでゆっくり		
-A3.0.0006	line		【弓使い】{rt}ゴハン食べてみたいなァ。		
-A3.0.0007	line		【弓使い】{rt}キミも、{rt}そんな風に思う時、ある？		
-A3.0.0008	line		【弓使い】{rt}なんだよッ！		
-A3.0.0009	line		【弓使い】{rt}無視するコトないだろッ！？		
-A3.0.0010	line		【弓使い】{rt}エヘヘ。そうだよねッ。		
-A3.0.0011	line		【弓使い】{rt}競争なんかしないで、		
-A3.0.0012	line		【弓使い】{rt}みんなでのんびりおしゃべり{rt}とかしながらさッ。		
-A3.0.0013	line		【弓使い】{rt}そうすれば、ゴハンももっと{rt}美味しくなるッ。		
-A3.0.0014	line		【弓使い】{rt}……って思うんだよね。		
-A3.0.0015	line		【弓使い】{rt}ふーん。キミって競争好き{rt}なんだ。		
-A3.0.0016	line		【弓使い】{rt}でも、{rt}それも少しわかるなァ。		
-A3.0.0017	line		【弓使い】{rt}だって、{rt}一人で寂しく食べるより、		
-A3.0.0018	line		【弓使い】{rt}みんなで食べた方が{rt}楽しいもんッ。		
-A3.0.0019	line		【弓使い】{rt}でしょッ！？		
-A3.0.0020	line		【弓使い】{rt}みんなでのんびりおしゃべり{rt}なんかしながらさッ。		
-A3.0.0021	line		【弓使い】{rt}そうすれば、ゴハンももっと{rt}美味しくなるッ。		
-A3.0.0022	line		【弓使い】{rt}……って思うんだよね。		
-A3.0.0023	line		【弓使い】{rt}でしょッ！？		
-A3.0.0024	line		【弓使い】{rt}みんなでのんびりおしゃべり{rt}なんかしながらさッ。		
-A3.0.0025	line		【弓使い】{rt}そうすれば、ゴハンももっと{rt}美味しくなるッ。		
-A3.0.0026	line		【弓使い】{rt}……って思うんだよね。		
-A3.0.0027	line		【弓使い】{rt}でしょッ！？		
-A3.0.0028	line		【弓使い】{rt}みんなでのんびりおしゃべり{rt}なんかしながらさッ。		
-A3.0.0029	line		【弓使い】{rt}そうすれば、ゴハンももっと{rt}美味しくなるッ。		
-A3.0.0030	line		【弓使い】{rt}……って思うんだよね。		
-A3.0.0031	line		【弓使い】{rt}ど、どうしたの？		
-A3.0.0032	line		【弓使い】{rt}ボク、何かキミを悲しませる{rt}ような事、言ったの？		
-A3.0.0033	line		【弓使い】{rt}…ごめん。		
-A3.0.0034	line		【弓使い】{rt}何だよ、		
-A3.0.0035	line		【弓使い】{rt}そんな言い方ないだろッ！		
-A3.0.0036	line		【弓使い】{rt}そりゃ、ボクだってさ…。		
-A3.0.0037	line		【弓使い】{rt}……。		
-A3.0.0038	line		【弓使い】{rt}何だよ、		
-A3.0.0039	line		【弓使い】{rt}そんな言い方ないだろッ！		
-A3.0.0040	line		【弓使い】{rt}そりゃ、ボクだってさ…。		
-A3.0.0041	line		【弓使い】{rt}……。		
+A3.0.0000	line		【弓使い】{rt}ボクんち、{rt}すっごい大家族でさ。	【Archer】{rt}My family's super huge, see.	
+A3.0.0001	line		【弓使い】{rt}何するにも早い物{rt}勝ちなんだよッ。	【Archer】{rt}Whatever you do, it's first come, first{rt}served!	
+A3.0.0002	line		【弓使い】{rt}ご飯のオカズも、{rt}３時のオヤツも	【Archer】{rt}The side dishes at dinner, the{rt}afternoon snacks,	
+A3.0.0003	line		【弓使い】{rt}全―――部！{rt}食べた者勝ち！	【Archer】{rt}ALL of it! Whoever eats it first wins!	
+A3.0.0004	line		【弓使い】{rt}ちょっと油断すると{rt}もう空っぽ！	【Archer】{rt}Let your guard down for a second and{rt}it's all gone!	
+A3.0.0005	line		【弓使い】{rt}あーあ、たまには{rt}みんなでゆっくり	【Archer】{rt}Ahh, just once I'd like to have	
+A3.0.0006	line		【弓使い】{rt}ゴハン食べてみたいなァ。	【Archer】{rt}a nice, slow meal with everybody.	
+A3.0.0007	line		【弓使い】{rt}キミも、{rt}そんな風に思う時、ある？	【Archer】{rt}Do you ever feel like that too?	
+A3.0.0008	line		【弓使い】{rt}なんだよッ！	【Archer】{rt}What the heck!	
+A3.0.0009	line		【弓使い】{rt}無視するコトないだろッ！？	【Archer】{rt}You don't have to ignore me!?	
+A3.0.0010	line		【弓使い】{rt}エヘヘ。そうだよねッ。	【Archer】{rt}Ehehe. Right?	
+A3.0.0011	line		【弓使い】{rt}競争なんかしないで、	【Archer】{rt}No racing each other,	
+A3.0.0012	line		【弓使い】{rt}みんなでのんびりおしゃべり{rt}とかしながらさッ。	【Archer】{rt}just everybody chatting and taking it{rt}easy.	
+A3.0.0013	line		【弓使い】{rt}そうすれば、ゴハンももっと{rt}美味しくなるッ。	【Archer】{rt}Then the food would taste even{rt}better.	
+A3.0.0014	line		【弓使い】{rt}……って思うんだよね。	【Archer】{rt}......That's what I think, anyway.	
+A3.0.0015	line		【弓使い】{rt}ふーん。キミって競争好き{rt}なんだ。	【Archer】{rt}Huh. So you like competing.	
+A3.0.0016	line		【弓使い】{rt}でも、{rt}それも少しわかるなァ。	【Archer】{rt}But I kinda get that too.	
+A3.0.0017	line		【弓使い】{rt}だって、{rt}一人で寂しく食べるより、	【Archer】{rt}'Cause eating with everybody is more{rt}fun	
+A3.0.0018	line		【弓使い】{rt}みんなで食べた方が{rt}楽しいもんッ。	【Archer】{rt}than eating all lonely by yourself!	
+A3.0.0019	line		【弓使い】{rt}でしょッ！？	【Archer】{rt}Right!?	
+A3.0.0020	line		【弓使い】{rt}みんなでのんびりおしゃべり{rt}なんかしながらさッ。	【Archer】{rt}Everybody chatting and taking it{rt}easy.	
+A3.0.0021	line		【弓使い】{rt}そうすれば、ゴハンももっと{rt}美味しくなるッ。	【Archer】{rt}Then the food would taste even{rt}better.	
+A3.0.0022	line		【弓使い】{rt}……って思うんだよね。	【Archer】{rt}......That's what I think, anyway.	
+A3.0.0023	line		【弓使い】{rt}でしょッ！？	【Archer】{rt}Right!?	
+A3.0.0024	line		【弓使い】{rt}みんなでのんびりおしゃべり{rt}なんかしながらさッ。	【Archer】{rt}Everybody chatting and taking it{rt}easy.	
+A3.0.0025	line		【弓使い】{rt}そうすれば、ゴハンももっと{rt}美味しくなるッ。	【Archer】{rt}Then the food would taste even{rt}better.	
+A3.0.0026	line		【弓使い】{rt}……って思うんだよね。	【Archer】{rt}......That's what I think, anyway.	
+A3.0.0027	line		【弓使い】{rt}でしょッ！？	【Archer】{rt}Right!?	
+A3.0.0028	line		【弓使い】{rt}みんなでのんびりおしゃべり{rt}なんかしながらさッ。	【Archer】{rt}Everybody chatting and taking it{rt}easy.	
+A3.0.0029	line		【弓使い】{rt}そうすれば、ゴハンももっと{rt}美味しくなるッ。	【Archer】{rt}Then the food would taste even{rt}better.	
+A3.0.0030	line		【弓使い】{rt}……って思うんだよね。	【Archer】{rt}......That's what I think, anyway.	
+A3.0.0031	line		【弓使い】{rt}ど、どうしたの？	【Archer】{rt}Wh-what's wrong?	
+A3.0.0032	line		【弓使い】{rt}ボク、何かキミを悲しませる{rt}ような事、言ったの？	【Archer】{rt}Did I say something that made you{rt}sad?	
+A3.0.0033	line		【弓使い】{rt}…ごめん。	【Archer】{rt}...Sorry.	
+A3.0.0034	line		【弓使い】{rt}何だよ、	【Archer】{rt}Hey,	
+A3.0.0035	line		【弓使い】{rt}そんな言い方ないだろッ！	【Archer】{rt}you don't have to put it like that!	
+A3.0.0036	line		【弓使い】{rt}そりゃ、ボクだってさ…。	【Archer】{rt}I mean, even I...	
+A3.0.0037	line		【弓使い】{rt}……。	【Archer】{rt}.......	
+A3.0.0038	line		【弓使い】{rt}何だよ、	【Archer】{rt}Hey,	
+A3.0.0039	line		【弓使い】{rt}そんな言い方ないだろッ！	【Archer】{rt}you don't have to put it like that!	
+A3.0.0040	line		【弓使い】{rt}そりゃ、ボクだってさ…。	【Archer】{rt}I mean, even I...	
+A3.0.0041	line		【弓使い】{rt}……。	【Archer】{rt}.......	
