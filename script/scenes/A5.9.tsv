@@ -1,44 +1,44 @@
 id	kind	max	jp	en	notes
-A5.9.0000	line		【暗殺者】{rt}二枚貝というのを知って―――{rt}いるだろう？		
-A5.9.0001	line		【暗殺者】{rt}二枚の貝殻が、互いに―――{rt}ぴったりと合わさる…		
-A5.9.0002	line		【暗殺者】{rt}ごく普通の貝だ。		
-A5.9.0003	line		【暗殺者】{rt}だが…		
-A5.9.0004	line		【暗殺者】{rt}もし、その一方だけが―――		
-A5.9.0005	line		【暗殺者】{rt}大きくなってしまったら{rt}どうなる？		
-A5.9.0006	line		【暗殺者】{rt}貝は閉じられなくなり、		
-A5.9.0007	line		【暗殺者】{rt}外敵に殺られるのを待つ{rt}だけだ。		
-A5.9.0008	line		【暗殺者】{rt}一方の欲の為に、{rt}もう一方は死んでしまう。		
-A5.9.0009	line		【暗殺者】{rt}それは…		
-A5.9.0010	line		【暗殺者】{rt}許されるべき事ではない{rt}だろう？		
-A5.9.0011	line		【暗殺者】{rt}《死んだ》{rt}貝は―――		
-A5.9.0012	line		【暗殺者】{rt}しゃべれない、―――か。		
-A5.9.0013	line		【暗殺者】{rt}ああ、そうだ。		
-A5.9.0014	line		【暗殺者】{rt}君と同じだ。		
-A5.9.0015	line		【暗殺者】{rt}僕もできれば、{rt}その片貝を―――		
-A5.9.0016	line		【暗殺者】{rt}救いたいと…おもうよ。		
-A5.9.0017	line		【暗殺者】{rt}……。		
-A5.9.0018	line		【暗殺者】{rt}そうだったね。		
-A5.9.0019	line		【暗殺者】{rt}君は大きくなった{rt}もう一枚も―――		
-A5.9.0020	line		【暗殺者】{rt}それも含めて助けたいと{rt}考えるような人だったね。		
-A5.9.0021	line		【暗殺者】{rt}それを討つ。		
-A5.9.0022	line		【暗殺者】{rt}……。		
-A5.9.0023	line		【暗殺者】{rt}それが仕事だ。		
-A5.9.0024	line		【暗殺者】{rt}僕の生き方だ。		
-A5.9.0025	line		【暗殺者】{rt}後悔はないよ。		
-A5.9.0026	line		【暗殺者】{rt}ああ、そうだ。		
-A5.9.0027	line		【暗殺者】{rt}君と同じだ。		
-A5.9.0028	line		【暗殺者】{rt}僕もできれば、{rt}その片貝を―――		
-A5.9.0029	line		【暗殺者】{rt}救いたいと…そうおもうよ。		
-A5.9.0030	line		【暗殺者】{rt}それを討つ。		
-A5.9.0031	line		【暗殺者】{rt}……。		
-A5.9.0032	line		【暗殺者】{rt}それが仕事だ。		
-A5.9.0033	line		【暗殺者】{rt}僕の生き方だ。		
-A5.9.0034	line		【暗殺者】{rt}後悔はないよ。		
-A5.9.0035	line		【暗殺者】{rt}……。		
-A5.9.0036	line		【暗殺者】{rt}そうだった。		
-A5.9.0037	line		【暗殺者】{rt}君は大きくなった{rt}もう一枚も―――		
-A5.9.0038	line		【暗殺者】{rt}それも含めて助けたいと{rt}そう考える人だったね。		
-A5.9.0039	line		【暗殺者】{rt}貝は死んではいない。		
-A5.9.0040	line		【暗殺者】{rt}…君にはわからないか。		
-A5.9.0041	line		【暗殺者】{rt}一方が除かれるのは、{rt}自業自得というものだ。		
-A5.9.0042	line		【暗殺者】{rt}君もわかっているんだろう？		
+A5.9.0000	line		【暗殺者】{rt}二枚貝というのを知って―――{rt}いるだろう？	【Assassin】{rt}You know of bivalves--don't you?	
+A5.9.0001	line		【暗殺者】{rt}二枚の貝殻が、互いに―――{rt}ぴったりと合わさる…	【Assassin】{rt}Two shells that fit--perfectly{rt}together...	
+A5.9.0002	line		【暗殺者】{rt}ごく普通の貝だ。	【Assassin】{rt}A perfectly ordinary shellfish.	
+A5.9.0003	line		【暗殺者】{rt}だが…	【Assassin】{rt}But...	
+A5.9.0004	line		【暗殺者】{rt}もし、その一方だけが―――	【Assassin】{rt}what if only one of them--	
+A5.9.0005	line		【暗殺者】{rt}大きくなってしまったら{rt}どうなる？	【Assassin】{rt}grew too large?	
+A5.9.0006	line		【暗殺者】{rt}貝は閉じられなくなり、	【Assassin】{rt}The shell could no longer close,	
+A5.9.0007	line		【暗殺者】{rt}外敵に殺られるのを待つ{rt}だけだ。	【Assassin】{rt}and could only wait to be killed by its{rt}enemies.	
+A5.9.0008	line		【暗殺者】{rt}一方の欲の為に、{rt}もう一方は死んでしまう。	【Assassin】{rt}For one half's greed, the other half{rt}dies.	
+A5.9.0009	line		【暗殺者】{rt}それは…	【Assassin】{rt}That...	
+A5.9.0010	line		【暗殺者】{rt}許されるべき事ではない{rt}だろう？	【Assassin】{rt}isn't something that should be{rt}forgiven, is it?	
+A5.9.0011	line		【暗殺者】{rt}《死んだ》{rt}貝は―――	【Assassin】{rt}A DEAD shell--	
+A5.9.0012	line		【暗殺者】{rt}しゃべれない、―――か。	【Assassin】{rt}can't speak--is that it?	
+A5.9.0013	line		【暗殺者】{rt}ああ、そうだ。	【Assassin】{rt}Yes, that's right.	
+A5.9.0014	line		【暗殺者】{rt}君と同じだ。	【Assassin】{rt}Same as you.	
+A5.9.0015	line		【暗殺者】{rt}僕もできれば、{rt}その片貝を―――	【Assassin】{rt}If I could, I'd want to save--	
+A5.9.0016	line		【暗殺者】{rt}救いたいと…おもうよ。	【Assassin】{rt}that other half too... I think.	
+A5.9.0017	line		【暗殺者】{rt}……。	【Assassin】{rt}......	
+A5.9.0018	line		【暗殺者】{rt}そうだったね。	【Assassin】{rt}That's right.	
+A5.9.0019	line		【暗殺者】{rt}君は大きくなった{rt}もう一枚も―――	【Assassin】{rt}You'd want to save the half that grew{rt}too large--	
+A5.9.0020	line		【暗殺者】{rt}それも含めて助けたいと{rt}考えるような人だったね。	【Assassin】{rt}that one included.	
+A5.9.0021	line		【暗殺者】{rt}それを討つ。	【Assassin】{rt}I strike it down.	
+A5.9.0022	line		【暗殺者】{rt}……。	【Assassin】{rt}......	
+A5.9.0023	line		【暗殺者】{rt}それが仕事だ。	【Assassin】{rt}That's my job.	
+A5.9.0024	line		【暗殺者】{rt}僕の生き方だ。	【Assassin】{rt}That's how I live.	
+A5.9.0025	line		【暗殺者】{rt}後悔はないよ。	【Assassin】{rt}I have no regrets.	
+A5.9.0026	line		【暗殺者】{rt}ああ、そうだ。	【Assassin】{rt}Yes, that's right.	
+A5.9.0027	line		【暗殺者】{rt}君と同じだ。	【Assassin】{rt}Same as you.	
+A5.9.0028	line		【暗殺者】{rt}僕もできれば、{rt}その片貝を―――	【Assassin】{rt}If I could, I'd want to save--	
+A5.9.0029	line		【暗殺者】{rt}救いたいと…そうおもうよ。	【Assassin】{rt}that other half too... that's what I{rt}think.	
+A5.9.0030	line		【暗殺者】{rt}それを討つ。	【Assassin】{rt}I strike it down.	
+A5.9.0031	line		【暗殺者】{rt}……。	【Assassin】{rt}......	
+A5.9.0032	line		【暗殺者】{rt}それが仕事だ。	【Assassin】{rt}That's my job.	
+A5.9.0033	line		【暗殺者】{rt}僕の生き方だ。	【Assassin】{rt}That's how I live.	
+A5.9.0034	line		【暗殺者】{rt}後悔はないよ。	【Assassin】{rt}I have no regrets.	
+A5.9.0035	line		【暗殺者】{rt}……。	【Assassin】{rt}......	
+A5.9.0036	line		【暗殺者】{rt}そうだった。	【Assassin】{rt}That's right.	
+A5.9.0037	line		【暗殺者】{rt}君は大きくなった{rt}もう一枚も―――	【Assassin】{rt}You'd want to save the half that grew{rt}too large--	
+A5.9.0038	line		【暗殺者】{rt}それも含めて助けたいと{rt}そう考える人だったね。	【Assassin】{rt}You're the kind of person who'd want{rt}to save that one too.	
+A5.9.0039	line		【暗殺者】{rt}貝は死んではいない。	【Assassin】{rt}The shell isn't dead.	
+A5.9.0040	line		【暗殺者】{rt}…君にはわからないか。	【Assassin】{rt}...You don't understand, do you.	
+A5.9.0041	line		【暗殺者】{rt}一方が除かれるのは、{rt}自業自得というものだ。	【Assassin】{rt}If one half gets removed, it brought{rt}that on itself.	
+A5.9.0042	line		【暗殺者】{rt}君もわかっているんだろう？	【Assassin】{rt}You know that too, don't you?	

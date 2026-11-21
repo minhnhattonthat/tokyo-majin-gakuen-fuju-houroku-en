@@ -5,10 +5,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 6. Translate in progress (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 with B00-B03
   English, sha1 6e2fcc5dfb56.. (story_00 warp checked: `work/qa/pilot_zoom.png`). Marker build
   `build/tmgfh_marker.gba` sha1 91c3d9342694...
-- **Progress:** batches b001-b004 merged (B00-B03, ~650 rows incl. repeats filled by merge). Batches b005-b006 (rest of
-  B03-B04) are split in `work/tl/` (gitignored, this machine) and not translated yet. Remaining: B04-B39, every A
-  detour scene, system cf/d1/d6 (~16 000 rows, ~360k JP chars). Staff roll ({dc} rows, B39) is left out of batches:
-  translate by hand at the end.
+- **Progress:** batches b001-b013 merged: B00-B05 and A4.x-A5.x complete. b001-b004 were split with B only, so
+  A0-A3 were skipped; they are now split as b014-b024 in `work/tl/` (gitignored, this machine; re-run `split --only
+  A0.,A1.,A2.,A3.` on a fresh clone) and not translated yet. Remaining: b014-b024 (A0-A3), B06-B39 with their A
+  scenes, system cf/d1/d6 (~14 000 rows). Staff roll ({dc} rows, B39) is left out of batches: translate by hand at
+  the end. `batches.py`: 赤ちゃん is not an honorific (added to NOT_HONORIFIC).
 - **How (each session):** read `docs/translator-brief.md`, `docs/style-reference.md`, `docs/synopsis.md` and the
   glossary (in parts). `python -X utf8 tools/batches.py split --only B05.,B06.` (chapter order: B then that
   chapter's A scenes; system last) -> translate `work/tl/bNNN.tsv` into `bNNN.out.tsv` (Write tool) -> `check` ->
@@ -17,7 +18,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `tools/windows.tsv`, run by `tests/test_fit.py`); dialogue bodies are wrapped by merge (2 rows, 232/218 px,
   about 65 chars). Phase 6 done-when: batch check 0 errors everywhere, glossary current, a review pass with no
   Critical/Important (do it as a fresh read-only pass per chapter; codex once its limit resets).
-- **Next:** b005. Rows of kind `grid` are not translated. Notes for translators: system strings are often pieces joined
+- **Next:** b014-b024 (A0-A3), then `split --only B06.,A6.` and on, chapter by chapter. Rows of kind `grid` are not translated. Notes for translators: system strings are often pieces joined
   at run time (turn banner 符咒士 / name + の / ターン; deck-editor prompts with 真神 and counts; deck help line 1;
   `　　枚` slots that receive numbers): check the joined line. The sound test body D1BD60 keeps its full-width cell
   layout (label <= 64 px in cells 1-4, then the JP spaces and ／). Yes/no option lines are fixed:
@@ -47,7 +48,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Gaps in the debug tool (non-blocking, close before phase 8):** no normal path to the sound test (`sound_test`
   warps to mode 20). Save fields beyond names and chapter (cards, deck, money) unmapped; needed for stress saves.
 - **Open bugs:** none.
-- **Waiting on the user:** keyboard input in the Mesen window not checked by hand (headless worker); scripted input
+- **Waiting on the user:** Non-blocking: B04 shows a girl-player branch ({name2}-chan rows, B04.0174 老爺と少女), so
+  the player's gender may be selectable; the glossary note "player is male" was softened to "neutral where the JP
+  is"; confirm from the name-entry flow when QA reaches it. Keyboard input in the Mesen window not checked by hand (headless worker); scripted input
   verified. `codex exec` review hit its usage limit until 2026-11-26. Non-blocking: the five-element emblems
   木火土金水 on card frames (S20) and the rarity legend (S27) default to English redraws in phase 8 unless the user
   wants the kanji kept as icons; the sutra board (W13) is treated as art unless the user wants it translated. The

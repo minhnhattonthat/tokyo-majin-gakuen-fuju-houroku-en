@@ -17,4 +17,17 @@ session; translators read it before their batch.
 - B01: spirits scatter; a bell rings; the Woman's Voice leaves toward the light.
 - B02: Enra wakes the player in Tokyo; crows maddened by Miasma attack Shun and Isuzu on a slope; Shun summons the
   Ujigami and gets the player; first battle.
-- B03: Enra leaves the player in charge; introductions; the slope's Miasma is behind serial street killings.
+- B03: Enra leaves the player in charge; introductions; the slope's Miasma is behind serial street killings. A
+  woman on the slope (dead; ate her stillborn baby's remains, wants it "back in her belly") is the killer; battle.
+- B04: Isuzu seals her Miasma (邪氣封印 "Miasma, be sealed!"); she confesses her Sin and passes on. Yamura: no one is
+  without Sin, so anyone can be possessed. They take the player to the Yamura family's old shrine (祠), which heals
+  an Ujigami's Ki and hides something useful. Isuzu goes casual ({name1}-kun / {name2}-chan); Yamura switches from
+  -sama to {name1}-dono. Coda: Enra confronts a Shadow / Woman's Voice ("for the souls of THEM", 《彼ら》).
+  Girl-player branch: rows with {name2}-chan and B04.0174 (老爺と少女 "an old man and a girl") imply the player can be
+  a girl; keep player lines gender-neutral where the JP is.
+- A4.x / A5.x: detour chats with one recurring card character each (speaker tag = their title), with player
+  choices; each ends differently per answer. Firerunner = Marie (マリィ, katakana child speech, calls the player
+  Onii-chan); Spirit Gunner = broken-English foreigner (render as "-desu", "ne", caps).
+- B05: an elderly couple (Elder, Old Woman), possessed by Miasma, speak things into Fact: they trap a land-grabber
+  in an invisible prison (the "spirited away" 神隠し cases, seven in a month). Morning at the shrine; asking around
+  by the river (choice: Night Worker / Old Folks / Office Worker); the couple summon a pack of mad dogs.

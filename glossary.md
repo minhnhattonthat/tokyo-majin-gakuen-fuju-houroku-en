@@ -236,5 +236,11 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 - b001-b004 《X》 terms (not enforced: single kanji): 《力》 -> Power, 《氣》 -> Ki, 《念》 -> Thought, 《定め》 -> Destiny,
   《因果》 -> Causality, 《生》 -> Life, 《奴》 -> HE (the unseen enemy, capitals). Capitalised, no brackets.
 - b003 address: Yamura calls the player {name1}-sama / {name1}-dono / Great Deity; Isuzu tries {name1}-kun,
-  {name2}-chan. Enra calls the player "lad". The player is male (school uniform).
+  {name2}-chan. Enra calls the player "lad". The player is male (school uniform) by
+  default, but B04 has a girl-player branch ({name2}-chan rows, 老爺と少女): keep player references neutral where
+  the JP is, and follow the JP where a branch row names a gender.
+- b005-b013 《X》 terms: 《罪》 -> Sin, 《欲望》 -> Desire, 《心》 -> Heart, 《覚悟》 -> Resolve, 《愛》 -> Love, 《友》 ->
+  Friends, 《理性》 -> Reason, 《事実》 -> Fact, 《彼ら》 -> THEM, 《討ツ》 / 《壊した》 / 《死んだ》 -> capitals (SLAY,
+  BROKEN, DEAD). 神隠し -> "spirited away". 氏神勧請 -> Ujigami Summoning. 地蔵様 -> Jizo-sama. マリィ -> Marie.
+  {name1}殿 -> {name1}-dono (Yamura from B04 on). Isuzu calls Yamura "Shun".
 - A term split across two boxes must stay in the box whose JP has it (the check enforces this per box).
