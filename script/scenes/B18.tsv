@@ -1,502 +1,502 @@
 id	kind	max	jp	en	notes
 B18.0000	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B18.0001	line		【矢村】{rt}伊涼の奴、遅いな。		
+B18.0001	line		【矢村】{rt}伊涼の奴、遅いな。	【Yamura】{rt}Isuzu's late.	
 B18.0002	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B18.0003	line		【矢村】{rt}…ちッ。		
-B18.0004	line		【矢村】{rt}せっかく、{name1}が{rt}来てくれたってのに―――		
-B18.0005	line		【伊涼】{rt}俊ーっ。		
-B18.0006	line		【矢村】{rt}おッ？		
-B18.0007	line		【伊涼】{rt}遅れてごめんね。		
-B18.0008	line		【矢村】{rt}やれやれ、全くだ。		
-B18.0009	line		【矢村】{rt}お前の遅刻には{rt}もう慣れっこになったが、		
-B18.0010	line		【矢村】{rt}もうちょっと気をつけたほうが{rt}いいぞ。		
-B18.0011	line		【伊涼】{rt}…慣れたならいいじゃない。		
-B18.0012	line		【伊涼】{rt}まあ、それはそれとして―――		
-B18.0013	line		【伊涼】{rt}{name1}くんも来たんだね。		
-B18.0014	line		【伊涼】{rt}{name2}ちゃんも来たんだね。		
-B18.0015	line		【伊涼】{rt}さては…		
-B18.0016	line		【伊涼】{rt}俊が呼んだんでしょ？		
-B18.0017	line		【矢村】{rt}な、なんだよ。		
-B18.0018	line		【矢村】{rt}別に悪かないだろ？		
-B18.0019	line		【矢村】{rt}俺はただ、調べものをするなら{rt}頭数が多い方が		
-B18.0020	line		【矢村】{rt}有利なんじゃないかと{rt}思ってだな―――		
-B18.0021	line		【伊涼】{rt}…へえ。		
-B18.0022	line		【伊涼】{rt}そんな用事で氏神様を{rt}勧請しちゃっていいんだ？		
-B18.0023	line		【伊涼】{rt}ねえ、{name1}くん？		
-B18.0024	line		【伊涼】{rt}ねえ、{name2}ちゃん？		
-B18.0025	line		【伊涼】{rt}あ、あら？		
-B18.0026	line		【矢村】{rt}ふん…。		
-B18.0027	line		【矢村】{rt}人を待たせておいて、いえる{rt}立場じゃないだろうに。		
-B18.0028	line		【矢村】{rt}困った時には助け合う…		
-B18.0029	line		【矢村】{rt}苦手な分野で補いあってこそ、{rt}仲間ってもんさ。		
-B18.0030	line		【矢村】{rt}なァ、{name1}？		
-B18.0031	line		【伊涼】{rt}ありがとう、{name1}くん。		
-B18.0032	line		【伊涼】{rt}ありがとう、{name2}ちゃん。		
-B18.0033	line		【伊涼】{rt}（俊は調べ物が苦手なんだ。）		
-B18.0034	line		【伊涼】{rt}（手伝ってやって。ね？）		
-B18.0035	line		【矢村】{rt}…って、何言ってる？		
-B18.0036	line		【伊涼】{rt}な、なんでもないよ。		
+B18.0003	line		【矢村】{rt}…ちッ。	【Yamura】{rt}...Tch.	
+B18.0004	line		【矢村】{rt}せっかく、{name1}が{rt}来てくれたってのに―――	【Yamura】{rt}And {name1} went to the trouble{rt}of coming, too--	
+B18.0005	line		【伊涼】{rt}俊ーっ。	【Isuzu】{rt}Shuuun!	
+B18.0006	line		【矢村】{rt}おッ？	【Yamura】{rt}Oh?	
+B18.0007	line		【伊涼】{rt}遅れてごめんね。	【Isuzu】{rt}Sorry I'm late.	
+B18.0008	line		【矢村】{rt}やれやれ、全くだ。	【Yamura】{rt}Good grief, you said it.	
+B18.0009	line		【矢村】{rt}お前の遅刻には{rt}もう慣れっこになったが、	【Yamura】{rt}I'm used to you being late by now,	
+B18.0010	line		【矢村】{rt}もうちょっと気をつけたほうが{rt}いいぞ。	【Yamura】{rt}but you should be a bit more careful.	
+B18.0011	line		【伊涼】{rt}…慣れたならいいじゃない。	【Isuzu】{rt}...If you're used to it, then it's fine,{rt}isn't it?	
+B18.0012	line		【伊涼】{rt}まあ、それはそれとして―――	【Isuzu】{rt}Well, that aside--	
+B18.0013	line		【伊涼】{rt}{name1}くんも来たんだね。	【Isuzu】{rt}{name1}-kun came too, huh.	
+B18.0014	line		【伊涼】{rt}{name2}ちゃんも来たんだね。	【Isuzu】{rt}{name2}-chan came too, huh.	
+B18.0015	line		【伊涼】{rt}さては…	【Isuzu】{rt}I bet...	
+B18.0016	line		【伊涼】{rt}俊が呼んだんでしょ？	【Isuzu】{rt}Shun called you, didn't he?	
+B18.0017	line		【矢村】{rt}な、なんだよ。	【Yamura】{rt}Wh-what?	
+B18.0018	line		【矢村】{rt}別に悪かないだろ？	【Yamura】{rt}It's not like that's wrong, is it?	
+B18.0019	line		【矢村】{rt}俺はただ、調べものをするなら{rt}頭数が多い方が	【Yamura】{rt}I just figured, if we're doing{rt}research,	
+B18.0020	line		【矢村】{rt}有利なんじゃないかと{rt}思ってだな―――	【Yamura】{rt}more heads would give us an edge--	
+B18.0021	line		【伊涼】{rt}…へえ。	【Isuzu】{rt}...Huh.	
+B18.0022	line		【伊涼】{rt}そんな用事で氏神様を{rt}勧請しちゃっていいんだ？	【Isuzu】{rt}So it's okay to summon an Ujigami for{rt}that?	
+B18.0023	line		【伊涼】{rt}ねえ、{name1}くん？	【Isuzu】{rt}Right, {name1}-kun?	
+B18.0024	line		【伊涼】{rt}ねえ、{name2}ちゃん？	【Isuzu】{rt}Right, {name2}-chan?	
+B18.0025	line		【伊涼】{rt}あ、あら？	【Isuzu】{rt}Wh-what?	
+B18.0026	line		【矢村】{rt}ふん…。	【Yamura】{rt}Hmph...	
+B18.0027	line		【矢村】{rt}人を待たせておいて、いえる{rt}立場じゃないだろうに。	【Yamura】{rt}You kept us waiting, you're in no{rt}position to talk.	
+B18.0028	line		【矢村】{rt}困った時には助け合う…	【Yamura】{rt}Helping each other out when times are{rt}hard...	
+B18.0029	line		【矢村】{rt}苦手な分野で補いあってこそ、{rt}仲間ってもんさ。	【Yamura】{rt}making up for each other's weak spots,{rt}that's what friends are.	
+B18.0030	line		【矢村】{rt}なァ、{name1}？	【Yamura】{rt}Right, {name1}?	
+B18.0031	line		【伊涼】{rt}ありがとう、{name1}くん。	【Isuzu】{rt}Thank you, {name1}-kun.	
+B18.0032	line		【伊涼】{rt}ありがとう、{name2}ちゃん。	【Isuzu】{rt}Thank you, {name2}-chan.	
+B18.0033	line		【伊涼】{rt}（俊は調べ物が苦手なんだ。）	【Isuzu】{rt}(Shun is bad at research.)	
+B18.0034	line		【伊涼】{rt}（手伝ってやって。ね？）	【Isuzu】{rt}(Help him out, okay?)	
+B18.0035	line		【矢村】{rt}…って、何言ってる？	【Yamura】{rt}...Hey, what are you saying?	
+B18.0036	line		【伊涼】{rt}な、なんでもないよ。	【Isuzu】{rt}N-nothing.	
 B18.0037	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B18.0038	line		【伊涼】{rt}もう…。		
-B18.0039	line		【伊涼】{rt}ほんとお人好しだね、		
-B18.0040	line		【伊涼】{rt}{name1}くんて。		
-B18.0041	line		【伊涼】{rt}{name2}ちゃんて。		
-B18.0042	line		【矢村】{rt}俺たちは仲間だ。		
-B18.0043	line		【矢村】{rt}苦労も共に乗り越えるッ…{rt}ってな。		
-B18.0044	line		【伊涼】{rt}調子いいんだから。		
+B18.0038	line		【伊涼】{rt}もう…。	【Isuzu】{rt}Geez...	
+B18.0039	line		【伊涼】{rt}ほんとお人好しだね、	【Isuzu】{rt}You really are too nice,	
+B18.0040	line		【伊涼】{rt}{name1}くんて。	【Isuzu】{rt}{name1}-kun.	
+B18.0041	line		【伊涼】{rt}{name2}ちゃんて。	【Isuzu】{rt}{name2}-chan.	
+B18.0042	line		【矢村】{rt}俺たちは仲間だ。	【Yamura】{rt}We're friends.	
+B18.0043	line		【矢村】{rt}苦労も共に乗り越えるッ…{rt}ってな。	【Yamura】{rt}We get through hard times together...{rt}or so they say.	
+B18.0044	line		【伊涼】{rt}調子いいんだから。	【Isuzu】{rt}You're so full of it.	
 B18.0045	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
-B18.0046	line		【矢村】{rt}俺だって…		
-B18.0047	line		【矢村】{rt}氏神が{name1}でなけりゃ{rt}呼びはしないよ。		
-B18.0048	line		【伊涼】{rt}…{name1}くん。		
-B18.0049	line		【伊涼】{rt}…{name2}ちゃん。		
-B18.0050	line		【伊涼】{rt}せっかくだから、手伝って。{rt}ね？		
+B18.0046	line		【矢村】{rt}俺だって…	【Yamura】{rt}Even I...	
+B18.0047	line		【矢村】{rt}氏神が{name1}でなけりゃ{rt}呼びはしないよ。	【Yamura】{rt}wouldn't call the Ujigami if it weren't{rt}{name1}.	
+B18.0048	line		【伊涼】{rt}…{name1}くん。	【Isuzu】{rt}...{name1}-kun.	
+B18.0049	line		【伊涼】{rt}…{name2}ちゃん。	【Isuzu】{rt}...{name2}-chan.	
+B18.0050	line		【伊涼】{rt}せっかくだから、手伝って。{rt}ね？	【Isuzu】{rt}Since you're here, help out, okay?	
 B18.0051	line		【伊涼】{rt}ご、ごめんね。	【Isuzu】{rt}S-sorry.	
-B18.0052	line		【伊涼】{rt}こんな平凡な用で呼び出し{rt}ちゃって。		
-B18.0053	line		【矢村】{rt}俺的には充分ピンチだけどな。		
-B18.0054	line		【矢村】{rt}{name1}―――。		
-B18.0055	line		【矢村】{rt}今日ここへ来てもらったのは{rt}他でもない…。		
-B18.0056	line		【矢村】{rt}高丸、藤原俊宗、{rt}鈴鹿御前―――。		
-B18.0057	line		【矢村】{rt}高丸の言い残した言葉には{rt}不可解なものが多い。		
-B18.0058	line		【矢村】{rt}予告通りにまた奴が襲って{rt}くるのなら、		
-B18.0059	line		【矢村】{rt}その前に過去にあった事件を		
-B18.0060	line		【矢村】{rt}少しでも知っておきたいと{rt}思ってな。		
+B18.0052	line		【伊涼】{rt}こんな平凡な用で呼び出し{rt}ちゃって。	【Isuzu】{rt}Sorry for calling you out for something{rt}so ordinary.	
+B18.0053	line		【矢村】{rt}俺的には充分ピンチだけどな。	【Yamura】{rt}For me it's plenty of a crisis, though.	
+B18.0054	line		【矢村】{rt}{name1}―――。	【Yamura】{rt}{name1}--	
+B18.0055	line		【矢村】{rt}今日ここへ来てもらったのは{rt}他でもない…。	【Yamura】{rt}The reason I asked you here today is{rt}none other than...	
+B18.0056	line		【矢村】{rt}高丸、藤原俊宗、{rt}鈴鹿御前―――。	【Yamura】{rt}Takamaru, Fujiwara no Toshimune,{rt}Suzuka Gozen--	
+B18.0057	line		【矢村】{rt}高丸の言い残した言葉には{rt}不可解なものが多い。	【Yamura】{rt}There's a lot that's baffling in what{rt}Takamaru left us with.	
+B18.0058	line		【矢村】{rt}予告通りにまた奴が襲って{rt}くるのなら、	【Yamura】{rt}If he's going to attack again as he{rt}warned,	
+B18.0059	line		【矢村】{rt}その前に過去にあった事件を	【Yamura】{rt}I want to learn even a little	
+B18.0060	line		【矢村】{rt}少しでも知っておきたいと{rt}思ってな。	【Yamura】{rt}about what happened in the past{rt}before then.	
 B18.0061	line		【伊涼】{rt}うん…。	【Isuzu】{rt}Yeah...	
-B18.0062	line		【伊涼】{rt}何もしないで待ってる訳には{rt}行かないからね。		
-B18.0063	line		【矢村】{rt}にしても、伊涼。		
-B18.0064	line		【伊涼】{rt}うん？		
-B18.0065	line		【矢村】{rt}こんなフツーな図書館で{rt}奴について何か分かるのか？		
-B18.0066	line		【矢村】{rt}もっとこう、古文書とか―――		
-B18.0067	line		【伊涼】{rt}へえ。		
-B18.0068	line		【伊涼】{rt}俊、古文書読めるんだ？		
-B18.0069	line		【矢村】{rt}…あ！！		
-B18.0070	line		【矢村】{rt}いや…読めない。		
-B18.0071	line		【伊涼】{rt}でしょ？		
-B18.0072	line		【伊涼】{rt}だから、まずは簡単なものから{rt}調べるの。		
-B18.0073	line		【伊涼】{rt}古い書物に進むにしても、		
-B18.0074	line		【伊涼】{rt}出典先とかからなんて本を{rt}調べればいいか分かるし。		
-B18.0075	line		【伊涼】{rt}要するに、尻尾を捕まえる――{rt}ってとこね。		
-B18.0076	line		【矢村】{rt}…なるほど。		
-B18.0077	line		【矢村】{rt}（気合入ってるな{rt}　伊涼のやつ。）		
-B18.0078	line		【伊涼】{rt}じゃあ行きましょ。		
-B18.0079	line		【男たち】{rt}…………。		
-B18.0080	line		【矢村】{rt}ところで伊涼。		
-B18.0081	line		【矢村】{rt}あれから何か変わった事は{rt}ないのか？		
+B18.0062	line		【伊涼】{rt}何もしないで待ってる訳には{rt}行かないからね。	【Isuzu】{rt}We can't just sit around waiting.	
+B18.0063	line		【矢村】{rt}にしても、伊涼。	【Yamura】{rt}Still, Isuzu.	
+B18.0064	line		【伊涼】{rt}うん？	【Isuzu】{rt}Hm?	
+B18.0065	line		【矢村】{rt}こんなフツーな図書館で{rt}奴について何か分かるのか？	【Yamura】{rt}Can we really learn anything about him{rt}in an ordinary library?	
+B18.0066	line		【矢村】{rt}もっとこう、古文書とか―――	【Yamura】{rt}Shouldn't it be something more like old{rt}manuscripts--	
+B18.0067	line		【伊涼】{rt}へえ。	【Isuzu】{rt}Oh?	
+B18.0068	line		【伊涼】{rt}俊、古文書読めるんだ？	【Isuzu】{rt}You can read old manuscripts, Shun?	
+B18.0069	line		【矢村】{rt}…あ！！	【Yamura】{rt}...Ah!!	
+B18.0070	line		【矢村】{rt}いや…読めない。	【Yamura】{rt}No... I can't.	
+B18.0071	line		【伊涼】{rt}でしょ？	【Isuzu】{rt}See?	
+B18.0072	line		【伊涼】{rt}だから、まずは簡単なものから{rt}調べるの。	【Isuzu】{rt}So first we look into the easy stuff.	
+B18.0073	line		【伊涼】{rt}古い書物に進むにしても、	【Isuzu】{rt}Even if we move on to old books{rt}later,	
+B18.0074	line		【伊涼】{rt}出典先とかからなんて本を{rt}調べればいいか分かるし。	【Isuzu】{rt}the sources will tell us which books to{rt}look for.	
+B18.0075	line		【伊涼】{rt}要するに、尻尾を捕まえる――{rt}ってとこね。	【Isuzu】{rt}In short, we grab it by the tail first.	
+B18.0076	line		【矢村】{rt}…なるほど。	【Yamura】{rt}...I see.	
+B18.0077	line		【矢村】{rt}（気合入ってるな{rt}　伊涼のやつ。）	【Yamura】{rt}(She's really fired up, Isuzu.)	
+B18.0078	line		【伊涼】{rt}じゃあ行きましょ。	【Isuzu】{rt}Well then, let's go.	
+B18.0079	line		【男たち】{rt}…………。	【Men】{rt}......	
+B18.0080	line		【矢村】{rt}ところで伊涼。	【Yamura】{rt}By the way, Isuzu.	
+B18.0081	line		【矢村】{rt}あれから何か変わった事は{rt}ないのか？	【Yamura】{rt}Has anything changed since then?	
 B18.0082	line		【伊涼】{rt}うん…。	【Isuzu】{rt}Yeah...	
-B18.0083	line		【伊涼】{rt}あの一夜がまるで嘘だったと思{rt}えるほど、何も起きてない。		
-B18.0084	line		【伊涼】{rt}あの夢だけは時々見るけど、		
-B18.0085	line		【伊涼】{rt}でも、それくらい平気だよ。		
-B18.0086	line		【矢村】{rt}…そうか。		
-B18.0087	line		【矢村】{rt}高丸のいう事を信じるのなら、		
-B18.0088	line		【矢村】{rt}お前のその夢も手がかりに{rt}なる可能性がある。		
-B18.0089	line		【矢村】{rt}頼むぞ。		
-B18.0090	line		【伊涼】{rt}う、うん。まあ、程々に…。		
-B18.0091	line		【矢村】{rt}さてと。		
-B18.0092	line		【矢村】{rt}それじゃあ、そろそろ行動を{rt}開始するとしよう。		
-B18.0093	line		【矢村】{rt}能率的に考えると、{rt}二手に分かれた方がいいな…。		
-B18.0094	line		【矢村】{rt}{name1}、		
-B18.0095	line		【矢村】{rt}当然俺と一緒に{rt}探してくれるんだよな？		
-B18.0096	line		【伊涼】{rt}ええッ―――！？		
-B18.0097	line		【矢村】{rt}うおッ！？		
-B18.0098	line		【矢村】{rt}どうした、伊涼？		
-B18.0099	line		【伊涼】{rt}私…		
-B18.0100	line		【伊涼】{rt}{name1}くんが一緒に		
-B18.0101	line		【伊涼】{rt}探してくれるんだって{rt}期待してたのにィ…。		
-B18.0102	line		【伊涼】{rt}{name2}ちゃんが一緒に		
-B18.0103	line		【伊涼】{rt}探してくれるんだって{rt}期待してたのにィ…。		
-B18.0104	line		【矢村】{rt}ううむ。だがなあ…。		
-B18.0105	line		【矢村】{rt}お前には一人で本を探せるだけ{rt}の根気ってもんがあるだろ？		
-B18.0106	line		【矢村】{rt}手が欲しくて{name1}を{rt}呼んだのは、俺なんだぞ？		
-B18.0107	line		【伊涼】{rt}そんな事いったって…。		
-B18.0108	line		【矢村】{rt}…はァ。		
-B18.0109	line		【矢村】{rt}仕方ない。		
-B18.0110	line		【矢村】{rt}{name1}自身が決めれば文句ない{rt}だろ？		
-B18.0111	line		【矢村】{rt}{name1}。		
-B18.0112	line		【矢村】{rt}俺と伊涼、どっちに{rt}手を貸してくれるんだ？		
-B18.0113	choice		矢村と行く{rt}伊涼と行く{wc}		
-B18.0114	line		【矢村】{rt}{name1}、{rt}しっかり手伝ってくれよッ。		
-B18.0115	line		【伊涼】{rt}ずるいなあ。		
-B18.0116	line		【伊涼】{rt}そうやって、自分は楽する{rt}つもりなんじゃないの？		
-B18.0117	line		【矢村】{rt}なッ―――なんて事をッ！！		
-B18.0118	line		【矢村】{rt}俺がそんな事を考える人間に{rt}見えるか？		
-B18.0119	line		【伊涼】{rt}じゃあ、		
-B18.0120	line		【伊涼】{rt}{name1}くんを私が借りても、{rt}しっかり探せるよね？		
-B18.0121	line		【伊涼】{rt}じゃあ、		
-B18.0122	line		【伊涼】{rt}私が{name2}ちゃんと組んでも、{rt}しっかり探せるよね？		
-B18.0123	line		【矢村】{rt}あ、いや…{rt}その―――		
-B18.0124	line		【矢村】{rt}それだけはご勘弁を…。		
+B18.0083	line		【伊涼】{rt}あの一夜がまるで嘘だったと思{rt}えるほど、何も起きてない。	【Isuzu】{rt}Nothing's happened, so much that that{rt}night feels like a lie.	
+B18.0084	line		【伊涼】{rt}あの夢だけは時々見るけど、	【Isuzu】{rt}I still have that dream sometimes,	
+B18.0085	line		【伊涼】{rt}でも、それくらい平気だよ。	【Isuzu】{rt}but that much I can handle.	
+B18.0086	line		【矢村】{rt}…そうか。	【Yamura】{rt}...I see.	
+B18.0087	line		【矢村】{rt}高丸のいう事を信じるのなら、	【Yamura】{rt}If we believe what Takamaru said,	
+B18.0088	line		【矢村】{rt}お前のその夢も手がかりに{rt}なる可能性がある。	【Yamura】{rt}that dream of yours could be a clue{rt}too.	
+B18.0089	line		【矢村】{rt}頼むぞ。	【Yamura】{rt}I'm counting on you.	
+B18.0090	line		【伊涼】{rt}う、うん。まあ、程々に…。	【Isuzu】{rt}R-right. Well, within reason...	
+B18.0091	line		【矢村】{rt}さてと。	【Yamura】{rt}Right then.	
+B18.0092	line		【矢村】{rt}それじゃあ、そろそろ行動を{rt}開始するとしよう。	【Yamura】{rt}Let's get started.	
+B18.0093	line		【矢村】{rt}能率的に考えると、{rt}二手に分かれた方がいいな…。	【Yamura】{rt}To be efficient, we'd better split into{rt}two groups...	
+B18.0094	line		【矢村】{rt}{name1}、	【Yamura】{rt}{name1},	
+B18.0095	line		【矢村】{rt}当然俺と一緒に{rt}探してくれるんだよな？	【Yamura】{rt}you'll search with me, of course, won't{rt}you?	
+B18.0096	line		【伊涼】{rt}ええッ―――！？	【Isuzu】{rt}Whaaat--!?	
+B18.0097	line		【矢村】{rt}うおッ！？	【Yamura】{rt}Whoa!?	
+B18.0098	line		【矢村】{rt}どうした、伊涼？	【Yamura】{rt}What is it, Isuzu?	
+B18.0099	line		【伊涼】{rt}私…	【Isuzu】{rt}I...	
+B18.0100	line		【伊涼】{rt}{name1}くんが一緒に	【Isuzu】{rt}was hoping {name1}-kun would	
+B18.0101	line		【伊涼】{rt}探してくれるんだって{rt}期待してたのにィ…。	【Isuzu】{rt}search with me...	
+B18.0102	line		【伊涼】{rt}{name2}ちゃんが一緒に	【Isuzu】{rt}was hoping {name2}-chan would	
+B18.0103	line		【伊涼】{rt}探してくれるんだって{rt}期待してたのにィ…。	【Isuzu】{rt}search with me...	
+B18.0104	line		【矢村】{rt}ううむ。だがなあ…。	【Yamura】{rt}Hmm. But, well...	
+B18.0105	line		【矢村】{rt}お前には一人で本を探せるだけ{rt}の根気ってもんがあるだろ？	【Yamura】{rt}You've got the patience to look for{rt}books on your own, right?	
+B18.0106	line		【矢村】{rt}手が欲しくて{name1}を{rt}呼んだのは、俺なんだぞ？	【Yamura】{rt}And I'm the one who called {name1}{rt}for an extra hand, remember?	
+B18.0107	line		【伊涼】{rt}そんな事いったって…。	【Isuzu】{rt}Even if you say that...	
+B18.0108	line		【矢村】{rt}…はァ。	【Yamura】{rt}...Sigh.	
+B18.0109	line		【矢村】{rt}仕方ない。	【Yamura】{rt}Fine.	
+B18.0110	line		【矢村】{rt}{name1}自身が決めれば文句ない{rt}だろ？	【Yamura】{rt}If {name1} decides, you won't{rt}complain, right?	
+B18.0111	line		【矢村】{rt}{name1}。	【Yamura】{rt}{name1}.	
+B18.0112	line		【矢村】{rt}俺と伊涼、どっちに{rt}手を貸してくれるんだ？	【Yamura】{rt}Which of us will you help, me or{rt}Isuzu?	
+B18.0113	choice		矢村と行く{rt}伊涼と行く{wc}	With Yamura{rt}With Isuzu{wc}	
+B18.0114	line		【矢村】{rt}{name1}、{rt}しっかり手伝ってくれよッ。	【Yamura】{rt}{name1}, give me all the help you{rt}can.	
+B18.0115	line		【伊涼】{rt}ずるいなあ。	【Isuzu】{rt}That's not fair.	
+B18.0116	line		【伊涼】{rt}そうやって、自分は楽する{rt}つもりなんじゃないの？	【Isuzu】{rt}Aren't you just trying to take it easy{rt}yourself?	
+B18.0117	line		【矢村】{rt}なッ―――なんて事をッ！！	【Yamura】{rt}Wh--what are you saying!!	
+B18.0118	line		【矢村】{rt}俺がそんな事を考える人間に{rt}見えるか？	【Yamura】{rt}Do I look like the kind of person who'd{rt}think that?	
+B18.0119	line		【伊涼】{rt}じゃあ、	【Isuzu】{rt}Then	
+B18.0120	line		【伊涼】{rt}{name1}くんを私が借りても、{rt}しっかり探せるよね？	【Isuzu】{rt}even if I borrow {name1}-kun, you{rt}can search properly, right?	
+B18.0121	line		【伊涼】{rt}じゃあ、	【Isuzu】{rt}Then	
+B18.0122	line		【伊涼】{rt}私が{name2}ちゃんと組んでも、{rt}しっかり探せるよね？	【Isuzu】{rt}even if I take {name2}-chan, you can{rt}search properly, right?	
+B18.0123	line		【矢村】{rt}あ、いや…{rt}その―――	【Yamura】{rt}Ah, no... well--	
+B18.0124	line		【矢村】{rt}それだけはご勘弁を…。	【Yamura】{rt}Anything but that...	
 B18.0125	line		【伊涼】{rt}あははッ。	【Isuzu】{rt}Ahaha.	
-B18.0126	line		【伊涼】{rt}もう、俊ったら、{rt}情けないんだから。		
-B18.0127	line		【伊涼】{rt}分かってるよ。		
-B18.0128	line		【伊涼】{rt}{name1}くんが俊を{rt}手伝ってくれれば、		
-B18.0129	line		【伊涼】{rt}能率が上がるのは間違いない{rt}もんね。		
+B18.0126	line		【伊涼】{rt}もう、俊ったら、{rt}情けないんだから。	【Isuzu】{rt}Geez, Shun, you're so pathetic.	
+B18.0127	line		【伊涼】{rt}分かってるよ。	【Isuzu】{rt}I know.	
+B18.0128	line		【伊涼】{rt}{name1}くんが俊を{rt}手伝ってくれれば、	【Isuzu】{rt}If {name1}-kun helps you, Shun,	
+B18.0129	line		【伊涼】{rt}能率が上がるのは間違いない{rt}もんね。	【Isuzu】{rt}it'll be way more efficient for sure.	
 B18.0130	line		【伊涼】{rt}あははッ。	【Isuzu】{rt}Ahaha.	
-B18.0131	line		【伊涼】{rt}もう、俊ったら、{rt}情けないんだから。		
-B18.0132	line		【伊涼】{rt}分かってるよ。		
-B18.0133	line		【伊涼】{rt}{name2}ちゃんが{rt}俊を手伝ってくれれば、		
-B18.0134	line		【伊涼】{rt}能率が上がるのは間違いない{rt}もんね。		
+B18.0131	line		【伊涼】{rt}もう、俊ったら、{rt}情けないんだから。	【Isuzu】{rt}Geez, Shun, you're so pathetic.	
+B18.0132	line		【伊涼】{rt}分かってるよ。	【Isuzu】{rt}I know.	
+B18.0133	line		【伊涼】{rt}{name2}ちゃんが{rt}俊を手伝ってくれれば、	【Isuzu】{rt}If {name2}-chan helps you, Shun,	
+B18.0134	line		【伊涼】{rt}能率が上がるのは間違いない{rt}もんね。	【Isuzu】{rt}it'll be way more efficient for sure.	
 B18.0135	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B18.0136	line		【矢村】{rt}…悔しいが、		
-B18.0137	line		【矢村】{rt}調べものが苦手な俺には{rt}反論できないよ。		
-B18.0138	line		【矢村】{rt}{name1}、頼む。		
-B18.0139	line		【矢村】{rt}非力な俺に{rt}手を貸してくれッ！！		
-B18.0140	choice		矢村と行く{rt}伊涼と行く{wc}		
-B18.0141	line		【伊涼】{rt}{name1}くんッ。		
-B18.0142	line		【伊涼】{rt}{name2}ちゃんッ。		
-B18.0143	line		【伊涼】{rt}私と一緒に行こう。		
-B18.0144	line		【矢村】{rt}なにィッ！？		
-B18.0145	line		【矢村】{rt}そ、それはどういう事だ、{rt}伊涼…。		
-B18.0146	line		【伊涼】{rt}怖い顔してもダメ。		
-B18.0147	line		【伊涼】{rt}最近、俊は{name1}くんに{rt}頼りすぎだよ。		
-B18.0148	line		【伊涼】{rt}{name2}ちゃんも思うでしょ？		
-B18.0149	line		【伊涼】{rt}いくら{name2}ちゃんが{rt}頼りになるっていっても――		
-B18.0150	line		【伊涼】{rt}俊は{name2}ちゃんを{rt}あてにしすぎだよ。		
-B18.0151	line		【伊涼】{rt}焔羅様はいつも俊に		
-B18.0152	line		【伊涼】{rt}『立派な勧請師になって{rt}もらいたい』		
-B18.0153	line		【伊涼】{rt}っていってたじゃない。		
-B18.0154	line		【伊涼】{rt}立派な勧請師は―――		
+B18.0136	line		【矢村】{rt}…悔しいが、	【Yamura】{rt}...Annoying as it is,	
+B18.0137	line		【矢村】{rt}調べものが苦手な俺には{rt}反論できないよ。	【Yamura】{rt}bad as I am at research, I can't{rt}argue.	
+B18.0138	line		【矢村】{rt}{name1}、頼む。	【Yamura】{rt}{name1}, please.	
+B18.0139	line		【矢村】{rt}非力な俺に{rt}手を貸してくれッ！！	【Yamura】{rt}Lend a hand to a weakling like me!!	
+B18.0140	choice		矢村と行く{rt}伊涼と行く{wc}	With Yamura{rt}With Isuzu{wc}	
+B18.0141	line		【伊涼】{rt}{name1}くんッ。	【Isuzu】{rt}{name1}-kun.	
+B18.0142	line		【伊涼】{rt}{name2}ちゃんッ。	【Isuzu】{rt}{name2}-chan.	
+B18.0143	line		【伊涼】{rt}私と一緒に行こう。	【Isuzu】{rt}Come with me.	
+B18.0144	line		【矢村】{rt}なにィッ！？	【Yamura】{rt}Whaaat!?	
+B18.0145	line		【矢村】{rt}そ、それはどういう事だ、{rt}伊涼…。	【Yamura】{rt}Wh-what's that supposed to mean,{rt}Isuzu...	
+B18.0146	line		【伊涼】{rt}怖い顔してもダメ。	【Isuzu】{rt}A scary face won't work.	
+B18.0147	line		【伊涼】{rt}最近、俊は{name1}くんに{rt}頼りすぎだよ。	【Isuzu】{rt}Lately you've been relying on{rt}{name1}-kun too much, Shun.	
+B18.0148	line		【伊涼】{rt}{name2}ちゃんも思うでしょ？	【Isuzu】{rt}Don't you think so too,{rt}{name2}-chan?	
+B18.0149	line		【伊涼】{rt}いくら{name2}ちゃんが{rt}頼りになるっていっても――	【Isuzu】{rt}However dependable {name2}-chan{rt}is--	
+B18.0150	line		【伊涼】{rt}俊は{name2}ちゃんを{rt}あてにしすぎだよ。	【Isuzu】{rt}Shun, you count on {name2}-chan too{rt}much.	
+B18.0151	line		【伊涼】{rt}焔羅様はいつも俊に	【Isuzu】{rt}Lord Enra was always telling you,	
+B18.0152	line		【伊涼】{rt}『立派な勧請師になって{rt}もらいたい』	【Isuzu】{rt}"I want you to become a fine{rt}Summoner,"	
+B18.0153	line		【伊涼】{rt}っていってたじゃない。	【Isuzu】{rt}wasn't he?	
+B18.0154	line		【伊涼】{rt}立派な勧請師は―――	【Isuzu】{rt}A fine Summoner--	
 B18.0155	line		【矢村】{rt}くッ―――。	【Yamura】{rt}Ngh--	
-B18.0156	line		【矢村】{rt}みなまでいうな、伊涼…。		
-B18.0157	line		【矢村】{rt}俺、泣きたくなってきた。		
-B18.0158	line		【伊涼】{rt}うッ。		
-B18.0159	line		【伊涼】{rt}ちょっと…いいすぎたかな？		
-B18.0160	line		【矢村】{rt}{name1}。		
-B18.0161	line		【矢村】{rt}俺が馬鹿だったよ。		
-B18.0162	line		【矢村】{rt}俺は自らの精進のためにも、{rt}ひとりで探す事にするよ。		
-B18.0163	line		【矢村】{rt}よくぞ俺に気付かせてくれた。		
-B18.0164	line		【矢村】{rt}伊涼さん、ありがとうッ。		
-B18.0165	line		【伊涼】{rt}やっぱり、{rt}いいすぎたみたい…。		
-B18.0166	line		【矢村】{rt}じゃ、俺は行くよ。		
-B18.0167	line		【矢村】{rt}{name1}、		
-B18.0168	line		【矢村】{rt}お前は好きにするといい。		
-B18.0169	line		【伊涼】{rt}あッ―――		
+B18.0156	line		【矢村】{rt}みなまでいうな、伊涼…。	【Yamura】{rt}Don't say any more, Isuzu...	
+B18.0157	line		【矢村】{rt}俺、泣きたくなってきた。	【Yamura】{rt}I'm starting to want to cry.	
+B18.0158	line		【伊涼】{rt}うッ。	【Isuzu】{rt}Ugh.	
+B18.0159	line		【伊涼】{rt}ちょっと…いいすぎたかな？	【Isuzu】{rt}Did I... go a bit too far?	
+B18.0160	line		【矢村】{rt}{name1}。	【Yamura】{rt}{name1}.	
+B18.0161	line		【矢村】{rt}俺が馬鹿だったよ。	【Yamura】{rt}I was a fool.	
+B18.0162	line		【矢村】{rt}俺は自らの精進のためにも、{rt}ひとりで探す事にするよ。	【Yamura】{rt}For my own training, I'll search{rt}alone.	
+B18.0163	line		【矢村】{rt}よくぞ俺に気付かせてくれた。	【Yamura】{rt}You've opened my eyes.	
+B18.0164	line		【矢村】{rt}伊涼さん、ありがとうッ。	【Yamura】{rt}Thank you, Isuzu-san.	
+B18.0165	line		【伊涼】{rt}やっぱり、{rt}いいすぎたみたい…。	【Isuzu】{rt}Looks like I did go too far...	
+B18.0166	line		【矢村】{rt}じゃ、俺は行くよ。	【Yamura】{rt}Well, I'm off.	
+B18.0167	line		【矢村】{rt}{name1}、	【Yamura】{rt}{name1},	
+B18.0168	line		【矢村】{rt}お前は好きにするといい。	【Yamura】{rt}Do as you like.	
+B18.0169	line		【伊涼】{rt}あッ―――	【Isuzu】{rt}Ah--	
 B18.0170	line		【伊涼】{rt}俊…。	【Isuzu】{rt}Shun...	
-B18.0171	choice		矢村と行く{rt}伊涼と行く{wc}		
-B18.0172	line		【矢村】{rt}{name1}、		
-B18.0173	line		【矢村】{rt}俺と伊涼と、どっちを手伝って{rt}くれるんだ？		
-B18.0174	choice		矢村と行く{rt}伊涼と行く{wc}		
-B18.0175	line		【伊涼】{rt}…そっか。		
-B18.0176	line		【伊涼】{rt}俊を手伝ってくれるのね。		
-B18.0177	line		【矢村】{rt}ありがとう、{name1}。		
-B18.0178	line		【矢村】{rt}助かるよ。		
+B18.0171	choice		矢村と行く{rt}伊涼と行く{wc}	With Yamura{rt}With Isuzu{wc}	
+B18.0172	line		【矢村】{rt}{name1}、	【Yamura】{rt}{name1},	
+B18.0173	line		【矢村】{rt}俺と伊涼と、どっちを手伝って{rt}くれるんだ？	【Yamura】{rt}Which of us will you help, me or{rt}Isuzu?	
+B18.0174	choice		矢村と行く{rt}伊涼と行く{wc}	With Yamura{rt}With Isuzu{wc}	
+B18.0175	line		【伊涼】{rt}…そっか。	【Isuzu】{rt}...I see.	
+B18.0176	line		【伊涼】{rt}俊を手伝ってくれるのね。	【Isuzu】{rt}You'll help Shun.	
+B18.0177	line		【矢村】{rt}ありがとう、{name1}。	【Yamura】{rt}Thanks, {name1}.	
+B18.0178	line		【矢村】{rt}助かるよ。	【Yamura】{rt}That helps.	
 B18.0179	line		【矢村】{rt}そうか…。	【Yamura】{rt}I see...	
-B18.0180	line		【矢村】{rt}ま、手が空いたら、{rt}俺の方も手伝ってくれよ。		
-B18.0181	line		【矢村】{rt}俺は俺で、頑張るから。		
-B18.0182	line		【矢村】{rt}そうか。		
-B18.0183	line		【矢村】{rt}やってくれるか、{name1}ッ！！		
-B18.0184	line		【伊涼】{rt}やったッ！！		
-B18.0185	line		【伊涼】{rt}ありがとう、{name1}くん。		
-B18.0186	line		【伊涼】{rt}ありがとう、{name2}ちゃん。		
-B18.0187	line		【伊涼】{rt}じゃ、私は向こうで歴史関係の{rt}本を当たってみる。		
-B18.0188	line		【伊涼】{rt}ふたりはここで、伝承・伝説{rt}関係の書物を調べて。		
-B18.0189	line		【伊涼】{rt}じゃ、お願いね。		
-B18.0190	line		【伊涼】{rt}頼りにしてるよッ。		
-B18.0191	line		【矢村】{rt}あ、ああ…。		
-B18.0192	line		【矢村】{rt}（まあ、程々にな…。）		
-B18.0193	line		【矢村】{rt}さてと。		
-B18.0194	line		【矢村】{rt}伊涼がああじゃ、{rt}俺たちも		
-B18.0195	line		【矢村】{rt}やる気を出さない{rt}訳には行かないな。		
-B18.0196	line		【矢村】{rt}自分でいうのも何だが、		
-B18.0197	line		【矢村】{rt}俺はこういう調べものってのが{rt}大の苦手なんだ。		
-B18.0198	line		【矢村】{rt}最初から最後まで読まないで{rt}次の本に移るってのは、		
-B18.0199	line		【矢村】{rt}繰り返してると、どうも{rt}気持ち悪くなってくる…。		
-B18.0200	line		【矢村】{rt}本は嫌いじゃないが―――		
-B18.0201	line		【矢村】{rt}図書館は好かない…。		
-B18.0202	line		【矢村】{rt}そこでお前の手が必要なんだ。		
-B18.0203	line		【矢村】{rt}『本は心の目で探せ』だ。		
-B18.0204	line		【矢村】{rt}…グッドラック。{rt}{name1}。		
-B18.0205	choice		たむらのそうし{rt}鈴鹿山の鬼伝承{wc}		
-B18.0206	line		【矢村】{rt}さすがは氏神様ッ！！		
-B18.0207	line		【矢村】{rt}なに、絵本？どれどれ？		
+B18.0180	line		【矢村】{rt}ま、手が空いたら、{rt}俺の方も手伝ってくれよ。	【Yamura】{rt}Well, when you've got a free hand, help{rt}me out too.	
+B18.0181	line		【矢村】{rt}俺は俺で、頑張るから。	【Yamura】{rt}I'll do my best on my own.	
+B18.0182	line		【矢村】{rt}そうか。	【Yamura】{rt}I see.	
+B18.0183	line		【矢村】{rt}やってくれるか、{name1}ッ！！	【Yamura】{rt}You'll do it, {name1}!!	
+B18.0184	line		【伊涼】{rt}やったッ！！	【Isuzu】{rt}Yay!!	
+B18.0185	line		【伊涼】{rt}ありがとう、{name1}くん。	【Isuzu】{rt}Thank you, {name1}-kun.	
+B18.0186	line		【伊涼】{rt}ありがとう、{name2}ちゃん。	【Isuzu】{rt}Thank you, {name2}-chan.	
+B18.0187	line		【伊涼】{rt}じゃ、私は向こうで歴史関係の{rt}本を当たってみる。	【Isuzu】{rt}Then I'll try the history books over{rt}there.	
+B18.0188	line		【伊涼】{rt}ふたりはここで、伝承・伝説{rt}関係の書物を調べて。	【Isuzu】{rt}You two look through the folklore and{rt}legend books here.	
+B18.0189	line		【伊涼】{rt}じゃ、お願いね。	【Isuzu】{rt}Okay, I'm counting on you.	
+B18.0190	line		【伊涼】{rt}頼りにしてるよッ。	【Isuzu】{rt}I'm relying on you!	
+B18.0191	line		【矢村】{rt}あ、ああ…。	【Yamura】{rt}R-right...	
+B18.0192	line		【矢村】{rt}（まあ、程々にな…。）	【Yamura】{rt}(Well, within reason...)	
+B18.0193	line		【矢村】{rt}さてと。	【Yamura】{rt}Right then.	
+B18.0194	line		【矢村】{rt}伊涼がああじゃ、{rt}俺たちも	【Yamura】{rt}With Isuzu like that, we can't	
+B18.0195	line		【矢村】{rt}やる気を出さない{rt}訳には行かないな。	【Yamura】{rt}not put some effort in either.	
+B18.0196	line		【矢村】{rt}自分でいうのも何だが、	【Yamura】{rt}I hate to say it myself, but	
+B18.0197	line		【矢村】{rt}俺はこういう調べものってのが{rt}大の苦手なんだ。	【Yamura】{rt}I'm terrible at this kind of research.	
+B18.0198	line		【矢村】{rt}最初から最後まで読まないで{rt}次の本に移るってのは、	【Yamura】{rt}Jumping to the next book without{rt}reading one cover to cover--	
+B18.0199	line		【矢村】{rt}繰り返してると、どうも{rt}気持ち悪くなってくる…。	【Yamura】{rt}keep doing that and I start feeling{rt}sick...	
+B18.0200	line		【矢村】{rt}本は嫌いじゃないが―――	【Yamura】{rt}I don't dislike books--	
+B18.0201	line		【矢村】{rt}図書館は好かない…。	【Yamura】{rt}but I don't like libraries...	
+B18.0202	line		【矢村】{rt}そこでお前の手が必要なんだ。	【Yamura】{rt}That's where I need your help.	
+B18.0203	line		【矢村】{rt}『本は心の目で探せ』だ。	【Yamura】{rt}"Seek books with the eye of the{rt}heart."	
+B18.0204	line		【矢村】{rt}…グッドラック。{rt}{name1}。	【Yamura】{rt}...Good luck, {name1}.	
+B18.0205	choice		たむらのそうし{rt}鈴鹿山の鬼伝承{wc}	Tamura Tale{rt}Suzuka Oni{wc}	
+B18.0206	line		【矢村】{rt}さすがは氏神様ッ！！	【Yamura】{rt}That's an Ujigami for you!!	
+B18.0207	line		【矢村】{rt}なに、絵本？どれどれ？	【Yamura】{rt}What, a picture book? Let's see...	
 B18.0208	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B18.0209	line		【矢村】{rt}―――おおッ。		
-B18.0210	line		【矢村】{rt}『たむらまろは、{rt}　すずか山へのぼり、		
-B18.0211	line		【矢村】{rt}　すずか姫と力をあわせて{rt}　鬼をたいじしました。』		
-B18.0212	line		【矢村】{rt}鈴鹿姫！！		
-B18.0213	line		【矢村】{rt}鈴鹿御前の事か！？		
-B18.0214	line		【矢村】{rt}そうすると、《たむらまろ》{rt}ってのは藤原俊宗に、		
-B18.0215	line		【矢村】{rt}《鬼》ってのは高丸になる…。		
-B18.0216	line		【矢村】{rt}《鬼》…。		
-B18.0217	line		【矢村】{rt}奴の事を《鬼》と呼ぶ{rt}人間もいたのか―――。		
-B18.0218	line		【高丸】{rt}光の届かぬところこそ、{rt}まさに影となる…。		
-B18.0219	line		【高丸】{rt}やがて彼らの目は《陰》を{rt}同じ人間だった者から		
-B18.0220	line		【高丸】{rt}次第に得体の知れない{rt}《何か》と		
-B18.0221	line		【高丸】{rt}意識するようになっていった。		
-B18.0222	line		【矢村】{rt}《陰の者》{rt}―――		
+B18.0209	line		【矢村】{rt}―――おおッ。	【Yamura】{rt}--Oh.	
+B18.0210	line		【矢村】{rt}『たむらまろは、{rt}　すずか山へのぼり、	【Yamura】{rt}"Tamuramaro climbed Mt. Suzuka,	
+B18.0211	line		【矢村】{rt}　すずか姫と力をあわせて{rt}　鬼をたいじしました。』	【Yamura】{rt}and with Princess Suzuka, he beat the{rt}oni."	
+B18.0212	line		【矢村】{rt}鈴鹿姫！！	【Yamura】{rt}Princess Suzuka!!	
+B18.0213	line		【矢村】{rt}鈴鹿御前の事か！？	【Yamura】{rt}Does that mean Suzuka Gozen!?	
+B18.0214	line		【矢村】{rt}そうすると、《たむらまろ》{rt}ってのは藤原俊宗に、	【Yamura】{rt}Then "Tamuramaro" would be Fujiwara{rt}no Toshimune,	
+B18.0215	line		【矢村】{rt}《鬼》ってのは高丸になる…。	【Yamura】{rt}and the "oni" would be Takamaru...	
+B18.0216	line		【矢村】{rt}《鬼》…。	【Yamura】{rt}"Oni"...	
+B18.0217	line		【矢村】{rt}奴の事を《鬼》と呼ぶ{rt}人間もいたのか―――。	【Yamura】{rt}So there were people who called him an{rt}oni--	
+B18.0218	line		【高丸】{rt}光の届かぬところこそ、{rt}まさに影となる…。	【Takamaru】{rt}Where light cannot reach, there truly{rt}lies shadow...	
+B18.0219	line		【高丸】{rt}やがて彼らの目は《陰》を{rt}同じ人間だった者から	【Takamaru】{rt}In time, their eyes came to see the{rt}Shade, once fellow humans,	
+B18.0220	line		【高丸】{rt}次第に得体の知れない{rt}《何か》と	【Takamaru】{rt}as some unknown Thing,	
+B18.0221	line		【高丸】{rt}意識するようになっていった。	【Takamaru】{rt}more and more.	
+B18.0222	line		【矢村】{rt}《陰の者》{rt}―――	【Yamura】{rt}The Shade folk--	
 B18.0223	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B18.0224	line		【矢村】{rt}…おっと。続きを読もう。		
-B18.0225	line		【矢村】{rt}『ごわああ！！		
-B18.0226	line		【矢村】{rt}　鬼のくびはものすごい{rt}　さけび声をあげて、		
-B18.0227	line		【矢村】{rt}　空をとびました。		
-B18.0228	line		【矢村】{rt}　たむらまろは、すずか姫と{rt}　けっこんし、		
-B18.0229	line		【矢村】{rt}　しあわせに{rt}　くらしましたとさ。		
-B18.0230	line		【矢村】{rt}　めでたし、めでたし――』		
+B18.0224	line		【矢村】{rt}…おっと。続きを読もう。	【Yamura】{rt}...Whoops. Let's read on.	
+B18.0225	line		【矢村】{rt}『ごわああ！！	【Yamura】{rt}"GWAAAH!!	
+B18.0226	line		【矢村】{rt}　鬼のくびはものすごい{rt}　さけび声をあげて、	【Yamura】{rt}The oni's head gave a terrible{rt}scream	
+B18.0227	line		【矢村】{rt}　空をとびました。	【Yamura】{rt}and flew through the sky.	
+B18.0228	line		【矢村】{rt}　たむらまろは、すずか姫と{rt}　けっこんし、	【Yamura】{rt}Tamuramaro married Princess{rt}Suzuka,	
+B18.0229	line		【矢村】{rt}　しあわせに{rt}　くらしましたとさ。	【Yamura】{rt}and they lived happily ever after.	
+B18.0230	line		【矢村】{rt}　めでたし、めでたし――』	【Yamura】{rt}The end--"	
 B18.0231	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B18.0232	line		【矢村】{rt}…ふうむ。		
-B18.0233	line		【矢村】{rt}最近はこんなマニアックなネタ{rt}も、絵本になるんだなあ…。		
-B18.0234	line		【矢村】{rt}とはいえ、おかげでこの話が		
-B18.0235	line		【矢村】{rt}伝承という形で{rt}実在しているのが		
-B18.0236	line		【矢村】{rt}確かそうだというのが{rt}分かった。		
-B18.0237	line		【矢村】{rt}まあ、それ以外に何があるか{rt}っていうと―――		
-B18.0238	line		【矢村】{rt}何もないんだけどな。		
-B18.0239	line		【矢村】{rt}ま、絵本じゃ上出来な方か。		
-B18.0240	line		【矢村】{rt}（しあわせに。）		
-B18.0241	line		【矢村】{rt}（…悪くない。）		
+B18.0232	line		【矢村】{rt}…ふうむ。	【Yamura】{rt}...Hmm.	
+B18.0233	line		【矢村】{rt}最近はこんなマニアックなネタ{rt}も、絵本になるんだなあ…。	【Yamura】{rt}These days even geeky stuff like this{rt}gets made into picture books...	
+B18.0234	line		【矢村】{rt}とはいえ、おかげでこの話が	【Yamura】{rt}Still, thanks to it,	
+B18.0235	line		【矢村】{rt}伝承という形で{rt}実在しているのが	【Yamura】{rt}we know this story really does	
+B18.0236	line		【矢村】{rt}確かそうだというのが{rt}分かった。	【Yamura】{rt}exist as a legend.	
+B18.0237	line		【矢村】{rt}まあ、それ以外に何があるか{rt}っていうと―――	【Yamura】{rt}Well, as for anything else in it--	
+B18.0238	line		【矢村】{rt}何もないんだけどな。	【Yamura】{rt}there's nothing.	
+B18.0239	line		【矢村】{rt}ま、絵本じゃ上出来な方か。	【Yamura】{rt}Well, for a picture book, that's pretty{rt}good.	
+B18.0240	line		【矢村】{rt}（しあわせに。）	【Yamura】{rt}(Happily ever after.)	
+B18.0241	line		【矢村】{rt}（…悪くない。）	【Yamura】{rt}(...Not bad.)	
 B18.0242	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B18.0243	line		【矢村】{rt}―――は！？		
-B18.0244	line		【矢村】{rt}…こほん。		
-B18.0245	line		【矢村】{rt}{name1}―――。		
-B18.0246	line		【矢村】{rt}実に惜しい。が―――		
-B18.0247	line		【矢村】{rt}お前、な、なんか勘違いして{rt}ないかッ？		
-B18.0248	line		【矢村】{rt}{name1}…。		
-B18.0249	line		【矢村】{rt}もっと真面目に探せーッ！！		
-B18.0250	line		【矢村】{rt}…ったく。		
-B18.0251	line		【矢村】{rt}ん…？		
-B18.0252	line		【矢村】{rt}なんだ、そりゃあ？		
-B18.0253	line		【矢村】{rt}誰かが挟んだヘソクリか？		
-B18.0254	line		【矢村】{rt}まあいい。		
-B18.0255	line		【矢村】{rt}次行こう、次ッ。		
-B18.0256	choice		鈴鹿山の鬼伝承{wc}		
-B18.0257	line		【矢村】{rt}鈴鹿山…。		
-B18.0258	line		【矢村】{rt}高丸が自分の城と呼んだ山か{rt}―――。		
-B18.0259	line		【矢村】{rt}見せてくれ。		
-B18.0260	line		【矢村】{rt}『三重県の鈴鹿山は、{rt}　朝廷に背く者が現れる事で		
-B18.0261	line		【矢村】{rt}　古くから魔の巣窟とされた。		
-B18.0262	line		【矢村】{rt}　まるで、討ち取られた{rt}　逆賊たちの怨念が		
-B18.0263	line		【矢村】{rt}　歴史を超えてそこにとどまり{rt}　続けているかのように、		
-B18.0264	line		【矢村】{rt}　次の逆賊もまたこの地へ{rt}　向かい		
-B18.0265	line		【矢村】{rt}　ここに本拠を構えた。		
-B18.0266	line		【矢村】{rt}　実際には怨念などというもの{rt}　が存在するはずもない。		
-B18.0267	line		【矢村】{rt}　本書は、鈴鹿山に		
-B18.0268	line		【矢村】{rt}　いかようにしてそのような{rt}　者たちが集ったかを、		
-B18.0269	line		【矢村】{rt}　可能な限り論理的な{rt}　観点で紐解き―――』		
-B18.0270	choice		矢村を止める{rt}終わるのを待つ{wc}		
-B18.0271	line		【矢村】{rt}ん…？		
-B18.0272	line		【矢村】{rt}あ、ああ。そうだな。		
-B18.0273	line		【矢村】{rt}探してたのは高丸について{rt}だったな。		
-B18.0274	line		【矢村】{rt}ふむふむ…。		
+B18.0243	line		【矢村】{rt}―――は！？	【Yamura】{rt}--Huh!?	
+B18.0244	line		【矢村】{rt}…こほん。	【Yamura】{rt}...Ahem.	
+B18.0245	line		【矢村】{rt}{name1}―――。	【Yamura】{rt}{name1}--	
+B18.0246	line		【矢村】{rt}実に惜しい。が―――	【Yamura】{rt}So close. But--	
+B18.0247	line		【矢村】{rt}お前、な、なんか勘違いして{rt}ないかッ？	【Yamura】{rt}y-you're not getting the wrong idea,{rt}are you?	
+B18.0248	line		【矢村】{rt}{name1}…。	【Yamura】{rt}{name1}...	
+B18.0249	line		【矢村】{rt}もっと真面目に探せーッ！！	【Yamura】{rt}Search more seriously!!	
+B18.0250	line		【矢村】{rt}…ったく。	【Yamura】{rt}...Honestly.	
+B18.0251	line		【矢村】{rt}ん…？	【Yamura】{rt}Hm...?	
+B18.0252	line		【矢村】{rt}なんだ、そりゃあ？	【Yamura】{rt}What's that?	
+B18.0253	line		【矢村】{rt}誰かが挟んだヘソクリか？	【Yamura】{rt}Someone's secret stash tucked in{rt}there?	
+B18.0254	line		【矢村】{rt}まあいい。	【Yamura】{rt}Well, whatever.	
+B18.0255	line		【矢村】{rt}次行こう、次ッ。	【Yamura】{rt}Next, next one.	
+B18.0256	choice		鈴鹿山の鬼伝承{wc}	Suzuka Oni{wc}	
+B18.0257	line		【矢村】{rt}鈴鹿山…。	【Yamura】{rt}Mt. Suzuka...	
+B18.0258	line		【矢村】{rt}高丸が自分の城と呼んだ山か{rt}―――。	【Yamura】{rt}The mountain Takamaru called his{rt}castle--	
+B18.0259	line		【矢村】{rt}見せてくれ。	【Yamura】{rt}Show me.	
+B18.0260	line		【矢村】{rt}『三重県の鈴鹿山は、{rt}　朝廷に背く者が現れる事で	【Yamura】{rt}"Mt. Suzuka in Mie Prefecture, where{rt}rebels	
+B18.0261	line		【矢村】{rt}　古くから魔の巣窟とされた。	【Yamura】{rt}against the Court arose, was long held{rt}a den of evil.	
+B18.0262	line		【矢村】{rt}　まるで、討ち取られた{rt}　逆賊たちの怨念が	【Yamura】{rt}As if the grudges of slain traitors	
+B18.0263	line		【矢村】{rt}　歴史を超えてそこにとどまり{rt}　続けているかのように、	【Yamura】{rt}lingered there beyond history,	
+B18.0264	line		【矢村】{rt}　次の逆賊もまたこの地へ{rt}　向かい	【Yamura】{rt}each new traitor in turn came to this{rt}land	
+B18.0265	line		【矢村】{rt}　ここに本拠を構えた。	【Yamura】{rt}and made his base here.	
+B18.0266	line		【矢村】{rt}　実際には怨念などというもの{rt}　が存在するはずもない。	【Yamura】{rt}In fact, there can be no such thing as{rt}a grudge.	
+B18.0267	line		【矢村】{rt}　本書は、鈴鹿山に	【Yamura】{rt}This book unravels,	
+B18.0268	line		【矢村】{rt}　いかようにしてそのような{rt}　者たちが集ったかを、	【Yamura】{rt}from as logical a viewpoint as{rt}possible,	
+B18.0269	line		【矢村】{rt}　可能な限り論理的な{rt}　観点で紐解き―――』	【Yamura】{rt}how such people gathered on Mt.{rt}Suzuka--"	
+B18.0270	choice		矢村を止める{rt}終わるのを待つ{wc}	Stop Yamura{rt}Wait{wc}	
+B18.0271	line		【矢村】{rt}ん…？	【Yamura】{rt}Hm...?	
+B18.0272	line		【矢村】{rt}あ、ああ。そうだな。	【Yamura】{rt}Ah, r-right. You're right.	
+B18.0273	line		【矢村】{rt}探してたのは高丸について{rt}だったな。	【Yamura】{rt}We were looking for Takamaru.	
+B18.0274	line		【矢村】{rt}ふむふむ…。	【Yamura】{rt}Hmm, hmm...	
 B18.0275	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B18.0276	line		【矢村】{rt}なあ、{name1}。		
-B18.0277	line		【矢村】{rt}向こうの椅子に行かないか？		
-B18.0278	line		【矢村】{rt}この、藤原千方（ちかた）って{rt}奴の話が、なかなか―――		
-B18.0279	line		【矢村】{rt}………？		
-B18.0280	line		【矢村】{rt}―――ああッ。		
-B18.0281	line		【矢村】{rt}（またやってしまった…。）		
-B18.0282	line		【矢村】{rt}すまん、{name1}。		
-B18.0283	line		【矢村】{rt}探してたのは高丸について{rt}だった。		
-B18.0284	line		【矢村】{rt}目次、目次と…。		
-B18.0285	line		【矢村】{rt}―――ん？		
-B18.0286	line		【矢村】{rt}『平安時代・大嶽丸と{rt}　藤原俊宗』		
-B18.0287	line		【矢村】{rt}―――これかッ。		
-B18.0288	line		【矢村】{rt}『鈴鹿山の逆賊の中で、最も{rt}　強く反抗した者といえば		
-B18.0289	line		【矢村】{rt}　平安時代に現れた大嶽丸{rt}　（おおたけまる）である』		
-B18.0290	line		【矢村】{rt}『大嶽丸はただの賊にとどま{rt}　らず、強力な妖力を持ち、		
-B18.0291	line		【矢村】{rt}　それを駆使して朝廷を倒し、		
-B18.0292	line		【矢村】{rt}　日本に魔国を創りあげようと{rt}　画策していたという。』		
-B18.0293	line		【高丸】{rt}このふやけた国を		
-B18.0294	line		【高丸】{rt}《陰の者》―――{rt}己たちの国として		
-B18.0295	line		【高丸】{rt}塗り替える事ができるッ。		
-B18.0296	line		【矢村】{rt}高丸の言っていた{rt}事と重なる…。		
-B18.0297	line		【矢村】{rt}この大嶽丸という奴が、{rt}高丸の正体なのか？		
-B18.0298	line		【矢村】{rt}いや、まだだ―――。		
-B18.0299	line		【矢村】{rt}それを知るためには{rt}藤原俊宗が出てこないと…。		
+B18.0276	line		【矢村】{rt}なあ、{name1}。	【Yamura】{rt}Hey, {name1}.	
+B18.0277	line		【矢村】{rt}向こうの椅子に行かないか？	【Yamura】{rt}Want to move to the chairs over{rt}there?	
+B18.0278	line		【矢村】{rt}この、藤原千方（ちかた）って{rt}奴の話が、なかなか―――	【Yamura】{rt}This story about Fujiwara no Chikata is{rt}really quite--	
+B18.0279	line		【矢村】{rt}………？	【Yamura】{rt}......?	
+B18.0280	line		【矢村】{rt}―――ああッ。	【Yamura】{rt}--Ahh.	
+B18.0281	line		【矢村】{rt}（またやってしまった…。）	【Yamura】{rt}(I did it again...)	
+B18.0282	line		【矢村】{rt}すまん、{name1}。	【Yamura】{rt}Sorry, {name1}.	
+B18.0283	line		【矢村】{rt}探してたのは高丸について{rt}だった。	【Yamura】{rt}We were looking for Takamaru.	
+B18.0284	line		【矢村】{rt}目次、目次と…。	【Yamura】{rt}The contents, the contents...	
+B18.0285	line		【矢村】{rt}―――ん？	【Yamura】{rt}--Hm?	
+B18.0286	line		【矢村】{rt}『平安時代・大嶽丸と{rt}　藤原俊宗』	【Yamura】{rt}"The Heian Period: Otakemaru and{rt}Fujiwara no Toshimune"	
+B18.0287	line		【矢村】{rt}―――これかッ。	【Yamura】{rt}--This is it.	
+B18.0288	line		【矢村】{rt}『鈴鹿山の逆賊の中で、最も{rt}　強く反抗した者といえば	【Yamura】{rt}"Of the rebels of Mt. Suzuka, the one{rt}who resisted hardest	
+B18.0289	line		【矢村】{rt}　平安時代に現れた大嶽丸{rt}　（おおたけまる）である』	【Yamura】{rt}was Otakemaru, who appeared in the{rt}Heian Period."	
+B18.0290	line		【矢村】{rt}『大嶽丸はただの賊にとどま{rt}　らず、強力な妖力を持ち、	【Yamura】{rt}"Otakemaru was no mere bandit; he had{rt}strong demon power,	
+B18.0291	line		【矢村】{rt}　それを駆使して朝廷を倒し、	【Yamura】{rt}and is said to have plotted to use it to{rt}overthrow the Court	
+B18.0292	line		【矢村】{rt}　日本に魔国を創りあげようと{rt}　画策していたという。』	【Yamura】{rt}and build a demon nation in Japan."	
+B18.0293	line		【高丸】{rt}このふやけた国を	【Takamaru】{rt}This flabby country	
+B18.0294	line		【高丸】{rt}《陰の者》―――{rt}己たちの国として	【Takamaru】{rt}can be repainted as the country	
+B18.0295	line		【高丸】{rt}塗り替える事ができるッ。	【Takamaru】{rt}of the Shade folk--ours!	
+B18.0296	line		【矢村】{rt}高丸の言っていた{rt}事と重なる…。	【Yamura】{rt}It matches what Takamaru said...	
+B18.0297	line		【矢村】{rt}この大嶽丸という奴が、{rt}高丸の正体なのか？	【Yamura】{rt}Is this Otakemaru who Takamaru really{rt}is?	
+B18.0298	line		【矢村】{rt}いや、まだだ―――。	【Yamura】{rt}No, not yet--	
+B18.0299	line		【矢村】{rt}それを知るためには{rt}藤原俊宗が出てこないと…。	【Yamura】{rt}To know that, Fujiwara no Toshimune{rt}has to show up...	
 B18.0300	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B18.0301	line		【矢村】{rt}ん―――！！		
-B18.0302	line		【矢村】{rt}―――あった。		
-B18.0303	line		【矢村】{rt}『しかし、大嶽丸の最期も…		
-B18.0304	line		【矢村】{rt}　藤原千方（ちかた）と同じく{rt}　来るべくしてやってきた。		
-B18.0305	line		【矢村】{rt}　天皇に討伐を命じられた{rt}　若き将軍、藤原俊宗が		
-B18.0306	line		【矢村】{rt}　鈴鹿山に攻め入ったのだ。		
-B18.0307	line		【矢村】{rt}　大嶽丸も果敢に抵抗したが、{rt}　軍配は俊宗に上がった。		
-B18.0308	line		【矢村】{rt}　その背後には、		
-B18.0309	line		【矢村】{rt}　俊宗を助けたという{rt}　天女の存在がある。		
-B18.0310	line		【矢村】{rt}　彼女の名は鈴鹿御前――』		
-B18.0311	line		【矢村】{rt}『伝承では俊宗は討伐の後に{rt}　彼女と結ばれ、		
-B18.0312	line		【矢村】{rt}　その後に復活した大嶽丸をも{rt}　彼女と協力し、		
-B18.0313	line		【矢村】{rt}　討ち取ったという。』		
+B18.0301	line		【矢村】{rt}ん―――！！	【Yamura】{rt}Hm--!!	
+B18.0302	line		【矢村】{rt}―――あった。	【Yamura】{rt}--Found it.	
+B18.0303	line		【矢村】{rt}『しかし、大嶽丸の最期も…	【Yamura】{rt}"But Otakemaru's end, too...	
+B18.0304	line		【矢村】{rt}　藤原千方（ちかた）と同じく{rt}　来るべくしてやってきた。	【Yamura】{rt}came as surely as Fujiwara no{rt}Chikata's.	
+B18.0305	line		【矢村】{rt}　天皇に討伐を命じられた{rt}　若き将軍、藤原俊宗が	【Yamura】{rt}The young general Fujiwara no{rt}Toshimune, ordered by the Emperor	
+B18.0306	line		【矢村】{rt}　鈴鹿山に攻め入ったのだ。	【Yamura】{rt}to subdue him, attacked Mt. Suzuka.	
+B18.0307	line		【矢村】{rt}　大嶽丸も果敢に抵抗したが、{rt}　軍配は俊宗に上がった。	【Yamura】{rt}Otakemaru resisted bravely, but{rt}victory went to Toshimune.	
+B18.0308	line		【矢村】{rt}　その背後には、	【Yamura】{rt}Behind this	
+B18.0309	line		【矢村】{rt}　俊宗を助けたという{rt}　天女の存在がある。	【Yamura】{rt}was a celestial maiden said to have{rt}helped Toshimune.	
+B18.0310	line		【矢村】{rt}　彼女の名は鈴鹿御前――』	【Yamura】{rt}Her name was Suzuka Gozen--"	
+B18.0311	line		【矢村】{rt}『伝承では俊宗は討伐の後に{rt}　彼女と結ばれ、	【Yamura】{rt}"Legend says Toshimune married her{rt}after the campaign,	
+B18.0312	line		【矢村】{rt}　その後に復活した大嶽丸をも{rt}　彼女と協力し、	【Yamura】{rt}and with her help struck down	
+B18.0313	line		【矢村】{rt}　討ち取ったという。』	【Yamura】{rt}Otakemaru again when he later{rt}revived."	
 B18.0314	line		【高丸】{rt}歴史は繰り返す。	【Takamaru】{rt}History repeats itself.	
-B18.0315	line		【高丸】{rt}己はもう一度{rt}復活するだろう。		
-B18.0316	line		【矢村】{rt}これもそうだ！！		
-B18.0317	line		【矢村】{rt}斃され、蘇り、斃される…。		
-B18.0318	line		【矢村】{rt}転生である俺たちを{rt}手にかける事によって―――		
-B18.0319	line		【矢村】{rt}奴は、それを…		
-B18.0320	line		【矢村】{rt}繰り返す歴史の因果を{rt}くつがえす気だったんだ。		
-B18.0321	line		【矢村】{rt}奴の思うまま世界が変化したら{rt}間違いなく日本は邪氣が覆う		
-B18.0322	line		【矢村】{rt}本がいうような《魔国》と{rt}化す。		
-B18.0323	line		【矢村】{rt}{name1}―――		
-B18.0324	line		【矢村】{rt}そうさせないためにも、		
-B18.0325	line		【矢村】{rt}俺たちは{rt}奴を討たねばならない…。		
-B18.0326	line		【矢村】{rt}そうなんだよな？		
+B18.0315	line		【高丸】{rt}己はもう一度{rt}復活するだろう。	【Takamaru】{rt}I will be revived once again.	
+B18.0316	line		【矢村】{rt}これもそうだ！！	【Yamura】{rt}This matches too!!	
+B18.0317	line		【矢村】{rt}斃され、蘇り、斃される…。	【Yamura】{rt}Struck down, revived, struck down...	
+B18.0318	line		【矢村】{rt}転生である俺たちを{rt}手にかける事によって―――	【Yamura】{rt}By killing us, the reincarnations--	
+B18.0319	line		【矢村】{rt}奴は、それを…	【Yamura】{rt}he meant to...	
+B18.0320	line		【矢村】{rt}繰り返す歴史の因果を{rt}くつがえす気だったんだ。	【Yamura】{rt}overturn the karma of a history that{rt}repeats.	
+B18.0321	line		【矢村】{rt}奴の思うまま世界が変化したら{rt}間違いなく日本は邪氣が覆う	【Yamura】{rt}If the world changes as he wishes,{rt}Miasma will cover Japan	
+B18.0322	line		【矢村】{rt}本がいうような《魔国》と{rt}化す。	【Yamura】{rt}and it'll become the "demon nation" the{rt}book speaks of.	
+B18.0323	line		【矢村】{rt}{name1}―――	【Yamura】{rt}{name1}--	
+B18.0324	line		【矢村】{rt}そうさせないためにも、	【Yamura】{rt}To stop that from happening,	
+B18.0325	line		【矢村】{rt}俺たちは{rt}奴を討たねばならない…。	【Yamura】{rt}we have to strike him down...	
+B18.0326	line		【矢村】{rt}そうなんだよな？	【Yamura】{rt}That's right, isn't it?	
 B18.0327	line		【矢村】{rt}ああ…。	【Yamura】{rt}Yeah...	
 B18.0328	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B18.0329	line		【矢村】{rt}聞いてくれ、{name1}…。		
-B18.0330	line		【矢村】{rt}実を言えば俺は奴の言い分も{rt}理解できる気がするんだ。		
-B18.0331	line		【矢村】{rt}さっき俺がいった事とは全く{rt}逆になってしまう。		
-B18.0332	line		【矢村】{rt}それは分かってるんだ。		
-B18.0333	line		【矢村】{rt}だが、いつの時代でも、{rt}陽（ひかり）と陰（かげ）		
-B18.0334	line		【矢村】{rt}必ず背あわせに存在し{rt}つづけている…。		
-B18.0335	line		【矢村】{rt}奴の言っている事が全て間違っ{rt}ているとはいえないんだ。		
-B18.0336	line		【矢村】{rt}そう楽天的に考えられる{rt}お前が羨ましい。		
-B18.0337	line		【矢村】{rt}俺には高丸が必ずしも{rt}《悪》だとは思えない。		
-B18.0338	line		【矢村】{rt}高丸と俺と、正しいのは{rt}どっちなのか？		
-B18.0339	line		【矢村】{rt}俺には分からないよ――		
-B18.0340	line		【矢村】{rt}俺はお前よりも冷静に奴の{rt}言った事を受け止める事が		
-B18.0341	line		【矢村】{rt}できている…。		
-B18.0342	line		【矢村】{rt}俺は藤原俊宗じゃない。		
-B18.0343	line		【矢村】{rt}それが原因なのかも{rt}しれないな。		
-B18.0344	line		【矢村】{rt}実は俺も気が進まないんだ。		
-B18.0345	line		【矢村】{rt}《陽の者》から疎外された{rt}《陰の者》たちの存在―――。		
-B18.0346	line		【矢村】{rt}俺には高丸を安易に《悪》と決{rt}め付ける事はできそうにない		
-B18.0347	line		【矢村】{rt}しかし、やらねばならない。		
-B18.0348	line		【矢村】{rt}《大罪》の存在に気づいた{rt}以上、		
-B18.0349	line		【矢村】{rt}それを野放しにしておく訳には{rt}いかない…。		
-B18.0350	line		【矢村】{rt}なあ、{name1}…。		
-B18.0351	line		【矢村】{rt}いっそ、伊涼じゃなくって		
-B18.0352	line		【矢村】{rt}お前が封印の術を使えりゃ{rt}良かったのにな。		
-B18.0353	line		【矢村】{rt}あ、いや…。		
-B18.0354	line		【矢村】{rt}伊涼を嫌ってる訳じゃない。		
-B18.0355	line		【矢村】{rt}だが、伊涼は―――		
-B18.0356	line		【矢村】{rt}闘いには向いてない。		
-B18.0357	line		【矢村】{rt}俺はできるなら伊涼には{rt}闘ってほしくないんだ。		
-B18.0358	line		【矢村】{rt}ああいう一件があった後だから{rt}かもしれないが、		
-B18.0359	line		【矢村】{rt}あいつを一方的に危険に巻き{rt}込んでしまったようで、		
-B18.0360	line		【矢村】{rt}時々、すごく不安になる…。		
-B18.0361	line		【矢村】{rt}だが、お前は伊涼とは違う。		
-B18.0362	line		【矢村】{rt}お前には伊涼にはない、{rt}強さがある。		
-B18.0363	line		【矢村】{rt}お前となら、高丸を―――		
-B18.0364	line		【矢村】{rt}いや、《邪氣》をこの東京から{rt}消し去る事だってッ―――。		
+B18.0329	line		【矢村】{rt}聞いてくれ、{name1}…。	【Yamura】{rt}Listen, {name1}...	
+B18.0330	line		【矢村】{rt}実を言えば俺は奴の言い分も{rt}理解できる気がするんだ。	【Yamura】{rt}Truth is, I feel like I can understand his{rt}side of it too.	
+B18.0331	line		【矢村】{rt}さっき俺がいった事とは全く{rt}逆になってしまう。	【Yamura】{rt}It's the complete opposite of what I{rt}just said.	
+B18.0332	line		【矢村】{rt}それは分かってるんだ。	【Yamura】{rt}I know that.	
+B18.0333	line		【矢村】{rt}だが、いつの時代でも、{rt}陽（ひかり）と陰（かげ）	【Yamura】{rt}But in every age, light and shade	
+B18.0334	line		【矢村】{rt}必ず背あわせに存在し{rt}つづけている…。	【Yamura】{rt}always go on existing back to back...	
+B18.0335	line		【矢村】{rt}奴の言っている事が全て間違っ{rt}ているとはいえないんだ。	【Yamura】{rt}I can't say everything he says is{rt}wrong.	
+B18.0336	line		【矢村】{rt}そう楽天的に考えられる{rt}お前が羨ましい。	【Yamura】{rt}I envy you, being able to think so{rt}optimistically.	
+B18.0337	line		【矢村】{rt}俺には高丸が必ずしも{rt}《悪》だとは思えない。	【Yamura】{rt}I can't think Takamaru is necessarily{rt}Evil.	
+B18.0338	line		【矢村】{rt}高丸と俺と、正しいのは{rt}どっちなのか？	【Yamura】{rt}Takamaru or me, which of us is{rt}right?	
+B18.0339	line		【矢村】{rt}俺には分からないよ――	【Yamura】{rt}I don't know--	
+B18.0340	line		【矢村】{rt}俺はお前よりも冷静に奴の{rt}言った事を受け止める事が	【Yamura】{rt}I can take what he said more calmly	
+B18.0341	line		【矢村】{rt}できている…。	【Yamura】{rt}than you can...	
+B18.0342	line		【矢村】{rt}俺は藤原俊宗じゃない。	【Yamura】{rt}I'm not Fujiwara no Toshimune.	
+B18.0343	line		【矢村】{rt}それが原因なのかも{rt}しれないな。	【Yamura】{rt}Maybe that's why.	
+B18.0344	line		【矢村】{rt}実は俺も気が進まないんだ。	【Yamura】{rt}Truth is, I'm not keen on it either.	
+B18.0345	line		【矢村】{rt}《陽の者》から疎外された{rt}《陰の者》たちの存在―――。	【Yamura】{rt}Shade folk, shunned by the Light{rt}folk--	
+B18.0346	line		【矢村】{rt}俺には高丸を安易に《悪》と決{rt}め付ける事はできそうにない	【Yamura】{rt}I don't think I can simply brand{rt}Takamaru as Evil.	
+B18.0347	line		【矢村】{rt}しかし、やらねばならない。	【Yamura】{rt}But we have to do it.	
+B18.0348	line		【矢村】{rt}《大罪》の存在に気づいた{rt}以上、	【Yamura】{rt}Now that we know the Great Sin{rt}exists,	
+B18.0349	line		【矢村】{rt}それを野放しにしておく訳には{rt}いかない…。	【Yamura】{rt}we can't just leave it running loose...	
+B18.0350	line		【矢村】{rt}なあ、{name1}…。	【Yamura】{rt}Hey, {name1}...	
+B18.0351	line		【矢村】{rt}いっそ、伊涼じゃなくって	【Yamura】{rt}I almost wish that instead of Isuzu,{rt}you	
+B18.0352	line		【矢村】{rt}お前が封印の術を使えりゃ{rt}良かったのにな。	【Yamura】{rt}could use the sealing art.	
+B18.0353	line		【矢村】{rt}あ、いや…。	【Yamura】{rt}Ah, no...	
+B18.0354	line		【矢村】{rt}伊涼を嫌ってる訳じゃない。	【Yamura】{rt}It's not that I dislike Isuzu.	
+B18.0355	line		【矢村】{rt}だが、伊涼は―――	【Yamura】{rt}But Isuzu--	
+B18.0356	line		【矢村】{rt}闘いには向いてない。	【Yamura】{rt}isn't cut out for fighting.	
+B18.0357	line		【矢村】{rt}俺はできるなら伊涼には{rt}闘ってほしくないんだ。	【Yamura】{rt}If I could, I'd rather Isuzu didn't{rt}fight.	
+B18.0358	line		【矢村】{rt}ああいう一件があった後だから{rt}かもしれないが、	【Yamura】{rt}Maybe it's because of what{rt}happened,	
+B18.0359	line		【矢村】{rt}あいつを一方的に危険に巻き{rt}込んでしまったようで、	【Yamura】{rt}but it feels like I dragged her into{rt}danger all on my own,	
+B18.0360	line		【矢村】{rt}時々、すごく不安になる…。	【Yamura】{rt}and sometimes I get really anxious...	
+B18.0361	line		【矢村】{rt}だが、お前は伊涼とは違う。	【Yamura】{rt}But you're different from Isuzu.	
+B18.0362	line		【矢村】{rt}お前には伊涼にはない、{rt}強さがある。	【Yamura】{rt}You have a strength Isuzu doesn't.	
+B18.0363	line		【矢村】{rt}お前となら、高丸を―――	【Yamura】{rt}With you, Takamaru--	
+B18.0364	line		【矢村】{rt}いや、《邪氣》をこの東京から{rt}消し去る事だってッ―――。	【Yamura】{rt}no, we could even wipe Miasma out of{rt}this Tokyo--	
 B18.0365	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B18.0366	line		【矢村】{rt}すまん。俺とした事が…。		
-B18.0367	line		【矢村】{rt}今の話は聞かなかった{rt}事にしてくれ。		
-B18.0368	line		【矢村】{rt}俺とお前が敵を斃し、		
-B18.0369	line		【矢村】{rt}伊涼が《邪氣》を封じる。		
-B18.0370	line		【矢村】{rt}俺たち三人で、この闘いを{rt}闘い抜こうッ。		
-B18.0371	line		【矢村】{rt}これからもしっかり頼むぜ、		
-B18.0372	line		【矢村】{rt}{name1}。		
-B18.0373	line		【矢村】{rt}さてと…。		
-B18.0374	line		【矢村】{rt}（―――ん？　まだ先が…？）		
+B18.0366	line		【矢村】{rt}すまん。俺とした事が…。	【Yamura】{rt}Sorry. That's not like me...	
+B18.0367	line		【矢村】{rt}今の話は聞かなかった{rt}事にしてくれ。	【Yamura】{rt}Pretend you didn't hear that.	
+B18.0368	line		【矢村】{rt}俺とお前が敵を斃し、	【Yamura】{rt}You and I bring down the enemy,	
+B18.0369	line		【矢村】{rt}伊涼が《邪氣》を封じる。	【Yamura】{rt}and Isuzu seals the Miasma.	
+B18.0370	line		【矢村】{rt}俺たち三人で、この闘いを{rt}闘い抜こうッ。	【Yamura】{rt}The three of us will fight this battle to{rt}the end.	
+B18.0371	line		【矢村】{rt}これからもしっかり頼むぜ、	【Yamura】{rt}I'm counting on you from here on{rt}too,	
+B18.0372	line		【矢村】{rt}{name1}。	【Yamura】{rt}{name1}.	
+B18.0373	line		【矢村】{rt}さてと…。	【Yamura】{rt}Right then...	
+B18.0374	line		【矢村】{rt}（―――ん？　まだ先が…？）	【Yamura】{rt}(--Hm? There's more...?)	
 B18.0375	line		【矢村】{rt}…………。	【Yamura】{rt}............	
 B18.0376	line		【矢村】{rt}！？	【Yamura】{rt}!?	
-B18.0377	line		【矢村】{rt}そんな馬鹿なッ！？		
-B18.0378	line		【矢村】{rt}（俊宗が…　鈴鹿御前を…？		
-B18.0379	line		【矢村】{rt}　―――違うッ。		
-B18.0380	line		【矢村】{rt}　俺は彼とは違うッ！！）		
-B18.0381	line		【男の声】{rt}…どうした？		
-B18.0382	line		【矢村】{rt}―――はッ！？		
-B18.0383	line		【男】{rt}大丈夫か？顔色が悪いぞ。		
+B18.0377	line		【矢村】{rt}そんな馬鹿なッ！？	【Yamura】{rt}That's absurd!?	
+B18.0378	line		【矢村】{rt}（俊宗が…　鈴鹿御前を…？	【Yamura】{rt}(Toshimune... killed Suzuka Gozen...?	
+B18.0379	line		【矢村】{rt}　―――違うッ。	【Yamura】{rt}--No.	
+B18.0380	line		【矢村】{rt}　俺は彼とは違うッ！！）	【Yamura】{rt}I'm not like him!!)	
+B18.0381	line		【男の声】{rt}…どうした？	【Man's Voice】{rt}...What's wrong?	
+B18.0382	line		【矢村】{rt}―――はッ！？	【Yamura】{rt}--Huh!?	
+B18.0383	line		【男】{rt}大丈夫か？顔色が悪いぞ。	【Man】{rt}Are you all right? You look pale.	
 B18.0384	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B18.0385	line		【矢村】{rt}…な、なんでもありません。		
-B18.0386	line		【右の男】{rt}ほう―――そうかね？		
-B18.0387	line		【右の男】{rt}無理に平静を保つのは{rt}やめたまえ。		
-B18.0388	line		【矢村】{rt}なッ―――		
-B18.0389	line		【矢村】{rt}なんだ！？この声ッ！？		
-B18.0390	line		【左の男】{rt}耳を塞ごうが、無駄だ。		
-B18.0391	line		【左の男】{rt}我々は今、君の心に{rt}直接話しかけている。		
-B18.0392	line		【左の男】{rt}《言霊（ことだま）》の{rt}《力》を使ってな。		
-B18.0393	line		【矢村】{rt}あ、あんたたち、何者だッ！？		
-B18.0394	line		【矢村】{rt}何のために―――		
-B18.0395	line		【右の男】{rt}君は今、その本の内容を{rt}否定しようと必死だ。		
+B18.0385	line		【矢村】{rt}…な、なんでもありません。	【Yamura】{rt}...I-it's nothing.	
+B18.0386	line		【右の男】{rt}ほう―――そうかね？	【Man on the Right】{rt}Oh--is that so?	
+B18.0387	line		【右の男】{rt}無理に平静を保つのは{rt}やめたまえ。	【Man on the Right】{rt}Stop forcing yourself to look calm.	
+B18.0388	line		【矢村】{rt}なッ―――	【Yamura】{rt}Wh--	
+B18.0389	line		【矢村】{rt}なんだ！？この声ッ！？	【Yamura】{rt}What!? This voice!?	
+B18.0390	line		【左の男】{rt}耳を塞ごうが、無駄だ。	【Man on the Left】{rt}Cover your ears all you like, it's no{rt}use.	
+B18.0391	line		【左の男】{rt}我々は今、君の心に{rt}直接話しかけている。	【Man on the Left】{rt}We are speaking directly to your{rt}heart.	
+B18.0392	line		【左の男】{rt}《言霊（ことだま）》の{rt}《力》を使ってな。	【Man on the Left】{rt}With the Power of the Word Spirits.	
+B18.0393	line		【矢村】{rt}あ、あんたたち、何者だッ！？	【Yamura】{rt}Wh-who are you two!?	
+B18.0394	line		【矢村】{rt}何のために―――	【Yamura】{rt}What do you want--	
+B18.0395	line		【右の男】{rt}君は今、その本の内容を{rt}否定しようと必死だ。	【Man on the Right】{rt}You're desperate to deny what that{rt}book says.	
 B18.0396	line		【矢村】{rt}―――！！	【Yamura】{rt}--!!	
-B18.0397	line		【左の男】{rt}しかし、勘違いするな。		
-B18.0398	line		【左の男】{rt}本の内容を刻む言葉に{rt}《罪》はない。		
-B18.0399	line		【矢村】{rt}（《罪》、だと―――？）		
-B18.0400	line		【左の男】{rt}だが、君は言葉を疑い、{rt}否定した。		
-B18.0401	line		【左の男】{rt}その言葉の立場はどうなる？		
-B18.0402	line		【左の男】{rt}君のその《念》に汚され、		
-B18.0403	line		【左の男】{rt}苦しむ言葉の存在を、{rt}君は考えた事はあるまい。		
-B18.0404	line		【矢村】{rt}俺はこの本を信用しないッ。		
-B18.0405	line		【矢村】{rt}ただ、それだけの事じゃ{rt}ないか――		
-B18.0406	line		【右の男】{rt}そのような粗暴な心が{rt}悲劇を産むのだッ！！		
-B18.0407	line		【矢村】{rt}悲劇…！？		
-B18.0408	line		【左の男】{rt}口で言って分からん奴は{rt}獣も同じだ。		
-B18.0409	line		【左の男】{rt}おのが意識でしっかりと{rt}直視せよッ！！		
-B18.0410	line		【左の男】{rt}《言霊》が刻む{rt}明確な意味をッ！！		
-B18.0411	line		【矢村】{rt}うッ―――？		
-B18.0412	line		【矢村】{rt}（なんだ…！？）		
-B18.0413	line		【声】{rt}『…しかし、		
-B18.0414	line		【声】{rt}　大嶽丸をめぐる伝承は、{rt}　これだけでは終わらない。』		
-B18.0415	line		【矢村】{rt}（―――！！		
-B18.0416	line		【矢村】{rt}　頭の中に直接言葉が？）		
-B18.0417	line		【声】{rt}『古今著聞集{rt}　（こきんちょもんじゅう）		
-B18.0418	line		【声】{rt}　は、伝えるのだ。』		
-B18.0419	line		【矢村】{rt}（くッ。これは―――		
-B18.0420	line		【矢村】{rt}　さっきの本の内容か…！！）		
-B18.0421	line		【声】{rt}『天女、すなわち鈴鹿御前には{rt}　裏の顔…鬼相があったため		
-B18.0422	line		【声】{rt}　俊宗は後に鈴鹿御前をも{rt}　討った、と。』		
-B18.0423	line		【鈴鹿御前】{rt}俊宗…。		
-B18.0424	line		【鈴鹿御前】{rt}まさか私を、その剣で―――？		
-B18.0425	line		【藤原俊宗】{rt}妖（あやかし）め{rt}覚悟せよッ。		
+B18.0397	line		【左の男】{rt}しかし、勘違いするな。	【Man on the Left】{rt}But don't mistake this.	
+B18.0398	line		【左の男】{rt}本の内容を刻む言葉に{rt}《罪》はない。	【Man on the Left】{rt}The words that record the book hold{rt}no Sin.	
+B18.0399	line		【矢村】{rt}（《罪》、だと―――？）	【Yamura】{rt}(Sin--?)	
+B18.0400	line		【左の男】{rt}だが、君は言葉を疑い、{rt}否定した。	【Man on the Left】{rt}Yet you doubted the words and denied{rt}them.	
+B18.0401	line		【左の男】{rt}その言葉の立場はどうなる？	【Man on the Left】{rt}Where does that leave those words?	
+B18.0402	line		【左の男】{rt}君のその《念》に汚され、	【Man on the Left】{rt}Words stained by your Thought,{rt}suffering--	
+B18.0403	line		【左の男】{rt}苦しむ言葉の存在を、{rt}君は考えた事はあるまい。	【Man on the Left】{rt}you've never once considered them,{rt}have you?	
+B18.0404	line		【矢村】{rt}俺はこの本を信用しないッ。	【Yamura】{rt}I don't trust this book.	
+B18.0405	line		【矢村】{rt}ただ、それだけの事じゃ{rt}ないか――	【Yamura】{rt}That's all there is to it--	
+B18.0406	line		【右の男】{rt}そのような粗暴な心が{rt}悲劇を産むのだッ！！	【Man on the Right】{rt}It is just such a brutish heart that{rt}breeds tragedy!!	
+B18.0407	line		【矢村】{rt}悲劇…！？	【Yamura】{rt}Tragedy...!?	
+B18.0408	line		【左の男】{rt}口で言って分からん奴は{rt}獣も同じだ。	【Man on the Left】{rt}One who won't understand when told is{rt}no better than a beast.	
+B18.0409	line		【左の男】{rt}おのが意識でしっかりと{rt}直視せよッ！！	【Man on the Left】{rt}Look straight at it with your own{rt}mind!!	
+B18.0410	line		【左の男】{rt}《言霊》が刻む{rt}明確な意味をッ！！	【Man on the Left】{rt}At the clear meaning the Word Spirits{rt}record!!	
+B18.0411	line		【矢村】{rt}うッ―――？	【Yamura】{rt}Ugh--?	
+B18.0412	line		【矢村】{rt}（なんだ…！？）	【Yamura】{rt}(What...!?)	
+B18.0413	line		【声】{rt}『…しかし、	【Voice】{rt}"...However,	
+B18.0414	line		【声】{rt}　大嶽丸をめぐる伝承は、{rt}　これだけでは終わらない。』	【Voice】{rt}the legends of Otakemaru do not end{rt}here."	
+B18.0415	line		【矢村】{rt}（―――！！	【Yamura】{rt}(--!!	
+B18.0416	line		【矢村】{rt}　頭の中に直接言葉が？）	【Yamura】{rt}Words, right inside my head?)	
+B18.0417	line		【声】{rt}『古今著聞集{rt}　（こきんちょもんじゅう）	【Voice】{rt}"The Kokon Chomonju	
+B18.0418	line		【声】{rt}　は、伝えるのだ。』	【Voice】{rt}tells this."	
+B18.0419	line		【矢村】{rt}（くッ。これは―――	【Yamura】{rt}(Ngh. This is--	
+B18.0420	line		【矢村】{rt}　さっきの本の内容か…！！）	【Yamura】{rt}what that book said...!!)	
+B18.0421	line		【声】{rt}『天女、すなわち鈴鹿御前には{rt}　裏の顔…鬼相があったため	【Voice】{rt}"The celestial maiden Suzuka Gozen had{rt}a hidden oni face,	
+B18.0422	line		【声】{rt}　俊宗は後に鈴鹿御前をも{rt}　討った、と。』	【Voice】{rt}so Toshimune later struck down Suzuka{rt}Gozen too."	
+B18.0423	line		【鈴鹿御前】{rt}俊宗…。	【Suzuka Gozen】{rt}Toshimune...	
+B18.0424	line		【鈴鹿御前】{rt}まさか私を、その剣で―――？	【Suzuka Gozen】{rt}Surely you won't, with that sword--?	
+B18.0425	line		【藤原俊宗】{rt}妖（あやかし）め{rt}覚悟せよッ。	【Fujiwara no Toshimune】{rt}Prepare yourself, demon!	
 B18.0426	line		【伊涼】{rt}俊…。	【Isuzu】{rt}Shun...	
-B18.0427	line		【伊涼】{rt}まさか私を、その符で―――？		
-B18.0428	line		【矢村】{rt}貴様の《邪氣》、{rt}祓ってやるッ。		
-B18.0429	line		【矢村】{rt}（―――！！）		
-B18.0430	line		【矢村】{rt}（俺が…伊涼を…{rt}　この手で…？）		
-B18.0431	line		【声】{rt}『鈴鹿御前は、{rt}　恋心から俊宗に荷担し、		
-B18.0432	line		【声】{rt}　ともに大嶽丸を倒したが、		
-B18.0433	line		【声】{rt}　美しい容貌の下に潜む鬼の{rt}　性質を抑えきれなくなり、		
-B18.0434	line		【声】{rt}　夫である田村麻呂をも{rt}　手にかけようとしたため、		
-B18.0435	line		【声】{rt}　彼に―――{rt}　斬られたのだ。』		
-B18.0436	line		【高丸】{rt}藤原俊宗…。		
-B18.0437	line		【高丸】{rt}己にとって最も憎い敵の{rt}転生した姿が―――		
-B18.0438	line		【高丸】{rt}お前だよ。		
-B18.0439	line		【矢村】{rt}（馬鹿なッ！！）		
-B18.0440	line		【矢村】{rt}（俺は信じないぞッ！！）		
-B18.0441	line		【矢村】{rt}（俺は…		
-B18.0442	line		【矢村】{rt}　例えそれが真実{rt}　だったとしても		
-B18.0443	line		【矢村】{rt}　それを認める訳には{rt}　行かないッ―――！！）		
-B18.0444	line		【矢村】{rt}はあッ、はあッ…。		
-B18.0445	line		【左の男】{rt}…そう。		
-B18.0446	line		【左の男】{rt}これはまさしく悲劇だ。		
-B18.0447	line		【左の男】{rt}言葉に宿る霊…{rt}《言霊》の存在を踏みにじり		
-B18.0448	line		【左の男】{rt}邪悪な性格に変えてしまうの{rt}だからな。		
-B18.0449	line		【右の男】{rt}嘘だ、間違いだと{rt}踏みにじられた《言霊》は、		
-B18.0450	line		【右の男】{rt}虚無な自己の存在を呪い、{rt}自らを産んだ主を呪う。		
-B18.0451	line		【右の男】{rt}呪わしい存在を無闇に{rt}産み続ける―――		
-B18.0452	line		【右の男】{rt}それは《罪》ではないのか！！		
-B18.0453	line		【矢村】{rt}《罪》―――。		
-B18.0454	line		【右の男】{rt}我々は起こし、{rt}そして成し遂げるッ。		
-B18.0455	line		【右の男】{rt}《言霊》の蜂起をッ！！		
-B18.0456	line		【左の男】{rt}貴様らの持つ、{rt}その咒符なぞで、		
-B18.0457	line		【左の男】{rt}怒り、吠え猛る《言霊》に{rt}立ち向かえると思うなよッ。		
-B18.0458	line		【左の男】{rt}《言霊》よ！！		
-B18.0459	line		【左の男】{rt}己を呪う虚しき怨念…		
-B18.0460	line		【左の男】{rt}《言霊》の恨み、受けよッ！！		
-B18.0461	line		【伊涼】{rt}それじゃあ、		
-B18.0462	line		【伊涼】{rt}私たちは歴史関係の方面を{rt}当たってみるよ。		
-B18.0463	line		【伊涼】{rt}俊は、伝承とか、伝説が{rt}載ってる本を調べてみて。		
-B18.0464	line		【矢村】{rt}あ、ああ。		
-B18.0465	line		【伊涼】{rt}どんな細かい事でも謎を解く{rt}鍵になる可能性がある…。		
-B18.0466	line		【伊涼】{rt}その可能性を粗末に扱わない{rt}事が、調べもののコツだよ。		
-B18.0467	line		【伊涼】{rt}頑張って、俊。		
-B18.0468	line		【矢村】{rt}ああッ。		
-B18.0469	line		【矢村】{rt}ありがとう、伊涼。		
-B18.0470	line		【矢村】{rt}それじゃ、俺は行くよ。		
-B18.0471	line		【矢村】{rt}じゃあな、{name1}。		
-B18.0472	line		【伊涼】{rt}俊ってば、昔からああなんだ。		
-B18.0473	line		【伊涼】{rt}いろんな本を読んでるくせに、{rt}図書館だけは苦手。		
-B18.0474	line		【伊涼】{rt}何か悪い想い出でも{rt}あったとしか思えないよね。		
-B18.0475	choice		矢村の事を訊く{rt}聞き流す{wc}		
+B18.0427	line		【伊涼】{rt}まさか私を、その符で―――？	【Isuzu】{rt}Surely you won't, with that{rt}talisman--?	
+B18.0428	line		【矢村】{rt}貴様の《邪氣》、{rt}祓ってやるッ。	【Yamura】{rt}I'll purge your Miasma!	
+B18.0429	line		【矢村】{rt}（―――！！）	【Yamura】{rt}(--!!)	
+B18.0430	line		【矢村】{rt}（俺が…伊涼を…{rt}　この手で…？）	【Yamura】{rt}(I... Isuzu... with my own hands...?)	
+B18.0431	line		【声】{rt}『鈴鹿御前は、{rt}　恋心から俊宗に荷担し、	【Voice】{rt}"Suzuka Gozen sided with Toshimune{rt}out of love,	
+B18.0432	line		【声】{rt}　ともに大嶽丸を倒したが、	【Voice】{rt}and together they defeated{rt}Otakemaru,	
+B18.0433	line		【声】{rt}　美しい容貌の下に潜む鬼の{rt}　性質を抑えきれなくなり、	【Voice】{rt}but she could no longer hold back the{rt}oni nature beneath her beauty,	
+B18.0434	line		【声】{rt}　夫である田村麻呂をも{rt}　手にかけようとしたため、	【Voice】{rt}and tried to kill even her husband{rt}Tamuramaro,	
+B18.0435	line		【声】{rt}　彼に―――{rt}　斬られたのだ。』	【Voice】{rt}so he--cut her down."	
+B18.0436	line		【高丸】{rt}藤原俊宗…。	【Takamaru】{rt}Fujiwara no Toshimune...	
+B18.0437	line		【高丸】{rt}己にとって最も憎い敵の{rt}転生した姿が―――	【Takamaru】{rt}The reincarnation of my most hated{rt}enemy--	
+B18.0438	line		【高丸】{rt}お前だよ。	【Takamaru】{rt}is you.	
+B18.0439	line		【矢村】{rt}（馬鹿なッ！！）	【Yamura】{rt}(That's absurd!!)	
+B18.0440	line		【矢村】{rt}（俺は信じないぞッ！！）	【Yamura】{rt}(I don't believe it!!)	
+B18.0441	line		【矢村】{rt}（俺は…	【Yamura】{rt}(Even...	
+B18.0442	line		【矢村】{rt}　例えそれが真実{rt}　だったとしても	【Yamura】{rt}if it was the truth,	
+B18.0443	line		【矢村】{rt}　それを認める訳には{rt}　行かないッ―――！！）	【Yamura】{rt}I can't accept it--!!)	
+B18.0444	line		【矢村】{rt}はあッ、はあッ…。	【Yamura】{rt}Hah, hah...	
+B18.0445	line		【左の男】{rt}…そう。	【Man on the Left】{rt}...Yes.	
+B18.0446	line		【左の男】{rt}これはまさしく悲劇だ。	【Man on the Left】{rt}This is tragedy indeed.	
+B18.0447	line		【左の男】{rt}言葉に宿る霊…{rt}《言霊》の存在を踏みにじり	【Man on the Left】{rt}Trampling the spirits that dwell in{rt}words, the Word Spirits,	
+B18.0448	line		【左の男】{rt}邪悪な性格に変えてしまうの{rt}だからな。	【Man on the Left】{rt}and twisting them into evil.	
+B18.0449	line		【右の男】{rt}嘘だ、間違いだと{rt}踏みにじられた《言霊》は、	【Man on the Right】{rt}Word Spirits trampled as lies and{rt}errors	
+B18.0450	line		【右の男】{rt}虚無な自己の存在を呪い、{rt}自らを産んだ主を呪う。	【Man on the Right】{rt}curse their own empty being, and curse{rt}the master who bore them.	
+B18.0451	line		【右の男】{rt}呪わしい存在を無闇に{rt}産み続ける―――	【Man on the Right】{rt}To keep recklessly bearing cursed{rt}beings--	
+B18.0452	line		【右の男】{rt}それは《罪》ではないのか！！	【Man on the Right】{rt}is that not a Sin!!	
+B18.0453	line		【矢村】{rt}《罪》―――。	【Yamura】{rt}A Sin--	
+B18.0454	line		【右の男】{rt}我々は起こし、{rt}そして成し遂げるッ。	【Man on the Right】{rt}We shall raise it, and see it through.	
+B18.0455	line		【右の男】{rt}《言霊》の蜂起をッ！！	【Man on the Right】{rt}The uprising of the Word Spirits!!	
+B18.0456	line		【左の男】{rt}貴様らの持つ、{rt}その咒符なぞで、	【Man on the Left】{rt}Don't think those talismans of yours	
+B18.0457	line		【左の男】{rt}怒り、吠え猛る《言霊》に{rt}立ち向かえると思うなよッ。	【Man on the Left】{rt}can stand against the raging, roaring{rt}Word Spirits.	
+B18.0458	line		【左の男】{rt}《言霊》よ！！	【Man on the Left】{rt}Word Spirits!!	
+B18.0459	line		【左の男】{rt}己を呪う虚しき怨念…	【Man on the Left】{rt}Hollow grudges that curse their own{rt}being...	
+B18.0460	line		【左の男】{rt}《言霊》の恨み、受けよッ！！	【Man on the Left】{rt}Take the wrath of the Word Spirits!!	
+B18.0461	line		【伊涼】{rt}それじゃあ、	【Isuzu】{rt}Well then,	
+B18.0462	line		【伊涼】{rt}私たちは歴史関係の方面を{rt}当たってみるよ。	【Isuzu】{rt}we'll try the history side of things.	
+B18.0463	line		【伊涼】{rt}俊は、伝承とか、伝説が{rt}載ってる本を調べてみて。	【Isuzu】{rt}Shun, you look through books with{rt}folklore and legends.	
+B18.0464	line		【矢村】{rt}あ、ああ。	【Yamura】{rt}R-right.	
+B18.0465	line		【伊涼】{rt}どんな細かい事でも謎を解く{rt}鍵になる可能性がある…。	【Isuzu】{rt}Any detail, however small, could be the{rt}key to the mystery...	
+B18.0466	line		【伊涼】{rt}その可能性を粗末に扱わない{rt}事が、調べもののコツだよ。	【Isuzu】{rt}Not throwing those chances away is{rt}the trick to research.	
+B18.0467	line		【伊涼】{rt}頑張って、俊。	【Isuzu】{rt}Good luck, Shun.	
+B18.0468	line		【矢村】{rt}ああッ。	【Yamura】{rt}Right.	
+B18.0469	line		【矢村】{rt}ありがとう、伊涼。	【Yamura】{rt}Thanks, Isuzu.	
+B18.0470	line		【矢村】{rt}それじゃ、俺は行くよ。	【Yamura】{rt}Well, I'm off.	
+B18.0471	line		【矢村】{rt}じゃあな、{name1}。	【Yamura】{rt}See you, {name1}.	
+B18.0472	line		【伊涼】{rt}俊ってば、昔からああなんだ。	【Isuzu】{rt}Shun's always been like that.	
+B18.0473	line		【伊涼】{rt}いろんな本を読んでるくせに、{rt}図書館だけは苦手。	【Isuzu】{rt}He reads all sorts of books, but he just{rt}can't stand libraries.	
+B18.0474	line		【伊涼】{rt}何か悪い想い出でも{rt}あったとしか思えないよね。	【Isuzu】{rt}You'd think he had some bad memory of{rt}one.	
+B18.0475	choice		矢村の事を訊く{rt}聞き流す{wc}	Ask about Yamura{rt}Let it go{wc}	
 B18.0476	line		【伊涼】{rt}え―――？	【Isuzu】{rt}Huh--?	
-B18.0477	line		【伊涼】{rt}俊の事？		
-B18.0478	line		【伊涼】{rt}うーん、残念。		
-B18.0479	line		【伊涼】{rt}俊がどうして{rt}図書館嫌いなのかは、		
-B18.0480	line		【伊涼】{rt}私も知らないんだ。		
-B18.0481	line		【伊涼】{rt}…図書館、かあ。		
+B18.0477	line		【伊涼】{rt}俊の事？	【Isuzu】{rt}About Shun?	
+B18.0478	line		【伊涼】{rt}うーん、残念。	【Isuzu】{rt}Hmm, sorry.	
+B18.0479	line		【伊涼】{rt}俊がどうして{rt}図書館嫌いなのかは、	【Isuzu】{rt}Why Shun hates libraries,	
+B18.0480	line		【伊涼】{rt}私も知らないんだ。	【Isuzu】{rt}even I don't know.	
+B18.0481	line		【伊涼】{rt}…図書館、かあ。	【Isuzu】{rt}...A library, huh.	
 B18.0482	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
-B18.0483	line		【伊涼】{rt}あ、ごめん…。		
-B18.0484	line		【伊涼】{rt}図書館に来たのなんて、		
-B18.0485	line		【伊涼】{rt}ずいぶん久しぶりだなって{rt}思っちゃって…。		
+B18.0483	line		【伊涼】{rt}あ、ごめん…。	【Isuzu】{rt}Oh, sorry...	
+B18.0484	line		【伊涼】{rt}図書館に来たのなんて、	【Isuzu】{rt}I was just thinking how long it's been	
+B18.0485	line		【伊涼】{rt}ずいぶん久しぶりだなって{rt}思っちゃって…。	【Isuzu】{rt}since I came to a library...	
 B18.0486	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
-B18.0487	line		【伊涼】{rt}ねえ、{name2}ちゃん。		
-B18.0488	line		【伊涼】{rt}どうして、こんな風に{rt}なっちゃったのかな…？		
-B18.0489	line		【伊涼】{rt}《邪氣》との闘い―――。		
-B18.0490	line		【伊涼】{rt}《邪氣》が現れる前は、{rt}私も俊も、普通の高校生――		
-B18.0491	line		【伊涼】{rt}ごく普通の幼馴染だった…。		
-B18.0492	line		【伊涼】{rt}家が近くて、{rt}親同士も仲が良かったから、		
-B18.0493	line		【伊涼】{rt}小さい頃からよく遊んだし、{rt}中学、高校だって、		
-B18.0494	line		【伊涼】{rt}ごく当たり前のように{rt}一緒の道を進んできて、		
-B18.0495	line		【伊涼】{rt}これからも、これまでみたいに		
-B18.0496	line		【伊涼】{rt}何事もなく歩んで{rt}いけるんだと思ってた。		
-B18.0497	line		【伊涼の声】{rt}それが―――つい二ヶ月前…。		
+B18.0487	line		【伊涼】{rt}ねえ、{name2}ちゃん。	【Isuzu】{rt}Hey, {name2}-chan.	
+B18.0488	line		【伊涼】{rt}どうして、こんな風に{rt}なっちゃったのかな…？	【Isuzu】{rt}How did things end up like this...?	
+B18.0489	line		【伊涼】{rt}《邪氣》との闘い―――。	【Isuzu】{rt}The fight against Miasma--	
+B18.0490	line		【伊涼】{rt}《邪氣》が現れる前は、{rt}私も俊も、普通の高校生――	【Isuzu】{rt}Before Miasma appeared, Shun and I{rt}were ordinary high schoolers--	
+B18.0491	line		【伊涼】{rt}ごく普通の幼馴染だった…。	【Isuzu】{rt}just ordinary childhood friends...	
+B18.0492	line		【伊涼】{rt}家が近くて、{rt}親同士も仲が良かったから、	【Isuzu】{rt}We lived close by, and our parents got{rt}along,	
+B18.0493	line		【伊涼】{rt}小さい頃からよく遊んだし、{rt}中学、高校だって、	【Isuzu】{rt}so we played together a lot as kids,{rt}and through middle and high school,	
+B18.0494	line		【伊涼】{rt}ごく当たり前のように{rt}一緒の道を進んできて、	【Isuzu】{rt}we just naturally took the same{rt}path,	
+B18.0495	line		【伊涼】{rt}これからも、これまでみたいに	【Isuzu】{rt}and I thought we'd go on	
+B18.0496	line		【伊涼】{rt}何事もなく歩んで{rt}いけるんだと思ってた。	【Isuzu】{rt}the way we always had, with nothing{rt}happening.	
+B18.0497	line		【伊涼の声】{rt}それが―――つい二ヶ月前…。	【Isuzu's Voice】{rt}That was--only two months ago...	
 B18.0498	line		【矢村】{rt}こっちだッ！！		
 B18.0499	line		【矢村】{rt}こっちに進めば…		
 B18.0500	line		【矢村】{rt}出られたはずだ！！		
@@ -597,7 +597,7 @@ B18.0594	line		【伊涼】{rt}私たちも始めようか。
 B18.0595	line		【伊涼】{rt}早く済ませて―――		
 B18.0596	line		【伊涼】{rt}俊の方を{rt}手伝ってあげなくちゃ。		
 B18.0597	line		【伊涼】{rt}えッ―――！？		
-B18.0598	line		【伊涼】{rt}…そっか。		
+B18.0598	line		【伊涼】{rt}…そっか。	【Isuzu】{rt}...I see.	
 B18.0599	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
 B18.0600	line		【伊涼】{rt}闘う《運命》―――。		
 B18.0601	line		【伊涼】{rt}それが《運命》なら、		
@@ -808,14 +808,14 @@ B18.0805	line		【伊涼】{rt}（これは―――！？）
 B18.0806	line		【別の声】{rt}なッ―――		
 B18.0807	line		【矢村】{rt}なんだ！？この声はッ！？		
 B18.0808	line		【伊涼】{rt}（俊ッ！！）		
-B18.0809	line		【左の男】{rt}耳を塞ごうが、無駄だ。		
-B18.0810	line		【左の男】{rt}我々は今、君の心に{rt}直接話しかけている。		
-B18.0811	line		【左の男】{rt}《言霊（ことだま）》の{rt}《力》を使ってな。		
+B18.0809	line		【左の男】{rt}耳を塞ごうが、無駄だ。	【Man on the Left】{rt}Cover your ears all you like, it's no{rt}use.	
+B18.0810	line		【左の男】{rt}我々は今、君の心に{rt}直接話しかけている。	【Man on the Left】{rt}We are speaking directly to your{rt}heart.	
+B18.0811	line		【左の男】{rt}《言霊（ことだま）》の{rt}《力》を使ってな。	【Man on the Left】{rt}With the Power of the Word Spirits.	
 B18.0812	line		【伊涼】{rt}（《言霊》の《力》…？）		
 B18.0813	line		【伊涼】{rt}（彼らは一体…？）		
-B18.0814	line		【矢村】{rt}あ、あんたたち、何者だッ！？		
-B18.0815	line		【矢村】{rt}何のために―――		
-B18.0816	line		【右の男】{rt}君は今、その本の内容を{rt}否定しようと必死だ。		
+B18.0814	line		【矢村】{rt}あ、あんたたち、何者だッ！？	【Yamura】{rt}Wh-who are you two!?	
+B18.0815	line		【矢村】{rt}何のために―――	【Yamura】{rt}What do you want--	
+B18.0816	line		【右の男】{rt}君は今、その本の内容を{rt}否定しようと必死だ。	【Man on the Right】{rt}You're desperate to deny what that{rt}book says.	
 B18.0817	line		【矢村】{rt}―――！！	【Yamura】{rt}--!!	
 B18.0818	line		【伊涼】{rt}（本―――？）		
 B18.0819	line		【伊涼】{rt}（さっきの声は、本の内容？）		
@@ -825,17 +825,17 @@ B18.0822	line		【伊涼】{rt}（《言霊》の声―――！？）
 B18.0823	line		【左の男】{rt}しかし、勘違いするなッ。		
 B18.0824	line		【左の男】{rt}本の内容を刻む言葉に{rt}《罪》はないぞ。		
 B18.0825	line		【矢村】{rt}《罪》、だと―――？		
-B18.0826	line		【左の男】{rt}だが、君は言葉を疑い、{rt}否定した。		
+B18.0826	line		【左の男】{rt}だが、君は言葉を疑い、{rt}否定した。	【Man on the Left】{rt}Yet you doubted the words and denied{rt}them.	
 B18.0827	line		【左の男】{rt}つまり、言葉にあらぬ《罪》を{rt}着せたのだ。		
 B18.0828	line		【左の男】{rt}嘘（うそ）という名のな。		
-B18.0829	line		【左の男】{rt}その言葉の立場はどうなる？		
-B18.0830	line		【左の男】{rt}君のその《念》に汚され、		
-B18.0831	line		【左の男】{rt}苦しむ言葉の存在を、{rt}君は考えた事はあるまい。		
-B18.0832	line		【矢村】{rt}俺はこの本を信用しないッ。		
-B18.0833	line		【矢村】{rt}ただ、それだけの事じゃ{rt}ないか――		
-B18.0834	line		【右の男】{rt}そのような粗暴な心が{rt}悲劇を産むのだッ！！		
-B18.0835	line		【左の男】{rt}口で言って分からん奴は{rt}獣も同じだ。		
-B18.0836	line		【左の男】{rt}おのが意識でしっかりと{rt}直視せよッ！！		
+B18.0829	line		【左の男】{rt}その言葉の立場はどうなる？	【Man on the Left】{rt}Where does that leave those words?	
+B18.0830	line		【左の男】{rt}君のその《念》に汚され、	【Man on the Left】{rt}Words stained by your Thought,{rt}suffering--	
+B18.0831	line		【左の男】{rt}苦しむ言葉の存在を、{rt}君は考えた事はあるまい。	【Man on the Left】{rt}you've never once considered them,{rt}have you?	
+B18.0832	line		【矢村】{rt}俺はこの本を信用しないッ。	【Yamura】{rt}I don't trust this book.	
+B18.0833	line		【矢村】{rt}ただ、それだけの事じゃ{rt}ないか――	【Yamura】{rt}That's all there is to it--	
+B18.0834	line		【右の男】{rt}そのような粗暴な心が{rt}悲劇を産むのだッ！！	【Man on the Right】{rt}It is just such a brutish heart that{rt}breeds tragedy!!	
+B18.0835	line		【左の男】{rt}口で言って分からん奴は{rt}獣も同じだ。	【Man on the Left】{rt}One who won't understand when told is{rt}no better than a beast.	
+B18.0836	line		【左の男】{rt}おのが意識でしっかりと{rt}直視せよッ！！	【Man on the Left】{rt}Look straight at it with your own{rt}mind!!	
 B18.0837	line		【左の男】{rt}《言霊》の持つ《力》を！！		
 B18.0838	line		【矢村】{rt}―――！！	【Yamura】{rt}--!!	
 B18.0839	line		【伊涼】{rt}（―――！！）	【Isuzu】{rt}(--!!)	
@@ -847,18 +847,18 @@ B18.0844	line		【伊涼】{rt}（鈴鹿御前って―――
 B18.0845	line		【伊涼】{rt}　あの！？）		
 B18.0846	line		【伊涼】{rt}（という事は、{rt}　大嶽丸っていうのは…）		
 B18.0847	line		【伊涼】{rt}（高丸？）		
-B18.0848	line		【声】{rt}『…しかし、		
+B18.0848	line		【声】{rt}『…しかし、	【Voice】{rt}"...However,	
 B18.0849	line		【声】{rt}　大嶽丸をめぐる伝承は、{rt}　これだけでは終わらない』		
-B18.0850	line		【声】{rt}『古今著聞集{rt}　（こきんちょもんじゅう）		
-B18.0851	line		【声】{rt}　は、伝えるのだ。』		
+B18.0850	line		【声】{rt}『古今著聞集{rt}　（こきんちょもんじゅう）	【Voice】{rt}"The Kokon Chomonju	
+B18.0851	line		【声】{rt}　は、伝えるのだ。』	【Voice】{rt}tells this."	
 B18.0852	line		【声】{rt}『天女、すなわち鈴鹿御前には{rt}　裏の顔…鬼相があった為、		
-B18.0853	line		【声】{rt}　俊宗は後に鈴鹿御前をも{rt}　討った、と。』		
-B18.0854	line		【鈴鹿御前】{rt}俊宗…。		
-B18.0855	line		【鈴鹿御前】{rt}まさか私を、その剣で―――？		
-B18.0856	line		【藤原俊宗】{rt}妖（あやかし）め{rt}覚悟せよッ。		
+B18.0853	line		【声】{rt}　俊宗は後に鈴鹿御前をも{rt}　討った、と。』	【Voice】{rt}so Toshimune later struck down Suzuka{rt}Gozen too."	
+B18.0854	line		【鈴鹿御前】{rt}俊宗…。	【Suzuka Gozen】{rt}Toshimune...	
+B18.0855	line		【鈴鹿御前】{rt}まさか私を、その剣で―――？	【Suzuka Gozen】{rt}Surely you won't, with that sword--?	
+B18.0856	line		【藤原俊宗】{rt}妖（あやかし）め{rt}覚悟せよッ。	【Fujiwara no Toshimune】{rt}Prepare yourself, demon!	
 B18.0857	line		【伊涼】{rt}俊…。	【Isuzu】{rt}Shun...	
-B18.0858	line		【伊涼】{rt}まさか私を、その符で―――？		
-B18.0859	line		【矢村】{rt}貴様の《邪氣》、{rt}祓ってやるッ。		
+B18.0858	line		【伊涼】{rt}まさか私を、その符で―――？	【Isuzu】{rt}Surely you won't, with that{rt}talisman--?	
+B18.0859	line		【矢村】{rt}貴様の《邪氣》、{rt}祓ってやるッ。	【Yamura】{rt}I'll purge your Miasma!	
 B18.0860	line		【伊涼】{rt}（そんな――。）		
 B18.0861	line		【伊涼】{rt}（こんな事って…。）		
 B18.0862	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
@@ -887,8 +887,8 @@ B18.0884	line		【伊涼】{rt}お願い。
 B18.0885	line		【伊涼】{rt}行ってッ！！		
 B18.0886	line		【伊涼】{rt}後から追いかけるからッ！！		
 B18.0887	line		【伊涼】{rt}（俊―――。）		
-B18.0888	line		【矢村】{rt}はあッ、はあッ…。		
-B18.0889	line		【左の男】{rt}…そう。		
+B18.0888	line		【矢村】{rt}はあッ、はあッ…。	【Yamura】{rt}Hah, hah...	
+B18.0889	line		【左の男】{rt}…そう。	【Man on the Left】{rt}...Yes.	
 B18.0890	line		【左の男】{rt}これはまさしく悲劇と呼ぶに{rt}ふさわしい。		
 B18.0891	line		【左の男】{rt}言葉に宿る霊…		
 B18.0892	line		【左の男】{rt}《言霊》とは、{rt}本来人間が生み出したもの。		
@@ -909,14 +909,14 @@ B18.0906	line		【右の男】{rt}だが、我々が問うのは《氣》の{rt}
 B18.0907	line		【右の男】{rt}精神―――		
 B18.0908	line		【右の男】{rt}強いては観念ッ！！		
 B18.0909	line		【右の男】{rt}視野の狭い、無学なお前たちに{rt}汚された《言霊》は、		
-B18.0910	line		【右の男】{rt}虚無な自己の存在を呪い、{rt}自らを産んだ主を呪う。		
-B18.0911	line		【右の男】{rt}呪わしい存在を無闇に{rt}産み続ける―――		
-B18.0912	line		【右の男】{rt}それは《罪》ではないのか！！		
-B18.0913	line		【矢村】{rt}《罪》―――。		
-B18.0914	line		【右の男】{rt}我々は起こし、{rt}そして成し遂げるッ。		
-B18.0915	line		【右の男】{rt}《言霊》の蜂起をッ！！		
-B18.0916	line		【左の男】{rt}貴様らの持つ、{rt}その咒符なぞで、		
-B18.0917	line		【左の男】{rt}怒り、吠え猛る《言霊》に{rt}立ち向かえると思うなよッ。		
-B18.0918	line		【左の男】{rt}《言霊》よ！！		
-B18.0919	line		【左の男】{rt}己を呪う虚しき怨念…		
-B18.0920	line		【左の男】{rt}《言霊》の恨み、受けよッ！！		
+B18.0910	line		【右の男】{rt}虚無な自己の存在を呪い、{rt}自らを産んだ主を呪う。	【Man on the Right】{rt}curse their own empty being, and curse{rt}the master who bore them.	
+B18.0911	line		【右の男】{rt}呪わしい存在を無闇に{rt}産み続ける―――	【Man on the Right】{rt}To keep recklessly bearing cursed{rt}beings--	
+B18.0912	line		【右の男】{rt}それは《罪》ではないのか！！	【Man on the Right】{rt}is that not a Sin!!	
+B18.0913	line		【矢村】{rt}《罪》―――。	【Yamura】{rt}A Sin--	
+B18.0914	line		【右の男】{rt}我々は起こし、{rt}そして成し遂げるッ。	【Man on the Right】{rt}We shall raise it, and see it through.	
+B18.0915	line		【右の男】{rt}《言霊》の蜂起をッ！！	【Man on the Right】{rt}The uprising of the Word Spirits!!	
+B18.0916	line		【左の男】{rt}貴様らの持つ、{rt}その咒符なぞで、	【Man on the Left】{rt}Don't think those talismans of yours	
+B18.0917	line		【左の男】{rt}怒り、吠え猛る《言霊》に{rt}立ち向かえると思うなよッ。	【Man on the Left】{rt}can stand against the raging, roaring{rt}Word Spirits.	
+B18.0918	line		【左の男】{rt}《言霊》よ！！	【Man on the Left】{rt}Word Spirits!!	
+B18.0919	line		【左の男】{rt}己を呪う虚しき怨念…	【Man on the Left】{rt}Hollow grudges that curse their own{rt}being...	
+B18.0920	line		【左の男】{rt}《言霊》の恨み、受けよッ！！	【Man on the Left】{rt}Take the wrath of the Word Spirits!!	
