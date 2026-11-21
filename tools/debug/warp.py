@@ -78,7 +78,10 @@ def run(row, a):
     if ok and os.path.exists(fin):
         sys.path.insert(0, os.path.join(SKILL, 'scripts'))
         import sheet
-        blank = sheet.is_blank(sheet.read_png(fin))
+        # a fade can land on the final frame; a hang leaves every late shot blank
+        import glob
+        late = sorted(glob.glob(os.path.join(out, 'f*.png')))[-3:] + [fin]
+        blank = all(sheet.is_blank(sheet.read_png(p)) for p in late)
         ok = not blank
     why = '' if ok else ('exit %d' % p.returncode if p.returncode else 'blank final' if blank else 'no WARP ok')
     return name, ok, why, out
