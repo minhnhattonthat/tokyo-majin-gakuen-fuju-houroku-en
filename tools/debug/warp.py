@@ -63,6 +63,8 @@ def run(row, a):
         cmd += ['--var', v]
     for s in a.script:
         cmd += ['--script', s if os.path.isabs(s) else os.path.join(ROOT, s)]
+    for v in a.var:
+        cmd += ['--var', v]
     if row.get('sav'):
         cmd += ['--sav', os.path.join(ROOT, row['sav'])]
     if a.states:
@@ -104,6 +106,8 @@ def main():
     ap.add_argument('--states', action='store_true')
     ap.add_argument('--script', action='append', default=[], help='extra Lua probe for every run (repeatable), '
                     'e.g. tools/debug/glyphlog.lua: its lines land in each run\'s log.txt')
+    ap.add_argument('--var', action='append', default=[], help='NAME=VALUE for the --script probes (repeatable), '
+                    'e.g. --var WATCH_LO=0x08CF146C --var "WATCH_MODE=\'read\'"')
     a = ap.parse_args()
     rows = load_scenes()
     if a.list:

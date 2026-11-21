@@ -1,4 +1,5 @@
--- glyphlog.lua: log the text drawn through the per-cell glyph routine 0x08003B84 (every text printer uses it).
+-- glyphlog.lua: log the text drawn through the per-cell glyph routine 0x08003B84 (the BG text printers) and
+-- printer B's unit routine 0x0800455C (sprite text; it decodes Shift-JIS itself and never calls 0x08003B84).
 -- Consecutive calls (r0 = previous r0 + 2) form one string; each distinct (caller, string) is logged once as
 --   GLYPH f<frame> lr=<caller> <unit hex, 4 digits each, low byte first as in ROM>
 -- tools/glyphs.py decodes these (VWF units through the build's MTE table, Shift-JIS, control codes).
@@ -19,7 +20,7 @@ local function flush()
   end
   cur = {}
 end
-L.on_exec(0x08003B84, 0x08003B84, function()
+local function on_unit()
   local s = emu.getState()
   local r0 = s["cpu.r0"]
   if GLYPH_RAW then
@@ -36,5 +37,7 @@ L.on_exec(0x08003B84, 0x08003B84, function()
   end
   cur[#cur + 1] = string.format("%02X%02X", rd(r0), rd(r0 + 1))
   last_r0 = r0
-end)
+end
+L.on_exec(0x08003B84, 0x08003B84, on_unit)
+L.on_exec(0x0800455C, 0x0800455C, on_unit)   -- printer B (sprite text: yes/no prompts, tutorial, haiku boxes)
 L.on_frame(function() if L.frame % 30 == 0 then flush(); last_r0 = -10 end end)

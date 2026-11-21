@@ -14,6 +14,12 @@ the letters pack with variable width while every printer keeps its one-cell-per-
 ink of each strip inside the cells already handed out: after unit k the drawn extent is <= 16*k pixels. A strip
 starts over after any non-VWF unit (Japanese glyph, icon, number code) and at every line break.
 
+Printer B (unit routine 0x0800455C: yes/no prompts and other sprite text) draws each unit as its own 16x16 sprite
+(cell at r1, x at [sp+4] +16 a unit, y at [sp+0x28]) and decodes Shift-JIS itself, so it gets a second entry,
+hookb: its Shift-JIS branch (B_FN) jumps there; VWF units go through the same draw core with an odd fake map
+pointer (x/4 | 1: one step of 4 per unit keeps the strip, the odd bit skips the map writes) and return to the
+sprite placement; other codes return to the original path.
+
 ROM layout (free 0xFF space, docs/re/text.md Free space): hook code at HOOK, then ADV (256 advances), FONT (256
 glyphs x 16 rows x 2 words of 4bpp, pixel 0 in the low nibble) and MTE (NCODES u32, chunk chars, low byte first).
 RAM: STATE, 16 bytes in EWRAM no mode touches (zero in 12 mode dumps, tools/debug/ramdump_at.lua).
@@ -28,6 +34,11 @@ FONT_TXT = ROOT / 'fonts' / 'vwf.txt'
 
 GLYPH_FN = 0x003B84            # per-cell glyph routine (Thumb), patched with a jump to HOOK
 GLYPH_RESUME = 0x08003B91      # its 4th instruction (Thumb bit set), where the original path continues
+B_FN = 0x00497C                # printer B (sprite text, unit routine 0x0800455C): its Shift-JIS branch, patched
+B_ORIG = bytes.fromhex('0248844204d1032059e00000')   # ldr r0,=0x8140; cmp r4,r0; bne; movs r0,#3; b 0x8004A3A; pad
+B_RET3 = 0x08004A3B            # (Thumb) return r0: full-width space
+B_KANJI = 0x0800498D           # (Thumb) the original glyph lookup for other Shift-JIS codes
+B_OBJ = 0x08004A2D             # (Thumb) after the glyph copy: place the 16x16 sprite at x [sp+4], y [sp+0x28]
 HOOK = 0xF00000                # ROM offset of the hook code and tables
 STATE = 0x0203A000             # last cell, last map entry, strip base, pixel x
 LEADS = list(range(0xA0, 0xE0)) + list(range(0xF0, 0xFA))
@@ -350,6 +361,8 @@ nextrow:
 done:
     str   r10, [r8, #12]
     ldmfd sp!, {r2, r7, r8-r11}
+    tst   r2, #1
+    bne   nomap
     mov   r7, r7, lsl #16
     mov   r7, r7, lsr #16
     orr   r7, r7, #0xC000
@@ -360,11 +373,40 @@ done:
     strh  r7, [r2, #0x40]
     add   r7, r7, #1
     strh  r7, [r2, #0x42]
+nomap:
     ldmfd sp!, {r4-r7}
     ldmfd sp!, {r1}
     mov   r0, #0
     bx    r1
+hookb:
+    mov   r12, r4, lsr #8
+    sub   r12, r12, #0xA0
+    cmp   r12, #0x40
+    blo   bvwf
+    sub   r12, r12, #0x50
+    cmp   r12, #10
+    blo   bvwf
+    ldr   r0, lit_sp
+    cmp   r4, r0
+    moveq r0, #3
+    ldreq r12, lit_bret
+    ldrne r12, lit_bjp
+    bx    r12
+bvwf:
+    ldr   r2, [sp, #4]
+    mov   r2, r2, lsr #2
+    orr   r2, r2, #1
+    ldr   r3, lit_bobj
+    stmfd sp!, {r3}
+    stmfd sp!, {r4-r7}
+    mov   r0, r5
+    mov   r1, r9
+    b     hook
 lit_resume: .word @resume
+lit_sp:     .word 0x8140
+lit_bret:   .word @bret
+lit_bjp:    .word @bjp
+lit_bobj:   .word @bobj
 lit_mte:    .word @mte
 lit_state:  .word @state
 lit_font:   .word @font
@@ -391,12 +433,22 @@ def hook_code():
     def asm(adv, fnt, mte):
         src = HOOK_ASM
         for k, v in (('resume', GLYPH_RESUME), ('mte', 0x08000000 + mte), ('state', STATE),
-                     ('font', 0x08000000 + fnt), ('adv', 0x08000000 + adv)):
+                     ('font', 0x08000000 + fnt), ('adv', 0x08000000 + adv), ('bret', B_RET3),
+                     ('bjp', B_KANJI), ('bobj', B_OBJ)):
             src = src.replace('@' + k, '0x%08X' % v)
         return assemble(src, 0x08000000 + HOOK)
     code = asm(0, 0, 0)
     adv, fnt, mte = layout(len(code))
     return asm(adv, fnt, mte), (adv, fnt, mte)
+
+
+def hookb_addr():
+    """address of the printer-B entry: ARM code is 4 bytes an instruction and the literal words come last, so the
+    code before the hookb label (its literal labels stubbed after it) has hookb's offset as its length"""
+    pre = HOOK_ASM[:HOOK_ASM.index('hookb:')]
+    lits = sorted(set(re.findall(r'\blit_\w+', pre)))
+    code = assemble(pre + ''.join('%s: .word 0\n' % name for name in lits), 0x08000000 + HOOK)
+    return 0x08000000 + HOOK + len(code) - 4 * len(lits)
 
 
 STUB_ORIG = bytes.fromhex('f0b5 5746 4e46 4546 e0b4'.replace(' ', ''))   # push {r4-r7,lr}; mov r7,sl; .. push {r5-r7}
@@ -419,6 +471,11 @@ def install(rom, enc, font):
     stub = assemble('push {r4, r5, r6, r7, lr}\nldr r4, [pc, #4]\nbx r4\nnop', 0x08000000 + GLYPH_FN, thumb=True)
     rom[GLYPH_FN:GLYPH_FN + 8] = stub
     rom[GLYPH_FN + 8:GLYPH_FN + 12] = struct.pack('<I', 0x08000000 + HOOK)
+    if bytes(rom[B_FN:B_FN + 12]) != B_ORIG:
+        raise ValueError('printer B at %x is not the original' % B_FN)
+    stub = assemble('ldr r0, [pc, #4]\nbx r0\nnop\nnop', 0x08000000 + B_FN, thumb=True)
+    rom[B_FN:B_FN + 8] = stub
+    rom[B_FN + 8:B_FN + 12] = struct.pack('<I', hookb_addr())
     return end
 
 
