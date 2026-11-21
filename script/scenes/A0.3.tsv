@@ -1,40 +1,40 @@
 id	kind	max	jp	en	notes
-A0.3.0000	line		【外法の剣士】{rt}フッ…。		
-A0.3.0001	line		【外法の剣士】{rt}人の中にある最も衝動的な{rt}感情はなんだかわかるか？		
-A0.3.0002	line		【外法の剣士】{rt}それは怒り―――だ。		
-A0.3.0003	line		【外法の剣士】{rt}てめェにも覚えがあるだろう？		
-A0.3.0004	line		【外法の剣士】{rt}押さえ切れぬ怒りにまかせて、{rt}その拳を振り上げたことが、		
-A0.3.0005	line		【外法の剣士】{rt}てめェにもあるはずだろう？		
-A0.3.0006	line		【外法の剣士】{rt}…ふん。		
-A0.3.0007	line		【外法の剣士】{rt}肯定も否定もできないか？		
-A0.3.0008	line		【外法の剣士】{rt}憐れなもんだな。		
-A0.3.0009	line		【外法の剣士】{rt}はーはっはっは。{rt}気に入ったぜ。		
-A0.3.0010	line		【外法の剣士】{rt}お前のような奴は嫌い{rt}じゃない。		
-A0.3.0011	line		【外法の剣士】{rt}ヒトの心などなくした鬼…、		
-A0.3.0012	line		【外法の剣士】{rt}修羅ならばなおさら、な。		
-A0.3.0013	line		【外法の剣士】{rt}…ふん。		
-A0.3.0014	line		【外法の剣士】{rt}てめェのこともわからねェ{rt}のか？		
-A0.3.0015	line		【外法の剣士】{rt}憐れなもんだな。		
-A0.3.0016	line		【外法の剣士】{rt}怒りにまかせて拳を{rt}ふるうことは		
-A0.3.0017	line		【外法の剣士】{rt}てめェにとって{rt}快楽ということか。		
-A0.3.0018	line		【外法の剣士】{rt}…ククク。気に入ったぜ。		
-A0.3.0019	line		【外法の剣士】{rt}…ふん。		
-A0.3.0020	line		【外法の剣士】{rt}それは本当にてめェの本心か？		
-A0.3.0021	line		【外法の剣士】{rt}俺にはとても{rt}そうは見えねェぜ。		
-A0.3.0022	line		【外法の剣士】{rt}そうだ。簡単なことだろう？		
-A0.3.0023	line		【外法の剣士】{rt}怨恨―――、嫌悪―――、		
-A0.3.0024	line		【外法の剣士】{rt}すべては{rt}怒りという激情に姿を変え		
-A0.3.0025	line		【外法の剣士】{rt}未来永劫、{rt}受け継がれていく。		
-A0.3.0026	line		【外法の剣士】{rt}そしてその不変の怒りこそが、{rt}人を修羅へと変えるものだ。		
-A0.3.0027	line		【外法の剣士】{rt}てめェには{rt}その資質がある…。		
-A0.3.0028	line		【外法の剣士】{rt}…ククク。忘れるなよ。		
-A0.3.0029	line		【外法の剣士】{rt}…ふん。		
-A0.3.0030	line		【外法の剣士】{rt}本当に憐れなのは俺か？{rt}お前か？		
-A0.3.0031	line		【外法の剣士】{rt}…いずれわかる時がくる。		
-A0.3.0032	line		【外法の剣士】{rt}せいぜい、{rt}綺麗事をほざいてな。		
-A0.3.0033	line		【外法の剣士】{rt}…ほォ？		
-A0.3.0034	line		【外法の剣士】{rt}てめェは聖人か？それとも…{rt}単なる臆病者か？		
-A0.3.0035	line		【外法の剣士】{rt}まァ、どっちだろうと、{rt}俺には関係ねェな。		
-A0.3.0036	line		【外法の剣士】{rt}…つまらねェ答えだな。		
-A0.3.0037	line		【外法の剣士】{rt}てめェとこれ以上話すことは{rt}ねェ。		
-A0.3.0038	line		【外法の剣士】{rt}さっさと失せな。		
+A0.3.0000	line		【外法の剣士】{rt}フッ…。	【Heretic Swordsman】{rt}Heh...	
+A0.3.0001	line		【外法の剣士】{rt}人の中にある最も衝動的な{rt}感情はなんだかわかるか？	【Heretic Swordsman】{rt}You know what the most impulsive{rt}feeling inside a person is?	
+A0.3.0002	line		【外法の剣士】{rt}それは怒り―――だ。	【Heretic Swordsman】{rt}It's anger.	
+A0.3.0003	line		【外法の剣士】{rt}てめェにも覚えがあるだろう？	【Heretic Swordsman】{rt}You know it too, don't you?	
+A0.3.0004	line		【外法の剣士】{rt}押さえ切れぬ怒りにまかせて、{rt}その拳を振り上げたことが、	【Heretic Swordsman】{rt}Giving in to anger you couldn't hold{rt}back and raising your fist--	
+A0.3.0005	line		【外法の剣士】{rt}てめェにもあるはずだろう？	【Heretic Swordsman】{rt}you've done it too, haven't you?	
+A0.3.0006	line		【外法の剣士】{rt}…ふん。	【Heretic Swordsman】{rt}...Hmph.	
+A0.3.0007	line		【外法の剣士】{rt}肯定も否定もできないか？	【Heretic Swordsman】{rt}Can't say yes or no?	
+A0.3.0008	line		【外法の剣士】{rt}憐れなもんだな。	【Heretic Swordsman】{rt}How pitiful.	
+A0.3.0009	line		【外法の剣士】{rt}はーはっはっは。{rt}気に入ったぜ。	【Heretic Swordsman】{rt}Ha ha ha ha. I like you.	
+A0.3.0010	line		【外法の剣士】{rt}お前のような奴は嫌い{rt}じゃない。	【Heretic Swordsman】{rt}I don't mind your type.	
+A0.3.0011	line		【外法の剣士】{rt}ヒトの心などなくした鬼…、	【Heretic Swordsman】{rt}An ogre who's lost his human heart...	
+A0.3.0012	line		【外法の剣士】{rt}修羅ならばなおさら、な。	【Heretic Swordsman】{rt}even more so if he's an asura.	
+A0.3.0013	line		【外法の剣士】{rt}…ふん。	【Heretic Swordsman】{rt}...Hmph.	
+A0.3.0014	line		【外法の剣士】{rt}てめェのこともわからねェ{rt}のか？	【Heretic Swordsman】{rt}Don't you even know yourself?	
+A0.3.0015	line		【外法の剣士】{rt}憐れなもんだな。	【Heretic Swordsman】{rt}How pitiful.	
+A0.3.0016	line		【外法の剣士】{rt}怒りにまかせて拳を{rt}ふるうことは	【Heretic Swordsman】{rt}So swinging your fists in anger	
+A0.3.0017	line		【外法の剣士】{rt}てめェにとって{rt}快楽ということか。	【Heretic Swordsman】{rt}is a pleasure for you.	
+A0.3.0018	line		【外法の剣士】{rt}…ククク。気に入ったぜ。	【Heretic Swordsman】{rt}...Heh heh heh. I like you.	
+A0.3.0019	line		【外法の剣士】{rt}…ふん。	【Heretic Swordsman】{rt}...Hmph.	
+A0.3.0020	line		【外法の剣士】{rt}それは本当にてめェの本心か？	【Heretic Swordsman】{rt}Is that really how you feel?	
+A0.3.0021	line		【外法の剣士】{rt}俺にはとても{rt}そうは見えねェぜ。	【Heretic Swordsman】{rt}Sure doesn't look that way to me.	
+A0.3.0022	line		【外法の剣士】{rt}そうだ。簡単なことだろう？	【Heretic Swordsman】{rt}That's right. Simple, isn't it?	
+A0.3.0023	line		【外法の剣士】{rt}怨恨―――、嫌悪―――、	【Heretic Swordsman】{rt}Grudges--hatred--	
+A0.3.0024	line		【外法の剣士】{rt}すべては{rt}怒りという激情に姿を変え	【Heretic Swordsman】{rt}all of it turns into the raging passion{rt}called anger,	
+A0.3.0025	line		【外法の剣士】{rt}未来永劫、{rt}受け継がれていく。	【Heretic Swordsman】{rt}and gets passed down for all{rt}eternity.	
+A0.3.0026	line		【外法の剣士】{rt}そしてその不変の怒りこそが、{rt}人を修羅へと変えるものだ。	【Heretic Swordsman】{rt}And that unchanging anger is what{rt}turns a person into an asura.	
+A0.3.0027	line		【外法の剣士】{rt}てめェには{rt}その資質がある…。	【Heretic Swordsman】{rt}You've got what it takes...	
+A0.3.0028	line		【外法の剣士】{rt}…ククク。忘れるなよ。	【Heretic Swordsman】{rt}...Heh heh heh. Don't forget it.	
+A0.3.0029	line		【外法の剣士】{rt}…ふん。	【Heretic Swordsman】{rt}...Hmph.	
+A0.3.0030	line		【外法の剣士】{rt}本当に憐れなのは俺か？{rt}お前か？	【Heretic Swordsman】{rt}Who's really the pitiful one? Me? Or{rt}you?	
+A0.3.0031	line		【外法の剣士】{rt}…いずれわかる時がくる。	【Heretic Swordsman】{rt}...You'll find out someday.	
+A0.3.0032	line		【外法の剣士】{rt}せいぜい、{rt}綺麗事をほざいてな。	【Heretic Swordsman】{rt}Go ahead, keep spouting your pretty{rt}words.	
+A0.3.0033	line		【外法の剣士】{rt}…ほォ？	【Heretic Swordsman】{rt}...Oh?	
+A0.3.0034	line		【外法の剣士】{rt}てめェは聖人か？それとも…{rt}単なる臆病者か？	【Heretic Swordsman】{rt}Are you a saint? Or... just a coward?	
+A0.3.0035	line		【外法の剣士】{rt}まァ、どっちだろうと、{rt}俺には関係ねェな。	【Heretic Swordsman】{rt}Well, either way, it's nothing to me.	
+A0.3.0036	line		【外法の剣士】{rt}…つまらねェ答えだな。	【Heretic Swordsman】{rt}...What a boring answer.	
+A0.3.0037	line		【外法の剣士】{rt}てめェとこれ以上話すことは{rt}ねェ。	【Heretic Swordsman】{rt}I've got nothing more to say to you.	
+A0.3.0038	line		【外法の剣士】{rt}さっさと失せな。	【Heretic Swordsman】{rt}Get lost.	
