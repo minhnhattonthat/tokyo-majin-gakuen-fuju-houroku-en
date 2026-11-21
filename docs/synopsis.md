@@ -25,6 +25,10 @@ session; translators read it before their batch.
   -sama to {name1}-dono. Coda: Enra confronts a Shadow / Woman's Voice ("for the souls of THEM", 《彼ら》).
   Girl-player branch: rows with {name2}-chan and B04.0174 (老爺と少女 "an old man and a girl") imply the player can be
   a girl; keep player lines gender-neutral where the JP is.
+- A0.x-A3.x: the same detour format, mostly villains and cast of the Majin series musing on a theme (judging the
+  world, oni and Desire, jealousy, love, money, friendship), each answer branch ending differently. The five
+  Retainers (雷/風/水/土/炎の従者) are oni of the Kidoshu (鬼道衆). Maiden of the Peach Garden is a sentai Pink who
+  calls the player "Green".
 - A4.x / A5.x: detour chats with one recurring card character each (speaker tag = their title), with player
   choices; each ends differently per answer. Firerunner = Marie (マリィ, katakana child speech, calls the player
   Onii-chan); Spirit Gunner = broken-English foreigner (render as "-desu", "ne", caps).

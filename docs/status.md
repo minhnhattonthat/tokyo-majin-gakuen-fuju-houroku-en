@@ -5,10 +5,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 6. Translate in progress (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 with B00-B03
   English, sha1 6e2fcc5dfb56.. (story_00 warp checked: `work/qa/pilot_zoom.png`). Marker build
   `build/tmgfh_marker.gba` sha1 91c3d9342694...
-- **Progress:** batches b001-b014 merged: B00-B05, A4.x-A5.x and A0.0-A0.3 complete. b001-b004 were split with B
-  only, so A0-A3 were skipped; they are now split as b014-b024 in `work/tl/` (gitignored, this machine; re-run
-  `split --only A0.,A1.,A2.,A3.` on a fresh clone). Remaining: b015-b024 (A0.4-A3.9), B06-B39 with their A
-  scenes, system cf/d1/d6 (~14 000 rows). Staff roll ({dc} rows, B39) is left out of batches: translate by hand at
+- **Progress:** batches b001-b024 merged: B00-B05 and A0.x-A5.x complete (2026-11-22). b025-b027 = B06 + A6.x
+  (split, `work/tl/`, gitignored; re-run `split --only B06.,A6.` on a fresh clone). Remaining: B06-B39 with their
+  A scenes, system cf/d1/d6 (~12 650 rows). Staff roll ({dc} rows, B39) is left out of batches: translate by hand at
   the end. `batches.py`: 赤ちゃん is not an honorific (added to NOT_HONORIFIC).
 - **How (each session):** read `docs/translator-brief.md`, `docs/style-reference.md`, `docs/synopsis.md` and the
   glossary (in parts). `python -X utf8 tools/batches.py split --only B05.,B06.` (chapter order: B then that
@@ -18,7 +17,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `tools/windows.tsv`, run by `tests/test_fit.py`); dialogue bodies are wrapped by merge (2 rows, 232/218 px,
   about 65 chars). Phase 6 done-when: batch check 0 errors everywhere, glossary current, a review pass with no
   Critical/Important (do it as a fresh read-only pass per chapter; codex once its limit resets).
-- **Next:** b015-b024 (A0.4-A3.9; Vile Brute's でごわす tic = "I reckon", 修羅 = asura, 総統 = our Leader), then `split --only B06.,A6.` and on, chapter by chapter. Rows of kind `grid` are not translated. Notes for translators: system strings are often pieces joined
+- **Next:** b025-b027 (B06 + A6.x; Vile Brute's でごわす tic = "I reckon", 修羅 = asura, 総統 = our Leader), then
+  `split --only B07.,A7.` and on, chapter by chapter. Rows of kind `grid` are not translated. Notes for translators: system strings are often pieces joined
   at run time (turn banner 符咒士 / name + の / ターン; deck-editor prompts with 真神 and counts; deck help line 1;
   `　　枚` slots that receive numbers): check the joined line. The sound test body D1BD60 keeps its full-width cell
   layout (label <= 64 px in cells 1-4, then the JP spaces and ／). Yes/no option lines are fixed:

@@ -57,6 +57,8 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | 神鈴 | Divine Bell | | Isuzu's bell; rings near Miasma | |
 | 巫女 | shrine maiden | | | |
 | 焔羅様 | Lord Enra | | Yamura and Isuzu's form of address | |
+| 鬼道衆 | Kidoshu | | the oni clan the five Retainers belong to | |
+| 龍脈 | Dragon Vein | | the earth's flow of power under Tokyo | ley line |
 
 ## Speaker tags
 | JP | EN |
@@ -243,4 +245,9 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   Friends, 《理性》 -> Reason, 《事実》 -> Fact, 《彼ら》 -> THEM, 《討ツ》 / 《壊した》 / 《死んだ》 -> capitals (SLAY,
   BROKEN, DEAD). 神隠し -> "spirited away". 氏神勧請 -> Ujigami Summoning. 地蔵様 -> Jizo-sama. マリィ -> Marie.
   {name1}殿 -> {name1}-dono (Yamura from B04 on). Isuzu calls Yamura "Shun".
+- b015-b024 (A0-A3): 鬼道衆 -> Kidoshu, 鬼 -> oni, 龍脈 -> Dragon Vein. 《X》 terms: 《種》 Species, 《嫉妬》 Jealousy,
+  《想い》 Feeling, 《デキソコナイ》 Defective(s), 《勢い》 Force, 《炎》 Flame, 《金》 Money, 《憤怒》 Wrath, 《滅び》 Ruin,
+  《悩み》 Doubt, 《怒り》 Anger, 《拳》 Fist. Voices: Water Retainer (わらわ/そなた/かえ) = thou/thee; Earth Retainer
+  (おで) = "me belly", "dat"; Talisman Sorcerer (Kansai) = "ya", "pal", dropped g's; Last of the Gallants calls the
+  player 兄サン = "pal"; Psychokinetic's katakana speech = plain English, childish menace.
 - A term split across two boxes must stay in the box whose JP has it (the check enforces this per box).
