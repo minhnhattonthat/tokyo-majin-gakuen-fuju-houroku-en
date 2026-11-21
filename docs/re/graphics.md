@@ -18,9 +18,8 @@ Tour: `tools/routes/tour1.txt` (cold boot -> opening) and `tools/routes/mash_a.t
 Assets = every 4-aligned pointer target from code/data tables + the 52 LZ77 blocks (decompressed) + the three
 non-wave gaps in the sound area; each rendered as 4bpp (8bpp when all bytes < 0x80) at the width with the smoothest
 tile seams. `index.tsv` maps sheet -> offset; `skipped.tsv` lists every region not rendered and why (code, m4a sound,
-text, free space, 121 BG tilemaps, 509 records under 0x80 bytes). Reviewed by hand: sheets 000-027 (codex review hit
-its usage limit). **Sheets 028-031 (0xC9xxxx.. onward incl. the 0xD1B000-0xD60000 UI region and most LZ77 blocks)
-are still to review.** Widths are guesses: a strip that looks shredded (S9, S10, S13) needs its real width found.
+text, free space, 121 BG tilemaps, 509 records under 0x80 bytes). Reviewed by hand: all sheets 000-031 (codex review hit
+its usage limit); `tools/gfx_zoom.py` re-renders any asset at chosen widths. Widths are guesses: a strip that looks shredded (S9, S10, S13) needs its real width found.
 
 ### ROM map (verified by render)
 | range | content |
@@ -29,8 +28,7 @@ are still to review.** Widths are guesses: a strip that looks shredded (S9, S10,
 | 0x080000-0x45B9CC | m4a sound (358 wave samples cover 0x320C73 B; the 3 gaps render as audio noise) |
 | 0x45B9CC-0x7D0000 | 8bpp card portraits 96x104 (0x2700) and 32x40 thumbnails (0x500): art only |
 | 0x7600CC-0x7DA8CC | 8bpp location cards (photos): signs in photos (黒崎商店, 中華料理, アーケード商店街) = art |
-| 0x7ED50C-0x8700xx | structured non-tile records (0x20C0/0x230/0x140 groups): not graphics as rendered; **check** |
-| 0x83E9AC-0x86F8CC | 8bpp blank card frames (0xC00) |
+| 0x7ED50C-0x86F8CC | 8bpp card frames: table 0xD80BD4 = 44 (tiles, palette, map) triples (tiles 0x20C0, palette 0x140 indexed directly by pixel values 0x81-0x9F, map 0x230 = 14x20 u16), rendered by `tools/card_art.py`; then (tiles, palette) pairs from 0xD80DE4 = the 0xC00 blank frames at 0x83E9AC.. The sweep skipped them because pixel values >= 0x80 failed its 8bpp test. Only lettering: element emblems (S20) |
 | 0x8704CC-0xA2CDCC | 8bpp event-card art (0x3300) + thumbnails (0x600); incidental kanji in art (A036CC calligraphy) |
 | 0xB5BC60-0xBCB608 | dialogue backgrounds 240x? 8bpp photos (answers "background codec": not 4bpp, so not found raw) |
 | 0xC6FB48-0xCAxxxx | **font**: 4bpp glyphs in Shift-JIS order (symbols, A-Z/a-z, kana, Greek, kanji); renders at 8 cols |
@@ -58,5 +56,18 @@ are still to review.** Widths are guesses: a strip that looks shredded (S9, S10,
 | S18 | 0xC532C8, 0xC557E0, 0xC57CF8, 0xC5A210, 0xC5C728 東京魔人學園 符咒封録 booster packs; 0xC5F760 ブースターパック選択 | |
 | S19 | 0xC66C18, 0xC67D38, 0xC6B118 (両隣 左行 右行...), 0xC6C078 符咒編集, 0xC6D078, 0xC6A2D8 | deck edit / help UI |
 
-Not yet listed: chapter cards, game over, ending, credits as seen in game (need the debug tool, phase 2), and the
-review of sheets 028-031.
+| S20 | card frames 0x7ED50C.. (table 0xD80BD4) | five-element emblems 木 火 土 金 水 (small circle, bottom left; large in frames 39-43) |
+| S21 | 0xD1B1A8 (2 tiles wide, 16x16) | settings values: 遅い? 普通 速い 有り 無し ... (message speed / on-off) |
+| S22 | 0xD1B944 (4 tiles wide) | サウンドテスト (sound test label: a hidden or settings menu; find it in phase 2) ; 0xD1B0A8 2-wide unclear kana |
+| S23 | 0xD1EC50 (0x4020, BG tileset) | Tokyo map: place names in tiles (新宿, 中央, 桜ヶ丘...; deduped, read in game) |
+| S24 | 0xD23140 | title logo plus furigana とうきょうまじんがくえん ふじゅほうろく (with G3) |
+| S25 | 0xD280D0 (8 wide); 0xD2F0D8, 0xD30448 (shredded) | brush-lettered titles (need the tilemap or an in-game shot) |
+| S26 | 0xD2A248 (8bpp, 1998 6.18 date + kanji); 0xD35868 (8bpp UI with kana/kanji) | full-screen BG tilesets, deduped: read in game |
+| S27 | 0xD3C1F8 | rarity legend 高:紫色 ↕:金色 低:銀色 |
+| S28 | 0xD451F8 (16x16 icon + kanji pairs) | card type icons 術 武 ... |
+| S29 | 0xD53CD8, 0xD57D48, 0xD59218, 0xD5A748, 0xD5E538, 0xD5F1A8 | window frames with label tiles (シンボル, 背景, 属性, ジャンル ...): card/deck info screens, read in game |
+
+Sheets 028-031 reviewed (2026-11-22): 0xCAF748-0xCE5748 is the rest of the font; 0xCE7768 is the 符咒封録 logo art
+(G3); 0xE407F8.. (sheet 031) is non-graphic data. No LZ77 block was left unreviewed (they sit in sheets 021-025).
+Not yet listed: chapter cards, game over, ending, credits as seen in game (need the debug tool, phase 2). The
+shredded strips (S2, S3, S11, S12, S16, S25) get their real layout from in-game VRAM dumps in phase 8.

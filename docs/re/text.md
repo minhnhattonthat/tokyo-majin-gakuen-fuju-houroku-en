@@ -48,11 +48,12 @@ Argument counts are the digits shown; prove each with the marker build before th
 
 ## Compression
 - BIOS LZ77 (0x10): only 52 blocks (`tools/lz77.py scan`), 0x9D0C7 packed bytes. Most UI graphics are raw 4bpp
-  (0xD1BF50+); about 1150 dialogue-scene tiles were not found raw, so backgrounds likely use another codec (open).
+  (0xD1BF50+). The dialogue backgrounds are LZ77 8bpp blocks at 0xB5BC60.. (`docs/re/graphics.md`), so no
+  unknown codec is needed.
 
 ## Font
-- Dialogue glyphs are drawn into BG VRAM at runtime (VRAM 0x0000.., `work/qa/ppu_dlg`). Font location in ROM not found
-  yet (guess: 12x12 glyphs in Shift-JIS order). Phase 5 finds it by hooking the draw routine.
+- Dialogue glyphs are drawn into BG VRAM at runtime (VRAM 0x0000.., `work/qa/ppu_dlg`). Font in ROM: 4bpp glyphs
+  in Shift-JIS order at 0xC6FB48-0xCE5748 (`docs/re/graphics.md`). The draw routine and glyph size are phase 5.
 
 ## Prior work
 - An AI-assisted English patch is listed on RetroGameTalk (thread 74417) with graphics text left in Japanese.
