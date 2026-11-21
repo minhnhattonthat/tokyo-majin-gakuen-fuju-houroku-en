@@ -135,3 +135,11 @@ session; translators read it before their batch.
 - B31: the shadow of Amanosagume leaves Enra and the trio wake outside the Endless Space. The real Enra explains he
   tried to destroy Amanosagume before she gained a body and was overpowered; with her paralysed, he draws her
   memory out to reveal the fated Stars linking the Great Sin, Amanosagume and Isuzu.
+- B32: Enra tells the myth: Amewakahiko, sent down by heaven, was swayed by Amanosagume, betrayed heaven and was
+  killed by his own arrow; heaven cast Amanosagume out, and her soul passes from Vessel to Vessel. Suzuka Gozen was
+  her Vessel and asked Toshimune to cut her down before Amanosagume woke; he did, was hailed a hero and died
+  dreaming of meeting her again. Yamura is Toshimune reborn and Isuzu the Vessel; the ten Great Sins draw each
+  other and the Vessel. Takamaru arrives carrying the tenth Great Sin and mortally wounds Enra, who charges the
+  trio to defeat Amanosagume and leaves his Thought in a charm. Takamaru reveals he was Otakemaru, raised by a
+  Great Sin after Toshimune killed his daughter at Omi; he spurns the fated Stars and swears the Shade folk's
+  history begins when the Light folk are destroyed; battle.
