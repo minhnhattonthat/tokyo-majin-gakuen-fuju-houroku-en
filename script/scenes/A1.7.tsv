@@ -1,37 +1,37 @@
 id	kind	max	jp	en	notes
-A1.7.0000	line		【格闘家】{rt}お前は、友を…。		
-A1.7.0001	line		【格闘家】{rt}かけがえのない、{rt}大切なものを		
-A1.7.0002	line		【格闘家】{rt}傷つけてしまったことが{rt}あるか？		
-A1.7.0003	line		【格闘家】{rt}俺は―――ある。		
-A1.7.0004	line		【格闘家】{rt}俺を頼ってくれた大切な友を、		
-A1.7.0005	line		【格闘家】{rt}護ってやるコトが{rt}できなかった。		
-A1.7.0006	line		【格闘家】{rt}俺の《力》が{rt}足りなかった為に。		
-A1.7.0007	line		【格闘家】{rt}お前は、こんな俺を		
-A1.7.0008	line		【格闘家】{rt}軽蔑するんだろうな…。		
-A1.7.0009	line		【格闘家】{rt}すまない、突然こんな事を{rt}聞いてしまって…。		
-A1.7.0010	line		【格闘家】{rt}……。		
-A1.7.0011	line		【格闘家】{rt}ふふ、おかしな奴だよ。		
-A1.7.0012	line		【格闘家】{rt}……お前は。		
-A1.7.0013	line		【格闘家】{rt}すまない、突然こんな事を{rt}聞いてしまって…。		
-A1.7.0014	line		【格闘家】{rt}……。		
-A1.7.0015	line		【格闘家】{rt}ふふ、おかしな奴だよ。		
-A1.7.0016	line		【格闘家】{rt}……お前は。		
-A1.7.0017	line		【格闘家】{rt}ありがとう。		
-A1.7.0018	line		【格闘家】{rt}俺は、お前のような友を持てて{rt}本当に幸せだと思うよ…。		
-A1.7.0019	line		【格闘家】{rt}やはり、そう…だろうな。		
-A1.7.0020	line		【格闘家】{rt}……。		
-A1.7.0021	line		【格闘家】{rt}…すまん。		
-A1.7.0022	line		【格闘家】{rt}気を使わせて{rt}しまったようだな。		
-A1.7.0023	line		【格闘家】{rt}だが、		
-A1.7.0024	line		【格闘家】{rt}お前にそう言ってもらえた、		
-A1.7.0025	line		【格闘家】{rt}それだけで俺は{rt}救われる気がする。		
-A1.7.0026	line		【格闘家】{rt}…ありがとう…。		
-A1.7.0027	line		【格闘家】{rt}すまない、突然こんな事を{rt}聞いてしまって…。		
-A1.7.0028	line		【格闘家】{rt}……。		
-A1.7.0029	line		【格闘家】{rt}…すまん。		
-A1.7.0030	line		【格闘家】{rt}気を使わせて{rt}しまったようだな。		
-A1.7.0031	line		【格闘家】{rt}だが、		
-A1.7.0032	line		【格闘家】{rt}お前にそう言ってもらえた、		
-A1.7.0033	line		【格闘家】{rt}それだけで俺は・・・。		
-A1.7.0034	line		【格闘家】{rt}救われる気がする。		
-A1.7.0035	line		【格闘家】{rt}…ありがとう…。		
+A1.7.0000	line		【格闘家】{rt}お前は、友を…。	【Fighter】{rt}Have you ever hurt a friend...	
+A1.7.0001	line		【格闘家】{rt}かけがえのない、{rt}大切なものを	【Fighter】{rt}someone irreplaceable,	
+A1.7.0002	line		【格闘家】{rt}傷つけてしまったことが{rt}あるか？	【Fighter】{rt}someone precious to you?	
+A1.7.0003	line		【格闘家】{rt}俺は―――ある。	【Fighter】{rt}I--have.	
+A1.7.0004	line		【格闘家】{rt}俺を頼ってくれた大切な友を、	【Fighter】{rt}A precious friend who relied on me,	
+A1.7.0005	line		【格闘家】{rt}護ってやるコトが{rt}できなかった。	【Fighter】{rt}and I couldn't protect him.	
+A1.7.0006	line		【格闘家】{rt}俺の《力》が{rt}足りなかった為に。	【Fighter】{rt}Because my Power wasn't enough.	
+A1.7.0007	line		【格闘家】{rt}お前は、こんな俺を	【Fighter】{rt}You must look down	
+A1.7.0008	line		【格闘家】{rt}軽蔑するんだろうな…。	【Fighter】{rt}on someone like me...	
+A1.7.0009	line		【格闘家】{rt}すまない、突然こんな事を{rt}聞いてしまって…。	【Fighter】{rt}Sorry, asking you something like this{rt}out of nowhere...	
+A1.7.0010	line		【格闘家】{rt}……。	【Fighter】{rt}.......	
+A1.7.0011	line		【格闘家】{rt}ふふ、おかしな奴だよ。	【Fighter】{rt}Heh, you're a strange one.	
+A1.7.0012	line		【格闘家】{rt}……お前は。	【Fighter】{rt}......You are.	
+A1.7.0013	line		【格闘家】{rt}すまない、突然こんな事を{rt}聞いてしまって…。	【Fighter】{rt}Sorry, asking you something like this{rt}out of nowhere...	
+A1.7.0014	line		【格闘家】{rt}……。	【Fighter】{rt}.......	
+A1.7.0015	line		【格闘家】{rt}ふふ、おかしな奴だよ。	【Fighter】{rt}Heh, you're a strange one.	
+A1.7.0016	line		【格闘家】{rt}……お前は。	【Fighter】{rt}......You are.	
+A1.7.0017	line		【格闘家】{rt}ありがとう。	【Fighter】{rt}Thank you.	
+A1.7.0018	line		【格闘家】{rt}俺は、お前のような友を持てて{rt}本当に幸せだと思うよ…。	【Fighter】{rt}I truly think I'm lucky to have a friend{rt}like you...	
+A1.7.0019	line		【格闘家】{rt}やはり、そう…だろうな。	【Fighter】{rt}I thought so... I suppose.	
+A1.7.0020	line		【格闘家】{rt}……。	【Fighter】{rt}.......	
+A1.7.0021	line		【格闘家】{rt}…すまん。	【Fighter】{rt}...Sorry.	
+A1.7.0022	line		【格闘家】{rt}気を使わせて{rt}しまったようだな。	【Fighter】{rt}Seems I made you worry about me.	
+A1.7.0023	line		【格闘家】{rt}だが、	【Fighter】{rt}But,	
+A1.7.0024	line		【格闘家】{rt}お前にそう言ってもらえた、	【Fighter】{rt}just hearing you say that,	
+A1.7.0025	line		【格闘家】{rt}それだけで俺は{rt}救われる気がする。	【Fighter】{rt}I feel like I've been saved.	
+A1.7.0026	line		【格闘家】{rt}…ありがとう…。	【Fighter】{rt}...Thank you...	
+A1.7.0027	line		【格闘家】{rt}すまない、突然こんな事を{rt}聞いてしまって…。	【Fighter】{rt}Sorry, asking you something like this{rt}out of nowhere...	
+A1.7.0028	line		【格闘家】{rt}……。	【Fighter】{rt}.......	
+A1.7.0029	line		【格闘家】{rt}…すまん。	【Fighter】{rt}...Sorry.	
+A1.7.0030	line		【格闘家】{rt}気を使わせて{rt}しまったようだな。	【Fighter】{rt}Seems I made you worry about me.	
+A1.7.0031	line		【格闘家】{rt}だが、	【Fighter】{rt}But,	
+A1.7.0032	line		【格闘家】{rt}お前にそう言ってもらえた、	【Fighter】{rt}just hearing you say that,	
+A1.7.0033	line		【格闘家】{rt}それだけで俺は・・・。	【Fighter】{rt}Just that alone, I...	
+A1.7.0034	line		【格闘家】{rt}救われる気がする。	【Fighter】{rt}feel like I've been saved.	
+A1.7.0035	line		【格闘家】{rt}…ありがとう…。	【Fighter】{rt}...Thank you...	
