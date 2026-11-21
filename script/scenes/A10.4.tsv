@@ -1,39 +1,39 @@
 id	kind	max	jp	en	notes
-A10.4.0000	line		【護人】{rt}《嘘》―――		
-A10.4.0001	line		【護人】{rt}《偽る》―――ということは、		
-A10.4.0002	line		【護人】{rt}人の持つ防衛手段の{rt}ひとつだろう。		
-A10.4.0003	line		【護人】{rt}人を偽り、己の心を偽り―――		
-A10.4.0004	line		【護人】{rt}真実を歪めていくことによって{rt}人は何かを護ろうとする。		
-A10.4.0005	line		【護人】{rt}自身を、他者を、{rt}大切なものを。		
-A10.4.0006	line		【護人】{rt}お前はそれを、嘲るか？		
-A10.4.0007	line		【護人】{rt}それはただの弱さだと―――		
-A10.4.0008	line		【護人】{rt}お前は…そうおもうか？		
+A10.4.0000	line		【護人】{rt}《嘘》―――	【Guardian】{rt}Lies--	
+A10.4.0001	line		【護人】{rt}《偽る》―――ということは、	【Guardian】{rt}Deceit--is, I suppose,	
+A10.4.0002	line		【護人】{rt}人の持つ防衛手段の{rt}ひとつだろう。	【Guardian】{rt}one of the means people have to{rt}defend themselves.	
+A10.4.0003	line		【護人】{rt}人を偽り、己の心を偽り―――	【Guardian】{rt}Deceiving others, deceiving their own{rt}hearts--	
+A10.4.0004	line		【護人】{rt}真実を歪めていくことによって{rt}人は何かを護ろうとする。	【Guardian】{rt}by twisting the truth, people try to{rt}protect something.	
+A10.4.0005	line		【護人】{rt}自身を、他者を、{rt}大切なものを。	【Guardian】{rt}Themselves, others, the things they{rt}hold dear.	
+A10.4.0006	line		【護人】{rt}お前はそれを、嘲るか？	【Guardian】{rt}Do you scorn that?	
+A10.4.0007	line		【護人】{rt}それはただの弱さだと―――	【Guardian】{rt}That it's mere weakness--	
+A10.4.0008	line		【護人】{rt}お前は…そうおもうか？	【Guardian】{rt}is that... what you think?	
 A10.4.0009	line		【護人】{rt}……。	【Guardian】{rt}......	
-A10.4.0010	line		【護人】{rt}聞こえなかったのなら{rt}それもいいだろう。		
+A10.4.0010	line		【護人】{rt}聞こえなかったのなら{rt}それもいいだろう。	【Guardian】{rt}If you didn't hear, that's fine too.	
 A10.4.0011	line		【護人】{rt}……。	【Guardian】{rt}......	
-A10.4.0012	line		【護人】{rt}お前を見ていると人というのは		
-A10.4.0013	line		【護人】{rt}つくづく妙な生き物だと{rt}改めておもいしらされるな。		
-A10.4.0014	line		【護人】{rt}…そうでもあり、また―――		
-A10.4.0015	line		【護人】{rt}それだけではないだろう。		
-A10.4.0016	line		【護人】{rt}嘘は弱さ、そしてそれは悪だと{rt}短絡的に決めつける輩より		
-A10.4.0017	line		【護人】{rt}お前は数段マシなようだな。		
-A10.4.0018	line		【護人】{rt}…そうか。		
-A10.4.0019	line		【護人】{rt}お前のような人間もいる。		
-A10.4.0020	line		【護人】{rt}結局は…		
-A10.4.0021	line		【護人】{rt}それだけのことだな。		
-A10.4.0022	line		【護人】{rt}…そうだ。		
-A10.4.0023	line		【護人】{rt}確かにそれは、{rt}人の弱さだろう。		
-A10.4.0024	line		【護人】{rt}そしてそれを認めた上で、{rt}その先を見ているとでも…？		
-A10.4.0025	line		【護人】{rt}フッ…		
-A10.4.0026	line		【護人】{rt}まったく大した奴だな。		
-A10.4.0027	line		【護人】{rt}…そうだな。		
-A10.4.0028	line		【護人】{rt}お前にとっては所詮―――		
-A10.4.0029	line		【護人】{rt}それだけのことだろう。		
+A10.4.0012	line		【護人】{rt}お前を見ていると人というのは	【Guardian】{rt}Watching you, I'm reminded all over{rt}again	
+A10.4.0013	line		【護人】{rt}つくづく妙な生き物だと{rt}改めておもいしらされるな。	【Guardian】{rt}what strange creatures humans truly{rt}are.	
+A10.4.0014	line		【護人】{rt}…そうでもあり、また―――	【Guardian】{rt}...It is that, and yet--	
+A10.4.0015	line		【護人】{rt}それだけではないだろう。	【Guardian】{rt}it's not only that, I suppose.	
+A10.4.0016	line		【護人】{rt}嘘は弱さ、そしてそれは悪だと{rt}短絡的に決めつける輩より	【Guardian】{rt}You're a good deal better than the{rt}sort who rashly decide	
+A10.4.0017	line		【護人】{rt}お前は数段マシなようだな。	【Guardian】{rt}that lies are weakness, and weakness is{rt}evil.	
+A10.4.0018	line		【護人】{rt}…そうか。	【Guardian】{rt}...I see.	
+A10.4.0019	line		【護人】{rt}お前のような人間もいる。	【Guardian】{rt}There are people like you, too.	
+A10.4.0020	line		【護人】{rt}結局は…	【Guardian】{rt}In the end...	
+A10.4.0021	line		【護人】{rt}それだけのことだな。	【Guardian】{rt}that's all there is to it.	
+A10.4.0022	line		【護人】{rt}…そうだ。	【Guardian】{rt}...Yes.	
+A10.4.0023	line		【護人】{rt}確かにそれは、{rt}人の弱さだろう。	【Guardian】{rt}It's certainly a human weakness.	
+A10.4.0024	line		【護人】{rt}そしてそれを認めた上で、{rt}その先を見ているとでも…？	【Guardian】{rt}And you admit that, and look beyond{rt}it...?	
+A10.4.0025	line		【護人】{rt}フッ…	【Guardian】{rt}Heh...	
+A10.4.0026	line		【護人】{rt}まったく大した奴だな。	【Guardian】{rt}You really are something.	
+A10.4.0027	line		【護人】{rt}…そうだな。	【Guardian】{rt}...I see.	
+A10.4.0028	line		【護人】{rt}お前にとっては所詮―――	【Guardian】{rt}To you, after all--	
+A10.4.0029	line		【護人】{rt}それだけのことだろう。	【Guardian】{rt}that's all there is to it.	
 A10.4.0030	line		【護人】{rt}……。	【Guardian】{rt}......	
-A10.4.0031	line		【護人】{rt}それがお前の出した答えなら{rt}せいぜい信じてみることだ。		
-A10.4.0032	line		【護人】{rt}…フッ。		
-A10.4.0033	line		【護人】{rt}それがお前の出した答えなら{rt}せいぜい信じてみることだ。		
-A10.4.0034	line		【護人】{rt}…ほう？		
-A10.4.0035	line		【護人】{rt}まさか、何かを偽ったこと{rt}など		
-A10.4.0036	line		【護人】{rt}一度もないとでもいう{rt}つもりか？		
-A10.4.0037	line		【護人】{rt}…これ以上お前の戯言に{rt}付き合っている暇はないな。		
+A10.4.0031	line		【護人】{rt}それがお前の出した答えなら{rt}せいぜい信じてみることだ。	【Guardian】{rt}If that's the answer you've reached,{rt}go ahead and believe in it.	
+A10.4.0032	line		【護人】{rt}…フッ。	【Guardian】{rt}...Heh.	
+A10.4.0033	line		【護人】{rt}それがお前の出した答えなら{rt}せいぜい信じてみることだ。	【Guardian】{rt}If that's the answer you've reached,{rt}go ahead and believe in it.	
+A10.4.0034	line		【護人】{rt}…ほう？	【Guardian】{rt}...Oh?	
+A10.4.0035	line		【護人】{rt}まさか、何かを偽ったこと{rt}など	【Guardian】{rt}Don't tell me you mean to claim	
+A10.4.0036	line		【護人】{rt}一度もないとでもいう{rt}つもりか？	【Guardian】{rt}you've never once deceived anyone?	
+A10.4.0037	line		【護人】{rt}…これ以上お前の戯言に{rt}付き合っている暇はないな。	【Guardian】{rt}...I have no time to waste on your{rt}nonsense.	

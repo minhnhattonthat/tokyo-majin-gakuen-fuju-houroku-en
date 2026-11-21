@@ -1,65 +1,65 @@
 id	kind	max	jp	en	notes
-A10.0.0000	line		【巡り逢えし友】{rt}よおッ！		
-A10.0.0001	line		【巡り逢えし友】{rt}お前、部活とか入ってんの？		
-A10.0.0002	line		【巡り逢えし友】{rt}外でやる部活ってゆーと―――		
-A10.0.0003	line		【巡り逢えし友】{rt}どんなイメージ？		
-A10.0.0004	line		【巡り逢えし友】{rt}はぁ…		
-A10.0.0005	line		【巡り逢えし友】{rt}何を思い出しても{rt}汗がでるよな。		
-A10.0.0006	line		【巡り逢えし友】{rt}それに腹がへるし…へへへ。		
-A10.0.0007	line		【巡り逢えし友】{rt}そういう時はやっぱ買い食い。		
-A10.0.0008	line		【巡り逢えし友】{rt}高校生はこれに限るよな。		
-A10.0.0009	line		【巡り逢えし友】{rt}お前って、意外に{rt}真面目なのな。		
-A10.0.0010	line		【巡り逢えし友】{rt}それとも…		
-A10.0.0011	line		【巡り逢えし友】{rt}それとも実は{rt}寂しい…やつ？		
-A10.0.0012	line		【巡り逢えし友】{rt}……！		
-A10.0.0013	line		【巡り逢えし友】{rt}お、俺、ちょっと用を{rt}思い出した、		
-A10.0.0014	line		【巡り逢えし友】{rt}じゃ、じゃあな！		
-A10.0.0015	line		【巡り逢えし友】{rt}おいおい～		
-A10.0.0016	line		【巡り逢えし友】{rt}そんなに悩むほどのことか？		
-A10.0.0017	line		【巡り逢えし友】{rt}別に俺のイメージを{rt}お前に―――		
-A10.0.0018	line		【巡り逢えし友】{rt}押しつけるつもりは{rt}ないんだけど。		
-A10.0.0019	line		【巡り逢えし友】{rt}ま、忘れてくれ。		
-A10.0.0020	line		【巡り逢えし友】{rt}だろ？		
-A10.0.0021	line		【巡り逢えし友】{rt}だろ！		
-A10.0.0022	line		【巡り逢えし友】{rt}やっぱそうだよなぁ～。		
-A10.0.0023	line		【巡り逢えし友】{rt}メチャ暑い夏の日―――		
-A10.0.0024	line		【巡り逢えし友】{rt}帰りながら飲む炭酸の{rt}毒っぽさ。		
-A10.0.0025	line		【巡り逢えし友】{rt}それにさ、		
-A10.0.0026	line		【巡り逢えし友】{rt}２０円で売ってるあの―――		
-A10.0.0027	line		【巡り逢えし友】{rt}なんてんだ？あの―――		
-A10.0.0028	line		【巡り逢えし友】{rt}あのパンの{rt}乾燥したみたいなやつ、		
-A10.0.0029	line		【巡り逢えし友】{rt}あーゆー駄菓子ってのをさ、{rt}買うのが高校生だよなぁ～		
-A10.0.0030	line		【巡り逢えし友】{rt}な？		
-A10.0.0031	line		【巡り逢えし友】{rt}だろ？		
-A10.0.0032	line		【巡り逢えし友】{rt}だろ！		
-A10.0.0033	line		【巡り逢えし友】{rt}やっぱそうだよなぁ～。		
-A10.0.0034	line		【巡り逢えし友】{rt}メチャ暑い夏の日―――		
-A10.0.0035	line		【巡り逢えし友】{rt}帰りながら飲む炭酸の{rt}毒っぽさ。		
-A10.0.0036	line		【巡り逢えし友】{rt}それにさ、		
-A10.0.0037	line		【巡り逢えし友】{rt}２０円で売ってるあの―――		
-A10.0.0038	line		【巡り逢えし友】{rt}なんてんだ？あの―――		
-A10.0.0039	line		【巡り逢えし友】{rt}あのパンの{rt}乾燥したみたいなやつ、		
-A10.0.0040	line		【巡り逢えし友】{rt}あーゆー駄菓子ってのをさ、{rt}買うのが高校生だよなぁ～		
-A10.0.0041	line		【巡り逢えし友】{rt}な？		
-A10.0.0042	line		【巡り逢えし友】{rt}だろ？		
-A10.0.0043	line		【巡り逢えし友】{rt}だろ！		
-A10.0.0044	line		【巡り逢えし友】{rt}やっぱそうだよなぁ～。		
-A10.0.0045	line		【巡り逢えし友】{rt}メチャ暑い夏の日―――		
-A10.0.0046	line		【巡り逢えし友】{rt}帰りながら飲む炭酸の{rt}毒っぽさ。		
-A10.0.0047	line		【巡り逢えし友】{rt}それにさ、		
-A10.0.0048	line		【巡り逢えし友】{rt}２０円で売ってるあの―――		
-A10.0.0049	line		【巡り逢えし友】{rt}なんてんだ？あの―――		
-A10.0.0050	line		【巡り逢えし友】{rt}あのパンの{rt}乾燥したみたいなやつ、		
-A10.0.0051	line		【巡り逢えし友】{rt}あーゆー駄菓子ってのをさ、{rt}買うのが高校生だよなぁ～		
-A10.0.0052	line		【巡り逢えし友】{rt}な？		
-A10.0.0053	line		【巡り逢えし友】{rt}何？		
-A10.0.0054	line		【巡り逢えし友】{rt}お前、あーゆーのダメなの？		
-A10.0.0055	line		【巡り逢えし友】{rt}う～ん…駄菓子って、{rt}うまいと思うけどな。		
-A10.0.0056	line		【巡り逢えし友】{rt}……		
-A10.0.0057	line		【巡り逢えし友】{rt}ま、いいんじゃない？		
-A10.0.0058	line		【巡り逢えし友】{rt}たしかに体には良くないよな。		
-A10.0.0059	line		【巡り逢えし友】{rt}寂しい青春だな。		
-A10.0.0060	line		【巡り逢えし友】{rt}ま、いいさ。好きにしたら？		
-A10.0.0061	line		【巡り逢えし友】{rt}何、怒ってんだよ。		
-A10.0.0062	line		【巡り逢えし友】{rt}お前、少し{rt}おかしいんじゃないの？		
-A10.0.0063	line		【巡り逢えし友】{rt}ま、いいさ。好きにしたら？		
+A10.0.0000	line		【巡り逢えし友】{rt}よおッ！	【Destined Friend】{rt}Yo!	
+A10.0.0001	line		【巡り逢えし友】{rt}お前、部活とか入ってんの？	【Destined Friend】{rt}You in any clubs?	
+A10.0.0002	line		【巡り逢えし友】{rt}外でやる部活ってゆーと―――	【Destined Friend】{rt}When you think of outdoor clubs--	
+A10.0.0003	line		【巡り逢えし友】{rt}どんなイメージ？	【Destined Friend】{rt}what comes to mind?	
+A10.0.0004	line		【巡り逢えし友】{rt}はぁ…	【Destined Friend】{rt}Phew...	
+A10.0.0005	line		【巡り逢えし友】{rt}何を思い出しても{rt}汗がでるよな。	【Destined Friend】{rt}Whatever I picture, it makes me{rt}sweat.	
+A10.0.0006	line		【巡り逢えし友】{rt}それに腹がへるし…へへへ。	【Destined Friend】{rt}And it makes me hungry... heh heh.	
+A10.0.0007	line		【巡り逢えし友】{rt}そういう時はやっぱ買い食い。	【Destined Friend】{rt}At times like that, it's gotta be snacks{rt}on the way home.	
+A10.0.0008	line		【巡り逢えし友】{rt}高校生はこれに限るよな。	【Destined Friend】{rt}That's what high-schoolers do best,{rt}right?	
+A10.0.0009	line		【巡り逢えし友】{rt}お前って、意外に{rt}真面目なのな。	【Destined Friend】{rt}You're surprisingly serious, huh.	
+A10.0.0010	line		【巡り逢えし友】{rt}それとも…	【Destined Friend】{rt}Or maybe...	
+A10.0.0011	line		【巡り逢えし友】{rt}それとも実は{rt}寂しい…やつ？	【Destined Friend】{rt}maybe you're actually kind of a... lonely{rt}type?	
+A10.0.0012	line		【巡り逢えし友】{rt}……！	【Destined Friend】{rt}......!	
+A10.0.0013	line		【巡り逢えし友】{rt}お、俺、ちょっと用を{rt}思い出した、	【Destined Friend】{rt}I-I just remembered I gotta do{rt}something,	
+A10.0.0014	line		【巡り逢えし友】{rt}じゃ、じゃあな！	【Destined Friend】{rt}s-see ya!	
+A10.0.0015	line		【巡り逢えし友】{rt}おいおい～	【Destined Friend】{rt}Hey, hey~	
+A10.0.0016	line		【巡り逢えし友】{rt}そんなに悩むほどのことか？	【Destined Friend】{rt}Is it really worth thinking that hard{rt}about?	
+A10.0.0017	line		【巡り逢えし友】{rt}別に俺のイメージを{rt}お前に―――	【Destined Friend】{rt}It's not like I'm trying to--	
+A10.0.0018	line		【巡り逢えし友】{rt}押しつけるつもりは{rt}ないんだけど。	【Destined Friend】{rt}force my image on you.	
+A10.0.0019	line		【巡り逢えし友】{rt}ま、忘れてくれ。	【Destined Friend】{rt}Well, forget it.	
+A10.0.0020	line		【巡り逢えし友】{rt}だろ？	【Destined Friend】{rt}Right?	
+A10.0.0021	line		【巡り逢えし友】{rt}だろ！	【Destined Friend】{rt}Right!	
+A10.0.0022	line		【巡り逢えし友】{rt}やっぱそうだよなぁ～。	【Destined Friend】{rt}I knew it~.	
+A10.0.0023	line		【巡り逢えし友】{rt}メチャ暑い夏の日―――	【Destined Friend】{rt}On a scorching summer day--	
+A10.0.0024	line		【巡り逢えし友】{rt}帰りながら飲む炭酸の{rt}毒っぽさ。	【Destined Friend】{rt}that poisonous fizz of a soda on the{rt}way home.	
+A10.0.0025	line		【巡り逢えし友】{rt}それにさ、	【Destined Friend】{rt}And also,	
+A10.0.0026	line		【巡り逢えし友】{rt}２０円で売ってるあの―――	【Destined Friend】{rt}those things they sell for 20 yen--	
+A10.0.0027	line		【巡り逢えし友】{rt}なんてんだ？あの―――	【Destined Friend】{rt}what're they called? Those--	
+A10.0.0028	line		【巡り逢えし友】{rt}あのパンの{rt}乾燥したみたいなやつ、	【Destined Friend】{rt}those things like dried-up bread,	
+A10.0.0029	line		【巡り逢えし友】{rt}あーゆー駄菓子ってのをさ、{rt}買うのが高校生だよなぁ～	【Destined Friend】{rt}buying cheap snacks like that is what{rt}high-schoolers do, right~	
+A10.0.0030	line		【巡り逢えし友】{rt}な？	【Destined Friend】{rt}Right?	
+A10.0.0031	line		【巡り逢えし友】{rt}だろ？	【Destined Friend】{rt}Right?	
+A10.0.0032	line		【巡り逢えし友】{rt}だろ！	【Destined Friend】{rt}Right!	
+A10.0.0033	line		【巡り逢えし友】{rt}やっぱそうだよなぁ～。	【Destined Friend】{rt}I knew it~.	
+A10.0.0034	line		【巡り逢えし友】{rt}メチャ暑い夏の日―――	【Destined Friend】{rt}On a scorching summer day--	
+A10.0.0035	line		【巡り逢えし友】{rt}帰りながら飲む炭酸の{rt}毒っぽさ。	【Destined Friend】{rt}that poisonous fizz of a soda on the{rt}way home.	
+A10.0.0036	line		【巡り逢えし友】{rt}それにさ、	【Destined Friend】{rt}And also,	
+A10.0.0037	line		【巡り逢えし友】{rt}２０円で売ってるあの―――	【Destined Friend】{rt}those things they sell for 20 yen--	
+A10.0.0038	line		【巡り逢えし友】{rt}なんてんだ？あの―――	【Destined Friend】{rt}what're they called? Those--	
+A10.0.0039	line		【巡り逢えし友】{rt}あのパンの{rt}乾燥したみたいなやつ、	【Destined Friend】{rt}those things like dried-up bread,	
+A10.0.0040	line		【巡り逢えし友】{rt}あーゆー駄菓子ってのをさ、{rt}買うのが高校生だよなぁ～	【Destined Friend】{rt}buying cheap snacks like that is what{rt}high-schoolers do, right~	
+A10.0.0041	line		【巡り逢えし友】{rt}な？	【Destined Friend】{rt}Right?	
+A10.0.0042	line		【巡り逢えし友】{rt}だろ？	【Destined Friend】{rt}Right?	
+A10.0.0043	line		【巡り逢えし友】{rt}だろ！	【Destined Friend】{rt}Right!	
+A10.0.0044	line		【巡り逢えし友】{rt}やっぱそうだよなぁ～。	【Destined Friend】{rt}I knew it~.	
+A10.0.0045	line		【巡り逢えし友】{rt}メチャ暑い夏の日―――	【Destined Friend】{rt}On a scorching summer day--	
+A10.0.0046	line		【巡り逢えし友】{rt}帰りながら飲む炭酸の{rt}毒っぽさ。	【Destined Friend】{rt}that poisonous fizz of a soda on the{rt}way home.	
+A10.0.0047	line		【巡り逢えし友】{rt}それにさ、	【Destined Friend】{rt}And also,	
+A10.0.0048	line		【巡り逢えし友】{rt}２０円で売ってるあの―――	【Destined Friend】{rt}those things they sell for 20 yen--	
+A10.0.0049	line		【巡り逢えし友】{rt}なんてんだ？あの―――	【Destined Friend】{rt}what're they called? Those--	
+A10.0.0050	line		【巡り逢えし友】{rt}あのパンの{rt}乾燥したみたいなやつ、	【Destined Friend】{rt}those things like dried-up bread,	
+A10.0.0051	line		【巡り逢えし友】{rt}あーゆー駄菓子ってのをさ、{rt}買うのが高校生だよなぁ～	【Destined Friend】{rt}buying cheap snacks like that is what{rt}high-schoolers do, right~	
+A10.0.0052	line		【巡り逢えし友】{rt}な？	【Destined Friend】{rt}Right?	
+A10.0.0053	line		【巡り逢えし友】{rt}何？	【Destined Friend】{rt}What?	
+A10.0.0054	line		【巡り逢えし友】{rt}お前、あーゆーのダメなの？	【Destined Friend】{rt}You can't stand that kinda stuff?	
+A10.0.0055	line		【巡り逢えし友】{rt}う～ん…駄菓子って、{rt}うまいと思うけどな。	【Destined Friend】{rt}Hmm... I think cheap snacks are tasty,{rt}though.	
+A10.0.0056	line		【巡り逢えし友】{rt}……	【Destined Friend】{rt}......	
+A10.0.0057	line		【巡り逢えし友】{rt}ま、いいんじゃない？	【Destined Friend】{rt}Well, that's fine, I guess?	
+A10.0.0058	line		【巡り逢えし友】{rt}たしかに体には良くないよな。	【Destined Friend】{rt}They're definitely not good for you.	
+A10.0.0059	line		【巡り逢えし友】{rt}寂しい青春だな。	【Destined Friend】{rt}What a lonely youth.	
+A10.0.0060	line		【巡り逢えし友】{rt}ま、いいさ。好きにしたら？	【Destined Friend】{rt}Well, whatever. Do what you like.	
+A10.0.0061	line		【巡り逢えし友】{rt}何、怒ってんだよ。	【Destined Friend】{rt}What're you mad about?	
+A10.0.0062	line		【巡り逢えし友】{rt}お前、少し{rt}おかしいんじゃないの？	【Destined Friend】{rt}Aren't you a bit weird?	
+A10.0.0063	line		【巡り逢えし友】{rt}ま、いいさ。好きにしたら？	【Destined Friend】{rt}Well, whatever. Do what you like.	

@@ -1,43 +1,43 @@
 id	kind	max	jp	en	notes
-A10.2.0000	line		【槍使い】{rt}《欲》…っていうのはサ、{rt}キリがないもンだよな。		
-A10.2.0001	line		【槍使い】{rt}強くなりたい…とか		
-A10.2.0002	line		【槍使い】{rt}いつでもカッコよく{rt}ありたい、とか		
-A10.2.0003	line		【槍使い】{rt}ギターが上手くなりたい、とか		
-A10.2.0004	line		【槍使い】{rt}まァ、それは{rt}オレ様のコトだけど		
-A10.2.0005	line		【槍使い】{rt}でも、アンタだって{rt}そうだろ？		
-A10.2.0006	line		【槍使い】{rt}欲求ばっかり積み{rt}あがっちまって		
-A10.2.0007	line		【槍使い】{rt}でも、実際には何一つ{rt}おもい通りにならなくて、		
-A10.2.0008	line		【槍使い】{rt}なンか無性に腹が立つような{rt}コト、		
-A10.2.0009	line		【槍使い】{rt}アンタだってあるだろ？		
-A10.2.0010	line		【槍使い】{rt}なンだよ、聞いてなかったの{rt}かよ？		
-A10.2.0011	line		【槍使い】{rt}ッたく、やってらンねェぜ！		
-A10.2.0012	line		【槍使い】{rt}…なンだ。		
-A10.2.0013	line		【槍使い】{rt}まさかそンなに共感されるとは{rt}おもってもみなかったぜ。		
-A10.2.0014	line		【槍使い】{rt}けどよォ、結局{rt}本当に大事なモンは		
-A10.2.0015	line		【槍使い】{rt}《努力》して手に入れるしか{rt}ないってコト…		
-A10.2.0016	line		【槍使い】{rt}アンタだって、{rt}わかってンだよな。		
-A10.2.0017	line		【槍使い】{rt}……。		
-A10.2.0018	line		【槍使い】{rt}《欲》がねェってのは、		
-A10.2.0019	line		【槍使い】{rt}それはそれで{rt}いいかもしれねェけど		
-A10.2.0020	line		【槍使い】{rt}オレ様にゃ、よく{rt}わかンねェな。		
-A10.2.0021	line		【槍使い】{rt}やっぱアンタもか？		
-A10.2.0022	line		【槍使い】{rt}《欲》ってのはホント―――		
-A10.2.0023	line		【槍使い】{rt}キリがねェよな。		
-A10.2.0024	line		【槍使い】{rt}やっぱアンタもか？		
-A10.2.0025	line		【槍使い】{rt}…けど、		
-A10.2.0026	line		【槍使い】{rt}本当に大事なものは{rt}自分の力で―――努力して、		
-A10.2.0027	line		【槍使い】{rt}手に入れるしかないンだよな。		
-A10.2.0028	line		【槍使い】{rt}それはわかってるけど{rt}…な。		
-A10.2.0029	line		【槍使い】{rt}やっぱそうだよなァ。		
-A10.2.0030	line		【槍使い】{rt}《欲》ってのはホント―――		
-A10.2.0031	line		【槍使い】{rt}キリがねェよな。		
-A10.2.0032	line		【槍使い】{rt}……。わかってるよ。		
-A10.2.0033	line		【槍使い】{rt}努力せずに手に入るモノなンて{rt}ないっていうンだろ？		
-A10.2.0034	line		【槍使い】{rt}まァ実際、頑張って{rt}手に入れたモンの方が		
-A10.2.0035	line		【槍使い】{rt}大事だし貴重だよな。		
-A10.2.0036	line		【槍使い】{rt}…ちッ。冷てェなァ。		
-A10.2.0037	line		【槍使い】{rt}オレ様だってわかってンだよ。		
-A10.2.0038	line		【槍使い】{rt}努力せずに手に入るモノなンて{rt}ないってコトくらいよッ。		
-A10.2.0039	line		【槍使い】{rt}そういういい方ねェだろ？		
-A10.2.0040	line		【槍使い】{rt}オレ様だってわかってンだよ。		
-A10.2.0041	line		【槍使い】{rt}努力せずに手に入るモノなンて{rt}ないってコトくらいよッ。		
+A10.2.0000	line		【槍使い】{rt}《欲》…っていうのはサ、{rt}キリがないもンだよな。	【Spear Wielder】{rt}Desire... y'know, it never ends.	
+A10.2.0001	line		【槍使い】{rt}強くなりたい…とか	【Spear Wielder】{rt}Wanting to get stronger...	
+A10.2.0002	line		【槍使い】{rt}いつでもカッコよく{rt}ありたい、とか	【Spear Wielder】{rt}wanting to look cool all the time,	
+A10.2.0003	line		【槍使い】{rt}ギターが上手くなりたい、とか	【Spear Wielder】{rt}wanting to get better at guitar,	
+A10.2.0004	line		【槍使い】{rt}まァ、それは{rt}オレ様のコトだけど	【Spear Wielder】{rt}well, that's me I'm talkin' about,	
+A10.2.0005	line		【槍使い】{rt}でも、アンタだって{rt}そうだろ？	【Spear Wielder】{rt}but you're the same, ain't ya?	
+A10.2.0006	line		【槍使い】{rt}欲求ばっかり積み{rt}あがっちまって	【Spear Wielder】{rt}All you do is pile up wants,	
+A10.2.0007	line		【槍使い】{rt}でも、実際には何一つ{rt}おもい通りにならなくて、	【Spear Wielder】{rt}but in reality nothin' goes the way you{rt}want,	
+A10.2.0008	line		【槍使い】{rt}なンか無性に腹が立つような{rt}コト、	【Spear Wielder】{rt}and somethin' just makes you mad for{rt}no reason,	
+A10.2.0009	line		【槍使い】{rt}アンタだってあるだろ？	【Spear Wielder】{rt}that happens to you too, right?	
+A10.2.0010	line		【槍使い】{rt}なンだよ、聞いてなかったの{rt}かよ？	【Spear Wielder】{rt}What, you weren't listenin'?	
+A10.2.0011	line		【槍使い】{rt}ッたく、やってらンねェぜ！	【Spear Wielder】{rt}Jeez, gimme a break!	
+A10.2.0012	line		【槍使い】{rt}…なンだ。	【Spear Wielder】{rt}...Huh.	
+A10.2.0013	line		【槍使い】{rt}まさかそンなに共感されるとは{rt}おもってもみなかったぜ。	【Spear Wielder】{rt}Never figured you'd relate that{rt}much.	
+A10.2.0014	line		【槍使い】{rt}けどよォ、結局{rt}本当に大事なモンは	【Spear Wielder】{rt}But y'know, in the end, the stuff that{rt}really matters,	
+A10.2.0015	line		【槍使い】{rt}《努力》して手に入れるしか{rt}ないってコト…	【Spear Wielder】{rt}you can only get it with Hard Work...	
+A10.2.0016	line		【槍使い】{rt}アンタだって、{rt}わかってンだよな。	【Spear Wielder】{rt}You know that too, right?	
+A10.2.0017	line		【槍使い】{rt}……。	【Spear Wielder】{rt}.......	
+A10.2.0018	line		【槍使い】{rt}《欲》がねェってのは、	【Spear Wielder】{rt}Havin' no Desire,	
+A10.2.0019	line		【槍使い】{rt}それはそれで{rt}いいかもしれねェけど	【Spear Wielder】{rt}maybe that's fine in its own way,	
+A10.2.0020	line		【槍使い】{rt}オレ様にゃ、よく{rt}わかンねェな。	【Spear Wielder】{rt}but I don't really get it.	
+A10.2.0021	line		【槍使い】{rt}やっぱアンタもか？	【Spear Wielder】{rt}You too, huh?	
+A10.2.0022	line		【槍使い】{rt}《欲》ってのはホント―――	【Spear Wielder】{rt}Desire really--	
+A10.2.0023	line		【槍使い】{rt}キリがねェよな。	【Spear Wielder】{rt}never ends, does it.	
+A10.2.0024	line		【槍使い】{rt}やっぱアンタもか？	【Spear Wielder】{rt}You too, huh?	
+A10.2.0025	line		【槍使い】{rt}…けど、	【Spear Wielder】{rt}...But,	
+A10.2.0026	line		【槍使い】{rt}本当に大事なものは{rt}自分の力で―――努力して、	【Spear Wielder】{rt}the stuff that really matters, you can{rt}only get it yourself--	
+A10.2.0027	line		【槍使い】{rt}手に入れるしかないンだよな。	【Spear Wielder】{rt}through hard work.	
+A10.2.0028	line		【槍使い】{rt}それはわかってるけど{rt}…な。	【Spear Wielder】{rt}I know that, but... y'know.	
+A10.2.0029	line		【槍使い】{rt}やっぱそうだよなァ。	【Spear Wielder】{rt}Yeah, figured.	
+A10.2.0030	line		【槍使い】{rt}《欲》ってのはホント―――	【Spear Wielder】{rt}Desire really--	
+A10.2.0031	line		【槍使い】{rt}キリがねェよな。	【Spear Wielder】{rt}never ends, does it.	
+A10.2.0032	line		【槍使い】{rt}……。わかってるよ。	【Spear Wielder】{rt}...... I know.	
+A10.2.0033	line		【槍使い】{rt}努力せずに手に入るモノなンて{rt}ないっていうンだろ？	【Spear Wielder】{rt}You're gonna say there's nothin' you{rt}get without workin' for it, right?	
+A10.2.0034	line		【槍使い】{rt}まァ実際、頑張って{rt}手に入れたモンの方が	【Spear Wielder】{rt}Well, sure, the stuff you work hard{rt}for	
+A10.2.0035	line		【槍使い】{rt}大事だし貴重だよな。	【Spear Wielder】{rt}means more and is worth more.	
+A10.2.0036	line		【槍使い】{rt}…ちッ。冷てェなァ。	【Spear Wielder】{rt}...Tch. Cold.	
+A10.2.0037	line		【槍使い】{rt}オレ様だってわかってンだよ。	【Spear Wielder】{rt}I know that too, y'know.	
+A10.2.0038	line		【槍使い】{rt}努力せずに手に入るモノなンて{rt}ないってコトくらいよッ。	【Spear Wielder】{rt}That there's nothin' you get without{rt}workin' for it!	
+A10.2.0039	line		【槍使い】{rt}そういういい方ねェだろ？	【Spear Wielder】{rt}No need to put it like that, is there?	
+A10.2.0040	line		【槍使い】{rt}オレ様だってわかってンだよ。	【Spear Wielder】{rt}I know that too, y'know.	
+A10.2.0041	line		【槍使い】{rt}努力せずに手に入るモノなンて{rt}ないってコトくらいよッ。	【Spear Wielder】{rt}That there's nothin' you get without{rt}workin' for it!	

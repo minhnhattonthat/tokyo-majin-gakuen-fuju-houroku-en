@@ -1,44 +1,44 @@
 id	kind	max	jp	en	notes
-A10.7.0000	line		【暗殺者】{rt}人を―――殺す。		
-A10.7.0001	line		【暗殺者】{rt}それはそんなに{rt}罪深いことかい？		
-A10.7.0002	line		【暗殺者】{rt}１００人の罪なき{rt}人々を救うために		
-A10.7.0003	line		【暗殺者】{rt}１人の悪党を殺すことは、		
-A10.7.0004	line		【暗殺者】{rt}本当に…		
-A10.7.0005	line		【暗殺者】{rt}悪しきことなのかい？		
+A10.7.0000	line		【暗殺者】{rt}人を―――殺す。	【Assassin】{rt}Killing--a person.	
+A10.7.0001	line		【暗殺者】{rt}それはそんなに{rt}罪深いことかい？	【Assassin】{rt}Is that really such a sin?	
+A10.7.0002	line		【暗殺者】{rt}１００人の罪なき{rt}人々を救うために	【Assassin】{rt}Killing one villain	
+A10.7.0003	line		【暗殺者】{rt}１人の悪党を殺すことは、	【Assassin】{rt}to save a hundred innocent people,	
+A10.7.0004	line		【暗殺者】{rt}本当に…	【Assassin】{rt}is that really...	
+A10.7.0005	line		【暗殺者】{rt}悪しきことなのかい？	【Assassin】{rt}an evil thing?	
 A10.7.0006	line		【暗殺者】{rt}……。	【Assassin】{rt}......	
-A10.7.0007	line		【暗殺者】{rt}話にもならないな。		
+A10.7.0007	line		【暗殺者】{rt}話にもならないな。	【Assassin】{rt}That's not even worth discussing.	
 A10.7.0008	line		【暗殺者】{rt}……。	【Assassin】{rt}......	
-A10.7.0009	line		【暗殺者】{rt}それだけじゃ、何も救えない。		
-A10.7.0010	line		【暗殺者】{rt}君も…		
-A10.7.0011	line		【暗殺者】{rt}分かってるはずだよ。		
-A10.7.0012	line		【暗殺者】{rt}…そうだな。		
-A10.7.0013	line		【暗殺者】{rt}僕にも本当は、わかって{rt}いないのかもしれない。		
-A10.7.0014	line		【暗殺者】{rt}だけど僕は人を殺める。		
-A10.7.0015	line		【暗殺者】{rt}僕の大切なものを護るために。		
-A10.7.0016	line		【暗殺者】{rt}これからも、きっと…ね。		
+A10.7.0009	line		【暗殺者】{rt}それだけじゃ、何も救えない。	【Assassin】{rt}That alone saves nothing.	
+A10.7.0010	line		【暗殺者】{rt}君も…	【Assassin】{rt}You...	
+A10.7.0011	line		【暗殺者】{rt}分かってるはずだよ。	【Assassin】{rt}should know that.	
+A10.7.0012	line		【暗殺者】{rt}…そうだな。	【Assassin】{rt}...I suppose.	
+A10.7.0013	line		【暗殺者】{rt}僕にも本当は、わかって{rt}いないのかもしれない。	【Assassin】{rt}Perhaps I don't really understand{rt}either.	
+A10.7.0014	line		【暗殺者】{rt}だけど僕は人を殺める。	【Assassin】{rt}But I take lives.	
+A10.7.0015	line		【暗殺者】{rt}僕の大切なものを護るために。	【Assassin】{rt}To protect what's precious to me.	
+A10.7.0016	line		【暗殺者】{rt}これからも、きっと…ね。	【Assassin】{rt}And I surely will... from now on, too.	
 A10.7.0017	line		【暗殺者】{rt}……。	【Assassin】{rt}......	
-A10.7.0018	line		【暗殺者】{rt}僕には…理解できないな。		
-A10.7.0019	line		【暗殺者】{rt}君は…僕を責めるのかい？		
-A10.7.0020	line		【暗殺者】{rt}だとしても僕は…、		
+A10.7.0018	line		【暗殺者】{rt}僕には…理解できないな。	【Assassin】{rt}I... can't understand that.	
+A10.7.0019	line		【暗殺者】{rt}君は…僕を責めるのかい？	【Assassin】{rt}Do you... condemn me?	
+A10.7.0020	line		【暗殺者】{rt}だとしても僕は…、	【Assassin】{rt}Even so, I...	
 A10.7.0021	line		【暗殺者】{rt}……。	【Assassin】{rt}......	
-A10.7.0022	line		【暗殺者】{rt}…そうか。では―――		
-A10.7.0023	line		【暗殺者】{rt}１人の悪党が１００人を殺す、		
-A10.7.0024	line		【暗殺者】{rt}それも同じ悪だというのかい？		
+A10.7.0022	line		【暗殺者】{rt}…そうか。では―――	【Assassin】{rt}...I see. Then--	
+A10.7.0023	line		【暗殺者】{rt}１人の悪党が１００人を殺す、	【Assassin】{rt}one villain killing a hundred people,	
+A10.7.0024	line		【暗殺者】{rt}それも同じ悪だというのかい？	【Assassin】{rt}you'd call that the same evil?	
 A10.7.0025	line		【暗殺者】{rt}……。	【Assassin】{rt}......	
-A10.7.0026	line		【暗殺者】{rt}くだらない理想論だね。		
-A10.7.0027	line		【暗殺者】{rt}君がそんな顔を{rt}することはない。		
-A10.7.0028	line		【暗殺者】{rt}僕の選んだ道は{rt}１人を救うために		
-A10.7.0029	line		【暗殺者】{rt}１００人を殺す道―――。		
-A10.7.0030	line		【暗殺者】{rt}それで大切なものが{rt}護れるのなら、		
-A10.7.0031	line		【暗殺者】{rt}僕は…それでいいんだよ。		
+A10.7.0026	line		【暗殺者】{rt}くだらない理想論だね。	【Assassin】{rt}What a worthless, idealistic notion.	
+A10.7.0027	line		【暗殺者】{rt}君がそんな顔を{rt}することはない。	【Assassin】{rt}There's no need for you to make that{rt}face.	
+A10.7.0028	line		【暗殺者】{rt}僕の選んだ道は{rt}１人を救うために	【Assassin】{rt}The path I chose is to kill a hundred	
+A10.7.0029	line		【暗殺者】{rt}１００人を殺す道―――。	【Assassin】{rt}to save one--.	
+A10.7.0030	line		【暗殺者】{rt}それで大切なものが{rt}護れるのなら、	【Assassin】{rt}If that lets me protect what's{rt}precious,	
+A10.7.0031	line		【暗殺者】{rt}僕は…それでいいんだよ。	【Assassin】{rt}then I'm... fine with that.	
 A10.7.0032	line		【暗殺者】{rt}……。	【Assassin】{rt}......	
-A10.7.0033	line		【暗殺者】{rt}僕は今まで、		
-A10.7.0034	line		【暗殺者】{rt}たった一人のために、多くの{rt}人間を手にかけてきた。		
-A10.7.0035	line		【暗殺者】{rt}この血にまみれた手を見ても、		
-A10.7.0036	line		【暗殺者】{rt}君は僕を悪ではないと{rt}いえるかい？		
+A10.7.0033	line		【暗殺者】{rt}僕は今まで、	【Assassin】{rt}Until now,	
+A10.7.0034	line		【暗殺者】{rt}たった一人のために、多くの{rt}人間を手にかけてきた。	【Assassin】{rt}I've killed many people for the sake of{rt}just one.	
+A10.7.0035	line		【暗殺者】{rt}この血にまみれた手を見ても、	【Assassin】{rt}Looking at these blood-soaked{rt}hands,	
+A10.7.0036	line		【暗殺者】{rt}君は僕を悪ではないと{rt}いえるかい？	【Assassin】{rt}can you still say I'm not evil?	
 A10.7.0037	line		【暗殺者】{rt}……。	【Assassin】{rt}......	
-A10.7.0038	line		【暗殺者】{rt}少し…感傷が過ぎたな。		
-A10.7.0039	line		【暗殺者】{rt}…フッ。		
-A10.7.0040	line		【暗殺者】{rt}それが君の正義感だとしたら、		
-A10.7.0041	line		【暗殺者】{rt}僕たちの道はきっと―――		
-A10.7.0042	line		【暗殺者】{rt}永久に交わることはないね。		
+A10.7.0038	line		【暗殺者】{rt}少し…感傷が過ぎたな。	【Assassin】{rt}I've gotten... a little too sentimental.	
+A10.7.0039	line		【暗殺者】{rt}…フッ。	【Assassin】{rt}...Heh.	
+A10.7.0040	line		【暗殺者】{rt}それが君の正義感だとしたら、	【Assassin】{rt}If that's your sense of justice,	
+A10.7.0041	line		【暗殺者】{rt}僕たちの道はきっと―――	【Assassin】{rt}then our paths will surely--	
+A10.7.0042	line		【暗殺者】{rt}永久に交わることはないね。	【Assassin】{rt}never, ever cross.	
