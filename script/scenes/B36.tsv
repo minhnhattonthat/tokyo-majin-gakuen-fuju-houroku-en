@@ -1,325 +1,325 @@
 id	kind	max	jp	en	notes
-B36.0000	line		【天探女】{rt}くうッ！！		
-B36.0001	line		【天探女】{rt}な、なんて《力》ッ！？		
-B36.0002	line		【天探女】{rt}《黄龍の器》―――		
-B36.0003	line		【天探女】{rt}人間如きにこの私が{rt}打ち負けるだなんてッ！！		
-B36.0004	line		【矢村】{rt}《大罪》は―――		
-B36.0005	line		【矢村】{rt}人間の心が産んだものだ。		
-B36.0006	line		【矢村】{rt}人間が創ったものならば、		
-B36.0007	line		【矢村】{rt}人間の《力》で破る事も{rt}できるはずなんだ。		
-B36.0008	line		【天探女】{rt}く、来るなッ！！		
-B36.0009	line		【天探女】{rt}せっかく―――		
-B36.0010	line		【天探女】{rt}せっかく現世（うつしよ）に{rt}出る事ができたんだ！！		
-B36.0011	line		【天探女】{rt}ここであんたたちに消されて{rt}たまるかッ！！		
-B36.0012	line		【矢村】{rt}探女…。		
-B36.0013	line		【矢村】{rt}お前は、充分苦しんだ。		
-B36.0014	line		【矢村】{rt}俺は思うよ。		
-B36.0015	line		【矢村】{rt}お前はもう、{rt}許されるべきだと…。		
-B36.0016	line		【天探女】{rt}（あ―――。）		
-B36.0017	line		【矢村】{rt}悪意ある《宿星》なんかに{rt}縛られるな！！		
-B36.0018	line		【矢村】{rt}それを振りほどくのが、{rt}真の《力》ってものだッ。		
-B36.0019	line		【矢村】{rt}違うか？探女ッ！！		
-B36.0020	line		【天探女】{rt}無理だよ！！		
-B36.0021	line		【天探女】{rt}私から《大罪》を切り離せる{rt}訳がない！！		
-B36.0022	line		【矢村】{rt}諦めるなッ！！		
-B36.0023	line		【天探女】{rt}―――！！		
-B36.0024	line		【矢村】{rt}やってもみないで{rt}そんな事、いうなよッ…。		
-B36.0025	line		【矢村】{rt}俺には分かるんだ。		
-B36.0026	line		【矢村】{rt}探女―――お前は		
-B36.0027	line		【矢村】{rt}《大罪》を得る事を{rt}望んではいないはずだ。		
+B36.0000	line		【天探女】{rt}くうッ！！	【Amanosagume】{rt}Ngh!!	
+B36.0001	line		【天探女】{rt}な、なんて《力》ッ！？	【Amanosagume】{rt}Wh-what Power!?	
+B36.0002	line		【天探女】{rt}《黄龍の器》―――	【Amanosagume】{rt}The Vessel of the Golden Dragon--	
+B36.0003	line		【天探女】{rt}人間如きにこの私が{rt}打ち負けるだなんてッ！！	【Amanosagume】{rt}How could I be beaten by a mere{rt}human!?	
+B36.0004	line		【矢村】{rt}《大罪》は―――	【Yamura】{rt}The Great Sins--	
+B36.0005	line		【矢村】{rt}人間の心が産んだものだ。	【Yamura】{rt}were born of human hearts.	
+B36.0006	line		【矢村】{rt}人間が創ったものならば、	【Yamura】{rt}If humans made them,	
+B36.0007	line		【矢村】{rt}人間の《力》で破る事も{rt}できるはずなんだ。	【Yamura】{rt}then human Power should be able to{rt}break them.	
+B36.0008	line		【天探女】{rt}く、来るなッ！！	【Amanosagume】{rt}S-stay back!!	
+B36.0009	line		【天探女】{rt}せっかく―――	【Amanosagume】{rt}I finally--	
+B36.0010	line		【天探女】{rt}せっかく現世（うつしよ）に{rt}出る事ができたんだ！！	【Amanosagume】{rt}I finally made it out into the mortal{rt}world!!	
+B36.0011	line		【天探女】{rt}ここであんたたちに消されて{rt}たまるかッ！！	【Amanosagume】{rt}I won't let you erase me here!!	
+B36.0012	line		【矢村】{rt}探女…。	【Yamura】{rt}Sagume...	
+B36.0013	line		【矢村】{rt}お前は、充分苦しんだ。	【Yamura】{rt}You've suffered enough.	
+B36.0014	line		【矢村】{rt}俺は思うよ。	【Yamura】{rt}I think	
+B36.0015	line		【矢村】{rt}お前はもう、{rt}許されるべきだと…。	【Yamura】{rt}it's time you were forgiven...	
+B36.0016	line		【天探女】{rt}（あ―――。）	【Amanosagume】{rt}(Ah--)	
+B36.0017	line		【矢村】{rt}悪意ある《宿星》なんかに{rt}縛られるな！！	【Yamura】{rt}Don't let some spiteful fated Stars bind{rt}you!!	
+B36.0018	line		【矢村】{rt}それを振りほどくのが、{rt}真の《力》ってものだッ。	【Yamura】{rt}Shaking them off--that's what true{rt}Power is.	
+B36.0019	line		【矢村】{rt}違うか？探女ッ！！	【Yamura】{rt}Am I wrong? Sagume!!	
+B36.0020	line		【天探女】{rt}無理だよ！！	【Amanosagume】{rt}I can't!!	
+B36.0021	line		【天探女】{rt}私から《大罪》を切り離せる{rt}訳がない！！	【Amanosagume】{rt}There's no way to cut the Great Sins{rt}out of me!!	
+B36.0022	line		【矢村】{rt}諦めるなッ！！	【Yamura】{rt}Don't give up!!	
+B36.0023	line		【天探女】{rt}―――！！	【Amanosagume】{rt}--!!	
+B36.0024	line		【矢村】{rt}やってもみないで{rt}そんな事、いうなよッ…。	【Yamura】{rt}Don't say that without even trying...	
+B36.0025	line		【矢村】{rt}俺には分かるんだ。	【Yamura】{rt}I know it.	
+B36.0026	line		【矢村】{rt}探女―――お前は	【Yamura】{rt}Sagume--you	
+B36.0027	line		【矢村】{rt}《大罪》を得る事を{rt}望んではいないはずだ。	【Yamura】{rt}can't really want to have the Great{rt}Sins.	
 B36.0028	line		【天探女】{rt}…………。	【Amanosagume】{rt}......	
 B36.0029	line		【矢村】{rt}大丈夫。	【Yamura】{rt}Don't worry.	
-B36.0030	line		【矢村】{rt}絶対に、やってみせる。		
-B36.0031	line		【矢村】{rt}だから、俺と{name1}と、{rt}自分を―――		
-B36.0032	line		【矢村】{rt}信じるんだッ。		
-B36.0033	line		【天探女】{rt}（自分を――？）		
-B36.0034	line		【矢村】{rt}{name1}ッ、俺に力をッ！！		
-B36.0035	line		【矢村】{rt}探女と《大罪》を結んでいる{rt}《宿星》を、断ち切るんだ！		
-B36.0036	line		【矢村】{rt}おおおおッ！！		
-B36.0037	line		【天探女】{rt}う―――		
-B36.0038	line		【天探女】{rt}うわああッ！！		
+B36.0030	line		【矢村】{rt}絶対に、やってみせる。	【Yamura】{rt}I'll do it, I swear.	
+B36.0031	line		【矢村】{rt}だから、俺と{name1}と、{rt}自分を―――	【Yamura】{rt}So believe in me, in {name1},	
+B36.0032	line		【矢村】{rt}信じるんだッ。	【Yamura】{rt}and in yourself!	
+B36.0033	line		【天探女】{rt}（自分を――？）	【Amanosagume】{rt}(In myself--?)	
+B36.0034	line		【矢村】{rt}{name1}ッ、俺に力をッ！！	【Yamura】{rt}{name1}, lend me your strength!!	
+B36.0035	line		【矢村】{rt}探女と《大罪》を結んでいる{rt}《宿星》を、断ち切るんだ！	【Yamura】{rt}We'll cut the fated Star binding Sagume{rt}to the Great Sins!	
+B36.0036	line		【矢村】{rt}おおおおッ！！	【Yamura】{rt}Raaaaagh!!	
+B36.0037	line		【天探女】{rt}う―――	【Amanosagume】{rt}Ugh--	
+B36.0038	line		【天探女】{rt}うわああッ！！	【Amanosagume】{rt}Aaaaagh!!	
 B36.0039	line		【天探女】{rt}…………。	【Amanosagume】{rt}......	
-B36.0040	line		【天探女】{rt}ひッ―――！？		
-B36.0041	line		【天探女】{rt}来るなァッ！！		
+B36.0040	line		【天探女】{rt}ひッ―――！？	【Amanosagume】{rt}Eek--!?	
+B36.0041	line		【天探女】{rt}来るなァッ！！	【Amanosagume】{rt}Stay back!!	
 B36.0042	line		【天探女】{rt}…………。	【Amanosagume】{rt}......	
-B36.0043	line		【天探女】{rt}わ、私を消し去る気だろッ！？		
-B36.0044	line		【天探女】{rt}私を消して、天へと帰る{rt}つもりなんだなッ！？		
-B36.0045	line		【天探女】{rt}ご心配なく。		
-B36.0046	line		【天探女】{rt}恐れず、{rt}心を落ち着けて下さい。		
-B36.0047	line		【天探女】{rt}私とあなたは…		
-B36.0048	line		【天探女】{rt}元々、同一のものなのです{rt}から…。		
-B36.0049	line		【天探女】{rt}わ、私はッ―――		
-B36.0050	line		【天探女】{rt}心を静かに…。		
-B36.0051	line		【天探女】{rt}あなたの心から{rt}《大罪》が消えてゆくのが		
-B36.0052	line		【天探女】{rt}感じられるはずです。		
-B36.0053	line		【天探女】{rt}こ、この感じが―――？		
+B36.0043	line		【天探女】{rt}わ、私を消し去る気だろッ！？	【Amanosagume】{rt}Y-you mean to erase me, don't you!?	
+B36.0044	line		【天探女】{rt}私を消して、天へと帰る{rt}つもりなんだなッ！？	【Amanosagume】{rt}You'll erase me and go back to heaven,{rt}won't you!?	
+B36.0045	line		【天探女】{rt}ご心配なく。	【Amanosagume】{rt}Don't worry.	
+B36.0046	line		【天探女】{rt}恐れず、{rt}心を落ち着けて下さい。	【Amanosagume】{rt}Have no fear, and calm your heart.	
+B36.0047	line		【天探女】{rt}私とあなたは…	【Amanosagume】{rt}For you and I...	
+B36.0048	line		【天探女】{rt}元々、同一のものなのです{rt}から…。	【Amanosagume】{rt}were one and the same from the{rt}start...	
+B36.0049	line		【天探女】{rt}わ、私はッ―――	【Amanosagume】{rt}I-I am--	
+B36.0050	line		【天探女】{rt}心を静かに…。	【Amanosagume】{rt}Quiet your heart...	
+B36.0051	line		【天探女】{rt}あなたの心から{rt}《大罪》が消えてゆくのが	【Amanosagume】{rt}You should be able to feel	
+B36.0052	line		【天探女】{rt}感じられるはずです。	【Amanosagume】{rt}the Great Sins fading from your{rt}heart.	
+B36.0053	line		【天探女】{rt}こ、この感じが―――？	【Amanosagume】{rt}Th-this feeling is--?	
 B36.0054	line		【天探女】{rt}…………。	【Amanosagume】{rt}......	
-B36.0055	line		【天探女】{rt}…ダメだッ！！		
-B36.0056	line		【天探女】{rt}恐いッ！！		
-B36.0057	line		【天探女】{rt}恐いよッ。		
-B36.0058	line		【天探女】{rt}私は自分の《力》―――		
-B36.0059	line		【天探女】{rt}《大罪》以外、{rt}何も信じる事ができないッ。		
-B36.0060	line		【天探女】{rt}その《大罪》が失われる…。		
-B36.0061	line		【天探女】{rt}こ、恐くてたまらないよ…。		
-B36.0062	line		【天探女】{rt}安心なさい。		
-B36.0063	line		【天探女】{rt}もう、天に与えられた《罰》に{rt}脅え、		
-B36.0064	line		【天探女】{rt}それを呪う必要はないのです。		
+B36.0055	line		【天探女】{rt}…ダメだッ！！	【Amanosagume】{rt}...No!!	
+B36.0056	line		【天探女】{rt}恐いッ！！	【Amanosagume】{rt}I'm scared!!	
+B36.0057	line		【天探女】{rt}恐いよッ。	【Amanosagume】{rt}I'm so scared!	
+B36.0058	line		【天探女】{rt}私は自分の《力》―――	【Amanosagume】{rt}I can't believe in anything	
+B36.0059	line		【天探女】{rt}《大罪》以外、{rt}何も信じる事ができないッ。	【Amanosagume】{rt}but my own Power--the Great Sins!	
+B36.0060	line		【天探女】{rt}その《大罪》が失われる…。	【Amanosagume】{rt}And now those Great Sins will be{rt}lost...	
+B36.0061	line		【天探女】{rt}こ、恐くてたまらないよ…。	【Amanosagume】{rt}I-I'm so scared...	
+B36.0062	line		【天探女】{rt}安心なさい。	【Amanosagume】{rt}Be at peace.	
+B36.0063	line		【天探女】{rt}もう、天に与えられた《罰》に{rt}脅え、	【Amanosagume】{rt}There's no more need to fear the{rt}Punishment heaven gave,	
+B36.0064	line		【天探女】{rt}それを呪う必要はないのです。	【Amanosagume】{rt}or to curse it.	
 B36.0065	line		【天探女】{rt}…………。	【Amanosagume】{rt}......	
-B36.0066	line		【天探女】{rt}私たちは間違っては{rt}いなかったはずです…。		
-B36.0067	line		【天探女】{rt}我が主、		
-B36.0068	line		【天探女】{rt}天若日子様を心からお慕いし、{rt}真実を告げた、あの時の私…		
-B36.0069	line		【天探女】{rt}私たちの決意と行動は、{rt}例え天の怒りを買おうとも、		
-B36.0070	line		【天探女】{rt}決して、《悪》であった訳が{rt}ありません。		
-B36.0071	line		【天探女】{rt}だが、私にはまだ分からない。		
-B36.0072	line		【天探女】{rt}天はなぜ私を叛逆者とした！？		
-B36.0073	line		【天探女】{rt}なぜ私は永遠と思える{rt}刻（とき）を		
-B36.0074	line		【天探女】{rt}《悪》という姿で{rt}過ごさねばならなかった？		
-B36.0075	line		【天探女】{rt}いっそ、首でも刎ねてくれれば{rt}良かったのに…。		
-B36.0076	line		【男の声】{rt}そんな事をいうな…。		
-B36.0077	line		【男の声】{rt}探女よ―――。		
-B36.0078	line		【天探女】{rt}こ、この声―――！？		
-B36.0079	line		【天探女】{rt}まさか―――！？		
-B36.0080	line		【男の声】{rt}探女よ。久しかったな。		
-B36.0081	line		【男の声】{rt}…いや。		
-B36.0082	line		【男の声】{rt}久しい―――そう呼ぶにも{rt}あまりに永い間であった。		
-B36.0083	line		【天探女】{rt}天若日子様…。		
-B36.0084	line		【天探女】{rt}生きて…おられたのですか！？		
-B36.0085	line		【天若日子】{rt}ああ…。		
-B36.0086	line		【天若日子】{rt}探女。		
-B36.0087	line		【天若日子】{rt}苦しい思いをさせたな。		
+B36.0066	line		【天探女】{rt}私たちは間違っては{rt}いなかったはずです…。	【Amanosagume】{rt}We were never in the wrong...	
+B36.0067	line		【天探女】{rt}我が主、	【Amanosagume】{rt}I, back then, who loved my master,	
+B36.0068	line		【天探女】{rt}天若日子様を心からお慕いし、{rt}真実を告げた、あの時の私…	【Amanosagume】{rt}Lord Amewakahiko, with all my heart,{rt}and told him the truth...	
+B36.0069	line		【天探女】{rt}私たちの決意と行動は、{rt}例え天の怒りを買おうとも、	【Amanosagume】{rt}What we resolved and what we did,{rt}even if it angered heaven,	
+B36.0070	line		【天探女】{rt}決して、《悪》であった訳が{rt}ありません。	【Amanosagume】{rt}could never have been Evil.	
+B36.0071	line		【天探女】{rt}だが、私にはまだ分からない。	【Amanosagume】{rt}But I still don't understand.	
+B36.0072	line		【天探女】{rt}天はなぜ私を叛逆者とした！？	【Amanosagume】{rt}Why did heaven make me a rebel!?	
+B36.0073	line		【天探女】{rt}なぜ私は永遠と思える{rt}刻（とき）を	【Amanosagume】{rt}Why did I have to spend what felt like{rt}eternity	
+B36.0074	line		【天探女】{rt}《悪》という姿で{rt}過ごさねばならなかった？	【Amanosagume】{rt}in the shape of Evil?	
+B36.0075	line		【天探女】{rt}いっそ、首でも刎ねてくれれば{rt}良かったのに…。	【Amanosagume】{rt}I'd rather they had just cut off my{rt}head...	
+B36.0076	line		【男の声】{rt}そんな事をいうな…。	【Man's Voice】{rt}Don't say such a thing...	
+B36.0077	line		【男の声】{rt}探女よ―――。	【Man's Voice】{rt}Sagume--	
+B36.0078	line		【天探女】{rt}こ、この声―――！？	【Amanosagume】{rt}Th-that voice--!?	
+B36.0079	line		【天探女】{rt}まさか―――！？	【Amanosagume】{rt}It can't be--!?	
+B36.0080	line		【男の声】{rt}探女よ。久しかったな。	【Man's Voice】{rt}Sagume. It has been a long time.	
+B36.0081	line		【男の声】{rt}…いや。	【Man's Voice】{rt}...No.	
+B36.0082	line		【男の声】{rt}久しい―――そう呼ぶにも{rt}あまりに永い間であった。	【Man's Voice】{rt}"A long time" is too small a word for{rt}how long it has been.	
+B36.0083	line		【天探女】{rt}天若日子様…。	【Amanosagume】{rt}Lord Amewakahiko...	
+B36.0084	line		【天探女】{rt}生きて…おられたのですか！？	【Amanosagume】{rt}You were... alive!?	
+B36.0085	line		【天若日子】{rt}ああ…。	【Amewakahiko】{rt}Yes...	
+B36.0086	line		【天若日子】{rt}探女。	【Amewakahiko】{rt}Sagume.	
+B36.0087	line		【天若日子】{rt}苦しい思いをさせたな。	【Amewakahiko】{rt}I made you suffer.	
 B36.0088	line		【天探女】{rt}若日子様…。	【Amanosagume】{rt}Lord Wakahiko...	
-B36.0089	line		【天探女】{rt}生きていらしたのなら、		
-B36.0090	line		【天探女】{rt}どうして助けて{rt}くれなかったのですッ！？		
-B36.0091	line		【天探女】{rt}私は、あなたが苦しい死を{rt}迎えたのだとばかりッ――。		
+B36.0089	line		【天探女】{rt}生きていらしたのなら、	【Amanosagume】{rt}If you were alive,	
+B36.0090	line		【天探女】{rt}どうして助けて{rt}くれなかったのですッ！？	【Amanosagume】{rt}why didn't you save me!?	
+B36.0091	line		【天探女】{rt}私は、あなたが苦しい死を{rt}迎えたのだとばかりッ――。	【Amanosagume】{rt}I thought you had died a painful{rt}death--	
 B36.0092	line		【天探女】{rt}…………。	【Amanosagume】{rt}......	
-B36.0093	line		【天探女】{rt}天よりの恨みだけでは		
-B36.0094	line		【天探女】{rt}私はこのような姿には{rt}なり得なかった。		
-B36.0095	line		【天探女】{rt}若日子様―――。		
-B36.0096	line		【天探女】{rt}あなたを殺した者たちとして{rt}天を見据え、		
-B36.0097	line		【天探女】{rt}その憎しみを{rt}真っ向からこの身に受けて		
-B36.0098	line		【天探女】{rt}私はこんな悪鬼のような姿に{rt}なったんだ…。		
-B36.0099	line		【天探女】{rt}あなたが生きているという事を{rt}示してくれさえすればッ…！		
-B36.0100	line		【天若日子】{rt}すまなかった。		
-B36.0101	line		【天若日子】{rt}だが、分かって欲しい。		
-B36.0102	line		【天若日子】{rt}私はお前たちを見捨て、{rt}隠れていた訳ではない。		
-B36.0103	line		【天若日子】{rt}私が《死》という過程を経て{rt}天に戻った事、		
-B36.0104	line		【天若日子】{rt}お前が《大罪》を{rt}背負った事――。		
-B36.0105	line		【天若日子】{rt}それとて、天の意思の{rt}一環であったのだ。		
-B36.0106	line		【天探女】{rt}天の意思…。		
-B36.0107	line		【天探女】{rt}天の意思とは、何なのです！？		
-B36.0108	line		【天探女】{rt}なにゆえに私をこのような{rt}姿にしたのですかッ！？		
+B36.0093	line		【天探女】{rt}天よりの恨みだけでは	【Amanosagume】{rt}Heaven's grudge alone	
+B36.0094	line		【天探女】{rt}私はこのような姿には{rt}なり得なかった。	【Amanosagume】{rt}could never have made me like this.	
+B36.0095	line		【天探女】{rt}若日子様―――。	【Amanosagume】{rt}Lord Wakahiko--	
+B36.0096	line		【天探女】{rt}あなたを殺した者たちとして{rt}天を見据え、	【Amanosagume】{rt}I glared at heaven as the ones who{rt}killed you,	
+B36.0097	line		【天探女】{rt}その憎しみを{rt}真っ向からこの身に受けて	【Amanosagume】{rt}took that hatred head-on into{rt}myself,	
+B36.0098	line		【天探女】{rt}私はこんな悪鬼のような姿に{rt}なったんだ…。	【Amanosagume】{rt}and became this demon you see...	
+B36.0099	line		【天探女】{rt}あなたが生きているという事を{rt}示してくれさえすればッ…！	【Amanosagume】{rt}If only you'd shown me that you were{rt}alive...!	
+B36.0100	line		【天若日子】{rt}すまなかった。	【Amewakahiko】{rt}I am sorry.	
+B36.0101	line		【天若日子】{rt}だが、分かって欲しい。	【Amewakahiko】{rt}But I want you to understand.	
+B36.0102	line		【天若日子】{rt}私はお前たちを見捨て、{rt}隠れていた訳ではない。	【Amewakahiko】{rt}I did not abandon you and hide.	
+B36.0103	line		【天若日子】{rt}私が《死》という過程を経て{rt}天に戻った事、	【Amewakahiko】{rt}That I returned to heaven by way of{rt}Death,	
+B36.0104	line		【天若日子】{rt}お前が《大罪》を{rt}背負った事――。	【Amewakahiko】{rt}that you came to bear the Great{rt}Sins--	
+B36.0105	line		【天若日子】{rt}それとて、天の意思の{rt}一環であったのだ。	【Amewakahiko】{rt}that too was part of heaven's will.	
+B36.0106	line		【天探女】{rt}天の意思…。	【Amanosagume】{rt}Heaven's will...	
+B36.0107	line		【天探女】{rt}天の意思とは、何なのです！？	【Amanosagume】{rt}What is heaven's will!?	
+B36.0108	line		【天探女】{rt}なにゆえに私をこのような{rt}姿にしたのですかッ！？	【Amanosagume】{rt}Why did it make me into this!?	
 B36.0109	line		【天若日子】{rt}探女―――。	【Amewakahiko】{rt}Sagume--	
-B36.0110	line		【天若日子】{rt}お前は…覚えているか？		
-B36.0111	line		【天若日子】{rt}あの時、私が地上に遣わされた{rt}理由を―――。		
-B36.0112	line		【天探女】{rt}もちろん…覚えております。		
-B36.0113	line		【天探女】{rt}地上を平定し、		
-B36.0114	line		【天探女】{rt}人間という天と地の産んだ子ら{rt}を住まわせるためです。		
-B36.0115	line		【天若日子】{rt}そう…。		
-B36.0116	line		【天若日子】{rt}そして現在、人間は{rt}繁栄の絶頂を迎えている。		
-B36.0117	line		【天若日子】{rt}人間たちはその優れた{rt}《身》、《口》、《意》で		
-B36.0118	line		【天若日子】{rt}自らの文化を発展させ、		
-B36.0119	line		【天若日子】{rt}その一方で《罪》を生み出す。		
-B36.0120	line		【天若日子】{rt}光と影が常にともに存在して{rt}いるかのように…。		
-B36.0121	line		【天探女】{rt}私は、その《罪》を{rt}背負わされた。		
-B36.0122	line		【天探女】{rt}そして、それを《力》として		
-B36.0123	line		【天探女】{rt}天に報復するという《宿星》を{rt}縛り付けられたんだ。		
+B36.0110	line		【天若日子】{rt}お前は…覚えているか？	【Amewakahiko】{rt}Do you... remember?	
+B36.0111	line		【天若日子】{rt}あの時、私が地上に遣わされた{rt}理由を―――。	【Amewakahiko】{rt}Why I was sent down to the earth back{rt}then--	
+B36.0112	line		【天探女】{rt}もちろん…覚えております。	【Amanosagume】{rt}Of course... I remember.	
+B36.0113	line		【天探女】{rt}地上を平定し、	【Amanosagume】{rt}To pacify the earth,	
+B36.0114	line		【天探女】{rt}人間という天と地の産んだ子ら{rt}を住まわせるためです。	【Amanosagume】{rt}so that humans, the children of heaven{rt}and earth, could live there.	
+B36.0115	line		【天若日子】{rt}そう…。	【Amewakahiko】{rt}Yes...	
+B36.0116	line		【天若日子】{rt}そして現在、人間は{rt}繁栄の絶頂を迎えている。	【Amewakahiko】{rt}And now, humanity is at the height of{rt}its prosperity.	
+B36.0117	line		【天若日子】{rt}人間たちはその優れた{rt}《身》、《口》、《意》で	【Amewakahiko】{rt}With their fine Body, Speech and{rt}Mind,	
+B36.0118	line		【天若日子】{rt}自らの文化を発展させ、	【Amewakahiko】{rt}humans have advanced their culture,	
+B36.0119	line		【天若日子】{rt}その一方で《罪》を生み出す。	【Amewakahiko】{rt}and at the same time they give birth to{rt}Sin.	
+B36.0120	line		【天若日子】{rt}光と影が常にともに存在して{rt}いるかのように…。	【Amewakahiko】{rt}As if light and shadow always exist{rt}together...	
+B36.0121	line		【天探女】{rt}私は、その《罪》を{rt}背負わされた。	【Amanosagume】{rt}And I was made to bear that Sin.	
+B36.0122	line		【天探女】{rt}そして、それを《力》として	【Amanosagume】{rt}And I was bound to a fated Star:	
+B36.0123	line		【天探女】{rt}天に報復するという《宿星》を{rt}縛り付けられたんだ。	【Amanosagume】{rt}to use it as Power and take revenge on{rt}heaven.	
 B36.0124	line		【天探女】{rt}…………。	【Amanosagume】{rt}......	
-B36.0125	line		【天若日子】{rt}そして―――		
-B36.0126	line		【天若日子】{rt}その《大罪》は、あの{name1}と{rt}いう人間に敗れた。		
-B36.0127	line		【天若日子】{rt}それはなぜだと思う？		
-B36.0128	line		【天探女】{rt}あの時―――《大罪》に{rt}対抗し得る《力》は、		
-B36.0129	line		【天探女】{rt}あの者の持つ《龍脈》の《力》{rt}しかありえませんでした。		
-B36.0130	line		【天探女】{rt}私は神鈴に宿り、{rt}彼をこの世の入り口―――		
-B36.0131	line		【天探女】{rt}《大罪》の暴走をくい止めよう{rt}としていた焔羅の元まで		
-B36.0132	line		【天探女】{rt}導きました…。		
-B36.0133	line		【天探女】{rt}しかし、{name1}が{rt}《大罪》を打ち破る		
-B36.0134	line		【天探女】{rt}確信があった訳では{rt}ありません。		
-B36.0135	line		【天探女】{rt}{name1}が失敗すれば、		
-B36.0136	line		【天探女】{rt}私たちにはもはや《大罪》に		
-B36.0137	line		【天探女】{rt}立ち向かう《力》{rt}は残っていない。		
-B36.0138	line		【天探女】{rt}いわば、賭けでした。		
-B36.0139	line		【天探女】{rt}だが、力量だけで言えば、{rt}明らかに		
-B36.0140	line		【天探女】{rt}《大罪》に分があったはず…。		
-B36.0141	line		【天探女】{rt}なぜ《龍脈》の《氣》に{rt}《大罪》が敗れたのか、		
-B36.0142	line		【天探女】{rt}私には理解できなかった。		
-B36.0143	line		【天若日子】{rt}人間が生みし《大罪》とは――		
-B36.0144	line		【天若日子】{rt}森羅万象に逆らう{rt}《陰》の《地の氣》の事。		
-B36.0145	line		【天若日子】{rt}{name1}がお前と{rt}闘うために用いた		
-B36.0146	line		【天若日子】{rt}《龍脈》の《力》は		
-B36.0147	line		【天若日子】{rt}それと対を成す{rt}《陽》の《地の氣》―――		
-B36.0148	line		【天若日子】{rt}答はそこにあるのだ。		
-B36.0149	line		【天探女】{rt}《陰》と《陽》―――！？		
-B36.0150	line		【天探女】{rt}つまり―――		
-B36.0151	line		【天探女】{rt}《大罪》を{rt}《龍脈》の《氣》が中和し、		
-B36.0152	line		【天探女】{rt}消し去ってしまった―――。		
-B36.0153	line		【天探女】{rt}そういう事なのですか？		
-B36.0154	line		【天若日子】{rt}そう…。		
-B36.0155	line		【天若日子】{rt}そしてこれは偶然に起こった{rt}現象ではない。		
-B36.0156	line		【天若日子】{rt}{name1}という人間の魂は、		
-B36.0157	line		【天若日子】{rt}《宿星》の導きによって、{rt}この世に召されたのだ。		
-B36.0158	line		【天若日子】{rt}《大罪》を{rt}消し去るべく―――。		
-B36.0159	line		【天探女】{rt}まさか―――天の意思とは…。		
-B36.0160	line		【天探女】{rt}私の真の役目とは―――！？		
-B36.0161	line		【天探女】{rt}《大罪》の《器》となって、{rt}それを無に帰す―――		
-B36.0162	line		【天探女】{rt}そうだったのですね！？		
-B36.0163	line		【天若日子】{rt}…………。		
-B36.0164	line		【天若日子】{rt}その通りだ。		
-B36.0165	line		【天若日子】{rt}私はあの時、確かに{rt}死という点を通過した。		
-B36.0166	line		【天若日子】{rt}そして、再び天に召された{rt}のだ。		
-B36.0167	line		【天若日子】{rt}私は朽ちる事のない状態で…		
-B36.0168	line		【天若日子】{rt}この日が来るのを待っていた。		
-B36.0169	line		【天若日子】{rt}遠き未来―――		
-B36.0170	line		【天若日子】{rt}人間が自身の手で{rt}《大罪》を滅する日に、		
-B36.0171	line		【天若日子】{rt}天探女が《黄龍》の《力》を{rt}呼び覚ます助けをする為に。		
-B36.0172	line		【天若日子】{rt}そう。		
-B36.0173	line		【天若日子】{rt}全ては―――		
-B36.0174	line		【天若日子】{rt}愛すべき《人間》という子らの{rt}世がより永く続くように…。		
-B36.0175	line		【天探女】{rt}私の存在にそんな意味が{rt}あった…。		
-B36.0176	line		【天探女】{rt}憎まれるだけの―――		
-B36.0177	line		【天探女】{rt}叛逆者としてだけでない{rt}意味が…。		
-B36.0178	line		【天探女】{rt}ええ…。		
-B36.0179	line		【天探女】{rt}これは、大いに喜ぶべき事。		
-B36.0180	line		【天探女】{rt}《黄龍の器》―――		
-B36.0181	line		【天探女】{rt}人間自らが《大罪》を{rt}滅したのですね―――。		
-B36.0182	line		【天若日子】{rt}探女よ―――。		
-B36.0183	line		【天若日子】{rt}《大罪》が無に帰した今、		
-B36.0184	line		【天若日子】{rt}お前はその大任から{rt}開放される。		
+B36.0125	line		【天若日子】{rt}そして―――	【Amewakahiko】{rt}And then--	
+B36.0126	line		【天若日子】{rt}その《大罪》は、あの{name1}と{rt}いう人間に敗れた。	【Amewakahiko】{rt}those Great Sins were defeated by a{rt}human named {name1}.	
+B36.0127	line		【天若日子】{rt}それはなぜだと思う？	【Amewakahiko】{rt}Why do you think that is?	
+B36.0128	line		【天探女】{rt}あの時―――《大罪》に{rt}対抗し得る《力》は、	【Amanosagume】{rt}Back then--the only Power that could{rt}stand against the Great Sins	
+B36.0129	line		【天探女】{rt}あの者の持つ《龍脈》の《力》{rt}しかありえませんでした。	【Amanosagume】{rt}was the Power of the Dragon Veins{rt}that one holds.	
+B36.0130	line		【天探女】{rt}私は神鈴に宿り、{rt}彼をこの世の入り口―――	【Amanosagume】{rt}I dwelt in the Divine Bell and guided him{rt}to the entrance to this world--	
+B36.0131	line		【天探女】{rt}《大罪》の暴走をくい止めよう{rt}としていた焔羅の元まで	【Amanosagume】{rt}to Enra, who was trying to hold back	
+B36.0132	line		【天探女】{rt}導きました…。	【Amanosagume】{rt}the rampaging Great Sins...	
+B36.0133	line		【天探女】{rt}しかし、{name1}が{rt}《大罪》を打ち破る	【Amanosagume】{rt}But I was never certain that{rt}{name1}	
+B36.0134	line		【天探女】{rt}確信があった訳では{rt}ありません。	【Amanosagume】{rt}would defeat the Great Sins.	
+B36.0135	line		【天探女】{rt}{name1}が失敗すれば、	【Amanosagume】{rt}If {name1} had failed,	
+B36.0136	line		【天探女】{rt}私たちにはもはや《大罪》に	【Amanosagume】{rt}we would have had no Power left	
+B36.0137	line		【天探女】{rt}立ち向かう《力》{rt}は残っていない。	【Amanosagume】{rt}to stand against the Great Sins.	
+B36.0138	line		【天探女】{rt}いわば、賭けでした。	【Amanosagume】{rt}It was a gamble, you might say.	
+B36.0139	line		【天探女】{rt}だが、力量だけで言えば、{rt}明らかに	【Amanosagume】{rt}Yet in strength alone,	
+B36.0140	line		【天探女】{rt}《大罪》に分があったはず…。	【Amanosagume】{rt}the Great Sins clearly should have had{rt}the edge...	
+B36.0141	line		【天探女】{rt}なぜ《龍脈》の《氣》に{rt}《大罪》が敗れたのか、	【Amanosagume】{rt}Why the Great Sins lost to the Ki of the{rt}Dragon Veins--	
+B36.0142	line		【天探女】{rt}私には理解できなかった。	【Amanosagume】{rt}I could not understand.	
+B36.0143	line		【天若日子】{rt}人間が生みし《大罪》とは――	【Amewakahiko】{rt}The Great Sins that humans bear--	
+B36.0144	line		【天若日子】{rt}森羅万象に逆らう{rt}《陰》の《地の氣》の事。	【Amewakahiko】{rt}are the Shade Earth Ki that defies all{rt}creation.	
+B36.0145	line		【天若日子】{rt}{name1}がお前と{rt}闘うために用いた	【Amewakahiko】{rt}What {name1} used to fight you--	
+B36.0146	line		【天若日子】{rt}《龍脈》の《力》は	【Amewakahiko】{rt}the Power of the Dragon Veins--	
+B36.0147	line		【天若日子】{rt}それと対を成す{rt}《陽》の《地の氣》―――	【Amewakahiko】{rt}is its counterpart, the Light Earth{rt}Ki--	
+B36.0148	line		【天若日子】{rt}答はそこにあるのだ。	【Amewakahiko】{rt}There lies the answer.	
+B36.0149	line		【天探女】{rt}《陰》と《陽》―――！？	【Amanosagume】{rt}Shade and Light--!?	
+B36.0150	line		【天探女】{rt}つまり―――	【Amanosagume】{rt}In other words--	
+B36.0151	line		【天探女】{rt}《大罪》を{rt}《龍脈》の《氣》が中和し、	【Amanosagume】{rt}The Ki of the Dragon Veins neutralized{rt}the Great Sins	
+B36.0152	line		【天探女】{rt}消し去ってしまった―――。	【Amanosagume】{rt}and wiped them away--	
+B36.0153	line		【天探女】{rt}そういう事なのですか？	【Amanosagume】{rt}Is that what happened?	
+B36.0154	line		【天若日子】{rt}そう…。	【Amewakahiko】{rt}Yes...	
+B36.0155	line		【天若日子】{rt}そしてこれは偶然に起こった{rt}現象ではない。	【Amewakahiko】{rt}And this did not happen by chance.	
+B36.0156	line		【天若日子】{rt}{name1}という人間の魂は、	【Amewakahiko】{rt}The soul of the human called{rt}{name1}	
+B36.0157	line		【天若日子】{rt}《宿星》の導きによって、{rt}この世に召されたのだ。	【Amewakahiko】{rt}was summoned to this world by the{rt}guidance of the fated Stars.	
+B36.0158	line		【天若日子】{rt}《大罪》を{rt}消し去るべく―――。	【Amewakahiko】{rt}to wipe out the Great Sins--	
+B36.0159	line		【天探女】{rt}まさか―――天の意思とは…。	【Amanosagume】{rt}Then--heaven's will was...	
+B36.0160	line		【天探女】{rt}私の真の役目とは―――！？	【Amanosagume】{rt}My true role was--!?	
+B36.0161	line		【天探女】{rt}《大罪》の《器》となって、{rt}それを無に帰す―――	【Amanosagume】{rt}To become the Vessel of the Great{rt}Sins, and return them to nothing--	
+B36.0162	line		【天探女】{rt}そうだったのですね！？	【Amanosagume】{rt}That was it, wasn't it!?	
+B36.0163	line		【天若日子】{rt}…………。	【Amewakahiko】{rt}......	
+B36.0164	line		【天若日子】{rt}その通りだ。	【Amewakahiko】{rt}Just so.	
+B36.0165	line		【天若日子】{rt}私はあの時、確かに{rt}死という点を通過した。	【Amewakahiko】{rt}Back then, I did indeed pass through{rt}the point of death.	
+B36.0166	line		【天若日子】{rt}そして、再び天に召された{rt}のだ。	【Amewakahiko】{rt}And I was called back up to heaven.	
+B36.0167	line		【天若日子】{rt}私は朽ちる事のない状態で…	【Amewakahiko】{rt}In a state that does not decay...	
+B36.0168	line		【天若日子】{rt}この日が来るのを待っていた。	【Amewakahiko】{rt}I waited for this day to come.	
+B36.0169	line		【天若日子】{rt}遠き未来―――	【Amewakahiko】{rt}A distant future--	
+B36.0170	line		【天若日子】{rt}人間が自身の手で{rt}《大罪》を滅する日に、	【Amewakahiko】{rt}the day humans would destroy the{rt}Great Sins with their own hands--	
+B36.0171	line		【天若日子】{rt}天探女が《黄龍》の《力》を{rt}呼び覚ます助けをする為に。	【Amewakahiko】{rt}so I could help Amanosagume awaken{rt}the Golden Dragon's Power.	
+B36.0172	line		【天若日子】{rt}そう。	【Amewakahiko】{rt}Yes.	
+B36.0173	line		【天若日子】{rt}全ては―――	【Amewakahiko】{rt}All of it--	
+B36.0174	line		【天若日子】{rt}愛すべき《人間》という子らの{rt}世がより永く続くように…。	【Amewakahiko】{rt}so the world of our beloved children,{rt}the Humans, may last longer...	
+B36.0175	line		【天探女】{rt}私の存在にそんな意味が{rt}あった…。	【Amanosagume】{rt}So my existence had such a meaning...	
+B36.0176	line		【天探女】{rt}憎まれるだけの―――	【Amanosagume】{rt}A meaning beyond being hated--	
+B36.0177	line		【天探女】{rt}叛逆者としてだけでない{rt}意味が…。	【Amanosagume】{rt}beyond being only a rebel...	
+B36.0178	line		【天探女】{rt}ええ…。	【Amanosagume】{rt}Yes...	
+B36.0179	line		【天探女】{rt}これは、大いに喜ぶべき事。	【Amanosagume】{rt}This is something to rejoice in.	
+B36.0180	line		【天探女】{rt}《黄龍の器》―――	【Amanosagume】{rt}The Vessel of the Golden Dragon--	
+B36.0181	line		【天探女】{rt}人間自らが《大罪》を{rt}滅したのですね―――。	【Amanosagume】{rt}The humans destroyed the Great Sins{rt}themselves--	
+B36.0182	line		【天若日子】{rt}探女よ―――。	【Amewakahiko】{rt}Sagume--	
+B36.0183	line		【天若日子】{rt}《大罪》が無に帰した今、	【Amewakahiko】{rt}Now that the Great Sins are gone,	
+B36.0184	line		【天若日子】{rt}お前はその大任から{rt}開放される。	【Amewakahiko】{rt}you are freed from that great duty.	
 B36.0185	line		【天探女】{rt}…………。	【Amanosagume】{rt}......	
 B36.0186	line		【天探女】{rt}…………。	【Amanosagume】{rt}......	
-B36.0187	line		【天若日子】{rt}今のお前たちはお互いに{rt}完全ではない。		
-B36.0188	line		【天若日子】{rt}いわばお前たちも《陰》と{rt}《陽》の片割れ同士…。		
-B36.0189	line		【天若日子】{rt}ひとつになるがいい。		
-B36.0190	line		【天若日子】{rt}そして、再び私のもとへ{rt}帰ってきてくれ。		
+B36.0187	line		【天若日子】{rt}今のお前たちはお互いに{rt}完全ではない。	【Amewakahiko】{rt}As you are now, neither of you is{rt}whole.	
+B36.0188	line		【天若日子】{rt}いわばお前たちも《陰》と{rt}《陽》の片割れ同士…。	【Amewakahiko】{rt}You two are halves, the Shade and the{rt}Light, you might say...	
+B36.0189	line		【天若日子】{rt}ひとつになるがいい。	【Amewakahiko】{rt}Become one.	
+B36.0190	line		【天若日子】{rt}そして、再び私のもとへ{rt}帰ってきてくれ。	【Amewakahiko】{rt}And then come back to me once more.	
 B36.0191	line		【天探女】{rt}…………。	【Amanosagume】{rt}......	
-B36.0192	line		【天探女】{rt}永かった。		
-B36.0193	line		【天探女】{rt}やっと私は自らの役目を終える{rt}事ができるのか…。		
+B36.0192	line		【天探女】{rt}永かった。	【Amanosagume】{rt}It's been so long.	
+B36.0193	line		【天探女】{rt}やっと私は自らの役目を終える{rt}事ができるのか…。	【Amanosagume】{rt}Can I finally finish my role...?	
 B36.0194	line		【天探女】{rt}…………。	【Amanosagume】{rt}......	
-B36.0195	line		【天探女】{rt}ねえ…。		
-B36.0196	line		【天探女】{rt}―――？		
-B36.0197	line		【天探女】{rt}もう一度…		
-B36.0198	line		【天探女】{rt}私と一緒になってくれる？		
-B36.0199	line		【天探女】{rt}ええ…。		
-B36.0200	line		【天探女】{rt}もちろんです。		
-B36.0201	line		【天探女】{rt}ひとつにかえりましょう。		
-B36.0202	line		【天若日子】{rt}…ありがとう、探女。		
-B36.0203	line		【天若日子】{rt}私は先にゆく。		
-B36.0204	line		【天若日子】{rt}わかっておろう、探女？		
-B36.0205	line		【天若日子】{rt}お前には、彼らに告げてもらわ{rt}ねばならん事があるからな。		
-B36.0206	line		【天探女】{rt}はい…。		
-B36.0207	line		【天若日子】{rt}待っているぞ。		
+B36.0195	line		【天探女】{rt}ねえ…。	【Amanosagume】{rt}Hey...	
+B36.0196	line		【天探女】{rt}―――？	【Amanosagume】{rt}--?	
+B36.0197	line		【天探女】{rt}もう一度…	【Amanosagume】{rt}Will you...	
+B36.0198	line		【天探女】{rt}私と一緒になってくれる？	【Amanosagume】{rt}be one with me again?	
+B36.0199	line		【天探女】{rt}ええ…。	【Amanosagume】{rt}Yes...	
+B36.0200	line		【天探女】{rt}もちろんです。	【Amanosagume】{rt}Of course.	
+B36.0201	line		【天探女】{rt}ひとつにかえりましょう。	【Amanosagume】{rt}Let us return to being one.	
+B36.0202	line		【天若日子】{rt}…ありがとう、探女。	【Amewakahiko】{rt}...Thank you, Sagume.	
+B36.0203	line		【天若日子】{rt}私は先にゆく。	【Amewakahiko】{rt}I will go ahead.	
+B36.0204	line		【天若日子】{rt}わかっておろう、探女？	【Amewakahiko】{rt}You understand, don't you, Sagume?	
+B36.0205	line		【天若日子】{rt}お前には、彼らに告げてもらわ{rt}ねばならん事があるからな。	【Amewakahiko】{rt}There is something you must still tell{rt}them.	
+B36.0206	line		【天探女】{rt}はい…。	【Amanosagume】{rt}Yes...	
+B36.0207	line		【天若日子】{rt}待っているぞ。	【Amewakahiko】{rt}I will be waiting.	
 B36.0208	line		【天若日子】{rt}探女―――。	【Amewakahiko】{rt}Sagume--	
 B36.0209	line		【天探女】{rt}…………。	【Amanosagume】{rt}......	
-B36.0210	line		【天探女】{rt}水兼伊涼…。		
-B36.0211	line		【伊涼】{rt}（―――。）		
-B36.0212	line		【天探女】{rt}あなたに、あなたの身体と{rt}心をお返しします。		
-B36.0213	line		【天探女】{rt}すまなかったね、伊涼。		
+B36.0210	line		【天探女】{rt}水兼伊涼…。	【Amanosagume】{rt}Isuzu Mizukane...	
+B36.0211	line		【伊涼】{rt}（―――。）	【Isuzu】{rt}(--)	
+B36.0212	line		【天探女】{rt}あなたに、あなたの身体と{rt}心をお返しします。	【Amanosagume】{rt}I return to you your body and your{rt}heart.	
+B36.0213	line		【天探女】{rt}すまなかったね、伊涼。	【Amanosagume】{rt}I'm sorry, Isuzu.	
 B36.0214	line		【天探女】{rt}…………。	【Amanosagume】{rt}......	
-B36.0215	line		【天探女】{rt}あんたの《宿星》は		
-B36.0216	line		【天探女】{rt}あと一歩で最悪の結果を{rt}招くところだったが―――		
-B36.0217	line		【天探女】{rt}あんたと、あんたの仲間は、{rt}見事にひっくり返した。		
-B36.0218	line		【天探女】{rt}出会いこそ《宿星》が{rt}生んだものだが、		
-B36.0219	line		【天探女】{rt}あんたたちは、本当の意味で{rt}《仲間》だった…。		
-B36.0220	line		【天探女】{rt}だから、それを成し遂げる事が{rt}できたんだね…。		
-B36.0221	line		【天探女】{rt}その通りです。		
-B36.0222	line		【天探女】{rt}さあ―――。		
-B36.0223	line		【天探女】{rt}私たちも、{rt}戻るとしましょう。		
-B36.0224	line		【天探女】{rt}全てが始まる前の姿に―――。		
+B36.0215	line		【天探女】{rt}あんたの《宿星》は	【Amanosagume】{rt}Your fated Star	
+B36.0216	line		【天探女】{rt}あと一歩で最悪の結果を{rt}招くところだったが―――	【Amanosagume】{rt}was one step from bringing about the{rt}worst end--	
+B36.0217	line		【天探女】{rt}あんたと、あんたの仲間は、{rt}見事にひっくり返した。	【Amanosagume】{rt}but you and your friends turned it{rt}around beautifully.	
+B36.0218	line		【天探女】{rt}出会いこそ《宿星》が{rt}生んだものだが、	【Amanosagume】{rt}Your meeting may have been born of{rt}the fated Stars,	
+B36.0219	line		【天探女】{rt}あんたたちは、本当の意味で{rt}《仲間》だった…。	【Amanosagume】{rt}but you truly were Comrades...	
+B36.0220	line		【天探女】{rt}だから、それを成し遂げる事が{rt}できたんだね…。	【Amanosagume】{rt}That's why you could pull it off...	
+B36.0221	line		【天探女】{rt}その通りです。	【Amanosagume】{rt}Just so.	
+B36.0222	line		【天探女】{rt}さあ―――。	【Amanosagume】{rt}Now--	
+B36.0223	line		【天探女】{rt}私たちも、{rt}戻るとしましょう。	【Amanosagume】{rt}let us return as well.	
+B36.0224	line		【天探女】{rt}全てが始まる前の姿に―――。	【Amanosagume】{rt}To the form we had before it all{rt}began--	
 B36.0225	line		【天探女】{rt}…………。	【Amanosagume】{rt}......	
-B36.0226	line		【天探女】{rt}ああッ―――。		
+B36.0226	line		【天探女】{rt}ああッ―――。	【Amanosagume】{rt}Ahh--	
 B36.0227	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B36.0228	line		【矢村】{rt}今のは…。		
+B36.0228	line		【矢村】{rt}今のは…。	【Yamura】{rt}What was that...?	
 B36.0229	line		【天探女】{rt}…………。	【Amanosagume】{rt}......	
-B36.0230	line		【矢村】{rt}探女？		
-B36.0231	line		【天探女】{rt}心が―――		
-B36.0232	line		【天探女】{rt}軽い…。		
-B36.0233	line		【天探女】{rt}肉を裂き、骨を断ってまでも{rt}逃れられないような、		
-B36.0234	line		【天探女】{rt}あの恐ろしい重圧感がない…。		
-B36.0235	line		【矢村】{rt}正気を取り戻したのか！？		
+B36.0230	line		【矢村】{rt}探女？	【Yamura】{rt}Sagume?	
+B36.0231	line		【天探女】{rt}心が―――	【Amanosagume】{rt}My heart--	
+B36.0232	line		【天探女】{rt}軽い…。	【Amanosagume】{rt}feels light...	
+B36.0233	line		【天探女】{rt}肉を裂き、骨を断ってまでも{rt}逃れられないような、	【Amanosagume】{rt}That terrible weight I couldn't{rt}escape	
+B36.0234	line		【天探女】{rt}あの恐ろしい重圧感がない…。	【Amanosagume】{rt}even by tearing flesh and cutting{rt}bone... it's gone...	
+B36.0235	line		【矢村】{rt}正気を取り戻したのか！？	【Yamura】{rt}You've come back to your senses!?	
 B36.0236	line		【矢村】{rt}俺たちは―――	【Yamura】{rt}What--	
-B36.0237	line		【矢村】{rt}俺たちは勝ったのか！？		
-B36.0238	line		【天探女】{rt}…ええ。		
-B36.0239	line		【天探女】{rt}疑いようがありません。		
-B36.0240	line		【天探女】{rt}この懐かしい心の軽さは―――		
-B36.0241	line		【天探女】{rt}遥か以前の私の記憶を{rt}蘇らせる。		
-B36.0242	line		【天探女】{rt}私が《大罪》と《宿星》で{rt}結ばれる以前の記憶を――。		
+B36.0237	line		【矢村】{rt}俺たちは勝ったのか！？	【Yamura】{rt}Did we win!?	
+B36.0238	line		【天探女】{rt}…ええ。	【Amanosagume】{rt}...Yes.	
+B36.0239	line		【天探女】{rt}疑いようがありません。	【Amanosagume】{rt}There is no doubt.	
+B36.0240	line		【天探女】{rt}この懐かしい心の軽さは―――	【Amanosagume】{rt}This lightness of heart I remember--	
+B36.0241	line		【天探女】{rt}遥か以前の私の記憶を{rt}蘇らせる。	【Amanosagume】{rt}brings back memories from long, long{rt}ago.	
+B36.0242	line		【天探女】{rt}私が《大罪》と《宿星》で{rt}結ばれる以前の記憶を――。	【Amanosagume】{rt}From before I was bound to the Great{rt}Sins by a fated Star--	
 B36.0243	line		【矢村】{rt}伊涼…。	【Yamura】{rt}Isuzu...	
-B36.0244	line		【矢村】{rt}伊涼はッ！？		
+B36.0244	line		【矢村】{rt}伊涼はッ！？	【Yamura】{rt}What about Isuzu!?	
 B36.0245	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
 B36.0246	line		【矢村】{rt}伊涼ッ…。	【Yamura】{rt}Isuzu...	
-B36.0247	line		【矢村】{rt}頼むッ。		
-B36.0248	line		【矢村】{rt}目を、覚ましてくれ。		
+B36.0247	line		【矢村】{rt}頼むッ。	【Yamura】{rt}Please.	
+B36.0248	line		【矢村】{rt}目を、覚ましてくれ。	【Yamura】{rt}Open your eyes.	
 B36.0249	line		【矢村】{rt}伊涼―――。	【Yamura】{rt}Isuzu--	
 B36.0250	line		【天探女】{rt}…………。	【Amanosagume】{rt}......	
-B36.0251	line		【天探女】{rt}…ご心配無く。		
+B36.0251	line		【天探女】{rt}…ご心配無く。	【Amanosagume】{rt}...Do not worry.	
 B36.0252	line		【矢村】{rt}―――？	【Yamura】{rt}--?	
-B36.0253	line		【伊涼】{rt}…う、ん。		
+B36.0253	line		【伊涼】{rt}…う、ん。	【Isuzu】{rt}...Mm, nn.	
 B36.0254	line		【矢村】{rt}伊涼ッ！？	【Yamura】{rt}Isuzu!?	
-B36.0255	line		【矢村】{rt}{name1}ッ、やったぞ！！		
-B36.0256	line		【矢村】{rt}伊涼が息を吹き返した！！		
+B36.0255	line		【矢村】{rt}{name1}ッ、やったぞ！！	【Yamura】{rt}{name1}, we did it!!	
+B36.0256	line		【矢村】{rt}伊涼が息を吹き返した！！	【Yamura】{rt}Isuzu's breathing again!!	
 B36.0257	line		【矢村】{rt}伊涼ッ！！	【Yamura】{rt}Isuzu!!	
-B36.0258	line		【伊涼】{rt}俊―――？		
+B36.0258	line		【伊涼】{rt}俊―――？	【Isuzu】{rt}Shun--?	
 B36.0259	line		【矢村】{rt}伊涼…。	【Yamura】{rt}Isuzu...	
-B36.0260	line		【矢村】{rt}よく帰って来てくれたな。		
+B36.0260	line		【矢村】{rt}よく帰って来てくれたな。	【Yamura】{rt}Welcome back.	
 B36.0261	line		【伊涼】{rt}ううん…。	【Isuzu】{rt}It's okay...	
-B36.0262	line		【伊涼】{rt}俊と{name1}くんの{rt}おかげだよ…。		
-B36.0263	line		【伊涼】{rt}俊と{name2}ちゃんの{rt}おかげだよ…。		
-B36.0264	line		【伊涼】{rt}それと―――		
+B36.0262	line		【伊涼】{rt}俊と{name1}くんの{rt}おかげだよ…。	【Isuzu】{rt}It's thanks to you and{rt}{name1}-kun, Shun...	
+B36.0263	line		【伊涼】{rt}俊と{name2}ちゃんの{rt}おかげだよ…。	【Isuzu】{rt}It's thanks to you and{rt}{name2}-chan, Shun...	
+B36.0264	line		【伊涼】{rt}それと―――	【Isuzu】{rt}And also--	
 B36.0265	line		【天探女】{rt}…………。	【Amanosagume】{rt}......	
-B36.0266	line		【伊涼】{rt}彼女が、私をこの身体に{rt}導いてくれたんだ…。		
-B36.0267	line		【矢村】{rt}探女…。お前が？		
-B36.0268	line		【天探女】{rt}私は―――		
-B36.0269	line		【天探女】{rt}私は、ほんの手助けをしたに{rt}過ぎません―――。		
-B36.0270	line		【天探女】{rt}水兼伊涼…。		
-B36.0271	line		【天探女】{rt}あなたの生きたいという{rt}強い願いがなければ、		
-B36.0272	line		【天探女】{rt}あなたは元の身体―――		
-B36.0273	line		【天探女】{rt}あなたの身体には戻って{rt}来れなかったでしょう…。		
-B36.0274	line		【矢村】{rt}伊涼の身体―――		
-B36.0275	line		【矢村】{rt}探女、お前…。		
-B36.0276	line		【伊涼】{rt}よかった。		
-B36.0277	line		【伊涼】{rt}やっと、元どおりに{rt}なれたのね…。		
-B36.0278	line		【天探女】{rt}あなたたちが大変な{rt}無茶をして		
-B36.0279	line		【天探女】{rt}私と《大罪》を結ぶ《宿星》を{rt}断ってくれたお陰です。		
-B36.0280	line		【天探女】{rt}あなたたちの世は{rt}護られました。		
-B36.0281	line		【天探女】{rt}世界を混沌に陥れようとした{rt}《大罪》の意思…、		
-B36.0282	line		【天探女】{rt}それをも上回った。		
-B36.0283	line		【天探女】{rt}あなたたちの強い信念に{rt}よって…。		
+B36.0266	line		【伊涼】{rt}彼女が、私をこの身体に{rt}導いてくれたんだ…。	【Isuzu】{rt}She guided me back into this body...	
+B36.0267	line		【矢村】{rt}探女…。お前が？	【Yamura】{rt}Sagume... You did?	
+B36.0268	line		【天探女】{rt}私は―――	【Amanosagume】{rt}I--	
+B36.0269	line		【天探女】{rt}私は、ほんの手助けをしたに{rt}過ぎません―――。	【Amanosagume】{rt}I only lent a little help--	
+B36.0270	line		【天探女】{rt}水兼伊涼…。	【Amanosagume】{rt}Isuzu Mizukane...	
+B36.0271	line		【天探女】{rt}あなたの生きたいという{rt}強い願いがなければ、	【Amanosagume】{rt}Without your strong wish to live,	
+B36.0272	line		【天探女】{rt}あなたは元の身体―――	【Amanosagume】{rt}you could never have come back to{rt}your body--	
+B36.0273	line		【天探女】{rt}あなたの身体には戻って{rt}来れなかったでしょう…。	【Amanosagume】{rt}your own body...	
+B36.0274	line		【矢村】{rt}伊涼の身体―――	【Yamura】{rt}Isuzu's body--	
+B36.0275	line		【矢村】{rt}探女、お前…。	【Yamura】{rt}Sagume, you...	
+B36.0276	line		【伊涼】{rt}よかった。	【Isuzu】{rt}I'm so glad.	
+B36.0277	line		【伊涼】{rt}やっと、元どおりに{rt}なれたのね…。	【Isuzu】{rt}We're finally back to how we were...	
+B36.0278	line		【天探女】{rt}あなたたちが大変な{rt}無茶をして	【Amanosagume】{rt}It's thanks to you, who went to such{rt}lengths	
+B36.0279	line		【天探女】{rt}私と《大罪》を結ぶ《宿星》を{rt}断ってくれたお陰です。	【Amanosagume】{rt}to cut the fated Star binding me to the{rt}Great Sins.	
+B36.0280	line		【天探女】{rt}あなたたちの世は{rt}護られました。	【Amanosagume】{rt}Your world has been protected.	
+B36.0281	line		【天探女】{rt}世界を混沌に陥れようとした{rt}《大罪》の意思…、	【Amanosagume】{rt}The will of the Great Sins, which sought{rt}to plunge the world into chaos...	
+B36.0282	line		【天探女】{rt}それをも上回った。	【Amanosagume】{rt}you overcame even that.	
+B36.0283	line		【天探女】{rt}あなたたちの強い信念に{rt}よって…。	【Amanosagume】{rt}Through your strong conviction...	
 B36.0284	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B36.0285	line		【矢村】{rt}…いまいち、実感がないよ。		
-B36.0286	line		【矢村】{rt}《大罪》は―――		
-B36.0287	line		【矢村】{rt}本当に消滅してしまったのか？		
-B36.0288	line		【矢村】{rt}お前の主がさっきの幻影の中で{rt}言ったように―――？		
-B36.0289	line		【天探女】{rt}確かに消え去りました。		
-B36.0290	line		【天探女】{rt}《大罪》も、		
-B36.0291	line		【天探女】{rt}伊涼を《器》とし、		
-B36.0292	line		【天探女】{rt}この世に降臨しようとした{rt}《陰》の私も…。		
-B36.0293	line		【天探女】{rt}それだけではありません。		
-B36.0294	line		【天探女】{rt}{name1}、		
-B36.0295	line		【天探女】{rt}あなたは既に意識の闇の中に{rt}見たかもしれません。		
-B36.0296	line		【天探女】{rt}怨念と化した天若日子様の{rt}姿を―――。		
-B36.0297	line		【天探女】{rt}それとて、《陰》の私が、		
-B36.0298	line		【天探女】{rt}天若日子様の死を強く想った{rt}ために		
-B36.0299	line		【天探女】{rt}生まれてしまった残像―――。		
-B36.0300	line		【天探女】{rt}それもじきに消えるでしょう。		
-B36.0301	line		【矢村】{rt}つまり―――。		
-B36.0302	line		【天探女】{rt}そうです。		
-B36.0303	line		【天探女】{rt}現時点で《大罪》が生んだ{rt}凶事は		
-B36.0304	line		【天探女】{rt}全て無に帰したという事です。		
-B36.0305	line		【伊涼】{rt}…信じよう。		
-B36.0306	line		【伊涼】{rt}俊、{name1}くん。		
-B36.0307	line		【伊涼】{rt}俊、{name2}ちゃん。		
-B36.0308	line		【伊涼】{rt}私たちは、{rt}ついにやり遂げたんだよ。		
-B36.0309	line		【伊涼】{rt}全ての《邪氣》を{rt}この街から祓う…		
-B36.0310	line		【伊涼】{rt}心に決めた目標を―――。		
+B36.0285	line		【矢村】{rt}…いまいち、実感がないよ。	【Yamura】{rt}...It doesn't feel real yet.	
+B36.0286	line		【矢村】{rt}《大罪》は―――	【Yamura】{rt}The Great Sins--	
+B36.0287	line		【矢村】{rt}本当に消滅してしまったのか？	【Yamura】{rt}Are they really gone?	
+B36.0288	line		【矢村】{rt}お前の主がさっきの幻影の中で{rt}言ったように―――？	【Yamura】{rt}Like your master said in that vision{rt}just now--?	
+B36.0289	line		【天探女】{rt}確かに消え去りました。	【Amanosagume】{rt}They are truly gone.	
+B36.0290	line		【天探女】{rt}《大罪》も、	【Amanosagume】{rt}The Great Sins,	
+B36.0291	line		【天探女】{rt}伊涼を《器》とし、	【Amanosagume】{rt}and the Shade half of me that made{rt}Isuzu	
+B36.0292	line		【天探女】{rt}この世に降臨しようとした{rt}《陰》の私も…。	【Amanosagume】{rt}its Vessel and tried to descend into{rt}this world...	
+B36.0293	line		【天探女】{rt}それだけではありません。	【Amanosagume】{rt}And not only that.	
+B36.0294	line		【天探女】{rt}{name1}、	【Amanosagume】{rt}{name1},	
+B36.0295	line		【天探女】{rt}あなたは既に意識の闇の中に{rt}見たかもしれません。	【Amanosagume】{rt}you may already have seen it in the{rt}darkness of your mind:	
+B36.0296	line		【天探女】{rt}怨念と化した天若日子様の{rt}姿を―――。	【Amanosagume】{rt}Lord Amewakahiko, turned into a{rt}vengeful spirit--	
+B36.0297	line		【天探女】{rt}それとて、《陰》の私が、	【Amanosagume】{rt}That too was an afterimage born	
+B36.0298	line		【天探女】{rt}天若日子様の死を強く想った{rt}ために	【Amanosagume】{rt}because the Shade half of me thought{rt}so strongly	
+B36.0299	line		【天探女】{rt}生まれてしまった残像―――。	【Amanosagume】{rt}of Lord Amewakahiko's death--	
+B36.0300	line		【天探女】{rt}それもじきに消えるでしょう。	【Amanosagume】{rt}It too will soon fade.	
+B36.0301	line		【矢村】{rt}つまり―――。	【Yamura】{rt}So--	
+B36.0302	line		【天探女】{rt}そうです。	【Amanosagume】{rt}Yes.	
+B36.0303	line		【天探女】{rt}現時点で《大罪》が生んだ{rt}凶事は	【Amanosagume】{rt}Every calamity the Great Sins have{rt}caused so far	
+B36.0304	line		【天探女】{rt}全て無に帰したという事です。	【Amanosagume】{rt}has returned to nothing.	
+B36.0305	line		【伊涼】{rt}…信じよう。	【Isuzu】{rt}...Let's believe it.	
+B36.0306	line		【伊涼】{rt}俊、{name1}くん。	【Isuzu】{rt}Shun, {name1}-kun.	
+B36.0307	line		【伊涼】{rt}俊、{name2}ちゃん。	【Isuzu】{rt}Shun, {name2}-chan.	
+B36.0308	line		【伊涼】{rt}私たちは、{rt}ついにやり遂げたんだよ。	【Isuzu】{rt}We finally did it.	
+B36.0309	line		【伊涼】{rt}全ての《邪氣》を{rt}この街から祓う…	【Isuzu】{rt}Purge all the Miasma from this city...	
+B36.0310	line		【伊涼】{rt}心に決めた目標を―――。	【Isuzu】{rt}The goal we set our hearts on--	
 B36.0311	line		【矢村】{rt}…そうだな。	【Yamura】{rt}...You're right.	
-B36.0312	line		【天探女】{rt}この鈴に宿り、{rt}あなたたちを―――		
-B36.0313	line		【天探女】{rt}そして、{name1}、		
-B36.0314	line		【天探女】{rt}あなたを導く…。		
-B36.0315	line		【天探女】{rt}私の役目も、{rt}まもなく終わりを告げます。		
-B36.0316	line		【天探女】{rt}私に与えられた、{rt}最後の役割…。		
+B36.0312	line		【天探女】{rt}この鈴に宿り、{rt}あなたたちを―――	【Amanosagume】{rt}Dwelling in this bell, guiding you all--	
+B36.0313	line		【天探女】{rt}そして、{name1}、	【Amanosagume】{rt}and you, {name1},	
+B36.0314	line		【天探女】{rt}あなたを導く…。	【Amanosagume】{rt}most of all...	
+B36.0315	line		【天探女】{rt}私の役目も、{rt}まもなく終わりを告げます。	【Amanosagume】{rt}My role, too, will soon come to an{rt}end.	
+B36.0316	line		【天探女】{rt}私に与えられた、{rt}最後の役割…。	【Amanosagume】{rt}The last task given to me...	
 B36.0317	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
-B36.0318	line		【天探女】{rt}あなたたちの世が護られた今、{rt}私は再びこの鈴の音を使い、		
-B36.0319	line		【天探女】{rt}次なる者を導かなくては{rt}なりません。		
-B36.0320	line		【天探女】{rt}矢村俊。水兼伊涼。		
-B36.0321	line		【天探女】{rt}そして、{name1}{name2}。		
-B36.0322	line		【天探女】{rt}よく聞き、そして理解して{rt}下さい。		
-B36.0323	line		【天探女】{rt}この世に起こっている事の{rt}真実を―――。		
+B36.0318	line		【天探女】{rt}あなたたちの世が護られた今、{rt}私は再びこの鈴の音を使い、	【Amanosagume】{rt}Now that your world is protected, I{rt}must use this bell's sound again	
+B36.0319	line		【天探女】{rt}次なる者を導かなくては{rt}なりません。	【Amanosagume】{rt}to guide the next one.	
+B36.0320	line		【天探女】{rt}矢村俊。水兼伊涼。	【Amanosagume】{rt}Shun Yamura. Isuzu Mizukane.	
+B36.0321	line		【天探女】{rt}そして、{name1}{name2}。	【Amanosagume】{rt}And {name2} {name1}.	
+B36.0322	line		【天探女】{rt}よく聞き、そして理解して{rt}下さい。	【Amanosagume】{rt}Listen well, and understand.	
+B36.0323	line		【天探女】{rt}この世に起こっている事の{rt}真実を―――。	【Amanosagume】{rt}The truth of what is happening in this{rt}world--	

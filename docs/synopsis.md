@@ -149,3 +149,12 @@ session; translators read it before their batch.
 - B34: the ten Great Sins' Miasma overwhelms Takamaru and pours into Isuzu. Isuzu speaks to Yamura (she knew of the
   library vision and still trusted him) and to the player, then falls silent: Amanosagume takes her body, mocks
   Isuzu as a borrowed mask, and is reborn in her true form.
+- B35: Amanosagume tells Yamura he is bound, like Toshimune, to erase Isuzu if he stops her; she calls herself the
+  rebel heaven needed, cast into the dark so the Light could shine, and boasts that humanity's growth has made her
+  Great Sins unbeatable. The Divine Bell rings: a woman's and a man's voice awaken the player as the Vessel of the
+  Golden Dragon and fill them with the Dragon Veins' Ki; battle.
+- B36: Yamura and the player cut the fated Star binding Sagume to the Great Sins. Her gentle Light half (the voice
+  in the bell, who guided the player to Enra) calms her, and Amewakahiko appears: his death and her burden were
+  heaven's will, so the Dragon Veins' Light Earth Ki could cancel the Shade Earth Ki of the Great Sins. The halves
+  reunite, Isuzu returns to her body, and Sagume says every calamity of the Great Sins is undone, then prepares to
+  tell the trio the truth of what is happening in this world.
