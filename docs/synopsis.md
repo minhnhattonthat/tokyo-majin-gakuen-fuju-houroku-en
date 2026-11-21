@@ -158,3 +158,13 @@ session; translators read it before their batch.
   heaven's will, so the Dragon Veins' Light Earth Ki could cancel the Shade Earth Ki of the Great Sins. The halves
   reunite, Isuzu returns to her body, and Sagume says every calamity of the Great Sins is undone, then prepares to
   tell the trio the truth of what is happening in this world.
+- B37: Sagume reveals the Great Sins were stirred by Shiyuki, the Banner of Chiyou, an ill-omened star that also
+  shadows the player's own world, so she must send the player home. Enra is not dead: he was the first Vessel of
+  the Golden Dragon and is Enma, judge of the dead. Tearful farewells; then the shattered soul of Takamaru appears
+  in the void, still raging; battle.
+- B38: Sagume tells Takamaru the Shade and the Light must stay evenly matched to hold up the world, and that his
+  fight served the Shade folk; he lets go of his hatred and chooses to live on in the player's Thought for a while.
+  Sagume sends the player back to Tokyo with a talisman holding a friend's Thought. Staff roll.
+- B39: the player wakes in a hospital in their own Tokyo; a friend says they were carried in near death five days
+  ago, finds the strange talisman in their hand, and senses in it "a Thought like ours". Post-credits tip: hold L
+  and R when confirming the blood type.

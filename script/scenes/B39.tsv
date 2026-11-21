@@ -1,121 +1,121 @@
 id	kind	max	jp	en	notes
-B39.0000	line		　對声の出演對{dc}		
-B39.0001	line		　　堀江　由衣{rt}　　川鍋　雅樹{rt}　　浅川　悠{dc}		
-B39.0002	line		　　石黒　貴之{rt}　　田村　ゆかり{rt}　　津村　まこと{dc}		
-B39.0003	line		　　坪井　智浩{rt}　　増田　ゆき{rt}　　関口　英司{dc}		
-B39.0004	line		　　永迫　舞{rt}　　高瀬　右光{rt}　　齋藤　周{dc}		
-B39.0005	line		　　笹沼　晃{rt}　　吉住　梢{rt}　　長谷川たか子{dc}		
-B39.0006	line		　　樫井　笙人{rt}　　小上　裕通{rt}　　小野　英昭{dc}		
-B39.0007	line		　　岡田　純子{rt}　　鈴木　正和{rt}　　浜田　賢ニ{dc}		
-B39.0008	line		　　丁田　政ニ郎{rt}　　加瀬　康之{rt}　　石田　彰{dc}		
-B39.0009	line		　　幸田　夏穂{rt}　　くわはら　利晃{rt}　　田中　一永{dc}		
-B39.0010	line		　　長谷川　智子{rt}　　乾　政子{rt}　　重松　朋子{dc}		
-B39.0011	line		　對企画對{dc}		
-B39.0012	line		　{rt}　　齋藤　力{dc}		
-B39.0013	line		　對企画補對{dc}		
-B39.0014	line		　{rt}　　濱田　英美{dc}		
-B39.0015	line		　對脚本・演出對{dc}		
-B39.0016	line		　　今井　秋芳{rt}　　井上　亮太{rt}　　かねいつぢ{dc}		
-B39.0017	line		　　かわさき　暁{rt}　　真部　渉{rt}　　金沢　十三男{dc}		
-B39.0018	line		　對プログラム對{dc}		
-B39.0019	line		　{rt}　　岡本　利昭{dc}		
-B39.0020	line		　　木下　真憲{rt}　　小林　治幸{rt}　　[FB][B3]町　孝{dc}		[FB][B3] = 﨤 (U+FA24, IBM-extension kanji code in a staff name)
-B39.0021	line		　對グラフィック對{dc}		
-B39.0022	line		　{rt}　　霊鷲　宏{dc}		
-B39.0023	line		　　保高　勝俊{rt}　　斎藤　卓也{rt}　　梅田　晴久{dc}		
-B39.0024	line		　對音楽・効果音對{dc}		
-B39.0025	line		　{rt}　　新田　高史{dc}		
-B39.0026	line		　對サウンド對{dc}		
-B39.0027	line		　{rt}　　田畑　三津広{dc}		
-B39.0028	line		　對音声編集對{dc}		
-B39.0029	line		　{rt}　　松下　朝光{dc}		
-B39.0030	line		　對声優キャスティング對{dc}		
-B39.0031	line		　{rt}　　角岡　義行{dc}		
-B39.0032	line		　對咒符イラスト對{dc}		
-B39.0033	line		　{rt}　　南志　安永{dc}		
-B39.0034	line		　對プレミア符イラスト對{dc}		
-B39.0035	line		　　小林　美智{rt}　　笠井　あゆみ{rt}　　南志　安永{dc}		
-B39.0036	line		　　斎藤　晋{rt}　　喜名　朝飛{rt}　　瀬田　一徳{dc}		
-B39.0037	line		　對パッケージ製作對{dc}		
-B39.0038	line		　{rt}　　瀧澤　潔{dc}		
-B39.0039	line		　對タイトルロゴ對{dc}		
-B39.0040	line		　{rt}　　黒澤　光信{dc}		
-B39.0041	line		　對アートワーク對{dc}		
-B39.0042	line		　　瀧澤　潔{rt}　　宮城　美紀{dc}		
-B39.0043	line		　對宣伝對{dc}		
-B39.0044	line		　　水谷　英之{rt}　　後藤　琢宏{dc}		
-B39.0045	line		　對広報對{dc}		
-B39.0046	line		　{rt}　　村井　俊介{dc}		
-B39.0047	line		　對営業對{dc}		
-B39.0048	line		　　飛塚　剛{rt}　　根岸　卓也{dc}		
-B39.0049	line		　對制作協力對{dc}		
-B39.0050	line		　　豊島　雅郎{rt}　　佐藤　至信{rt}　　島田　良尚{dc}		
-B39.0051	line		　　大渕　善久{rt}　　弓削田　公司{rt}　　吉川　信司{dc}		
-B39.0052	line		　　　アスミック・エース{rt}エンターテインメント株式会社{dc}		
-B39.0053	line		有限会社セイムクリティティブ{rt}有限会社ティーズミュージック{dc}		
-B39.0054	line		　{rt}　　　株式会社アトラス{dc}		
-B39.0055	line		（Ｃ）２００４　ＡＴＬＵＳ／{rt}　　　　ＳＨＯＵＴ！{rt}　　ＤＥＳＩＧＮＷＯＲＫＳ{dc}		
-B39.0056	line		株式会社{rt}　　　スクウエア・エニックス{rt}　　　　　角川書店{dc}		
-B39.0057	line		　對企画・開発對{dc}		
-B39.0058	line		株式会社シャウト{rt}　　　　　　デザインワークス{rt}　有限会社ハッピースマイル{dc}		
-B39.0059	line		　對制作・著作對{dc}		
-B39.0060	line		株式会社マーベラス{rt}　　　　　　インタラクティブ{dc}		
-B39.0061	line		　　對プロデューサー對{dc}		
-B39.0062	line		　{rt}　　　金沢　十三男{dc}		
-B39.0063	line		　　對監督對{dc}		
-B39.0064	line		　{rt}　　　今井　秋芳{dc}		
-B39.0065	line		【少年の声】{rt}よぉ、{name1}。		
-B39.0066	line		【少年の声】{rt}目が覚めたみてェだな。		
-B39.0067	line		【少年の声】{rt}なんかうなされて{rt}たみてェだけど		
-B39.0068	line		【少年の声】{rt}嫌な夢でも見たのか？		
-B39.0069	line		【少年の声】{rt}まぁ…{rt}あんな事があった後だしな。		
-B39.0070	line		【少年の声】{rt}大きな傷を負えば{rt}嫌な夢くらいは見るもんさ。		
-B39.0071	line		【少年の声】{rt}院長先生も言ってたが、		
-B39.0072	line		【少年の声】{rt}その悪夢から{rt}帰って来れるかどうかは、		
-B39.0073	line		【少年の声】{rt}お前次第だった…。		
-B39.0074	line		【少年の声】{rt}よく帰ってきてくれたな、{rt}{name1}。		
+B39.0000	line		　對声の出演對{dc}	 -- Voice Cast --{dc}	
+B39.0001	line		　　堀江　由衣{rt}　　川鍋　雅樹{rt}　　浅川　悠{dc}	  Yui Horie{rt}  Masaki Kawanabe{rt}  Yu Asakawa{dc}	
+B39.0002	line		　　石黒　貴之{rt}　　田村　ゆかり{rt}　　津村　まこと{dc}	  Takayuki Ishiguro{rt}  Yukari Tamura{rt}  Makoto Tsumura{dc}	
+B39.0003	line		　　坪井　智浩{rt}　　増田　ゆき{rt}　　関口　英司{dc}	  Tomohiro Tsuboi{rt}  Yuki Masuda{rt}  Eiji Sekiguchi{dc}	
+B39.0004	line		　　永迫　舞{rt}　　高瀬　右光{rt}　　齋藤　周{dc}	  Mai Nagasako{rt}  Akimitsu Takase{rt}  Shu Saito{dc}	
+B39.0005	line		　　笹沼　晃{rt}　　吉住　梢{rt}　　長谷川たか子{dc}	  Akira Sasanuma{rt}  Kozue Yoshizumi{rt}  Takako Hasegawa{dc}	
+B39.0006	line		　　樫井　笙人{rt}　　小上　裕通{rt}　　小野　英昭{dc}	  Shoto Kashii{rt}  Hiromichi Kogami{rt}  Hideaki Ono{dc}	
+B39.0007	line		　　岡田　純子{rt}　　鈴木　正和{rt}　　浜田　賢ニ{dc}	  Junko Okada{rt}  Masakazu Suzuki{rt}  Kenji Hamada{dc}	
+B39.0008	line		　　丁田　政ニ郎{rt}　　加瀬　康之{rt}　　石田　彰{dc}	  Masajiro Choda{rt}  Yasuyuki Kase{rt}  Akira Ishida{dc}	
+B39.0009	line		　　幸田　夏穂{rt}　　くわはら　利晃{rt}　　田中　一永{dc}	  Kaho Koda{rt}  Toshiaki Kuwahara{rt}  Kazunaga Tanaka{dc}	
+B39.0010	line		　　長谷川　智子{rt}　　乾　政子{rt}　　重松　朋子{dc}	  Tomoko Hasegawa{rt}  Masako Inui{rt}  Tomoko Shigematsu{dc}	
+B39.0011	line		　對企画對{dc}	 -- Planning --{dc}	
+B39.0012	line		　{rt}　　齋藤　力{dc}	 {rt}  Chikara Saito{dc}	
+B39.0013	line		　對企画補對{dc}	 -- Assistant Planner --{dc}	
+B39.0014	line		　{rt}　　濱田　英美{dc}	 {rt}  Hidemi Hamada{dc}	
+B39.0015	line		　對脚本・演出對{dc}	 -- Scenario & Direction --{dc}	
+B39.0016	line		　　今井　秋芳{rt}　　井上　亮太{rt}　　かねいつぢ{dc}	  Shuho Imai{rt}  Ryota Inoue{rt}  Kaneitsuji{dc}	
+B39.0017	line		　　かわさき　暁{rt}　　真部　渉{rt}　　金沢　十三男{dc}	  Akatsuki Kawasaki{rt}  Wataru Manabe{rt}  Tomio Kanazawa{dc}	
+B39.0018	line		　對プログラム對{dc}	 -- Programming --{dc}	
+B39.0019	line		　{rt}　　岡本　利昭{dc}	 {rt}  Toshiaki Okamoto{dc}	
+B39.0020	line		　　木下　真憲{rt}　　小林　治幸{rt}　　[FB][B3]町　孝{dc}	  Masanori Kinoshita{rt}  Haruyuki Kobayashi{rt}  Takashi Hazamachi{dc}	[FB][B3] = 﨤 (U+FA24, IBM-extension kanji code in a staff name)
+B39.0021	line		　對グラフィック對{dc}	 -- Graphics --{dc}	
+B39.0022	line		　{rt}　　霊鷲　宏{dc}	 {rt}  Hiroshi Ryoju{dc}	
+B39.0023	line		　　保高　勝俊{rt}　　斎藤　卓也{rt}　　梅田　晴久{dc}	  Katsutoshi Hotaka{rt}  Takuya Saito{rt}  Haruhisa Umeda{dc}	
+B39.0024	line		　對音楽・効果音對{dc}	 -- Music & Sound Effects --{dc}	
+B39.0025	line		　{rt}　　新田　高史{dc}	 {rt}  Takashi Nitta{dc}	
+B39.0026	line		　對サウンド對{dc}	 -- Sound --{dc}	
+B39.0027	line		　{rt}　　田畑　三津広{dc}	 {rt}  Mitsuhiro Tabata{dc}	
+B39.0028	line		　對音声編集對{dc}	 -- Voice Editing --{dc}	
+B39.0029	line		　{rt}　　松下　朝光{dc}	 {rt}  Tomomitsu Matsushita{dc}	
+B39.0030	line		　對声優キャスティング對{dc}	 -- Voice Casting --{dc}	
+B39.0031	line		　{rt}　　角岡　義行{dc}	 {rt}  Yoshiyuki Kadooka{dc}	
+B39.0032	line		　對咒符イラスト對{dc}	 -- Talisman Illustrations --{dc}	
+B39.0033	line		　{rt}　　南志　安永{dc}	 {rt}  Yasunaga Nanshi{dc}	
+B39.0034	line		　對プレミア符イラスト對{dc}	 -- Premium Talisman Art --{dc}	
+B39.0035	line		　　小林　美智{rt}　　笠井　あゆみ{rt}　　南志　安永{dc}	  Michi Kobayashi{rt}  Ayumi Kasai{rt}  Yasunaga Nanshi{dc}	
+B39.0036	line		　　斎藤　晋{rt}　　喜名　朝飛{rt}　　瀬田　一徳{dc}	  Susumu Saito{rt}  Asahi Kina{rt}  Kazunori Seta{dc}	
+B39.0037	line		　對パッケージ製作對{dc}	 -- Package Production --{dc}	
+B39.0038	line		　{rt}　　瀧澤　潔{dc}	 {rt}  Kiyoshi Takizawa{dc}	
+B39.0039	line		　對タイトルロゴ對{dc}	 -- Title Logo --{dc}	
+B39.0040	line		　{rt}　　黒澤　光信{dc}	 {rt}  Mitsunobu Kurosawa{dc}	
+B39.0041	line		　對アートワーク對{dc}	 -- Artwork --{dc}	
+B39.0042	line		　　瀧澤　潔{rt}　　宮城　美紀{dc}	  Kiyoshi Takizawa{rt}  Miki Miyagi{dc}	
+B39.0043	line		　對宣伝對{dc}	 -- Advertising --{dc}	
+B39.0044	line		　　水谷　英之{rt}　　後藤　琢宏{dc}	  Hideyuki Mizutani{rt}  Takuhiro Goto{dc}	
+B39.0045	line		　對広報對{dc}	 -- Public Relations --{dc}	
+B39.0046	line		　{rt}　　村井　俊介{dc}	 {rt}  Shunsuke Murai{dc}	
+B39.0047	line		　對営業對{dc}	 -- Sales --{dc}	
+B39.0048	line		　　飛塚　剛{rt}　　根岸　卓也{dc}	  Tsuyoshi Tobitsuka{rt}  Takuya Negishi{dc}	
+B39.0049	line		　對制作協力對{dc}	 -- Production Support --{dc}	
+B39.0050	line		　　豊島　雅郎{rt}　　佐藤　至信{rt}　　島田　良尚{dc}	  Masao Toyoshima{rt}  Yukinobu Sato{rt}  Yoshinao Shimada{dc}	
+B39.0051	line		　　大渕　善久{rt}　　弓削田　公司{rt}　　吉川　信司{dc}	  Yoshihisa Obuchi{rt}  Koji Yugeta{rt}  Shinji Yoshikawa{dc}	
+B39.0052	line		　　　アスミック・エース{rt}エンターテインメント株式会社{dc}	   Asmik Ace{rt}Entertainment, Inc.{dc}	
+B39.0053	line		有限会社セイムクリティティブ{rt}有限会社ティーズミュージック{dc}	Same Creative Ltd.{rt}T's Music Ltd.{dc}	
+B39.0054	line		　{rt}　　　株式会社アトラス{dc}	 {rt}   Atlus Co., Ltd.{dc}	
+B39.0055	line		（Ｃ）２００４　ＡＴＬＵＳ／{rt}　　　　ＳＨＯＵＴ！{rt}　　ＤＥＳＩＧＮＷＯＲＫＳ{dc}	(C)2004 ATLUS/{rt}    SHOUT!{rt}  DESIGNWORKS{dc}	
+B39.0056	line		株式会社{rt}　　　スクウエア・エニックス{rt}　　　　　角川書店{dc}	Square Enix{rt}   Co., Ltd.{rt}     Kadokawa Shoten{dc}	
+B39.0057	line		　對企画・開発對{dc}	 -- Planning & Development --{dc}	
+B39.0058	line		株式会社シャウト{rt}　　　　　　デザインワークス{rt}　有限会社ハッピースマイル{dc}	Shout! Designworks{rt}   Co., Ltd.{rt} Happy Smile Ltd.{dc}	
+B39.0059	line		　對制作・著作對{dc}	 -- Production & Copyright --{dc}	
+B39.0060	line		株式会社マーベラス{rt}　　　　　　インタラクティブ{dc}	Marvelous{rt}   Interactive Inc.{dc}	
+B39.0061	line		　　對プロデューサー對{dc}	  -- Producer --{dc}	
+B39.0062	line		　{rt}　　　金沢　十三男{dc}	 {rt}   Tomio Kanazawa{dc}	
+B39.0063	line		　　對監督對{dc}	  -- Director --{dc}	
+B39.0064	line		　{rt}　　　今井　秋芳{dc}	 {rt}   Shuho Imai{dc}	
+B39.0065	line		【少年の声】{rt}よぉ、{name1}。	【Boy's Voice】{rt}Hey, {name1}.	
+B39.0066	line		【少年の声】{rt}目が覚めたみてェだな。	【Boy's Voice】{rt}Looks like you're awake.	
+B39.0067	line		【少年の声】{rt}なんかうなされて{rt}たみてェだけど	【Boy's Voice】{rt}Seemed like you were having a bad time{rt}of it.	
+B39.0068	line		【少年の声】{rt}嫌な夢でも見たのか？	【Boy's Voice】{rt}A nightmare or something?	
+B39.0069	line		【少年の声】{rt}まぁ…{rt}あんな事があった後だしな。	【Boy's Voice】{rt}Well... it's not surprising, after what{rt}happened.	
+B39.0070	line		【少年の声】{rt}大きな傷を負えば{rt}嫌な夢くらいは見るもんさ。	【Boy's Voice】{rt}When you get hurt that bad, you're{rt}bound to have a bad dream or two.	
+B39.0071	line		【少年の声】{rt}院長先生も言ってたが、	【Boy's Voice】{rt}Like the director said,	
+B39.0072	line		【少年の声】{rt}その悪夢から{rt}帰って来れるかどうかは、	【Boy's Voice】{rt}whether you came back from that{rt}nightmare	
+B39.0073	line		【少年の声】{rt}お前次第だった…。	【Boy's Voice】{rt}was all up to you...	
+B39.0074	line		【少年の声】{rt}よく帰ってきてくれたな、{rt}{name1}。	【Boy's Voice】{rt}Good to have you back, {name1}.	
 B39.0075	line		【少年の声】{rt}―――！？	【Boy's Voice】{rt}--!?	
-B39.0076	line		【少年の声】{rt}あんな事があったんだ。		
-B39.0077	line		【少年の声】{rt}気が昂ぶってん{rt}のも仕方ねェ。		
-B39.0078	line		【少年の声】{rt}だが、しっかりしろよ、{rt}{name1}。		
-B39.0079	line		【少年の声】{rt}そんなのは、お前には{rt}似合わねェぜ。		
-B39.0080	line		【少年の声】{rt}夢なんて、そんなもんさ。		
-B39.0081	line		【少年の声】{rt}目覚めちまえば―――		
-B39.0082	line		【少年の声】{rt}いくら覚えていようとしても{rt}いずれ忘れちまう…。		
-B39.0083	line		【少年の声】{rt}だが、俺はそれで{rt}いいと思うぜ。		
-B39.0084	line		【少年の声】{rt}{name1}。		
-B39.0085	line		【少年の声】{rt}しっかり目を開け。		
-B39.0086	line		【少年の声】{rt}お前が本当に見るべき世界は{rt}ここにある。		
-B39.0087	line		【少年の声】{rt}お前は、ここへ{rt}帰ってきたんだからよッ。		
-B39.0088	line		【少年の声】{rt}夢なんて見てなかったって？		
-B39.0089	line		【少年の声】{rt}…………。		
-B39.0090	line		【少年の声】{rt}お花畑だの、でかい河だのの{rt}話を期待してたんだが―――		
-B39.0091	line		【少年の声】{rt}ま、見なかったんなら、{rt}仕方ねェ。		
-B39.0092	line		【少年の声】{rt}ともかく、これでひと安心だ。		
-B39.0093	line		【少年の声】{rt}みんな、喜ぶぜ。		
-B39.0094	line		【少年の声】{rt}今日の午後、ようやく{rt}退院だってな。		
-B39.0095	line		【少年の声】{rt}院長先生も、お前の{rt}回復力にゃ舌をまいてたぜ。		
-B39.0096	line		【少年の声】{rt}なんてったって、{rt}瀕死の状態で		
-B39.0097	line		【少年の声】{rt}俺たちがここに{rt}担ぎ込んでから		
-B39.0098	line		【少年の声】{rt}たった五日でほぼ{rt}完治しちまったんだからな。		
-B39.0099	line		【少年の声】{rt}―――？		
-B39.0100	line		【少年の声】{rt}{name1}、お前、{rt}何を握ってる？		
-B39.0101	line		【少年の声】{rt}見せてみろ。		
-B39.0102	line		【少年の声】{rt}何かの符―――{rt}みてえだが…。		
-B39.0103	line		【少年の声】{rt}見ねえ絵だな。		
-B39.0104	line		【少年の声】{rt}―――んッ！？		
-B39.0105	line		【少年の声】{rt}{name1}ッ、お前、今まで{rt}意識が無かったんだよな！？		
-B39.0106	line		【少年の声】{rt}だが、どうして、こんな{rt}モンを？		
-B39.0107	line		【少年の声】{rt}…………。		
-B39.0108	line		【少年の声】{rt}分からねェ。		
-B39.0109	line		【少年の声】{rt}不思議な事もあるもんだな。		
-B39.0110	line		【少年の声】{rt}だが…。		
-B39.0111	line		【少年の声】{rt}なんとなくだが―――		
-B39.0112	line		【少年の声】{rt}この符からは…		
-B39.0113	line		【少年の声】{rt}俺たちと似た《念》を{rt}感じる。		
-B39.0114	line		【少年の声】{rt}何かを…護ろうとする{rt}強い《念》が―――。		
-B39.0115	line		【少年の声】{rt}と―――まぁ、{rt}そんなこたァ、		
-B39.0116	line		【少年の声】{rt}今日のところは{rt}どうでもいいさ。		
-B39.0117	line		【少年の声】{rt}実は―――		
-B39.0118	line		　{rt}　對秘技公開對　		
-B39.0119	line		　{rt}血液型入力時、ＬＲボタンを{rt}押しながら決定すると…？		
+B39.0076	line		【少年の声】{rt}あんな事があったんだ。	【Boy's Voice】{rt}After what happened,	
+B39.0077	line		【少年の声】{rt}気が昂ぶってん{rt}のも仕方ねェ。	【Boy's Voice】{rt}no wonder you're worked up.	
+B39.0078	line		【少年の声】{rt}だが、しっかりしろよ、{rt}{name1}。	【Boy's Voice】{rt}But pull yourself together,{rt}{name1}.	
+B39.0079	line		【少年の声】{rt}そんなのは、お前には{rt}似合わねェぜ。	【Boy's Voice】{rt}That doesn't suit you.	
+B39.0080	line		【少年の声】{rt}夢なんて、そんなもんさ。	【Boy's Voice】{rt}That's how dreams are.	
+B39.0081	line		【少年の声】{rt}目覚めちまえば―――	【Boy's Voice】{rt}Once you wake up--	
+B39.0082	line		【少年の声】{rt}いくら覚えていようとしても{rt}いずれ忘れちまう…。	【Boy's Voice】{rt}however hard you try to remember,{rt}sooner or later you forget...	
+B39.0083	line		【少年の声】{rt}だが、俺はそれで{rt}いいと思うぜ。	【Boy's Voice】{rt}But I think that's fine.	
+B39.0084	line		【少年の声】{rt}{name1}。	【Boy's Voice】{rt}{name1}.	
+B39.0085	line		【少年の声】{rt}しっかり目を開け。	【Boy's Voice】{rt}Open your eyes properly.	
+B39.0086	line		【少年の声】{rt}お前が本当に見るべき世界は{rt}ここにある。	【Boy's Voice】{rt}The world you really need to see is{rt}right here.	
+B39.0087	line		【少年の声】{rt}お前は、ここへ{rt}帰ってきたんだからよッ。	【Boy's Voice】{rt}'Cause you came back here!	
+B39.0088	line		【少年の声】{rt}夢なんて見てなかったって？	【Boy's Voice】{rt}You say you didn't dream at all?	
+B39.0089	line		【少年の声】{rt}…………。	【Boy's Voice】{rt}......	
+B39.0090	line		【少年の声】{rt}お花畑だの、でかい河だのの{rt}話を期待してたんだが―――	【Boy's Voice】{rt}I was hoping for a story about flower{rt}fields or a huge river--	
+B39.0091	line		【少年の声】{rt}ま、見なかったんなら、{rt}仕方ねェ。	【Boy's Voice】{rt}Well, if you didn't see any, can't be{rt}helped.	
+B39.0092	line		【少年の声】{rt}ともかく、これでひと安心だ。	【Boy's Voice】{rt}Anyway, that's a load off.	
+B39.0093	line		【少年の声】{rt}みんな、喜ぶぜ。	【Boy's Voice】{rt}Everyone'll be glad.	
+B39.0094	line		【少年の声】{rt}今日の午後、ようやく{rt}退院だってな。	【Boy's Voice】{rt}I hear you're finally getting out this{rt}afternoon.	
+B39.0095	line		【少年の声】{rt}院長先生も、お前の{rt}回復力にゃ舌をまいてたぜ。	【Boy's Voice】{rt}Even the director was amazed at how{rt}fast you healed.	
+B39.0096	line		【少年の声】{rt}なんてったって、{rt}瀕死の状態で	【Boy's Voice】{rt}I mean, we carried you in here	
+B39.0097	line		【少年の声】{rt}俺たちがここに{rt}担ぎ込んでから	【Boy's Voice】{rt}half-dead,	
+B39.0098	line		【少年の声】{rt}たった五日でほぼ{rt}完治しちまったんだからな。	【Boy's Voice】{rt}and in just five days you're nearly{rt}good as new.	
+B39.0099	line		【少年の声】{rt}―――？	【Boy's Voice】{rt}--?	
+B39.0100	line		【少年の声】{rt}{name1}、お前、{rt}何を握ってる？	【Boy's Voice】{rt}{name1}, what've you got in your{rt}hand?	
+B39.0101	line		【少年の声】{rt}見せてみろ。	【Boy's Voice】{rt}Let me see.	
+B39.0102	line		【少年の声】{rt}何かの符―――{rt}みてえだが…。	【Boy's Voice】{rt}Looks like some kind of talisman...	
+B39.0103	line		【少年の声】{rt}見ねえ絵だな。	【Boy's Voice】{rt}Never seen a picture like that.	
+B39.0104	line		【少年の声】{rt}―――んッ！？	【Boy's Voice】{rt}--Huh!?	
+B39.0105	line		【少年の声】{rt}{name1}ッ、お前、今まで{rt}意識が無かったんだよな！？	【Boy's Voice】{rt}{name1}, you were out cold till just{rt}now, right!?	
+B39.0106	line		【少年の声】{rt}だが、どうして、こんな{rt}モンを？	【Boy's Voice】{rt}So how'd you get something like this?	
+B39.0107	line		【少年の声】{rt}…………。	【Boy's Voice】{rt}......	
+B39.0108	line		【少年の声】{rt}分からねェ。	【Boy's Voice】{rt}Beats me.	
+B39.0109	line		【少年の声】{rt}不思議な事もあるもんだな。	【Boy's Voice】{rt}Strange things happen, I guess.	
+B39.0110	line		【少年の声】{rt}だが…。	【Boy's Voice】{rt}But...	
+B39.0111	line		【少年の声】{rt}なんとなくだが―――	【Boy's Voice】{rt}I don't know why, but--	
+B39.0112	line		【少年の声】{rt}この符からは…	【Boy's Voice】{rt}from this talisman...	
+B39.0113	line		【少年の声】{rt}俺たちと似た《念》を{rt}感じる。	【Boy's Voice】{rt}I sense a Thought a lot like ours.	
+B39.0114	line		【少年の声】{rt}何かを…護ろうとする{rt}強い《念》が―――。	【Boy's Voice】{rt}A strong Thought, trying to protect{rt}something--	
+B39.0115	line		【少年の声】{rt}と―――まぁ、{rt}そんなこたァ、	【Boy's Voice】{rt}Well--that kind of thing	
+B39.0116	line		【少年の声】{rt}今日のところは{rt}どうでもいいさ。	【Boy's Voice】{rt}doesn't matter today.	
+B39.0117	line		【少年の声】{rt}実は―――	【Boy's Voice】{rt}The thing is--	
+B39.0118	line		　{rt}　對秘技公開對　	-- Secret Revealed --	
+B39.0119	line		　{rt}血液型入力時、ＬＲボタンを{rt}押しながら決定すると…？	Hold L and R when you confirm your{rt}blood type, and...?	

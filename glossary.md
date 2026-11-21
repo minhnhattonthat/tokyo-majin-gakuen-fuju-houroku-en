@@ -288,6 +288,13 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 - b075-b076 (B29-B31): 黄龍 -> the Golden Dragon; 黄龍の器 -> the Vessel of the Golden Dragon; 《器》 -> Vessel.
   《宿星》 -> fated Stars. 《大罪》人 -> Great Sinners. 天探女 -> Amanosagume. 冥土の土産 -> "a parting gift for the
   underworld". Enra's mantra オン・カカカ・ビサンマエイ・ソワカ -> "On kakaka bisanmaei... sowaka!!".
+- b077-b088 (B32-B39): 探女 alone (Amewakahiko, Yamura, Isuzu, Takamaru) -> Sagume; 天探女 stays Amanosagume.
+  俊 (Enra, Isuzu, Sagume) -> Shun; 矢村俊 -> Shun Yamura; 水兼伊涼 -> Isuzu Mizukane. 符 is always "talisman"
+  (never "charm"). 蚩尤旗 -> Shiyuki, the Banner of Chiyou (first mention), then Shiyuki. 閻魔 -> Enma, judge of the
+  dead. 《地の氣》 -> Earth Ki (《陰》の《地の氣》 Shade Earth Ki). 《罰》 -> Punishment. 《あいつら》 (heaven) -> "those
+  up there" (no asterisks: the font has none). 千頭の矢 -> the thousand arrows; 観世音 -> Kannon. 院長先生 -> the
+  director. Staff roll (B38.0139, B39.0000-0064): names in Western order, readings unverified; section heads as
+  "-- X --" (the 對 ornament has no glyph); B39.0020's 﨤町 孝 is a guess, "Takashi Hazamachi".
 - A12.4.0038/0043 and A12.9.0057 start `【【` (a JP typo); merge tags them normally.
 - The only row whose JP holds two boxes (`...{rt}{rt}【X】{rt}...`) is B11.0121:
   the batch check wants the repeated speaker name in the English, so put `【X】` in the body to pass, then after

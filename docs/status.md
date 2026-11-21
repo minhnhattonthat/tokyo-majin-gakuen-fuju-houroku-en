@@ -5,11 +5,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 6. Translate in progress (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 with B00-B03
   English, sha1 6e2fcc5dfb56.. (story_00 warp checked: `work/qa/pilot_zoom.png`). Marker build
   `build/tmgfh_marker.gba` sha1 91c3d9342694...
-- **Progress:** batches b001-b085 merged: B00-B36 and every A scene (A0.x-A12.x) complete (2026-11-22). B11.0121
-  holds two boxes (fixed by hand after merge; see the glossary note). Merges also fill identical JP lines in later
-  chapters (B33-B38 partly filled). Remaining: B37-B39 (~400 rows), system
-  cf/d1/d6 (2 605 rows). Staff roll ({dc} rows, B39) is left out of batches: translate by hand at
-  the end. `batches.py`: 赤ちゃん is not an honorific (added to NOT_HONORIFIC).
+- **Progress:** batches b001-b088 merged: every story row (B00-B39, A0.x-A12.x) has English (2026-11-22),
+  including the staff roll (B38.0139, B39.0000-0064, by hand; readings unverified). B11.0121 holds two boxes
+  (fixed by hand after merge; see the glossary note). Remaining: system cf/d1/d6 (2 605 rows), then the review
+  pass. `batches.py`: 赤ちゃん is not an honorific (added to NOT_HONORIFIC).
 - **How (each session):** read `docs/translator-brief.md`, `docs/style-reference.md`, `docs/synopsis.md` and the
   glossary (in parts). `python -X utf8 tools/batches.py split --only B05.,B06.` (chapter order: B then that
   chapter's A scenes; system last) -> translate `work/tl/bNNN.tsv` into `bNNN.out.tsv` (Write tool) -> `check` ->
@@ -18,7 +17,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `tools/windows.tsv`, run by `tests/test_fit.py`); dialogue bodies are wrapped by merge (2 rows, 232/218 px,
   about 65 chars). Phase 6 done-when: batch check 0 errors everywhere, glossary current, a review pass with no
   Critical/Important (do it as a fresh read-only pass per chapter; codex once its limit resets).
-- **Next:** `split --only B37.,B38.,B39.` (staff roll {dc} rows by hand) (no A scenes past A12), a few chapters per split. The fit
+- **Next:** system batches: `split --only d1` (58 rows), then cf (991) and d6 (1 556), a few batches per context;
+  budgets come from `tools/windows.tsv`. Then the per-chapter review pass. The fit
   lint's unit budgets depend on the encoder built from all text, so new merges can push an old row over (B04.0181
   after b050): run `tools/check.py` after each merge and reword the row it names. Rows of kind `grid` are not translated. Notes for translators: system strings are often pieces joined
   at run time (turn banner 符咒士 / name + の / ターン; deck-editor prompts with 真神 and counts; deck help line 1;
@@ -50,7 +50,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Gaps in the debug tool (non-blocking, close before phase 8):** no normal path to the sound test (`sound_test`
   warps to mode 20). Save fields beyond names and chapter (cards, deck, money) unmapped; needed for stress saves.
 - **Open bugs:** none.
-- **Waiting on the user:** Non-blocking: B04 shows a girl-player branch ({name2}-chan rows, B04.0174 老爺と少女), so
+- **Waiting on the user:** Non-blocking: staff-roll name readings (B39.0001-0064) are romanized from the kanji
+  without a source; B39.0020's 﨤町 孝 ("Takashi Hazamachi") is a guess. Corrections welcome. Non-blocking: B04 shows a girl-player branch ({name2}-chan rows, B04.0174 老爺と少女), so
   the player's gender may be selectable; the glossary note "player is male" was softened to "neutral where the JP
   is"; confirm from the name-entry flow when QA reaches it. Keyboard input in the Mesen window not checked by hand (headless worker); scripted input
   verified. `codex exec` review hit its usage limit until 2026-11-26. Non-blocking: the five-element emblems

@@ -1,207 +1,207 @@
 id	kind	max	jp	en	notes
-B37.0000	line		【天探女】{rt}あなたたちの世は護られた。		
-B37.0001	line		【天探女】{rt}私は、再びこの鈴の音を使い、		
+B37.0000	line		【天探女】{rt}あなたたちの世は護られた。	【Amanosagume】{rt}Your world has been protected.	
+B37.0001	line		【天探女】{rt}私は、再びこの鈴の音を使い、	【Amanosagume】{rt}Once again, I will use this bell's{rt}sound,	
 B37.0002	line		【天探女】{rt}次なる者を導かなくては{rt}なりません。	【Amanosagume】{rt}to guide the next one.	
 B37.0003	line		【天探女】{rt}よく聞き、そして理解して{rt}下さい。	【Amanosagume】{rt}Listen well, and understand.	
 B37.0004	line		【天探女】{rt}この世に起こっている事の{rt}真実を―――。	【Amanosagume】{rt}The truth of what is happening in this{rt}world--	
-B37.0005	line		【天探女】{rt}今回―――		
-B37.0006	line		【天探女】{rt}蓄積された人間の《大罪》が{rt}活性化し、		
-B37.0007	line		【天探女】{rt}暴走した陰には―――		
-B37.0008	line		【天探女】{rt}それを触発した存在が{rt}あるのです。		
-B37.0009	line		【伊涼】{rt}《大罪》を活性化させる{rt}存在――？		
-B37.0010	line		【天探女】{rt}はい。		
-B37.0011	line		【天探女】{rt}その名は―――		
-B37.0012	line		【天探女】{rt}《蚩尤旗（しゆうき）》。		
-B37.0013	line		【天探女】{rt}禍々（まがまが）しき{rt}凶星―――。		
-B37.0014	line		【天探女】{rt}これの出現は{rt}天変地異や戦禍をはじめ、		
-B37.0015	line		【天探女】{rt}あらゆる災厄の襲来を{rt}意味する…		
-B37.0016	line		【天探女】{rt}古来よりそう信じられて{rt}います。		
-B37.0017	line		【矢村】{rt}俺たちが闘った《大罪》も、		
-B37.0018	line		【矢村】{rt}それに解き放たれたと{rt}いうのか…。		
+B37.0005	line		【天探女】{rt}今回―――	【Amanosagume】{rt}This time--	
+B37.0006	line		【天探女】{rt}蓄積された人間の《大罪》が{rt}活性化し、	【Amanosagume】{rt}behind the humans' stored-up Great{rt}Sins coming alive	
+B37.0007	line		【天探女】{rt}暴走した陰には―――	【Amanosagume】{rt}and running wild--	
+B37.0008	line		【天探女】{rt}それを触発した存在が{rt}あるのです。	【Amanosagume】{rt}there is something that set them{rt}off.	
+B37.0009	line		【伊涼】{rt}《大罪》を活性化させる{rt}存在――？	【Isuzu】{rt}Something that brings the Great Sins{rt}to life--?	
+B37.0010	line		【天探女】{rt}はい。	【Amanosagume】{rt}Yes.	
+B37.0011	line		【天探女】{rt}その名は―――	【Amanosagume】{rt}Its name is--	
+B37.0012	line		【天探女】{rt}《蚩尤旗（しゆうき）》。	【Amanosagume】{rt}Shiyuki, the Banner of Chiyou.	
+B37.0013	line		【天探女】{rt}禍々（まがまが）しき{rt}凶星―――。	【Amanosagume】{rt}An ill-omened, baleful star--	
+B37.0014	line		【天探女】{rt}これの出現は{rt}天変地異や戦禍をはじめ、	【Amanosagume】{rt}Its appearance heralds upheavals of{rt}heaven and earth, wars,	
+B37.0015	line		【天探女】{rt}あらゆる災厄の襲来を{rt}意味する…	【Amanosagume】{rt}and every kind of disaster...	
+B37.0016	line		【天探女】{rt}古来よりそう信じられて{rt}います。	【Amanosagume】{rt}So it has been believed since ancient{rt}times.	
+B37.0017	line		【矢村】{rt}俺たちが闘った《大罪》も、	【Yamura】{rt}So the Great Sins we fought	
+B37.0018	line		【矢村】{rt}それに解き放たれたと{rt}いうのか…。	【Yamura】{rt}were let loose by that too...	
 B37.0019	line		【天探女】{rt}はい…。	【Amanosagume】{rt}Yes...	
-B37.0020	line		【天探女】{rt}とはいえ、		
-B37.0021	line		【天探女】{rt}《大罪》が《龍脈》の力で{rt}無に帰した今、		
-B37.0022	line		【天探女】{rt}あなたたちの世界に降りかかる{rt}《蚩尤旗》の悪影響は		
-B37.0023	line		【天探女】{rt}止める事ができたといえます。		
-B37.0024	line		【天探女】{rt}しかし、《蚩尤旗》は、{rt}この世界だけで無く―――		
-B37.0025	line		【天探女】{rt}あなたたちが目にする事のない{rt}別の世界にも、		
-B37.0026	line		【天探女】{rt}必ず黒い影を落としている{rt}はずなのです…。		
-B37.0027	line		【矢村】{rt}それを止める者を、{rt}お前は再び神鈴の音で―――		
+B37.0020	line		【天探女】{rt}とはいえ、	【Amanosagume】{rt}Even so,	
+B37.0021	line		【天探女】{rt}《大罪》が《龍脈》の力で{rt}無に帰した今、	【Amanosagume】{rt}now that the Dragon Veins' power has{rt}returned the Great Sins to nothing,	
+B37.0022	line		【天探女】{rt}あなたたちの世界に降りかかる{rt}《蚩尤旗》の悪影響は	【Amanosagume】{rt}we can say Shiyuki's evil influence on{rt}your world	
+B37.0023	line		【天探女】{rt}止める事ができたといえます。	【Amanosagume】{rt}has been stopped.	
+B37.0024	line		【天探女】{rt}しかし、《蚩尤旗》は、{rt}この世界だけで無く―――	【Amanosagume】{rt}But Shiyuki surely casts its black{rt}shadow not only on this world--	
+B37.0025	line		【天探女】{rt}あなたたちが目にする事のない{rt}別の世界にも、	【Amanosagume】{rt}but also on another world	
+B37.0026	line		【天探女】{rt}必ず黒い影を落としている{rt}はずなのです…。	【Amanosagume】{rt}you will never see...	
+B37.0027	line		【矢村】{rt}それを止める者を、{rt}お前は再び神鈴の音で―――	【Yamura】{rt}And the one to stop it, you'll call again{rt}with the Divine Bell--	
 B37.0028	line		【矢村】{rt}―――！！	【Yamura】{rt}--!!	
-B37.0029	line		【矢村】{rt}探女、お前、もしかして{rt}{name1}を―――？		
-B37.0030	line		【伊涼】{rt}（…えッ！？）		
+B37.0029	line		【矢村】{rt}探女、お前、もしかして{rt}{name1}を―――？	【Yamura】{rt}Sagume, don't tell me you mean{rt}{name1}--?	
+B37.0030	line		【伊涼】{rt}（…えッ！？）	【Isuzu】{rt}(...Huh!?)	
 B37.0031	line		【天探女】{rt}はい…。	【Amanosagume】{rt}Yes...	
-B37.0032	line		【天探女】{rt}{name1}が本来存在{rt}すべき世界では、		
-B37.0033	line		【天探女】{rt}あなたたち同様に《蚩尤旗》の{rt}もたらした災厄を封ずるべく		
-B37.0034	line		【天探女】{rt}彼の帰還を待ち望んでいる{rt}人間たちがいるはず…。		
-B37.0035	line		【天探女】{rt}彼等のためにも―――		
-B37.0036	line		【天探女】{rt}{name1}の《力》に{rt}救われた者として、		
-B37.0037	line		【天探女】{rt}私は{name1}を元の世界へ{rt}帰さねばなりません。		
+B37.0032	line		【天探女】{rt}{name1}が本来存在{rt}すべき世界では、	【Amanosagume】{rt}In the world where {name1} truly{rt}belongs,	
+B37.0033	line		【天探女】{rt}あなたたち同様に《蚩尤旗》の{rt}もたらした災厄を封ずるべく	【Amanosagume】{rt}there must be people who, like you,{rt}seek to seal Shiyuki's disasters	
+B37.0034	line		【天探女】{rt}彼の帰還を待ち望んでいる{rt}人間たちがいるはず…。	【Amanosagume】{rt}and long for that one's return...	
+B37.0035	line		【天探女】{rt}彼等のためにも―――	【Amanosagume】{rt}For their sake too--	
+B37.0036	line		【天探女】{rt}{name1}の《力》に{rt}救われた者として、	【Amanosagume】{rt}as one saved by {name1}'s Power,	
+B37.0037	line		【天探女】{rt}私は{name1}を元の世界へ{rt}帰さねばなりません。	【Amanosagume】{rt}I must send {name1} back to their{rt}own world.	
 B37.0038	line		【矢村】{rt}{name1}…。	【Yamura】{rt}{name1}...	
 B37.0039	line		【伊涼】{rt}ううッ…。	【Isuzu】{rt}Uuugh...	
 B37.0040	line		【伊涼】{rt}{name1}くん…。	【Isuzu】{rt}{name1}-kun...	
 B37.0041	line		【伊涼】{rt}ううッ…。	【Isuzu】{rt}Uuugh...	
 B37.0042	line		【伊涼】{rt}{name2}ちゃん…。	【Isuzu】{rt}{name2}-chan...	
-B37.0043	line		【矢村】{rt}馬鹿ッ、泣くなよ。		
-B37.0044	line		【伊涼】{rt}だってえ―――		
+B37.0043	line		【矢村】{rt}馬鹿ッ、泣くなよ。	【Yamura】{rt}Idiot, don't cry.	
+B37.0044	line		【伊涼】{rt}だってえ―――	【Isuzu】{rt}But--	
 B37.0045	line		【矢村】{rt}探女…。	【Yamura】{rt}Sagume...	
-B37.0046	line		【矢村】{rt}知っていたら教えてくれ。		
-B37.0047	line		【矢村】{rt}俺たちは、闘いの中で焔羅様を{rt}失ってしまった。		
-B37.0048	line		【矢村】{rt}《大罪》は人間が生きていく{rt}上で必ず生まれる。		
-B37.0049	line		【矢村】{rt}だとすれば、俺たちの闘いは{rt}これで終わるとは限らない。		
-B37.0050	line		【矢村】{rt}俺たちは{name1}抜きで{rt}どう闘えばいいんだ？		
-B37.0051	line		【天探女】{rt}…焔羅は、		
-B37.0052	line		【天探女】{rt}死んではいません。		
-B37.0053	line		【矢村】{rt}本当か！？		
-B37.0054	line		【天探女】{rt}ええ。		
-B37.0055	line		【天探女】{rt}焔羅の正体は、{rt}この世に最初に生まれ、		
-B37.0056	line		【天探女】{rt}大地の《氣》を{rt}最初に受けた者―――		
-B37.0057	line		【天探女】{rt}すなわち、		
-B37.0058	line		【天探女】{rt}{name1}―――あなたと同じ{rt}《黄龍の器》だった者です。		
-B37.0059	line		【天探女】{rt}{name1}がここへやってきたのも{rt}《宿星》なら、		
-B37.0060	line		【天探女】{rt}同じ氏神として焔羅に関わった{rt}のも《宿星》なのでしょう。		
-B37.0061	line		【天探女】{rt}彼は現在では、《大罪》に{rt}関わる大きな役割を持つ――		
-B37.0062	line		【天探女】{rt}あなたたちの世界では		
-B37.0063	line		【天探女】{rt}《閻魔（えんま）》の名で{rt}知られている存在です。		
-B37.0064	line		【矢村】{rt}焔羅様が…閻魔！？		
-B37.0065	line		【天探女】{rt}彼はこの世にとって、{rt}なくてはならない存在…。		
-B37.0066	line		【天探女】{rt}そう簡単には消えません。		
-B37.0067	line		【天探女】{rt}{name1}{name2}が去った後は、{rt}あなたたちは以前のように		
-B37.0068	line		【天探女】{rt}再び彼の力を借りる事が{rt}できるはずです。		
+B37.0046	line		【矢村】{rt}知っていたら教えてくれ。	【Yamura】{rt}Tell me, if you know.	
+B37.0047	line		【矢村】{rt}俺たちは、闘いの中で焔羅様を{rt}失ってしまった。	【Yamura】{rt}We lost Lord Enra in the fight.	
+B37.0048	line		【矢村】{rt}《大罪》は人間が生きていく{rt}上で必ず生まれる。	【Yamura】{rt}Great Sins are always born as long as{rt}humans live.	
+B37.0049	line		【矢村】{rt}だとすれば、俺たちの闘いは{rt}これで終わるとは限らない。	【Yamura】{rt}So our fight may not be over.	
+B37.0050	line		【矢村】{rt}俺たちは{name1}抜きで{rt}どう闘えばいいんだ？	【Yamura】{rt}How are we supposed to fight without{rt}{name1}?	
+B37.0051	line		【天探女】{rt}…焔羅は、	【Amanosagume】{rt}...Enra	
+B37.0052	line		【天探女】{rt}死んではいません。	【Amanosagume】{rt}is not dead.	
+B37.0053	line		【矢村】{rt}本当か！？	【Yamura】{rt}Really!?	
+B37.0054	line		【天探女】{rt}ええ。	【Amanosagume】{rt}Yes.	
+B37.0055	line		【天探女】{rt}焔羅の正体は、{rt}この世に最初に生まれ、	【Amanosagume】{rt}Enra is the first being born into this{rt}world,	
+B37.0056	line		【天探女】{rt}大地の《氣》を{rt}最初に受けた者―――	【Amanosagume】{rt}the first to receive the earth's Ki--	
+B37.0057	line		【天探女】{rt}すなわち、	【Amanosagume】{rt}In other words,	
+B37.0058	line		【天探女】{rt}{name1}―――あなたと同じ{rt}《黄龍の器》だった者です。	【Amanosagume】{rt}{name1}--he was a Vessel of the{rt}Golden Dragon, like you.	
+B37.0059	line		【天探女】{rt}{name1}がここへやってきたのも{rt}《宿星》なら、	【Amanosagume】{rt}If {name1} coming here was a fated{rt}Star,	
+B37.0060	line		【天探女】{rt}同じ氏神として焔羅に関わった{rt}のも《宿星》なのでしょう。	【Amanosagume】{rt}then so, surely, was meeting Enra as a{rt}fellow Ujigami.	
+B37.0061	line		【天探女】{rt}彼は現在では、《大罪》に{rt}関わる大きな役割を持つ――	【Amanosagume】{rt}Today he holds a great role concerning{rt}the Great Sins--	
+B37.0062	line		【天探女】{rt}あなたたちの世界では	【Amanosagume】{rt}In your world,	
+B37.0063	line		【天探女】{rt}《閻魔（えんま）》の名で{rt}知られている存在です。	【Amanosagume】{rt}he is known by the name Enma, judge{rt}of the dead.	
+B37.0064	line		【矢村】{rt}焔羅様が…閻魔！？	【Yamura】{rt}Lord Enra is... Enma!?	
+B37.0065	line		【天探女】{rt}彼はこの世にとって、{rt}なくてはならない存在…。	【Amanosagume】{rt}He is a being this world cannot do{rt}without...	
+B37.0066	line		【天探女】{rt}そう簡単には消えません。	【Amanosagume】{rt}He will not vanish so easily.	
+B37.0067	line		【天探女】{rt}{name1}{name2}が去った後は、{rt}あなたたちは以前のように	【Amanosagume】{rt}After {name2} {name1} leaves,{rt}you should be able	
+B37.0068	line		【天探女】{rt}再び彼の力を借りる事が{rt}できるはずです。	【Amanosagume】{rt}to borrow his power again, as{rt}before.	
 B37.0069	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B37.0070	line		【矢村】{rt}もうひとつだけ、いいかな？		
-B37.0071	line		【天探女】{rt}どうぞ。		
-B37.0072	line		【矢村】{rt}その…。		
-B37.0073	line		【矢村】{rt}{name1}が元の世界へ帰ったら、{rt}俺たち―――		
-B37.0074	line		【矢村】{rt}もう二度と会えないのか？		
+B37.0070	line		【矢村】{rt}もうひとつだけ、いいかな？	【Yamura】{rt}Can I ask just one more thing?	
+B37.0071	line		【天探女】{rt}どうぞ。	【Amanosagume】{rt}Go ahead.	
+B37.0072	line		【矢村】{rt}その…。	【Yamura】{rt}Well...	
+B37.0073	line		【矢村】{rt}{name1}が元の世界へ帰ったら、{rt}俺たち―――	【Yamura】{rt}Once {name1} goes back to their{rt}world, will we--	
+B37.0074	line		【矢村】{rt}もう二度と会えないのか？	【Yamura】{rt}never be able to meet again?	
 B37.0075	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
-B37.0076	line		【天探女】{rt}おそらく…。		
+B37.0076	line		【天探女】{rt}おそらく…。	【Amanosagume】{rt}Most likely...	
 B37.0077	line		【伊涼】{rt}そんなッ…！！	【Isuzu】{rt}No...!!	
-B37.0078	line		【伊涼】{rt}何か方法があるんでしょ？		
-B37.0079	line		【伊涼】{rt}{name1}くんの世界と、		
-B37.0080	line		【伊涼】{rt}{name2}ちゃんの世界と、		
-B37.0081	line		【伊涼】{rt}私たちの世界を行き来できる{rt}方法が…！！		
+B37.0078	line		【伊涼】{rt}何か方法があるんでしょ？	【Isuzu】{rt}There's some way, isn't there?	
+B37.0079	line		【伊涼】{rt}{name1}くんの世界と、	【Isuzu】{rt}Some way to travel between{rt}{name1}-kun's world	
+B37.0080	line		【伊涼】{rt}{name2}ちゃんの世界と、	【Isuzu】{rt}Some way to travel between{rt}{name2}-chan's world	
+B37.0081	line		【伊涼】{rt}私たちの世界を行き来できる{rt}方法が…！！	【Isuzu】{rt}and our world...!!	
 B37.0082	line		【天探女】{rt}…………。	【Amanosagume】{rt}......	
 B37.0083	line		【矢村】{rt}伊涼…。	【Yamura】{rt}Isuzu...	
-B37.0084	line		【矢村】{rt}…仕方ないよ。		
+B37.0084	line		【矢村】{rt}…仕方ないよ。	【Yamura】{rt}...It can't be helped.	
 B37.0085	line		【伊涼】{rt}でもッ！！	【Isuzu】{rt}But!!	
 B37.0086	line		【矢村】{rt}伊涼ッ。	【Yamura】{rt}Isuzu!	
-B37.0087	line		【矢村】{rt}俺だって、辛いさッ。		
-B37.0088	line		【矢村】{rt}だが、{name1}には{rt}{name1}の闘いがある…。		
-B37.0089	line		【矢村】{rt}闘って―――		
-B37.0090	line		【矢村】{rt}護るものがあるんだッ。		
-B37.0091	line		【矢村】{rt}{name1}の《念》の{rt}数々を見てきた		
-B37.0092	line		【矢村】{rt}お前なら、分かるはずだろ？		
+B37.0087	line		【矢村】{rt}俺だって、辛いさッ。	【Yamura】{rt}It's hard for me too!	
+B37.0088	line		【矢村】{rt}だが、{name1}には{rt}{name1}の闘いがある…。	【Yamura】{rt}But {name1}... {name1} has a{rt}fight of their own...	
+B37.0089	line		【矢村】{rt}闘って―――	【Yamura】{rt}Things to fight for--	
+B37.0090	line		【矢村】{rt}護るものがあるんだッ。	【Yamura】{rt}and to protect!	
+B37.0091	line		【矢村】{rt}{name1}の《念》の{rt}数々を見てきた	【Yamura】{rt}You've seen so many of {name1}'s{rt}Thoughts.	
+B37.0092	line		【矢村】{rt}お前なら、分かるはずだろ？	【Yamura】{rt}You should understand, right?	
 B37.0093	line		【伊涼】{rt}―――。	【Isuzu】{rt}--	
 B37.0094	line		【矢村】{rt}{name1}…。	【Yamura】{rt}{name1}...	
-B37.0095	line		【矢村】{rt}俺はお前とともに{rt}闘った事―――		
-B37.0096	line		【矢村】{rt}闘ってこの東京を護れた事を{rt}誇りに思う。		
-B37.0097	line		【矢村の声】{rt}様々な人間に出会い、		
-B37.0098	line		【矢村の声】{rt}様々な《罪》に出会った…。		
-B37.0099	line		【矢村】{rt}その中で、		
-B37.0100	line		【矢村】{rt}お前は俺と伊涼に{rt}色々な事を教えてくれた。		
-B37.0101	line		【矢村】{rt}それは何も、闘いの駆け引き{rt}だけじゃない。		
-B37.0102	line		【矢村】{rt}お前とともに闘う事で、		
-B37.0103	line		【矢村】{rt}俺たちは真に闘うべき{rt}目的というものを		
-B37.0104	line		【矢村】{rt}お前から教わった。		
-B37.0105	line		【矢村】{rt}大切なものを護るため、		
-B37.0106	line		【矢村】{rt}失わないために闘う―――。		
-B37.0107	line		【矢村】{rt}その闘いをともになし遂げた		
-B37.0108	line		【矢村】{rt}お前は、俺と伊涼にとって{rt}かけがえのない…		
-B37.0109	line		【矢村】{rt}仲間だ。		
-B37.0110	line		【矢村】{rt}だから―――		
-B37.0111	line		【矢村】{rt}本当は、俺だって{rt}伊涼と同じ想いだ。		
-B37.0112	line		【矢村】{rt}せっかくお前という仲間に{rt}出会えたのに、		
-B37.0113	line		【矢村】{rt}もう二度と{rt}会えなくなるなんて―――		
-B37.0114	line		【矢村】{rt}会う方法すらないなんて、		
-B37.0115	line		【矢村】{rt}悔しすぎるよな、伊涼ッ。		
+B37.0095	line		【矢村】{rt}俺はお前とともに{rt}闘った事―――	【Yamura】{rt}I'm proud I fought alongside you--	
+B37.0096	line		【矢村】{rt}闘ってこの東京を護れた事を{rt}誇りに思う。	【Yamura】{rt}that we fought and protected this{rt}Tokyo.	
+B37.0097	line		【矢村の声】{rt}様々な人間に出会い、	【Yamura's Voice】{rt}We met all kinds of people,	
+B37.0098	line		【矢村の声】{rt}様々な《罪》に出会った…。	【Yamura's Voice】{rt}and all kinds of Sins...	
+B37.0099	line		【矢村】{rt}その中で、	【Yamura】{rt}Through it all,	
+B37.0100	line		【矢村】{rt}お前は俺と伊涼に{rt}色々な事を教えてくれた。	【Yamura】{rt}you taught Isuzu and me so much.	
+B37.0101	line		【矢村】{rt}それは何も、闘いの駆け引き{rt}だけじゃない。	【Yamura】{rt}And not just the tactics of fighting.	
+B37.0102	line		【矢村】{rt}お前とともに闘う事で、	【Yamura】{rt}Fighting together with you,	
+B37.0103	line		【矢村】{rt}俺たちは真に闘うべき{rt}目的というものを	【Yamura】{rt}we learned from you	
+B37.0104	line		【矢村】{rt}お前から教わった。	【Yamura】{rt}what we truly ought to fight for.	
+B37.0105	line		【矢村】{rt}大切なものを護るため、	【Yamura】{rt}To fight to protect what's precious,	
+B37.0106	line		【矢村】{rt}失わないために闘う―――。	【Yamura】{rt}so as not to lose it--	
+B37.0107	line		【矢村】{rt}その闘いをともになし遂げた	【Yamura】{rt}You saw that fight through with us,	
+B37.0108	line		【矢村】{rt}お前は、俺と伊涼にとって{rt}かけがえのない…	【Yamura】{rt}and to Isuzu and me, you're an{rt}irreplaceable...	
+B37.0109	line		【矢村】{rt}仲間だ。	【Yamura】{rt}comrade.	
+B37.0110	line		【矢村】{rt}だから―――	【Yamura】{rt}So--	
+B37.0111	line		【矢村】{rt}本当は、俺だって{rt}伊涼と同じ想いだ。	【Yamura】{rt}honestly, I feel the same as Isuzu.	
+B37.0112	line		【矢村】{rt}せっかくお前という仲間に{rt}出会えたのに、	【Yamura】{rt}We finally met a comrade like you,	
+B37.0113	line		【矢村】{rt}もう二度と{rt}会えなくなるなんて―――	【Yamura】{rt}and now we'll never see you again--	
+B37.0114	line		【矢村】{rt}会う方法すらないなんて、	【Yamura】{rt}There's not even a way to meet--	
+B37.0115	line		【矢村】{rt}悔しすぎるよな、伊涼ッ。	【Yamura】{rt}It's just too much, isn't it, Isuzu!	
 B37.0116	line		【伊涼】{rt}ううッ…。	【Isuzu】{rt}Uuugh...	
 B37.0117	line		【矢村】{rt}{name1}…。	【Yamura】{rt}{name1}...	
-B37.0118	line		【矢村】{rt}名残惜しいが、{rt}これでお別れだ。		
-B37.0119	line		【矢村】{rt}あんまりお前の顔を{rt}見てると…		
-B37.0120	line		【矢村】{rt}腕ずくでも引き止めたく{rt}なってくるからなッ。		
-B37.0121	line		【矢村】{rt}俺たちの事…		
-B37.0122	line		【矢村】{rt}忘れるんじゃねェぞ、		
+B37.0118	line		【矢村】{rt}名残惜しいが、{rt}これでお別れだ。	【Yamura】{rt}I hate to part, but this is goodbye.	
+B37.0119	line		【矢村】{rt}あんまりお前の顔を{rt}見てると…	【Yamura】{rt}If I keep looking at your face...	
+B37.0120	line		【矢村】{rt}腕ずくでも引き止めたく{rt}なってくるからなッ。	【Yamura】{rt}I'll want to hold you back by force!	
+B37.0121	line		【矢村】{rt}俺たちの事…	【Yamura】{rt}Don't you...	
+B37.0122	line		【矢村】{rt}忘れるんじゃねェぞ、	【Yamura】{rt}dare forget about us,	
 B37.0123	line		【矢村】{rt}{name1}！！	【Yamura】{rt}{name1}!!	
-B37.0124	line		【矢村】{rt}お前の世界へ帰ったら、		
-B37.0125	line		【矢村】{rt}俺達と一緒に闘った証拠なんて{rt}何も残らないんだな…。		
-B37.0126	line		【矢村】{rt}短かったが…		
-B37.0127	line		【矢村】{rt}俺たちとの想い出をしっかり{rt}胸にしまっておいてくれ。		
-B37.0128	line		【矢村】{rt}俺たちもそうするから！！		
-B37.0129	line		【矢村】{rt}早く行っちまえッ！！		
-B37.0130	line		【矢村】{rt}お前みたいな氏神は{rt}もう二度と…ごめんだ！！		
-B37.0131	line		【矢村】{rt}へへ。お前らしいよ。		
-B37.0132	line		【矢村】{rt}俺や伊涼は…		
+B37.0124	line		【矢村】{rt}お前の世界へ帰ったら、	【Yamura】{rt}Once you're back in your world,	
+B37.0125	line		【矢村】{rt}俺達と一緒に闘った証拠なんて{rt}何も残らないんだな…。	【Yamura】{rt}there'll be no proof at all that you{rt}fought with us...	
+B37.0126	line		【矢村】{rt}短かったが…	【Yamura】{rt}It was short, but...	
+B37.0127	line		【矢村】{rt}俺たちとの想い出をしっかり{rt}胸にしまっておいてくれ。	【Yamura】{rt}keep your memories of us safe in your{rt}heart.	
+B37.0128	line		【矢村】{rt}俺たちもそうするから！！	【Yamura】{rt}We'll do the same!!	
+B37.0129	line		【矢村】{rt}早く行っちまえッ！！	【Yamura】{rt}Hurry up and go already!!	
+B37.0130	line		【矢村】{rt}お前みたいな氏神は{rt}もう二度と…ごめんだ！！	【Yamura】{rt}I never want another Ujigami like you...{rt}ever!!	
+B37.0131	line		【矢村】{rt}へへ。お前らしいよ。	【Yamura】{rt}Heh. That's so like you.	
+B37.0132	line		【矢村】{rt}俺や伊涼は…	【Yamura】{rt}Isuzu and I...	
 B37.0133	line		【矢村】{rt}―――くッ。	【Yamura】{rt}--Ngh.	
-B37.0134	line		【矢村】{rt}だめだな、俺って。		
-B37.0135	line		【矢村】{rt}泣くなんて、		
-B37.0136	line		【矢村】{rt}男のする事じゃないな。		
-B37.0137	line		【伊涼】{rt}ううっ…{name1}くんッ。		
-B37.0138	line		【伊涼】{rt}ううっ…{name2}ちゃんッ。		
-B37.0139	line		【矢村】{rt}探女。		
-B37.0140	line		【矢村】{rt}{name1}の事、頼んだぞ。		
-B37.0141	line		【天探女】{rt}承知しました。		
-B37.0142	line		【天探女】{rt}では…。		
+B37.0134	line		【矢村】{rt}だめだな、俺って。	【Yamura】{rt}I'm hopeless.	
+B37.0135	line		【矢村】{rt}泣くなんて、	【Yamura】{rt}Crying--	
+B37.0136	line		【矢村】{rt}男のする事じゃないな。	【Yamura】{rt}that's no way for a man to act.	
+B37.0137	line		【伊涼】{rt}ううっ…{name1}くんッ。	【Isuzu】{rt}Sniff... {name1}-kun!	
+B37.0138	line		【伊涼】{rt}ううっ…{name2}ちゃんッ。	【Isuzu】{rt}Sniff... {name2}-chan!	
+B37.0139	line		【矢村】{rt}探女。	【Yamura】{rt}Sagume.	
+B37.0140	line		【矢村】{rt}{name1}の事、頼んだぞ。	【Yamura】{rt}Take care of {name1}.	
+B37.0141	line		【天探女】{rt}承知しました。	【Amanosagume】{rt}Understood.	
+B37.0142	line		【天探女】{rt}では…。	【Amanosagume】{rt}Then...	
 B37.0143	line		【伊涼】{rt}{name1}くんッ！！	【Isuzu】{rt}{name1}-kun!!	
-B37.0144	line		【伊涼】{rt}本当に、今までありがとうッ。		
-B37.0145	line		【伊涼】{rt}わ、私―――		
-B37.0146	line		【伊涼】{rt}{name1}くんの事忘れないッ。		
-B37.0147	line		【伊涼】{rt}ずっと、覚えてるから！！		
+B37.0144	line		【伊涼】{rt}本当に、今までありがとうッ。	【Isuzu】{rt}Thank you so much, for everything!	
+B37.0145	line		【伊涼】{rt}わ、私―――	【Isuzu】{rt}I-I--	
+B37.0146	line		【伊涼】{rt}{name1}くんの事忘れないッ。	【Isuzu】{rt}I won't forget you, {name1}-kun!	
+B37.0147	line		【伊涼】{rt}ずっと、覚えてるから！！	【Isuzu】{rt}I'll remember you always!!	
 B37.0148	line		【伊涼】{rt}{name2}ちゃんッ！！	【Isuzu】{rt}{name2}-chan!!	
-B37.0149	line		【伊涼】{rt}本当に、今までありがとうッ。		
-B37.0150	line		【伊涼】{rt}わ、私―――		
-B37.0151	line		【伊涼】{rt}{name2}ちゃんの事忘れないッ。		
-B37.0152	line		【伊涼】{rt}ずっと、覚えてるから！！		
+B37.0149	line		【伊涼】{rt}本当に、今までありがとうッ。	【Isuzu】{rt}Thank you so much, for everything!	
+B37.0150	line		【伊涼】{rt}わ、私―――	【Isuzu】{rt}I-I--	
+B37.0151	line		【伊涼】{rt}{name2}ちゃんの事忘れないッ。	【Isuzu】{rt}I won't forget you, {name2}-chan!	
+B37.0152	line		【伊涼】{rt}ずっと、覚えてるから！！	【Isuzu】{rt}I'll remember you always!!	
 B37.0153	line		【天探女】{rt}…………。	【Amanosagume】{rt}......	
-B37.0154	line		【天探女】{rt}あなたたちには{rt}感謝しています。		
-B37.0155	line		【天探女】{rt}ありがとう…。		
-B37.0156	line		【矢村】{rt}…ああッ。		
-B37.0157	line		【矢村】{rt}じゃあな。探女、		
-B37.0158	line		【矢村】{rt}{name1}―――！！		
-B37.0159	line		【伊涼】{rt}さようなら、{name1}くん！！		
-B37.0160	line		【伊涼】{rt}さようなら、{name2}ちゃん！！		
+B37.0154	line		【天探女】{rt}あなたたちには{rt}感謝しています。	【Amanosagume】{rt}I am grateful to you both.	
+B37.0155	line		【天探女】{rt}ありがとう…。	【Amanosagume】{rt}Thank you...	
+B37.0156	line		【矢村】{rt}…ああッ。	【Yamura】{rt}...Yeah!	
+B37.0157	line		【矢村】{rt}じゃあな。探女、	【Yamura】{rt}See you. Sagume,	
+B37.0158	line		【矢村】{rt}{name1}―――！！	【Yamura】{rt}{name1}--!!	
+B37.0159	line		【伊涼】{rt}さようなら、{name1}くん！！	【Isuzu】{rt}Goodbye, {name1}-kun!!	
+B37.0160	line		【伊涼】{rt}さようなら、{name2}ちゃん！！	【Isuzu】{rt}Goodbye, {name2}-chan!!	
 B37.0161	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B37.0162	line		【矢村】{rt}行っちまったようだな…。		
+B37.0162	line		【矢村】{rt}行っちまったようだな…。	【Yamura】{rt}Looks like they're gone...	
 B37.0163	line		【伊涼】{rt}うん…。	【Isuzu】{rt}Yeah...	
 B37.0164	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
-B37.0165	line		【伊涼】{rt}静か…。		
-B37.0166	line		【伊涼】{rt}とっても…。		
+B37.0165	line		【伊涼】{rt}静か…。	【Isuzu】{rt}It's quiet...	
+B37.0166	line		【伊涼】{rt}とっても…。	【Isuzu】{rt}So quiet...	
 B37.0167	line		【天探女】{rt}…………。	【Amanosagume】{rt}......	
-B37.0168	line		【天探女】{rt}あの二人、{rt}泣いていましたね。		
-B37.0169	line		【天探女】{rt}名残惜しいですか？		
-B37.0170	line		【天探女】{rt}戻りますか？		
-B37.0171	line		【天探女】{rt}―――と{rt}言いたいところですが、		
-B37.0172	line		【天探女】{rt}それはできません。		
-B37.0173	line		【天探女】{rt}私のせいで、またひとつ{rt}別れを生んでしまった…。		
-B37.0174	line		【天探女】{rt}許してください。		
-B37.0175	line		【天探女】{rt}例えどんなに想っても、		
-B37.0176	line		【天探女】{rt}もう、彼らの世界へ{rt}戻る事はできません。		
-B37.0177	line		【天探女】{rt}あなたには、あなたを{rt}待っている世界がある…。		
-B37.0178	line		【天探女】{rt}それを想い出し、		
-B37.0179	line		【天探女】{rt}あなたはかつてのあなたへ{rt}戻らねばなりません…。		
-B37.0180	line		【天探女】{rt}そうですか…。		
-B37.0181	line		【天探女】{rt}割り切れているのですね。		
-B37.0182	line		【呪わしい声】{rt}（…ううう。）		
+B37.0168	line		【天探女】{rt}あの二人、{rt}泣いていましたね。	【Amanosagume】{rt}Those two were crying.	
+B37.0169	line		【天探女】{rt}名残惜しいですか？	【Amanosagume】{rt}Do you hate to leave them?	
+B37.0170	line		【天探女】{rt}戻りますか？	【Amanosagume】{rt}Will you go back?	
+B37.0171	line		【天探女】{rt}―――と{rt}言いたいところですが、	【Amanosagume】{rt}--I would like to say so,	
+B37.0172	line		【天探女】{rt}それはできません。	【Amanosagume】{rt}but that cannot be.	
+B37.0173	line		【天探女】{rt}私のせいで、またひとつ{rt}別れを生んでしまった…。	【Amanosagume】{rt}Because of me, yet another parting{rt}has been born...	
+B37.0174	line		【天探女】{rt}許してください。	【Amanosagume】{rt}Please forgive me.	
+B37.0175	line		【天探女】{rt}例えどんなに想っても、	【Amanosagume】{rt}However much you long for them,	
+B37.0176	line		【天探女】{rt}もう、彼らの世界へ{rt}戻る事はできません。	【Amanosagume】{rt}you can no longer return to their{rt}world.	
+B37.0177	line		【天探女】{rt}あなたには、あなたを{rt}待っている世界がある…。	【Amanosagume】{rt}You have a world that is waiting for{rt}you...	
+B37.0178	line		【天探女】{rt}それを想い出し、	【Amanosagume】{rt}Remember it,	
+B37.0179	line		【天探女】{rt}あなたはかつてのあなたへ{rt}戻らねばなりません…。	【Amanosagume】{rt}and you must return to who you once{rt}were...	
+B37.0180	line		【天探女】{rt}そうですか…。	【Amanosagume】{rt}I see...	
+B37.0181	line		【天探女】{rt}割り切れているのですね。	【Amanosagume】{rt}So you have made your peace with it.	
+B37.0182	line		【呪わしい声】{rt}（…ううう。）	【Accursed Voice】{rt}(...Ugh.)	
 B37.0183	line		【天探女】{rt}―――！？	【Amanosagume】{rt}--!?	
-B37.0184	line		【呪わしい声】{rt}（なぜなのだ―――。		
-B37.0185	line		【呪わしい声】{rt}　己たちはなぜ勝てぬのだ？）		
-B37.0186	line		【天探女】{rt}この氣は―――まさか！？		
-B37.0187	line		【高丸】{rt}（―――！？）		
-B37.0188	line		【天探女】{rt}高丸ッ…。		
-B37.0189	line		【高丸】{rt}（貴様は…氏神ィッ！！		
-B37.0190	line		【高丸】{rt}　一緒にいるのは…		
-B37.0191	line		【高丸】{rt}　天探女かッ！？）		
-B37.0192	line		【天探女】{rt}高丸…。		
-B37.0193	line		【天探女】{rt}なんと執念深き{rt}魂魄（こんぱく）―――。		
-B37.0194	line		【天探女】{rt}《大罪》に破砕されながらも、		
-B37.0195	line		【天探女】{rt}まだこれほどの輪郭を保って{rt}いるとは―――。		
-B37.0196	line		【高丸】{rt}（オオ怨ッ！！		
-B37.0197	line		【高丸】{rt}　氏神ィッ！！		
-B37.0198	line		【高丸】{rt}　己を…己をここから{rt}　出せェッ！！）		
-B37.0199	line		【天探女】{rt}{name1}…。{rt}お願いします。		
-B37.0200	line		【天探女】{rt}高丸の魂に―――		
-B37.0201	line		【天探女】{rt}安らぎを与えてあげて{rt}下さい…。		
-B37.0202	line		【高丸】{rt}（己は消えぬッ！！）		
-B37.0203	line		【高丸】{rt}（己は闘うッ！！）		
-B37.0204	line		【高丸】{rt}（己は貴様を…		
-B37.0205	line		【高丸】{rt}　《陽の者》を斃すのだ！！）		
+B37.0184	line		【呪わしい声】{rt}（なぜなのだ―――。	【Accursed Voice】{rt}(Why--	
+B37.0185	line		【呪わしい声】{rt}　己たちはなぜ勝てぬのだ？）	【Accursed Voice】{rt}why can we never win?)	
+B37.0186	line		【天探女】{rt}この氣は―――まさか！？	【Amanosagume】{rt}This Ki--it can't be!?	
+B37.0187	line		【高丸】{rt}（―――！？）	【Takamaru】{rt}(--!?)	
+B37.0188	line		【天探女】{rt}高丸ッ…。	【Amanosagume】{rt}Takamaru...	
+B37.0189	line		【高丸】{rt}（貴様は…氏神ィッ！！	【Takamaru】{rt}(You... Ujigami!!	
+B37.0190	line		【高丸】{rt}　一緒にいるのは…	【Takamaru】{rt}And with you...	
+B37.0191	line		【高丸】{rt}　天探女かッ！？）	【Takamaru】{rt}is that Amanosagume!?)	
+B37.0192	line		【天探女】{rt}高丸…。	【Amanosagume】{rt}Takamaru...	
+B37.0193	line		【天探女】{rt}なんと執念深き{rt}魂魄（こんぱく）―――。	【Amanosagume】{rt}What a tenacious soul--	
+B37.0194	line		【天探女】{rt}《大罪》に破砕されながらも、	【Amanosagume】{rt}Shattered by the Great Sins,	
+B37.0195	line		【天探女】{rt}まだこれほどの輪郭を保って{rt}いるとは―――。	【Amanosagume】{rt}and still it holds its shape this{rt}firmly--	
+B37.0196	line		【高丸】{rt}（オオ怨ッ！！	【Takamaru】{rt}(Ooooh, curse you!!	
+B37.0197	line		【高丸】{rt}　氏神ィッ！！	【Takamaru】{rt}Ujigami!!	
+B37.0198	line		【高丸】{rt}　己を…己をここから{rt}　出せェッ！！）	【Takamaru】{rt}Let me... let me out of here!!)	
+B37.0199	line		【天探女】{rt}{name1}…。{rt}お願いします。	【Amanosagume】{rt}{name1}... I ask this of you.	
+B37.0200	line		【天探女】{rt}高丸の魂に―――	【Amanosagume】{rt}Please give Takamaru's soul--	
+B37.0201	line		【天探女】{rt}安らぎを与えてあげて{rt}下さい…。	【Amanosagume】{rt}some peace...	
+B37.0202	line		【高丸】{rt}（己は消えぬッ！！）	【Takamaru】{rt}(I will not vanish!!)	
+B37.0203	line		【高丸】{rt}（己は闘うッ！！）	【Takamaru】{rt}(I will fight!!)	
+B37.0204	line		【高丸】{rt}（己は貴様を…	【Takamaru】{rt}(I will defeat you...	
+B37.0205	line		【高丸】{rt}　《陽の者》を斃すのだ！！）	【Takamaru】{rt}and the Light folk!!)	
