@@ -1,151 +1,151 @@
 id	kind	max	jp	en	notes
-B00.0000	line		【女の声】{rt}生きる―――。		
-B00.0001	line		【女の声】{rt}それは、亡（ほろ）びに{rt}向かって歩んでゆく事…。		
-B00.0002	line		【女の声】{rt}かつて色鮮やかに燃えた{rt}命の炎も消えてしまえば		
-B00.0003	line		【女の声】{rt}朧（おぼろ）げな残像しか{rt}残さず、それすらも		
-B00.0004	line		【女の声】{rt}すぐに消えてゆく…		
-B00.0005	line		【女の声】{rt}生きる者。		
-B00.0006	line		【女の声】{rt}それはすなわち、必ず死す者…		
-B00.0007	line		【女の声】{rt}生きるという活動を営む以上、{rt}早い遅いはあれど、		
-B00.0008	line		【女の声】{rt}何者もその《因果》から{rt}逃れる事はできない		
-B00.0009	line		【女の声】{rt}だが―――		
-B00.0010	line		【女の声】{rt}来るべくしてやってくる、{rt}その結末を迎えた後―――		
-B00.0011	line		【女の声】{rt}その後には何があるのか？		
-B00.0012	line		【女の声】{rt}死ぬという事―――。		
-B00.0013	line		【女の声】{rt}それを経た後に		
-B00.0014	line		【女の声】{rt}一体、何が―――？		
-B00.0015	line		【看護婦Ａの声】{rt}血圧、四十五から更に低下。		
-B00.0016	line		【看護婦Ａの声】{rt}危険ですッ。		
-B00.0017	line		【女院長の声】{rt}体温、心拍は―――？		
-B00.0018	line		【看護婦Ａの声】{rt}ダメですッ…。		
-B00.0019	line		【看護婦Ａの声】{rt}依然、回復しませんッ。		
-B00.0020	line		【看護婦Ａの声】{rt}院長、{rt}こ、このままでは―――		
-B00.0021	line		【女院長の声】{rt}…分かってるッ。		
-B00.0022	line		【女院長の声】{rt}そんな事は重々、承知だ…。		
-B00.0023	line		【看護婦Ｂの声】{rt}心拍、更に低下ッ！！		
-B00.0024	line		【女院長の声】{rt}くッ―――。		
-B00.0025	line		【女院長の声】{rt}心停止と同時に{rt}心臓マッサージに移るッ。		
-B00.0026	line		【女院長の声】{rt}時間計測の用意。		
-B00.0027	line		【女院長の声】{rt}それから―――		
-B00.0028	line		【女の声】{rt}『…地獄の鬼がまわす{rt}　車のように		
-B00.0029	line		【女の声】{rt}　冬の日はごろごろと{rt}　さびしくまわって、		
-B00.0030	line		【女の声】{rt}　輪廻（りんね）の小鳥は砂原{rt}　のかげに死んでしまった。		
-B00.0031	line		【女の声】{rt}　ああ―――		
-B00.0032	line		【女の声】{rt}　こんな陰鬱（いんうつ）な{rt}　季節がつづくあいだ		
-B00.0033	line		【女の声】{rt}　私は幻の駱駝（らくだ）に{rt}　のって、		
-B00.0034	line		【女の声】{rt}　ふらふらと		
-B00.0035	line		【女の声】{rt}　かなしげな旅行に{rt}　でようとする…。』		
-B00.0036	line		【影】{rt}…………。		
-B00.0037	line		【女の声】{rt}あら？		
-B00.0038	line		【女の声】{rt}いつからそこに？		
-B00.0039	line		【女の声】{rt}ふふ。		
-B00.0040	line		【女の声】{rt}どうやら…{rt}聞かれてしまったようね…。		
-B00.0041	line		【女の声】{rt}さっきの詩―――		
-B00.0042	line		【女の声】{rt}私のじゃないわ。		
-B00.0043	line		【女の声】{rt}萩原　朔太郎{rt}（はぎわら　さくたろう）		
-B00.0044	line		【女の声】{rt}あなたと同じ、人間のもの…。		
-B00.0045	line		【女の声】{rt}題は―――{rt}『輪廻と転生』。		
-B00.0046	line		【女の声】{rt}この闇にぴったりな、{rt}陰気な詩―――。		
-B00.0047	line		【女の声】{rt}あなたも、{rt}そう思うでしょう？		
-B00.0048	line		【女の声】{rt}いいの…。		
-B00.0049	line		【女の声】{rt}私に気を使う事はないわ。		
-B00.0050	line		【女の声】{rt}私だって、{rt}それを分かっていながら		
-B00.0051	line		【女の声】{rt}この詩を選び、{rt}口ずさんでいたんだもの。		
-B00.0052	line		【女の声】{rt}そうね…。		
-B00.0053	line		【女の声】{rt}でも、そういう気分だったの。		
-B00.0054	line		【女の声】{rt}ついさっきまでは。		
-B00.0055	line		【女の声】{rt}私がこの詩を詠む―――		
-B00.0056	line		【女の声】{rt}それに何か深い意味でも{rt}あると思った？		
-B00.0057	line		【女の声】{rt}ふふ…。		
-B00.0058	line		【女の声】{rt}そんな事はない…。		
-B00.0059	line		【女の声】{rt}私はただただ真っ直ぐに		
-B00.0060	line		【女の声】{rt}この詩に自分の心を{rt}任せていただけなのだから。		
-B00.0061	line		【女の声】{rt}…………。		
-B00.0062	line		【女の声】{rt}変わった人ね。		
-B00.0063	line		【女の声】{rt}でも、あなたにもすぐに{rt}分かるはず――。		
-B00.0064	line		【女の声】{rt}私の心が。		
-B00.0065	line		【女の声】{rt}見えるものは真っ暗な闇。		
-B00.0066	line		【女の声】{rt}聞こえるものは、{rt}闇に溶けて流れ込んでくる、		
-B00.0067	line		【女の声】{rt}この詩のような{rt}病んだ心の嘆きばかり――。		
-B00.0068	line		【女の声】{rt}延々その中に漂いながら、		
-B00.0069	line		【女の声】{rt}私という存在は、もうこのまま{rt}消えてしまうのかと―――		
-B00.0070	line		【女の声】{rt}そればっかり何千回、{rt}何万回と考え続けていた…。		
-B00.0071	line		【女の声】{rt}私はこの世の輪廻や転生の{rt}理（ことわり）から		
-B00.0072	line		【女の声】{rt}切り離されてしまったのか？		
-B00.0073	line		【女の声】{rt}半分疑いながら、		
-B00.0074	line		【女の声】{rt}そして、半分呪いながら、{rt}この詩を口ずさんできた…。		
-B00.0075	line		【女の声】{rt}でも、そうするのも{rt}これで最後。		
-B00.0076	line		【女の声】{rt}私はこの闇から解放される…。		
-B00.0077	line		【女の声】{rt}この渦をこのまま進んで、{rt}光ある場所へと出る―――。		
-B00.0078	line		【女の声】{rt}ふふふ。		
-B00.0079	line		【女の声】{rt}ごめんなさい。		
-B00.0080	line		【女の声】{rt}まだ、あなたの名前すら{rt}聞いていないのに、		
-B00.0081	line		【女の声】{rt}馴れ馴れしく喋ってしまって。		
-B00.0082	line		【女の声】{rt}名前…。		
-B00.0083	line		【女の声】{rt}たかが名前…。		
-B00.0084	line		【女の声】{rt}あなたはそう思うかも{rt}知れないわね。		
-B00.0085	line		【女の声】{rt}でも、それは		
-B00.0086	line		【女の声】{rt}真の闇の恐ろしさに触れた事が{rt}ないから言える事。		
-B00.0087	line		【女の声】{rt}侮ってはいけないわ。		
-B00.0088	line		【女の声】{rt}闇に溶け込むのを{rt}防ぐためには、		
-B00.0089	line		【女の声】{rt}しっかりと自分を認識する{rt}事が大切なのよ。		
-B00.0090	line		【女の声】{rt}さあ、聞かせて。		
-B00.0091	line		【女の声】{rt}あなたの名を…。		
-B00.0092	line		【女の声】{rt}{name1}{name2}…。		
-B00.0093	line		【女の声】{rt}それがあなたの名…。		
-B00.0094	line		【女の声】{rt}覚えておくわ。		
-B00.0095	line		【女の声】{rt}あなたは―――		
-B00.0096	line		【女の声】{rt}この闇の中を{rt}どこへ向かっているの？		
-B00.0097	line		【女の声】{rt}…………。		
-B00.0098	line		【女の声】{rt}自分でも判らない…。		
-B00.0099	line		【女の声】{rt}そんな顔ね。		
-B00.0100	line		【女の声】{rt}あなたは―――		
-B00.0101	line		【女の声】{rt}―――？		
-B00.0102	line		【悪霊群】{rt}ヒッヒッヒッ。		
-B00.0103	line		【悪霊群】{rt}待てェェッ！！		
-B00.0104	line		【悪霊群】{rt}行かせぬぞォ！！		
-B00.0105	line		【女の声】{rt}しつこいのが来たわ。		
-B00.0106	line		【女の声】{rt}闇の渦に彷徨（さまよ）う{rt}悪霊ども―――。		
-B00.0107	line		【女の声】{rt}さっき、話したでしょう？		
-B00.0108	line		【女の声】{rt}彼らはうかつにも闇を侮り、{rt}自分を見失った者たち。		
-B00.0109	line		【女の声】{rt}ああなってしまっては、{rt}もう、この闇の渦から		
-B00.0110	line		【女の声】{rt}逃れる事はできない。		
-B00.0111	line		【女の声】{rt}狂気の叫びを上げながら、		
-B00.0112	line		【女の声】{rt}塊となって闇の中を{rt}永遠に流れるのみ―――。		
-B00.0113	line		【女の声】{rt}あなた―――。		
-B00.0114	line		【女の声】{rt}あなたなら{rt}どうするかしら？		
-B00.0115	line		【女の声】{rt}彼らのようなおぞましい敵を{rt}目の前にした時、		
-B00.0116	line		【女の声】{rt}あなたには―――{rt}生きようとする《力》、		
-B00.0117	line		【女の声】{rt}生きるだけの価値が{rt}あるのかしら？		
-B00.0118	line		【女の声】{rt}どう？{rt}自信はある？		
-B00.0119	line		【女の声】{rt}あら、余裕？		
-B00.0120	line		【女の声】{rt}ふふ。		
-B00.0121	line		【女の声】{rt}あまり気を抜かない事ね。		
-B00.0122	line		【女の声】{rt}彼らの仲間になってしまっても{rt}知らないわよ…。		
-B00.0123	line		【女の声】{rt}怖がらない…。{rt}頼もしいわ。		
-B00.0124	line		【女の声】{rt}楽しくなりそう。		
-B00.0125	line		【女の声】{rt}…ふふふ。		
-B00.0126	line		【女の声】{rt}だめね。		
-B00.0127	line		【女の声】{rt}あいつらはあなたを{rt}自分たちの仲間にする気よ。		
-B00.0128	line		【女の声】{rt}話して通じる相手じゃないわ。		
-B00.0129	line		【女の声】{rt}彼らに勝てないようじゃ、{rt}外界へ出ても長くはない…		
-B00.0130	line		【女の声】{rt}そんな弱い心には{rt}助ける価値もないわね。		
-B00.0131	line		【女の声】{rt}残念だけど…。		
-B00.0132	line		【女の声】{rt}怒りは彼らの干からびた心を{rt}刺激するかもしれない。		
-B00.0133	line		【女の声】{rt}気をつけた方がいいわ。		
-B00.0134	line		【悪霊群】{rt}我らをおいて行くな―――		
-B00.0135	line		【悪霊群】{rt}ヌシらだけ楽になれるとは{rt}思うなッ―――！！		
-B00.0136	line		【悪霊群】{rt}―――？		
-B00.0137	line		【悪霊群】{rt}おい、あれを見ろッ。		
-B00.0138	line		【悪霊群】{rt}ぬ―――？		
-B00.0139	line		【悪霊群】{rt}おおッ！！		
-B00.0140	line		【悪霊群】{rt}…女だァ。		
-B00.0141	line		【悪霊群】{rt}生きている{rt}―――女の魂ッ。		
-B00.0142	line		【悪霊群】{rt}女ァ―――。		
-B00.0143	line		【悪霊群】{rt}こっちへ来いッ。		
-B00.0144	line		【悪霊群】{rt}来て、我らの{rt}ひび割れた魂の		
-B00.0145	line		【悪霊群】{rt}慰みとなれェ…。		
-B00.0146	line		【悪霊群】{rt}女ァッ―――。		
-B00.0147	line		【女の声】{rt}来るわよ…。		
-B00.0148	line		【女の声】{rt}ふふふ。{rt}あがいて見せて。		
-B00.0149	line		【女の声】{rt}あなた自身の{rt}《生》のために。		
+B00.0000	line		【女の声】{rt}生きる―――。	【Woman's Voice】{rt}To live...	
+B00.0001	line		【女の声】{rt}それは、亡（ほろ）びに{rt}向かって歩んでゆく事…。	【Woman's Voice】{rt}It means walking, step by step, toward{rt}ruin...	
+B00.0002	line		【女の声】{rt}かつて色鮮やかに燃えた{rt}命の炎も消えてしまえば	【Woman's Voice】{rt}Once the flame of life that burned so{rt}brightly goes out,	
+B00.0003	line		【女の声】{rt}朧（おぼろ）げな残像しか{rt}残さず、それすらも	【Woman's Voice】{rt}it leaves nothing but a faint{rt}afterimage, and even that	
+B00.0004	line		【女の声】{rt}すぐに消えてゆく…	【Woman's Voice】{rt}soon fades away...	
+B00.0005	line		【女の声】{rt}生きる者。	【Woman's Voice】{rt}The living.	
+B00.0006	line		【女の声】{rt}それはすなわち、必ず死す者…	【Woman's Voice】{rt}In other words, those who must surely{rt}die...	
+B00.0007	line		【女の声】{rt}生きるという活動を営む以上、{rt}早い遅いはあれど、	【Woman's Voice】{rt}So long as we go on living, sooner or{rt}later,	
+B00.0008	line		【女の声】{rt}何者もその《因果》から{rt}逃れる事はできない	【Woman's Voice】{rt}no one can escape that Causality.	
+B00.0009	line		【女の声】{rt}だが―――	【Woman's Voice】{rt}And yet--	
+B00.0010	line		【女の声】{rt}来るべくしてやってくる、{rt}その結末を迎えた後―――	【Woman's Voice】{rt}once that end, which must come, has{rt}come at last--	
+B00.0011	line		【女の声】{rt}その後には何があるのか？	【Woman's Voice】{rt}what lies beyond it?	
+B00.0012	line		【女の声】{rt}死ぬという事―――。	【Woman's Voice】{rt}To die--	
+B00.0013	line		【女の声】{rt}それを経た後に	【Woman's Voice】{rt}and after passing through it,	
+B00.0014	line		【女の声】{rt}一体、何が―――？	【Woman's Voice】{rt}what on earth comes next--?	
+B00.0015	line		【看護婦Ａの声】{rt}血圧、四十五から更に低下。	【Nurse A's Voice】{rt}Blood pressure has dropped below{rt}forty-five.	
+B00.0016	line		【看護婦Ａの声】{rt}危険ですッ。	【Nurse A's Voice】{rt}It's critical!	
+B00.0017	line		【女院長の声】{rt}体温、心拍は―――？	【Director's Voice】{rt}Temperature? Heart rate--?	
+B00.0018	line		【看護婦Ａの声】{rt}ダメですッ…。	【Nurse A's Voice】{rt}It's no good...	
+B00.0019	line		【看護婦Ａの声】{rt}依然、回復しませんッ。	【Nurse A's Voice】{rt}No recovery yet!	
+B00.0020	line		【看護婦Ａの声】{rt}院長、{rt}こ、このままでは―――	【Nurse A's Voice】{rt}Director, at th-this rate--	
+B00.0021	line		【女院長の声】{rt}…分かってるッ。	【Director's Voice】{rt}...I know!	
+B00.0022	line		【女院長の声】{rt}そんな事は重々、承知だ…。	【Director's Voice】{rt}I'm perfectly aware of that...	
+B00.0023	line		【看護婦Ｂの声】{rt}心拍、更に低下ッ！！	【Nurse B's Voice】{rt}Heart rate still falling!!	
+B00.0024	line		【女院長の声】{rt}くッ―――。	【Director's Voice】{rt}Tch--	
+B00.0025	line		【女院長の声】{rt}心停止と同時に{rt}心臓マッサージに移るッ。	【Director's Voice】{rt}The moment the heart stops, we begin{rt}CPR!	
+B00.0026	line		【女院長の声】{rt}時間計測の用意。	【Director's Voice】{rt}Get ready to keep time.	
+B00.0027	line		【女院長の声】{rt}それから―――	【Director's Voice】{rt}And then--	
+B00.0028	line		【女の声】{rt}『…地獄の鬼がまわす{rt}　車のように	【Woman's Voice】{rt}"...Like the cart the demons of hell turn{rt}round,	
+B00.0029	line		【女の声】{rt}　冬の日はごろごろと{rt}　さびしくまわって、	【Woman's Voice】{rt}the winter days roll by, rumbling,{rt}lonely,	
+B00.0030	line		【女の声】{rt}　輪廻（りんね）の小鳥は砂原{rt}　のかげに死んでしまった。	【Woman's Voice】{rt}and the little bird of samsara has died{rt}in the shade of the sands.	
+B00.0031	line		【女の声】{rt}　ああ―――	【Woman's Voice】{rt}Ah--	
+B00.0032	line		【女の声】{rt}　こんな陰鬱（いんうつ）な{rt}　季節がつづくあいだ	【Woman's Voice】{rt}while this gloomy season goes on,	
+B00.0033	line		【女の声】{rt}　私は幻の駱駝（らくだ）に{rt}　のって、	【Woman's Voice】{rt}I ride upon a phantom camel,	
+B00.0034	line		【女の声】{rt}　ふらふらと	【Woman's Voice】{rt}unsteadily,	
+B00.0035	line		【女の声】{rt}　かなしげな旅行に{rt}　でようとする…。』	【Woman's Voice】{rt}and try to set out on a sorrowful{rt}journey..."	
+B00.0036	line		【影】{rt}…………。	【Shadow】{rt}............	
+B00.0037	line		【女の声】{rt}あら？	【Woman's Voice】{rt}Oh?	
+B00.0038	line		【女の声】{rt}いつからそこに？	【Woman's Voice】{rt}How long have you been there?	
+B00.0039	line		【女の声】{rt}ふふ。	【Woman's Voice】{rt}Heh.	
+B00.0040	line		【女の声】{rt}どうやら…{rt}聞かれてしまったようね…。	【Woman's Voice】{rt}It seems...you heard me...	
+B00.0041	line		【女の声】{rt}さっきの詩―――	【Woman's Voice】{rt}That poem just now--	
+B00.0042	line		【女の声】{rt}私のじゃないわ。	【Woman's Voice】{rt}it isn't mine.	
+B00.0043	line		【女の声】{rt}萩原　朔太郎{rt}（はぎわら　さくたろう）	【Woman's Voice】{rt}It's by Sakutaro Hagiwara.	
+B00.0044	line		【女の声】{rt}あなたと同じ、人間のもの…。	【Woman's Voice】{rt}A human, just like you...	
+B00.0045	line		【女の声】{rt}題は―――{rt}『輪廻と転生』。	【Woman's Voice】{rt}It's called-- "Samsara and Rebirth."	
+B00.0046	line		【女の声】{rt}この闇にぴったりな、{rt}陰気な詩―――。	【Woman's Voice】{rt}A gloomy poem, perfect for this{rt}darkness--	
+B00.0047	line		【女の声】{rt}あなたも、{rt}そう思うでしょう？	【Woman's Voice】{rt}Don't you think so too?	
+B00.0048	line		【女の声】{rt}いいの…。	【Woman's Voice】{rt}It's all right...	
+B00.0049	line		【女の声】{rt}私に気を使う事はないわ。	【Woman's Voice】{rt}You needn't spare my feelings.	
+B00.0050	line		【女の声】{rt}私だって、{rt}それを分かっていながら	【Woman's Voice】{rt}I knew that perfectly well	
+B00.0051	line		【女の声】{rt}この詩を選び、{rt}口ずさんでいたんだもの。	【Woman's Voice】{rt}when I chose this poem and hummed it{rt}to myself.	
+B00.0052	line		【女の声】{rt}そうね…。	【Woman's Voice】{rt}Yes...	
+B00.0053	line		【女の声】{rt}でも、そういう気分だったの。	【Woman's Voice】{rt}That's just how I felt.	
+B00.0054	line		【女の声】{rt}ついさっきまでは。	【Woman's Voice】{rt}Until a moment ago, anyway.	
+B00.0055	line		【女の声】{rt}私がこの詩を詠む―――	【Woman's Voice】{rt}Me, reciting this poem--	
+B00.0056	line		【女の声】{rt}それに何か深い意味でも{rt}あると思った？	【Woman's Voice】{rt}did you think there was some deep{rt}meaning to it?	
+B00.0057	line		【女の声】{rt}ふふ…。	【Woman's Voice】{rt}Heh...	
+B00.0058	line		【女の声】{rt}そんな事はない…。	【Woman's Voice】{rt}There's nothing of the sort...	
+B00.0059	line		【女の声】{rt}私はただただ真っ直ぐに	【Woman's Voice】{rt}I was simply, honestly	
+B00.0060	line		【女の声】{rt}この詩に自分の心を{rt}任せていただけなのだから。	【Woman's Voice】{rt}letting my heart drift along with the{rt}poem, that's all.	
+B00.0061	line		【女の声】{rt}…………。	【Woman's Voice】{rt}............	
+B00.0062	line		【女の声】{rt}変わった人ね。	【Woman's Voice】{rt}You're a strange one.	
+B00.0063	line		【女の声】{rt}でも、あなたにもすぐに{rt}分かるはず――。	【Woman's Voice】{rt}But you'll understand soon enough--	
+B00.0064	line		【女の声】{rt}私の心が。	【Woman's Voice】{rt}how I feel.	
+B00.0065	line		【女の声】{rt}見えるものは真っ暗な闇。	【Woman's Voice】{rt}All you can see is pitch-black{rt}darkness.	
+B00.0066	line		【女の声】{rt}聞こえるものは、{rt}闇に溶けて流れ込んでくる、	【Woman's Voice】{rt}All you can hear, melting into the dark{rt}and flowing in,	
+B00.0067	line		【女の声】{rt}この詩のような{rt}病んだ心の嘆きばかり――。	【Woman's Voice】{rt}are the laments of sick hearts, like this{rt}poem--	
+B00.0068	line		【女の声】{rt}延々その中に漂いながら、	【Woman's Voice】{rt}Drifting in it, on and on,	
+B00.0069	line		【女の声】{rt}私という存在は、もうこのまま{rt}消えてしまうのかと―――	【Woman's Voice】{rt}I wondered if I would simply fade away{rt}like this--	
+B00.0070	line		【女の声】{rt}そればっかり何千回、{rt}何万回と考え続けていた…。	【Woman's Voice】{rt}I thought of nothing else, thousands,{rt}tens of thousands of times...	
+B00.0071	line		【女の声】{rt}私はこの世の輪廻や転生の{rt}理（ことわり）から	【Woman's Voice】{rt}Had I been cut off from the laws of{rt}this world,	
+B00.0072	line		【女の声】{rt}切り離されてしまったのか？	【Woman's Voice】{rt}from samsara and rebirth?	
+B00.0073	line		【女の声】{rt}半分疑いながら、	【Woman's Voice】{rt}Half in doubt,	
+B00.0074	line		【女の声】{rt}そして、半分呪いながら、{rt}この詩を口ずさんできた…。	【Woman's Voice】{rt}and half in a curse, I have hummed this{rt}poem...	
+B00.0075	line		【女の声】{rt}でも、そうするのも{rt}これで最後。	【Woman's Voice】{rt}But this is the last time I'll do it.	
+B00.0076	line		【女の声】{rt}私はこの闇から解放される…。	【Woman's Voice】{rt}I'm going to be set free from this{rt}darkness...	
+B00.0077	line		【女の声】{rt}この渦をこのまま進んで、{rt}光ある場所へと出る―――。	【Woman's Voice】{rt}I'll follow this vortex on, out to where{rt}there is light--	
+B00.0078	line		【女の声】{rt}ふふふ。	【Woman's Voice】{rt}Heh heh heh.	
+B00.0079	line		【女の声】{rt}ごめんなさい。	【Woman's Voice】{rt}Forgive me.	
+B00.0080	line		【女の声】{rt}まだ、あなたの名前すら{rt}聞いていないのに、	【Woman's Voice】{rt}I haven't even asked your name yet,	
+B00.0081	line		【女の声】{rt}馴れ馴れしく喋ってしまって。	【Woman's Voice】{rt}and here I am chattering away so{rt}familiarly.	
+B00.0082	line		【女の声】{rt}名前…。	【Woman's Voice】{rt}A name...	
+B00.0083	line		【女の声】{rt}たかが名前…。	【Woman's Voice】{rt}"Just a name..."	
+B00.0084	line		【女の声】{rt}あなたはそう思うかも{rt}知れないわね。	【Woman's Voice】{rt}You may well think so.	
+B00.0085	line		【女の声】{rt}でも、それは	【Woman's Voice】{rt}But you can only say that	
+B00.0086	line		【女の声】{rt}真の闇の恐ろしさに触れた事が{rt}ないから言える事。	【Woman's Voice】{rt}because you've never touched the true{rt}terror of darkness.	
+B00.0087	line		【女の声】{rt}侮ってはいけないわ。	【Woman's Voice】{rt}Don't take it lightly.	
+B00.0088	line		【女の声】{rt}闇に溶け込むのを{rt}防ぐためには、	【Woman's Voice】{rt}To keep from melting into the dark,	
+B00.0089	line		【女の声】{rt}しっかりと自分を認識する{rt}事が大切なのよ。	【Woman's Voice】{rt}you must hold on firmly to who you{rt}are.	
+B00.0090	line		【女の声】{rt}さあ、聞かせて。	【Woman's Voice】{rt}Now, tell me.	
+B00.0091	line		【女の声】{rt}あなたの名を…。	【Woman's Voice】{rt}Your name...	
+B00.0092	line		【女の声】{rt}{name1}{name2}…。	【Woman's Voice】{rt}{name2} {name1}...	
+B00.0093	line		【女の声】{rt}それがあなたの名…。	【Woman's Voice】{rt}So that is your name...	
+B00.0094	line		【女の声】{rt}覚えておくわ。	【Woman's Voice】{rt}I'll remember it.	
+B00.0095	line		【女の声】{rt}あなたは―――	【Woman's Voice】{rt}Where are you--	
+B00.0096	line		【女の声】{rt}この闇の中を{rt}どこへ向かっているの？	【Woman's Voice】{rt}where are you headed in this{rt}darkness?	
+B00.0097	line		【女の声】{rt}…………。	【Woman's Voice】{rt}............	
+B00.0098	line		【女の声】{rt}自分でも判らない…。	【Woman's Voice】{rt}"I don't even know myself..."	
+B00.0099	line		【女の声】{rt}そんな顔ね。	【Woman's Voice】{rt}That's what your face says.	
+B00.0100	line		【女の声】{rt}あなたは―――	【Woman's Voice】{rt}Where are you--	
+B00.0101	line		【女の声】{rt}―――？	【Woman's Voice】{rt}--?	
+B00.0102	line		【悪霊群】{rt}ヒッヒッヒッ。	【Evil Spirits】{rt}Hee hee hee.	
+B00.0103	line		【悪霊群】{rt}待てェェッ！！	【Evil Spirits】{rt}Waaait!!	
+B00.0104	line		【悪霊群】{rt}行かせぬぞォ！！	【Evil Spirits】{rt}We won't let you go!!	
+B00.0105	line		【女の声】{rt}しつこいのが来たわ。	【Woman's Voice】{rt}Here come the persistent ones.	
+B00.0106	line		【女の声】{rt}闇の渦に彷徨（さまよ）う{rt}悪霊ども―――。	【Woman's Voice】{rt}Evil spirits wandering the vortex of{rt}darkness--	
+B00.0107	line		【女の声】{rt}さっき、話したでしょう？	【Woman's Voice】{rt}I told you a moment ago, didn't I?	
+B00.0108	line		【女の声】{rt}彼らはうかつにも闇を侮り、{rt}自分を見失った者たち。	【Woman's Voice】{rt}They're the ones who scorned the dark{rt}and lost themselves.	
+B00.0109	line		【女の声】{rt}ああなってしまっては、{rt}もう、この闇の渦から	【Woman's Voice】{rt}Once you end up like that, you can{rt}never escape	
+B00.0110	line		【女の声】{rt}逃れる事はできない。	【Woman's Voice】{rt}this vortex of darkness again.	
+B00.0111	line		【女の声】{rt}狂気の叫びを上げながら、	【Woman's Voice】{rt}Screaming their mad screams,	
+B00.0112	line		【女の声】{rt}塊となって闇の中を{rt}永遠に流れるのみ―――。	【Woman's Voice】{rt}they can only flow through the dark{rt}forever, a single mass--	
+B00.0113	line		【女の声】{rt}あなた―――。	【Woman's Voice】{rt}You--	
+B00.0114	line		【女の声】{rt}あなたなら{rt}どうするかしら？	【Woman's Voice】{rt}What would you do, I wonder?	
+B00.0115	line		【女の声】{rt}彼らのようなおぞましい敵を{rt}目の前にした時、	【Woman's Voice】{rt}Faced with a vile enemy like them,	
+B00.0116	line		【女の声】{rt}あなたには―――{rt}生きようとする《力》、	【Woman's Voice】{rt}do you have it in you--the Power to{rt}live,	
+B00.0117	line		【女の声】{rt}生きるだけの価値が{rt}あるのかしら？	【Woman's Voice】{rt}and the worth to go on living?	
+B00.0118	line		【女の声】{rt}どう？{rt}自信はある？	【Woman's Voice】{rt}Well? Are you confident?	
+B00.0119	line		【女の声】{rt}あら、余裕？	【Woman's Voice】{rt}My, so calm?	
+B00.0120	line		【女の声】{rt}ふふ。	【Woman's Voice】{rt}Heh.	
+B00.0121	line		【女の声】{rt}あまり気を抜かない事ね。	【Woman's Voice】{rt}I wouldn't let my guard down too{rt}much.	
+B00.0122	line		【女の声】{rt}彼らの仲間になってしまっても{rt}知らないわよ…。	【Woman's Voice】{rt}Don't blame me if you end up one of{rt}them...	
+B00.0123	line		【女の声】{rt}怖がらない…。{rt}頼もしいわ。	【Woman's Voice】{rt}Not afraid... How reassuring.	
+B00.0124	line		【女の声】{rt}楽しくなりそう。	【Woman's Voice】{rt}This should be fun.	
+B00.0125	line		【女の声】{rt}…ふふふ。	【Woman's Voice】{rt}...Heh heh heh.	
+B00.0126	line		【女の声】{rt}だめね。	【Woman's Voice】{rt}It's no use.	
+B00.0127	line		【女の声】{rt}あいつらはあなたを{rt}自分たちの仲間にする気よ。	【Woman's Voice】{rt}They mean to make you one of their{rt}own.	
+B00.0128	line		【女の声】{rt}話して通じる相手じゃないわ。	【Woman's Voice】{rt}They aren't the kind you can reason{rt}with.	
+B00.0129	line		【女の声】{rt}彼らに勝てないようじゃ、{rt}外界へ出ても長くはない…	【Woman's Voice】{rt}If you can't beat them, you won't last{rt}long out in the world...	
+B00.0130	line		【女の声】{rt}そんな弱い心には{rt}助ける価値もないわね。	【Woman's Voice】{rt}A heart that weak isn't even worth{rt}saving.	
+B00.0131	line		【女の声】{rt}残念だけど…。	【Woman's Voice】{rt}What a pity...	
+B00.0132	line		【女の声】{rt}怒りは彼らの干からびた心を{rt}刺激するかもしれない。	【Woman's Voice】{rt}Anger may only stir up their withered{rt}hearts.	
+B00.0133	line		【女の声】{rt}気をつけた方がいいわ。	【Woman's Voice】{rt}You'd better be careful.	
+B00.0134	line		【悪霊群】{rt}我らをおいて行くな―――	【Evil Spirits】{rt}Don't leave us behind--	
+B00.0135	line		【悪霊群】{rt}ヌシらだけ楽になれるとは{rt}思うなッ―――！！	【Evil Spirits】{rt}Don't think you alone will find{rt}peace--!!	
+B00.0136	line		【悪霊群】{rt}―――？	【Evil Spirits】{rt}--?	
+B00.0137	line		【悪霊群】{rt}おい、あれを見ろッ。	【Evil Spirits】{rt}Hey, look at that!	
+B00.0138	line		【悪霊群】{rt}ぬ―――？	【Evil Spirits】{rt}Hm--?	
+B00.0139	line		【悪霊群】{rt}おおッ！！	【Evil Spirits】{rt}Ohhh!!	
+B00.0140	line		【悪霊群】{rt}…女だァ。	【Evil Spirits】{rt}...A woman.	
+B00.0141	line		【悪霊群】{rt}生きている{rt}―――女の魂ッ。	【Evil Spirits】{rt}A living--woman's soul!	
+B00.0142	line		【悪霊群】{rt}女ァ―――。	【Evil Spirits】{rt}Womaaan--	
+B00.0143	line		【悪霊群】{rt}こっちへ来いッ。	【Evil Spirits】{rt}Come here!	
+B00.0144	line		【悪霊群】{rt}来て、我らの{rt}ひび割れた魂の	【Evil Spirits】{rt}Come and be a comfort	
+B00.0145	line		【悪霊群】{rt}慰みとなれェ…。	【Evil Spirits】{rt}to our cracked souls...	
+B00.0146	line		【悪霊群】{rt}女ァッ―――。	【Evil Spirits】{rt}Womaaan!--	
+B00.0147	line		【女の声】{rt}来るわよ…。	【Woman's Voice】{rt}Here they come...	
+B00.0148	line		【女の声】{rt}ふふふ。{rt}あがいて見せて。	【Woman's Voice】{rt}Heh heh heh. Show me how you{rt}struggle.	
+B00.0149	line		【女の声】{rt}あなた自身の{rt}《生》のために。	【Woman's Voice】{rt}For the sake of your own Life.	

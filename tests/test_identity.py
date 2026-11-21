@@ -26,7 +26,9 @@ def orig():
 
 def test_build_is_identical(orig):
     import build
-    assert build.build(orig) == orig
+    import extract
+    jp_only = {k: dict(r, en='') for k, r in extract.load().items()}
+    assert build.build(orig, jp_only) == orig
 
 
 def test_every_scene_reencodes_exactly(orig):
