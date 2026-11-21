@@ -1,80 +1,80 @@
 id	kind	max	jp	en	notes
-A6.0.0000	line		【紅の熱血漢】{rt}おッッす！		
-A6.0.0001	line		【紅の熱血漢】{rt}俺ッちは、真のヒーローを{rt}目指す炎の男さッ！		
-A6.0.0002	line		【紅の熱血漢】{rt}みんなちゃんと{rt}メシ食ってるか？		
-A6.0.0003	line		【紅の熱血漢】{rt}正義のヒーローに{rt}なるためには、		
-A6.0.0004	line		【紅の熱血漢】{rt}ご飯はちゃんと食べないとな。		
-A6.0.0005	line		【紅の熱血漢】{rt}悪との戦い…		
-A6.0.0006	line		【紅の熱血漢】{rt}こいつは、何時、何処で{rt}起こるか、わからない。		
-A6.0.0007	line		【紅の熱血漢】{rt}だから！		
-A6.0.0008	line		【紅の熱血漢】{rt}俺たちヒーローは{rt}食える時に―――		
-A6.0.0009	line		【紅の熱血漢】{rt}食えるだけ腹に詰め込んで{rt}おく。		
-A6.0.0010	line		【紅の熱血漢】{rt}そういうもんだ！		
-A6.0.0011	line		【紅の熱血漢】{rt}話が良く解らなかったか？		
-A6.0.0012	line		【紅の熱血漢】{rt}……		
+A6.0.0000	line		【紅の熱血漢】{rt}おッッす！	【Crimson Hothead】{rt}Yo-ho!	
+A6.0.0001	line		【紅の熱血漢】{rt}俺ッちは、真のヒーローを{rt}目指す炎の男さッ！	【Crimson Hothead】{rt}I'm a man of fire, aiming to be a true{rt}hero!	
+A6.0.0002	line		【紅の熱血漢】{rt}みんなちゃんと{rt}メシ食ってるか？	【Crimson Hothead】{rt}You all eating your meals properly?	
+A6.0.0003	line		【紅の熱血漢】{rt}正義のヒーローに{rt}なるためには、	【Crimson Hothead】{rt}To become a hero of justice,	
+A6.0.0004	line		【紅の熱血漢】{rt}ご飯はちゃんと食べないとな。	【Crimson Hothead】{rt}you've gotta eat your meals{rt}properly.	
+A6.0.0005	line		【紅の熱血漢】{rt}悪との戦い…	【Crimson Hothead】{rt}The battle against evil...	
+A6.0.0006	line		【紅の熱血漢】{rt}こいつは、何時、何処で{rt}起こるか、わからない。	【Crimson Hothead】{rt}there's no telling when or where it'll{rt}break out.	
+A6.0.0007	line		【紅の熱血漢】{rt}だから！	【Crimson Hothead】{rt}That's why!	
+A6.0.0008	line		【紅の熱血漢】{rt}俺たちヒーローは{rt}食える時に―――	【Crimson Hothead】{rt}We heroes, whenever we can eat--	
+A6.0.0009	line		【紅の熱血漢】{rt}食えるだけ腹に詰め込んで{rt}おく。	【Crimson Hothead】{rt}stuff our bellies as full as we can.	
+A6.0.0010	line		【紅の熱血漢】{rt}そういうもんだ！	【Crimson Hothead】{rt}That's how it is!	
+A6.0.0011	line		【紅の熱血漢】{rt}話が良く解らなかったか？	【Crimson Hothead】{rt}Didn't quite follow that?	
+A6.0.0012	line		【紅の熱血漢】{rt}……	【Crimson Hothead】{rt}......	
 A6.0.0013	line		【紅の熱血漢】{rt}よしッ！　じゃあ最初からだ。	【Crimson Hothead】{rt}All right! Then from the top.	
 A6.0.0014	line		【紅の熱血漢】{rt}いいか…	【Crimson Hothead】{rt}Listen up...	
-A6.0.0015	line		【紅の熱血漢】{rt}おお！		
-A6.0.0016	line		【紅の熱血漢】{rt}やっぱり、お前なら―――		
-A6.0.0017	line		【紅の熱血漢】{rt}解ってくれると思ったッ。		
-A6.0.0018	line		【紅の熱血漢】{rt}えらいぞッ！		
-A6.0.0019	line		【紅の熱血漢】{rt}残念ながら、俺ッち仲間には…		
-A6.0.0020	line		【紅の熱血漢】{rt}その心構えがないんだ。		
-A6.0.0021	line		【紅の熱血漢】{rt}ヒーローとしての自覚が{rt}ないッ！		
-A6.0.0022	line		【紅の熱血漢】{rt}嘆かわしい事だ…		
-A6.0.0023	line		【紅の熱血漢】{rt}そうだ、		
-A6.0.0024	line		【紅の熱血漢】{rt}お前も仲間にならないか？		
-A6.0.0025	line		【紅の熱血漢】{rt}生憎、レッドの座は{rt}ふさがってるが		
-A6.0.0026	line		【紅の熱血漢】{rt}今ならブルー、グリーン、{rt}イエロー…		
-A6.0.0027	line		【紅の熱血漢】{rt}好きな色を選べるぞ！		
-A6.0.0028	line		【紅の熱血漢】{rt}どうだ！？		
-A6.0.0029	line		【紅の熱血漢】{rt}う～ん、お前はまだ{rt}ヒーロー見習いだから		
-A6.0.0030	line		【紅の熱血漢】{rt}知らないのもしょうがないな。		
-A6.0.0031	line		【紅の熱血漢】{rt}よしッ！せっかくだから、		
-A6.0.0032	line		【紅の熱血漢】{rt}ヒーローの心構えを教えよう！		
-A6.0.0033	line		【紅の熱血漢】{rt}そうすれば、俺ッちの{rt}いう事も…		
-A6.0.0034	line		【紅の熱血漢】{rt}解るに違いないッ！		
-A6.0.0035	line		【紅の熱血漢】{rt}おお！即座に{rt}理解してくれるとはッ！		
-A6.0.0036	line		【紅の熱血漢】{rt}やっぱり、お前なら―――		
-A6.0.0037	line		【紅の熱血漢】{rt}解ってくれると思ったッ。		
-A6.0.0038	line		【紅の熱血漢】{rt}えらいぞッ！		
-A6.0.0039	line		【紅の熱血漢】{rt}食欲旺盛な…その態度に、		
-A6.0.0040	line		【紅の熱血漢】{rt}相応しいヒーローがある。		
-A6.0.0041	line		【紅の熱血漢】{rt}明日からお前は…		
-A6.0.0042	line		【紅の熱血漢】{rt}イエローに決定だッ！		
-A6.0.0043	line		【紅の熱血漢】{rt}目標はあんみつ、１００杯の…		
-A6.0.0044	line		【紅の熱血漢】{rt}おかわりだッ！		
-A6.0.0045	line		【紅の熱血漢】{rt}約束だぞッ！		
-A6.0.0046	line		【紅の熱血漢】{rt}おお！		
-A6.0.0047	line		【紅の熱血漢】{rt}やっぱり、お前なら―――		
-A6.0.0048	line		【紅の熱血漢】{rt}解ってくれると思ったッ。		
-A6.0.0049	line		【紅の熱血漢】{rt}えらいぞッ！		
-A6.0.0050	line		【紅の熱血漢】{rt}残念ながら、俺ッち仲間には…		
-A6.0.0051	line		【紅の熱血漢】{rt}その心構えがないんだ。		
-A6.0.0052	line		【紅の熱血漢】{rt}ヒーローとしての自覚が{rt}ないッ！		
-A6.0.0053	line		【紅の熱血漢】{rt}嘆かわしい事だ…		
-A6.0.0054	line		【紅の熱血漢】{rt}そうだ、		
-A6.0.0055	line		【紅の熱血漢】{rt}お前も仲間にならないか？		
-A6.0.0056	line		【紅の熱血漢】{rt}生憎、レッドの座は{rt}ふさがってるが		
-A6.0.0057	line		【紅の熱血漢】{rt}今ならブルー、グリーン…		
-A6.0.0058	line		【紅の熱血漢】{rt}イエロー、好きな色を{rt}選べるぞ！		
-A6.0.0059	line		【紅の熱血漢】{rt}どうだ！？		
-A6.0.0060	line		【紅の熱血漢】{rt}おお！		
-A6.0.0061	line		【紅の熱血漢】{rt}やっぱり、お前なら―――		
-A6.0.0062	line		【紅の熱血漢】{rt}解ってくれると思ったッ。		
-A6.0.0063	line		【紅の熱血漢】{rt}えらいぞッ！		
-A6.0.0064	line		【紅の熱血漢】{rt}泣くなッ！		
-A6.0.0065	line		【紅の熱血漢】{rt}男が涙を流していいのは、{rt}親が死んだ時と…		
-A6.0.0066	line		【紅の熱血漢】{rt}サイフを落とした時だけだっ！		
-A6.0.0067	line		【紅の熱血漢】{rt}約束だぞッ！		
-A6.0.0068	line		【紅の熱血漢】{rt}……		
-A6.0.0069	line		【紅の熱血漢】{rt}ヒーローは常に{rt}理解されるとは、		
-A6.0.0070	line		【紅の熱血漢】{rt}…限らない。		
-A6.0.0071	line		【紅の熱血漢】{rt}それでもッ！		
-A6.0.0072	line		【紅の熱血漢】{rt}負けないのがレッド！		
-A6.0.0073	line		【紅の熱血漢】{rt}燃える紅い血が{rt}俺のシンボルだッ！		
-A6.0.0074	line		【紅の熱血漢】{rt}い、いきなり怒り出すなよ。		
-A6.0.0075	line		【紅の熱血漢】{rt}食事を粗末にするよりは{rt}いいだろ。		
-A6.0.0076	line		【紅の熱血漢】{rt}世界には、未だにたくさん…		
-A6.0.0077	line		【紅の熱血漢】{rt}食事も満足に出来ない{rt}人がいる、		
-A6.0.0078	line		【紅の熱血漢】{rt}その人達を思えばッ！		
+A6.0.0015	line		【紅の熱血漢】{rt}おお！	【Crimson Hothead】{rt}Oh!	
+A6.0.0016	line		【紅の熱血漢】{rt}やっぱり、お前なら―――	【Crimson Hothead】{rt}I knew you of all people--	
+A6.0.0017	line		【紅の熱血漢】{rt}解ってくれると思ったッ。	【Crimson Hothead】{rt}would understand!	
+A6.0.0018	line		【紅の熱血漢】{rt}えらいぞッ！	【Crimson Hothead】{rt}Good job!	
+A6.0.0019	line		【紅の熱血漢】{rt}残念ながら、俺ッち仲間には…	【Crimson Hothead】{rt}Sadly, my teammates...	
+A6.0.0020	line		【紅の熱血漢】{rt}その心構えがないんだ。	【Crimson Hothead】{rt}don't have that mindset.	
+A6.0.0021	line		【紅の熱血漢】{rt}ヒーローとしての自覚が{rt}ないッ！	【Crimson Hothead】{rt}They have no sense of being heroes!	
+A6.0.0022	line		【紅の熱血漢】{rt}嘆かわしい事だ…	【Crimson Hothead】{rt}It's a sorry state of affairs...	
+A6.0.0023	line		【紅の熱血漢】{rt}そうだ、	【Crimson Hothead】{rt}I know,	
+A6.0.0024	line		【紅の熱血漢】{rt}お前も仲間にならないか？	【Crimson Hothead】{rt}why don't you join the team?	
+A6.0.0025	line		【紅の熱血漢】{rt}生憎、レッドの座は{rt}ふさがってるが	【Crimson Hothead】{rt}Sorry, the Red spot's already taken,{rt}but	
+A6.0.0026	line		【紅の熱血漢】{rt}今ならブルー、グリーン、{rt}イエロー…	【Crimson Hothead】{rt}right now Blue, Green, Yellow...	
+A6.0.0027	line		【紅の熱血漢】{rt}好きな色を選べるぞ！	【Crimson Hothead】{rt}you can pick any colour you like!	
+A6.0.0028	line		【紅の熱血漢】{rt}どうだ！？	【Crimson Hothead】{rt}How about it!?	
+A6.0.0029	line		【紅の熱血漢】{rt}う～ん、お前はまだ{rt}ヒーロー見習いだから	【Crimson Hothead】{rt}Hmm, you're still a hero-in-training,	
+A6.0.0030	line		【紅の熱血漢】{rt}知らないのもしょうがないな。	【Crimson Hothead】{rt}so I guess it can't be helped you don't{rt}know.	
+A6.0.0031	line		【紅の熱血漢】{rt}よしッ！せっかくだから、	【Crimson Hothead】{rt}All right! While we're at it,	
+A6.0.0032	line		【紅の熱血漢】{rt}ヒーローの心構えを教えよう！	【Crimson Hothead】{rt}I'll teach you the hero's mindset!	
+A6.0.0033	line		【紅の熱血漢】{rt}そうすれば、俺ッちの{rt}いう事も…	【Crimson Hothead】{rt}Then you're sure to understand...	
+A6.0.0034	line		【紅の熱血漢】{rt}解るに違いないッ！	【Crimson Hothead】{rt}what I'm saying!	
+A6.0.0035	line		【紅の熱血漢】{rt}おお！即座に{rt}理解してくれるとはッ！	【Crimson Hothead】{rt}Oh! You got it right away!	
+A6.0.0036	line		【紅の熱血漢】{rt}やっぱり、お前なら―――	【Crimson Hothead】{rt}I knew you of all people--	
+A6.0.0037	line		【紅の熱血漢】{rt}解ってくれると思ったッ。	【Crimson Hothead】{rt}would understand!	
+A6.0.0038	line		【紅の熱血漢】{rt}えらいぞッ！	【Crimson Hothead】{rt}Good job!	
+A6.0.0039	line		【紅の熱血漢】{rt}食欲旺盛な…その態度に、	【Crimson Hothead】{rt}For that hearty appetite of yours,	
+A6.0.0040	line		【紅の熱血漢】{rt}相応しいヒーローがある。	【Crimson Hothead】{rt}there's a fitting hero.	
+A6.0.0041	line		【紅の熱血漢】{rt}明日からお前は…	【Crimson Hothead】{rt}Starting tomorrow, you're...	
+A6.0.0042	line		【紅の熱血漢】{rt}イエローに決定だッ！	【Crimson Hothead】{rt}officially Yellow!	
+A6.0.0043	line		【紅の熱血漢】{rt}目標はあんみつ、１００杯の…	【Crimson Hothead】{rt}Your goal is a hundred bowls...	
+A6.0.0044	line		【紅の熱血漢】{rt}おかわりだッ！	【Crimson Hothead】{rt}of anmitsu, seconds and all!	
+A6.0.0045	line		【紅の熱血漢】{rt}約束だぞッ！	【Crimson Hothead】{rt}It's a promise!	
+A6.0.0046	line		【紅の熱血漢】{rt}おお！	【Crimson Hothead】{rt}Oh!	
+A6.0.0047	line		【紅の熱血漢】{rt}やっぱり、お前なら―――	【Crimson Hothead】{rt}I knew you of all people--	
+A6.0.0048	line		【紅の熱血漢】{rt}解ってくれると思ったッ。	【Crimson Hothead】{rt}would understand!	
+A6.0.0049	line		【紅の熱血漢】{rt}えらいぞッ！	【Crimson Hothead】{rt}Good job!	
+A6.0.0050	line		【紅の熱血漢】{rt}残念ながら、俺ッち仲間には…	【Crimson Hothead】{rt}Sadly, my teammates...	
+A6.0.0051	line		【紅の熱血漢】{rt}その心構えがないんだ。	【Crimson Hothead】{rt}don't have that mindset.	
+A6.0.0052	line		【紅の熱血漢】{rt}ヒーローとしての自覚が{rt}ないッ！	【Crimson Hothead】{rt}They have no sense of being heroes!	
+A6.0.0053	line		【紅の熱血漢】{rt}嘆かわしい事だ…	【Crimson Hothead】{rt}It's a sorry state of affairs...	
+A6.0.0054	line		【紅の熱血漢】{rt}そうだ、	【Crimson Hothead】{rt}I know,	
+A6.0.0055	line		【紅の熱血漢】{rt}お前も仲間にならないか？	【Crimson Hothead】{rt}why don't you join the team?	
+A6.0.0056	line		【紅の熱血漢】{rt}生憎、レッドの座は{rt}ふさがってるが	【Crimson Hothead】{rt}Sorry, the Red spot's already taken,{rt}but	
+A6.0.0057	line		【紅の熱血漢】{rt}今ならブルー、グリーン…	【Crimson Hothead】{rt}Right now Blue, Green...	
+A6.0.0058	line		【紅の熱血漢】{rt}イエロー、好きな色を{rt}選べるぞ！	【Crimson Hothead】{rt}Yellow, you can pick any colour you{rt}like!	
+A6.0.0059	line		【紅の熱血漢】{rt}どうだ！？	【Crimson Hothead】{rt}How about it!?	
+A6.0.0060	line		【紅の熱血漢】{rt}おお！	【Crimson Hothead】{rt}Oh!	
+A6.0.0061	line		【紅の熱血漢】{rt}やっぱり、お前なら―――	【Crimson Hothead】{rt}I knew you of all people--	
+A6.0.0062	line		【紅の熱血漢】{rt}解ってくれると思ったッ。	【Crimson Hothead】{rt}would understand!	
+A6.0.0063	line		【紅の熱血漢】{rt}えらいぞッ！	【Crimson Hothead】{rt}Good job!	
+A6.0.0064	line		【紅の熱血漢】{rt}泣くなッ！	【Crimson Hothead】{rt}Don't cry!	
+A6.0.0065	line		【紅の熱血漢】{rt}男が涙を流していいのは、{rt}親が死んだ時と…	【Crimson Hothead】{rt}The only times a man may shed tears{rt}are when his parents die...	
+A6.0.0066	line		【紅の熱血漢】{rt}サイフを落とした時だけだっ！	【Crimson Hothead】{rt}and when he drops his wallet!	
+A6.0.0067	line		【紅の熱血漢】{rt}約束だぞッ！	【Crimson Hothead】{rt}It's a promise!	
+A6.0.0068	line		【紅の熱血漢】{rt}……	【Crimson Hothead】{rt}......	
+A6.0.0069	line		【紅の熱血漢】{rt}ヒーローは常に{rt}理解されるとは、	【Crimson Hothead】{rt}A hero isn't always...	
+A6.0.0070	line		【紅の熱血漢】{rt}…限らない。	【Crimson Hothead】{rt}...understood.	
+A6.0.0071	line		【紅の熱血漢】{rt}それでもッ！	【Crimson Hothead】{rt}But even so!	
+A6.0.0072	line		【紅の熱血漢】{rt}負けないのがレッド！	【Crimson Hothead】{rt}Never giving up, that's what makes a{rt}Red!	
+A6.0.0073	line		【紅の熱血漢】{rt}燃える紅い血が{rt}俺のシンボルだッ！	【Crimson Hothead】{rt}My burning red blood is my symbol!	
+A6.0.0074	line		【紅の熱血漢】{rt}い、いきなり怒り出すなよ。	【Crimson Hothead】{rt}D-don't suddenly blow your top like{rt}that.	
+A6.0.0075	line		【紅の熱血漢】{rt}食事を粗末にするよりは{rt}いいだろ。	【Crimson Hothead】{rt}It's better than wasting food, right?	
+A6.0.0076	line		【紅の熱血漢】{rt}世界には、未だにたくさん…	【Crimson Hothead】{rt}There are still lots of people in the{rt}world...	
+A6.0.0077	line		【紅の熱血漢】{rt}食事も満足に出来ない{rt}人がいる、	【Crimson Hothead】{rt}who can't even get a decent meal,	
+A6.0.0078	line		【紅の熱血漢】{rt}その人達を思えばッ！	【Crimson Hothead】{rt}so think about them!	

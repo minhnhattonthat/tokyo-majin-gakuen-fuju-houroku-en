@@ -1,30 +1,30 @@
 id	kind	max	jp	en	notes
-A6.2.0000	line		【猛き巫女】{rt}やっぱり女ってのはさ、{rt}ヒラヒラフワフワの服着て、		
-A6.2.0001	line		【猛き巫女】{rt}休みの日にはクッキー焼いたり{rt}部屋にぬいぐるみ飾ったり、		
-A6.2.0002	line		【猛き巫女】{rt}ケンカなんかしないで、いつも{rt}誰かを見守ってる…。		
-A6.2.0003	line		【猛き巫女】{rt}それが、普通なのか…？		
-A6.2.0004	line		【猛き巫女】{rt}なァ、あんたはどう思う？		
-A6.2.0005	line		【猛き巫女】{rt}やっぱり女は、やさしくて、{rt}おとなしい方がいいのか…？		
-A6.2.0006	line		【猛き巫女】{rt}何だよ、{rt}ハッキリしないヤツだな！		
-A6.2.0007	line		【猛き巫女】{rt}なッ、何だよ突然…！？		
-A6.2.0008	line		【猛き巫女】{rt}…変な奴だなッ！		
-A6.2.0009	line		【猛き巫女】{rt}……。		
-A6.2.0010	line		【猛き巫女】{rt}何だよ、{rt}ハッキリしないヤツだな！		
-A6.2.0011	line		【猛き巫女】{rt}…そっか。		
-A6.2.0012	line		【猛き巫女】{rt}そうだよな、やっぱり…。		
-A6.2.0013	line		【猛き巫女】{rt}……。		
-A6.2.0014	line		【猛き巫女】{rt}…そっか。		
-A6.2.0015	line		【猛き巫女】{rt}そうだよな、やっぱり…。		
-A6.2.0016	line		【猛き巫女】{rt}……。		
-A6.2.0017	line		【猛き巫女】{rt}…そっか。		
-A6.2.0018	line		【猛き巫女】{rt}そうだよな、やっぱり…。		
-A6.2.0019	line		【猛き巫女】{rt}……。		
-A6.2.0020	line		【猛き巫女】{rt}な、なんでそんな顔{rt}するんだ！？		
-A6.2.0021	line		【猛き巫女】{rt}オレは別に…		
-A6.2.0022	line		【猛き巫女】{rt}……。		
-A6.2.0023	line		【猛き巫女】{rt}ハハッ、やっぱりオレには{rt}そういうの似合わないよな。		
-A6.2.0024	line		【猛き巫女】{rt}……ありがとな。		
-A6.2.0025	line		【猛き巫女】{rt}フンッ。		
-A6.2.0026	line		【猛き巫女】{rt}どーせ、オレにはそういうのは{rt}似合わないよッ。		
-A6.2.0027	line		【猛き巫女】{rt}なッ、何だよ！		
-A6.2.0028	line		【猛き巫女】{rt}別に、怒るようなコト、{rt}聞いてないだろッ。		
+A6.2.0000	line		【猛き巫女】{rt}やっぱり女ってのはさ、{rt}ヒラヒラフワフワの服着て、	【Fierce Shrine Maiden】{rt}I mean, girls are supposed to wear{rt}frilly, fluffy clothes,	
+A6.2.0001	line		【猛き巫女】{rt}休みの日にはクッキー焼いたり{rt}部屋にぬいぐるみ飾ったり、	【Fierce Shrine Maiden】{rt}bake cookies on their days off, put{rt}stuffed animals in their rooms,	
+A6.2.0002	line		【猛き巫女】{rt}ケンカなんかしないで、いつも{rt}誰かを見守ってる…。	【Fierce Shrine Maiden】{rt}never get in fights, always watching{rt}over someone...	
+A6.2.0003	line		【猛き巫女】{rt}それが、普通なのか…？	【Fierce Shrine Maiden】{rt}Is that what's normal...?	
+A6.2.0004	line		【猛き巫女】{rt}なァ、あんたはどう思う？	【Fierce Shrine Maiden】{rt}Hey, what do you think?	
+A6.2.0005	line		【猛き巫女】{rt}やっぱり女は、やさしくて、{rt}おとなしい方がいいのか…？	【Fierce Shrine Maiden】{rt}Is it better for a girl to be gentle and{rt}quiet after all...?	
+A6.2.0006	line		【猛き巫女】{rt}何だよ、{rt}ハッキリしないヤツだな！	【Fierce Shrine Maiden】{rt}What, you can't give a straight{rt}answer?	
+A6.2.0007	line		【猛き巫女】{rt}なッ、何だよ突然…！？	【Fierce Shrine Maiden】{rt}Wh-what's that all of a sudden...!?	
+A6.2.0008	line		【猛き巫女】{rt}…変な奴だなッ！	【Fierce Shrine Maiden】{rt}...You're weird!	
+A6.2.0009	line		【猛き巫女】{rt}……。	【Fierce Shrine Maiden】{rt}.......	
+A6.2.0010	line		【猛き巫女】{rt}何だよ、{rt}ハッキリしないヤツだな！	【Fierce Shrine Maiden】{rt}What, you can't give a straight{rt}answer?	
+A6.2.0011	line		【猛き巫女】{rt}…そっか。	【Fierce Shrine Maiden】{rt}...I see.	
+A6.2.0012	line		【猛き巫女】{rt}そうだよな、やっぱり…。	【Fierce Shrine Maiden】{rt}Yeah, figures...	
+A6.2.0013	line		【猛き巫女】{rt}……。	【Fierce Shrine Maiden】{rt}.......	
+A6.2.0014	line		【猛き巫女】{rt}…そっか。	【Fierce Shrine Maiden】{rt}...I see.	
+A6.2.0015	line		【猛き巫女】{rt}そうだよな、やっぱり…。	【Fierce Shrine Maiden】{rt}Yeah, figures...	
+A6.2.0016	line		【猛き巫女】{rt}……。	【Fierce Shrine Maiden】{rt}.......	
+A6.2.0017	line		【猛き巫女】{rt}…そっか。	【Fierce Shrine Maiden】{rt}...I see.	
+A6.2.0018	line		【猛き巫女】{rt}そうだよな、やっぱり…。	【Fierce Shrine Maiden】{rt}Yeah, figures...	
+A6.2.0019	line		【猛き巫女】{rt}……。	【Fierce Shrine Maiden】{rt}.......	
+A6.2.0020	line		【猛き巫女】{rt}な、なんでそんな顔{rt}するんだ！？	【Fierce Shrine Maiden】{rt}Wh-why are you making that face!?	
+A6.2.0021	line		【猛き巫女】{rt}オレは別に…	【Fierce Shrine Maiden】{rt}It's not like I...	
+A6.2.0022	line		【猛き巫女】{rt}……。	【Fierce Shrine Maiden】{rt}.......	
+A6.2.0023	line		【猛き巫女】{rt}ハハッ、やっぱりオレには{rt}そういうの似合わないよな。	【Fierce Shrine Maiden】{rt}Haha, stuff like that doesn't suit me{rt}anyway, huh.	
+A6.2.0024	line		【猛き巫女】{rt}……ありがとな。	【Fierce Shrine Maiden】{rt}......Thanks.	
+A6.2.0025	line		【猛き巫女】{rt}フンッ。	【Fierce Shrine Maiden】{rt}Hmph.	
+A6.2.0026	line		【猛き巫女】{rt}どーせ、オレにはそういうのは{rt}似合わないよッ。	【Fierce Shrine Maiden】{rt}Stuff like that doesn't suit me{rt}anyway!	
+A6.2.0027	line		【猛き巫女】{rt}なッ、何だよ！	【Fierce Shrine Maiden】{rt}Wh-what!?	
+A6.2.0028	line		【猛き巫女】{rt}別に、怒るようなコト、{rt}聞いてないだろッ。	【Fierce Shrine Maiden】{rt}I didn't ask anything worth getting mad{rt}over!	
