@@ -266,6 +266,11 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   Oni-Hunter General. 転生 -> reincarnation. 《星》 -> Star. 《魂》 -> Soul. 《悪》 -> Evil. 《正義》 -> Justice.
   《仲間》 -> Comrade. シュテン / タマモ -> Shuten / Tamamo; 宇治の宝蔵 -> the treasure house of Uji. 近江 Omi,
   鈴鹿山 Mt. Suzuka, 蝦夷 Ezo. Takamaru's past is "1200 years ago".
+- b057-b062 (B18): 《言霊》 -> Word Spirits (A12.1's plain 言霊 = "spirit of words"). 《運命》 -> Fate. 大嶽丸 ->
+  Otakemaru. 藤原千方 -> Fujiwara no Chikata. 田村麻呂 / たむらまろ -> Tamuramaro; 鈴鹿姫 -> Princess Suzuka.
+  古今著聞集 -> the Kokon Chomonju. 悪路王 -> Akuro-o (glossed once as "King of Evil Roads"). 蝦夷 (えみし) -> Emishi;
+  (えぞ) -> Ezo. 天女 -> celestial maiden. 魔国 -> demon nation. 怨霊 -> vengeful ghost. 神鈴 -> Divine Bell. From B18
+  Yamura calls the player plain {name1} (no -dono) in casual talk. Route choice B18.0113 -> With Yamura / With Isuzu.
 - A12.4.0038/0043 and A12.9.0057 start `【【` (a JP typo); merge tags them normally.
 - The only row whose JP holds two boxes (`...{rt}{rt}【X】{rt}...`) is B11.0121:
   the batch check wants the repeated speaker name in the English, so put `【X】` in the body to pass, then after

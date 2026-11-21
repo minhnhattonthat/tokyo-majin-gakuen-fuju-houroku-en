@@ -85,3 +85,12 @@ session; translators read it before their batch.
 - B17: beaten, Takamaru warns history will repeat ("watch every step or you'll lose something big again") and
   escapes. Isuzu wakes unhurt but blames herself for failing to seal his Miasma; Yamura comforts her (branches by
   the player's reply: harsh words lead Yamura to ask her for the will never to give up).
+- B18: a library in search of Takamaru's past; the player picks Yamura's or Isuzu's half (choice B18.0113).
+  Yamura route: a picture book (Tamuramaro and Princess Suzuka beat the oni) and a study of Mt. Suzuka: Otakemaru,
+  a Heian rebel with demon power who planned a "demon nation", was killed by the young general Fujiwara no Toshimune
+  with the celestial maiden Suzuka Gozen, whom he married; Otakemaru revived and was killed again. Yamura admits he
+  half agrees with Takamaru and wishes Isuzu didn't have to fight. Isuzu route: she recalls how it began two months
+  ago (a cursed doll in a shrine; Enra saved them and woke their Power) and finds "The Legend of Akuro-o": the
+  Court branded frontier peoples like the Emishi savage rebels, just like Takamaru's Shade folk. Both routes: the
+  Kokon Chomonju says Toshimune later killed Suzuka Gozen for her oni nature; two men (Man on the Left/Right) speak
+  through the Word Spirits, calling it a Sin to deny words as lies, and raise an uprising of the Word Spirits; battle.

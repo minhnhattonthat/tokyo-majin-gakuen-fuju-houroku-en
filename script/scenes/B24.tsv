@@ -307,12 +307,12 @@ B24.0304	line		【伊涼】{rt}そんな呪いなんかで{rt}俊が命を落と
 B24.0305	line		【伊涼】{rt}その、すごく大きな部分が{rt}欠けちゃうんだ。		
 B24.0306	line		【伊涼】{rt}そんなの、私―――		
 B24.0307	line		【伊涼】{rt}我慢できないよ…。		
-B24.0308	line		【伊涼】{rt}{name1}くん…。		
-B24.0309	line		【伊涼】{rt}{name2}ちゃん…。		
+B24.0308	line		【伊涼】{rt}{name1}くん…。	【Isuzu】{rt}{name1}-kun...	
+B24.0309	line		【伊涼】{rt}{name2}ちゃん…。	【Isuzu】{rt}{name2}-chan...	
 B24.0310	line		【伊涼】{rt}たったこれだけの事じゃ、		
 B24.0311	line		【伊涼】{rt}《大罪》と闘う理由には{rt}ならないのかな？		
-B24.0312	line		【伊涼】{rt}{name1}くん…。		
-B24.0313	line		【伊涼】{rt}{name2}ちゃん…。		
+B24.0312	line		【伊涼】{rt}{name1}くん…。	【Isuzu】{rt}{name1}-kun...	
+B24.0313	line		【伊涼】{rt}{name2}ちゃん…。	【Isuzu】{rt}{name2}-chan...	
 B24.0314	line		【伊涼】{rt}私、嬉しい。		
 B24.0315	line		【伊涼】{rt}俊―――。	【Isuzu】{rt}Shun--	
 B24.0316	line		【伊涼】{rt}迷う事はないよ。		
@@ -324,8 +324,8 @@ B24.0321	line		【矢村】{rt}{name1}…。	【Yamura】{rt}{name1}...
 B24.0322	line		【矢村】{rt}お前はいつも真っ直ぐ先を{rt}見てるんだな。		
 B24.0323	line		【矢村】{rt}そして、いつも俺より先に{rt}答を得ている―――。		
 B24.0324	line		【矢村】{rt}そんな感じがするよ。		
-B24.0325	line		【伊涼】{rt}{name1}くん…。		
-B24.0326	line		【伊涼】{rt}{name2}ちゃん…。		
+B24.0325	line		【伊涼】{rt}{name1}くん…。	【Isuzu】{rt}{name1}-kun...	
+B24.0326	line		【伊涼】{rt}{name2}ちゃん…。	【Isuzu】{rt}{name2}-chan...	
 B24.0327	line		【伊涼】{rt}私、嬉しいよ。		
 B24.0328	line		【矢村】{rt}{name1}…。	【Yamura】{rt}{name1}...	
 B24.0329	line		【矢村】{rt}お前も伊涼に近い{rt}考えなんだな。		
@@ -341,15 +341,15 @@ B24.0338	line		【伊涼】{rt}俊の未来自体が{rt}なくなっちゃうん
 B24.0339	line		【矢村】{rt}…………。	【Yamura】{rt}............	
 B24.0340	line		【伊涼】{rt}大丈夫だよ…。		
 B24.0341	line		【伊涼】{rt}私たちがついてるから…。		
-B24.0342	line		【伊涼】{rt}{name1}くん…。		
-B24.0343	line		【伊涼】{rt}{name2}ちゃん…。		
+B24.0342	line		【伊涼】{rt}{name1}くん…。	【Isuzu】{rt}{name1}-kun...	
+B24.0343	line		【伊涼】{rt}{name2}ちゃん…。	【Isuzu】{rt}{name2}-chan...	
 B24.0344	line		【矢村】{rt}{name1}―――。	【Yamura】{rt}{name1}--	
 B24.0345	line		【矢村】{rt}お前も俺と同じように{rt}迷っていたのか？		
 B24.0346	line		【矢村】{rt}俺にはそうは見えなかった。		
 B24.0347	line		【矢村】{rt}お前にはいつも、		
 B24.0348	line		【矢村】{rt}真っ直ぐな先が見えている{rt}のかと思っていたよ。		
-B24.0349	line		【伊涼】{rt}{name1}くん…。		
-B24.0350	line		【伊涼】{rt}{name2}ちゃん…。		
+B24.0349	line		【伊涼】{rt}{name1}くん…。	【Isuzu】{rt}{name1}-kun...	
+B24.0350	line		【伊涼】{rt}{name2}ちゃん…。	【Isuzu】{rt}{name2}-chan...	
 B24.0351	line		【矢村】{rt}…すまない。		
 B24.0352	line		【矢村】{rt}闘う理由というものを何かしら{rt}つかんでいるお前には、		
 B24.0353	line		【矢村】{rt}俺の迷いなんてのは{rt}じれったいだけだよな。		

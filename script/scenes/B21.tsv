@@ -34,7 +34,7 @@ B21.0031	line		【伊涼】{rt}そして、その後も私が何度も{rt}見た
 B21.0032	line		【伊涼】{rt}もうすぐ、高丸の声が{rt}聞こえてくるはず―――。		
 B21.0033	line		【男の声】{rt}さ、寒い―――。		
 B21.0034	line		【矢村】{rt}―――！？	【Yamura】{rt}--!?	
-B21.0035	line		【伊涼】{rt}えッ―――！？		
+B21.0035	line		【伊涼】{rt}えッ―――！？	【Isuzu】{rt}Huh--!?	
 B21.0036	line		【男の声】{rt}さ、寒い―――。		
 B21.0037	line		【伊涼】{rt}違うッ。		
 B21.0038	line		【伊涼】{rt}高丸の声じゃない！！		
@@ -229,11 +229,11 @@ B21.0226	line		【伊涼】{rt}ふたりは、闘う《力》を{rt}持ってる
 B21.0227	line		【伊涼】{rt}私がいなくたって大丈夫――。		
 B21.0228	line		【矢村】{rt}伊涼ッ！！	【Yamura】{rt}Isuzu!!	
 B21.0229	line		【矢村】{rt}馬鹿な事をいうなッ！！		
-B21.0230	line		【伊涼】{rt}お願い。		
+B21.0230	line		【伊涼】{rt}お願い。	【Isuzu】{rt}Please.	
 B21.0231	line		【伊涼】{rt}{name1}くん。符を―――		
 B21.0232	line		【伊涼】{rt}{name2}ちゃん。符を―――		
-B21.0233	line		【伊涼】{rt}{name1}くん…。		
-B21.0234	line		【伊涼】{rt}{name2}ちゃん…。		
+B21.0233	line		【伊涼】{rt}{name1}くん…。	【Isuzu】{rt}{name1}-kun...	
+B21.0234	line		【伊涼】{rt}{name2}ちゃん…。	【Isuzu】{rt}{name2}-chan...	
 B21.0235	line		【優鉢羅】{rt}分かればそれで良い。		
 B21.0236	line		【矢村】{rt}{name1}、お前―――。		
 B21.0237	line		【優鉢羅】{rt}自分の《生》のために{rt}仲間を売る―――。		
