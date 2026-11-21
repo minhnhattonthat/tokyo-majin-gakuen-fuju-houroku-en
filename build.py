@@ -4,9 +4,9 @@
     python -X utf8 build.py --identity     # also fail unless the output is byte-identical to the dump
 
 Steps: check the dump against rom.sha1, unpack every story scene (tools/scenes.py) and every pointed system string
-(tools/strslots.py), repack them, write the ROM. With no translations yet (phase 3) the output must equal the dump:
-that proves the scene serializer (label offsets, padding, table A/B repointing) and the string slot writer before
-any English goes in. Text insertion hooks in here in phase 4/7.
+(tools/strslots.py), put in each one's text from script/*.tsv (`en` where translated, else `jp`; tools/extract.py),
+repack them, write the ROM. With no `en` yet the output must equal the dump: that proves the scene serializer
+(label offsets, padding, table A/B repointing), the string slot writer and the script codec before English goes in.
 """
 import argparse
 import hashlib
@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / 'tools'))
 
 import check_rom  # noqa: E402
+import extract  # noqa: E402
 import scenes  # noqa: E402
 import strslots  # noqa: E402
 
@@ -24,12 +25,21 @@ BASE = ROOT / 'rom' / 'base.gba'
 OUT = ROOT / 'build' / 'tmgfh_en.gba'
 
 
-def build(orig):
-    """return the rebuilt ROM bytes from the original dump bytes"""
+def build(orig, script=None):
+    """return the rebuilt ROM bytes from the original dump bytes and the script rows ({id: row}, extract.load())"""
+    script = extract.load() if script is None else script
     rom = bytearray(orig)
-    scenes.pack(rom, scenes.parse_all(orig))
+    names = extract.scene_names(orig)
+    scs = scenes.parse_all(orig)
+    for sc in scs:
+        n = 0
+        for t in sc.toks:
+            if t.kind != 'op':
+                t.text = extract.text_for(script['%s.%04d' % (names[sc.addr], n)])
+                n += 1
+    scenes.pack(rom, scs)
     for s in strslots.scan(orig):
-        strslots.write(rom, s, s.text)
+        strslots.write(rom, s, extract.text_for(script['%06X' % s.addr]))
     return bytes(rom)
 
 

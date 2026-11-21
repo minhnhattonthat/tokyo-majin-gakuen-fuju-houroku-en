@@ -26,7 +26,7 @@ Argument counts are the digits shown; prove each with the marker build before th
 ## Regions and pointers
 | range | content | pointers |
 |---|---|---|
-| 0xCF1300-0xCF8000 | system / menu / card-rule strings (990 pointed slots, `tools/strslots.py`) mixed with byte tables | direct u32 `0x08xxxxxx` pointers (verified: 0xCF1318 <- 0xD7A740); most sites in 0xD7A000-0xD7DFFF, a few code literals; some hits from graphics are noise (land mid-string) |
+| 0xCF12F0-0xCF8000 | system / menu / card-rule strings (991 pointed slots, `tools/strslots.py`) mixed with byte tables | direct u32 `0x08xxxxxx` pointers (verified: 0xCF1318 <- 0xD7A740); most sites in 0xD7A000-0xD7DFFF, a few code literals; some hits from graphics are noise (land mid-string) |
 | 0xD16800-0xD1C000 | misc strings (44) | direct u32 pointers (43 of 44) |
 | 0xD63000-0xD7A000 | tutorial scripts, card text, names (緋勇 0xD79188, 龍麻 0xD79190), kana grid 0xD72FCC | tables at 0xE5F56C (408 entries, read from code at 0xD184/0xD1B0), 0xE61108, 0xE613BC, 0xE6147C, 0xE61538, 0xE615D8; struct pointers inside 0xD63xxx |
 | **0xD82324-0xE2A3xx** | **story scenes: 170 scenes, ~12 000 lines** | scene table A 0xD8211C (130 u32, ascending, literal at 0x5E378), table B 0xD82078 (40 u32, literal at 0x5E2F0). Pointers are 2-byte aligned |
@@ -49,6 +49,24 @@ Argument counts are the digits shown; prove each with the marker build before th
   (`scenes.pack(..., regions)`); the spill region needs the phase 7 trap test first.
 - Nothing but tables A/B points into the scenes (scan of every aligned u32: two hits, both mid-string noise).
 - Largest scene body 0xDF62C2, 40 740 bytes; label offsets are u16, so one scene can grow to 64 KiB.
+
+### Extraction (phase 4, verified by `tests/test_extract.py`)
+- `tools/extract.py` writes `script/scenes/<B05|A3.2>.tsv` (170 files, 14 526 lines + 21 choices) and
+  `script/system/{cf,d1,d6}.tsv` (2 677 pointed strings); notation in `tools/textcodec.py` (`{rt}`, `{nl}`,
+  `{name1}`, `{I000}`, `{&Sx0}`, `[XX]`). Every string re-encodes byte-exactly; build from the files = the dump.
+- Codes seen: `rt wc wk wd dc pp xn yn Innn`, `&xNN &yNN &XNN &zNN &Sx0 &Sy0 &Sz0 &NX0 &NY0 &Ny0`, `0A 0D`,
+  `01 00`, `02 00`. Literal ASCII in Japanese text: only `!!` (0xD6B120). `xn`/`yn` (0xD64BB4.., name lists) are a
+  guess. One non-canonical cp932 code: `FB B3` (﨤) in the staff roll, B39.0020, kept as `[FB][B3]`.
+- `strslots` additions found by the coverage scan: range 1 starts at 0xCF12F0 (pointed from 0xD7A744); text
+  embedded in structs after non-zero header bytes is taken when its pointer site is in code, the 0xD7A000 menu
+  tables, the 0xE5F000-0xE62000 text tables or a text range (12 strings: 0xD16820, 0xD16A40, 0xD645E4, 0xD678D4,
+  0xD6E3D4, 0xD6E56C, 0xD72434, 0xD725EC, 0xD7269C, 0xD78E04, 0xD78F44). A word pointing inside an accepted string
+  becomes an alias of it, not a slot: only 0xCF4DC -> 0xD7080C+2 (`【睡眠】`+2; code area, unverified, check before
+  relocating that string).
+- Not text: name-entry kana grid 0xD16740-0xD16800 (u16 little-endian Shift-JIS codes, pointed from code 0x9DE8;
+  English name entry needs it in phase 5/8); fullwidth digit table 0x64A20 (`０１２３４５６７８９`, number display).
+- Coverage: no kana-heavy run in 0x0-0x100000 or 0xCF0000-0xE62000 lies outside the extracted units except the
+  waived data above (`uncovered_runs`, run against the original ROM).
 
 ## Free space
 - **0xE61678-0xFE0000 (0x17E988 bytes of 0xFF)**: candidate. No code literal points into it (aligned scan hits are

@@ -2,15 +2,25 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 4. Extract (not started). Last build: `build/tmgfh_en.gba` 2026-11-22, sha1 8d9efb85a8f2..
-  (identical to the dump), smoke ok.
-- **Done:** Phase 3 identity build (2026-11-22): `build.py [--identity]` unpacks and repacks all 170 story scenes
+- **Phase:** 5. Engine spike and marker build (not started). Last build: `build/tmgfh_en.gba` 2026-11-22, sha1
+  8d9efb85a8f2.. (built from `script/`, identical to the dump), smoke ok.
+- **Done:** Phase 4 extract (2026-11-22): `tools/extract.py` -> `script/scenes/<B05|A3.2>.tsv` (170 files, 14 526
+  lines + 21 choices) and `script/system/{cf,d1,d6}.tsv` (2 677 pointed strings), columns `id kind max jp en notes`,
+  notation `tools/textcodec.py` (Shift-JIS plus `{rt}` `{nl}` `{name1}` `{I000}` `{&Sx0}` .., other bytes `[XX]`).
+  `build.py` inserts `en` (else `jp`) from the files; the build from untranslated files equals the dump.
+  `tests/test_extract.py`: codec roundtrip on every string, files equal a fresh extract, one row per unit, no
+  uncovered kana-heavy run in code or the text banks (waivers: name-entry grid, three noise tables), `en` really
+  lands in the ROM, slot overflow raises. The coverage scan found 13 strings `strslots` had skipped (range 1 starts
+  at 0xCF12F0; struct-embedded text pointed from code / text tables) and one alias (0xCF4DC -> 0xD7080C+2). Details
+  in `docs/re/text.md` §Extraction. 3 040 rows repeat an earlier `jp` (14 184 distinct): reuse translations by id
+  in phase 6.
+- **Done before:** Phase 3 identity build (2026-11-22): `build.py [--identity]` unpacks and repacks all 170 story scenes
   (`tools/scenes.py`: full opcode table, 14 526 lines + 21 choice menus, label offsets recomputed, tables A/B
   repointed, multi-region packing) and 2 665 pointed system string slots (`tools/strslots.py`, three ranges);
   output byte-identical, `tests/test_identity.py` (also: a lengthened / shortened line re-parses equal and spills
   the last scene into a second region). In game: a build with every scene shifted by 2 bytes played B05 and A3.2
   normally. Scene format and opcode lengths in `docs/re/text.md`.
-- **Done before:** Step 0. Phase 1 recon (`docs/re/text.md`, `docs/re/graphics.md`). Phase 2 debug tool:
+  Before that: Step 0. Phase 1 recon (`docs/re/text.md`, `docs/re/graphics.md`). Phase 2 debug tool:
   `tools/debug/warp.py` + `warp.lua` + `scenes.tsv` (194 rows: all 40 chapter scenes, all 130 event scenes, every
   game mode screen, title submenus with and without a save, name entry, hub save prompt, both endings with the staff
   roll and the 完 card). `warp.py --all --states` passes every row from a cold boot (194/194 on 2026-11-22; each
@@ -21,13 +31,16 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `test` loads it through 続きから (chapter-17 save renamed 山田 太郎 loads clean). Game state notes in
   `docs/re/game.md`; warp-reached screens added to `docs/re/graphics.md` as rows W1-W15. Probes: `varlog.lua`,
   `scenelog.lua`, `ramat.lua`, `poke.lua`, `loadcheck.lua`.
-- **Next:** phase 4, extract to `script/` (one file per scene / string range) on top of `scenes.parse_all` and
-  `strslots.scan`, with a `tbl.py` table for Shift-JIS plus the codes (`rt`, `wc`, `Innn`, `&..`, 01 00 / 02 00
-  name variables), roundtrip and coverage tests. Open questions for phase 4: `strslots` takes a pointed string only
-  if it decodes as text, so check the ranges for unpointed text (struct pointers inside 0xD63xxx, tables 0xE61108..)
-  and for aliases (pointers into the middle of a string, e.g. 0xD1AA04/0xD1AA24); verify pointer sites before any
-  relocation (some hits come from graphics). The scene region has no slack: longer English needs the spill region
-  (free-space candidate 0xE61678+, trap-test in phase 7).
+- **Next:** phase 5, engine spike and marker build (`references/pipeline.md` §Marker, `platform-gba.md`): find the
+  dialogue / menu draw routine and glyph size (font 0xC6FB48-0xCE5748, glyphs drawn into BG VRAM at runtime), decide
+  the English font path (VWF hook vs half-width glyphs). The encoder must not let English letters form the inline
+  codes (`rt`, `wc`, `dc`, `pp`, `xn`, `I` + 3 digits, `&`..): the game reads them anywhere in a string, so plain
+  ASCII "start" would break a line; the font decision settles the byte form. Then a marker build (`[id]` in every
+  line, from `script/` via a marker `en`), flag non-text slots (candidates: layout strings like 0xD6E56C `ー　　　　`,
+  debug text 0xD6E3D4 `同期テスト中`), measure every box variant's width in game (the width gate). Carry-overs: the
+  scene region has no slack, so longer English needs the spill region (free-space candidate 0xE61678+, trap-test in
+  phase 7); verify every slot's pointer sites before relocating (alias 0xCF4DC unverified); English name entry needs
+  the u16 kana grid at 0xD16740.
 - **Gaps in the debug tool (non-blocking, close before phase 8):** the defeat / rematch screen (敗北 banner S9,
   再戦する 終了する) is not reached: battle life candidates and the poke test in `docs/re/game.md`. No normal path to
   the sound test found (`sound_test` warps straight to mode 20). Save fields beyond names and chapter (cards, deck,

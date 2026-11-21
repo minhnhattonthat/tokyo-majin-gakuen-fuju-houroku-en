@@ -4,6 +4,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 
 ## Commands (run from repo root)
 - Build:    `python -X utf8 build.py` -> build/tmgfh_en.gba (checks the dump against `rom.sha1` first; `--identity` fails unless the output equals the dump)
+- Extract:  `python -X utf8 tools/extract.py [--check|--force]` -> `script/` (writes missing files only; `--force` keeps `en`/`notes`)
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this; `git config core.hooksPath tools/hooks` after cloning)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/tmgfh_en.gba --out work/qa/smoke --route tools/routes/boot.txt --smoke`
 - Warp:     `python -X utf8 tools/debug/warp.py <name|B05|A3.2|MODE17> [--rom build/tmgfh_en.gba] [--mash 40]` -> work/qa/warp/<name>/sheet.png; `--all --states` runs every row of `tools/debug/scenes.tsv` and regenerates `work/states/` (never ask the user to play to a scene)
@@ -13,7 +14,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 
 ## Paths
 - Original ROM: `rom/Tokyo Majin Gakuen - Fuju Houroku (Japan).gba` (gitignored; SHA-1 in `rom.sha1`, checked by `tools/check_rom.py`). `rom/base.gba` is a same-bytes copy for space-free command lines. Emulator: this repo's own MesenCE in `tools/mesen/` (release qa-1, https://github.com/minhnhattonthat/MesenCE/releases/tag/qa-1, fetched by `$SKILL/scripts/fetch_emu.py mesen` + `gba-bios`; gitignored). Savestates: `work/states/`.
-- Text: `script/` (TSV). Tables: `tbl/`. Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
+- Text: `script/` (TSV `id kind max jp en notes`; notation in `tools/textcodec.py`). Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
 
 ## Rulings
 - Edit source files (.py .lua .asm .tbl .json) only with the file-edit tool; scripts here read and analyse, never `.replace()` and write back.

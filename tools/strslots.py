@@ -10,11 +10,19 @@ must be verified first: graphics bytes can look like pointers), so `write` raise
 """
 import struct
 import sys
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
-RANGES = [(0xCF1300, 0xCF8000),    # system / menu / card-rule strings
-          (0xD16800, 0xD1C000),    # haiku game, sound test, misc
+RANGES = [(0xCF12F0, 0xCF8000),    # system / menu / card-rule strings (first one, 0xCF12F0, pointed from 0xD7A744)
+          (0xD16800, 0xD1C000),    # haiku game, sound test, misc (0xD16740-0xD16800 before it: name-entry grid, u16 data)
           (0xD63000, 0xD7A000)]    # tutorial scripts, card text, names
+
+# Pointer sites trusted to point at text even when the byte before the target isn't 00 (text embedded in a struct
+# after header bytes, e.g. 0xD678D4 <- 0xE60058, 0xD72434 <- code literal 0x48804). Sites elsewhere (graphics)
+# produce false hits that land mid-string, at odd offsets.
+TRUSTED = [(0x000000, 0x0E0000),   # code and its literal pools
+           (0xD7A000, 0xD7E000),   # menu string tables
+           (0xE5F000, 0xE62000)]   # tutorial / card text tables (0xE5F56C, 0xE60xxx, 0xE61108..0xE616xx)
+TRUSTED += RANGES                  # struct pointers inside the text ranges themselves
 
 
 @dataclass
@@ -23,7 +31,7 @@ class Slot:
     cap: int          # bytes the slot may hold, NUL included
     text: bytes       # without the NUL
     refs: list        # ROM offsets of the u32 words pointing here
-
+    aliases: list = field(default_factory=list)   # (site, byte offset into text) of words pointing mid-string
 
 def is_text(b):
     """bytes before a NUL look like game text: valid Shift-JIS / ASCII, at least one double-byte char"""
@@ -66,7 +74,7 @@ def scan(d):
     slots = []
     for t, sites in sorted(pointer_sites(d).items()):
         lo = next(a for a, b in RANGES if a <= t < b)
-        if t > lo and d[t - 1] != 0:
+        if t > lo and d[t - 1] != 0 and (t & 1 or not any(a <= s < b for s in sites for a, b in TRUSTED)):
             continue
         e = d.index(b'\0', t)
         if not is_text(d[t:e]):
@@ -74,6 +82,10 @@ def scan(d):
         end = e + 1
         while end & 3 and d[end] == 0:
             end += 1
+        if slots and t <= slots[-1].addr + len(slots[-1].text):
+            # inside the previous string: an alias (or a chance word in code), never a slot of its own
+            slots[-1].aliases += [(s, t - slots[-1].addr) for s in sites]
+            continue
         slots.append(Slot(t, end - t, d[t:e], sites))
     # a slot never runs into the next pointer target
     for a, b in zip(slots, slots[1:]):
