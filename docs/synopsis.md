@@ -75,3 +75,13 @@ session; translators read it before their batch.
 - B15: the beaten assassin says Isuzu went to "the land where grudges sleep, below the sixty-tiered tower" to
   become her true self. Yamura reads it as Sunshine 60 over Ikebukuro (old Sugamo Prison), blames himself, and asks
   the player to come. In Ikebukuro, vengeful voices of "the clan of Mt. Oe" attack him as Toshimune; battle.
+- B16: the Mt. Oe voices were Shuten and Tamamo, souls revived from Uji's treasure house. Takamaru shows Yamura the
+  war of 1200 years ago: outcasts ("the Unyielding") branded the Shade by villagers who called themselves the Light;
+  their hatred became curses and Power; Shade warred on Light (Omi, Mt. Suzuka, Ezo). Underground, with Isuzu asleep,
+  Takamaru names Yamura the reincarnation of Fujiwara no Toshimune, the Oni-Hunter General who took his head three
+  times and killed his daughter, and Isuzu the reincarnation of Suzuka Gozen, the Oni Princess who betrayed the
+  Shade for Toshimune. He argues the Great Sin is simply the Power of today's oppressed Shade folk, tells the player
+  "you're no soul of this world" and an outsider; battle.
+- B17: beaten, Takamaru warns history will repeat ("watch every step or you'll lose something big again") and
+  escapes. Isuzu wakes unhurt but blames herself for failing to seal his Miasma; Yamura comforts her (branches by
+  the player's reply: harsh words lead Yamura to ask her for the will never to give up).

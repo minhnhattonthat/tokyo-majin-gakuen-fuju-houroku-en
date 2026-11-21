@@ -261,6 +261,11 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   thee!". 妖 (あやかし) -> demon. 六十重の塔 -> the sixty-tiered tower (= Sunshine 60). 巣鴨監獄 -> Sugamo Prison.
   大江山 -> Mt. Oe. 魂魄 -> souls. 勧請ッ！ -> "Summoning!"; 氏神・{name1}大明神 -> "Ujigami, Great Deity {name1}!".
   Takamaru says 己 (おれ) = plain "I/me"; his Woman's Voice laughs くふふ = "Kuh-huhu". 《影》 -> Shadow.
+- b054-b056 (B16-B17): 《陰（かげ）》/《陰》 -> the Shade, 《陽（ひかり）》/《陽》 -> the Light, 《陰の者》 -> Shade folk,
+  《陽の者》 -> Light folk, 《陰の氣》 -> Shade Ki. 《従わぬ者》 -> the Unyielding. 《何か》 -> Thing. 鬼狩り将軍 ->
+  Oni-Hunter General. 転生 -> reincarnation. 《星》 -> Star. 《魂》 -> Soul. 《悪》 -> Evil. 《正義》 -> Justice.
+  《仲間》 -> Comrade. シュテン / タマモ -> Shuten / Tamamo; 宇治の宝蔵 -> the treasure house of Uji. 近江 Omi,
+  鈴鹿山 Mt. Suzuka, 蝦夷 Ezo. Takamaru's past is "1200 years ago".
 - A12.4.0038/0043 and A12.9.0057 start `【【` (a JP typo); merge tags them normally.
 - The only row whose JP holds two boxes (`...{rt}{rt}【X】{rt}...`) is B11.0121:
   the batch check wants the repeated speaker name in the English, so put `【X】` in the body to pass, then after

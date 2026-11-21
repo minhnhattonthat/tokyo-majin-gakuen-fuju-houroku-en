@@ -103,7 +103,7 @@ B24.0100	line		【矢村】{rt}行くな、伊涼。
 B24.0101	line		【矢村】{rt}今、行くのは―――		
 B24.0102	line		【矢村】{rt}危険かもしれない…。		
 B24.0103	line		【伊涼】{rt}そんな…。		
-B24.0104	line		【矢村】{rt}伊涼―――。		
+B24.0104	line		【矢村】{rt}伊涼―――。	【Yamura】{rt}Isuzu--	
 B24.0105	line		【矢村】{rt}すまない。		
 B24.0106	line		【矢村】{rt}本当に信じていいものとは{rt}一体何なのかが、		
 B24.0107	line		【矢村】{rt}俺にはまだ分からない…。		
@@ -243,7 +243,7 @@ B24.0240	line		【クマソ】{rt}くくくッ。
 B24.0241	line		【クマソ】{rt}そうなれば、意図せずとも、		
 B24.0242	line		【クマソ】{rt}お前の足は勝手に{rt}首塚へと向かう。		
 B24.0243	line		【クマソ】{rt}《生け贄》としてな。		
-B24.0244	line		【矢村】{rt}くッ―――。		
+B24.0244	line		【矢村】{rt}くッ―――。	【Yamura】{rt}Ngh--	
 B24.0245	line		【伊涼】{rt}そんなッ！！		
 B24.0246	line		【クマソ】{rt}ま、そういう訳だ。		
 B24.0247	line		【クマソ】{rt}どうせ捧げるなら、相手に{rt}喜ばれたほうが得だぞ？		
@@ -253,7 +253,7 @@ B24.0250	line		【伊涼】{rt}俊ッ。	【Isuzu】{rt}Shun!
 B24.0251	line		【矢村】{rt}―――。		
 B24.0252	line		【伊涼】{rt}迷ってられない。闘おう、俊。		
 B24.0253	line		【伊涼】{rt}闘って、呪いを解こう？		
-B24.0254	line		【矢村】{rt}伊涼―――。		
+B24.0254	line		【矢村】{rt}伊涼―――。	【Yamura】{rt}Isuzu--	
 B24.0255	line		【矢村】{rt}…だめだ。		
 B24.0256	line		【矢村】{rt}だめなんだッ。		
 B24.0257	line		【伊涼】{rt}俊ッ！！	【Isuzu】{rt}Shun!!	
@@ -276,14 +276,14 @@ B24.0273	line		【矢村】{rt}《大罪》は人間の生むものだ。
 B24.0274	line		【矢村】{rt}それに対して他方を悪と{rt}決め付けるような考えで		
 B24.0275	line		【矢村】{rt}立ち向かうのは、		
 B24.0276	line		【矢村】{rt}あの高丸と変わらないッ。		
-B24.0277	line		【高丸】{rt}決して《陰》に交わらぬ―――		
-B24.0278	line		【高丸】{rt}それが貴様ら、《陽の者》だ。		
-B24.0279	line		【高丸】{rt}己が大願を成すためには{rt}貴様らを斃さねばならない。		
-B24.0280	line		【高丸】{rt}死んでいった{rt}《陰の者》たち―――		
+B24.0277	line		【高丸】{rt}決して《陰》に交わらぬ―――	【Takamaru】{rt}Never mingling with the Shade--	
+B24.0278	line		【高丸】{rt}それが貴様ら、《陽の者》だ。	【Takamaru】{rt}that's what you Light folk are.	
+B24.0279	line		【高丸】{rt}己が大願を成すためには{rt}貴様らを斃さねばならない。	【Takamaru】{rt}To fulfil my great wish, I must bring{rt}you down.	
+B24.0280	line		【高丸】{rt}死んでいった{rt}《陰の者》たち―――	【Takamaru】{rt}For the Shade folk who died--	
 B24.0281	line		【高丸】{rt}そして、{rt}己の娘の魂のためにも…		
-B24.0282	line		【高丸】{rt}俊宗―――		
-B24.0283	line		【高丸】{rt}己は貴様を{rt}許しはしないぞッ！！		
-B24.0284	line		【高丸】{rt}絶対になあッ！！		
+B24.0282	line		【高丸】{rt}俊宗―――	【Takamaru】{rt}Toshimune--	
+B24.0283	line		【高丸】{rt}己は貴様を{rt}許しはしないぞッ！！	【Takamaru】{rt}I will never forgive you!!	
+B24.0284	line		【高丸】{rt}絶対になあッ！！	【Takamaru】{rt}Never!!	
 B24.0285	line		【矢村】{rt}それでも一時は《大罪》を{rt}鎮められるかもしれない。		
 B24.0286	line		【矢村】{rt}しかし、それはいずれ{rt}善と悪の対立を生み、		
 B24.0287	line		【矢村】{rt}悪と決め付けられた者―――		

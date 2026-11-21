@@ -1,81 +1,81 @@
 id	kind	max	jp	en	notes
-B17.0000	line		【高丸】{rt}ぐうッ―――！！		
-B17.0001	line		【高丸】{rt}…畜生、いい腕だぜ。		
-B17.0002	line		【矢村】{rt}伊涼を返せ、高丸ッ！！		
-B17.0003	line		【高丸】{rt}くく…。		
-B17.0004	line		【高丸】{rt}伊涼が必要か？		
-B17.0005	line		【高丸】{rt}己にトドメを刺すために―――		
-B17.0006	line		【高丸】{rt}俊宗と同じ方法で{rt}己を討つためにッ。		
-B17.0007	line		【矢村】{rt}くッ―――。		
-B17.0008	line		【高丸】{rt}聞け、俊宗の転生よッ！！		
-B17.0009	line		【高丸】{rt}歴史は繰り返す。		
-B17.0010	line		【高丸】{rt}己はもう一度復活するだろう。		
-B17.0011	line		【高丸】{rt}断言してもいい。		
-B17.0012	line		【高丸】{rt}貴様と己は、近い未来、{rt}もう一度刃を交える。		
-B17.0013	line		【高丸】{rt}だが、己の首を刎ねるまでは		
-B17.0014	line		【高丸】{rt}一歩一歩を慎重に{rt}歩む事だなッ。		
-B17.0015	line		【矢村】{rt}何の事だッ？		
-B17.0016	line		【高丸】{rt}くくく―――。		
-B17.0017	line		【高丸】{rt}聞いてのとおりさ。		
-B17.0018	line		【高丸】{rt}そうしなければ、{rt}貴様はまた―――		
-B17.0019	line		【高丸】{rt}大きなものを失う事に{rt}なるぜッ。		
-B17.0020	line		【矢村】{rt}な―――何だと！？		
-B17.0021	line		【高丸】{rt}俊宗の血よ―――。		
-B17.0022	line		【高丸】{rt}…覚えておれッ。		
-B17.0023	line		【矢村】{rt}―――くッ。		
-B17.0024	line		【矢村】{rt}高丸…。		
+B17.0000	line		【高丸】{rt}ぐうッ―――！！	【Takamaru】{rt}Gugh--!!	
+B17.0001	line		【高丸】{rt}…畜生、いい腕だぜ。	【Takamaru】{rt}...Damn, you're good.	
+B17.0002	line		【矢村】{rt}伊涼を返せ、高丸ッ！！	【Yamura】{rt}Give Isuzu back, Takamaru!!	
+B17.0003	line		【高丸】{rt}くく…。	【Takamaru】{rt}Heh heh...	
+B17.0004	line		【高丸】{rt}伊涼が必要か？	【Takamaru】{rt}You need Isuzu?	
+B17.0005	line		【高丸】{rt}己にトドメを刺すために―――	【Takamaru】{rt}To finish me off--	
+B17.0006	line		【高丸】{rt}俊宗と同じ方法で{rt}己を討つためにッ。	【Takamaru】{rt}to strike me down the same way{rt}Toshimune did?	
+B17.0007	line		【矢村】{rt}くッ―――。	【Yamura】{rt}Ngh--	
+B17.0008	line		【高丸】{rt}聞け、俊宗の転生よッ！！	【Takamaru】{rt}Listen, Toshimune reborn!!	
+B17.0009	line		【高丸】{rt}歴史は繰り返す。	【Takamaru】{rt}History repeats itself.	
+B17.0010	line		【高丸】{rt}己はもう一度復活するだろう。	【Takamaru】{rt}I will be revived once again.	
+B17.0011	line		【高丸】{rt}断言してもいい。	【Takamaru】{rt}I can promise you that.	
+B17.0012	line		【高丸】{rt}貴様と己は、近い未来、{rt}もう一度刃を交える。	【Takamaru】{rt}You and I will cross blades again in the{rt}near future.	
+B17.0013	line		【高丸】{rt}だが、己の首を刎ねるまでは	【Takamaru】{rt}But until you take my head,	
+B17.0014	line		【高丸】{rt}一歩一歩を慎重に{rt}歩む事だなッ。	【Takamaru】{rt}you'd better watch every step you{rt}take.	
+B17.0015	line		【矢村】{rt}何の事だッ？	【Yamura】{rt}What do you mean?	
+B17.0016	line		【高丸】{rt}くくく―――。	【Takamaru】{rt}Heh heh heh--	
+B17.0017	line		【高丸】{rt}聞いてのとおりさ。	【Takamaru】{rt}Just what I said.	
+B17.0018	line		【高丸】{rt}そうしなければ、{rt}貴様はまた―――	【Takamaru】{rt}Otherwise, you'll lose--	
+B17.0019	line		【高丸】{rt}大きなものを失う事に{rt}なるぜッ。	【Takamaru】{rt}something big once again.	
+B17.0020	line		【矢村】{rt}な―――何だと！？	【Yamura】{rt}Wh--what!?	
+B17.0021	line		【高丸】{rt}俊宗の血よ―――。	【Takamaru】{rt}Blood of Toshimune--	
+B17.0022	line		【高丸】{rt}…覚えておれッ。	【Takamaru】{rt}...remember this.	
+B17.0023	line		【矢村】{rt}―――くッ。	【Yamura】{rt}--Ngh.	
+B17.0024	line		【矢村】{rt}高丸…。	【Yamura】{rt}Takamaru...	
 B17.0025	line		【矢村】{rt}伊涼ッ。	【Yamura】{rt}Isuzu!	
 B17.0026	line		【矢村】{rt}伊涼ッ！！	【Yamura】{rt}Isuzu!!	
 B17.0027	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
 B17.0028	line		【矢村】{rt}…………。	【Yamura】{rt}............	
 B17.0029	line		【伊涼】{rt}う―――。	【Isuzu】{rt}Ugh--	
-B17.0030	line		【矢村の声】{rt}伊涼ッ…。		
-B17.0031	line		【矢村の声】{rt}伊涼ッ！！		
-B17.0032	line		【伊涼】{rt}（ん―――。）		
-B17.0033	line		【伊涼】{rt}（えッ―――？）		
+B17.0030	line		【矢村の声】{rt}伊涼ッ…。	【Yamura's Voice】{rt}Isuzu...	
+B17.0031	line		【矢村の声】{rt}伊涼ッ！！	【Yamura's Voice】{rt}Isuzu!!	
+B17.0032	line		【伊涼】{rt}（ん―――。）	【Isuzu】{rt}(Mm--)	
+B17.0033	line		【伊涼】{rt}（えッ―――？）	【Isuzu】{rt}(Huh--?)	
 B17.0034	line		【矢村】{rt}伊涼ッ！！	【Yamura】{rt}Isuzu!!	
-B17.0035	line		【矢村】{rt}無事かッ！？		
-B17.0036	line		【矢村】{rt}怪我は！？		
+B17.0035	line		【矢村】{rt}無事かッ！？	【Yamura】{rt}Are you all right!?	
+B17.0036	line		【矢村】{rt}怪我は！？	【Yamura】{rt}Are you hurt!?	
 B17.0037	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
-B17.0038	line		【矢村】{rt}どうなんだ！？		
-B17.0039	line		【矢村】{rt}どこか痛いとこは―――！？		
-B17.0040	line		【伊涼】{rt}…もう。		
-B17.0041	line		【伊涼】{rt}少し、落ちついて。		
-B17.0042	line		【矢村】{rt}あッ―――。		
-B17.0043	line		【矢村】{rt}ああ…悪い…。		
-B17.0044	line		【伊涼】{rt}私なら大丈夫。		
-B17.0045	line		【伊涼】{rt}術で眠らされたせいで、{rt}少し頭がぼんやりするけど…		
-B17.0046	line		【伊涼】{rt}それだけ。		
-B17.0047	line		【矢村】{rt}そうか…。		
-B17.0048	line		【矢村】{rt}良かった。		
-B17.0049	line		【伊涼】{rt}―――俊。		
-B17.0050	line		【伊涼】{rt}あいつは？		
-B17.0051	line		【矢村】{rt}高丸は―――		
-B17.0052	line		【矢村】{rt}…逃げたよ。		
-B17.0053	line		【伊涼】{rt}そう…。		
+B17.0038	line		【矢村】{rt}どうなんだ！？	【Yamura】{rt}Well!?	
+B17.0039	line		【矢村】{rt}どこか痛いとこは―――！？	【Yamura】{rt}Does anything hurt--!?	
+B17.0040	line		【伊涼】{rt}…もう。	【Isuzu】{rt}...Geez.	
+B17.0041	line		【伊涼】{rt}少し、落ちついて。	【Isuzu】{rt}Calm down a little.	
+B17.0042	line		【矢村】{rt}あッ―――。	【Yamura】{rt}Ah--	
+B17.0043	line		【矢村】{rt}ああ…悪い…。	【Yamura】{rt}Y-yeah... sorry...	
+B17.0044	line		【伊涼】{rt}私なら大丈夫。	【Isuzu】{rt}I'm fine.	
+B17.0045	line		【伊涼】{rt}術で眠らされたせいで、{rt}少し頭がぼんやりするけど…	【Isuzu】{rt}My head's a little foggy from the{rt}sleeping spell, but...	
+B17.0046	line		【伊涼】{rt}それだけ。	【Isuzu】{rt}that's all.	
+B17.0047	line		【矢村】{rt}そうか…。	【Yamura】{rt}I see...	
+B17.0048	line		【矢村】{rt}良かった。	【Yamura】{rt}Thank goodness.	
+B17.0049	line		【伊涼】{rt}―――俊。	【Isuzu】{rt}--Shun.	
+B17.0050	line		【伊涼】{rt}あいつは？	【Isuzu】{rt}What about him?	
+B17.0051	line		【矢村】{rt}高丸は―――	【Yamura】{rt}Takamaru--	
+B17.0052	line		【矢村】{rt}…逃げたよ。	【Yamura】{rt}...got away.	
+B17.0053	line		【伊涼】{rt}そう…。	【Isuzu】{rt}I see...	
 B17.0054	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
-B17.0055	line		【伊涼】{rt}高丸からは、強烈な《邪氣》を{rt}感じた―――。		
-B17.0056	line		【伊涼】{rt}{name1}くんと俊が必死の想いで{rt}闘ってくれたのに―――		
-B17.0057	line		【伊涼】{rt}私が不甲斐ないばっかりに、		
-B17.0058	line		【伊涼】{rt}《邪氣》を封じる事が{rt}できなかった…。		
-B17.0059	line		【伊涼】{rt}…ごめんね、俊―――{rt}{name1}くん…。		
-B17.0060	line		【伊涼】{rt}{name2}ちゃんと俊が必死の{rt}想いで		
-B17.0061	line		【伊涼】{rt}闘ってくれたのに―――		
-B17.0062	line		【伊涼】{rt}私が不甲斐ないばっかりに、		
-B17.0063	line		【伊涼】{rt}《邪氣》を封じる事が{rt}できなかった…。		
-B17.0064	line		【伊涼】{rt}…ごめんね、俊―――{rt}{name2}ちゃん…。		
-B17.0065	line		【伊涼】{rt}{name1}くん――。		
-B17.0066	line		【伊涼】{rt}ありがとうッ。		
-B17.0067	line		【伊涼】{rt}私、信じてた…。		
-B17.0068	line		【伊涼】{rt}俊と{name1}くんが、きっと{rt}助けに来てくれるって…。		
+B17.0055	line		【伊涼】{rt}高丸からは、強烈な《邪氣》を{rt}感じた―――。	【Isuzu】{rt}I felt an intense Miasma from{rt}Takamaru--	
+B17.0056	line		【伊涼】{rt}{name1}くんと俊が必死の想いで{rt}闘ってくれたのに―――	【Isuzu】{rt}{name1}-kun and Shun fought so{rt}desperately--	
+B17.0057	line		【伊涼】{rt}私が不甲斐ないばっかりに、	【Isuzu】{rt}but because I'm so useless,	
+B17.0058	line		【伊涼】{rt}《邪氣》を封じる事が{rt}できなかった…。	【Isuzu】{rt}I couldn't seal the Miasma...	
+B17.0059	line		【伊涼】{rt}…ごめんね、俊―――{rt}{name1}くん…。	【Isuzu】{rt}...I'm sorry, Shun--{name1}-kun...	
+B17.0060	line		【伊涼】{rt}{name2}ちゃんと俊が必死の{rt}想いで	【Isuzu】{rt}{name2}-chan and Shun fought	
+B17.0061	line		【伊涼】{rt}闘ってくれたのに―――	【Isuzu】{rt}so desperately for me--	
+B17.0062	line		【伊涼】{rt}私が不甲斐ないばっかりに、	【Isuzu】{rt}but because I'm so useless,	
+B17.0063	line		【伊涼】{rt}《邪氣》を封じる事が{rt}できなかった…。	【Isuzu】{rt}I couldn't seal the Miasma...	
+B17.0064	line		【伊涼】{rt}…ごめんね、俊―――{rt}{name2}ちゃん…。	【Isuzu】{rt}...I'm sorry, Shun--{name2}-chan...	
+B17.0065	line		【伊涼】{rt}{name1}くん――。	【Isuzu】{rt}{name1}-kun--	
+B17.0066	line		【伊涼】{rt}ありがとうッ。	【Isuzu】{rt}Thank you!	
+B17.0067	line		【伊涼】{rt}私、信じてた…。	【Isuzu】{rt}I believed...	
+B17.0068	line		【伊涼】{rt}俊と{name1}くんが、きっと{rt}助けに来てくれるって…。	【Isuzu】{rt}that Shun and {name1}-kun would{rt}come to save me...	
 B17.0069	line		【矢村】{rt}伊涼…。	【Yamura】{rt}Isuzu...	
 B17.0070	line		【伊涼】{rt}私―――	【Isuzu】{rt}I'm--	
-B17.0071	line		【伊涼】{rt}この次からはもっと頑張るよ。		
-B17.0072	line		【伊涼】{rt}《邪氣》なんかに{rt}負けたくないよ―――。		
+B17.0071	line		【伊涼】{rt}この次からはもっと頑張るよ。	【Isuzu】{rt}From now on I'll try harder.	
+B17.0072	line		【伊涼】{rt}《邪氣》なんかに{rt}負けたくないよ―――。	【Isuzu】{rt}I don't want to lose to any Miasma--	
 B17.0073	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B17.0074	line		【矢村】{rt}あんまり気にする事はないさ。		
-B17.0075	line		【矢村】{rt}お前が無事に帰ってきた―――		
-B17.0076	line		【矢村】{rt}俺はそれだけで充分だ。		
+B17.0074	line		【矢村】{rt}あんまり気にする事はないさ。	【Yamura】{rt}Don't worry about it so much.	
+B17.0075	line		【矢村】{rt}お前が無事に帰ってきた―――	【Yamura】{rt}You came back safe--	
+B17.0076	line		【矢村】{rt}俺はそれだけで充分だ。	【Yamura】{rt}that's enough for me.	
 B17.0077	line		【伊涼】{rt}俊―――。	【Isuzu】{rt}Shun--	
 B17.0078	line		【矢村】{rt}罠かもしれないなんて{rt}臆病になっていたら、	【Yamura】{rt}If I turn coward thinking it might be a{rt}trap,	
 B17.0079	line		【矢村】{rt}伊涼はッ―――	【Yamura】{rt}Isuzu's--	
@@ -87,26 +87,26 @@ B17.0084	line		【矢村】{rt}伊涼を助けるため―――	【Yamura】{rt
 B17.0085	line		【矢村】{rt}あなたの御《力》をッ！！	【Yamura】{rt}your august Power!!	
 B17.0086	line		【矢村】{rt}…………。	【Yamura】{rt}............	
 B17.0087	line		【矢村】{rt}{name1}殿…。	【Yamura】{rt}{name1}-dono...	
-B17.0088	line		【矢村】{rt}伊涼を助け出せたのは、		
-B17.0089	line		【矢村】{rt}何よりも、あなたの御《力》が{rt}あったおかげです。		
-B17.0090	line		【矢村】{rt}心から、お礼をいわせて{rt}ください。		
-B17.0091	line		【矢村】{rt}《仲間》として…。		
-B17.0092	line		【矢村の声】{rt}ありがとう、		
-B17.0093	line		【矢村の声】{rt}{name1}…。		
-B17.0094	line		【伊涼】{rt}{name2}ちゃん―――。		
-B17.0095	line		【伊涼】{rt}ありがとう…。		
-B17.0096	line		【伊涼】{rt}私、自分が情けないよ。		
-B17.0097	line		【伊涼】{rt}私が{name2}ちゃんみたいに{rt}もっとしっかりしてれば…。		
-B17.0098	line		【矢村】{rt}あんまり気にするな。{rt}お前が高丸に狙われたのは、		
-B17.0099	line		【矢村】{rt}何もお前が{rt}弱いからじゃない。		
-B17.0100	line		【矢村】{rt}だから、あまり深く悩むな。		
-B17.0101	line		【矢村】{rt}俺は、お前が無事だってだけで{rt}充分なんだからさ。		
+B17.0088	line		【矢村】{rt}伊涼を助け出せたのは、	【Yamura】{rt}That we could rescue Isuzu	
+B17.0089	line		【矢村】{rt}何よりも、あなたの御《力》が{rt}あったおかげです。	【Yamura】{rt}is thanks above all to your august{rt}Power.	
+B17.0090	line		【矢村】{rt}心から、お礼をいわせて{rt}ください。	【Yamura】{rt}Please let me thank you from the{rt}bottom of my heart.	
+B17.0091	line		【矢村】{rt}《仲間》として…。	【Yamura】{rt}As a Comrade...	
+B17.0092	line		【矢村の声】{rt}ありがとう、	【Yamura's Voice】{rt}Thank you,	
+B17.0093	line		【矢村の声】{rt}{name1}…。	【Yamura's Voice】{rt}{name1}...	
+B17.0094	line		【伊涼】{rt}{name2}ちゃん―――。	【Isuzu】{rt}{name2}-chan--	
+B17.0095	line		【伊涼】{rt}ありがとう…。	【Isuzu】{rt}Thank you...	
+B17.0096	line		【伊涼】{rt}私、自分が情けないよ。	【Isuzu】{rt}I'm ashamed of myself.	
+B17.0097	line		【伊涼】{rt}私が{name2}ちゃんみたいに{rt}もっとしっかりしてれば…。	【Isuzu】{rt}If only I were more dependable, like{rt}{name2}-chan...	
+B17.0098	line		【矢村】{rt}あんまり気にするな。{rt}お前が高丸に狙われたのは、	【Yamura】{rt}Don't worry so much. Takamaru didn't{rt}target you	
+B17.0099	line		【矢村】{rt}何もお前が{rt}弱いからじゃない。	【Yamura】{rt}because you're weak.	
+B17.0100	line		【矢村】{rt}だから、あまり深く悩むな。	【Yamura】{rt}So don't dwell on it too much.	
+B17.0101	line		【矢村】{rt}俺は、お前が無事だってだけで{rt}充分なんだからさ。	【Yamura】{rt}It's enough for me that you're safe.	
 B17.0102	line		【伊涼】{rt}俊―――。	【Isuzu】{rt}Shun--	
-B17.0103	line		【伊涼】{rt}ありがとう…。		
-B17.0104	line		【伊涼】{rt}でも、私、この次からは{rt}もっと頑張るよ。		
+B17.0103	line		【伊涼】{rt}ありがとう…。	【Isuzu】{rt}Thank you...	
+B17.0104	line		【伊涼】{rt}でも、私、この次からは{rt}もっと頑張るよ。	【Isuzu】{rt}But from now on, I'll try harder.	
 B17.0105	line		【伊涼】{rt}私―――	【Isuzu】{rt}I'm--	
-B17.0106	line		【伊涼】{rt}《邪氣》なんかに{rt}負けたくないよッ…。		
-B17.0107	line		【矢村】{rt}伊涼―――。		
+B17.0106	line		【伊涼】{rt}《邪氣》なんかに{rt}負けたくないよッ…。	【Isuzu】{rt}I don't want to lose to any Miasma...	
+B17.0107	line		【矢村】{rt}伊涼―――。	【Yamura】{rt}Isuzu--	
 B17.0108	line		【矢村】{rt}罠かもしれないなんて{rt}臆病になっていたら、	【Yamura】{rt}If I turn coward thinking it might be a{rt}trap,	
 B17.0109	line		【矢村】{rt}伊涼はッ―――	【Yamura】{rt}Isuzu's--	
 B17.0110	line		【矢村】{rt}伊涼の命はッ…。	【Yamura】{rt}Isuzu's life...	
@@ -116,30 +116,30 @@ B17.0113	line		【矢村】{rt}《力》を貸してくださいッ。	【Yamura
 B17.0114	line		【矢村】{rt}伊涼を助けるため―――	【Yamura】{rt}To save Isuzu--	
 B17.0115	line		【矢村】{rt}あなたの御《力》をッ！！	【Yamura】{rt}your august Power!!	
 B17.0116	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B17.0117	line		【矢村】{rt}俺も、お前と同じ想いだよ。		
+B17.0117	line		【矢村】{rt}俺も、お前と同じ想いだよ。	【Yamura】{rt}I feel the same way you do.	
 B17.0118	line		【矢村】{rt}{name1}殿…。	【Yamura】{rt}{name1}-dono...	
-B17.0119	line		【矢村】{rt}今回、伊涼を{rt}助け出せたのは、		
-B17.0120	line		【矢村】{rt}あなたの御《力》が{rt}あったおかげです。		
-B17.0121	line		【矢村】{rt}心から、お礼をいわせて{rt}ください。		
-B17.0122	line		【矢村】{rt}《仲間》として…。		
-B17.0123	line		【矢村の声】{rt}ありがとう、		
-B17.0124	line		【矢村の声】{rt}{name1}…。		
-B17.0125	line		【伊涼】{rt}{name1}くん―――？		
-B17.0126	line		【矢村】{rt}{name1}殿のいうとおりだ、{rt}伊涼。		
-B17.0127	line		【矢村】{rt}あんまりそんな事は{rt}気にする事はない。		
-B17.0128	line		【伊涼】{rt}俊…。		
-B17.0129	line		【矢村】{rt}俺たちは闘い、{rt}お前は《邪氣》を封印する。		
-B17.0130	line		【矢村】{rt}それぞれが、それぞれにしか{rt}できない役目を背負ってる。		
+B17.0119	line		【矢村】{rt}今回、伊涼を{rt}助け出せたのは、	【Yamura】{rt}That we could rescue Isuzu this time	
+B17.0120	line		【矢村】{rt}あなたの御《力》が{rt}あったおかげです。	【Yamura】{rt}is thanks to your august Power.	
+B17.0121	line		【矢村】{rt}心から、お礼をいわせて{rt}ください。	【Yamura】{rt}Please let me thank you from the{rt}bottom of my heart.	
+B17.0122	line		【矢村】{rt}《仲間》として…。	【Yamura】{rt}As a Comrade...	
+B17.0123	line		【矢村の声】{rt}ありがとう、	【Yamura's Voice】{rt}Thank you,	
+B17.0124	line		【矢村の声】{rt}{name1}…。	【Yamura's Voice】{rt}{name1}...	
+B17.0125	line		【伊涼】{rt}{name1}くん―――？	【Isuzu】{rt}{name1}-kun--?	
+B17.0126	line		【矢村】{rt}{name1}殿のいうとおりだ、{rt}伊涼。	【Yamura】{rt}It's just as {name1}-dono says,{rt}Isuzu.	
+B17.0127	line		【矢村】{rt}あんまりそんな事は{rt}気にする事はない。	【Yamura】{rt}Don't worry about that kind of thing so{rt}much.	
+B17.0128	line		【伊涼】{rt}俊…。	【Isuzu】{rt}Shun...	
+B17.0129	line		【矢村】{rt}俺たちは闘い、{rt}お前は《邪氣》を封印する。	【Yamura】{rt}We fight, and you seal the Miasma.	
+B17.0130	line		【矢村】{rt}それぞれが、それぞれにしか{rt}できない役目を背負ってる。	【Yamura】{rt}Each of us carries a role only we can{rt}fill.	
 B17.0131	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
-B17.0132	line		【矢村】{rt}だが、もちろん、{rt}お前を助け出すのも、		
-B17.0133	line		【矢村】{rt}俺たちにしか{rt}できない役目だ。		
-B17.0134	line		【矢村】{rt}そうだろう？		
+B17.0132	line		【矢村】{rt}だが、もちろん、{rt}お前を助け出すのも、	【Yamura】{rt}But of course, rescuing you	
+B17.0133	line		【矢村】{rt}俺たちにしか{rt}できない役目だ。	【Yamura】{rt}is also a role only we can fill.	
+B17.0134	line		【矢村】{rt}そうだろう？	【Yamura】{rt}Right?	
 B17.0135	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
-B17.0136	line		【矢村】{rt}そしてお前は無事に戻って{rt}きてくれた。		
-B17.0137	line		【矢村】{rt}俺は、それだけで充分だ。		
-B17.0138	line		【伊涼】{rt}俊、		
-B17.0139	line		【伊涼】{rt}{name1}くん―――。		
-B17.0140	line		【伊涼】{rt}ありがとうッ。		
+B17.0136	line		【矢村】{rt}そしてお前は無事に戻って{rt}きてくれた。	【Yamura】{rt}And you came back to us safe.	
+B17.0137	line		【矢村】{rt}俺は、それだけで充分だ。	【Yamura】{rt}That's enough for me.	
+B17.0138	line		【伊涼】{rt}俊、	【Isuzu】{rt}Shun,	
+B17.0139	line		【伊涼】{rt}{name1}くん―――。	【Isuzu】{rt}{name1}-kun--	
+B17.0140	line		【伊涼】{rt}ありがとうッ。	【Isuzu】{rt}Thank you!	
 B17.0141	line		【矢村】{rt}伊涼…。	【Yamura】{rt}Isuzu...	
 B17.0142	line		【矢村】{rt}罠かもしれないなんて{rt}臆病になっていたら、	【Yamura】{rt}If I turn coward thinking it might be a{rt}trap,	
 B17.0143	line		【矢村】{rt}伊涼はッ―――	【Yamura】{rt}Isuzu's--	
@@ -150,33 +150,33 @@ B17.0147	line		【矢村】{rt}《力》を貸してくださいッ。	【Yamura
 B17.0148	line		【矢村】{rt}伊涼を助けるため―――	【Yamura】{rt}To save Isuzu--	
 B17.0149	line		【矢村】{rt}あなたの御《力》をッ！！	【Yamura】{rt}your august Power!!	
 B17.0150	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B17.0151	line		【矢村】{rt}…いや、		
-B17.0152	line		【矢村】{rt}俺はお前に礼をいわれるような{rt}事はしていない…。		
-B17.0153	line		【伊涼】{rt}えッ…？		
+B17.0151	line		【矢村】{rt}…いや、	【Yamura】{rt}...No,	
+B17.0152	line		【矢村】{rt}俺はお前に礼をいわれるような{rt}事はしていない…。	【Yamura】{rt}I haven't done anything you need to{rt}thank me for...	
+B17.0153	line		【伊涼】{rt}えッ…？	【Isuzu】{rt}Huh...?	
 B17.0154	line		【矢村】{rt}{name1}殿…。	【Yamura】{rt}{name1}-dono...	
-B17.0155	line		【矢村】{rt}むしろ、俺があなたに{rt}お礼をいわねばなりません。		
-B17.0156	line		【矢村】{rt}伊涼を助け出せたのは、		
-B17.0157	line		【矢村】{rt}あなたの御《力》が{rt}あったおかげです。		
-B17.0158	line		【矢村】{rt}心から、お礼をいわせて{rt}ください。		
-B17.0159	line		【矢村】{rt}《仲間》として…。		
-B17.0160	line		【矢村の声】{rt}ありがとう、		
-B17.0161	line		【矢村の声】{rt}{name1}…。		
-B17.0162	line		【伊涼】{rt}{name2}ちゃん―――？		
-B17.0163	line		【矢村】{rt}{name1}殿のいうとおりだ、{rt}伊涼。		
-B17.0164	line		【矢村】{rt}あんまりそんな事は{rt}気にする事はない。		
-B17.0165	line		【伊涼】{rt}俊…。		
-B17.0166	line		【矢村】{rt}俺たちは闘い、{rt}お前は《邪氣》を封印する。		
-B17.0167	line		【矢村】{rt}それぞれが、それぞれにしか{rt}できない役目を背負ってる。		
+B17.0155	line		【矢村】{rt}むしろ、俺があなたに{rt}お礼をいわねばなりません。	【Yamura】{rt}If anything, I'm the one who should{rt}thank you.	
+B17.0156	line		【矢村】{rt}伊涼を助け出せたのは、	【Yamura】{rt}That we could rescue Isuzu	
+B17.0157	line		【矢村】{rt}あなたの御《力》が{rt}あったおかげです。	【Yamura】{rt}is thanks to your august Power.	
+B17.0158	line		【矢村】{rt}心から、お礼をいわせて{rt}ください。	【Yamura】{rt}Please let me thank you from the{rt}bottom of my heart.	
+B17.0159	line		【矢村】{rt}《仲間》として…。	【Yamura】{rt}As a Comrade...	
+B17.0160	line		【矢村の声】{rt}ありがとう、	【Yamura's Voice】{rt}Thank you,	
+B17.0161	line		【矢村の声】{rt}{name1}…。	【Yamura's Voice】{rt}{name1}...	
+B17.0162	line		【伊涼】{rt}{name2}ちゃん―――？	【Isuzu】{rt}{name2}-chan--?	
+B17.0163	line		【矢村】{rt}{name1}殿のいうとおりだ、{rt}伊涼。	【Yamura】{rt}It's just as {name1}-dono says,{rt}Isuzu.	
+B17.0164	line		【矢村】{rt}あんまりそんな事は{rt}気にする事はない。	【Yamura】{rt}Don't worry about that kind of thing so{rt}much.	
+B17.0165	line		【伊涼】{rt}俊…。	【Isuzu】{rt}Shun...	
+B17.0166	line		【矢村】{rt}俺たちは闘い、{rt}お前は《邪氣》を封印する。	【Yamura】{rt}We fight, and you seal the Miasma.	
+B17.0167	line		【矢村】{rt}それぞれが、それぞれにしか{rt}できない役目を背負ってる。	【Yamura】{rt}Each of us carries a role only we can{rt}fill.	
 B17.0168	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
-B17.0169	line		【矢村】{rt}だが、もちろん、{rt}お前を助け出すのも、		
-B17.0170	line		【矢村】{rt}俺たちにしか{rt}できない役目だ。		
-B17.0171	line		【矢村】{rt}そうだろう？		
+B17.0169	line		【矢村】{rt}だが、もちろん、{rt}お前を助け出すのも、	【Yamura】{rt}But of course, rescuing you	
+B17.0170	line		【矢村】{rt}俺たちにしか{rt}できない役目だ。	【Yamura】{rt}is also a role only we can fill.	
+B17.0171	line		【矢村】{rt}そうだろう？	【Yamura】{rt}Right?	
 B17.0172	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
-B17.0173	line		【矢村】{rt}そしてお前は無事に戻って{rt}きてくれた。		
-B17.0174	line		【矢村】{rt}俺は、それだけで充分だ。		
-B17.0175	line		【伊涼】{rt}俊、		
-B17.0176	line		【伊涼】{rt}{name2}ちゃん―――。		
-B17.0177	line		【伊涼】{rt}ありがとうッ。		
+B17.0173	line		【矢村】{rt}そしてお前は無事に戻って{rt}きてくれた。	【Yamura】{rt}And you came back to us safe.	
+B17.0174	line		【矢村】{rt}俺は、それだけで充分だ。	【Yamura】{rt}That's enough for me.	
+B17.0175	line		【伊涼】{rt}俊、	【Isuzu】{rt}Shun,	
+B17.0176	line		【伊涼】{rt}{name2}ちゃん―――。	【Isuzu】{rt}{name2}-chan--	
+B17.0177	line		【伊涼】{rt}ありがとうッ。	【Isuzu】{rt}Thank you!	
 B17.0178	line		【矢村】{rt}伊涼…。	【Yamura】{rt}Isuzu...	
 B17.0179	line		【矢村】{rt}罠かもしれないなんて{rt}臆病になっていたら、	【Yamura】{rt}If I turn coward thinking it might be a{rt}trap,	
 B17.0180	line		【矢村】{rt}伊涼はッ―――	【Yamura】{rt}Isuzu's--	
@@ -187,50 +187,50 @@ B17.0184	line		【矢村】{rt}《力》を貸してくださいッ。	【Yamura
 B17.0185	line		【矢村】{rt}伊涼を助けるため―――	【Yamura】{rt}To save Isuzu--	
 B17.0186	line		【矢村】{rt}あなたの御《力》をッ！！	【Yamura】{rt}your august Power!!	
 B17.0187	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B17.0188	line		【矢村】{rt}…いや、		
-B17.0189	line		【矢村】{rt}俺はお前に礼をいわれるような{rt}事はしていない…。		
-B17.0190	line		【伊涼】{rt}えッ…？		
+B17.0188	line		【矢村】{rt}…いや、	【Yamura】{rt}...No,	
+B17.0189	line		【矢村】{rt}俺はお前に礼をいわれるような{rt}事はしていない…。	【Yamura】{rt}I haven't done anything you need to{rt}thank me for...	
+B17.0190	line		【伊涼】{rt}えッ…？	【Isuzu】{rt}Huh...?	
 B17.0191	line		【矢村】{rt}{name1}殿…。	【Yamura】{rt}{name1}-dono...	
-B17.0192	line		【矢村】{rt}むしろ、俺があなたに{rt}お礼をいわねばなりません。		
-B17.0193	line		【矢村】{rt}伊涼を助け出せたのは、		
-B17.0194	line		【矢村】{rt}あなたの御《力》が{rt}あったおかげです。		
-B17.0195	line		【矢村】{rt}心からお礼をいわせて{rt}ください。		
-B17.0196	line		【矢村】{rt}《仲間》として…。		
-B17.0197	line		【矢村の声】{rt}ありがとう、		
-B17.0198	line		【矢村の声】{rt}{name1}…。		
+B17.0192	line		【矢村】{rt}むしろ、俺があなたに{rt}お礼をいわねばなりません。	【Yamura】{rt}If anything, I'm the one who should{rt}thank you.	
+B17.0193	line		【矢村】{rt}伊涼を助け出せたのは、	【Yamura】{rt}That we could rescue Isuzu	
+B17.0194	line		【矢村】{rt}あなたの御《力》が{rt}あったおかげです。	【Yamura】{rt}is thanks to your august Power.	
+B17.0195	line		【矢村】{rt}心からお礼をいわせて{rt}ください。	【Yamura】{rt}Please let me thank you from the{rt}bottom of my heart.	
+B17.0196	line		【矢村】{rt}《仲間》として…。	【Yamura】{rt}As a Comrade...	
+B17.0197	line		【矢村の声】{rt}ありがとう、	【Yamura's Voice】{rt}Thank you,	
+B17.0198	line		【矢村の声】{rt}{name1}…。	【Yamura's Voice】{rt}{name1}...	
 B17.0199	line		【伊涼】{rt}そうだよね…。	【Isuzu】{rt}I know...	
-B17.0200	line		【伊涼】{rt}私、自分が情けないよ。		
-B17.0201	line		【伊涼】{rt}私がもっと強ければ、		
-B17.0202	line		【伊涼】{rt}高丸の思った通り{rt}なんかにさせずに闘って、		
-B17.0203	line		【伊涼】{rt}《邪氣》を封印する事が{rt}できたはずなのにッ。		
+B17.0200	line		【伊涼】{rt}私、自分が情けないよ。	【Isuzu】{rt}I'm ashamed of myself.	
+B17.0201	line		【伊涼】{rt}私がもっと強ければ、	【Isuzu】{rt}If only I were stronger,	
+B17.0202	line		【伊涼】{rt}高丸の思った通り{rt}なんかにさせずに闘って、	【Isuzu】{rt}I could have fought without letting{rt}Takamaru have his way,	
+B17.0203	line		【伊涼】{rt}《邪氣》を封印する事が{rt}できたはずなのにッ。	【Isuzu】{rt}and sealed the Miasma!	
 B17.0204	line		【矢村】{rt}伊涼…。	【Yamura】{rt}Isuzu...	
 B17.0205	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B17.0206	line		【矢村】{rt}{name1}殿―――		
+B17.0206	line		【矢村】{rt}{name1}殿―――	【Yamura】{rt}{name1}-dono--	
 B17.0207	line		【矢村】{rt}…………。	【Yamura】{rt}............	
 B17.0208	line		【矢村】{rt}伊涼ッ。	【Yamura】{rt}Isuzu!	
 B17.0209	line		【伊涼】{rt}―――？	【Isuzu】{rt}--?	
-B17.0210	line		【矢村】{rt}{name1}殿のいう事は{rt}確かに厳しい。		
-B17.0211	line		【矢村】{rt}もしも、いわれたのがお前じゃ{rt}なくって俺だったら―――		
-B17.0212	line		【矢村】{rt}俺もベソかいたかも{rt}知れないよ。		
+B17.0210	line		【矢村】{rt}{name1}殿のいう事は{rt}確かに厳しい。	【Yamura】{rt}What {name1}-dono says is harsh,{rt}sure.	
+B17.0211	line		【矢村】{rt}もしも、いわれたのがお前じゃ{rt}なくって俺だったら―――	【Yamura】{rt}If it had been said to me instead of{rt}you--	
+B17.0212	line		【矢村】{rt}俺もベソかいたかも{rt}知れないよ。	【Yamura】{rt}I might have started blubbering too.	
 B17.0213	line		【伊涼】{rt}俊―――。	【Isuzu】{rt}Shun--	
-B17.0214	line		【矢村】{rt}だがな、伊涼。		
-B17.0215	line		【矢村】{rt}うじうじしてる暇はないぞッ。		
+B17.0214	line		【矢村】{rt}だがな、伊涼。	【Yamura】{rt}But listen, Isuzu.	
+B17.0215	line		【矢村】{rt}うじうじしてる暇はないぞッ。	【Yamura】{rt}There's no time to mope around.	
 B17.0216	line		【伊涼】{rt}―――！？	【Isuzu】{rt}--!?	
-B17.0217	line		【矢村】{rt}それに気付いたが{rt}吉日ってやつだ。		
-B17.0218	line		【矢村】{rt}なにも、お前に俺や{name1}殿の{rt}ように闘えってんじゃない。		
-B17.0219	line		【矢村】{rt}例えば―――		
-B17.0220	line		【矢村】{rt}今日みたいな目に{rt}何度会おうとも		
-B17.0221	line		【矢村】{rt}《邪氣》に立ち向かうという{rt}意志を失わない強さを、		
-B17.0222	line		【矢村】{rt}身につけてほしいんだ。		
-B17.0223	line		【伊涼】{rt}俊…。		
-B17.0224	line		【矢村】{rt}俺も―――		
-B17.0225	line		【矢村】{rt}おそらく、{name1}殿も{rt}それを願ってる。		
-B17.0226	line		【矢村】{rt}そして、お前なら、		
-B17.0227	line		【矢村】{rt}必ずそれができると{rt}俺は信じてるから。		
+B17.0217	line		【矢村】{rt}それに気付いたが{rt}吉日ってやつだ。	【Yamura】{rt}The day you notice is the day to start,{rt}as they say.	
+B17.0218	line		【矢村】{rt}なにも、お前に俺や{name1}殿の{rt}ように闘えってんじゃない。	【Yamura】{rt}Nobody's telling you to fight like me or{rt}{name1}-dono.	
+B17.0219	line		【矢村】{rt}例えば―――	【Yamura】{rt}For example--	
+B17.0220	line		【矢村】{rt}今日みたいな目に{rt}何度会おうとも	【Yamura】{rt}however many times you go through{rt}what you did today,	
+B17.0221	line		【矢村】{rt}《邪氣》に立ち向かうという{rt}意志を失わない強さを、	【Yamura】{rt}never losing the will to stand up to{rt}Miasma--	
+B17.0222	line		【矢村】{rt}身につけてほしいんだ。	【Yamura】{rt}I want you to gain that strength.	
+B17.0223	line		【伊涼】{rt}俊…。	【Isuzu】{rt}Shun...	
+B17.0224	line		【矢村】{rt}俺も―――	【Yamura】{rt}That's what I--	
+B17.0225	line		【矢村】{rt}おそらく、{name1}殿も{rt}それを願ってる。	【Yamura】{rt}and probably {name1}-dono{rt}too--hope for.	
+B17.0226	line		【矢村】{rt}そして、お前なら、	【Yamura】{rt}And I believe that you	
+B17.0227	line		【矢村】{rt}必ずそれができると{rt}俺は信じてるから。	【Yamura】{rt}can do it, without fail.	
 B17.0228	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
-B17.0229	line		【伊涼】{rt}―――うんッ。		
-B17.0230	line		【矢村】{rt}よしッ。		
-B17.0231	line		【矢村】{rt}これでひと安心だな。		
+B17.0229	line		【伊涼】{rt}―――うんッ。	【Isuzu】{rt}--Okay!	
+B17.0230	line		【矢村】{rt}よしッ。	【Yamura】{rt}Good.	
+B17.0231	line		【矢村】{rt}これでひと安心だな。	【Yamura】{rt}That's a relief.	
 B17.0232	line		【矢村】{rt}…………。	【Yamura】{rt}............	
 B17.0233	line		【矢村】{rt}罠かもしれないなんて{rt}臆病になっていたら、	【Yamura】{rt}If I turn coward thinking it might be a{rt}trap,	
 B17.0234	line		【矢村】{rt}伊涼はッ―――	【Yamura】{rt}Isuzu's--	
@@ -241,26 +241,26 @@ B17.0238	line		【矢村】{rt}《力》を貸してくださいッ。	【Yamura
 B17.0239	line		【矢村】{rt}伊涼を助けるため―――	【Yamura】{rt}To save Isuzu--	
 B17.0240	line		【矢村】{rt}あなたの御《力》をッ！！	【Yamura】{rt}your august Power!!	
 B17.0241	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B17.0242	line		【矢村】{rt}…{name1}殿。		
-B17.0243	line		【矢村】{rt}こうして伊涼を{rt}無事助け出せたのも、		
-B17.0244	line		【矢村】{rt}あなたの御《力》が{rt}あったおかげです。		
-B17.0245	line		【矢村】{rt}心からお礼をいわせて{rt}ください。		
-B17.0246	line		【矢村】{rt}《仲間》として…。		
-B17.0247	line		【矢村の声】{rt}ありがとう、		
-B17.0248	line		【矢村の声】{rt}{name1}…。		
-B17.0249	line		【伊涼】{rt}ごめんね…。		
-B17.0250	line		【伊涼】{rt}がっかりだよね…。		
+B17.0242	line		【矢村】{rt}…{name1}殿。	【Yamura】{rt}...{name1}-dono.	
+B17.0243	line		【矢村】{rt}こうして伊涼を{rt}無事助け出せたのも、	【Yamura】{rt}That we could rescue Isuzu safely like{rt}this	
+B17.0244	line		【矢村】{rt}あなたの御《力》が{rt}あったおかげです。	【Yamura】{rt}is thanks to your august Power.	
+B17.0245	line		【矢村】{rt}心からお礼をいわせて{rt}ください。	【Yamura】{rt}Please let me thank you from the{rt}bottom of my heart.	
+B17.0246	line		【矢村】{rt}《仲間》として…。	【Yamura】{rt}As a Comrade...	
+B17.0247	line		【矢村の声】{rt}ありがとう、	【Yamura's Voice】{rt}Thank you,	
+B17.0248	line		【矢村の声】{rt}{name1}…。	【Yamura's Voice】{rt}{name1}...	
+B17.0249	line		【伊涼】{rt}ごめんね…。	【Isuzu】{rt}I'm sorry...	
+B17.0250	line		【伊涼】{rt}がっかりだよね…。	【Isuzu】{rt}You're disappointed, aren't you...	
 B17.0251	line		【伊涼】{rt}私―――	【Isuzu】{rt}I'm--	
 B17.0252	line		【矢村】{rt}（伊涼…。）	【Yamura】{rt}(Isuzu...)	
 B17.0253	line		【伊涼】{rt}私―――	【Isuzu】{rt}I'm--	
-B17.0254	line		【伊涼】{rt}俊と、{name1}くんと{rt}一緒に闘いたい―――		
-B17.0255	line		【伊涼】{rt}《邪氣》なんかに{rt}負けたくないのにッ！！		
-B17.0256	line		【矢村】{rt}伊涼―――。		
+B17.0254	line		【伊涼】{rt}俊と、{name1}くんと{rt}一緒に闘いたい―――	【Isuzu】{rt}I want to fight alongside Shun and{rt}{name1}-kun--	
+B17.0255	line		【伊涼】{rt}《邪氣》なんかに{rt}負けたくないのにッ！！	【Isuzu】{rt}I don't want to lose to any Miasma!!	
+B17.0256	line		【矢村】{rt}伊涼―――。	【Yamura】{rt}Isuzu--	
 B17.0257	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B17.0258	line		【矢村】{rt}もう、そんな事いうな。		
-B17.0259	line		【矢村】{rt}俺は―――		
-B17.0260	line		【矢村】{rt}お前が無事だったってだけで{rt}充分なんだから…。		
-B17.0261	line		【伊涼】{rt}ううッ、俊ッ―――。		
+B17.0258	line		【矢村】{rt}もう、そんな事いうな。	【Yamura】{rt}Come on, don't say that.	
+B17.0259	line		【矢村】{rt}俺は―――	【Yamura】{rt}For me--	
+B17.0260	line		【矢村】{rt}お前が無事だったってだけで{rt}充分なんだから…。	【Yamura】{rt}it's enough that you're safe...	
+B17.0261	line		【伊涼】{rt}ううッ、俊ッ―――。	【Isuzu】{rt}Uuu, Shun--	
 B17.0262	line		【矢村】{rt}…………。	【Yamura】{rt}............	
 B17.0263	line		【矢村】{rt}罠かもしれないなんて{rt}臆病になっていたら、	【Yamura】{rt}If I turn coward thinking it might be a{rt}trap,	
 B17.0264	line		【矢村】{rt}伊涼はッ―――	【Yamura】{rt}Isuzu's--	
@@ -271,25 +271,25 @@ B17.0268	line		【矢村】{rt}《力》を貸してくださいッ。	【Yamura
 B17.0269	line		【矢村】{rt}伊涼を助けるため―――	【Yamura】{rt}To save Isuzu--	
 B17.0270	line		【矢村】{rt}あなたの御《力》をッ！！	【Yamura】{rt}your august Power!!	
 B17.0271	line		【矢村】{rt}{name1}殿…。	【Yamura】{rt}{name1}-dono...	
-B17.0272	line		【矢村】{rt}伊涼を無事に助け出せた―――		
-B17.0273	line		【矢村】{rt}それも、あなたのご助力が{rt}あったから可能になった事。		
-B17.0274	line		【矢村】{rt}心から、お礼をいわせて{rt}ください。		
-B17.0275	line		【矢村】{rt}《仲間》として…。		
-B17.0276	line		【矢村の声】{rt}ありがとう、		
-B17.0277	line		【矢村の声】{rt}{name1}…。		
-B17.0278	line		【伊涼】{rt}ごめんね…。		
-B17.0279	line		【伊涼】{rt}がっかりだよね…。		
+B17.0272	line		【矢村】{rt}伊涼を無事に助け出せた―――	【Yamura】{rt}That we could rescue Isuzu safely--	
+B17.0273	line		【矢村】{rt}それも、あなたのご助力が{rt}あったから可能になった事。	【Yamura】{rt}that was only possible because of your{rt}help.	
+B17.0274	line		【矢村】{rt}心から、お礼をいわせて{rt}ください。	【Yamura】{rt}Please let me thank you from the{rt}bottom of my heart.	
+B17.0275	line		【矢村】{rt}《仲間》として…。	【Yamura】{rt}As a Comrade...	
+B17.0276	line		【矢村の声】{rt}ありがとう、	【Yamura's Voice】{rt}Thank you,	
+B17.0277	line		【矢村の声】{rt}{name1}…。	【Yamura's Voice】{rt}{name1}...	
+B17.0278	line		【伊涼】{rt}ごめんね…。	【Isuzu】{rt}I'm sorry...	
+B17.0279	line		【伊涼】{rt}がっかりだよね…。	【Isuzu】{rt}You're disappointed, aren't you...	
 B17.0280	line		【伊涼】{rt}私―――	【Isuzu】{rt}I'm--	
 B17.0281	line		【矢村】{rt}（伊涼…。）	【Yamura】{rt}(Isuzu...)	
-B17.0282	line		【伊涼】{rt}私だって―――		
-B17.0283	line		【伊涼】{rt}俊と、{name2}ちゃんと{rt}一緒に闘いたいよッ―――。		
-B17.0284	line		【伊涼】{rt}《邪氣》なんかに{rt}負けたくないのにッ！！		
-B17.0285	line		【矢村】{rt}伊涼―――。		
+B17.0282	line		【伊涼】{rt}私だって―――	【Isuzu】{rt}I want to--	
+B17.0283	line		【伊涼】{rt}俊と、{name2}ちゃんと{rt}一緒に闘いたいよッ―――。	【Isuzu】{rt}fight alongside Shun and{rt}{name2}-chan too--	
+B17.0284	line		【伊涼】{rt}《邪氣》なんかに{rt}負けたくないのにッ！！	【Isuzu】{rt}I don't want to lose to any Miasma!!	
+B17.0285	line		【矢村】{rt}伊涼―――。	【Yamura】{rt}Isuzu--	
 B17.0286	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B17.0287	line		【矢村】{rt}もう、そんな事いうな。		
-B17.0288	line		【矢村】{rt}俺は―――		
-B17.0289	line		【矢村】{rt}お前が無事だったってだけで{rt}充分なんだから…。		
-B17.0290	line		【伊涼】{rt}ううッ、俊ッ―――。		
+B17.0287	line		【矢村】{rt}もう、そんな事いうな。	【Yamura】{rt}Come on, don't say that.	
+B17.0288	line		【矢村】{rt}俺は―――	【Yamura】{rt}For me--	
+B17.0289	line		【矢村】{rt}お前が無事だったってだけで{rt}充分なんだから…。	【Yamura】{rt}it's enough that you're safe...	
+B17.0290	line		【伊涼】{rt}ううッ、俊ッ―――。	【Isuzu】{rt}Uuu, Shun--	
 B17.0291	line		【矢村】{rt}…………。	【Yamura】{rt}............	
 B17.0292	line		【矢村】{rt}罠かもしれないなんて{rt}臆病になっていたら、	【Yamura】{rt}If I turn coward thinking it might be a{rt}trap,	
 B17.0293	line		【矢村】{rt}伊涼はッ―――	【Yamura】{rt}Isuzu's--	
@@ -301,9 +301,9 @@ B17.0298	line		【矢村】{rt}伊涼を助けるため―――	【Yamura】{rt
 B17.0299	line		【矢村】{rt}あなたの御《力》をッ！！	【Yamura】{rt}your august Power!!	
 B17.0300	line		【矢村】{rt}…………。	【Yamura】{rt}............	
 B17.0301	line		【矢村】{rt}{name1}殿…。	【Yamura】{rt}{name1}-dono...	
-B17.0302	line		【矢村】{rt}伊涼を無事に助け出せた―――		
-B17.0303	line		【矢村】{rt}それも、あなたのご助力が{rt}あったから可能になった事。		
-B17.0304	line		【矢村】{rt}心から、お礼をいわせて{rt}ください。		
-B17.0305	line		【矢村】{rt}《仲間》として…。		
-B17.0306	line		【矢村の声】{rt}ありがとう、		
-B17.0307	line		【矢村の声】{rt}{name1}…。		
+B17.0302	line		【矢村】{rt}伊涼を無事に助け出せた―――	【Yamura】{rt}That we could rescue Isuzu safely--	
+B17.0303	line		【矢村】{rt}それも、あなたのご助力が{rt}あったから可能になった事。	【Yamura】{rt}that was only possible because of your{rt}help.	
+B17.0304	line		【矢村】{rt}心から、お礼をいわせて{rt}ください。	【Yamura】{rt}Please let me thank you from the{rt}bottom of my heart.	
+B17.0305	line		【矢村】{rt}《仲間》として…。	【Yamura】{rt}As a Comrade...	
+B17.0306	line		【矢村の声】{rt}ありがとう、	【Yamura's Voice】{rt}Thank you,	
+B17.0307	line		【矢村の声】{rt}{name1}…。	【Yamura's Voice】{rt}{name1}...	

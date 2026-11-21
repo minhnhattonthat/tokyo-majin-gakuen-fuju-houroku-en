@@ -1,221 +1,221 @@
 id	kind	max	jp	en	notes
-B16.0000	line		【男の声】{rt}ごおおううッ！！		
-B16.0001	line		【男の声】{rt}か、身体がああッ{rt}溶けてゆくッ！！		
-B16.0002	line		【男の声】{rt}無くなってゆくゥッ！！		
-B16.0003	line		【男の声】{rt}おのれェェ！！		
-B16.0004	line		【男の声】{rt}本身の身体さえあらば―――ッ		
-B16.0005	line		【矢村】{rt}また咒符―――式神か？		
-B16.0006	line		【別の男の声】{rt}宇治の宝蔵より蘇らせし		
-B16.0007	line		【別の男の声】{rt}シュテンとタマモの{rt}魂魄（こんぱく）を		
-B16.0008	line		【別の男の声】{rt}これほどまでに{rt}た易く破るとは―――		
-B16.0009	line		【別の男の声】{rt}さすがに大した戦闘力だな。		
+B16.0000	line		【男の声】{rt}ごおおううッ！！	【Man's Voice】{rt}Gwoooaaargh!!	
+B16.0001	line		【男の声】{rt}か、身体がああッ{rt}溶けてゆくッ！！	【Man's Voice】{rt}M-my body is melting away!!	
+B16.0002	line		【男の声】{rt}無くなってゆくゥッ！！	【Man's Voice】{rt}It's disappearing!!	
+B16.0003	line		【男の声】{rt}おのれェェ！！	【Man's Voice】{rt}Damn youuu!!	
+B16.0004	line		【男の声】{rt}本身の身体さえあらば―――ッ	【Man's Voice】{rt}If only I had my true body--	
+B16.0005	line		【矢村】{rt}また咒符―――式神か？	【Yamura】{rt}Another talisman--a shikigami?	
+B16.0006	line		【別の男の声】{rt}宇治の宝蔵より蘇らせし	【Another Man's Voice】{rt}To break the souls of Shuten and{rt}Tamamo,	
+B16.0007	line		【別の男の声】{rt}シュテンとタマモの{rt}魂魄（こんぱく）を	【Another Man's Voice】{rt}revived from the treasure house of{rt}Uji,	
+B16.0008	line		【別の男の声】{rt}これほどまでに{rt}た易く破るとは―――	【Another Man's Voice】{rt}this easily--	
+B16.0009	line		【別の男の声】{rt}さすがに大した戦闘力だな。	【Another Man's Voice】{rt}impressive fighting power indeed.	
 B16.0010	line		【矢村】{rt}―――！？	【Yamura】{rt}--!?	
-B16.0011	line		【矢村】{rt}―――誰だッ？		
-B16.0012	line		【別の男の声】{rt}くくく…。		
-B16.0013	line		【別の男の声】{rt}貴様らのいい加減さには、{rt}ほとほと参るよ。		
-B16.0014	line		【別の男の声】{rt}たかだか１２００年前の{rt}大事件を後世に伝承させず		
-B16.0015	line		【別の男の声】{rt}平気で忘れ去って{rt}しまうのだからな…。		
-B16.0016	line		【別の男の声】{rt}改めて名乗ろう。		
-B16.0017	line		【別の男の声】{rt}己の名は、高丸という。		
-B16.0018	line		【矢村の声】{rt}高丸―――。		
-B16.0019	line		【高丸の声】{rt}くくくッ―――。		
-B16.0020	line		【高丸の声】{rt}己にはまだ、手に取るように{rt}想い出せる…。		
-B16.0021	line		【高丸の声】{rt}１２００年前の、{rt}かの痛み、怨みをッ。		
-B16.0022	line		【高丸の声】{rt}過去に貴様が何をしたか、		
-B16.0023	line		【高丸の声】{rt}首を刎ねる前にしっかりと{rt}想い出させてやろうなあッ。		
+B16.0011	line		【矢村】{rt}―――誰だッ？	【Yamura】{rt}--Who's there?	
+B16.0012	line		【別の男の声】{rt}くくく…。	【Another Man's Voice】{rt}Heh heh heh...	
+B16.0013	line		【別の男の声】{rt}貴様らのいい加減さには、{rt}ほとほと参るよ。	【Another Man's Voice】{rt}Your carelessness really is too much.	
+B16.0014	line		【別の男の声】{rt}たかだか１２００年前の{rt}大事件を後世に伝承させず	【Another Man's Voice】{rt}A great event a mere 1200 years ago,{rt}never passed down,	
+B16.0015	line		【別の男の声】{rt}平気で忘れ去って{rt}しまうのだからな…。	【Another Man's Voice】{rt}and you calmly forget it all...	
+B16.0016	line		【別の男の声】{rt}改めて名乗ろう。	【Another Man's Voice】{rt}Let me introduce myself again.	
+B16.0017	line		【別の男の声】{rt}己の名は、高丸という。	【Another Man's Voice】{rt}My name is Takamaru.	
+B16.0018	line		【矢村の声】{rt}高丸―――。	【Yamura's Voice】{rt}Takamaru--	
+B16.0019	line		【高丸の声】{rt}くくくッ―――。	【Takamaru's Voice】{rt}Heh heh heh--	
+B16.0020	line		【高丸の声】{rt}己にはまだ、手に取るように{rt}想い出せる…。	【Takamaru's Voice】{rt}I can still recall it as if I held it in my{rt}hand...	
+B16.0021	line		【高丸の声】{rt}１２００年前の、{rt}かの痛み、怨みをッ。	【Takamaru's Voice】{rt}the pain and the grudge of 1200 years{rt}ago.	
+B16.0022	line		【高丸の声】{rt}過去に貴様が何をしたか、	【Takamaru's Voice】{rt}What you did in the past--	
+B16.0023	line		【高丸の声】{rt}首を刎ねる前にしっかりと{rt}想い出させてやろうなあッ。	【Takamaru's Voice】{rt}I'll make you remember it well before I{rt}take your head.	
 B16.0024	line		【矢村】{rt}―――！？	【Yamura】{rt}--!?	
-B16.0025	line		【矢村】{rt}（幻術かッ？）		
-B16.0026	line		【高丸の声】{rt}かつて―――		
-B16.0027	line		【高丸の声】{rt}世を追われた者たちがいた。		
-B16.0028	line		【高丸の声】{rt}彼らは、		
-B16.0029	line		【高丸の声】{rt}《従わぬ者》―――		
-B16.0030	line		【高丸の声】{rt}犯罪者であったり、		
-B16.0031	line		【高丸の声】{rt}何かしら世の常識にそぐわぬ{rt}性質を帯びた者たちや、		
-B16.0032	line		【高丸の声】{rt}またはその子らだった。		
-B16.0033	line		【高丸の声】{rt}彼らを追った者たち―――		
-B16.0034	line		【高丸の声】{rt}村や集落で暮らす者は、{rt}彼らを―――		
-B16.0035	line		【高丸の声】{rt}《陰（かげ）》と呼んだ。		
-B16.0036	line		【高丸の声】{rt}彼らをそう呼ぶ事によって、{rt}自分たちを		
-B16.0037	line		【高丸の声】{rt}《陽（ひかり）》として{rt}まつりあげたのだ。		
-B16.0038	line		【高丸の声】{rt}光の届かぬところこそ、{rt}まさに影となる…。		
-B16.0039	line		【高丸の声】{rt}やがて彼らの目は《陰》を{rt}同じ人間だった者から		
-B16.0040	line		【高丸の声】{rt}次第に得体の知れない《何か》{rt}と意識するようになった…。		
-B16.0041	line		【高丸の声】{rt}原因の分からぬ不幸は全て{rt}《陰》の成した凶事とされ、		
-B16.0042	line		【高丸の声】{rt}捕らえられた《陰の者》が元凶{rt}として無残に処刑された。		
-B16.0043	line		【高丸の声】{rt}そうする事によって、{rt}矛盾は矛盾でなくなり、		
-B16.0044	line		【高丸の声】{rt}《陽の者》の秩序は保たれた。		
-B16.0045	line		【高丸の声】{rt}《陰の者》は{rt}《陽の者》を憎んだ。		
-B16.0046	line		【高丸の声】{rt}その憎しみは、これまでに{rt}世に生まれたどれよりも深く		
-B16.0047	line		【高丸の声】{rt}巨大だった。		
-B16.0048	line		【高丸の声】{rt}それは《陰の者》が		
-B16.0049	line		【高丸の声】{rt}呪詛や特異な術を{rt}編み出すための		
-B16.0050	line		【高丸の声】{rt}《力》となった。		
-B16.0051	line		【高丸の声】{rt}《陰》は、かつて自らを疎外{rt}した《陽》に戦を挑んだ。		
-B16.0052	line		【高丸の声】{rt}終わりのない戦を―――。		
-B16.0053	line		【高丸】{rt}覚えておれッ！！		
+B16.0025	line		【矢村】{rt}（幻術かッ？）	【Yamura】{rt}(An illusion?)	
+B16.0026	line		【高丸の声】{rt}かつて―――	【Takamaru's Voice】{rt}Once--	
+B16.0027	line		【高丸の声】{rt}世を追われた者たちがいた。	【Takamaru's Voice】{rt}there were people driven out of the{rt}world.	
+B16.0028	line		【高丸の声】{rt}彼らは、	【Takamaru's Voice】{rt}They were	
+B16.0029	line		【高丸の声】{rt}《従わぬ者》―――	【Takamaru's Voice】{rt}the Unyielding--	
+B16.0030	line		【高丸の声】{rt}犯罪者であったり、	【Takamaru's Voice】{rt}criminals,	
+B16.0031	line		【高丸の声】{rt}何かしら世の常識にそぐわぬ{rt}性質を帯びた者たちや、	【Takamaru's Voice】{rt}people with some nature that went{rt}against the world's norms,	
+B16.0032	line		【高丸の声】{rt}またはその子らだった。	【Takamaru's Voice】{rt}or their children.	
+B16.0033	line		【高丸の声】{rt}彼らを追った者たち―――	【Takamaru's Voice】{rt}Those who drove them out--	
+B16.0034	line		【高丸の声】{rt}村や集落で暮らす者は、{rt}彼らを―――	【Takamaru's Voice】{rt}the people of the villages and{rt}settlements--called them	
+B16.0035	line		【高丸の声】{rt}《陰（かげ）》と呼んだ。	【Takamaru's Voice】{rt}the Shade.	
+B16.0036	line		【高丸の声】{rt}彼らをそう呼ぶ事によって、{rt}自分たちを	【Takamaru's Voice】{rt}By calling them that, they raised{rt}themselves up	
+B16.0037	line		【高丸の声】{rt}《陽（ひかり）》として{rt}まつりあげたのだ。	【Takamaru's Voice】{rt}as the Light.	
+B16.0038	line		【高丸の声】{rt}光の届かぬところこそ、{rt}まさに影となる…。	【Takamaru's Voice】{rt}Where light cannot reach, there truly{rt}lies shadow...	
+B16.0039	line		【高丸の声】{rt}やがて彼らの目は《陰》を{rt}同じ人間だった者から	【Takamaru's Voice】{rt}In time, their eyes came to see the{rt}Shade, once fellow humans,	
+B16.0040	line		【高丸の声】{rt}次第に得体の知れない《何か》{rt}と意識するようになった…。	【Takamaru's Voice】{rt}as some unknown Thing...	
+B16.0041	line		【高丸の声】{rt}原因の分からぬ不幸は全て{rt}《陰》の成した凶事とされ、	【Takamaru's Voice】{rt}Every misfortune with no known cause{rt}was called the Shade's evil work,	
+B16.0042	line		【高丸の声】{rt}捕らえられた《陰の者》が元凶{rt}として無残に処刑された。	【Takamaru's Voice】{rt}and captured Shade folk were cruelly{rt}executed as the culprits.	
+B16.0043	line		【高丸の声】{rt}そうする事によって、{rt}矛盾は矛盾でなくなり、	【Takamaru's Voice】{rt}That way, contradiction ceased to be{rt}contradiction,	
+B16.0044	line		【高丸の声】{rt}《陽の者》の秩序は保たれた。	【Takamaru's Voice】{rt}and the order of the Light folk was{rt}kept.	
+B16.0045	line		【高丸の声】{rt}《陰の者》は{rt}《陽の者》を憎んだ。	【Takamaru's Voice】{rt}The Shade folk hated the Light folk.	
+B16.0046	line		【高丸の声】{rt}その憎しみは、これまでに{rt}世に生まれたどれよりも深く	【Takamaru's Voice】{rt}That hatred was deeper and vaster	
+B16.0047	line		【高丸の声】{rt}巨大だった。	【Takamaru's Voice】{rt}than any ever born into the world.	
+B16.0048	line		【高丸の声】{rt}それは《陰の者》が	【Takamaru's Voice】{rt}It became the Power	
+B16.0049	line		【高丸の声】{rt}呪詛や特異な術を{rt}編み出すための	【Takamaru's Voice】{rt}with which the Shade folk devised	
+B16.0050	line		【高丸の声】{rt}《力》となった。	【Takamaru's Voice】{rt}curses and strange arts.	
+B16.0051	line		【高丸の声】{rt}《陰》は、かつて自らを疎外{rt}した《陽》に戦を挑んだ。	【Takamaru's Voice】{rt}The Shade waged war on the Light that{rt}had cast them out.	
+B16.0052	line		【高丸の声】{rt}終わりのない戦を―――。	【Takamaru's Voice】{rt}A war without end--	
+B16.0053	line		【高丸】{rt}覚えておれッ！！	【Takamaru】{rt}Remember this!!	
 B16.0054	line		【男】{rt}いつの日か必ず己は{rt}《力》を得、復活するッ。	【Man】{rt}Some day I will gain Power and return,{rt}without fail.	
-B16.0055	line		【男】{rt}この次こそはやってやるぞ、		
+B16.0055	line		【男】{rt}この次こそはやってやるぞ、	【Man】{rt}Next time I'll finish it,	
 B16.0056	line		【男】{rt}俊宗ッ。	【Man】{rt}Toshimune!	
 B16.0057	line		【男】{rt}貴様は己の《力》を《大罪》な{rt}どと呼ぶ事はできなくなる！	【Man】{rt}You won't be able to call my Power the{rt}Great Sin anymore!	
 B16.0058	line		【男】{rt}全ての正誤が逆になるんだッ。	【Man】{rt}All right and wrong will be turned{rt}around!	
 B16.0059	line		【若武者】{rt}…………。	【Young Warrior】{rt}......	
-B16.0060	line		【高丸】{rt}その時は貴様の首を{rt}刎ねてやるぞッ！！		
-B16.0061	line		【高丸】{rt}貴様が死んでいたとしても、{rt}貴様の子の首を、		
-B16.0062	line		【高丸】{rt}貴様の孫の首をッ―――！！		
+B16.0060	line		【高丸】{rt}その時は貴様の首を{rt}刎ねてやるぞッ！！	【Takamaru】{rt}And then I'll take your head!!	
+B16.0061	line		【高丸】{rt}貴様が死んでいたとしても、{rt}貴様の子の首を、	【Takamaru】{rt}Even if you're dead, I'll take your{rt}child's head,	
+B16.0062	line		【高丸】{rt}貴様の孫の首をッ―――！！	【Takamaru】{rt}and your grandchild's head--!!	
 B16.0063	line		【若武者】{rt}妖（あやかし）め{rt}覚悟せよッ。	【Young Warrior】{rt}Prepare yourself, demon!	
 B16.0064	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B16.0065	line		【矢村】{rt}ここは―――？		
-B16.0066	line		【矢村】{rt}地下か？		
-B16.0067	line		【高丸】{rt}近江（おうみ）、		
-B16.0068	line		【高丸】{rt}鈴鹿（すずか）山、		
-B16.0069	line		【高丸】{rt}蝦夷（えぞ）―――。		
-B16.0070	line		【高丸】{rt}かつて燃え上がった戦の火は{rt}まだ赤々と輝いている…。		
-B16.0071	line		【高丸】{rt}１２００年ぶりの己たちの{rt}闘いを、		
-B16.0072	line		【高丸】{rt}馬鹿な部外者に邪魔させる{rt}訳にはいかんからな。		
-B16.0073	line		【高丸】{rt}この地下の闇は、数多くの{rt}亡者のむせび泣きを吸収し、		
-B16.0074	line		【高丸】{rt}容易に人を寄せ付けはしない。		
-B16.0075	line		【高丸】{rt}己たちの再会の場として、{rt}うってつけだとは思わんか？		
-B16.0076	line		【高丸】{rt}俊宗よ―――。		
-B16.0077	line		【矢村】{rt}お前が高丸かッ！！		
-B16.0078	line		【矢村】{rt}伊涼はどこだッ！！		
-B16.0079	line		【矢村】{rt}無事なんだろうなッ！？		
-B16.0080	line		【高丸】{rt}そう焦るなよ。ここに―――。		
+B16.0065	line		【矢村】{rt}ここは―――？	【Yamura】{rt}Where is this--?	
+B16.0066	line		【矢村】{rt}地下か？	【Yamura】{rt}Underground?	
+B16.0067	line		【高丸】{rt}近江（おうみ）、	【Takamaru】{rt}Omi,	
+B16.0068	line		【高丸】{rt}鈴鹿（すずか）山、	【Takamaru】{rt}Mt. Suzuka,	
+B16.0069	line		【高丸】{rt}蝦夷（えぞ）―――。	【Takamaru】{rt}Ezo--	
+B16.0070	line		【高丸】{rt}かつて燃え上がった戦の火は{rt}まだ赤々と輝いている…。	【Takamaru】{rt}The fires of the war that once blazed{rt}still burn bright red...	
+B16.0071	line		【高丸】{rt}１２００年ぶりの己たちの{rt}闘いを、	【Takamaru】{rt}Our battle, our first in 1200 years--	
+B16.0072	line		【高丸】{rt}馬鹿な部外者に邪魔させる{rt}訳にはいかんからな。	【Takamaru】{rt}I can't let foolish outsiders get in its{rt}way.	
+B16.0073	line		【高丸】{rt}この地下の闇は、数多くの{rt}亡者のむせび泣きを吸収し、	【Takamaru】{rt}This underground darkness soaks up{rt}the sobs of countless dead,	
+B16.0074	line		【高丸】{rt}容易に人を寄せ付けはしない。	【Takamaru】{rt}and doesn't let people near easily.	
+B16.0075	line		【高丸】{rt}己たちの再会の場として、{rt}うってつけだとは思わんか？	【Takamaru】{rt}Don't you think it's perfect for our{rt}reunion?	
+B16.0076	line		【高丸】{rt}俊宗よ―――。	【Takamaru】{rt}Toshimune--	
+B16.0077	line		【矢村】{rt}お前が高丸かッ！！	【Yamura】{rt}So you're Takamaru!!	
+B16.0078	line		【矢村】{rt}伊涼はどこだッ！！	【Yamura】{rt}Where's Isuzu!!	
+B16.0079	line		【矢村】{rt}無事なんだろうなッ！？	【Yamura】{rt}She'd better be safe!?	
+B16.0080	line		【高丸】{rt}そう焦るなよ。ここに―――。	【Takamaru】{rt}Don't be so hasty. She's here--	
 B16.0081	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
 B16.0082	line		【矢村】{rt}伊涼ッ！！	【Yamura】{rt}Isuzu!!	
-B16.0083	line		【高丸】{rt}少々、深い眠りに{rt}落ちているだけだ。		
-B16.0084	line		【高丸】{rt}そっちこそ―――		
-B16.0085	line		【高丸】{rt}焔羅の老いぼれはどうした？		
-B16.0086	line		【高丸】{rt}まさか、まだくたばっては{rt}いないだろう？		
-B16.0087	line		【矢村】{rt}焔羅様を知っているのか？		
-B16.0088	line		【高丸】{rt}知っているもなにも―――。		
-B16.0089	line		【高丸】{rt}今日、貴様がここへ連れて{rt}来たなら、		
-B16.0090	line		【高丸】{rt}たっぷり借りを返してやろうと{rt}思っていたんだがね―――。		
-B16.0091	line		【高丸】{rt}そのせいで少々読みが狂った。		
-B16.0092	line		【高丸】{rt}新たな氏神―――{rt}貴様の《力》は		
-B16.0093	line		【高丸】{rt}正直、予想外だった…。		
-B16.0094	line		【矢村】{rt}伊涼を捕らえ、{rt}俺と焔羅様を斃す…。		
-B16.0095	line		【矢村】{rt}それが報復という訳かッ？		
-B16.0096	line		【高丸】{rt}報復…？		
-B16.0097	line		【高丸】{rt}くくく―――違うね。		
-B16.0098	line		【高丸】{rt}報復は、敗者がするもんだろ？		
-B16.0099	line		【高丸】{rt}己たちは負けちゃいない。		
-B16.0100	line		【高丸】{rt}貴様を斃し、このふやけた国を{rt}《陰の者》―――		
-B16.0101	line		【高丸】{rt}己たちの国として塗り替える{rt}事ができるッ。		
-B16.0102	line		【高丸】{rt}…くくく。		
-B16.0103	line		【高丸】{rt}そのためには、邪魔者を{rt}消し去らねばならんのだ。		
-B16.0104	line		【高丸】{rt}俊宗よ…。		
-B16.0105	line		【矢村】{rt}そのためにお前は{rt}復活したというのか！？		
-B16.0106	line		【矢村】{rt}俺を俊宗とみなし、{rt}俺を斃せば、		
-B16.0107	line		【矢村】{rt}《陰の者》の恨みが{rt}晴れるとでもいうのか！？		
-B16.0108	line		【高丸】{rt}貴様の言わんとしている事は{rt}分かるさ。		
-B16.0109	line		【高丸】{rt}自分は俊宗ではない―――		
-B16.0110	line		【高丸】{rt}そうだろう？		
+B16.0083	line		【高丸】{rt}少々、深い眠りに{rt}落ちているだけだ。	【Takamaru】{rt}She's only fallen into a rather deep{rt}sleep.	
+B16.0084	line		【高丸】{rt}そっちこそ―――	【Takamaru】{rt}What about you--	
+B16.0085	line		【高丸】{rt}焔羅の老いぼれはどうした？	【Takamaru】{rt}what happened to that dotard Enra?	
+B16.0086	line		【高丸】{rt}まさか、まだくたばっては{rt}いないだろう？	【Takamaru】{rt}Surely he hasn't kicked the bucket{rt}yet?	
+B16.0087	line		【矢村】{rt}焔羅様を知っているのか？	【Yamura】{rt}You know Lord Enra?	
+B16.0088	line		【高丸】{rt}知っているもなにも―――。	【Takamaru】{rt}Know him? Why--	
+B16.0089	line		【高丸】{rt}今日、貴様がここへ連れて{rt}来たなら、	【Takamaru】{rt}if you'd brought him here today,	
+B16.0090	line		【高丸】{rt}たっぷり借りを返してやろうと{rt}思っていたんだがね―――。	【Takamaru】{rt}I meant to pay him back plenty--	
+B16.0091	line		【高丸】{rt}そのせいで少々読みが狂った。	【Takamaru】{rt}That threw my plans off a little.	
+B16.0092	line		【高丸】{rt}新たな氏神―――{rt}貴様の《力》は	【Takamaru】{rt}The new Ujigami--your Power	
+B16.0093	line		【高丸】{rt}正直、予想外だった…。	【Takamaru】{rt}was, honestly, unexpected...	
+B16.0094	line		【矢村】{rt}伊涼を捕らえ、{rt}俺と焔羅様を斃す…。	【Yamura】{rt}Capture Isuzu, and bring down me and{rt}Lord Enra...	
+B16.0095	line		【矢村】{rt}それが報復という訳かッ？	【Yamura】{rt}So that's your revenge?	
+B16.0096	line		【高丸】{rt}報復…？	【Takamaru】{rt}Revenge...?	
+B16.0097	line		【高丸】{rt}くくく―――違うね。	【Takamaru】{rt}Heh heh heh--wrong.	
+B16.0098	line		【高丸】{rt}報復は、敗者がするもんだろ？	【Takamaru】{rt}Revenge is for losers, isn't it?	
+B16.0099	line		【高丸】{rt}己たちは負けちゃいない。	【Takamaru】{rt}We haven't lost.	
+B16.0100	line		【高丸】{rt}貴様を斃し、このふやけた国を{rt}《陰の者》―――	【Takamaru】{rt}Bring you down, and this flabby{rt}country can be repainted	
+B16.0101	line		【高丸】{rt}己たちの国として塗り替える{rt}事ができるッ。	【Takamaru】{rt}as the country of the Shade{rt}folk--ours!	
+B16.0102	line		【高丸】{rt}…くくく。	【Takamaru】{rt}...Heh heh heh.	
+B16.0103	line		【高丸】{rt}そのためには、邪魔者を{rt}消し去らねばならんのだ。	【Takamaru】{rt}For that, whoever's in the way must be{rt}wiped out.	
+B16.0104	line		【高丸】{rt}俊宗よ…。	【Takamaru】{rt}Toshimune...	
+B16.0105	line		【矢村】{rt}そのためにお前は{rt}復活したというのか！？	【Yamura】{rt}That's why you came back!?	
+B16.0106	line		【矢村】{rt}俺を俊宗とみなし、{rt}俺を斃せば、	【Yamura】{rt}You take me for Toshimune, and if you{rt}bring me down,	
+B16.0107	line		【矢村】{rt}《陰の者》の恨みが{rt}晴れるとでもいうのか！？	【Yamura】{rt}the grudge of the Shade folk is{rt}settled, is that it!?	
+B16.0108	line		【高丸】{rt}貴様の言わんとしている事は{rt}分かるさ。	【Takamaru】{rt}I know what you're trying to say.	
+B16.0109	line		【高丸】{rt}自分は俊宗ではない―――	【Takamaru】{rt}That you aren't Toshimune--	
+B16.0110	line		【高丸】{rt}そうだろう？	【Takamaru】{rt}right?	
 B16.0111	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B16.0112	line		【高丸】{rt}確かに、今の貴様の名は{rt}俊宗ではなかろうよ。		
-B16.0113	line		【高丸】{rt}だが、己が用があるのは、		
-B16.0114	line		【高丸】{rt}貴様が親から授かった{rt}名などではなく、		
-B16.0115	line		【高丸】{rt}お前の《魂》に{rt}刻み付けられた名だ。		
-B16.0116	line		【矢村】{rt}何だと―――！？		
-B16.0117	line		【高丸】{rt}かつて、		
-B16.0118	line		【高丸】{rt}近江、鈴鹿山、蝦夷―――		
-B16.0119	line		【高丸】{rt}三つの戦場で己の首を刎ね、		
-B16.0120	line		【高丸】{rt}それでも飽き足らずに{rt}《陰》と《陽》の戦の中で		
-B16.0121	line		【高丸】{rt}数多（あまた）の{rt}《陰の者》を…		
-B16.0122	line		【高丸】{rt}女も、子供も―――		
-B16.0123	line		【高丸】{rt}そして己の娘をも{rt}無慈悲に狩り殺した		
-B16.0124	line		【高丸】{rt}《鬼狩り将軍》―――		
-B16.0125	line		【高丸の声】{rt}藤原俊宗…。		
-B16.0126	line		【高丸の声】{rt}己にとって最も憎い敵の{rt}転生した姿が――		
-B16.0127	line		【高丸】{rt}お前なのだ。		
-B16.0128	line		【矢村】{rt}転生―――！？		
-B16.0129	line		【高丸】{rt}そうだ。		
-B16.0130	line		【高丸】{rt}転生とは、人の魂に{rt}宿る《星》が		
-B16.0131	line		【高丸】{rt}世を越え、死を越えて{rt}伝えられるもの。		
-B16.0132	line		【高丸】{rt}貴様がなんと言おうと、{rt}貴様は俊宗と同じ、		
-B16.0133	line		【高丸】{rt}己たちの宿敵となるッ！！		
-B16.0134	line		【矢村】{rt}そんな―――。		
-B16.0135	line		【高丸】{rt}…そして、水兼伊涼。		
+B16.0112	line		【高丸】{rt}確かに、今の貴様の名は{rt}俊宗ではなかろうよ。	【Takamaru】{rt}True, your name now probably isn't{rt}Toshimune.	
+B16.0113	line		【高丸】{rt}だが、己が用があるのは、	【Takamaru】{rt}But what I'm after	
+B16.0114	line		【高丸】{rt}貴様が親から授かった{rt}名などではなく、	【Takamaru】{rt}isn't the name your parents gave{rt}you,	
+B16.0115	line		【高丸】{rt}お前の《魂》に{rt}刻み付けられた名だ。	【Takamaru】{rt}it's the name carved into your Soul.	
+B16.0116	line		【矢村】{rt}何だと―――！？	【Yamura】{rt}What--!?	
+B16.0117	line		【高丸】{rt}かつて、	【Takamaru】{rt}Long ago,	
+B16.0118	line		【高丸】{rt}近江、鈴鹿山、蝦夷―――	【Takamaru】{rt}at Omi, Mt. Suzuka and Ezo--	
+B16.0119	line		【高丸】{rt}三つの戦場で己の首を刎ね、	【Takamaru】{rt}he took my head on three{rt}battlefields,	
+B16.0120	line		【高丸】{rt}それでも飽き足らずに{rt}《陰》と《陽》の戦の中で	【Takamaru】{rt}and still unsatisfied, in the war of{rt}Shade and Light,	
+B16.0121	line		【高丸】{rt}数多（あまた）の{rt}《陰の者》を…	【Takamaru】{rt}he hunted down countless Shade{rt}folk...	
+B16.0122	line		【高丸】{rt}女も、子供も―――	【Takamaru】{rt}women, children--	
+B16.0123	line		【高丸】{rt}そして己の娘をも{rt}無慈悲に狩り殺した	【Takamaru】{rt}and even my daughter, without{rt}mercy:	
+B16.0124	line		【高丸】{rt}《鬼狩り将軍》―――	【Takamaru】{rt}the Oni-Hunter General--	
+B16.0125	line		【高丸の声】{rt}藤原俊宗…。	【Takamaru's Voice】{rt}Fujiwara no Toshimune...	
+B16.0126	line		【高丸の声】{rt}己にとって最も憎い敵の{rt}転生した姿が――	【Takamaru's Voice】{rt}The reincarnation of my most hated{rt}enemy--	
+B16.0127	line		【高丸】{rt}お前なのだ。	【Takamaru】{rt}is you.	
+B16.0128	line		【矢村】{rt}転生―――！？	【Yamura】{rt}Reincarnation--!?	
+B16.0129	line		【高丸】{rt}そうだ。	【Takamaru】{rt}That's right.	
+B16.0130	line		【高丸】{rt}転生とは、人の魂に{rt}宿る《星》が	【Takamaru】{rt}Reincarnation is the Star dwelling in a{rt}person's soul	
+B16.0131	line		【高丸】{rt}世を越え、死を越えて{rt}伝えられるもの。	【Takamaru】{rt}carried on beyond lifetimes, beyond{rt}death.	
+B16.0132	line		【高丸】{rt}貴様がなんと言おうと、{rt}貴様は俊宗と同じ、	【Takamaru】{rt}Whatever you say, you, like{rt}Toshimune,	
+B16.0133	line		【高丸】{rt}己たちの宿敵となるッ！！	【Takamaru】{rt}are our sworn enemy!!	
+B16.0134	line		【矢村】{rt}そんな―――。	【Yamura】{rt}No way--	
+B16.0135	line		【高丸】{rt}…そして、水兼伊涼。	【Takamaru】{rt}...And Isuzu Mizukane.	
 B16.0136	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
-B16.0137	line		【高丸】{rt}こいつは己の知る限り{rt}最もいい女でありながら、		
-B16.0138	line		【高丸】{rt}最も憎い女―――		
-B16.0139	line		【高丸の声】{rt}鈴鹿御前の転生だ。		
-B16.0140	line		【矢村】{rt}鈴鹿…御前？		
-B16.0141	line		【高丸】{rt}クックック。そうよ。		
-B16.0142	line		【高丸】{rt}二千や三千の兵を{rt}平気で敵にまわす		
-B16.0143	line		【高丸】{rt}強大な妖力の持ち主―――		
-B16.0144	line		【高丸】{rt}《鈴鹿の鬼姫》の事だ。		
-B16.0145	line		【高丸】{rt}己たちを突き動かすこの{rt}《陰の氣》を伊涼に捧げれば		
-B16.0146	line		【高丸】{rt}伊涼の中で眠る鈴鹿は{rt}必ずや目を覚ます！！		
-B16.0147	line		【高丸】{rt}くくく―――。		
-B16.0148	line		【高丸】{rt}過去の自らの《罪》―――		
-B16.0149	line		【高丸】{rt}同族である己たちを裏切り、		
-B16.0150	line		【高丸】{rt}俊宗に荷担した１２００年前の{rt}《罪》と後悔を思い出せば、		
-B16.0151	line		【高丸】{rt}鈴鹿は迷わず己に従う{rt}だろうよ。		
-B16.0152	line		【高丸】{rt}そうなれば、陰の《氣》はた易{rt}くこの日本を呑み込むッ！！		
-B16.0153	line		【矢村】{rt}違うッ！！		
-B16.0154	line		【矢村】{rt}俺も伊涼も、何も{rt}知りやしない！！		
-B16.0155	line		【矢村】{rt}全くの別人だッ。		
-B16.0156	line		【矢村】{rt}鈴鹿も俊宗も…お前の時代の{rt}故人に過ぎない。		
-B16.0157	line		【矢村】{rt}お前は恨みをぶつける相手を{rt}間違えているッ。		
+B16.0137	line		【高丸】{rt}こいつは己の知る限り{rt}最もいい女でありながら、	【Takamaru】{rt}The finest woman I've ever known,	
+B16.0138	line		【高丸】{rt}最も憎い女―――	【Takamaru】{rt}and the most hated--	
+B16.0139	line		【高丸の声】{rt}鈴鹿御前の転生だ。	【Takamaru's Voice】{rt}she's the reincarnation of Suzuka{rt}Gozen.	
+B16.0140	line		【矢村】{rt}鈴鹿…御前？	【Yamura】{rt}Suzuka... Gozen?	
+B16.0141	line		【高丸】{rt}クックック。そうよ。	【Takamaru】{rt}Ku ku ku. That's right.	
+B16.0142	line		【高丸】{rt}二千や三千の兵を{rt}平気で敵にまわす	【Takamaru】{rt}The one who thought nothing of taking{rt}on two or three thousand soldiers,	
+B16.0143	line		【高丸】{rt}強大な妖力の持ち主―――	【Takamaru】{rt}the wielder of mighty demon power--	
+B16.0144	line		【高丸】{rt}《鈴鹿の鬼姫》の事だ。	【Takamaru】{rt}the Oni Princess of Suzuka.	
+B16.0145	line		【高丸】{rt}己たちを突き動かすこの{rt}《陰の氣》を伊涼に捧げれば	【Takamaru】{rt}Offer Isuzu this Shade Ki that drives{rt}us, and	
+B16.0146	line		【高丸】{rt}伊涼の中で眠る鈴鹿は{rt}必ずや目を覚ます！！	【Takamaru】{rt}the Suzuka asleep in Isuzu will surely{rt}awaken!!	
+B16.0147	line		【高丸】{rt}くくく―――。	【Takamaru】{rt}Heh heh heh--	
+B16.0148	line		【高丸】{rt}過去の自らの《罪》―――	【Takamaru】{rt}Once she remembers her own past{rt}Sin--	
+B16.0149	line		【高丸】{rt}同族である己たちを裏切り、	【Takamaru】{rt}betraying us, her own kind,	
+B16.0150	line		【高丸】{rt}俊宗に荷担した１２００年前の{rt}《罪》と後悔を思い出せば、	【Takamaru】{rt}siding with Toshimune 1200 years{rt}ago--and its regret,	
+B16.0151	line		【高丸】{rt}鈴鹿は迷わず己に従う{rt}だろうよ。	【Takamaru】{rt}Suzuka will follow me without{rt}hesitation.	
+B16.0152	line		【高丸】{rt}そうなれば、陰の《氣》はた易{rt}くこの日本を呑み込むッ！！	【Takamaru】{rt}Then the Shade Ki will swallow this{rt}Japan with ease!!	
+B16.0153	line		【矢村】{rt}違うッ！！	【Yamura】{rt}You're wrong!!	
+B16.0154	line		【矢村】{rt}俺も伊涼も、何も{rt}知りやしない！！	【Yamura】{rt}Isuzu and I don't know anything about{rt}it!!	
+B16.0155	line		【矢村】{rt}全くの別人だッ。	【Yamura】{rt}We're completely different people.	
+B16.0156	line		【矢村】{rt}鈴鹿も俊宗も…お前の時代の{rt}故人に過ぎない。	【Yamura】{rt}Suzuka and Toshimune... are just people{rt}long dead from your time.	
+B16.0157	line		【矢村】{rt}お前は恨みをぶつける相手を{rt}間違えているッ。	【Yamura】{rt}You're aiming your grudge at the{rt}wrong people.	
 B16.0158	line		【高丸】{rt}くくくく…。	【Takamaru】{rt}Heh heh heh heh...	
-B16.0159	line		【高丸】{rt}さて、それはどうかな？		
-B16.0160	line		【高丸】{rt}貴様らは《大罪》と呼ぶ《力》{rt}を封じてやがるよな？		
-B16.0161	line		【矢村】{rt}《大罪》―――？		
-B16.0162	line		【矢村】{rt}《邪氣》の事か？		
-B16.0163	line		【高丸】{rt}確か、伊涼も{rt}そう呼んでいたな。		
-B16.0164	line		【高丸】{rt}ま、構わんさ。		
-B16.0165	line		【高丸】{rt}どちらにせよ、貴様らはそれを{rt}さも当然のように斃し、		
-B16.0166	line		【高丸】{rt}封印している―――。		
-B16.0167	line		【矢村】{rt}それは《大罪》が{rt}邪悪な《力》だからだッ。		
-B16.0168	line		【矢村】{rt}そんなものが好き勝手に{rt}人の心を食い荒らすのを		
-B16.0169	line		【矢村】{rt}黙って見ていられるかッ！！		
-B16.0170	line		【高丸】{rt}くくッ。		
-B16.0171	line		【高丸】{rt}本当に、それだけか？		
-B16.0172	line		【高丸】{rt}その《大罪》とやらを{rt}持っていたのは		
-B16.0173	line		【高丸】{rt}己たちのような、虐げられた{rt}《陰の者》ではなかったか？		
+B16.0159	line		【高丸】{rt}さて、それはどうかな？	【Takamaru】{rt}Well, I wonder about that.	
+B16.0160	line		【高丸】{rt}貴様らは《大罪》と呼ぶ《力》{rt}を封じてやがるよな？	【Takamaru】{rt}You've been sealing the Power you call{rt}the Great Sin, haven't you?	
+B16.0161	line		【矢村】{rt}《大罪》―――？	【Yamura】{rt}The Great Sin--?	
+B16.0162	line		【矢村】{rt}《邪氣》の事か？	【Yamura】{rt}You mean Miasma?	
+B16.0163	line		【高丸】{rt}確か、伊涼も{rt}そう呼んでいたな。	【Takamaru】{rt}Isuzu called it that too, I believe.	
+B16.0164	line		【高丸】{rt}ま、構わんさ。	【Takamaru】{rt}Well, no matter.	
+B16.0165	line		【高丸】{rt}どちらにせよ、貴様らはそれを{rt}さも当然のように斃し、	【Takamaru】{rt}Either way, you bring them down as if{rt}it's only natural,	
+B16.0166	line		【高丸】{rt}封印している―――。	【Takamaru】{rt}and seal them away--	
+B16.0167	line		【矢村】{rt}それは《大罪》が{rt}邪悪な《力》だからだッ。	【Yamura】{rt}Because the Great Sin is an evil{rt}Power.	
+B16.0168	line		【矢村】{rt}そんなものが好き勝手に{rt}人の心を食い荒らすのを	【Yamura】{rt}How could I stand by and watch it	
+B16.0169	line		【矢村】{rt}黙って見ていられるかッ！！	【Yamura】{rt}devour people's hearts as it pleases!!	
+B16.0170	line		【高丸】{rt}くくッ。	【Takamaru】{rt}Heh heh.	
+B16.0171	line		【高丸】{rt}本当に、それだけか？	【Takamaru】{rt}Is that really all?	
+B16.0172	line		【高丸】{rt}その《大罪》とやらを{rt}持っていたのは	【Takamaru】{rt}Weren't those who held this Great Sin{rt}of yours	
+B16.0173	line		【高丸】{rt}己たちのような、虐げられた{rt}《陰の者》ではなかったか？	【Takamaru】{rt}oppressed Shade folk, like us?	
 B16.0174	line		【矢村】{rt}―――！！	【Yamura】{rt}--!!	
-B16.0175	line		【高丸】{rt}その性質から、		
-B16.0176	line		【高丸】{rt}《陽》の社会に虐げられた{rt}《陰の者》たち―――。		
-B16.0177	line		【高丸】{rt}彼らはこの時代にも間違いなく{rt}存在し続けている…。		
-B16.0178	line		【高丸】{rt}貴様らは		
-B16.0179	line		【高丸】{rt}《陰の者》の《力》―――		
-B16.0180	line		【高丸】{rt}《陽》に逆らうその《力》を{rt}《大罪》と呼んでいるのだ。		
-B16.0181	line		【高丸】{rt}だが、それは《悪》か？		
-B16.0182	line		【高丸】{rt}《陰の者》を斃し―――		
-B16.0183	line		【高丸】{rt}《大罪》を狩る事が、		
-B16.0184	line		【高丸】{rt}果たして、{rt}絶対の《正義》なのか！？		
-B16.0185	line		【高丸】{rt}どうだ、氏神。		
-B16.0186	line		【高丸】{rt}この者に力を貸す事で		
-B16.0187	line		【高丸】{rt}どういう結果が生まれるか{rt}分かるだろうが？		
-B16.0188	line		【高丸】{rt}氏神よ。		
-B16.0189	line		【高丸】{rt}貴様の《氣》は己にとって、{rt}初めて感じるものだ。		
-B16.0190	line		【高丸】{rt}１２００年前には現れなかった{rt}強力な《氣》―――。		
-B16.0191	line		【高丸】{rt}俺には分かるぞ。		
-B16.0192	line		【高丸】{rt}貴様はこの世界の魂では{rt}あるまい。		
-B16.0193	line		【矢村】{rt}なんだと！？		
-B16.0194	line		【高丸】{rt}くくく。		
-B16.0195	line		【高丸】{rt}どうやら初耳らしいな。		
-B16.0196	line		【高丸】{rt}氏神よ。		
-B16.0197	line		【高丸】{rt}貴様は部外者だ。		
-B16.0198	line		【高丸】{rt}我らの闘争に首を突っ込むの{rt}ならば		
-B16.0199	line		【高丸】{rt}己がその首を斬り落として{rt}やるぞ。		
-B16.0200	line		【高丸】{rt}貴様はこの世界の魂では{rt}あるまい。		
-B16.0201	line		【矢村】{rt}（なんだと？）		
-B16.0202	line		【高丸】{rt}氏神よ。		
-B16.0203	line		【高丸】{rt}貴様がその勧請師に従わねば{rt}ならぬ理由など一つもない。		
-B16.0204	line		【高丸】{rt}それで命を落とすとすれば、		
-B16.0205	line		【高丸】{rt}貴様は愚者だ。		
-B16.0206	line		【高丸】{rt}貴様には《陰の者》の心は{rt}分からんという訳か。		
-B16.0207	line		【高丸】{rt}氏神とは言え、所詮は{rt}《陽の者》か。		
-B16.0208	line		【高丸】{rt}だが己は貴様のような《氣》を{rt}感じるのは初めてだ。		
-B16.0209	line		【高丸】{rt}貴様、この世界の魂では{rt}あるまい。		
-B16.0210	line		【矢村】{rt}なんだとッ！？		
-B16.0211	line		【高丸】{rt}ふん、まあ構わぬ。		
-B16.0212	line		【高丸】{rt}決して《陰》に交わらぬ―――		
-B16.0213	line		【高丸】{rt}それが貴様ら、《陽の者》だ。		
-B16.0214	line		【高丸】{rt}己が大願を成すためには{rt}貴様らを斃さねばならない。		
-B16.0215	line		【高丸】{rt}死んでいった{rt}《陰の者》たち―――		
-B16.0216	line		【高丸】{rt}そして、己の娘の魂の{rt}ためにも…		
-B16.0217	line		【高丸】{rt}俊宗―――		
-B16.0218	line		【高丸】{rt}己は貴様を{rt}許しはしないぞッ！！		
-B16.0219	line		【高丸】{rt}絶対になあッ！！		
+B16.0175	line		【高丸】{rt}その性質から、	【Takamaru】{rt}By their very nature,	
+B16.0176	line		【高丸】{rt}《陽》の社会に虐げられた{rt}《陰の者》たち―――。	【Takamaru】{rt}the Shade folk are oppressed by the{rt}society of the Light--	
+B16.0177	line		【高丸】{rt}彼らはこの時代にも間違いなく{rt}存在し続けている…。	【Takamaru】{rt}They surely still exist in this age{rt}too...	
+B16.0178	line		【高丸】{rt}貴様らは	【Takamaru】{rt}What you	
+B16.0179	line		【高丸】{rt}《陰の者》の《力》―――	【Takamaru】{rt}call the Great Sin is the Power of the{rt}Shade folk--	
+B16.0180	line		【高丸】{rt}《陽》に逆らうその《力》を{rt}《大罪》と呼んでいるのだ。	【Takamaru】{rt}the Power that defies the Light.	
+B16.0181	line		【高丸】{rt}だが、それは《悪》か？	【Takamaru】{rt}But is that Evil?	
+B16.0182	line		【高丸】{rt}《陰の者》を斃し―――	【Takamaru】{rt}Is bringing down the Shade folk--	
+B16.0183	line		【高丸】{rt}《大罪》を狩る事が、	【Takamaru】{rt}hunting the Great Sin--	
+B16.0184	line		【高丸】{rt}果たして、{rt}絶対の《正義》なのか！？	【Takamaru】{rt}truly absolute Justice!?	
+B16.0185	line		【高丸】{rt}どうだ、氏神。	【Takamaru】{rt}Well, Ujigami?	
+B16.0186	line		【高丸】{rt}この者に力を貸す事で	【Takamaru】{rt}You can see what will come	
+B16.0187	line		【高丸】{rt}どういう結果が生まれるか{rt}分かるだろうが？	【Takamaru】{rt}of lending this one your power, can't{rt}you?	
+B16.0188	line		【高丸】{rt}氏神よ。	【Takamaru】{rt}Ujigami.	
+B16.0189	line		【高丸】{rt}貴様の《氣》は己にとって、{rt}初めて感じるものだ。	【Takamaru】{rt}Your Ki is something I've never felt{rt}before.	
+B16.0190	line		【高丸】{rt}１２００年前には現れなかった{rt}強力な《氣》―――。	【Takamaru】{rt}A mighty Ki that never appeared 1200{rt}years ago--	
+B16.0191	line		【高丸】{rt}俺には分かるぞ。	【Takamaru】{rt}I can tell.	
+B16.0192	line		【高丸】{rt}貴様はこの世界の魂では{rt}あるまい。	【Takamaru】{rt}You're no soul of this world.	
+B16.0193	line		【矢村】{rt}なんだと！？	【Yamura】{rt}What!?	
+B16.0194	line		【高丸】{rt}くくく。	【Takamaru】{rt}Heh heh heh.	
+B16.0195	line		【高丸】{rt}どうやら初耳らしいな。	【Takamaru】{rt}Seems this is news to you.	
+B16.0196	line		【高丸】{rt}氏神よ。	【Takamaru】{rt}Ujigami.	
+B16.0197	line		【高丸】{rt}貴様は部外者だ。	【Takamaru】{rt}You're an outsider.	
+B16.0198	line		【高丸】{rt}我らの闘争に首を突っ込むの{rt}ならば	【Takamaru】{rt}If you stick your neck into our{rt}struggle,	
+B16.0199	line		【高丸】{rt}己がその首を斬り落として{rt}やるぞ。	【Takamaru】{rt}I'll cut that neck off.	
+B16.0200	line		【高丸】{rt}貴様はこの世界の魂では{rt}あるまい。	【Takamaru】{rt}You're no soul of this world.	
+B16.0201	line		【矢村】{rt}（なんだと？）	【Yamura】{rt}(What?)	
+B16.0202	line		【高丸】{rt}氏神よ。	【Takamaru】{rt}Ujigami.	
+B16.0203	line		【高丸】{rt}貴様がその勧請師に従わねば{rt}ならぬ理由など一つもない。	【Takamaru】{rt}There's not one reason you must obey{rt}that Summoner.	
+B16.0204	line		【高丸】{rt}それで命を落とすとすれば、	【Takamaru】{rt}If you lose your life over it,	
+B16.0205	line		【高丸】{rt}貴様は愚者だ。	【Takamaru】{rt}you're a fool.	
+B16.0206	line		【高丸】{rt}貴様には《陰の者》の心は{rt}分からんという訳か。	【Takamaru】{rt}So you can't understand the hearts of{rt}the Shade folk.	
+B16.0207	line		【高丸】{rt}氏神とは言え、所詮は{rt}《陽の者》か。	【Takamaru】{rt}Ujigami or not, you're Light folk after{rt}all.	
+B16.0208	line		【高丸】{rt}だが己は貴様のような《氣》を{rt}感じるのは初めてだ。	【Takamaru】{rt}But this is the first time I've felt Ki like{rt}yours.	
+B16.0209	line		【高丸】{rt}貴様、この世界の魂では{rt}あるまい。	【Takamaru】{rt}You're no soul of this world.	
+B16.0210	line		【矢村】{rt}なんだとッ！？	【Yamura】{rt}What!?	
+B16.0211	line		【高丸】{rt}ふん、まあ構わぬ。	【Takamaru】{rt}Hmph, no matter.	
+B16.0212	line		【高丸】{rt}決して《陰》に交わらぬ―――	【Takamaru】{rt}Never mingling with the Shade--	
+B16.0213	line		【高丸】{rt}それが貴様ら、《陽の者》だ。	【Takamaru】{rt}that's what you Light folk are.	
+B16.0214	line		【高丸】{rt}己が大願を成すためには{rt}貴様らを斃さねばならない。	【Takamaru】{rt}To fulfil my great wish, I must bring{rt}you down.	
+B16.0215	line		【高丸】{rt}死んでいった{rt}《陰の者》たち―――	【Takamaru】{rt}For the Shade folk who died--	
+B16.0216	line		【高丸】{rt}そして、己の娘の魂の{rt}ためにも…	【Takamaru】{rt}and for my daughter's soul...	
+B16.0217	line		【高丸】{rt}俊宗―――	【Takamaru】{rt}Toshimune--	
+B16.0218	line		【高丸】{rt}己は貴様を{rt}許しはしないぞッ！！	【Takamaru】{rt}I will never forgive you!!	
+B16.0219	line		【高丸】{rt}絶対になあッ！！	【Takamaru】{rt}Never!!	

@@ -4,7 +4,7 @@ B21.0001	line		【伊涼】{rt}（夢の中？）
 B21.0002	line		【伊涼】{rt}（また、あの夢―――？）		
 B21.0003	line		【矢村の声】{rt}伊涼ッ！？		
 B21.0004	line		【矢村の声】{rt}そこにいるのは、{rt}伊涼なのか！？		
-B21.0005	line		【伊涼】{rt}（えッ―――？）		
+B21.0005	line		【伊涼】{rt}（えッ―――？）	【Isuzu】{rt}(Huh--?)	
 B21.0006	line		【矢村】{rt}やっぱり、伊涼か。		
 B21.0007	line		【伊涼】{rt}俊！？		
 B21.0008	line		【伊涼】{rt}どうしてここに…。		
@@ -71,7 +71,7 @@ B21.0068	line		【伊涼】{rt}俊ッ！！	【Isuzu】{rt}Shun!!
 B21.0069	line		【伊涼】{rt}どうしたらいいのッ？		
 B21.0070	line		【伊涼】{rt}身体が―――		
 B21.0071	line		【伊涼】{rt}どんどん冷たくなって{rt}くよッ！！		
-B21.0072	line		【矢村】{rt}くッ―――。		
+B21.0072	line		【矢村】{rt}くッ―――。	【Yamura】{rt}Ngh--	
 B21.0073	line		【矢村】{rt}伊涼、どうにかしようにも…		
 B21.0074	line		【矢村】{rt}その傷は―――。		
 B21.0075	line		【伊涼】{rt}そ、そんな…。		
@@ -105,8 +105,8 @@ B21.0102	line		【伊涼】{rt}ううッ…。	【Isuzu】{rt}Uuugh...
 B21.0103	line		【男】{rt}…………。	【Man】{rt}............	
 B21.0104	line		【矢村】{rt}（遅い―――。）		
 B21.0105	line		【矢村】{rt}（やはり、夢の中までは――）		
-B21.0106	line		【伊涼】{rt}{name1}くん―――。		
-B21.0107	line		【伊涼】{rt}{name2}ちゃん―――。		
+B21.0106	line		【伊涼】{rt}{name1}くん―――。	【Isuzu】{rt}{name1}-kun--	
+B21.0107	line		【伊涼】{rt}{name2}ちゃん―――。	【Isuzu】{rt}{name2}-chan--	
 B21.0108	line		【矢村】{rt}{name1}ッ！！		
 B21.0109	line		【矢村】{rt}―――！？	【Yamura】{rt}--!?	
 B21.0110	line		【伊涼】{rt}俊ッ！！	【Isuzu】{rt}Shun!!	
@@ -212,16 +212,16 @@ B21.0209	line		【伊涼】{rt}渡せば、ふたりを帰して{rt}くれるの
 B21.0210	line		【伊涼】{rt}夢から出してくれる？		
 B21.0211	line		【優鉢羅】{rt}ああ。約束する。		
 B21.0212	line		【優鉢羅】{rt}冷気は消え、{rt}温かい体に戻れる。		
-B21.0213	line		【伊涼】{rt}{name1}くん―――。		
+B21.0213	line		【伊涼】{rt}{name1}くん―――。	【Isuzu】{rt}{name1}-kun--	
 B21.0214	line		【矢村】{rt}―――！！	【Yamura】{rt}--!!	
 B21.0215	line		【優鉢羅】{rt}氏神か？		
 B21.0216	line		【優鉢羅】{rt}あの氏神が持っているのか？		
-B21.0217	line		【矢村】{rt}伊涼―――。		
+B21.0217	line		【矢村】{rt}伊涼―――。	【Yamura】{rt}Isuzu--	
 B21.0218	line		【伊涼】{rt}俊、{name1}くん、私―――		
-B21.0219	line		【伊涼】{rt}{name2}ちゃん―――。		
+B21.0219	line		【伊涼】{rt}{name2}ちゃん―――。	【Isuzu】{rt}{name2}-chan--	
 B21.0220	line		【優鉢羅】{rt}氏神か？		
 B21.0221	line		【優鉢羅】{rt}あの氏神が持っているのか？		
-B21.0222	line		【矢村】{rt}伊涼―――。		
+B21.0222	line		【矢村】{rt}伊涼―――。	【Yamura】{rt}Isuzu--	
 B21.0223	line		【伊涼】{rt}俊、{name2}ちゃん、{rt}私―――		
 B21.0224	line		【伊涼】{rt}私のせいでふたりが{rt}死んじゃうなんて、		
 B21.0225	line		【伊涼】{rt}我慢できないよッ。		
