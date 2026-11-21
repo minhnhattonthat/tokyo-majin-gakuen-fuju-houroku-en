@@ -6,17 +6,23 @@ Updated at the end of every session. Keep it to what the next session needs; his
   8d9efb85a8f2.. (built from `script/`, identical to the dump), smoke ok.
 - **In progress (phase 5):** VWF engine done and proven in game (`tools/vwf.py`, `fonts/vwf.txt`, D8; details in
   `docs/re/text.md` §Font). Marker build `build.py --marker` -> `build/tmgfh_marker.gba` boots, story boxes show
-  【B05.0002】 etc. Width gate so far in `tools/windows.tsv` (dialogue 232/218 px, 15 units; choice 112 px). Tour
-  with the glyph probe: `warp.py --all --rom build/tmgfh_marker.gba --out work/qa/marker --script
-  tools/debug/glyphlog.lua`, then `tools/glyphs.py build/tmgfh_marker.gba work/qa/marker --jp` (Japanese still drawn
-  through the text routine) and `--ids` (ids seen).
-  Results so far: the plain marker tour (`work/qa/marker`) passed 194/194 (boots, warps, no blank). The probe tour
-  was killed by Claude Code for low system memory after 56 of 194 rows (no Japanese drawn through the text routine in
-  those 56, 425 marker ids seen). Not restarted. Rerun it with `--jobs 2` when memory allows.
-- **Left for phase 5:** finish the probe tour; from its output flag non-text slots (candidates 0xD6E56C, 0xD6E3D4)
-  and exclude them in `marker.py`/the lint; measure the remaining box variants with rulers (`tools/widthtest.py`,
-  `build.py --qa`): battle/tutorial box (D63xxx), haiku box, yes/no save prompt, shop header, card text. Each goes
-  into `tools/windows.tsv`. Hub, title and settings menus are tiles (graphics rows), not text.
+  【B05.0002】 etc. (marker build sha1 b70905c0c25d.., 2026-11-22).
+  Session 2026-11-22 (2): **printer B** found: the yes/no prompts (CF1318-CF1564) are sprite text from a second
+  unit routine 0x0800455C that decodes Shift-JIS itself; its marker drew blank. VWF now covers it (`hookb` in
+  `tools/vwf.py`, stub at 0x0800497C; `docs/re/text.md` §Font), proven in game ("Save? / Yes No" in
+  `work/qa/w3/hub_save`). `glyphlog.lua` logs both routines; `warp.py --var` passes probe variables.
+  Probe tour finished (`work/qa/marker_gl`, 194/194 ok; the first 52 rows ran before printer B was probed):
+  `glyphs.py --jp` shows no Japanese outside extracted rows (only B39.0020's staff-roll kanji `[FB][B3]`, kept raw
+  on purpose); 2 181 ids seen. Non-text: the name-entry grid rows D6E56C-D6E710 now have kind `grid` (extract.py;
+  out of the marker and translation, they change with the English name entry). D6E3D4 同期テスト中 is real (link
+  debug) text, kept. Width gate in `tools/windows.tsv`: dialogue, choice, tutorial_page (per-entry boxes: limit =
+  longest JP line in cells, 5 pages measured), battle_strip (box measured, ids unknown), haiku 160, yesno 128 with a
+  fixed option line `[81][40]Yes[81][40]No`.
+- **Left for phase 5:** measure the battle boxes not seen yet: enemy battle quotes (D68xxx-D6DBxx, 2 lines `{rt}`),
+  card names (D64ADC..) and card effect text (D67xxx, D6790C), the battle_strip's string ids, sound test labels
+  (D1BD60.., `{xn}` positioned). A mashed MODE15 run (`warp.py MODE15 --frames 6000 --mash 20`) only reaches the
+  tutorial pages and goes black at ~f4070 on the original too; a real battle needs a save or route into a chapter
+  battle (also the defeat screen gap below). Shop and hub menus are tiles, no text routine.
 - **Done:** Phase 4 extract (2026-11-22): `tools/extract.py` -> `script/scenes/<B05|A3.2>.tsv` (170 files, 14 526
   lines + 21 choices) and `script/system/{cf,d1,d6}.tsv` (2 677 pointed strings), columns `id kind max jp en notes`,
   notation `tools/textcodec.py` (Shift-JIS plus `{rt}` `{nl}` `{name1}` `{I000}` `{&Sx0}` .., other bytes `[XX]`).
