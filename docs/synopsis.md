@@ -35,3 +35,7 @@ session; translators read it before their batch.
 - B05: an elderly couple (Elder, Old Woman), possessed by Miasma, speak things into Fact: they trap a land-grabber
   in an invisible prison (the "spirited away" 神隠し cases, seven in a month). Morning at the shrine; asking around
   by the river (choice: Night Worker / Old Folks / Office Worker); the couple summon a pack of mad dogs.
+- B06: the dogs vanish; the couple boast of their Power ("speaking things into Fact"); battle.
+- B07: Isuzu seals their Miasma; the couple confess their loneliness (family gone, ignored by society); Yamura and
+  Isuzu offer to help them change things. Isuzu asks the player's old school: Magami Academy (真神学園) in Shinjuku,
+  which neither has heard of. Yamura's Summoning only lasts so long each day.

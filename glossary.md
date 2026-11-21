@@ -44,6 +44,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 ## Places
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
+| 真神学園 | Magami Academy | | the player's school in Shinjuku (B07); nobody has heard of it | Majin Academy |
 
 ## Items / skills / terms
 | JP | EN | max | notes | Avoid |

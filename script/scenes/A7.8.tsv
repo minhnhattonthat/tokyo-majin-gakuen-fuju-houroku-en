@@ -1,41 +1,41 @@
 id	kind	max	jp	en	notes
-A7.8.0000	line		【忍者】{rt}やあ、いらっしゃい。		
-A7.8.0001	line		【忍者】{rt}と、―――君か。		
-A7.8.0002	line		【忍者】{rt}何か用かね？		
-A7.8.0003	line		【忍者】{rt}……		
-A7.8.0004	line		【忍者】{rt}仕事をする姿が珍しいかね？		
-A7.8.0005	line		【忍者】{rt}そう例えば…		
-A7.8.0006	line		【忍者】{rt}この壷、		
-A7.8.0007	line		【忍者】{rt}１つ磨くのにも意味が、		
-A7.8.0008	line		【忍者】{rt}―――ある。		
-A7.8.0009	line		【忍者】{rt}仕事とはそういうものだよ。		
-A7.8.0010	line		【忍者】{rt}……		
-A7.8.0011	line		【忍者】{rt}ふむ。		
-A7.8.0012	line		【忍者】{rt}理解するのと、{rt}行動するのとは、		
-A7.8.0013	line		【忍者】{rt}違うが、それでも―――		
-A7.8.0014	line		【忍者】{rt}前向きな姿勢には{rt}好感がもてるね。		
-A7.8.0015	line		【忍者】{rt}悪くはない。		
-A7.8.0016	line		【忍者】{rt}……		
-A7.8.0017	line		【忍者】{rt}君には少し難しかったかな？		
-A7.8.0018	line		【忍者】{rt}そんなに簡単なものではないが		
-A7.8.0019	line		【忍者】{rt}何事にも{rt}やってみる価値は―――		
-A7.8.0020	line		【忍者】{rt}あると思う。		
-A7.8.0021	line		【忍者】{rt}あとは君のやる気―――		
-A7.8.0022	line		【忍者】{rt}それ次第じゃないかね		
-A7.8.0023	line		【忍者】{rt}ふむ。		
-A7.8.0024	line		【忍者】{rt}理解するのと、{rt}行動するのとは、		
-A7.8.0025	line		【忍者】{rt}違うが、それでも―――		
-A7.8.0026	line		【忍者】{rt}前向きな姿勢には{rt}好感がもてるね。		
-A7.8.0027	line		【忍者】{rt}悪くはない。		
-A7.8.0028	line		【忍者】{rt}本当にわかっているのかい？		
-A7.8.0029	line		【忍者】{rt}ま、好きにするさ。		
-A7.8.0030	line		【忍者】{rt}……		
-A7.8.0031	line		【忍者】{rt}君にはこういう仕事は{rt}向かない、		
-A7.8.0032	line		【忍者】{rt}そういう事だと{rt}思うよ。		
-A7.8.0033	line		【忍者】{rt}……		
-A7.8.0034	line		【忍者】{rt}意味も、価値も、		
-A7.8.0035	line		【忍者】{rt}考え、思う所に発生する{rt}ものだ。		
-A7.8.0036	line		【忍者】{rt}君は君で好きに考えるといい。		
-A7.8.0037	line		【忍者】{rt}……		
-A7.8.0038	line		【忍者】{rt}僕は君と論争するつもりは{rt}ない。		
-A7.8.0039	line		【忍者】{rt}ひやかしなら帰ってくれ。		
+A7.8.0000	line		【忍者】{rt}やあ、いらっしゃい。	【Ninja】{rt}Hello, welcome.	
+A7.8.0001	line		【忍者】{rt}と、―――君か。	【Ninja】{rt}Oh--it's you.	
+A7.8.0002	line		【忍者】{rt}何か用かね？	【Ninja】{rt}Something I can do for you?	
+A7.8.0003	line		【忍者】{rt}……	【Ninja】{rt}......	
+A7.8.0004	line		【忍者】{rt}仕事をする姿が珍しいかね？	【Ninja】{rt}Is it so unusual to see me at work?	
+A7.8.0005	line		【忍者】{rt}そう例えば…	【Ninja】{rt}For example...	
+A7.8.0006	line		【忍者】{rt}この壷、	【Ninja】{rt}this vase.	
+A7.8.0007	line		【忍者】{rt}１つ磨くのにも意味が、	【Ninja】{rt}Even polishing a single one has{rt}meaning--	
+A7.8.0008	line		【忍者】{rt}―――ある。	【Ninja】{rt}--to it.	
+A7.8.0009	line		【忍者】{rt}仕事とはそういうものだよ。	【Ninja】{rt}That's what work is.	
+A7.8.0010	line		【忍者】{rt}……	【Ninja】{rt}......	
+A7.8.0011	line		【忍者】{rt}ふむ。	【Ninja】{rt}Hmm.	
+A7.8.0012	line		【忍者】{rt}理解するのと、{rt}行動するのとは、	【Ninja】{rt}Understanding and acting	
+A7.8.0013	line		【忍者】{rt}違うが、それでも―――	【Ninja】{rt}are different things, but even so--	
+A7.8.0014	line		【忍者】{rt}前向きな姿勢には{rt}好感がもてるね。	【Ninja】{rt}I like a positive attitude.	
+A7.8.0015	line		【忍者】{rt}悪くはない。	【Ninja】{rt}Not bad.	
+A7.8.0016	line		【忍者】{rt}……	【Ninja】{rt}......	
+A7.8.0017	line		【忍者】{rt}君には少し難しかったかな？	【Ninja】{rt}Was that a little hard for you?	
+A7.8.0018	line		【忍者】{rt}そんなに簡単なものではないが	【Ninja】{rt}It isn't that simple, but	
+A7.8.0019	line		【忍者】{rt}何事にも{rt}やってみる価値は―――	【Ninja】{rt}I think everything is worth--	
+A7.8.0020	line		【忍者】{rt}あると思う。	【Ninja】{rt}trying.	
+A7.8.0021	line		【忍者】{rt}あとは君のやる気―――	【Ninja】{rt}The rest depends on your drive--	
+A7.8.0022	line		【忍者】{rt}それ次第じゃないかね	【Ninja】{rt}wouldn't you say?	
+A7.8.0023	line		【忍者】{rt}ふむ。	【Ninja】{rt}Hmm.	
+A7.8.0024	line		【忍者】{rt}理解するのと、{rt}行動するのとは、	【Ninja】{rt}Understanding and acting	
+A7.8.0025	line		【忍者】{rt}違うが、それでも―――	【Ninja】{rt}are different things, but even so--	
+A7.8.0026	line		【忍者】{rt}前向きな姿勢には{rt}好感がもてるね。	【Ninja】{rt}I like a positive attitude.	
+A7.8.0027	line		【忍者】{rt}悪くはない。	【Ninja】{rt}Not bad.	
+A7.8.0028	line		【忍者】{rt}本当にわかっているのかい？	【Ninja】{rt}Do you really understand?	
+A7.8.0029	line		【忍者】{rt}ま、好きにするさ。	【Ninja】{rt}Well, suit yourself.	
+A7.8.0030	line		【忍者】{rt}……	【Ninja】{rt}......	
+A7.8.0031	line		【忍者】{rt}君にはこういう仕事は{rt}向かない、	【Ninja】{rt}I think it means this kind of work	
+A7.8.0032	line		【忍者】{rt}そういう事だと{rt}思うよ。	【Ninja】{rt}just isn't for you.	
+A7.8.0033	line		【忍者】{rt}……	【Ninja】{rt}......	
+A7.8.0034	line		【忍者】{rt}意味も、価値も、	【Ninja】{rt}Meaning and value alike	
+A7.8.0035	line		【忍者】{rt}考え、思う所に発生する{rt}ものだ。	【Ninja】{rt}arise where one thinks and feels.	
+A7.8.0036	line		【忍者】{rt}君は君で好きに考えるといい。	【Ninja】{rt}Think whatever you like.	
+A7.8.0037	line		【忍者】{rt}……	【Ninja】{rt}......	
+A7.8.0038	line		【忍者】{rt}僕は君と論争するつもりは{rt}ない。	【Ninja】{rt}I have no intention of arguing with{rt}you.	
+A7.8.0039	line		【忍者】{rt}ひやかしなら帰ってくれ。	【Ninja】{rt}If you're just browsing, please leave.	
