@@ -127,3 +127,11 @@ session; translators read it before their batch.
 - B28: Kumaso is re-sealed. Shimei and Shiroku list the ten Great Sins (Abuse, Flattery, Greed, Malice, Lies, Lust,
   Killing, Theft = the eight gathered; Double Tongue, which they used to set Kumaso on them; False View, still
   unclaimed), born of humanity's Heart, Speech and Mind, and revive Uhatsura to fight again; battle.
+- B29: Uhatsura is re-sealed. Shimei and Shiroku reveal the player is the Vessel of the Golden Dragon, the only
+  human who can take in the Dragon Veins' Power (cut off here in the Endless Space); they absorb seven Great Sins
+  themselves, knowing they can't return either way; battle.
+- B30: the Great Sins devour their minds and Isuzu seals them. A possessed Enra appears, counting nine Great Sins
+  of ten and demanding Isuzu "to settle a grudge from ancient times"; battle to free him.
+- B31: the shadow of Amanosagume leaves Enra and the trio wake outside the Endless Space. The real Enra explains he
+  tried to destroy Amanosagume before she gained a body and was overpowered; with her paralysed, he draws her
+  memory out to reveal the fated Stars linking the Great Sin, Amanosagume and Isuzu.

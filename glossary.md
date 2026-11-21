@@ -285,6 +285,9 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   《偸盗》 Theft, 《両舌》 Double Tongue, 《邪見》 False View (readings in brackets dropped). 《心》《口》《意》 at B28 ->
   Heart, Speech, Mind. Shimei's/Shiroku's incantation: 「司命、これよりこの者…命（いのち）を与える」 -> "I, Shimei,
   now grant this one... life once more!"; Shiroku's 命（めい） -> "orders".
+- b075-b076 (B29-B31): 黄龍 -> the Golden Dragon; 黄龍の器 -> the Vessel of the Golden Dragon; 《器》 -> Vessel.
+  《宿星》 -> fated Stars. 《大罪》人 -> Great Sinners. 天探女 -> Amanosagume. 冥土の土産 -> "a parting gift for the
+  underworld". Enra's mantra オン・カカカ・ビサンマエイ・ソワカ -> "On kakaka bisanmaei... sowaka!!".
 - A12.4.0038/0043 and A12.9.0057 start `【【` (a JP typo); merge tags them normally.
 - The only row whose JP holds two boxes (`...{rt}{rt}【X】{rt}...`) is B11.0121:
   the batch check wants the repeated speaker name in the English, so put `【X】` in the body to pass, then after

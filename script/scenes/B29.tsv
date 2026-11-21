@@ -1,89 +1,89 @@
 id	kind	max	jp	en	notes
-B29.0000	line		【優鉢羅】{rt}すまぬ！！司命、司録ッ！！		
-B29.0001	line		【優鉢羅】{rt}俺は、俺はもう―――		
+B29.0000	line		【優鉢羅】{rt}すまぬ！！司命、司録ッ！！	【Uhatsura】{rt}Forgive me!! Shimei, Shiroku!!	
+B29.0001	line		【優鉢羅】{rt}俺は、俺はもう―――	【Uhatsura】{rt}I, I can't anymore--	
 B29.0002	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
-B29.0003	line		【伊涼】{rt}…邪氣封印ッ。		
-B29.0004	line		【司録】{rt}やられてしまったか…。		
-B29.0005	line		【司命】{rt}ふんッ…。		
-B29.0006	line		【矢村】{rt}何度やっても無駄だぞ！！		
-B29.0007	line		【矢村】{rt}こんな事は、彼らの魂に{rt}苦痛を与えるだけだッ。		
-B29.0008	line		【司命】{rt}確かに、そうかも知れんな。		
-B29.0009	line		【司命】{rt}{name1}―――。		
-B29.0010	line		【司命】{rt}貴様のような者が、{rt}共犯なのだから…。		
-B29.0011	line		【矢村】{rt}{name1}が―――？		
+B29.0003	line		【伊涼】{rt}…邪氣封印ッ。	【Isuzu】{rt}...Miasma, sealed.	
+B29.0004	line		【司録】{rt}やられてしまったか…。	【Shiroku】{rt}So he was beaten...	
+B29.0005	line		【司命】{rt}ふんッ…。	【Shimei】{rt}Hmph...	
+B29.0006	line		【矢村】{rt}何度やっても無駄だぞ！！	【Yamura】{rt}No matter how many times you try, it's{rt}useless!!	
+B29.0007	line		【矢村】{rt}こんな事は、彼らの魂に{rt}苦痛を与えるだけだッ。	【Yamura】{rt}This only puts their souls through{rt}pain.	
+B29.0008	line		【司命】{rt}確かに、そうかも知れんな。	【Shimei】{rt}Perhaps that's true.	
+B29.0009	line		【司命】{rt}{name1}―――。	【Shimei】{rt}{name1}--	
+B29.0010	line		【司命】{rt}貴様のような者が、{rt}共犯なのだから…。	【Shimei】{rt}With one like you as their{rt}accomplice...	
+B29.0011	line		【矢村】{rt}{name1}が―――？	【Yamura】{rt}{name1}--?	
 B29.0012	line		【司命】{rt}ふんッ。	【Shimei】{rt}Hmph.	
-B29.0013	line		【司録】{rt}やはり、まだ知らぬようだな。		
-B29.0014	line		【司録】{rt}では、冥土の土産に{rt}教えておいてやろうか。		
-B29.0015	line		【司録】{rt}《黄龍の器》―――。		
-B29.0016	line		【司録】{rt}それがその者の《力》の{rt}正体よ。		
-B29.0017	line		【伊涼】{rt}《黄龍》―――？		
-B29.0018	line		【矢村】{rt}《黄龍》だと？		
-B29.0019	line		【伊涼】{rt}知ってるの？		
-B29.0020	line		【矢村】{rt}少し…。		
-B29.0021	line		【矢村】{rt}まだ俺が焔羅様について		
-B29.0022	line		【矢村】{rt}符に封じられた《念》を操る{rt}修行をしていた頃、		
-B29.0023	line		【矢村】{rt}《氣》というものについて、{rt}焔羅様から学んだ事がある。		
-B29.0024	line		【矢村】{rt}古代中国では大地に満ちる巨大{rt}な《氣》の流れを龍に例え、		
-B29.0025	line		【矢村】{rt}《龍脈》と呼んだ―――。		
-B29.0026	line		【矢村】{rt}その象徴こそ、{rt}黄金に輝く龍―――		
-B29.0027	line		【矢村】{rt}《黄龍》である、と。		
+B29.0013	line		【司録】{rt}やはり、まだ知らぬようだな。	【Shiroku】{rt}So you still don't know.	
+B29.0014	line		【司録】{rt}では、冥土の土産に{rt}教えておいてやろうか。	【Shiroku】{rt}Then let us tell you, as a parting gift{rt}for the underworld.	
+B29.0015	line		【司録】{rt}《黄龍の器》―――。	【Shiroku】{rt}The Vessel of the Golden Dragon--	
+B29.0016	line		【司録】{rt}それがその者の《力》の{rt}正体よ。	【Shiroku】{rt}that is the true nature of that one's{rt}Power.	
+B29.0017	line		【伊涼】{rt}《黄龍》―――？	【Isuzu】{rt}The Golden Dragon--?	
+B29.0018	line		【矢村】{rt}《黄龍》だと？	【Yamura】{rt}The Golden Dragon?	
+B29.0019	line		【伊涼】{rt}知ってるの？	【Isuzu】{rt}You know of it?	
+B29.0020	line		【矢村】{rt}少し…。	【Yamura】{rt}A little...	
+B29.0021	line		【矢村】{rt}まだ俺が焔羅様について	【Yamura】{rt}Back when I trained under Lord Enra	
+B29.0022	line		【矢村】{rt}符に封じられた《念》を操る{rt}修行をしていた頃、	【Yamura】{rt}in wielding the Thought sealed in{rt}talismans,	
+B29.0023	line		【矢村】{rt}《氣》というものについて、{rt}焔羅様から学んだ事がある。	【Yamura】{rt}I learned about Ki from Lord Enra.	
+B29.0024	line		【矢村】{rt}古代中国では大地に満ちる巨大{rt}な《氣》の流れを龍に例え、	【Yamura】{rt}Ancient China likened the great flows{rt}of Ki in the earth to dragons	
+B29.0025	line		【矢村】{rt}《龍脈》と呼んだ―――。	【Yamura】{rt}and called Dragon Veins--	
+B29.0026	line		【矢村】{rt}その象徴こそ、{rt}黄金に輝く龍―――	【Yamura】{rt}and their symbol was a dragon shining{rt}gold--	
+B29.0027	line		【矢村】{rt}《黄龍》である、と。	【Yamura】{rt}the Golden Dragon, he said.	
 B29.0028	line		【司命】{rt}ほう―――。	【Shimei】{rt}Oho--	
-B29.0029	line		【司命】{rt}真に必要な知識がしっかりと{rt}与えられている…。		
-B29.0030	line		【司命】{rt}なかなか良い師匠を{rt}持っていたようだな、		
-B29.0031	line		【司命】{rt}勧請師。		
-B29.0032	line		【矢村】{rt}《器》…。		
-B29.0033	line		【矢村】{rt}《器》とは何だ―――？		
-B29.0034	line		【司命】{rt}《器》―――。		
-B29.0035	line		【司命】{rt}すなわちその者、{rt}{name1}{name2}が		
-B29.0036	line		【司命】{rt}《龍脈》の《力》を受け{rt}それを操る事のできる、		
-B29.0037	line		【司命】{rt}唯一の人間だという事だ。		
-B29.0038	line		【矢村】{rt}{name1}が―――！？		
-B29.0039	line		【伊涼】{rt}《龍脈》の力を受ける{rt}《黄龍の器》―――！？		
-B29.0040	line		【司録】{rt}しかし―――		
-B29.0041	line		【司録】{rt}《黄龍の器》と言えど、{rt}所詮は人間。		
-B29.0042	line		【司録】{rt}人間ゆえに、お前は{rt}この者たちに手を貸すか。		
-B29.0043	line		【司命】{rt}させんぞ。《黄龍の器》ッ。		
-B29.0044	line		【司命】{rt}この無間空間にあっては、		
-B29.0045	line		【司命】{rt}貴様に《龍脈》の《力》が{rt}流れ込む事はないッ。		
-B29.0046	line		【司命】{rt}貴様が《力》を貸し、		
-B29.0047	line		【司命】{rt}集結させた《大罪》に打たれ{rt}消え去るがいい！！		
-B29.0048	line		【司録】{rt}もはや封じられし者に用は{rt}ない。		
-B29.0049	line		【司録】{rt}今度こそ我らが手で、貴様らに{rt}トドメを刺してやるッ。		
-B29.0050	line		【矢村】{rt}何だと―――？		
-B29.0051	line		【矢村】{rt}…まさか！？		
-B29.0052	line		【司録】{rt}くくく。気づいたか？		
-B29.0053	line		【矢村】{rt}悪い事は言わない。		
-B29.0054	line		【矢村】{rt}馬鹿な事はやめるんだ。		
-B29.0055	line		【伊涼】{rt}クマソと優鉢羅の最期を{rt}見たでしょう！？		
-B29.0056	line		【伊涼】{rt}そんな事をしたら、あなたたち{rt}の命だって危なくなる！！		
-B29.0057	line		【司録】{rt}まだ分っておらぬようだな。		
-B29.0058	line		【司録】{rt}事態は深刻だ。		
-B29.0059	line		【司録】{rt}それを鎮めるため我らが		
-B29.0060	line		【司録】{rt}どういう想いでこの空間へ{rt}やってきたと思う？		
+B29.0029	line		【司命】{rt}真に必要な知識がしっかりと{rt}与えられている…。	【Shimei】{rt}You were given the knowledge you{rt}truly need...	
+B29.0030	line		【司命】{rt}なかなか良い師匠を{rt}持っていたようだな、	【Shimei】{rt}You seem to have had quite a good{rt}teacher,	
+B29.0031	line		【司命】{rt}勧請師。	【Shimei】{rt}Summoner.	
+B29.0032	line		【矢村】{rt}《器》…。	【Yamura】{rt}Vessel...	
+B29.0033	line		【矢村】{rt}《器》とは何だ―――？	【Yamura】{rt}What is a Vessel--?	
+B29.0034	line		【司命】{rt}《器》―――。	【Shimei】{rt}A Vessel--	
+B29.0035	line		【司命】{rt}すなわちその者、{rt}{name1}{name2}が	【Shimei】{rt}means that this one,{rt}{name1}{name2},	
+B29.0036	line		【司命】{rt}《龍脈》の《力》を受け{rt}それを操る事のできる、	【Shimei】{rt}is the only human who can receive the{rt}Power of the Dragon Veins	
+B29.0037	line		【司命】{rt}唯一の人間だという事だ。	【Shimei】{rt}and wield it.	
+B29.0038	line		【矢村】{rt}{name1}が―――！？	【Yamura】{rt}{name1} is--!?	
+B29.0039	line		【伊涼】{rt}《龍脈》の力を受ける{rt}《黄龍の器》―――！？	【Isuzu】{rt}The Vessel of the Golden Dragon, who{rt}receives the Dragon Veins' power--!?	
+B29.0040	line		【司録】{rt}しかし―――	【Shiroku】{rt}However--	
+B29.0041	line		【司録】{rt}《黄龍の器》と言えど、{rt}所詮は人間。	【Shiroku】{rt}Vessel of the Golden Dragon or not,{rt}you're only human.	
+B29.0042	line		【司録】{rt}人間ゆえに、お前は{rt}この者たちに手を貸すか。	【Shiroku】{rt}Being human, you'd lend these ones{rt}your hand?	
+B29.0043	line		【司命】{rt}させんぞ。《黄龍の器》ッ。	【Shimei】{rt}We won't allow it, Vessel of the Golden{rt}Dragon.	
+B29.0044	line		【司命】{rt}この無間空間にあっては、	【Shimei】{rt}Here in the Endless Space,	
+B29.0045	line		【司命】{rt}貴様に《龍脈》の《力》が{rt}流れ込む事はないッ。	【Shimei】{rt}the Power of the Dragon Veins cannot{rt}flow into you.	
+B29.0046	line		【司命】{rt}貴様が《力》を貸し、	【Shimei】{rt}Be struck down and vanish by the{rt}Great Sin	
+B29.0047	line		【司命】{rt}集結させた《大罪》に打たれ{rt}消え去るがいい！！	【Shimei】{rt}you lent your Power to gather!!	
+B29.0048	line		【司録】{rt}もはや封じられし者に用は{rt}ない。	【Shiroku】{rt}We have no more use for the sealed.	
+B29.0049	line		【司録】{rt}今度こそ我らが手で、貴様らに{rt}トドメを刺してやるッ。	【Shiroku】{rt}This time we'll finish you with our own{rt}hands.	
+B29.0050	line		【矢村】{rt}何だと―――？	【Yamura】{rt}What--?	
+B29.0051	line		【矢村】{rt}…まさか！？	【Yamura】{rt}...Don't tell me!?	
+B29.0052	line		【司録】{rt}くくく。気づいたか？	【Shiroku】{rt}Heh heh heh. You've noticed?	
+B29.0053	line		【矢村】{rt}悪い事は言わない。	【Yamura】{rt}I'm telling you for your own good.	
+B29.0054	line		【矢村】{rt}馬鹿な事はやめるんだ。	【Yamura】{rt}Stop this foolishness.	
+B29.0055	line		【伊涼】{rt}クマソと優鉢羅の最期を{rt}見たでしょう！？	【Isuzu】{rt}You saw how Kumaso and Uhatsura{rt}ended up!?	
+B29.0056	line		【伊涼】{rt}そんな事をしたら、あなたたち{rt}の命だって危なくなる！！	【Isuzu】{rt}If you do that, your own lives will be in{rt}danger too!!	
+B29.0057	line		【司録】{rt}まだ分っておらぬようだな。	【Shiroku】{rt}You still don't understand, it seems.	
+B29.0058	line		【司録】{rt}事態は深刻だ。	【Shiroku】{rt}The situation is grave.	
+B29.0059	line		【司録】{rt}それを鎮めるため我らが	【Shiroku】{rt}With what resolve do you think	
+B29.0060	line		【司録】{rt}どういう想いでこの空間へ{rt}やってきたと思う？	【Shiroku】{rt}we came into this space to quell it?	
 B29.0061	line		【伊涼】{rt}―――！！	【Isuzu】{rt}--!!	
-B29.0062	line		【矢村】{rt}死ぬのは恐くない、{rt}というのか？		
+B29.0062	line		【矢村】{rt}死ぬのは恐くない、{rt}というのか？	【Yamura】{rt}You're saying you're not afraid to{rt}die?	
 B29.0063	line		【司命】{rt}ふんッ。	【Shimei】{rt}Hmph.	
-B29.0064	line		【司命】{rt}どうせ帰れはせぬ。		
-B29.0065	line		【司命】{rt}貴様らと我ら…{rt}どちらが勝とうともな。		
-B29.0066	line		【伊涼】{rt}そんなッ…！！		
-B29.0067	line		【伊涼】{rt}そんな闘いに…		
-B29.0068	line		【伊涼】{rt}どれだけの意味があるのッ？		
-B29.0069	line		【伊涼】{rt}そこまでして私たちを{rt}手にかける理由って―――。		
-B29.0070	line		【司命】{rt}『司命、これより{rt}　この者ども――		
-B29.0071	line		【司命】{rt}　七つの《大罪》を		
-B29.0072	line		【司命】{rt}　我が命（いのち）に{rt}　取り込むッ！！』		
-B29.0073	line		【司録】{rt}『司録、これより{rt}　この者ども――		
-B29.0074	line		【司録】{rt}　七つの《大罪》に{rt}　命（めい）を与える！！』		
-B29.0075	line		【司録】{rt}我らが《力》となれッ！！		
-B29.0076	line		【司命】{rt}見よ…我らが《力》。		
-B29.0077	line		【矢村】{rt}そんな馬鹿なッ。		
-B29.0078	line		【矢村】{rt}《大罪》を七つも吸収した{rt}のか！？		
-B29.0079	line		【司録】{rt}貴様らのいうとおり、		
-B29.0080	line		【司録】{rt}《大罪》の力は我らにとっても{rt}狂暴な諸刃の剣…。		
-B29.0081	line		【司録】{rt}しかし、それを使ってでも、		
-B29.0082	line		【司録】{rt}我らはここで貴様らを{rt}止めねばならんのだ！！		
-B29.0083	line		【矢村】{rt}司命、司録…。		
-B29.0084	line		【伊涼】{rt}どうして…？		
+B29.0064	line		【司命】{rt}どうせ帰れはせぬ。	【Shimei】{rt}We can't go back anyway.	
+B29.0065	line		【司命】{rt}貴様らと我ら…{rt}どちらが勝とうともな。	【Shimei】{rt}Whether you or we win.	
+B29.0066	line		【伊涼】{rt}そんなッ…！！	【Isuzu】{rt}No...!!	
+B29.0067	line		【伊涼】{rt}そんな闘いに…	【Isuzu】{rt}What meaning...	
+B29.0068	line		【伊涼】{rt}どれだけの意味があるのッ？	【Isuzu】{rt}is there in a fight like that?	
+B29.0069	line		【伊涼】{rt}そこまでして私たちを{rt}手にかける理由って―――。	【Isuzu】{rt}A reason to go that far to kill us--	
+B29.0070	line		【司命】{rt}『司命、これより{rt}　この者ども――	【Shimei】{rt}"I, Shimei, now take these ones--	
+B29.0071	line		【司命】{rt}　七つの《大罪》を	【Shimei】{rt}these seven Great Sins--	
+B29.0072	line		【司命】{rt}　我が命（いのち）に{rt}　取り込むッ！！』	【Shimei】{rt}into my own life!!"	
+B29.0073	line		【司録】{rt}『司録、これより{rt}　この者ども――	【Shiroku】{rt}"I, Shiroku, now give these ones--	
+B29.0074	line		【司録】{rt}　七つの《大罪》に{rt}　命（めい）を与える！！』	【Shiroku】{rt}these seven Great Sins--orders!!"	
+B29.0075	line		【司録】{rt}我らが《力》となれッ！！	【Shiroku】{rt}Become our Power!!	
+B29.0076	line		【司命】{rt}見よ…我らが《力》。	【Shimei】{rt}Behold... our Power.	
+B29.0077	line		【矢村】{rt}そんな馬鹿なッ。	【Yamura】{rt}That's absurd.	
+B29.0078	line		【矢村】{rt}《大罪》を七つも吸収した{rt}のか！？	【Yamura】{rt}You absorbed seven Great Sins!?	
+B29.0079	line		【司録】{rt}貴様らのいうとおり、	【Shiroku】{rt}As you said,	
+B29.0080	line		【司録】{rt}《大罪》の力は我らにとっても{rt}狂暴な諸刃の剣…。	【Shiroku】{rt}the Great Sin's power is a savage{rt}double-edged sword even for us...	
+B29.0081	line		【司録】{rt}しかし、それを使ってでも、	【Shiroku】{rt}But even using it,	
+B29.0082	line		【司録】{rt}我らはここで貴様らを{rt}止めねばならんのだ！！	【Shiroku】{rt}we must stop you here!!	
+B29.0083	line		【矢村】{rt}司命、司録…。	【Yamura】{rt}Shimei, Shiroku...	
+B29.0084	line		【伊涼】{rt}どうして…？	【Isuzu】{rt}Why...?	
 B29.0085	line		【司命】{rt}ふんッ。	【Shimei】{rt}Hmph.	
-B29.0086	line		【司命】{rt}覚悟するんだな、{rt}《大罪》人ども。		
-B29.0087	line		【司録】{rt}その存在を以っておのが{rt}《大罪》、償うがいいッ。		
+B29.0086	line		【司命】{rt}覚悟するんだな、{rt}《大罪》人ども。	【Shimei】{rt}Prepare yourselves, Great Sinners.	
+B29.0087	line		【司録】{rt}その存在を以っておのが{rt}《大罪》、償うがいいッ。	【Shiroku】{rt}Atone for your Great Sin with your{rt}very existence.	

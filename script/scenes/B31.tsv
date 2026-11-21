@@ -1,100 +1,100 @@
 id	kind	max	jp	en	notes
-B31.0000	line		【焔羅】{rt}がッ―――。		
-B31.0001	line		【焔羅】{rt}があああッ！！		
-B31.0002	line		【焔羅】{rt}ギャアアアアッ―――！！		
-B31.0003	line		【女の声】{rt}アアアアッ―――！！		
+B31.0000	line		【焔羅】{rt}がッ―――。	【Enra】{rt}Gah--	
+B31.0001	line		【焔羅】{rt}があああッ！！	【Enra】{rt}Gaaaah!!	
+B31.0002	line		【焔羅】{rt}ギャアアアアッ―――！！	【Enra】{rt}GYAAAAAH--!!	
+B31.0003	line		【女の声】{rt}アアアアッ―――！！	【Woman's Voice】{rt}AAAAAH--!!	
 B31.0004	line		【矢村】{rt}くッ―――！！	【Yamura】{rt}Ngh--!!	
-B31.0005	line		【伊涼】{rt}きゃああッッ！！		
-B31.0006	line		【矢村】{rt}うッ…。		
+B31.0005	line		【伊涼】{rt}きゃああッッ！！	【Isuzu】{rt}Kyaaaah!!	
+B31.0006	line		【矢村】{rt}うッ…。	【Yamura】{rt}Ugh...	
 B31.0007	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B31.0008	line		【矢村】{rt}ここは―――。		
-B31.0009	line		【矢村】{rt}はッ―――。		
+B31.0008	line		【矢村】{rt}ここは―――。	【Yamura】{rt}Where is--	
+B31.0009	line		【矢村】{rt}はッ―――。	【Yamura】{rt}Ah--	
 B31.0010	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
-B31.0011	line		【矢村】{rt}伊涼、伊涼ッ！！		
-B31.0012	line		【伊涼】{rt}ん―――。		
+B31.0011	line		【矢村】{rt}伊涼、伊涼ッ！！	【Yamura】{rt}Isuzu, Isuzu!!	
+B31.0012	line		【伊涼】{rt}ん―――。	【Isuzu】{rt}Mm--	
 B31.0013	line		【伊涼】{rt}俊―――。	【Isuzu】{rt}Shun--	
-B31.0014	line		【矢村】{rt}無事か？		
+B31.0014	line		【矢村】{rt}無事か？	【Yamura】{rt}Are you all right?	
 B31.0015	line		【伊涼】{rt}…うん。	【Isuzu】{rt}...Yeah.	
-B31.0016	line		【伊涼】{rt}ここは？		
-B31.0017	line		【矢村】{rt}分からない…。		
-B31.0018	line		【矢村】{rt}少なくとも、無間空間では{rt}ないようだが…。		
+B31.0016	line		【伊涼】{rt}ここは？	【Isuzu】{rt}Where are we?	
+B31.0017	line		【矢村】{rt}分からない…。	【Yamura】{rt}I don't know...	
+B31.0018	line		【矢村】{rt}少なくとも、無間空間では{rt}ないようだが…。	【Yamura】{rt}At least it doesn't seem to be the{rt}Endless Space...	
 B31.0019	line		【矢村】{rt}{name1}―――。	【Yamura】{rt}{name1}--	
-B31.0020	line		【矢村】{rt}大丈夫かッ？		
-B31.0021	line		【矢村】{rt}そうか、無事か。		
-B31.0022	line		【矢村】{rt}俺は、焔羅様から		
-B31.0023	line		【矢村】{rt}見た事のない輪郭の影が{rt}離れていくのが見えて―――		
-B31.0024	line		【矢村】{rt}すぐに気を失ってしまった{rt}ようだ。		
-B31.0025	line		【矢村】{rt}どうやら、怪我はない{rt}ようだが…。		
-B31.0026	line		【伊涼】{rt}俊も見たの？		
+B31.0020	line		【矢村】{rt}大丈夫かッ？	【Yamura】{rt}Are you all right?	
+B31.0021	line		【矢村】{rt}そうか、無事か。	【Yamura】{rt}I see, you're safe.	
+B31.0022	line		【矢村】{rt}俺は、焔羅様から	【Yamura】{rt}From Lord Enra, I saw a shadow	
+B31.0023	line		【矢村】{rt}見た事のない輪郭の影が{rt}離れていくのが見えて―――	【Yamura】{rt}of a shape I'd never seen pulling{rt}away--	
+B31.0024	line		【矢村】{rt}すぐに気を失ってしまった{rt}ようだ。	【Yamura】{rt}and then I must have passed out.	
+B31.0025	line		【矢村】{rt}どうやら、怪我はない{rt}ようだが…。	【Yamura】{rt}Seems nobody's hurt, though...	
+B31.0026	line		【伊涼】{rt}俊も見たの？	【Isuzu】{rt}You saw it too, Shun?	
 B31.0027	line		【矢村】{rt}あ、ああ。	【Yamura】{rt}R-right.	
-B31.0028	line		【矢村】{rt}お前も気を失ったのか？		
-B31.0029	line		【伊涼】{rt}すごい衝撃だった。		
-B31.0030	line		【伊涼】{rt}その中で、焔羅様から離れてい{rt}く影が見えた気がする――。		
-B31.0031	line		【矢村】{rt}お前もか？		
-B31.0032	line		【伊涼】{rt}俊も？		
-B31.0033	line		【矢村】{rt}ああ。瞬間的にだが…。		
-B31.0034	line		【矢村】{rt}やっぱりあれは{rt}錯覚じゃなかったのか…。		
-B31.0035	line		【矢村】{rt}大丈夫か？		
-B31.0036	line		【矢村】{rt}ほら、手を貸してやるよ。		
-B31.0037	line		【伊涼】{rt}ふたりとも、大丈夫？		
-B31.0038	line		【矢村】{rt}そういう伊涼は？		
-B31.0039	line		【伊涼】{rt}私は大丈夫。		
-B31.0040	line		【伊涼】{rt}ただ、気になるものを見たわ。		
-B31.0041	line		【矢村】{rt}気になるもの…？		
-B31.0042	line		【伊涼】{rt}焔羅様から離れる{rt}影のようなもの―――。		
-B31.0043	line		【伊涼】{rt}影―――？		
+B31.0028	line		【矢村】{rt}お前も気を失ったのか？	【Yamura】{rt}You passed out too?	
+B31.0029	line		【伊涼】{rt}すごい衝撃だった。	【Isuzu】{rt}It was a huge shock.	
+B31.0030	line		【伊涼】{rt}その中で、焔羅様から離れてい{rt}く影が見えた気がする――。	【Isuzu】{rt}In the middle of it, I think I saw a{rt}shadow leaving Lord Enra--	
+B31.0031	line		【矢村】{rt}お前もか？	【Yamura】{rt}You too?	
+B31.0032	line		【伊涼】{rt}俊も？	【Isuzu】{rt}You too, Shun?	
+B31.0033	line		【矢村】{rt}ああ。瞬間的にだが…。	【Yamura】{rt}Yeah. Just for an instant...	
+B31.0034	line		【矢村】{rt}やっぱりあれは{rt}錯覚じゃなかったのか…。	【Yamura】{rt}So it wasn't my imagination after{rt}all...	
+B31.0035	line		【矢村】{rt}大丈夫か？	【Yamura】{rt}Are you all right?	
+B31.0036	line		【矢村】{rt}ほら、手を貸してやるよ。	【Yamura】{rt}Here, I'll give you a hand.	
+B31.0037	line		【伊涼】{rt}ふたりとも、大丈夫？	【Isuzu】{rt}Are you both okay?	
+B31.0038	line		【矢村】{rt}そういう伊涼は？	【Yamura】{rt}What about you, Isuzu?	
+B31.0039	line		【伊涼】{rt}私は大丈夫。	【Isuzu】{rt}I'm fine.	
+B31.0040	line		【伊涼】{rt}ただ、気になるものを見たわ。	【Isuzu】{rt}But I saw something that bothers{rt}me.	
+B31.0041	line		【矢村】{rt}気になるもの…？	【Yamura】{rt}Something that bothers you...?	
+B31.0042	line		【伊涼】{rt}焔羅様から離れる{rt}影のようなもの―――。	【Isuzu】{rt}Something like a shadow, leaving Lord{rt}Enra--	
+B31.0043	line		【伊涼】{rt}影―――？	【Isuzu】{rt}A shadow--?	
 B31.0044	line		【伊涼】{rt}―――！？	【Isuzu】{rt}--!?	
-B31.0045	line		【女の声】{rt}（《器》を―――。）		
-B31.0046	line		【女の声】{rt}（《大罪》を―――。）		
-B31.0047	line		【矢村】{rt}この声は―――		
-B31.0048	line		【矢村】{rt}焔羅様に{rt}とり憑いていた者かッ。		
-B31.0049	line		【伊涼】{rt}焔羅様から抜け出た、{rt}あの影の持ち主―――？		
-B31.0050	line		【矢村】{rt}何だッ！？		
-B31.0051	line		【伊涼】{rt}これは―――！！		
-B31.0052	line		【矢村】{rt}この光景は―――！！		
-B31.0053	line		【声】{rt}奴の―――		
+B31.0045	line		【女の声】{rt}（《器》を―――。）	【Woman's Voice】{rt}(The Vessel--)	
+B31.0046	line		【女の声】{rt}（《大罪》を―――。）	【Woman's Voice】{rt}(The Great Sin--)	
+B31.0047	line		【矢村】{rt}この声は―――	【Yamura】{rt}This voice is--	
+B31.0048	line		【矢村】{rt}焔羅様に{rt}とり憑いていた者かッ。	【Yamura】{rt}the one that possessed Lord Enra.	
+B31.0049	line		【伊涼】{rt}焔羅様から抜け出た、{rt}あの影の持ち主―――？	【Isuzu】{rt}The owner of that shadow that left{rt}Lord Enra--?	
+B31.0050	line		【矢村】{rt}何だッ！？	【Yamura】{rt}What!?	
+B31.0051	line		【伊涼】{rt}これは―――！！	【Isuzu】{rt}This is--!!	
+B31.0052	line		【矢村】{rt}この光景は―――！！	【Yamura】{rt}This scene is--!!	
+B31.0053	line		【声】{rt}奴の―――	【Voice】{rt}It's her--	
 B31.0054	line		【伊涼】{rt}―――？	【Isuzu】{rt}--?	
-B31.0055	line		【焔羅】{rt}《天探女（あまのさぐめ）》の{rt}　記憶だ―――。		
+B31.0055	line		【焔羅】{rt}《天探女（あまのさぐめ）》の{rt}　記憶だ―――。	【Enra】{rt}--memory. Amanosagume's memory.	
 B31.0056	line		【矢村】{rt}焔羅様ッ！！	【Yamura】{rt}Lord Enra!!	
-B31.0057	line		【矢村】{rt}ご、ご無事で…！！		
-B31.0058	line		【焔羅】{rt}お前たちのお陰だ。		
-B31.0059	line		【焔羅】{rt}礼をいうぞ。		
-B31.0060	line		【焔羅】{rt}俊、伊涼、{name1}。		
+B31.0057	line		【矢村】{rt}ご、ご無事で…！！	【Yamura】{rt}Y-you're safe...!!	
+B31.0058	line		【焔羅】{rt}お前たちのお陰だ。	【Enra】{rt}Thanks to you.	
+B31.0059	line		【焔羅】{rt}礼をいうぞ。	【Enra】{rt}I thank you.	
+B31.0060	line		【焔羅】{rt}俊、伊涼、{name1}。	【Enra】{rt}Shun, Isuzu, {name1}.	
 B31.0061	line		【伊涼】{rt}焔羅様―――。	【Isuzu】{rt}Lord Enra--	
-B31.0062	line		【矢村】{rt}この幻影を見せている―――		
-B31.0063	line		【矢村】{rt}《天探女》という者が、		
-B31.0064	line		【矢村】{rt}さっきまで焔羅様にとり憑いて{rt}いた者なのですか？		
-B31.0065	line		【焔羅】{rt}そう―――。		
-B31.0066	line		【焔羅】{rt}儂は、天探女を{rt}斃さねばならなかった。		
-B31.0067	line		【焔羅】{rt}実体を得ないうちならば、		
-B31.0068	line		【焔羅】{rt}儂単独でそれを破壊できると{rt}読み闘いを挑んだのだ――。		
-B31.0069	line		【焔羅】{rt}しかし、読みは外れた。		
-B31.0070	line		【焔羅】{rt}天探女の《力》は{rt}儂の予想外のものだった。		
-B31.0071	line		【焔羅】{rt}そのために、奴に組み敷かれる{rt}羽目になってしまったのだ。		
-B31.0072	line		【伊涼】{rt}《天探女》を止めるために…。		
-B31.0073	line		【矢村】{rt}焔羅様にとり憑いていた{rt}《天探女》は、		
-B31.0074	line		【矢村】{rt}《大罪》と伊涼を求めて{rt}いた――。		
-B31.0075	line		【矢村】{rt}お教え下さい、焔羅様ッ。		
-B31.0076	line		【矢村】{rt}《天探女》とは、{rt}一体、何者なのです？		
-B31.0077	line		【矢村】{rt}何故に《大罪》を求めるの{rt}ですか？		
-B31.0078	line		【伊涼】{rt}これは―――！！		
+B31.0062	line		【矢村】{rt}この幻影を見せている―――	【Yamura】{rt}The one showing us this vision--	
+B31.0063	line		【矢村】{rt}《天探女》という者が、	【Yamura】{rt}this Amanosagume,	
+B31.0064	line		【矢村】{rt}さっきまで焔羅様にとり憑いて{rt}いた者なのですか？	【Yamura】{rt}is the one who possessed you until just{rt}now, Lord Enra?	
+B31.0065	line		【焔羅】{rt}そう―――。	【Enra】{rt}Indeed--	
+B31.0066	line		【焔羅】{rt}儂は、天探女を{rt}斃さねばならなかった。	【Enra】{rt}I had to destroy Amanosagume.	
+B31.0067	line		【焔羅】{rt}実体を得ないうちならば、	【Enra】{rt}While she had yet to gain a body,	
+B31.0068	line		【焔羅】{rt}儂単独でそれを破壊できると{rt}読み闘いを挑んだのだ――。	【Enra】{rt}I judged I could destroy her alone, and{rt}challenged her--	
+B31.0069	line		【焔羅】{rt}しかし、読みは外れた。	【Enra】{rt}But I misjudged.	
+B31.0070	line		【焔羅】{rt}天探女の《力》は{rt}儂の予想外のものだった。	【Enra】{rt}Amanosagume's Power was beyond{rt}what I expected.	
+B31.0071	line		【焔羅】{rt}そのために、奴に組み敷かれる{rt}羽目になってしまったのだ。	【Enra】{rt}And so I ended up pinned beneath{rt}her.	
+B31.0072	line		【伊涼】{rt}《天探女》を止めるために…。	【Isuzu】{rt}To stop Amanosagume...	
+B31.0073	line		【矢村】{rt}焔羅様にとり憑いていた{rt}《天探女》は、	【Yamura】{rt}Amanosagume, who possessed Lord{rt}Enra,	
+B31.0074	line		【矢村】{rt}《大罪》と伊涼を求めて{rt}いた――。	【Yamura】{rt}was seeking the Great Sin and{rt}Isuzu--	
+B31.0075	line		【矢村】{rt}お教え下さい、焔羅様ッ。	【Yamura】{rt}Tell us, Lord Enra.	
+B31.0076	line		【矢村】{rt}《天探女》とは、{rt}一体、何者なのです？	【Yamura】{rt}Who on earth is Amanosagume?	
+B31.0077	line		【矢村】{rt}何故に《大罪》を求めるの{rt}ですか？	【Yamura】{rt}Why does she seek the Great Sin?	
+B31.0078	line		【伊涼】{rt}これは―――！！	【Isuzu】{rt}This is--!!	
 B31.0079	line		【矢村】{rt}―――！！	【Yamura】{rt}--!!	
-B31.0080	line		【焔羅】{rt}《天探女》は{rt}まだ実体を得ていない。		
-B31.0081	line		【焔羅】{rt}精神体の状態である{rt}今の《天探女》は、		
-B31.0082	line		【焔羅】{rt}おぬしらの《念》による攻撃に{rt}よって麻痺状態にある。		
-B31.0083	line		【焔羅】{rt}儂が願えば、《天探女》の{rt}《念》から		
-B31.0084	line		【焔羅】{rt}過去にあった事実を{rt}引き出す事もできよう。		
-B31.0085	line		【矢村】{rt}俊宗―――		
-B31.0086	line		【矢村】{rt}鈴鹿―――。		
-B31.0087	line		【矢村】{rt}まさか―――。		
+B31.0080	line		【焔羅】{rt}《天探女》は{rt}まだ実体を得ていない。	【Enra】{rt}Amanosagume has yet to gain a body.	
+B31.0081	line		【焔羅】{rt}精神体の状態である{rt}今の《天探女》は、	【Enra】{rt}As a spirit, as she is now,{rt}Amanosagume	
+B31.0082	line		【焔羅】{rt}おぬしらの《念》による攻撃に{rt}よって麻痺状態にある。	【Enra】{rt}lies paralysed by the attack of your{rt}Thought.	
+B31.0083	line		【焔羅】{rt}儂が願えば、《天探女》の{rt}《念》から	【Enra】{rt}If I so wish, I can draw out from{rt}Amanosagume's Thought	
+B31.0084	line		【焔羅】{rt}過去にあった事実を{rt}引き出す事もできよう。	【Enra】{rt}the facts of what happened in the{rt}past.	
+B31.0085	line		【矢村】{rt}俊宗―――	【Yamura】{rt}Toshimune--	
+B31.0086	line		【矢村】{rt}鈴鹿―――。	【Yamura】{rt}Suzuka--	
+B31.0087	line		【矢村】{rt}まさか―――。	【Yamura】{rt}Don't tell me--	
 B31.0088	line		【焔羅】{rt}うむ…。	【Enra】{rt}Mm...	
-B31.0089	line		【焔羅】{rt}ついにこの時が来た―――。		
-B31.0090	line		【焔羅】{rt}…今こそおぬしらに{rt}明かそうではないか。		
-B31.0091	line		【焔羅】{rt}《大罪》、		
-B31.0092	line		【焔羅】{rt}《天探女》、		
-B31.0093	line		【焔羅】{rt}そして―――		
-B31.0094	line		【焔羅】{rt}伊涼。		
-B31.0095	line		【伊涼】{rt}（私―――？）		
+B31.0089	line		【焔羅】{rt}ついにこの時が来た―――。	【Enra】{rt}At last the time has come--	
+B31.0090	line		【焔羅】{rt}…今こそおぬしらに{rt}明かそうではないか。	【Enra】{rt}...Now I shall reveal it to you.	
+B31.0091	line		【焔羅】{rt}《大罪》、	【Enra】{rt}The Great Sin,	
+B31.0092	line		【焔羅】{rt}《天探女》、	【Enra】{rt}Amanosagume,	
+B31.0093	line		【焔羅】{rt}そして―――	【Enra】{rt}and--	
+B31.0094	line		【焔羅】{rt}伊涼。	【Enra】{rt}Isuzu.	
+B31.0095	line		【伊涼】{rt}（私―――？）	【Isuzu】{rt}(Me--?)	
 B31.0096	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B31.0097	line		【焔羅】{rt}それらをひとつにつなぐ		
-B31.0098	line		【焔羅】{rt}《宿星（しゅくせい）》の{rt}真実を―――。		
+B31.0097	line		【焔羅】{rt}それらをひとつにつなぐ	【Enra】{rt}The truth of the fated Stars	
+B31.0098	line		【焔羅】{rt}《宿星（しゅくせい）》の{rt}真実を―――。	【Enra】{rt}that binds them all together--	

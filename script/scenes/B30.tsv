@@ -1,79 +1,79 @@
 id	kind	max	jp	en	notes
-B30.0000	line		【司命】{rt}ぬうッ…。		
-B30.0001	line		【司命】{rt}引き合う《大罪》と{rt}《器》―――		
-B30.0002	line		【司命】{rt}《宿星（しゅくせい）》同士の{rt}絆…。		
-B30.0003	line		【司録】{rt}勝てなかった…。		
-B30.0004	line		【司録】{rt}我らの《力》では止める事は{rt}不可能ッ―――。		
-B30.0005	line		【司録】{rt}そろそろ…我らもおしまい{rt}だろう。		
-B30.0006	line		【司録】{rt}だが―――。		
-B30.0007	line		【司録】{rt}これら《大罪》を{rt}とり戻したところで、		
-B30.0008	line		【司録】{rt}貴様らは無間空間から{rt}逃れられはしないッ！！		
+B30.0000	line		【司命】{rt}ぬうッ…。	【Shimei】{rt}Nngh...	
+B30.0001	line		【司命】{rt}引き合う《大罪》と{rt}《器》―――	【Shimei】{rt}The Great Sin and the Vessel, drawn to{rt}each other--	
+B30.0002	line		【司命】{rt}《宿星（しゅくせい）》同士の{rt}絆…。	【Shimei】{rt}a bond between fated Stars...	
+B30.0003	line		【司録】{rt}勝てなかった…。	【Shiroku】{rt}We couldn't win...	
+B30.0004	line		【司録】{rt}我らの《力》では止める事は{rt}不可能ッ―――。	【Shiroku】{rt}It's impossible for our Power to stop{rt}them--	
+B30.0005	line		【司録】{rt}そろそろ…我らもおしまい{rt}だろう。	【Shiroku】{rt}Soon... we too will be finished.	
+B30.0006	line		【司録】{rt}だが―――。	【Shiroku】{rt}But--	
+B30.0007	line		【司録】{rt}これら《大罪》を{rt}とり戻したところで、	【Shiroku】{rt}even if you take back these Great{rt}Sins,	
+B30.0008	line		【司録】{rt}貴様らは無間空間から{rt}逃れられはしないッ！！	【Shiroku】{rt}you can't escape the Endless Space!!	
 B30.0009	line		【矢村】{rt}―――！！	【Yamura】{rt}--!!	
-B30.0010	line		【司録】{rt}く、くくくッ。		
-B30.0011	line		【司録】{rt}貴様らがこれから味わう永遠{rt}（とわ）の苦しみからすれば		
-B30.0012	line		【司録】{rt}死の苦痛など、{rt}わずかなもの！！		
-B30.0013	line		【司命】{rt}ははははッ―――		
-B30.0014	line		【司命】{rt}ぐッ―――！！		
-B30.0015	line		【司命】{rt}ぐ、ぐおおおッ！！		
-B30.0016	line		【司録】{rt}た、《大罪》が我らの意識を…		
-B30.0017	line		【司録】{rt}喰らうッ！！		
-B30.0018	line		【司録】{rt}く、喰らい尽くして{rt}ゆくッ―――！！		
-B30.0019	line		【司命】{rt}あああああッ！！我らの意識…		
-B30.0020	line		【司録】{rt}意識があ！！		
-B30.0021	line		【司録】{rt}ああああッ！！		
-B30.0022	line		【伊涼】{rt}―――くッ。		
-B30.0023	line		【伊涼】{rt}邪氣…封印ッ！！		
+B30.0010	line		【司録】{rt}く、くくくッ。	【Shiroku】{rt}Heh, heh heh heh.	
+B30.0011	line		【司録】{rt}貴様らがこれから味わう永遠{rt}（とわ）の苦しみからすれば	【Shiroku】{rt}Next to the eternal suffering you're{rt}about to taste,	
+B30.0012	line		【司録】{rt}死の苦痛など、{rt}わずかなもの！！	【Shiroku】{rt}the pain of death is nothing!!	
+B30.0013	line		【司命】{rt}ははははッ―――	【Shimei】{rt}Hahahaha--	
+B30.0014	line		【司命】{rt}ぐッ―――！！	【Shimei】{rt}Gh--!!	
+B30.0015	line		【司命】{rt}ぐ、ぐおおおッ！！	【Shimei】{rt}Gh, gwoooh!!	
+B30.0016	line		【司録】{rt}た、《大罪》が我らの意識を…	【Shiroku】{rt}Th-the Great Sin is eating...	
+B30.0017	line		【司録】{rt}喰らうッ！！	【Shiroku】{rt}our minds!!	
+B30.0018	line		【司録】{rt}く、喰らい尽くして{rt}ゆくッ―――！！	【Shiroku】{rt}D-devouring them completely--!!	
+B30.0019	line		【司命】{rt}あああああッ！！我らの意識…	【Shimei】{rt}Aaaaaah!! Our minds...	
+B30.0020	line		【司録】{rt}意識があ！！	【Shiroku】{rt}Our minds!!	
+B30.0021	line		【司録】{rt}ああああッ！！	【Shiroku】{rt}Aaaaah!!	
+B30.0022	line		【伊涼】{rt}―――くッ。	【Isuzu】{rt}--Ngh.	
+B30.0023	line		【伊涼】{rt}邪氣…封印ッ！！	【Isuzu】{rt}Miasma... sealed!!	
 B30.0024	line		【矢村】{rt}―――！？	【Yamura】{rt}--!?	
-B30.0025	line		【矢村】{rt}なんだッ！？		
-B30.0026	line		【矢村】{rt}この大きな《力》は！？		
+B30.0025	line		【矢村】{rt}なんだッ！？	【Yamura】{rt}What!?	
+B30.0026	line		【矢村】{rt}この大きな《力》は！？	【Yamura】{rt}What is this huge Power!?	
 B30.0027	line		【伊涼】{rt}鈴が―――！？	【Isuzu】{rt}The bell--?!	
-B30.0028	line		【男の声】{rt}オン・カカカ・ビサンマエイ…		
-B30.0029	line		【男の声】{rt}ソワカ！！		
-B30.0030	line		【伊涼】{rt}―――ッ！？		
+B30.0028	line		【男の声】{rt}オン・カカカ・ビサンマエイ…	【Man's Voice】{rt}On kakaka bisanmaei...	
+B30.0029	line		【男の声】{rt}ソワカ！！	【Man's Voice】{rt}sowaka!!	
+B30.0030	line		【伊涼】{rt}―――ッ！？	【Isuzu】{rt}--!?	
 B30.0031	line		【焔羅】{rt}…………。	【Enra】{rt}............	
-B30.0032	line		【矢村】{rt}え、焔羅様ッ。		
-B30.0033	line		【伊涼】{rt}私たちを―――		
-B30.0034	line		【伊涼】{rt}助けて下さったのですね！？		
+B30.0032	line		【矢村】{rt}え、焔羅様ッ。	【Yamura】{rt}L-Lord Enra.	
+B30.0033	line		【伊涼】{rt}私たちを―――	【Isuzu】{rt}You came--	
+B30.0034	line		【伊涼】{rt}助けて下さったのですね！？	【Isuzu】{rt}to save us, didn't you!?	
 B30.0035	line		【焔羅】{rt}ククク…。	【Enra】{rt}Ku ku ku...	
-B30.0036	line		【矢村】{rt}待て、伊涼ッ。		
-B30.0037	line		【矢村】{rt}…焔羅様に近寄るな。		
+B30.0036	line		【矢村】{rt}待て、伊涼ッ。	【Yamura】{rt}Wait, Isuzu.	
+B30.0037	line		【矢村】{rt}…焔羅様に近寄るな。	【Yamura】{rt}...Don't go near Lord Enra.	
 B30.0038	line		【伊涼】{rt}えッ―――？	【Isuzu】{rt}Huh--?	
 B30.0039	line		【焔羅】{rt}クククク…。	【Enra】{rt}Ku ku ku ku...	
-B30.0040	line		【焔羅】{rt}こ、九つ…。		
-B30.0041	line		【焔羅】{rt}あとひとつ―――。		
-B30.0042	line		【焔羅】{rt}たった、あとひとつかァ。		
-B30.0043	line		【伊涼】{rt}焔羅様…？		
-B30.0044	line		【焔羅】{rt}ククククク…。		
-B30.0045	line		【伊涼】{rt}焔羅様…じゃない。		
+B30.0040	line		【焔羅】{rt}こ、九つ…。	【Enra】{rt}N-nine...	
+B30.0041	line		【焔羅】{rt}あとひとつ―――。	【Enra】{rt}One more--	
+B30.0042	line		【焔羅】{rt}たった、あとひとつかァ。	【Enra】{rt}Just one more, eh.	
+B30.0043	line		【伊涼】{rt}焔羅様…？	【Isuzu】{rt}Lord Enra...?	
+B30.0044	line		【焔羅】{rt}ククククク…。	【Enra】{rt}Ku ku ku ku ku...	
+B30.0045	line		【伊涼】{rt}焔羅様…じゃない。	【Isuzu】{rt}That's not... Lord Enra.	
 B30.0046	line		【矢村】{rt}ああ。	【Yamura】{rt}Yeah.	
-B30.0047	line		【矢村】{rt}優鉢羅にトドメを{rt}刺した時と同じ―――。		
-B30.0048	line		【矢村】{rt}まるで、何者かにとり憑かれて{rt}いるかのようだ。		
-B30.0049	line		【焔羅】{rt}グハハハァッ。		
-B30.0050	line		【焔羅】{rt}《大罪》―――		
-B30.0051	line		【焔羅】{rt}あと、あとひとつ――。		
-B30.0052	line		【焔羅】{rt}十の《大罪》と―――		
-B30.0053	line		【焔羅】{rt}伊涼ゥ―――。		
-B30.0054	line		【伊涼】{rt}えッ―――。		
-B30.0055	line		【焔羅】{rt}来い―――。		
-B30.0056	line		【焔羅】{rt}伊涼ゥ―――我が元にィ。		
-B30.0057	line		【焔羅】{rt}十の《大罪》とともに―――。		
-B30.0058	line		【焔羅】{rt}太古より続く怨念を		
-B30.0059	line		【焔羅】{rt}晴らすためにィッ！！		
-B30.0060	line		【焔羅】{rt}クククッ…。		
-B30.0061	line		【焔羅】{rt}ハハハハァッ！！		
-B30.0062	line		【伊涼】{rt}きゃあッ！！		
-B30.0063	line		【焔羅】{rt}グアッ！？		
-B30.0064	line		【矢村】{rt}伊涼に何の用だ！？		
-B30.0065	line		【矢村】{rt}焔羅様にとり憑き、{rt}《大罪》を求める者よッ！！		
-B30.0066	line		【焔羅】{rt}グウウッ―――。		
-B30.0067	line		【焔羅】{rt}邪魔を―――		
-B30.0068	line		【焔羅】{rt}邪魔をするなァッ！！		
+B30.0047	line		【矢村】{rt}優鉢羅にトドメを{rt}刺した時と同じ―――。	【Yamura】{rt}Same as when he finished off{rt}Uhatsura--	
+B30.0048	line		【矢村】{rt}まるで、何者かにとり憑かれて{rt}いるかのようだ。	【Yamura】{rt}It's as if he's possessed by{rt}something.	
+B30.0049	line		【焔羅】{rt}グハハハァッ。	【Enra】{rt}Guhahahaha.	
+B30.0050	line		【焔羅】{rt}《大罪》―――	【Enra】{rt}The Great Sin--	
+B30.0051	line		【焔羅】{rt}あと、あとひとつ――。	【Enra】{rt}one more, just one more--	
+B30.0052	line		【焔羅】{rt}十の《大罪》と―――	【Enra】{rt}The ten Great Sins, and--	
+B30.0053	line		【焔羅】{rt}伊涼ゥ―――。	【Enra】{rt}Isuzuuu--	
+B30.0054	line		【伊涼】{rt}えッ―――。	【Isuzu】{rt}Huh--	
+B30.0055	line		【焔羅】{rt}来い―――。	【Enra】{rt}Come--	
+B30.0056	line		【焔羅】{rt}伊涼ゥ―――我が元にィ。	【Enra】{rt}Isuzuuu--to meee.	
+B30.0057	line		【焔羅】{rt}十の《大罪》とともに―――。	【Enra】{rt}Together with the ten Great Sins--	
+B30.0058	line		【焔羅】{rt}太古より続く怨念を	【Enra】{rt}to settle the grudge	
+B30.0059	line		【焔羅】{rt}晴らすためにィッ！！	【Enra】{rt}that's lasted since ancient times!!	
+B30.0060	line		【焔羅】{rt}クククッ…。	【Enra】{rt}Ku ku ku...	
+B30.0061	line		【焔羅】{rt}ハハハハァッ！！	【Enra】{rt}HAHAHAHA!!	
+B30.0062	line		【伊涼】{rt}きゃあッ！！	【Isuzu】{rt}Kyaah!!	
+B30.0063	line		【焔羅】{rt}グアッ！？	【Enra】{rt}Gwah!?	
+B30.0064	line		【矢村】{rt}伊涼に何の用だ！？	【Yamura】{rt}What do you want with Isuzu!?	
+B30.0065	line		【矢村】{rt}焔羅様にとり憑き、{rt}《大罪》を求める者よッ！！	【Yamura】{rt}You who possess Lord Enra and seek{rt}the Great Sin!!	
+B30.0066	line		【焔羅】{rt}グウウッ―――。	【Enra】{rt}Guuugh--	
+B30.0067	line		【焔羅】{rt}邪魔を―――	【Enra】{rt}Don't get--	
+B30.0068	line		【焔羅】{rt}邪魔をするなァッ！！	【Enra】{rt}Don't get in my way!!	
 B30.0069	line		【矢村】{rt}くッ―――。	【Yamura】{rt}Ngh--	
-B30.0070	line		【焔羅】{rt}よこせェッ―――！！		
-B30.0071	line		【焔羅】{rt}伊涼をッ、		
-B30.0072	line		【焔羅】{rt}《大罪》をッ―――！！		
-B30.0073	line		【矢村】{rt}させるかッ。		
-B30.0074	line		【矢村】{rt}…行くぞ、{name1}ッ。		
-B30.0075	line		【矢村】{rt}焔羅様のため…		
+B30.0070	line		【焔羅】{rt}よこせェッ―――！！	【Enra】{rt}Give them to meee--!!	
+B30.0071	line		【焔羅】{rt}伊涼をッ、	【Enra】{rt}Isuzu,	
+B30.0072	line		【焔羅】{rt}《大罪》をッ―――！！	【Enra】{rt}and the Great Sin--!!	
+B30.0073	line		【矢村】{rt}させるかッ。	【Yamura】{rt}Not a chance.	
+B30.0074	line		【矢村】{rt}…行くぞ、{name1}ッ。	【Yamura】{rt}...Let's go, {name1}.	
+B30.0075	line		【矢村】{rt}焔羅様のため…	【Yamura】{rt}For Lord Enra's sake...	
 B30.0076	line		【矢村】{rt}貴様の邪氣、祓ってやるッ！！	【Yamura】{rt}I'll purge that Miasma of yours!!	
-B30.0077	line		【焔羅】{rt}ガアアッ！！		
+B30.0077	line		【焔羅】{rt}ガアアッ！！	【Enra】{rt}GAAAH!!	
