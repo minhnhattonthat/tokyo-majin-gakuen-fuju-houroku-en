@@ -6,7 +6,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   8d9efb85a8f2.. (built from `script/`, identical to the dump), smoke ok.
 - **In progress (phase 5):** VWF engine done and proven in game (`tools/vwf.py`, `fonts/vwf.txt`, D8; details in
   `docs/re/text.md` §Font). Marker build `build.py --marker` -> `build/tmgfh_marker.gba` boots, story boxes show
-  【B05.0002】 etc. (marker build sha1 b70905c0c25d.., 2026-11-22).
+  【B05.0002】 etc. (marker build sha1 ee610b199a9f.., 2026-11-22, after the `grid` kind change).
   Session 2026-11-22 (2): **printer B** found: the yes/no prompts (CF1318-CF1564) are sprite text from a second
   unit routine 0x0800455C that decodes Shift-JIS itself; its marker drew blank. VWF now covers it (`hookb` in
   `tools/vwf.py`, stub at 0x0800497C; `docs/re/text.md` §Font), proven in game ("Save? / Yes No" in
@@ -18,11 +18,19 @@ Updated at the end of every session. Keep it to what the next session needs; his
   debug) text, kept. Width gate in `tools/windows.tsv`: dialogue, choice, tutorial_page (per-entry boxes: limit =
   longest JP line in cells, 5 pages measured), battle_strip (box measured, ids unknown), haiku 160, yesno 128 with a
   fixed option line `[81][40]Yes[81][40]No`.
-- **Left for phase 5:** measure the battle boxes not seen yet: enemy battle quotes (D68xxx-D6DBxx, 2 lines `{rt}`),
-  card names (D64ADC..) and card effect text (D67xxx, D6790C), the battle_strip's string ids, sound test labels
-  (D1BD60.., `{xn}` positioned). A mashed MODE15 run (`warp.py MODE15 --frames 6000 --mash 20`) only reaches the
-  tutorial pages and goes black at ~f4070 on the original too; a real battle needs a save or route into a chapter
-  battle (also the defeat screen gap below). Shop and hub menus are tiles, no text routine.
+  Session 2026-11-22 (3): **real chapter battle reached** (mode 1) from a cold new game with
+  `tools/debug/onmode.lua` (scripted presses on mode entry; name entry -> 終了, hub -> 先に進む); warped hubs hang in
+  mode 1 because the opening's deck setup is skipped (`docs/re/game.md` §Chapter battles, with the command and the
+  hand-phase controls: left then A). Measured and added to `tools/windows.tsv`: enemy_quote (3 x 128 px, D67B00-
+  D6DC00), card panel fields (card_name 94, card_skill 30, card_ability / card_spell_text / place_effect 124,
+  card_tag 64, card_label 40) with their cf.tsv ranges (grouped with `tools/cfmap.py`; ranges approximate, check
+  edge rows), redraw_prompt (yesno box). Card text is in cf.tsv CF13C0-CF7400, not D64ADC/D67xxx as guessed.
+- **Left for phase 5:** the board phase controls (no tried input moves on from the player's first turn on the
+  board; state `work/states/battle1_select.mss` + route `left;a;a` gets there in ~1300 frames), then the boxes it
+  shows: battle_strip string ids, the turn banner (printer B, 符咒士 / name / の / ターン pieces), tag help bodies
+  (CF13C0-CF2A00 lines 2-3), the defeat / rematch screen. Sound test labels (D1BD60.., `{xn}` positioned). Shop and
+  hub menus are tiles, no text routine. The deck editor (hub 符咒編集) shows the same card panel plus help lines
+  (真神を選択中 / 登録枚数 / Ａボタンで登録できます。): measure those with the marker build.
 - **Done:** Phase 4 extract (2026-11-22): `tools/extract.py` -> `script/scenes/<B05|A3.2>.tsv` (170 files, 14 526
   lines + 21 choices) and `script/system/{cf,d1,d6}.tsv` (2 677 pointed strings), columns `id kind max jp en notes`,
   notation `tools/textcodec.py` (Shift-JIS plus `{rt}` `{nl}` `{name1}` `{I000}` `{&Sx0}` .., other bytes `[XX]`).

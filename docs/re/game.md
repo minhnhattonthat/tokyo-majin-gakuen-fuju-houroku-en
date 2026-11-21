@@ -46,6 +46,22 @@ Main loop 0x08000262 calls `handler[mode]` every frame; handler table 0x08D7A424
 No save: 始めから | 設定 (left/right). With a save: 2x2 始めから 続きから / 通信 設定, cursor on 続きから;
 通信 opens 通信対戦 | 通信交換.
 
+## Chapter battles (mode 1, handler 0x0800E375)
+- Hub 先に進む goes to mode 1 when the chapter has a battle (after B02 in a played game; after the opening the first
+  one is the chapter-1 battle with the rules tutorial). It needs the deck the opening gives: after a chapter warp
+  (`warp.py B01`, `MODE6.1`, or `work/saves/hub_ch05.sav` made from a warp) mode 1 hangs on a pink screen: the card
+  panel loop 0x08021376-0x080213BC prints a name from a null pointer (r7 = 0x85549, open bus) forever.
+- From a cold new game it works: `emu.py rom/base.gba --route tools/routes/newgame.txt --mash 20 --script
+  tools/debug/onmode.lua --var "ON_ROUTES={[4]='300 -;6 right;40 -;6 right;40 -;6 a;150 -',[6]='400 -;6 up;40 -;6
+  a;300 -'}" --var "ON_SAVE='<abs dir>'"` reaches mode 1 at f13595 (name entry keeps 緋勇 龍麻 via 終了; the hub
+  cursor wraps up to 先に進む). Mode 1 starts with the rules tutorial pages, then the hand / card panel.
+- Hand phase: left/right step through the hand (card panel on the right), Start opens the rules-help list
+  (【基本ルール】..), L shows the card large; **left then A** (A alone does nothing) opens 引きなおしますか？ (cursor on
+  いいえ); A -> 先手・後手を決めます (turn-order cards) -> 勝負 banner -> enemy portrait + quote (D67B54 我らを見捨てるな)
+  -> 符咒士 緋勇龍麻 の ターン banner (printer B) -> the board. On the board no tried input moved on (left/a/up
+  cycles); the player-turn controls are still unknown. States: `work/states/nat/mode1_1.mss` (mode-1 entry),
+  `work/states/battle1_select.mss` (hand phase, after 120 A presses from mode1_1).
+
 ## Not reached yet
 - Defeat / rematch: 再戦する / 終了する menu text at 0xD65298 and the 敗北 banner (S9) need a lost battle; no
   confirmed life variable yet. Candidates (guess): u16 200 at 0x020041B2 / 0x02004452 (own), 80 at 0x020040C0 /
