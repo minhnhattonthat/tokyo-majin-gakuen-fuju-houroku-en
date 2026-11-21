@@ -10,6 +10,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
   with the glyph probe: `warp.py --all --rom build/tmgfh_marker.gba --out work/qa/marker --script
   tools/debug/glyphlog.lua`, then `tools/glyphs.py build/tmgfh_marker.gba work/qa/marker --jp` (Japanese still drawn
   through the text routine) and `--ids` (ids seen).
+  Results so far: the plain marker tour (`work/qa/marker`) passed 194/194 (boots, warps, no blank). The probe tour
+  was killed by Claude Code for low system memory after 56 of 194 rows (no Japanese drawn through the text routine in
+  those 56, 425 marker ids seen). Not restarted. Rerun it with `--jobs 2` when memory allows.
+- **Left for phase 5:** finish the probe tour; from its output flag non-text slots (candidates 0xD6E56C, 0xD6E3D4)
+  and exclude them in `marker.py`/the lint; measure the remaining box variants with rulers (`tools/widthtest.py`,
+  `build.py --qa`): battle/tutorial box (D63xxx), haiku box, yes/no save prompt, shop header, card text. Each goes
+  into `tools/windows.tsv`. Hub, title and settings menus are tiles (graphics rows), not text.
 - **Done:** Phase 4 extract (2026-11-22): `tools/extract.py` -> `script/scenes/<B05|A3.2>.tsv` (170 files, 14 526
   lines + 21 choices) and `script/system/{cf,d1,d6}.tsv` (2 677 pointed strings), columns `id kind max jp en notes`,
   notation `tools/textcodec.py` (Shift-JIS plus `{rt}` `{nl}` `{name1}` `{I000}` `{&Sx0}` .., other bytes `[XX]`).
