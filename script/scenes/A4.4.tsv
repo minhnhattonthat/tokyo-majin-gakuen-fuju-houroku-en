@@ -1,48 +1,48 @@
 id	kind	max	jp	en	notes
-A4.4.0000	line		【護人】{rt}どうした？ここに何か用か？		
-A4.4.0001	line		【護人】{rt}……。		
-A4.4.0002	line		【護人】{rt}少しは…		
-A4.4.0003	line		【護人】{rt}自分の事を知ったか？		
-A4.4.0004	line		【護人】{rt}…まァいい。		
-A4.4.0005	line		【護人】{rt}お前が何を考え、{rt}何を思っても、		
-A4.4.0006	line		【護人】{rt}俺には関係ない。		
-A4.4.0007	line		【護人】{rt}俺にはどうでもいい事だ。		
-A4.4.0008	line		【護人】{rt}《俺》は変わらない。		
-A4.4.0009	line		【護人】{rt}《俺》を変える事は{rt}できない。		
-A4.4.0010	line		【護人】{rt}何物も…		
-A4.4.0011	line		【護人】{rt}何事も…な。		
-A4.4.0012	line		【護人】{rt}……。		
-A4.4.0013	line		【護人】{rt}タバコ、吸うぞ。		
-A4.4.0014	line		【護人】{rt}ああ？		
-A4.4.0015	line		【護人】{rt}…あァ、そうだったな。		
-A4.4.0016	line		【護人】{rt}お前はそういうヤツだった。		
-A4.4.0017	line		【護人】{rt}変わらないのは、{rt}俺だけじゃないようだな。		
-A4.4.0018	line		【護人】{rt}そうか。		
-A4.4.0019	line		【護人】{rt}ま、ハッキリ{rt}言う気になったら、		
-A4.4.0020	line		【護人】{rt}また声をかけてくれ。		
-A4.4.0021	line		【護人】{rt}……？		
-A4.4.0022	line		【護人】{rt}相変わらず、わからん男だな。		
-A4.4.0023	line		【護人】{rt}何がうれしいのかわからんが…		
-A4.4.0024	line		【護人】{rt}ま、好きにしろ。		
-A4.4.0025	line		【護人】{rt}ああ？		
-A4.4.0026	line		【護人】{rt}…あァ、そうだったな。		
-A4.4.0027	line		【護人】{rt}お前はそういうヤツだった。		
-A4.4.0028	line		【護人】{rt}変わらないのは、{rt}俺だけじゃないようだな。		
-A4.4.0029	line		【護人】{rt}……		
-A4.4.0030	line		【護人】{rt}話はそれだけか？		
-A4.4.0031	line		【護人】{rt}じゃあな、{rt}気をつけて帰れよ。		
-A4.4.0032	line		【護人】{rt}俺は、まだ仕事が残ってる{rt}からな。		
-A4.4.0033	line		【護人】{rt}寄り道するなよ。		
-A4.4.0034	line		【護人】{rt}気にするな。		
-A4.4.0035	line		【護人】{rt}これが俺にとっての{rt}自然なんだ。		
-A4.4.0036	line		【護人】{rt}たいした事じゃない。		
-A4.4.0037	line		【護人】{rt}そうか。		
-A4.4.0038	line		【護人】{rt}…自信はあるが、		
-A4.4.0039	line		【護人】{rt}どうすればいいかは{rt}わからない。		
-A4.4.0040	line		【護人】{rt}…そんなところか？		
-A4.4.0041	line		【護人】{rt}ま、話が先に進んだら、{rt}聞こう。		
-A4.4.0042	line		【護人】{rt}考えをまとめてくるんだな。		
-A4.4.0043	line		【護人】{rt}おいおい、{rt}何をムキになっている？		
-A4.4.0044	line		【護人】{rt}ま、冷静になれたら―――		
-A4.4.0045	line		【護人】{rt}また来るんだな。		
-A4.4.0046	line		【護人】{rt}話はその時に聞いてやる。		
+A4.4.0000	line		【護人】{rt}どうした？ここに何か用か？	【Guardian】{rt}What is it? You need something{rt}here?	
+A4.4.0001	line		【護人】{rt}……。	【Guardian】{rt}......	
+A4.4.0002	line		【護人】{rt}少しは…	【Guardian】{rt}Have you learned...	
+A4.4.0003	line		【護人】{rt}自分の事を知ったか？	【Guardian】{rt}a little about yourself?	
+A4.4.0004	line		【護人】{rt}…まァいい。	【Guardian】{rt}...Well, whatever.	
+A4.4.0005	line		【護人】{rt}お前が何を考え、{rt}何を思っても、	【Guardian】{rt}Whatever you think, whatever you{rt}feel,	
+A4.4.0006	line		【護人】{rt}俺には関係ない。	【Guardian】{rt}it's got nothing to do with me.	
+A4.4.0007	line		【護人】{rt}俺にはどうでもいい事だ。	【Guardian】{rt}It doesn't matter to me either way.	
+A4.4.0008	line		【護人】{rt}《俺》は変わらない。	【Guardian】{rt}What I Am doesn't change.	
+A4.4.0009	line		【護人】{rt}《俺》を変える事は{rt}できない。	【Guardian】{rt}Nothing can change What I Am.	
+A4.4.0010	line		【護人】{rt}何物も…	【Guardian】{rt}No one...	
+A4.4.0011	line		【護人】{rt}何事も…な。	【Guardian】{rt}and nothing.	
+A4.4.0012	line		【護人】{rt}……。	【Guardian】{rt}......	
+A4.4.0013	line		【護人】{rt}タバコ、吸うぞ。	【Guardian】{rt}I'm gonna smoke.	
+A4.4.0014	line		【護人】{rt}ああ？	【Guardian】{rt}Huh?	
+A4.4.0015	line		【護人】{rt}…あァ、そうだったな。	【Guardian】{rt}...Ah, that's right.	
+A4.4.0016	line		【護人】{rt}お前はそういうヤツだった。	【Guardian】{rt}That's the kind of guy you are.	
+A4.4.0017	line		【護人】{rt}変わらないのは、{rt}俺だけじゃないようだな。	【Guardian】{rt}Seems I'm not the only one who doesn't{rt}change.	
+A4.4.0018	line		【護人】{rt}そうか。	【Guardian】{rt}I see.	
+A4.4.0019	line		【護人】{rt}ま、ハッキリ{rt}言う気になったら、	【Guardian】{rt}Well, when you feel like speaking{rt}plainly,	
+A4.4.0020	line		【護人】{rt}また声をかけてくれ。	【Guardian】{rt}come talk to me again.	
+A4.4.0021	line		【護人】{rt}……？	【Guardian】{rt}......?	
+A4.4.0022	line		【護人】{rt}相変わらず、わからん男だな。	【Guardian】{rt}You're as hard to figure out as ever.	
+A4.4.0023	line		【護人】{rt}何がうれしいのかわからんが…	【Guardian】{rt}No idea what you're so happy about,{rt}but...	
+A4.4.0024	line		【護人】{rt}ま、好きにしろ。	【Guardian】{rt}well, suit yourself.	
+A4.4.0025	line		【護人】{rt}ああ？	【Guardian】{rt}Huh?	
+A4.4.0026	line		【護人】{rt}…あァ、そうだったな。	【Guardian】{rt}...Ah, that's right.	
+A4.4.0027	line		【護人】{rt}お前はそういうヤツだった。	【Guardian】{rt}That's the kind of guy you are.	
+A4.4.0028	line		【護人】{rt}変わらないのは、{rt}俺だけじゃないようだな。	【Guardian】{rt}Seems I'm not the only one who doesn't{rt}change.	
+A4.4.0029	line		【護人】{rt}……	【Guardian】{rt}......	
+A4.4.0030	line		【護人】{rt}話はそれだけか？	【Guardian】{rt}Is that all you wanted?	
+A4.4.0031	line		【護人】{rt}じゃあな、{rt}気をつけて帰れよ。	【Guardian】{rt}See you, then. Get home safe.	
+A4.4.0032	line		【護人】{rt}俺は、まだ仕事が残ってる{rt}からな。	【Guardian】{rt}I've still got work to do.	
+A4.4.0033	line		【護人】{rt}寄り道するなよ。	【Guardian】{rt}No side trips.	
+A4.4.0034	line		【護人】{rt}気にするな。	【Guardian】{rt}Don't worry about it.	
+A4.4.0035	line		【護人】{rt}これが俺にとっての{rt}自然なんだ。	【Guardian】{rt}This is just how I am.	
+A4.4.0036	line		【護人】{rt}たいした事じゃない。	【Guardian】{rt}It's no big deal.	
+A4.4.0037	line		【護人】{rt}そうか。	【Guardian】{rt}I see.	
+A4.4.0038	line		【護人】{rt}…自信はあるが、	【Guardian】{rt}...You're confident,	
+A4.4.0039	line		【護人】{rt}どうすればいいかは{rt}わからない。	【Guardian】{rt}but you don't know what to do.	
+A4.4.0040	line		【護人】{rt}…そんなところか？	【Guardian】{rt}...Something like that?	
+A4.4.0041	line		【護人】{rt}ま、話が先に進んだら、{rt}聞こう。	【Guardian】{rt}Well, once you've gotten further, I'll{rt}hear you out.	
+A4.4.0042	line		【護人】{rt}考えをまとめてくるんだな。	【Guardian】{rt}Go sort out your thoughts.	
+A4.4.0043	line		【護人】{rt}おいおい、{rt}何をムキになっている？	【Guardian】{rt}Whoa, whoa, what are you getting so{rt}worked up about?	
+A4.4.0044	line		【護人】{rt}ま、冷静になれたら―――	【Guardian】{rt}Well, once you've cooled off--	
+A4.4.0045	line		【護人】{rt}また来るんだな。	【Guardian】{rt}come back again.	
+A4.4.0046	line		【護人】{rt}話はその時に聞いてやる。	【Guardian】{rt}I'll hear what you have to say then.	

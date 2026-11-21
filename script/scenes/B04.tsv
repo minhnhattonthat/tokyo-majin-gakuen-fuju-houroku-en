@@ -1,265 +1,265 @@
 id	kind	max	jp	en	notes
-B04.0000	line		【矢村】{rt}伊涼、頼むぞ！！		
-B04.0001	line		【矢村】{rt}《邪氣》を封じるんだ！！		
-B04.0002	line		【伊涼】{rt}わ、分かったッ。		
-B04.0003	line		【伊涼】{rt}（お願い、上手く行って！！）		
-B04.0004	line		【伊涼】{rt}邪氣封印ッ！！		
-B04.0005	line		【女】{rt}（あ、悪意が…		
-B04.0006	line		【女】{rt}　私の中の悪意が{rt}　抜けていく…。）		
-B04.0007	line		【女】{rt}（ああ―――。）		
+B04.0000	line		【矢村】{rt}伊涼、頼むぞ！！	【Yamura】{rt}Isuzu, I'm counting on you!!	
+B04.0001	line		【矢村】{rt}《邪氣》を封じるんだ！！	【Yamura】{rt}Seal the Miasma!!	
+B04.0002	line		【伊涼】{rt}わ、分かったッ。	【Isuzu】{rt}G-got it!	
+B04.0003	line		【伊涼】{rt}（お願い、上手く行って！！）	【Isuzu】{rt}(Please, let this work!!)	
+B04.0004	line		【伊涼】{rt}邪氣封印ッ！！	【Isuzu】{rt}Miasma, be sealed!!	
+B04.0005	line		【女】{rt}（あ、悪意が…	【Woman】{rt}(Th-the malice...	
+B04.0006	line		【女】{rt}　私の中の悪意が{rt}　抜けていく…。）	【Woman】{rt}the malice inside me is draining{rt}away...)	
+B04.0007	line		【女】{rt}（ああ―――。）	【Woman】{rt}(Ahh--)	
 B04.0008	line		【女】{rt}…………。	【Woman】{rt}............	
-B04.0009	line		【伊涼】{rt}…やった。		
-B04.0010	line		【伊涼】{rt}やったよッ！！		
-B04.0011	line		【伊涼】{rt}私、《邪氣》を{rt}封印できたよ！！		
-B04.0012	line		【矢村】{rt}本当かッ？		
-B04.0013	line		【伊涼】{rt}うんッ。		
-B04.0014	line		【伊涼】{rt}あの女（ひと）はもう、{rt}さっきまでの彼女じゃない。		
-B04.0015	line		【女】{rt}私―――{rt}解放された…？		
-B04.0016	line		【女】{rt}やっと―――{rt}解放されたのね？		
-B04.0017	line		【女】{rt}あ、あの…。		
-B04.0018	line		【女】{rt}お願いしますッ。		
-B04.0019	line		【女】{rt}少しでいい！！		
-B04.0020	line		【女】{rt}私の話を聞いてッ。		
-B04.0021	line		【女】{rt}あたたかい…。		
-B04.0022	line		【女】{rt}あたたかい《念》…。		
-B04.0023	line		【女】{rt}ありがとう…。		
-B04.0024	line		【女】{rt}ありがとう…{rt}嬉しい…。		
-B04.0025	line		【女】{rt}同情してくれなくともいい。		
-B04.0026	line		【女】{rt}あなたが私の存在{rt}を認めてくれる		
-B04.0027	line		【女】{rt}―――それだけでいいの。		
-B04.0028	line		【女】{rt}…ごめんなさい。		
-B04.0029	line		【女】{rt}でもッ、どうしても{rt}あなたに聞いて欲しいの。		
-B04.0030	line		【矢村】{rt}…{name1}様。		
-B04.0031	line		【矢村】{rt}そう言わず、{rt}聞いてあげましょう。		
-B04.0032	line		【伊涼】{rt}…さあ。		
-B04.0033	line		【女】{rt}ありがとう…。		
-B04.0034	line		【女】{rt}かわいそうな赤ちゃん…。		
-B04.0035	line		【女】{rt}生まれてすぐに{rt}死んでしまった。		
-B04.0036	line		【女】{rt}私は、そのショックに{rt}耐えられなかった―――。		
-B04.0037	line		【女】{rt}私、食べてしまったの！！		
-B04.0038	line		【女】{rt}赤ちゃんの亡骸{rt}（なきがら）を…		
-B04.0039	line		【女】{rt}壊れてしまった意識の中で、{rt}赤ちゃんを―――		
-B04.0040	line		【女】{rt}お腹に戻せると信じてッ…！！		
-B04.0041	line		【女】{rt}その《罪》は私を捕らえて{rt}離さなかった。		
-B04.0042	line		【女】{rt}赤ちゃんが戻ってくるという{rt}幻想に溺れ、		
-B04.0043	line		【女】{rt}それを現実にしたいと願えば、		
-B04.0044	line		【女】{rt}腕は勝手に人を殺し、{rt}口は勝手に血肉を…。		
-B04.0045	line		【女】{rt}そう、何度も、何度も―――。		
-B04.0046	line		【女】{rt}自分はもう死んでいて、		
-B04.0047	line		【女】{rt}この世界の人間ではないと{rt}分かっているのに―――。		
-B04.0048	line		【伊涼】{rt}もう大丈夫だよ。{rt}安心して。		
-B04.0049	line		【伊涼】{rt}《邪氣》は封印したわ。		
-B04.0050	line		【伊涼】{rt}もう、あなたは{rt}虜（とりこ）じゃない。		
-B04.0051	line		【伊涼】{rt}きっと、{rt}その子の元へ辿りつけるよ。		
-B04.0052	line		【女】{rt}本当？{rt}本当に―――？		
-B04.0053	line		【矢村】{rt}ああ…。		
-B04.0054	line		【女】{rt}嬉しい…。{rt}ありがとう…。		
-B04.0055	line		【伊涼】{rt}（《邪氣》が晴れて行く…）		
-B04.0056	line		【女】{rt}ありがとう―――。		
+B04.0009	line		【伊涼】{rt}…やった。	【Isuzu】{rt}...I did it.	
+B04.0010	line		【伊涼】{rt}やったよッ！！	【Isuzu】{rt}I did it!!	
+B04.0011	line		【伊涼】{rt}私、《邪氣》を{rt}封印できたよ！！	【Isuzu】{rt}I actually sealed the Miasma!!	
+B04.0012	line		【矢村】{rt}本当かッ？	【Yamura】{rt}Really?!	
+B04.0013	line		【伊涼】{rt}うんッ。	【Isuzu】{rt}Yeah!	
+B04.0014	line		【伊涼】{rt}あの女（ひと）はもう、{rt}さっきまでの彼女じゃない。	【Isuzu】{rt}She's not the woman she was a moment{rt}ago.	
+B04.0015	line		【女】{rt}私―――{rt}解放された…？	【Woman】{rt}I'm... free...?	
+B04.0016	line		【女】{rt}やっと―――{rt}解放されたのね？	【Woman】{rt}At last--I'm free, aren't I?	
+B04.0017	line		【女】{rt}あ、あの…。	【Woman】{rt}U-um...	
+B04.0018	line		【女】{rt}お願いしますッ。	【Woman】{rt}Please!	
+B04.0019	line		【女】{rt}少しでいい！！	【Woman】{rt}Just for a little while!!	
+B04.0020	line		【女】{rt}私の話を聞いてッ。	【Woman】{rt}Listen to what I have to say!	
+B04.0021	line		【女】{rt}あたたかい…。	【Woman】{rt}So warm...	
+B04.0022	line		【女】{rt}あたたかい《念》…。	【Woman】{rt}Such warm Thoughts...	
+B04.0023	line		【女】{rt}ありがとう…。	【Woman】{rt}Thank you...	
+B04.0024	line		【女】{rt}ありがとう…{rt}嬉しい…。	【Woman】{rt}Thank you... I'm so happy...	
+B04.0025	line		【女】{rt}同情してくれなくともいい。	【Woman】{rt}You needn't pity me.	
+B04.0026	line		【女】{rt}あなたが私の存在{rt}を認めてくれる	【Woman】{rt}That you acknowledge I exist	
+B04.0027	line		【女】{rt}―――それだけでいいの。	【Woman】{rt}--that's all I need.	
+B04.0028	line		【女】{rt}…ごめんなさい。	【Woman】{rt}...I'm sorry.	
+B04.0029	line		【女】{rt}でもッ、どうしても{rt}あなたに聞いて欲しいの。	【Woman】{rt}But I need you to hear this, no matter{rt}what.	
+B04.0030	line		【矢村】{rt}…{name1}様。	【Yamura】{rt}...{name1}-sama.	
+B04.0031	line		【矢村】{rt}そう言わず、{rt}聞いてあげましょう。	【Yamura】{rt}Don't say that. Let's listen to her.	
+B04.0032	line		【伊涼】{rt}…さあ。	【Isuzu】{rt}...Go on.	
+B04.0033	line		【女】{rt}ありがとう…。	【Woman】{rt}Thank you...	
+B04.0034	line		【女】{rt}かわいそうな赤ちゃん…。	【Woman】{rt}My poor baby...	
+B04.0035	line		【女】{rt}生まれてすぐに{rt}死んでしまった。	【Woman】{rt}died right after being born.	
+B04.0036	line		【女】{rt}私は、そのショックに{rt}耐えられなかった―――。	【Woman】{rt}I couldn't bear the shock of it--	
+B04.0037	line		【女】{rt}私、食べてしまったの！！	【Woman】{rt}I ate it!!	
+B04.0038	line		【女】{rt}赤ちゃんの亡骸{rt}（なきがら）を…	【Woman】{rt}My baby's remains...	
+B04.0039	line		【女】{rt}壊れてしまった意識の中で、{rt}赤ちゃんを―――	【Woman】{rt}In my broken mind, I believed I could{rt}put my baby--	
+B04.0040	line		【女】{rt}お腹に戻せると信じてッ…！！	【Woman】{rt}back inside my belly...!!	
+B04.0041	line		【女】{rt}その《罪》は私を捕らえて{rt}離さなかった。	【Woman】{rt}That Sin seized me and wouldn't let{rt}go.	
+B04.0042	line		【女】{rt}赤ちゃんが戻ってくるという{rt}幻想に溺れ、	【Woman】{rt}I drowned in the fantasy that my baby{rt}would return,	
+B04.0043	line		【女】{rt}それを現実にしたいと願えば、	【Woman】{rt}and whenever I wished to make it{rt}real,	
+B04.0044	line		【女】{rt}腕は勝手に人を殺し、{rt}口は勝手に血肉を…。	【Woman】{rt}my arms killed on their own, my mouth{rt}took blood and flesh...	
+B04.0045	line		【女】{rt}そう、何度も、何度も―――。	【Woman】{rt}Yes, again and again--	
+B04.0046	line		【女】{rt}自分はもう死んでいて、	【Woman】{rt}Even though I knew I was already{rt}dead,	
+B04.0047	line		【女】{rt}この世界の人間ではないと{rt}分かっているのに―――。	【Woman】{rt}that I no longer belonged to this{rt}world--	
+B04.0048	line		【伊涼】{rt}もう大丈夫だよ。{rt}安心して。	【Isuzu】{rt}It's all right now. Don't worry.	
+B04.0049	line		【伊涼】{rt}《邪氣》は封印したわ。	【Isuzu】{rt}I sealed the Miasma.	
+B04.0050	line		【伊涼】{rt}もう、あなたは{rt}虜（とりこ）じゃない。	【Isuzu】{rt}You're not its prisoner anymore.	
+B04.0051	line		【伊涼】{rt}きっと、{rt}その子の元へ辿りつけるよ。	【Isuzu】{rt}I'm sure you'll find your way to your{rt}child.	
+B04.0052	line		【女】{rt}本当？{rt}本当に―――？	【Woman】{rt}Really? Truly--?	
+B04.0053	line		【矢村】{rt}ああ…。	【Yamura】{rt}Yeah...	
+B04.0054	line		【女】{rt}嬉しい…。{rt}ありがとう…。	【Woman】{rt}I'm so happy... Thank you...	
+B04.0055	line		【伊涼】{rt}（《邪氣》が晴れて行く…）	【Isuzu】{rt}(The Miasma is clearing...)	
+B04.0056	line		【女】{rt}ありがとう―――。	【Woman】{rt}Thank you--	
 B04.0057	line		【伊涼】{rt}消えた―――。	【Isuzu】{rt}He vanished--	
-B04.0058	line		【伊涼】{rt}…………。		
-B04.0059	line		【伊涼】{rt}《邪氣》にとり憑かれ、		
-B04.0060	line		【伊涼】{rt}苦しむためだけに{rt}この世に縛りつけられる…。		
-B04.0061	line		【伊涼】{rt}…………。		
-B04.0062	line		【矢村】{rt}そんな顔するな。		
-B04.0063	line		【矢村】{rt}俺たちは、そこから彼女を{rt}救ったんじゃないか。		
-B04.0064	line		【伊涼】{rt}でもッ。		
-B04.0065	line		【伊涼】{rt}あの女（ひと）は、{rt}悪くないよッ。		
-B04.0066	line		【伊涼】{rt}私―――彼女の気持ち、{rt}分かる気がするものッ。		
-B04.0067	line		【伊涼】{rt}…なのに、		
-B04.0068	line		【伊涼】{rt}《邪氣》にとり憑かれる{rt}なんて―――。		
+B04.0058	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
+B04.0059	line		【伊涼】{rt}《邪氣》にとり憑かれ、	【Isuzu】{rt}Possessed by Miasma,	
+B04.0060	line		【伊涼】{rt}苦しむためだけに{rt}この世に縛りつけられる…。	【Isuzu】{rt}bound to this world just to suffer...	
+B04.0061	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
+B04.0062	line		【矢村】{rt}そんな顔するな。	【Yamura】{rt}Don't make that face.	
+B04.0063	line		【矢村】{rt}俺たちは、そこから彼女を{rt}救ったんじゃないか。	【Yamura】{rt}We saved her from that, didn't we?	
+B04.0064	line		【伊涼】{rt}でもッ。	【Isuzu】{rt}But!	
+B04.0065	line		【伊涼】{rt}あの女（ひと）は、{rt}悪くないよッ。	【Isuzu】{rt}She didn't do anything wrong!	
+B04.0066	line		【伊涼】{rt}私―――彼女の気持ち、{rt}分かる気がするものッ。	【Isuzu】{rt}I--I feel like I understand how she{rt}felt!	
+B04.0067	line		【伊涼】{rt}…なのに、	【Isuzu】{rt}...And still,	
+B04.0068	line		【伊涼】{rt}《邪氣》にとり憑かれる{rt}なんて―――。	【Isuzu】{rt}she got possessed by Miasma--	
 B04.0069	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B04.0070	line		【矢村】{rt}何が《罪》で、{rt}何が《罪》ではないのか…。		
-B04.0071	line		【矢村】{rt}どうして、《邪氣》は{rt}彼女を選んだのか？		
-B04.0072	line		【矢村】{rt}はっきりとは分からない。		
-B04.0073	line		【矢村】{rt}だが、これだけは確かだ。		
-B04.0074	line		【矢村】{rt}《罪》を持たない人間なんて{rt}いやしない―――。		
-B04.0075	line		【伊涼】{rt}俊―――。		
-B04.0076	line		【矢村】{rt}彼女のいうように{rt}犯した《罪》が		
-B04.0077	line		【矢村】{rt}《邪氣》のとり憑くより所と{rt}なるとすれば、		
-B04.0078	line		【矢村】{rt}誰もが《邪氣》に{rt}狙われる可能性があるんだ。		
-B04.0079	line		【矢村】{rt}無論、それは、俺たちだって{rt}例外じゃない。		
-B04.0080	line		【矢村】{rt}だが、俺たちは《邪氣》を封じ{rt}る事ができる。		
-B04.0081	line		【矢村】{rt}もう、彼女のような不幸を{rt}生み出さないためにも、		
-B04.0082	line		【矢村】{rt}俺たちは一日でも早く、{rt}全ての邪氣を封印するしか		
-B04.0083	line		【矢村】{rt}ないんだッ―――。		
-B04.0084	line		【伊涼】{rt}…………。		
-B04.0085	line		【伊涼】{rt}…うん。		
-B04.0086	line		【伊涼】{rt}そうだよね。		
-B04.0087	line		【矢村】{rt}どうあれ、自分たちは{rt}彼女―――		
-B04.0088	line		【矢村】{rt}いや、この坂から《邪氣》を{rt}祓う事ができました。		
-B04.0089	line		【矢村】{rt}これも、{rt}一概に氏神様のおかげです。		
-B04.0090	line		【矢村】{rt}{name1}様ッ。		
-B04.0091	line		【矢村】{rt}お力添え、感謝します。		
+B04.0070	line		【矢村】{rt}何が《罪》で、{rt}何が《罪》ではないのか…。	【Yamura】{rt}What is Sin, and what isn't...	
+B04.0071	line		【矢村】{rt}どうして、《邪氣》は{rt}彼女を選んだのか？	【Yamura】{rt}Why did the Miasma choose her?	
+B04.0072	line		【矢村】{rt}はっきりとは分からない。	【Yamura】{rt}I can't say for sure.	
+B04.0073	line		【矢村】{rt}だが、これだけは確かだ。	【Yamura】{rt}But this much is certain.	
+B04.0074	line		【矢村】{rt}《罪》を持たない人間なんて{rt}いやしない―――。	【Yamura】{rt}There's no such thing as a person{rt}without Sin--	
+B04.0075	line		【伊涼】{rt}俊―――。	【Isuzu】{rt}Shun--	
+B04.0076	line		【矢村】{rt}彼女のいうように{rt}犯した《罪》が	【Yamura】{rt}If, as she said, the Sin a person{rt}commits	
+B04.0077	line		【矢村】{rt}《邪氣》のとり憑くより所と{rt}なるとすれば、	【Yamura】{rt}is what gives the Miasma a foothold,	
+B04.0078	line		【矢村】{rt}誰もが《邪氣》に{rt}狙われる可能性があるんだ。	【Yamura】{rt}then anyone could become a target of{rt}the Miasma.	
+B04.0079	line		【矢村】{rt}無論、それは、俺たちだって{rt}例外じゃない。	【Yamura】{rt}Of course, that includes us too.	
+B04.0080	line		【矢村】{rt}だが、俺たちは《邪氣》を封じ{rt}る事ができる。	【Yamura】{rt}But we have the power to seal the{rt}Miasma.	
+B04.0081	line		【矢村】{rt}もう、彼女のような不幸を{rt}生み出さないためにも、	【Yamura】{rt}So that no one else ends up as unhappy{rt}as she did,	
+B04.0082	line		【矢村】{rt}俺たちは一日でも早く、{rt}全ての邪氣を封印するしか	【Yamura】{rt}all we can do is seal every last bit of{rt}Miasma	
+B04.0083	line		【矢村】{rt}ないんだッ―――。	【Yamura】{rt}as soon as we possibly can--	
+B04.0084	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
+B04.0085	line		【伊涼】{rt}…うん。	【Isuzu】{rt}...Yeah.	
+B04.0086	line		【伊涼】{rt}そうだよね。	【Isuzu】{rt}You're right.	
+B04.0087	line		【矢村】{rt}どうあれ、自分たちは{rt}彼女―――	【Yamura】{rt}Be that as it may, we were able to{rt}cleanse her--	
+B04.0088	line		【矢村】{rt}いや、この坂から《邪氣》を{rt}祓う事ができました。	【Yamura】{rt}no, this slope, of its Miasma.	
+B04.0089	line		【矢村】{rt}これも、{rt}一概に氏神様のおかげです。	【Yamura】{rt}And we owe it all to the Ujigami.	
+B04.0090	line		【矢村】{rt}{name1}様ッ。	【Yamura】{rt}{name1}-sama!	
+B04.0091	line		【矢村】{rt}お力添え、感謝します。	【Yamura】{rt}Thank you for your aid.	
 B04.0092	line		【伊涼】{rt}うん。	【Isuzu】{rt}Okay.	
-B04.0093	line		【伊涼】{rt}ありがとう{rt}{name1}くんッ。		
-B04.0094	line		【矢村】{rt}《邪氣》を封じた符…。		
-B04.0095	line		【矢村】{rt}こいつは、{name1}様のお力で{rt}管理して下さい。		
-B04.0096	line		【矢村】{rt}二度と人にとり憑く事の{rt}ないように―――		
+B04.0093	line		【伊涼】{rt}ありがとう{rt}{name1}くんッ。	【Isuzu】{rt}Thanks, {name1}-kun!	
+B04.0094	line		【矢村】{rt}《邪氣》を封じた符…。	【Yamura】{rt}The talisman that sealed the{rt}Miasma...	
+B04.0095	line		【矢村】{rt}こいつは、{name1}様のお力で{rt}管理して下さい。	【Yamura】{rt}{name1}-sama, please keep it under{rt}your power.	
+B04.0096	line		【矢村】{rt}二度と人にとり憑く事の{rt}ないように―――	【Yamura】{rt}So that it never possesses anyone{rt}again--	
 B04.0097	line		【伊涼】{rt}うん。	【Isuzu】{rt}Okay.	
-B04.0098	line		【伊涼】{rt}ありがとう{rt}{name2}ちゃんッ。		
-B04.0099	line		【矢村】{rt}《邪氣》を封じた符…。		
-B04.0100	line		【矢村】{rt}こいつは、{name1}様のお力で{rt}管理して下さい。		
-B04.0101	line		【矢村】{rt}二度と人にとり憑く事の{rt}ないように―――		
-B04.0102	line		【矢村】{rt}―――まさか、焔羅様がそんな{rt}お話をされていたとは。		
-B04.0103	line		【矢村】{rt}無論、そういう事であれば、		
-B04.0104	line		【矢村】{rt}自分たちは{name1}様を{rt}精一杯歓迎いたします。		
-B04.0105	line		【伊涼】{rt}新しい氏神様って訳ね。		
-B04.0106	line		【矢村】{rt}さて、着きました。		
-B04.0107	line		【矢村】{rt}これが我が家に{rt}代々伝わる―――		
-B04.0108	line		【矢村】{rt}由緒ある氏神様の{rt}祠（ほこら）です。		
-B04.0109	line		【矢村】{rt}焔羅様はこの祠に住まい、{rt}自分たちを見守って―――		
-B04.0110	line		【矢村】{rt}―――？		
-B04.0111	line		【矢村】{rt}{name1}様、どうしました？		
-B04.0112	line		【伊涼】{rt}ははあ。やっぱりね。		
-B04.0113	line		【矢村】{rt}やっぱり？		
-B04.0114	line		【伊涼】{rt}考えてもみなよ。		
-B04.0115	line		【伊涼】{rt}こんな祠を前にして、		
-B04.0116	line		【伊涼】{rt}『今日からはここが{rt}　あなたの住まいです』		
-B04.0117	line		【伊涼】{rt}なんて言われたら、{rt}誰だって戸惑うよ。		
-B04.0118	line		【伊涼】{rt}古い、汚い、狭い。		
-B04.0119	line		【伊涼】{rt}いいとこ無しだもん。		
-B04.0120	line		【矢村】{rt}（ぐッ―――。）		
-B04.0121	line		【伊涼】{rt}私が{name2}ちゃんの{rt}立場だったら、		
-B04.0122	line		【伊涼】{rt}今のだけで３万ポイントは{rt}減点するね。		
-B04.0123	line		【矢村】{rt}ぐッ―――。		
-B04.0124	line		【矢村】{rt}（…俺の現在の持ち点は、{rt}　いったい何点なんだ！？）		
-B04.0125	line		【矢村】{rt}ま、まあ、{rt}見た目は冴えませんが、		
-B04.0126	line		【矢村】{rt}この祠は、大地の《氣》の{rt}流れの上にあり、		
-B04.0127	line		【矢村】{rt}氏神様の消耗した《氣》を{rt}癒す事ができるのです。		
-B04.0128	line		【伊涼】{rt}あ、それは私も{rt}聞いた事がある。		
-B04.0129	line		【矢村】{rt}ふッ。		
-B04.0130	line		【矢村】{rt}ところが、{rt}それだけではないのだ、		
-B04.0131	line		【矢村】{rt}伊涼ッ。		
-B04.0132	line		【伊涼】{rt}ええッ？		
+B04.0098	line		【伊涼】{rt}ありがとう{rt}{name2}ちゃんッ。	【Isuzu】{rt}Thanks, {name2}-chan!	
+B04.0099	line		【矢村】{rt}《邪氣》を封じた符…。	【Yamura】{rt}The talisman that sealed the{rt}Miasma...	
+B04.0100	line		【矢村】{rt}こいつは、{name1}様のお力で{rt}管理して下さい。	【Yamura】{rt}{name1}-sama, please keep it under{rt}your power.	
+B04.0101	line		【矢村】{rt}二度と人にとり憑く事の{rt}ないように―――	【Yamura】{rt}So that it never possesses anyone{rt}again--	
+B04.0102	line		【矢村】{rt}―――まさか、焔羅様がそんな{rt}お話をされていたとは。	【Yamura】{rt}--I had no idea Lord Enra had told you{rt}all that.	
+B04.0103	line		【矢村】{rt}無論、そういう事であれば、	【Yamura】{rt}Naturally, if that is the case,	
+B04.0104	line		【矢村】{rt}自分たちは{name1}様を{rt}精一杯歓迎いたします。	【Yamura】{rt}we will welcome you with all our hearts,{rt}{name1}-sama.	
+B04.0105	line		【伊涼】{rt}新しい氏神様って訳ね。	【Isuzu】{rt}So you're the new Ujigami, huh?	
+B04.0106	line		【矢村】{rt}さて、着きました。	【Yamura】{rt}Now, here we are.	
+B04.0107	line		【矢村】{rt}これが我が家に{rt}代々伝わる―――	【Yamura】{rt}This is the time-honored shrine of the{rt}Ujigami,	
+B04.0108	line		【矢村】{rt}由緒ある氏神様の{rt}祠（ほこら）です。	【Yamura】{rt}passed down in my family for{rt}generations.	
+B04.0109	line		【矢村】{rt}焔羅様はこの祠に住まい、{rt}自分たちを見守って―――	【Yamura】{rt}Lord Enra lived in this shrine and{rt}watched over us--	
+B04.0110	line		【矢村】{rt}―――？	【Yamura】{rt}--?	
+B04.0111	line		【矢村】{rt}{name1}様、どうしました？	【Yamura】{rt}{name1}-sama, is something{rt}wrong?	
+B04.0112	line		【伊涼】{rt}ははあ。やっぱりね。	【Isuzu】{rt}Aha. I knew it.	
+B04.0113	line		【矢村】{rt}やっぱり？	【Yamura】{rt}You knew?	
+B04.0114	line		【伊涼】{rt}考えてもみなよ。	【Isuzu】{rt}Think about it.	
+B04.0115	line		【伊涼】{rt}こんな祠を前にして、	【Isuzu】{rt}If someone stood you in front of a{rt}shrine like this	
+B04.0116	line		【伊涼】{rt}『今日からはここが{rt}　あなたの住まいです』	【Isuzu】{rt}and said, "From today on, this is your{rt}home,"	
+B04.0117	line		【伊涼】{rt}なんて言われたら、{rt}誰だって戸惑うよ。	【Isuzu】{rt}anybody would be at a loss.	
+B04.0118	line		【伊涼】{rt}古い、汚い、狭い。	【Isuzu】{rt}It's old, it's dirty, it's cramped.	
+B04.0119	line		【伊涼】{rt}いいとこ無しだもん。	【Isuzu】{rt}There's nothing good about it.	
+B04.0120	line		【矢村】{rt}（ぐッ―――。）	【Yamura】{rt}(Ngh--)	
+B04.0121	line		【伊涼】{rt}私が{name2}ちゃんの{rt}立場だったら、	【Isuzu】{rt}If I were in {name2}-chan's{rt}shoes,	
+B04.0122	line		【伊涼】{rt}今のだけで３万ポイントは{rt}減点するね。	【Isuzu】{rt}I'd take off 30,000 points just for{rt}that.	
+B04.0123	line		【矢村】{rt}ぐッ―――。	【Yamura】{rt}Ngh--	
+B04.0124	line		【矢村】{rt}（…俺の現在の持ち点は、{rt}　いったい何点なんだ！？）	【Yamura】{rt}(...Just how many points do I have left{rt}right now?!)	
+B04.0125	line		【矢村】{rt}ま、まあ、{rt}見た目は冴えませんが、	【Yamura】{rt}W-well, it may not look like much,	
+B04.0126	line		【矢村】{rt}この祠は、大地の《氣》の{rt}流れの上にあり、	【Yamura】{rt}but this shrine sits on a flow of the{rt}earth's Ki,	
+B04.0127	line		【矢村】{rt}氏神様の消耗した《氣》を{rt}癒す事ができるのです。	【Yamura】{rt}and can restore the Ujigami's spent{rt}Ki.	
+B04.0128	line		【伊涼】{rt}あ、それは私も{rt}聞いた事がある。	【Isuzu】{rt}Oh, I've heard about that too.	
+B04.0129	line		【矢村】{rt}ふッ。	【Yamura】{rt}Heh.	
+B04.0130	line		【矢村】{rt}ところが、{rt}それだけではないのだ、	【Yamura】{rt}But that's not all there is to it,	
+B04.0131	line		【矢村】{rt}伊涼ッ。	【Yamura】{rt}Isuzu!	
+B04.0132	line		【伊涼】{rt}ええッ？	【Isuzu】{rt}Huh?	
 B04.0133	line		【矢村】{rt}{name1}様。	【Yamura】{rt}{name1}-sama.	
-B04.0134	line		【矢村】{rt}自分は以前、{rt}焔羅様から		
-B04.0135	line		【矢村】{rt}氏神様がその《力》を{rt}保つために有効な何かが		
-B04.0136	line		【矢村】{rt}この祠の中にあるという話を{rt}聞いた事がありますッ。		
-B04.0137	line		【矢村】{rt}残念ながら、		
-B04.0138	line		【矢村】{rt}それが何なのかまでは{rt}我々には分かりませんが…		
-B04.0139	line		【矢村】{rt}{name1}様のお役に立つのは{rt}間違いないはずです。		
-B04.0140	line		【伊涼】{rt}{name1}くん。		
-B04.0141	line		【伊涼】{rt}今日はお疲れ様。		
-B04.0142	line		【伊涼】{rt}{name1}くんみたいな氏神様が{rt}来てくれて、私、嬉しいよ。		
-B04.0143	line		【伊涼】{rt}《邪氣》は怖いけど―――		
-B04.0144	line		【伊涼】{rt}また、よろしくね。		
-B04.0145	line		【矢村】{rt}伊涼。		
-B04.0146	line		【矢村】{rt}せめて最後くらいは氏神様に{rt}感謝の意をこめてだな―――		
-B04.0147	line		【伊涼】{rt}もう、堅い事言わない。		
-B04.0148	line		【伊涼】{rt}焔羅のお爺ちゃん{rt}ならまだしも、		
-B04.0149	line		【伊涼】{rt}{name1}くんに{rt}敬語使う気にはなれないよ。		
-B04.0150	line		【伊涼】{rt}仲良くなれそうだもん。ねえ？		
-B04.0151	line		【伊涼】{rt}{name2}ちゃん。		
-B04.0152	line		【伊涼】{rt}今日はお疲れ様。		
-B04.0153	line		【伊涼】{rt}{name2}ちゃんみたいな氏神様が{rt}来てくれて、私、嬉しいよ。		
-B04.0154	line		【伊涼】{rt}《邪氣》は怖いけど…		
-B04.0155	line		【伊涼】{rt}また、よろしくね。		
-B04.0156	line		【矢村】{rt}伊涼。		
-B04.0157	line		【矢村】{rt}せめて最後くらいは氏神様に{rt}感謝の意を込めてだな―――		
-B04.0158	line		【伊涼】{rt}もう、堅い事言わない。		
-B04.0159	line		【伊涼】{rt}焔羅のお爺ちゃん{rt}ならまだしも、		
-B04.0160	line		【伊涼】{rt}{name2}ちゃんに{rt}敬語使う気にはなれないよ。		
-B04.0161	line		【伊涼】{rt}仲良くなれそうだもん。ねえ？		
-B04.0162	line		【伊涼】{rt}えへへ。{rt}そうだよねッ。		
-B04.0163	line		【伊涼】{rt}{name1}くんは、		
-B04.0164	line		【伊涼】{rt}氏神様っていうより、{rt}友達って感じだよ。		
-B04.0165	line		【矢村】{rt}（確かにそうかもしれん…）		
-B04.0166	line		【矢村】{rt}（…ん？）		
-B04.0167	line		【矢村】{rt}（い、いかんッ！！）		
-B04.0168	line		【矢村】{rt}（俺とした事が―――。）		
-B04.0169	line		【伊涼】{rt}{name2}ちゃんは、		
-B04.0170	line		【伊涼】{rt}氏神様っていうより、{rt}友達って感じだよ。		
+B04.0134	line		【矢村】{rt}自分は以前、{rt}焔羅様から	【Yamura】{rt}Some time ago, I heard from Lord{rt}Enra	
+B04.0135	line		【矢村】{rt}氏神様がその《力》を{rt}保つために有効な何かが	【Yamura】{rt}that something that helps an Ujigami{rt}keep up its Power	
+B04.0136	line		【矢村】{rt}この祠の中にあるという話を{rt}聞いた事がありますッ。	【Yamura】{rt}lies inside this shrine!	
+B04.0137	line		【矢村】{rt}残念ながら、	【Yamura】{rt}Unfortunately,	
+B04.0138	line		【矢村】{rt}それが何なのかまでは{rt}我々には分かりませんが…	【Yamura】{rt}we don't know what exactly it is...	
+B04.0139	line		【矢村】{rt}{name1}様のお役に立つのは{rt}間違いないはずです。	【Yamura】{rt}but it is sure to be of use to you,{rt}{name1}-sama.	
+B04.0140	line		【伊涼】{rt}{name1}くん。	【Isuzu】{rt}{name1}-kun.	
+B04.0141	line		【伊涼】{rt}今日はお疲れ様。	【Isuzu】{rt}Thanks for today.	
+B04.0142	line		【伊涼】{rt}{name1}くんみたいな氏神様が{rt}来てくれて、私、嬉しいよ。	【Isuzu】{rt}I'm glad an Ujigami like you came to us,{rt}{name1}-kun.	
+B04.0143	line		【伊涼】{rt}《邪氣》は怖いけど―――	【Isuzu】{rt}The Miasma's scary, but--	
+B04.0144	line		【伊涼】{rt}また、よろしくね。	【Isuzu】{rt}let's keep at it together, okay?	
+B04.0145	line		【矢村】{rt}伊涼。	【Yamura】{rt}Isuzu.	
+B04.0146	line		【矢村】{rt}せめて最後くらいは氏神様に{rt}感謝の意をこめてだな―――	【Yamura】{rt}At least at the end, you could show the{rt}Ujigami some gratitude--	
+B04.0147	line		【伊涼】{rt}もう、堅い事言わない。	【Isuzu】{rt}Oh, don't be so stiff.	
+B04.0148	line		【伊涼】{rt}焔羅のお爺ちゃん{rt}ならまだしも、	【Isuzu】{rt}With old Grandpa Enra, sure, but	
+B04.0149	line		【伊涼】{rt}{name1}くんに{rt}敬語使う気にはなれないよ。	【Isuzu】{rt}I just can't bring myself to be formal{rt}with {name1}-kun.	
+B04.0150	line		【伊涼】{rt}仲良くなれそうだもん。ねえ？	【Isuzu】{rt}I think we'll get along great. Right?	
+B04.0151	line		【伊涼】{rt}{name2}ちゃん。	【Isuzu】{rt}{name2}-chan.	
+B04.0152	line		【伊涼】{rt}今日はお疲れ様。	【Isuzu】{rt}Thanks for today.	
+B04.0153	line		【伊涼】{rt}{name2}ちゃんみたいな氏神様が{rt}来てくれて、私、嬉しいよ。	【Isuzu】{rt}I'm glad an Ujigami like you came to us,{rt}{name2}-chan.	
+B04.0154	line		【伊涼】{rt}《邪氣》は怖いけど…	【Isuzu】{rt}The Miasma's scary...	
+B04.0155	line		【伊涼】{rt}また、よろしくね。	【Isuzu】{rt}let's keep at it together, okay?	
+B04.0156	line		【矢村】{rt}伊涼。	【Yamura】{rt}Isuzu.	
+B04.0157	line		【矢村】{rt}せめて最後くらいは氏神様に{rt}感謝の意を込めてだな―――	【Yamura】{rt}At least at the end, you could show the{rt}Ujigami some gratitude--	
+B04.0158	line		【伊涼】{rt}もう、堅い事言わない。	【Isuzu】{rt}Oh, don't be so stiff.	
+B04.0159	line		【伊涼】{rt}焔羅のお爺ちゃん{rt}ならまだしも、	【Isuzu】{rt}With old Grandpa Enra, sure, but	
+B04.0160	line		【伊涼】{rt}{name2}ちゃんに{rt}敬語使う気にはなれないよ。	【Isuzu】{rt}I just can't bring myself to be formal{rt}with {name2}-chan.	
+B04.0161	line		【伊涼】{rt}仲良くなれそうだもん。ねえ？	【Isuzu】{rt}I think we'll get along great. Right?	
+B04.0162	line		【伊涼】{rt}えへへ。{rt}そうだよねッ。	【Isuzu】{rt}Hehe. That's right!	
+B04.0163	line		【伊涼】{rt}{name1}くんは、	【Isuzu】{rt}{name1}-kun feels	
+B04.0164	line		【伊涼】{rt}氏神様っていうより、{rt}友達って感じだよ。	【Isuzu】{rt}less like an Ujigami and more like a{rt}friend.	
+B04.0165	line		【矢村】{rt}（確かにそうかもしれん…）	【Yamura】{rt}(She may have a point...)	
+B04.0166	line		【矢村】{rt}（…ん？）	【Yamura】{rt}(...Hm?)	
+B04.0167	line		【矢村】{rt}（い、いかんッ！！）	【Yamura】{rt}(N-no, this won't do!!)	
+B04.0168	line		【矢村】{rt}（俺とした事が―――。）	【Yamura】{rt}(What am I thinking--)	
+B04.0169	line		【伊涼】{rt}{name2}ちゃんは、	【Isuzu】{rt}{name2}-chan feels	
+B04.0170	line		【伊涼】{rt}氏神様っていうより、{rt}友達って感じだよ。	【Isuzu】{rt}less like an Ujigami and more like a{rt}friend.	
 B04.0171	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B04.0172	line		【矢村】{rt}（確かにそれも一理ある。）		
-B04.0173	line		【矢村】{rt}（焔羅様と{name1}様―――		
-B04.0174	line		【矢村】{rt}　老爺（ろうや）と{rt}　少女では、		
-B04.0175	line		【矢村】{rt}　とても同じ{rt}　氏神様とは―――）		
-B04.0176	line		【矢村】{rt}（…ん？）		
-B04.0177	line		【矢村】{rt}（い、いかんッ！！）		
-B04.0178	line		【矢村】{rt}（俺とした事が―――！！）		
-B04.0179	line		【矢村】{rt}みろ、伊涼。		
-B04.0180	line		【矢村】{rt}機嫌を損ねて{rt}いらっしゃるぞ。		
-B04.0181	line		【伊涼】{rt}でも、{name1}様なんて、{rt}やだよ。		
-B04.0182	line		【矢村】{rt}伊涼。{rt}ちょっと来い。		
-B04.0183	line		【矢村】{rt}（いかん、いかんぞ！！）		
-B04.0184	line		【矢村】{rt}（タタリ神だったら{rt}　どうするッ？）		
-B04.0185	line		【伊涼】{rt}そっか…。		
-B04.0186	line		【伊涼】{rt}馴れ馴れしくして{rt}ごめんなさい。		
-B04.0187	line		【伊涼】{rt}神様、だもんね。		
+B04.0172	line		【矢村】{rt}（確かにそれも一理ある。）	【Yamura】{rt}(She does have a point there.)	
+B04.0173	line		【矢村】{rt}（焔羅様と{name1}様―――	【Yamura】{rt}(Lord Enra and {name1}-sama--	
+B04.0174	line		【矢村】{rt}　老爺（ろうや）と{rt}　少女では、	【Yamura】{rt}an old man and a girl;	
+B04.0175	line		【矢村】{rt}　とても同じ{rt}　氏神様とは―――）	【Yamura】{rt}hardly the same kind of Ujigami--)	
+B04.0176	line		【矢村】{rt}（…ん？）	【Yamura】{rt}(...Hm?)	
+B04.0177	line		【矢村】{rt}（い、いかんッ！！）	【Yamura】{rt}(N-no, this won't do!!)	
+B04.0178	line		【矢村】{rt}（俺とした事が―――！！）	【Yamura】{rt}(What am I thinking--!!)	
+B04.0179	line		【矢村】{rt}みろ、伊涼。	【Yamura】{rt}Look, Isuzu.	
+B04.0180	line		【矢村】{rt}機嫌を損ねて{rt}いらっしゃるぞ。	【Yamura】{rt}You've put the Ujigami in a bad mood.	
+B04.0181	line		【伊涼】{rt}でも、{name1}様なんて、{rt}やだよ。	【Isuzu】{rt}But calling them "{name1}-sama"?{rt}No way.	
+B04.0182	line		【矢村】{rt}伊涼。{rt}ちょっと来い。	【Yamura】{rt}Isuzu. Come here a moment.	
+B04.0183	line		【矢村】{rt}（いかん、いかんぞ！！）	【Yamura】{rt}(This won't do, this won't do at all!!)	
+B04.0184	line		【矢村】{rt}（タタリ神だったら{rt}　どうするッ？）	【Yamura】{rt}(What if the Ujigami turns into a curse{rt}god?!)	
+B04.0185	line		【伊涼】{rt}そっか…。	【Isuzu】{rt}I see...	
+B04.0186	line		【伊涼】{rt}馴れ馴れしくして{rt}ごめんなさい。	【Isuzu】{rt}Sorry for being so familiar.	
+B04.0187	line		【伊涼】{rt}神様、だもんね。	【Isuzu】{rt}You're a god, after all.	
 B04.0188	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B04.0189	line		【矢村】{rt}{name1}殿ッ。		
-B04.0190	line		【伊涼】{rt}（ど、どの？）		
-B04.0191	line		【矢村】{rt}この町に漂う《邪氣》は、		
-B04.0192	line		【矢村】{rt}今日、自分たちが封印した{rt}ものだけではありません。		
-B04.0193	line		【矢村】{rt}《邪氣》が		
-B04.0194	line		【矢村】{rt}哀れな境遇を背負ってしまった{rt}人間の心を捕らえる―――。		
-B04.0195	line		【矢村】{rt}あのような悲劇を生まないため{rt}にも、一日も早く、この町の		
-B04.0196	line		【矢村】{rt}全ての《邪氣》を封印する{rt}必要がある…。		
-B04.0197	line		【矢村】{rt}そのために、{name1}殿には		
-B04.0198	line		【矢村】{rt}またお力を貸して{rt}頂く事になると思います。		
+B04.0189	line		【矢村】{rt}{name1}殿ッ。	【Yamura】{rt}{name1}-dono!	
+B04.0190	line		【伊涼】{rt}（ど、どの？）	【Isuzu】{rt}(D-dono?)	
+B04.0191	line		【矢村】{rt}この町に漂う《邪氣》は、	【Yamura】{rt}The Miasma drifting through this{rt}town	
+B04.0192	line		【矢村】{rt}今日、自分たちが封印した{rt}ものだけではありません。	【Yamura】{rt}isn't only what we sealed today.	
+B04.0193	line		【矢村】{rt}《邪氣》が	【Yamura】{rt}The Miasma	
+B04.0194	line		【矢村】{rt}哀れな境遇を背負ってしまった{rt}人間の心を捕らえる―――。	【Yamura】{rt}seizes the hearts of people burdened{rt}with a wretched lot--	
+B04.0195	line		【矢村】{rt}あのような悲劇を生まないため{rt}にも、一日も早く、この町の	【Yamura】{rt}To keep tragedies like that from{rt}happening, we must seal	
+B04.0196	line		【矢村】{rt}全ての《邪氣》を封印する{rt}必要がある…。	【Yamura】{rt}all the Miasma in this town as soon as{rt}we can...	
+B04.0197	line		【矢村】{rt}そのために、{name1}殿には	【Yamura】{rt}And for that, {name1}-dono,	
+B04.0198	line		【矢村】{rt}またお力を貸して{rt}頂く事になると思います。	【Yamura】{rt}I believe we will need to borrow your{rt}strength again.	
 B04.0199	line		【伊涼】{rt}うん。	【Isuzu】{rt}Okay.	
-B04.0200	line		【伊涼】{rt}私も一緒に闘うよッ。		
-B04.0201	line		【伊涼】{rt}{name1}くんの力があれば、{rt}《邪氣》だって怖くないッ。		
-B04.0202	line		【伊涼】{rt}何だか、やる気出てきた―――		
-B04.0203	line		【矢村】{rt}はははッ。		
-B04.0204	line		【伊涼】{rt}何よう、俊。		
-B04.0205	line		【矢村】{rt}これからもうひとつ{rt}行けそうな勢いだな、伊涼。		
-B04.0206	line		【伊涼】{rt}あ、あのねッ―――		
-B04.0207	line		【矢村】{rt}冗談、冗談。		
-B04.0208	line		【矢村】{rt}{name1}殿も、あまり気張らず、		
-B04.0209	line		【矢村】{rt}今日のところは{rt}ゆっくりお休み下さい。		
-B04.0210	line		【矢村】{rt}{name1}殿のお力が万全で{rt}あれば、		
-B04.0211	line		【矢村】{rt}自分たちはきっと《邪氣》を{rt}封じる事ができる…。		
-B04.0212	line		【矢村】{rt}そう信じています。		
-B04.0213	line		【伊涼】{rt}そうだね。		
-B04.0214	line		【伊涼】{rt}これから、よろしくね。		
-B04.0215	line		【伊涼】{rt}{name1}くん。		
-B04.0216	line		【矢村】{rt}{name1}殿ッ。		
-B04.0217	line		【伊涼】{rt}（ど、どの？）		
-B04.0218	line		【矢村】{rt}この町に漂う《邪氣》は、		
-B04.0219	line		【矢村】{rt}今日、自分たちが封印した{rt}ものだけではありません。		
-B04.0220	line		【矢村】{rt}《邪氣》が		
-B04.0221	line		【矢村】{rt}哀れな境遇を背負ってしまった{rt}人間の心を捕らえる―――。		
-B04.0222	line		【矢村】{rt}あのような悲劇を生まないため{rt}にも、一日も早く、この町の		
-B04.0223	line		【矢村】{rt}全ての《邪氣》を封印する{rt}必要がある…。		
-B04.0224	line		【矢村】{rt}そのために、{name1}殿には		
-B04.0225	line		【矢村】{rt}またお力を貸して頂く事に{rt}なると思います。		
+B04.0200	line		【伊涼】{rt}私も一緒に闘うよッ。	【Isuzu】{rt}I'll fight with you too!	
+B04.0201	line		【伊涼】{rt}{name1}くんの力があれば、{rt}《邪氣》だって怖くないッ。	【Isuzu】{rt}With {name1}-kun's power, even the{rt}Miasma doesn't scare me!	
+B04.0202	line		【伊涼】{rt}何だか、やる気出てきた―――	【Isuzu】{rt}Somehow I'm all fired up now--	
+B04.0203	line		【矢村】{rt}はははッ。	【Yamura】{rt}Ha ha ha!	
+B04.0204	line		【伊涼】{rt}何よう、俊。	【Isuzu】{rt}What's so funny, Shun?	
+B04.0205	line		【矢村】{rt}これからもうひとつ{rt}行けそうな勢いだな、伊涼。	【Yamura】{rt}Looks like you're raring to take on{rt}another one right now, Isuzu.	
+B04.0206	line		【伊涼】{rt}あ、あのねッ―――	【Isuzu】{rt}H-hey, listen--	
+B04.0207	line		【矢村】{rt}冗談、冗談。	【Yamura】{rt}Kidding, kidding.	
+B04.0208	line		【矢村】{rt}{name1}殿も、あまり気張らず、	【Yamura】{rt}{name1}-dono, don't push yourself{rt}too hard.	
+B04.0209	line		【矢村】{rt}今日のところは{rt}ゆっくりお休み下さい。	【Yamura】{rt}Please rest well for today.	
+B04.0210	line		【矢村】{rt}{name1}殿のお力が万全で{rt}あれば、	【Yamura】{rt}As long as your strength is whole,{rt}{name1}-dono,	
+B04.0211	line		【矢村】{rt}自分たちはきっと《邪氣》を{rt}封じる事ができる…。	【Yamura】{rt}I'm sure we can seal the Miasma...	
+B04.0212	line		【矢村】{rt}そう信じています。	【Yamura】{rt}That is what I believe.	
+B04.0213	line		【伊涼】{rt}そうだね。	【Isuzu】{rt}Yeah.	
+B04.0214	line		【伊涼】{rt}これから、よろしくね。	【Isuzu】{rt}Let's keep at it from here on, okay?	
+B04.0215	line		【伊涼】{rt}{name1}くん。	【Isuzu】{rt}{name1}-kun.	
+B04.0216	line		【矢村】{rt}{name1}殿ッ。	【Yamura】{rt}{name1}-dono!	
+B04.0217	line		【伊涼】{rt}（ど、どの？）	【Isuzu】{rt}(D-dono?)	
+B04.0218	line		【矢村】{rt}この町に漂う《邪氣》は、	【Yamura】{rt}The Miasma drifting through this{rt}town	
+B04.0219	line		【矢村】{rt}今日、自分たちが封印した{rt}ものだけではありません。	【Yamura】{rt}isn't only what we sealed today.	
+B04.0220	line		【矢村】{rt}《邪氣》が	【Yamura】{rt}The Miasma	
+B04.0221	line		【矢村】{rt}哀れな境遇を背負ってしまった{rt}人間の心を捕らえる―――。	【Yamura】{rt}seizes the hearts of people burdened{rt}with a wretched lot--	
+B04.0222	line		【矢村】{rt}あのような悲劇を生まないため{rt}にも、一日も早く、この町の	【Yamura】{rt}To keep tragedies like that from{rt}happening, we must seal	
+B04.0223	line		【矢村】{rt}全ての《邪氣》を封印する{rt}必要がある…。	【Yamura】{rt}all the Miasma in this town as soon as{rt}we can...	
+B04.0224	line		【矢村】{rt}そのために、{name1}殿には	【Yamura】{rt}And for that, {name1}-dono,	
+B04.0225	line		【矢村】{rt}またお力を貸して頂く事に{rt}なると思います。	【Yamura】{rt}I believe we will need to borrow your{rt}strength again.	
 B04.0226	line		【伊涼】{rt}うん。	【Isuzu】{rt}Okay.	
-B04.0227	line		【伊涼】{rt}私も一緒に闘うよッ。		
-B04.0228	line		【伊涼】{rt}{name2}ちゃんの力があれば、{rt}《邪氣》だって怖くないッ。		
-B04.0229	line		【伊涼】{rt}何だか、やる気出てきた―――		
-B04.0230	line		【矢村】{rt}はははッ。		
-B04.0231	line		【伊涼】{rt}何よう、俊。		
-B04.0232	line		【矢村】{rt}これからもうひとつ{rt}行けそうな勢いだな、伊涼。		
-B04.0233	line		【伊涼】{rt}あ、あのねッ―――		
-B04.0234	line		【矢村】{rt}冗談、冗談。		
-B04.0235	line		【矢村】{rt}{name1}殿も、あまり気張らず、		
-B04.0236	line		【矢村】{rt}今日のところは{rt}ゆっくりお休み下さい。		
-B04.0237	line		【矢村】{rt}{name1}殿のお力が万全で{rt}あれば、		
-B04.0238	line		【矢村】{rt}自分たちはきっと《邪氣》を{rt}封じる事ができる…。		
-B04.0239	line		【矢村】{rt}そう信じています。		
-B04.0240	line		【伊涼】{rt}そうだね。		
-B04.0241	line		【伊涼】{rt}これから、よろしくね。		
-B04.0242	line		【伊涼】{rt}{name2}ちゃん。		
-B04.0243	line		【焔羅の声】{rt}ついに―――		
-B04.0244	line		【焔羅】{rt}ついに、出会えたなッ。		
-B04.0245	line		【影】{rt}―――！？		
-B04.0246	line		【女の声】{rt}くッ―――。		
-B04.0247	line		【女の声】{rt}おのれェ、あの時の！！		
-B04.0248	line		【焔羅】{rt}覚えていたか。		
-B04.0249	line		【焔羅】{rt}まあ、忘れる訳がないが。		
-B04.0250	line		【焔羅】{rt}儂も、おぬしも―――。		
-B04.0251	line		【女の声】{rt}ここへ何をしに―――		
-B04.0252	line		【女の声】{rt}まさか―――！？		
-B04.0253	line		【焔羅】{rt}その通り。		
-B04.0254	line		【焔羅】{rt}ひとつしか無かろうッ？		
-B04.0255	line		【焔羅】{rt}おぬしを外の世に現出させる{rt}ための要素が揃う前に、		
-B04.0256	line		【焔羅】{rt}おぬしの存在を消し去るッ！！		
-B04.0257	line		【女の声】{rt}くッ―――。		
-B04.0258	line		【焔羅】{rt}おぬしには悪いが、正々堂々と{rt}という訳にはいかんのでな。		
-B04.0259	line		【焔羅】{rt}それに、おぬしには貸しも{rt}ある。		
-B04.0260	line		【焔羅】{rt}遠慮無く、{rt}やらせてもらうぞッ！！		
-B04.0261	line		【焔羅】{rt}この世と―――		
-B04.0262	line		【焔羅】{rt}《彼ら》の魂のためにッ！！		
-B04.0263	line		【影】{rt}―――！！		
+B04.0227	line		【伊涼】{rt}私も一緒に闘うよッ。	【Isuzu】{rt}I'll fight with you too!	
+B04.0228	line		【伊涼】{rt}{name2}ちゃんの力があれば、{rt}《邪氣》だって怖くないッ。	【Isuzu】{rt}With {name2}-chan's power, even{rt}the Miasma doesn't scare me!	
+B04.0229	line		【伊涼】{rt}何だか、やる気出てきた―――	【Isuzu】{rt}Somehow I'm all fired up now--	
+B04.0230	line		【矢村】{rt}はははッ。	【Yamura】{rt}Ha ha ha!	
+B04.0231	line		【伊涼】{rt}何よう、俊。	【Isuzu】{rt}What's so funny, Shun?	
+B04.0232	line		【矢村】{rt}これからもうひとつ{rt}行けそうな勢いだな、伊涼。	【Yamura】{rt}Looks like you're raring to take on{rt}another one right now, Isuzu.	
+B04.0233	line		【伊涼】{rt}あ、あのねッ―――	【Isuzu】{rt}H-hey, listen--	
+B04.0234	line		【矢村】{rt}冗談、冗談。	【Yamura】{rt}Kidding, kidding.	
+B04.0235	line		【矢村】{rt}{name1}殿も、あまり気張らず、	【Yamura】{rt}{name1}-dono, don't push yourself{rt}too hard.	
+B04.0236	line		【矢村】{rt}今日のところは{rt}ゆっくりお休み下さい。	【Yamura】{rt}Please rest well for today.	
+B04.0237	line		【矢村】{rt}{name1}殿のお力が万全で{rt}あれば、	【Yamura】{rt}As long as your strength is whole,{rt}{name1}-dono,	
+B04.0238	line		【矢村】{rt}自分たちはきっと《邪氣》を{rt}封じる事ができる…。	【Yamura】{rt}I'm sure we can seal the Miasma...	
+B04.0239	line		【矢村】{rt}そう信じています。	【Yamura】{rt}That is what I believe.	
+B04.0240	line		【伊涼】{rt}そうだね。	【Isuzu】{rt}Yeah.	
+B04.0241	line		【伊涼】{rt}これから、よろしくね。	【Isuzu】{rt}Let's keep at it from here on, okay?	
+B04.0242	line		【伊涼】{rt}{name2}ちゃん。	【Isuzu】{rt}{name2}-chan.	
+B04.0243	line		【焔羅の声】{rt}ついに―――	【Enra's Voice】{rt}At last--	
+B04.0244	line		【焔羅】{rt}ついに、出会えたなッ。	【Enra】{rt}At last, we meet!	
+B04.0245	line		【影】{rt}―――！？	【Shadow】{rt}--?!	
+B04.0246	line		【女の声】{rt}くッ―――。	【Woman's Voice】{rt}Ngh--	
+B04.0247	line		【女の声】{rt}おのれェ、あの時の！！	【Woman's Voice】{rt}Curse you! You're the one from that{rt}time!!	
+B04.0248	line		【焔羅】{rt}覚えていたか。	【Enra】{rt}So you remember.	
+B04.0249	line		【焔羅】{rt}まあ、忘れる訳がないが。	【Enra】{rt}Well, as if you could forget.	
+B04.0250	line		【焔羅】{rt}儂も、おぬしも―――。	【Enra】{rt}Nor could I--nor could you.	
+B04.0251	line		【女の声】{rt}ここへ何をしに―――	【Woman's Voice】{rt}What have you come here to--	
+B04.0252	line		【女の声】{rt}まさか―――！？	【Woman's Voice】{rt}Don't tell me--?!	
+B04.0253	line		【焔羅】{rt}その通り。	【Enra】{rt}Exactly.	
+B04.0254	line		【焔羅】{rt}ひとつしか無かろうッ？	【Enra】{rt}What else could it be?	
+B04.0255	line		【焔羅】{rt}おぬしを外の世に現出させる{rt}ための要素が揃う前に、	【Enra】{rt}Before the pieces fall into place to{rt}bring you forth into the outer world,	
+B04.0256	line		【焔羅】{rt}おぬしの存在を消し去るッ！！	【Enra】{rt}I will wipe you from existence!!	
+B04.0257	line		【女の声】{rt}くッ―――。	【Woman's Voice】{rt}Ngh--	
+B04.0258	line		【焔羅】{rt}おぬしには悪いが、正々堂々と{rt}という訳にはいかんのでな。	【Enra】{rt}Sorry, but I can't afford to fight you{rt}fair and square.	
+B04.0259	line		【焔羅】{rt}それに、おぬしには貸しも{rt}ある。	【Enra】{rt}Besides, you owe me one.	
+B04.0260	line		【焔羅】{rt}遠慮無く、{rt}やらせてもらうぞッ！！	【Enra】{rt}I won't be holding back!!	
+B04.0261	line		【焔羅】{rt}この世と―――	【Enra】{rt}For this world--	
+B04.0262	line		【焔羅】{rt}《彼ら》の魂のためにッ！！	【Enra】{rt}and for the souls of THEM!!	
+B04.0263	line		【影】{rt}―――！！	【Shadow】{rt}--!!	

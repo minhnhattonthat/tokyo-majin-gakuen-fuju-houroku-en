@@ -1,56 +1,56 @@
 id	kind	max	jp	en	notes
-A4.7.0000	line		【陰の武道家】{rt}人を―――《討ツ》		
-A4.7.0001	line		【陰の武道家】{rt}怒りによって人を殺める。		
-A4.7.0002	line		【陰の武道家】{rt}その瞬間の《覚悟》こそが、{rt}必要なものだと私は―――		
-A4.7.0003	line		【陰の武道家】{rt}考えている。		
-A4.7.0004	line		【陰の武道家】{rt}……さて、		
-A4.7.0005	line		【陰の武道家】{rt}同じ立場に置かれた時、		
-A4.7.0006	line		【陰の武道家】{rt}君なら、{rt}どう考えるのだろうか？		
-A4.7.0007	line		【陰の武道家】{rt}……		
-A4.7.0008	line		【陰の武道家】{rt}私は少し、君を―――		
-A4.7.0009	line		【陰の武道家】{rt}買いかぶり過ぎたようだね。		
-A4.7.0010	line		【陰の武道家】{rt}残念だ。		
-A4.7.0011	line		【陰の武道家】{rt}かもしれん。		
-A4.7.0012	line		【陰の武道家】{rt}すべての出来事がそこに{rt}行き着く。		
-A4.7.0013	line		【陰の武道家】{rt}だが、忘れるな。		
-A4.7.0014	line		【陰の武道家】{rt}護るための《力》それは…		
-A4.7.0015	line		【陰の武道家】{rt}決して《愛》を得るための――		
-A4.7.0016	line		【陰の武道家】{rt}それだけの《力》ではないと。		
-A4.7.0017	line		【陰の武道家】{rt}ふ…		
-A4.7.0018	line		【陰の武道家】{rt}安心したよ。		
-A4.7.0019	line		【陰の武道家】{rt}今のその《疑問》を、		
-A4.7.0020	line		【陰の武道家】{rt}誰のものでもない{rt}君の《疑問》を、		
-A4.7.0021	line		【陰の武道家】{rt}―――大事にしなさい。		
-A4.7.0022	line		【陰の武道家】{rt}君自身へのその《問いかけ》が{rt}いつか…		
-A4.7.0023	line		【陰の武道家】{rt}いつか君を助く、{rt}糧となるだろう。		
-A4.7.0024	line		【陰の武道家】{rt}……		
-A4.7.0025	line		【陰の武道家】{rt}私は少し、君を―――		
-A4.7.0026	line		【陰の武道家】{rt}買いかぶり過ぎたようだね。		
-A4.7.0027	line		【陰の武道家】{rt}残念だ。		
-A4.7.0028	line		【陰の武道家】{rt}そうか…		
-A4.7.0029	line		【陰の武道家】{rt}《友》を《想う心》か。		
-A4.7.0030	line		【陰の武道家】{rt}……		
-A4.7.0031	line		【陰の武道家】{rt}そうだな。		
-A4.7.0032	line		【陰の武道家】{rt}それでいい。		
-A4.7.0033	line		【陰の武道家】{rt}《友》の為に―――誰かの為に		
-A4.7.0034	line		【陰の武道家】{rt}それでいい。		
-A4.7.0035	line		【陰の武道家】{rt}そうか。		
-A4.7.0036	line		【陰の武道家】{rt}そうか、君も…か。		
-A4.7.0037	line		【陰の武道家】{rt}……		
-A4.7.0038	line		【陰の武道家】{rt}《大切なモノ》を{rt}護りたいという、		
-A4.7.0039	line		【陰の武道家】{rt}その…《気持ち》。		
-A4.7.0040	line		【陰の武道家】{rt}今はそれこそを大事にな。		
-A4.7.0041	line		【陰の武道家】{rt}まずは自らを責めるか。		
-A4.7.0042	line		【陰の武道家】{rt}悩むのはいい。		
-A4.7.0043	line		【陰の武道家】{rt}だが！		
-A4.7.0044	line		【陰の武道家】{rt}それだけでは道は開けない。		
-A4.7.0045	line		【陰の武道家】{rt}そうだ、《考える事》、		
-A4.7.0046	line		【陰の武道家】{rt}そして《行動する事》、		
-A4.7.0047	line		【陰の武道家】{rt}…だ。		
-A4.7.0048	line		【陰の武道家】{rt}……		
-A4.7.0049	line		【陰の武道家】{rt}私は少し、君を―――		
-A4.7.0050	line		【陰の武道家】{rt}買いかぶり過ぎたようだね。		
-A4.7.0051	line		【陰の武道家】{rt}残念だ。		
-A4.7.0052	line		【陰の武道家】{rt}……		
-A4.7.0053	line		【陰の武道家】{rt}今の君にはその事を考える{rt}ゆとりなど無さそうだね。		
-A4.7.0054	line		【陰の武道家】{rt}ゆっくりと休みなさい。		
+A4.7.0000	line		【陰の武道家】{rt}人を―――《討ツ》	【Martial Artist of Shadow】{rt}To SLAY a person--	
+A4.7.0001	line		【陰の武道家】{rt}怒りによって人を殺める。	【Martial Artist of Shadow】{rt}To take a life in anger.	
+A4.7.0002	line		【陰の武道家】{rt}その瞬間の《覚悟》こそが、{rt}必要なものだと私は―――	【Martial Artist of Shadow】{rt}The Resolve of that very moment is{rt}what is needed, or so I--	
+A4.7.0003	line		【陰の武道家】{rt}考えている。	【Martial Artist of Shadow】{rt}believe.	
+A4.7.0004	line		【陰の武道家】{rt}……さて、	【Martial Artist of Shadow】{rt}......Now then,	
+A4.7.0005	line		【陰の武道家】{rt}同じ立場に置かれた時、	【Martial Artist of Shadow】{rt}placed in the same position,	
+A4.7.0006	line		【陰の武道家】{rt}君なら、{rt}どう考えるのだろうか？	【Martial Artist of Shadow】{rt}what would you think?	
+A4.7.0007	line		【陰の武道家】{rt}……	【Martial Artist of Shadow】{rt}......	
+A4.7.0008	line		【陰の武道家】{rt}私は少し、君を―――	【Martial Artist of Shadow】{rt}It seems I somewhat--	
+A4.7.0009	line		【陰の武道家】{rt}買いかぶり過ぎたようだね。	【Martial Artist of Shadow】{rt}overestimated you.	
+A4.7.0010	line		【陰の武道家】{rt}残念だ。	【Martial Artist of Shadow】{rt}A pity.	
+A4.7.0011	line		【陰の武道家】{rt}かもしれん。	【Martial Artist of Shadow】{rt}Perhaps.	
+A4.7.0012	line		【陰の武道家】{rt}すべての出来事がそこに{rt}行き着く。	【Martial Artist of Shadow】{rt}Every event leads there in the end.	
+A4.7.0013	line		【陰の武道家】{rt}だが、忘れるな。	【Martial Artist of Shadow】{rt}But do not forget.	
+A4.7.0014	line		【陰の武道家】{rt}護るための《力》それは…	【Martial Artist of Shadow】{rt}The Power to protect is...	
+A4.7.0015	line		【陰の武道家】{rt}決して《愛》を得るための――	【Martial Artist of Shadow】{rt}never merely Power--	
+A4.7.0016	line		【陰の武道家】{rt}それだけの《力》ではないと。	【Martial Artist of Shadow】{rt}for the sake of gaining Love.	
+A4.7.0017	line		【陰の武道家】{rt}ふ…	【Martial Artist of Shadow】{rt}Heh...	
+A4.7.0018	line		【陰の武道家】{rt}安心したよ。	【Martial Artist of Shadow】{rt}I'm relieved.	
+A4.7.0019	line		【陰の武道家】{rt}今のその《疑問》を、	【Martial Artist of Shadow】{rt}That Question you hold now,	
+A4.7.0020	line		【陰の武道家】{rt}誰のものでもない{rt}君の《疑問》を、	【Martial Artist of Shadow】{rt}a Question that belongs to no one but{rt}you--	
+A4.7.0021	line		【陰の武道家】{rt}―――大事にしなさい。	【Martial Artist of Shadow】{rt}--treasure it.	
+A4.7.0022	line		【陰の武道家】{rt}君自身へのその《問いかけ》が{rt}いつか…	【Martial Artist of Shadow】{rt}That Questioning of yourself will{rt}someday...	
+A4.7.0023	line		【陰の武道家】{rt}いつか君を助く、{rt}糧となるだろう。	【Martial Artist of Shadow】{rt}someday be the nourishment that{rt}saves you.	
+A4.7.0024	line		【陰の武道家】{rt}……	【Martial Artist of Shadow】{rt}......	
+A4.7.0025	line		【陰の武道家】{rt}私は少し、君を―――	【Martial Artist of Shadow】{rt}It seems I somewhat--	
+A4.7.0026	line		【陰の武道家】{rt}買いかぶり過ぎたようだね。	【Martial Artist of Shadow】{rt}overestimated you.	
+A4.7.0027	line		【陰の武道家】{rt}残念だ。	【Martial Artist of Shadow】{rt}A pity.	
+A4.7.0028	line		【陰の武道家】{rt}そうか…	【Martial Artist of Shadow】{rt}I see...	
+A4.7.0029	line		【陰の武道家】{rt}《友》を《想う心》か。	【Martial Artist of Shadow】{rt}A Heart that thinks of its Friends,{rt}then.	
+A4.7.0030	line		【陰の武道家】{rt}……	【Martial Artist of Shadow】{rt}......	
+A4.7.0031	line		【陰の武道家】{rt}そうだな。	【Martial Artist of Shadow】{rt}Indeed.	
+A4.7.0032	line		【陰の武道家】{rt}それでいい。	【Martial Artist of Shadow】{rt}That is enough.	
+A4.7.0033	line		【陰の武道家】{rt}《友》の為に―――誰かの為に	【Martial Artist of Shadow】{rt}For your Friends--for someone else's{rt}sake	
+A4.7.0034	line		【陰の武道家】{rt}それでいい。	【Martial Artist of Shadow】{rt}That is enough.	
+A4.7.0035	line		【陰の武道家】{rt}そうか。	【Martial Artist of Shadow】{rt}I see.	
+A4.7.0036	line		【陰の武道家】{rt}そうか、君も…か。	【Martial Artist of Shadow】{rt}I see, so you too...	
+A4.7.0037	line		【陰の武道家】{rt}……	【Martial Artist of Shadow】{rt}......	
+A4.7.0038	line		【陰の武道家】{rt}《大切なモノ》を{rt}護りたいという、	【Martial Artist of Shadow】{rt}The wish to protect what is Precious to{rt}you,	
+A4.7.0039	line		【陰の武道家】{rt}その…《気持ち》。	【Martial Artist of Shadow】{rt}that... Feeling.	
+A4.7.0040	line		【陰の武道家】{rt}今はそれこそを大事にな。	【Martial Artist of Shadow】{rt}For now, treasure that above all.	
+A4.7.0041	line		【陰の武道家】{rt}まずは自らを責めるか。	【Martial Artist of Shadow】{rt}So you blame yourself first.	
+A4.7.0042	line		【陰の武道家】{rt}悩むのはいい。	【Martial Artist of Shadow】{rt}It is fine to be troubled.	
+A4.7.0043	line		【陰の武道家】{rt}だが！	【Martial Artist of Shadow】{rt}But!	
+A4.7.0044	line		【陰の武道家】{rt}それだけでは道は開けない。	【Martial Artist of Shadow】{rt}That alone will not open the way.	
+A4.7.0045	line		【陰の武道家】{rt}そうだ、《考える事》、	【Martial Artist of Shadow】{rt}Yes: Thinking,	
+A4.7.0046	line		【陰の武道家】{rt}そして《行動する事》、	【Martial Artist of Shadow】{rt}and Acting.	
+A4.7.0047	line		【陰の武道家】{rt}…だ。	【Martial Artist of Shadow】{rt}...That is all.	
+A4.7.0048	line		【陰の武道家】{rt}……	【Martial Artist of Shadow】{rt}......	
+A4.7.0049	line		【陰の武道家】{rt}私は少し、君を―――	【Martial Artist of Shadow】{rt}It seems I somewhat--	
+A4.7.0050	line		【陰の武道家】{rt}買いかぶり過ぎたようだね。	【Martial Artist of Shadow】{rt}overestimated you.	
+A4.7.0051	line		【陰の武道家】{rt}残念だ。	【Martial Artist of Shadow】{rt}A pity.	
+A4.7.0052	line		【陰の武道家】{rt}……	【Martial Artist of Shadow】{rt}......	
+A4.7.0053	line		【陰の武道家】{rt}今の君にはその事を考える{rt}ゆとりなど無さそうだね。	【Martial Artist of Shadow】{rt}It seems you have no room to think{rt}about such things right now.	
+A4.7.0054	line		【陰の武道家】{rt}ゆっくりと休みなさい。	【Martial Artist of Shadow】{rt}Rest well.	

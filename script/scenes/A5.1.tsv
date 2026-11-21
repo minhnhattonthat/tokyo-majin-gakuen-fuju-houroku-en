@@ -1,36 +1,36 @@
 id	kind	max	jp	en	notes
-A5.1.0000	line		【騎士】{rt}「目の前で、窮地に陥っている{rt}　二人がいる。		
-A5.1.0001	line		【騎士】{rt}　一人は、{rt}　血を分けた只一人の弟。		
-A5.1.0002	line		【騎士】{rt}　もう一人は、{rt}　将来を誓った恋人。		
-A5.1.0003	line		【騎士】{rt}　どちらか片方しか{rt}　助けられない。		
-A5.1.0004	line		【騎士】{rt}　そんな時、お前は{rt}　どちらを救う？」		
-A5.1.0005	line		【騎士】{rt}―――って、とある人に{rt}質問をされたんですが…		
-A5.1.0006	line		【騎士】{rt}僕には、{rt}答えられませんでした。		
-A5.1.0007	line		【騎士】{rt}だって、どちらも自分にとって{rt}かけがえのない人ですよね。		
-A5.1.0008	line		【騎士】{rt}どちらかなんて、選べま{rt}せんよ。		
-A5.1.0009	line		【騎士】{rt}例え、片方が知らない人間でも		
-A5.1.0010	line		【騎士】{rt}見殺しになんて、{rt}僕にはできない。		
-A5.1.0011	line		【騎士】{rt}例え、自分を犠牲にしても！		
-A5.1.0012	line		【騎士】{rt}…それが普通だと思うんですが		
-A5.1.0013	line		【騎士】{rt}あなたはどう思いますか？		
-A5.1.0014	line		【騎士】{rt}答えられ…ませんよね。		
-A5.1.0015	line		【騎士】{rt}とても難しい質問ですから。		
-A5.1.0016	line		【騎士】{rt}……。		
-A5.1.0017	line		【騎士】{rt}ハハ、ちょっとテレますね、		
-A5.1.0018	line		【騎士】{rt}そんな風に言って頂けると。		
-A5.1.0019	line		【騎士】{rt}でも、僕は当然のことだと{rt}思ってますから！		
-A5.1.0020	line		【騎士】{rt}答えられ…ませんよね。		
-A5.1.0021	line		【騎士】{rt}とても難しい質問ですから。		
-A5.1.0022	line		【騎士】{rt}……。		
-A5.1.0023	line		【騎士】{rt}ハハ、ちょっとテレますね、		
-A5.1.0024	line		【騎士】{rt}そんな風に言って頂けると。		
-A5.1.0025	line		【騎士】{rt}でも、僕は当然のことだと{rt}思ってますから！		
-A5.1.0026	line		【騎士】{rt}そうですよね！		
-A5.1.0027	line		【騎士】{rt}僕も、それが当たり前だと{rt}思ってます！		
-A5.1.0028	line		【騎士】{rt}そうですよね！		
-A5.1.0029	line		【騎士】{rt}僕も、それが当たり前だと{rt}思ってます！		
-A5.1.0030	line		【騎士】{rt}どうしてそんな顔するん{rt}ですか？		
-A5.1.0031	line		【騎士】{rt}あ…もしかして、僕が{rt}自分を犠牲にしてでも、って		
+A5.1.0000	line		【騎士】{rt}「目の前で、窮地に陥っている{rt}　二人がいる。	【Knight】{rt}"Before your eyes are two people in{rt}dire straits.	
+A5.1.0001	line		【騎士】{rt}　一人は、{rt}　血を分けた只一人の弟。	【Knight】{rt}One is your only brother, your own{rt}flesh and blood.	
+A5.1.0002	line		【騎士】{rt}　もう一人は、{rt}　将来を誓った恋人。	【Knight】{rt}The other is the love you've sworn{rt}your future to.	
+A5.1.0003	line		【騎士】{rt}　どちらか片方しか{rt}　助けられない。	【Knight】{rt}You can save only one of them.	
+A5.1.0004	line		【騎士】{rt}　そんな時、お前は{rt}　どちらを救う？」	【Knight】{rt}At a time like that, which would you{rt}save?"	
+A5.1.0005	line		【騎士】{rt}―――って、とある人に{rt}質問をされたんですが…	【Knight】{rt}--That's what someone asked me,{rt}but...	
+A5.1.0006	line		【騎士】{rt}僕には、{rt}答えられませんでした。	【Knight】{rt}I couldn't answer.	
+A5.1.0007	line		【騎士】{rt}だって、どちらも自分にとって{rt}かけがえのない人ですよね。	【Knight】{rt}I mean, both of them are irreplaceable{rt}to me, right?	
+A5.1.0008	line		【騎士】{rt}どちらかなんて、選べま{rt}せんよ。	【Knight】{rt}I can't choose between them.	
+A5.1.0009	line		【騎士】{rt}例え、片方が知らない人間でも	【Knight】{rt}Even if one of them were a{rt}stranger,	
+A5.1.0010	line		【騎士】{rt}見殺しになんて、{rt}僕にはできない。	【Knight】{rt}I could never just let them die.	
+A5.1.0011	line		【騎士】{rt}例え、自分を犠牲にしても！	【Knight】{rt}Even if I had to sacrifice myself!	
+A5.1.0012	line		【騎士】{rt}…それが普通だと思うんですが	【Knight】{rt}...I think that's only normal, but	
+A5.1.0013	line		【騎士】{rt}あなたはどう思いますか？	【Knight】{rt}what do you think?	
+A5.1.0014	line		【騎士】{rt}答えられ…ませんよね。	【Knight】{rt}You can't... answer either, can you.	
+A5.1.0015	line		【騎士】{rt}とても難しい質問ですから。	【Knight】{rt}It's a really hard question, after all.	
+A5.1.0016	line		【騎士】{rt}……。	【Knight】{rt}......	
+A5.1.0017	line		【騎士】{rt}ハハ、ちょっとテレますね、	【Knight】{rt}Ha ha, that's a little embarrassing,	
+A5.1.0018	line		【騎士】{rt}そんな風に言って頂けると。	【Knight】{rt}hearing you say that.	
+A5.1.0019	line		【騎士】{rt}でも、僕は当然のことだと{rt}思ってますから！	【Knight】{rt}But I think it's only natural!	
+A5.1.0020	line		【騎士】{rt}答えられ…ませんよね。	【Knight】{rt}You can't... answer either, can you.	
+A5.1.0021	line		【騎士】{rt}とても難しい質問ですから。	【Knight】{rt}It's a really hard question, after all.	
+A5.1.0022	line		【騎士】{rt}……。	【Knight】{rt}......	
+A5.1.0023	line		【騎士】{rt}ハハ、ちょっとテレますね、	【Knight】{rt}Ha ha, that's a little embarrassing,	
+A5.1.0024	line		【騎士】{rt}そんな風に言って頂けると。	【Knight】{rt}hearing you say that.	
+A5.1.0025	line		【騎士】{rt}でも、僕は当然のことだと{rt}思ってますから！	【Knight】{rt}But I think it's only natural!	
+A5.1.0026	line		【騎士】{rt}そうですよね！	【Knight】{rt}Right?!	
+A5.1.0027	line		【騎士】{rt}僕も、それが当たり前だと{rt}思ってます！	【Knight】{rt}I think that's only natural too!	
+A5.1.0028	line		【騎士】{rt}そうですよね！	【Knight】{rt}Right?!	
+A5.1.0029	line		【騎士】{rt}僕も、それが当たり前だと{rt}思ってます！	【Knight】{rt}I think that's only natural too!	
+A5.1.0030	line		【騎士】{rt}どうしてそんな顔するん{rt}ですか？	【Knight】{rt}Why are you making that face?	
+A5.1.0031	line		【騎士】{rt}あ…もしかして、僕が{rt}自分を犠牲にしてでも、って	【Knight】{rt}Oh... Could it be that the part about me{rt}sacrificing myself	
 A5.1.0032	line		【騎士】{rt}言ったからですか！？		
 A5.1.0033	line		【騎士】{rt}…ありがとうございます。		
 A5.1.0034	line		【騎士】{rt}あなたは、優しい方ですね…。		
@@ -38,9 +38,9 @@ A5.1.0035	line		【騎士】{rt}どうしてですか！？
 A5.1.0036	line		【騎士】{rt}人の命がかかっているのに。		
 A5.1.0037	line		【騎士】{rt}…僕は、{rt}自分の身だけを大切にする、		
 A5.1.0038	line		【騎士】{rt}そんな人間にはなりたくない。		
-A5.1.0039	line		【騎士】{rt}……。		
+A5.1.0039	line		【騎士】{rt}……。	【Knight】{rt}......	
 A5.1.0040	line		【騎士】{rt}どうして怒るんですか！？		
-A5.1.0041	line		【騎士】{rt}あ…もしかして、僕が{rt}自分を犠牲にしてでも、って		
+A5.1.0041	line		【騎士】{rt}あ…もしかして、僕が{rt}自分を犠牲にしてでも、って	【Knight】{rt}Oh... Could it be that the part about me{rt}sacrificing myself	
 A5.1.0042	line		【騎士】{rt}言ったからですか！？		
 A5.1.0043	line		【騎士】{rt}…ありがとうございます。		
 A5.1.0044	line		【騎士】{rt}あなたは、優しい方ですね…。		
