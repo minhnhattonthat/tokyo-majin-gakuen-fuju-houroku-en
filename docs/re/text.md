@@ -110,6 +110,10 @@ Argument counts are the digits shown; prove each with the marker build before th
   mode RAM dumps). The encoder keeps the strip's ink inside the cells handed out so far (<= 16 px x units).
   Font: `fonts/vwf.txt` (cap 9 px, x-height 6, shadow added like the Japanese glyphs; advance = width + 2, space 4)
   plus 【】「」『』 cropped from the game font; ~5.8 px a character, 2.6 characters a unit in running text.
+- **Glyph torture line (2026-11-22, passed):** B05.0000-0002 overridden with A-Z, a-z, digits, all ASCII
+  punctuation, …—“”‘’♪é, 【】「」『』 and single / double / triple spaces (build via `build.py --qa`, warp
+  story_05): every glyph draws, widths and spacing as encoded, no clipping (`work/qa/torture/boxes.png`,
+  `brackets.png`).
 
 ## Prior work
 - An AI-assisted English patch is listed on RetroGameTalk (thread 74417) with graphics text left in Japanese.

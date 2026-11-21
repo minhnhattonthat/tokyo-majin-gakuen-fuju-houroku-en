@@ -1528,42 +1528,42 @@ D72C98	str	27	選択した符を{rt}捨てました。
 D72CB4	str	15	現在の持ち符は		
 D72CC4	str	11	人物符総数		
 D72CD0	str	11	土地符総数		
-D72F00	str	11	ー　　　　		
-D72F0C	str	11	ぱぴぷぺぽ		
-D72F18	str	11	ゃゅょっ　		
-D72F24	str	11	ぁぃぅぇぉ		
-D72F30	str	11	ばびぶべぼ		
-D72F3C	str	11	だぢづでど		
-D72F48	str	11	ざじずぜぞ		
-D72F54	str	11	がぎぐげご		
-D72F60	str	11	わ　を　ん		
-D72F6C	str	11	らりるれろ		
-D72F78	str	11	や　ゆ　よ		
-D72F84	str	11	まみむめも		
-D72F90	str	11	はひふへほ		
-D72F9C	str	11	なにぬねの		
-D72FA8	str	11	たちつてと		
-D72FB4	str	11	さしすせそ		
-D72FC0	str	11	かきくけこ		
-D72FCC	str	11	あいうえお		
-D72FD8	str	11	パピプペポ		
-D72FE4	str	11	ャュョッヴ		
-D72FF0	str	11	ァィゥェォ		
-D72FFC	str	11	バビブベボ		
-D73008	str	11	ダヂヅデド		
-D73014	str	11	ザジズゼゾ		
-D73020	str	11	ガギグゲゴ		
-D7302C	str	11	ワ　ヲ　ン		
-D73038	str	11	ラリルレロ		
-D73044	str	11	ヤ　ユ　ヨ		
-D73050	str	11	マミムメモ		
-D7305C	str	11	ハヒフヘホ		
-D73068	str	11	ナニヌネノ		
-D73074	str	11	タチツテト		
-D73080	str	11	サシスセソ		
-D7308C	str	11	カキクケコ		
-D73098	str	11	アイウエオ		
-D730A4	str	11	わ　　　　		
+D72F00	grid	11	ー　　　　		
+D72F0C	grid	11	ぱぴぷぺぽ		
+D72F18	grid	11	ゃゅょっ　		
+D72F24	grid	11	ぁぃぅぇぉ		
+D72F30	grid	11	ばびぶべぼ		
+D72F3C	grid	11	だぢづでど		
+D72F48	grid	11	ざじずぜぞ		
+D72F54	grid	11	がぎぐげご		
+D72F60	grid	11	わ　を　ん		
+D72F6C	grid	11	らりるれろ		
+D72F78	grid	11	や　ゆ　よ		
+D72F84	grid	11	まみむめも		
+D72F90	grid	11	はひふへほ		
+D72F9C	grid	11	なにぬねの		
+D72FA8	grid	11	たちつてと		
+D72FB4	grid	11	さしすせそ		
+D72FC0	grid	11	かきくけこ		
+D72FCC	grid	11	あいうえお		
+D72FD8	grid	11	パピプペポ		
+D72FE4	grid	11	ャュョッヴ		
+D72FF0	grid	11	ァィゥェォ		
+D72FFC	grid	11	バビブベボ		
+D73008	grid	11	ダヂヅデド		
+D73014	grid	11	ザジズゼゾ		
+D73020	grid	11	ガギグゲゴ		
+D7302C	grid	11	ワ　ヲ　ン		
+D73038	grid	11	ラリルレロ		
+D73044	grid	11	ヤ　ユ　ヨ		
+D73050	grid	11	マミムメモ		
+D7305C	grid	11	ハヒフヘホ		
+D73068	grid	11	ナニヌネノ		
+D73074	grid	11	タチツテト		
+D73080	grid	11	サシスセソ		
+D7308C	grid	11	カキクケコ		
+D73098	grid	11	アイウエオ		
+D730A4	grid	11	わ　　　　		
 D7874C	str	47	この十罪は{rt}すでに入っている{rt}ので入れません		
 D7877C	str	15	入る　やめる		
 D7878C	str	51	邪見／じゃけん{rt}因果の理を無視し{rt}た考え、行いの罪		

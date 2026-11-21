@@ -58,14 +58,22 @@ No save: 始めから | 設定 (left/right). With a save: 2x2 始めから 続�
 - Hand phase: left/right step through the hand (card panel on the right), Start opens the rules-help list
   (【基本ルール】..), L shows the card large; **left then A** (A alone does nothing) opens 引きなおしますか？ (cursor on
   いいえ); A -> 先手・後手を決めます (turn-order cards) -> 勝負 banner -> enemy portrait + quote (D67B54 我らを見捨てるな)
-  -> 符咒士 緋勇龍麻 の ターン banner (printer B) -> the board. On the board no tried input moved on (left/a/up
-  cycles); the player-turn controls are still unknown. States: `work/states/nat/mode1_1.mss` (mode-1 entry),
+  -> 符咒士 緋勇龍麻 の ターン banner (printer B) -> the board. States: `work/states/nat/mode1_1.mss` (mode-1 entry),
   `work/states/battle1_select.mss` (hand phase, after 120 A presses from mode1_1).
+- The "board" after left;a;a is the turn-order pick (two rows of face-down cards, 先手・後手を決めます, then
+  同数札改め on a tie): it only needs time and a few presses. `work/states/board_turn.mss` (from battle1_select:
+  `30 -;6 left;30 -;6 a;60 -;6 a;1400 -`) is there. A random route of A / directions / B (scratch `mkroute.py`, seed 1,
+  in `work/qa/bd/rand.txt`) then plays real turns: discard prompts, spell popups, card panels, enemy quotes.
+- **Life (verified):** u16 at 0x020121C8 and 0x03003EC0 (own, 200 at start) and 0x020120C8 and 0x03003EC4 (enemy,
+  80); the HUD heart value. Player structs 0x100 apart. Poke both copies to 0 for 60 frames
+  (`--script tools/debug/poke.lua --var "POKES={[0x020121C8]=0,[0x03003EC0]=0}" --var POKE_FROM=1200 --var
+  POKE_TO=1260` from board_turn with rand.txt): defeat at ~f3000 (enemy quote, 敗北 banner, 再戦する / 終了する at
+  f3342; `work/states/defeat.mss`); the enemy pair gives victory (勝利, ブースターパック選択 pick, card reveal with
+  売買符として登録します prompt, then the story goes on to the hub; `work/qa/bd/win`). The old candidates
+  0x020041B2 etc. were wrong.
+- Deck editor: hub (mode 6) `400 -;6 down;40 -;6 a` = 符咒編集 (`work/qa/bd/deck`, mode6_1.mss there is a real-game
+  hub after the chapter-1 battle, copied to `work/states/hub_real.mss`). 新規 opens the deck-name entry 符咒名は？
+  (kana grid D72F00-D730A4, kind grid).
 
 ## Not reached yet
-- Defeat / rematch: 再戦する / 終了する menu text at 0xD65298 and the 敗北 banner (S9) need a lost battle; no
-  confirmed life variable yet. Candidates (guess): u16 200 at 0x020041B2 / 0x02004452 (own), 80 at 0x020040C0 /
-  0x02004320 (enemy), from a RAM dump of `warp.py MODE15` at frame 2600. Holding own life at 1 with
-  `tools/debug/poke.lua` and mashing A for 9000 frames ended on a black screen (work/qa/bt2): unresolved. Next: shoot
-  every 30 frames after the poke, or watch.lua on the candidates to see the HUD reader.
 - The normal path to the sound test (mode 20).
