@@ -103,3 +103,10 @@ session; translators read it before their batch.
   the truth"); his death freezes everything. Uhatsura says the scene comes from Isuzu's own depths and offers a
   deal: all the sealed Great Sin plus Isuzu's life (a "human pillar") for Yamura's and the player's release. Isuzu
   agrees; the player may hand over the talismans. Yamura (or the player) breaks the ice wall; battle.
+- B22: Uhatsura shows his true ice form; battle.
+- B23: Uhatsura explains the Great Sin is humanity's own Body, Speech and Mind grown past the laws of all creation;
+  it must return to humans as their duty, and if the trio hold it a worse calamity follows. Isuzu falls into a
+  death-sleep (choice: shake her or not); the ice melts: something not-Isuzu wakes, an Enra who is not Enra blasts
+  Uhatsura, and "Isuzu" seals him, then talks to the player as another person sworn to protect "this girl". Next
+  morning Yamura is shaken: Enra left saying he would "fulfil his role", Uhatsura seemed honest, and Yamura no
+  longer knows what to believe in to fight.
