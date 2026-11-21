@@ -1,74 +1,74 @@
 id	kind	max	jp	en	notes
-A11.4.0000	line		【陰の武道家】{rt}私は《嘘》が苦手でね。		
-A11.4.0001	line		【陰の武道家】{rt}…どうも、合わない。		
-A11.4.0002	line		【陰の武道家】{rt}君は？		
-A11.4.0003	line		【陰の武道家】{rt}人を欺くか…		
-A11.4.0004	line		【陰の武道家】{rt}そうだな、君は―――		
-A11.4.0005	line		【陰の武道家】{rt}それ以前の問題かも{rt}知れないな。		
-A11.4.0006	line		【陰の武道家】{rt}フフッ…		
-A11.4.0007	line		【陰の武道家】{rt}そうか、君も苦手か。		
+A11.4.0000	line		【陰の武道家】{rt}私は《嘘》が苦手でね。	【Martial Artist of Shadow】{rt}I'm not good with lies.	
+A11.4.0001	line		【陰の武道家】{rt}…どうも、合わない。	【Martial Artist of Shadow】{rt}...They just don't suit me.	
+A11.4.0002	line		【陰の武道家】{rt}君は？	【Martial Artist of Shadow】{rt}And you?	
+A11.4.0003	line		【陰の武道家】{rt}人を欺くか…	【Martial Artist of Shadow】{rt}Deceiving people...	
+A11.4.0004	line		【陰の武道家】{rt}そうだな、君は―――	【Martial Artist of Shadow】{rt}Yes, for you--	
+A11.4.0005	line		【陰の武道家】{rt}それ以前の問題かも{rt}知れないな。	【Martial Artist of Shadow】{rt}perhaps it's not even a question.	
+A11.4.0006	line		【陰の武道家】{rt}フフッ…	【Martial Artist of Shadow】{rt}Heh...	
+A11.4.0007	line		【陰の武道家】{rt}そうか、君も苦手か。	【Martial Artist of Shadow】{rt}I see, you're not good with them{rt}either.	
 A11.4.0008	line		【陰の武道家】{rt}そうだな。	【Martial Artist of Shadow】{rt}Indeed.	
-A11.4.0009	line		【陰の武道家】{rt}嘘が苦手―――		
-A11.4.0010	line		【陰の武道家】{rt}それでいいのかも知れないな。		
-A11.4.0011	line		【陰の武道家】{rt}私たちは幸いだ。		
-A11.4.0012	line		【陰の武道家】{rt}なぜなら、人を騙す必要が{rt}ない。		
-A11.4.0013	line		【陰の武道家】{rt}気に入らない奴、がいれば…		
-A11.4.0014	line		【陰の武道家】{rt}フフッ、そうだ。コイツに…		
-A11.4.0015	line		【陰の武道家】{rt}《拳》にモノを言わせる{rt}だけだ。		
-A11.4.0016	line		【陰の武道家】{rt}乱暴かな？		
-A11.4.0017	line		【陰の武道家】{rt}いや、しかし…		
-A11.4.0018	line		【陰の武道家】{rt}自分を信じられなくては、{rt}人の上には立てないよ。		
-A11.4.0019	line		【陰の武道家】{rt}君も…		
-A11.4.0020	line		【陰の武道家】{rt}早く、来たまえ。		
-A11.4.0021	line		【陰の武道家】{rt}ココに…な。		
-A11.4.0022	line		【陰の武道家】{rt}苦手ではない…か？		
-A11.4.0023	line		【陰の武道家】{rt}フフッ、とても{rt}そうは見えないな。		
-A11.4.0024	line		【陰の武道家】{rt}嘘をつくには、{rt}正直過ぎる答えだ。		
-A11.4.0025	line		【陰の武道家】{rt}それでは人は騙せまい。		
-A11.4.0026	line		【陰の武道家】{rt}…が、それを{rt}気にする事もない…か。		
-A11.4.0027	line		【陰の武道家】{rt}君はたくさんの、{rt}心許せる仲間に囲まれて、		
-A11.4.0028	line		【陰の武道家】{rt}いるのだからね。		
-A11.4.0029	line		【陰の武道家】{rt}ははは！		
-A11.4.0030	line		【陰の武道家】{rt}余裕だね。		
-A11.4.0031	line		【陰の武道家】{rt}嘘をつけなくても。		
-A11.4.0032	line		【陰の武道家】{rt}自分に恥じる所はない…か？		
-A11.4.0033	line		【陰の武道家】{rt}たしかに{rt}君一人なら、そうだろう。		
-A11.4.0034	line		【陰の武道家】{rt}だが、仲間の為だったら？		
-A11.4.0035	line		【陰の武道家】{rt}誰か、弱く善良な人の為{rt}だったら？		
+A11.4.0009	line		【陰の武道家】{rt}嘘が苦手―――	【Martial Artist of Shadow】{rt}Not good with lies--	
+A11.4.0010	line		【陰の武道家】{rt}それでいいのかも知れないな。	【Martial Artist of Shadow】{rt}maybe that's for the best.	
+A11.4.0011	line		【陰の武道家】{rt}私たちは幸いだ。	【Martial Artist of Shadow】{rt}We're fortunate.	
+A11.4.0012	line		【陰の武道家】{rt}なぜなら、人を騙す必要が{rt}ない。	【Martial Artist of Shadow】{rt}Because we have no need to deceive{rt}anyone.	
+A11.4.0013	line		【陰の武道家】{rt}気に入らない奴、がいれば…	【Martial Artist of Shadow】{rt}If there's someone we don't like...	
+A11.4.0014	line		【陰の武道家】{rt}フフッ、そうだ。コイツに…	【Martial Artist of Shadow】{rt}Heh, that's right. We just let this...	
+A11.4.0015	line		【陰の武道家】{rt}《拳》にモノを言わせる{rt}だけだ。	【Martial Artist of Shadow】{rt}let the Fist do the talking.	
+A11.4.0016	line		【陰の武道家】{rt}乱暴かな？	【Martial Artist of Shadow】{rt}Too violent?	
+A11.4.0017	line		【陰の武道家】{rt}いや、しかし…	【Martial Artist of Shadow】{rt}No, but...	
+A11.4.0018	line		【陰の武道家】{rt}自分を信じられなくては、{rt}人の上には立てないよ。	【Martial Artist of Shadow】{rt}if you can't believe in yourself, you{rt}can't stand above others.	
+A11.4.0019	line		【陰の武道家】{rt}君も…	【Martial Artist of Shadow】{rt}You too...	
+A11.4.0020	line		【陰の武道家】{rt}早く、来たまえ。	【Martial Artist of Shadow】{rt}come quickly, now.	
+A11.4.0021	line		【陰の武道家】{rt}ココに…な。	【Martial Artist of Shadow】{rt}Up here... to where I am.	
+A11.4.0022	line		【陰の武道家】{rt}苦手ではない…か？	【Martial Artist of Shadow】{rt}You're not bad at it... you say?	
+A11.4.0023	line		【陰の武道家】{rt}フフッ、とても{rt}そうは見えないな。	【Martial Artist of Shadow】{rt}Heh, you hardly look it.	
+A11.4.0024	line		【陰の武道家】{rt}嘘をつくには、{rt}正直過ぎる答えだ。	【Martial Artist of Shadow】{rt}That answer is far too honest for a{rt}liar.	
+A11.4.0025	line		【陰の武道家】{rt}それでは人は騙せまい。	【Martial Artist of Shadow】{rt}You'd never fool anyone like that.	
+A11.4.0026	line		【陰の武道家】{rt}…が、それを{rt}気にする事もない…か。	【Martial Artist of Shadow】{rt}...But then, there's no need to worry{rt}about it... perhaps.	
+A11.4.0027	line		【陰の武道家】{rt}君はたくさんの、{rt}心許せる仲間に囲まれて、	【Martial Artist of Shadow】{rt}After all, you're surrounded by	
+A11.4.0028	line		【陰の武道家】{rt}いるのだからね。	【Martial Artist of Shadow】{rt}so many friends you can trust.	
+A11.4.0029	line		【陰の武道家】{rt}ははは！	【Martial Artist of Shadow】{rt}Hahaha!	
+A11.4.0030	line		【陰の武道家】{rt}余裕だね。	【Martial Artist of Shadow】{rt}So composed.	
+A11.4.0031	line		【陰の武道家】{rt}嘘をつけなくても。	【Martial Artist of Shadow】{rt}Even if you can't lie.	
+A11.4.0032	line		【陰の武道家】{rt}自分に恥じる所はない…か？	【Martial Artist of Shadow】{rt}You have nothing to be ashamed of... is{rt}that it?	
+A11.4.0033	line		【陰の武道家】{rt}たしかに{rt}君一人なら、そうだろう。	【Martial Artist of Shadow】{rt}Certainly, if it's only you.	
+A11.4.0034	line		【陰の武道家】{rt}だが、仲間の為だったら？	【Martial Artist of Shadow】{rt}But what about for your friends'{rt}sake?	
+A11.4.0035	line		【陰の武道家】{rt}誰か、弱く善良な人の為{rt}だったら？	【Martial Artist of Shadow】{rt}For the sake of someone weak and{rt}good?	
 A11.4.0036	line		【陰の武道家】{rt}……	【Martial Artist of Shadow】{rt}......	
-A11.4.0037	line		【陰の武道家】{rt}考えたまえ。		
-A11.4.0038	line		【陰の武道家】{rt}常にそこに答えがある。		
-A11.4.0039	line		【陰の武道家】{rt}フフッ…		
-A11.4.0040	line		【陰の武道家】{rt}そうか、君も苦手か。		
+A11.4.0037	line		【陰の武道家】{rt}考えたまえ。	【Martial Artist of Shadow】{rt}Think about it.	
+A11.4.0038	line		【陰の武道家】{rt}常にそこに答えがある。	【Martial Artist of Shadow】{rt}The answer always lies there.	
+A11.4.0039	line		【陰の武道家】{rt}フフッ…	【Martial Artist of Shadow】{rt}Heh...	
+A11.4.0040	line		【陰の武道家】{rt}そうか、君も苦手か。	【Martial Artist of Shadow】{rt}I see, you're not good with them{rt}either.	
 A11.4.0041	line		【陰の武道家】{rt}そうだな。	【Martial Artist of Shadow】{rt}Indeed.	
-A11.4.0042	line		【陰の武道家】{rt}嘘が苦手―――		
-A11.4.0043	line		【陰の武道家】{rt}それでいいのかも知れないな。		
-A11.4.0044	line		【陰の武道家】{rt}私たちは幸いだ。		
-A11.4.0045	line		【陰の武道家】{rt}なぜなら、人を{rt}騙す必要がない。		
-A11.4.0046	line		【陰の武道家】{rt}気に入らない奴、がいれば…		
-A11.4.0047	line		【陰の武道家】{rt}フフッ、そうだ。コイツに…		
-A11.4.0048	line		【陰の武道家】{rt}《拳》にモノを{rt}言わせるだけだ。		
-A11.4.0049	line		【陰の武道家】{rt}乱暴かな？		
-A11.4.0050	line		【陰の武道家】{rt}いや、しかし…		
-A11.4.0051	line		【陰の武道家】{rt}自分を信じられなくては、{rt}人の上には立てないよ。		
-A11.4.0052	line		【陰の武道家】{rt}君も…		
-A11.4.0053	line		【陰の武道家】{rt}早く、来たまえ。		
-A11.4.0054	line		【陰の武道家】{rt}ココに…な。		
-A11.4.0055	line		【陰の武道家】{rt}苦手か…		
-A11.4.0056	line		【陰の武道家】{rt}苦手で良いと思うかね？		
-A11.4.0057	line		【陰の武道家】{rt}それとも悪いと思うかね？		
-A11.4.0058	line		【陰の武道家】{rt}さて、それを考えるのも―――		
-A11.4.0059	line		【陰の武道家】{rt}良くはないかね？		
-A11.4.0060	line		【陰の武道家】{rt}《嘘》が		
-A11.4.0061	line		【陰の武道家】{rt}苦手ってのが哀れかね？		
-A11.4.0062	line		【陰の武道家】{rt}さて、私としては{rt}それほど深くは、		
-A11.4.0063	line		【陰の武道家】{rt}考えていないがね。		
-A11.4.0064	line		【陰の武道家】{rt}う～ん。		
-A11.4.0065	line		【陰の武道家】{rt}《嘘》が苦手ってのは、{rt}問題かね？		
-A11.4.0066	line		【陰の武道家】{rt}私としては、あくまで―――{rt}《苦手》というだけで、		
-A11.4.0067	line		【陰の武道家】{rt}出来ないとは言ってないがな。		
-A11.4.0068	line		【陰の武道家】{rt}おいおい、		
-A11.4.0069	line		【陰の武道家】{rt}怒る事もないだろう？		
-A11.4.0070	line		【陰の武道家】{rt}君はこういう会話の前に、		
-A11.4.0071	line		【陰の武道家】{rt}少し、情緒を安定{rt}させた方が―――		
-A11.4.0072	line		【陰の武道家】{rt}いいね。		
+A11.4.0042	line		【陰の武道家】{rt}嘘が苦手―――	【Martial Artist of Shadow】{rt}Not good with lies--	
+A11.4.0043	line		【陰の武道家】{rt}それでいいのかも知れないな。	【Martial Artist of Shadow】{rt}maybe that's for the best.	
+A11.4.0044	line		【陰の武道家】{rt}私たちは幸いだ。	【Martial Artist of Shadow】{rt}We're fortunate.	
+A11.4.0045	line		【陰の武道家】{rt}なぜなら、人を{rt}騙す必要がない。	【Martial Artist of Shadow】{rt}Because we have no need to deceive{rt}anyone.	
+A11.4.0046	line		【陰の武道家】{rt}気に入らない奴、がいれば…	【Martial Artist of Shadow】{rt}If there's someone we don't like...	
+A11.4.0047	line		【陰の武道家】{rt}フフッ、そうだ。コイツに…	【Martial Artist of Shadow】{rt}Heh, that's right. We just let this...	
+A11.4.0048	line		【陰の武道家】{rt}《拳》にモノを{rt}言わせるだけだ。	【Martial Artist of Shadow】{rt}We just let the Fist do the talking.	
+A11.4.0049	line		【陰の武道家】{rt}乱暴かな？	【Martial Artist of Shadow】{rt}Too violent?	
+A11.4.0050	line		【陰の武道家】{rt}いや、しかし…	【Martial Artist of Shadow】{rt}No, but...	
+A11.4.0051	line		【陰の武道家】{rt}自分を信じられなくては、{rt}人の上には立てないよ。	【Martial Artist of Shadow】{rt}if you can't believe in yourself, you{rt}can't stand above others.	
+A11.4.0052	line		【陰の武道家】{rt}君も…	【Martial Artist of Shadow】{rt}You too...	
+A11.4.0053	line		【陰の武道家】{rt}早く、来たまえ。	【Martial Artist of Shadow】{rt}come quickly, now.	
+A11.4.0054	line		【陰の武道家】{rt}ココに…な。	【Martial Artist of Shadow】{rt}Up here... to where I am.	
+A11.4.0055	line		【陰の武道家】{rt}苦手か…	【Martial Artist of Shadow】{rt}Not good with them...	
+A11.4.0056	line		【陰の武道家】{rt}苦手で良いと思うかね？	【Martial Artist of Shadow】{rt}Do you think that's a good thing?	
+A11.4.0057	line		【陰の武道家】{rt}それとも悪いと思うかね？	【Martial Artist of Shadow】{rt}Or a bad thing?	
+A11.4.0058	line		【陰の武道家】{rt}さて、それを考えるのも―――	【Martial Artist of Shadow】{rt}Well, thinking about that--	
+A11.4.0059	line		【陰の武道家】{rt}良くはないかね？	【Martial Artist of Shadow】{rt}isn't so bad either, is it?	
+A11.4.0060	line		【陰の武道家】{rt}《嘘》が	【Martial Artist of Shadow】{rt}Being bad with Lies,	
+A11.4.0061	line		【陰の武道家】{rt}苦手ってのが哀れかね？	【Martial Artist of Shadow】{rt}is that pitiful, you think?	
+A11.4.0062	line		【陰の武道家】{rt}さて、私としては{rt}それほど深くは、	【Martial Artist of Shadow】{rt}Well, I personally haven't	
+A11.4.0063	line		【陰の武道家】{rt}考えていないがね。	【Martial Artist of Shadow】{rt}thought about it all that deeply.	
+A11.4.0064	line		【陰の武道家】{rt}う～ん。	【Martial Artist of Shadow】{rt}Hmmm.	
+A11.4.0065	line		【陰の武道家】{rt}《嘘》が苦手ってのは、{rt}問題かね？	【Martial Artist of Shadow】{rt}Is being bad with Lies a problem?	
+A11.4.0066	line		【陰の武道家】{rt}私としては、あくまで―――{rt}《苦手》というだけで、	【Martial Artist of Shadow】{rt}As far as I'm concerned, I'm{rt}merely--"not good" with them,	
+A11.4.0067	line		【陰の武道家】{rt}出来ないとは言ってないがな。	【Martial Artist of Shadow】{rt}I never said I couldn't tell them.	
+A11.4.0068	line		【陰の武道家】{rt}おいおい、	【Martial Artist of Shadow】{rt}Come now,	
+A11.4.0069	line		【陰の武道家】{rt}怒る事もないだろう？	【Martial Artist of Shadow】{rt}no need to get angry, is there?	
+A11.4.0070	line		【陰の武道家】{rt}君はこういう会話の前に、	【Martial Artist of Shadow】{rt}Before a conversation like this,	
+A11.4.0071	line		【陰の武道家】{rt}少し、情緒を安定{rt}させた方が―――	【Martial Artist of Shadow】{rt}you'd do well to steady your{rt}emotions--	
+A11.4.0072	line		【陰の武道家】{rt}いいね。	【Martial Artist of Shadow】{rt}a little.	

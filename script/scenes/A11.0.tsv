@@ -1,39 +1,39 @@
 id	kind	max	jp	en	notes
-A11.0.0000	line		【猛き巫女】{rt}う～ん、通っているオレが{rt}言うのも何なんだけどさ。		
-A11.0.0001	line		【猛き巫女】{rt}ウチの学校、「お嬢様学校」{rt}なんて言われるだけあって、		
-A11.0.0002	line		【猛き巫女】{rt}ムチャクチャ校則{rt}厳しいんだ。		
-A11.0.0003	line		【猛き巫女】{rt}例えば…家へ帰る途中で		
-A11.0.0004	line		【猛き巫女】{rt}ゲーセンに寄った{rt}なんて知れたら、		
-A11.0.0005	line		【猛き巫女】{rt}原稿用紙２枚分の反省文に、		
-A11.0.0006	line		【猛き巫女】{rt}一週間の奉仕活動だぜ！？		
-A11.0.0007	line		【猛き巫女】{rt}しかも、同級生には{rt}不良扱いされる始末だしよ。		
-A11.0.0008	line		【猛き巫女】{rt}ホント、堅ッ苦しいったら{rt}ありゃしないぜ！		
-A11.0.0009	line		【猛き巫女】{rt}…おい、お前聞いてるのか？		
-A11.0.0010	line		【猛き巫女】{rt}ッたく、ムカつく野郎だぜッ。		
-A11.0.0011	line		【猛き巫女】{rt}なッ…何だよいきなり！？		
-A11.0.0012	line		【猛き巫女】{rt}…変な奴だなッ。		
+A11.0.0000	line		【猛き巫女】{rt}う～ん、通っているオレが{rt}言うのも何なんだけどさ。	【Fierce Shrine Maiden】{rt}Hmm, I go there, so I'm one to talk,{rt}but,	
+A11.0.0001	line		【猛き巫女】{rt}ウチの学校、「お嬢様学校」{rt}なんて言われるだけあって、	【Fierce Shrine Maiden】{rt}my school, being what they call a{rt}"school for proper young ladies,"	
+A11.0.0002	line		【猛き巫女】{rt}ムチャクチャ校則{rt}厳しいんだ。	【Fierce Shrine Maiden】{rt}has rules that are crazy strict.	
+A11.0.0003	line		【猛き巫女】{rt}例えば…家へ帰る途中で	【Fierce Shrine Maiden】{rt}Like... if they found out you stopped	
+A11.0.0004	line		【猛き巫女】{rt}ゲーセンに寄った{rt}なんて知れたら、	【Fierce Shrine Maiden】{rt}at the arcade on the way home,	
+A11.0.0005	line		【猛き巫女】{rt}原稿用紙２枚分の反省文に、	【Fierce Shrine Maiden】{rt}it's a two-page written apology	
+A11.0.0006	line		【猛き巫女】{rt}一週間の奉仕活動だぜ！？	【Fierce Shrine Maiden】{rt}and a week of community service!?	
+A11.0.0007	line		【猛き巫女】{rt}しかも、同級生には{rt}不良扱いされる始末だしよ。	【Fierce Shrine Maiden】{rt}And on top of that, my classmates{rt}treat me like a delinquent.	
+A11.0.0008	line		【猛き巫女】{rt}ホント、堅ッ苦しいったら{rt}ありゃしないぜ！	【Fierce Shrine Maiden】{rt}Seriously, it's so stuffy I can't stand{rt}it!	
+A11.0.0009	line		【猛き巫女】{rt}…おい、お前聞いてるのか？	【Fierce Shrine Maiden】{rt}...Hey, are you listening?	
+A11.0.0010	line		【猛き巫女】{rt}ッたく、ムカつく野郎だぜッ。	【Fierce Shrine Maiden】{rt}Jeez, you're a real pain.	
+A11.0.0011	line		【猛き巫女】{rt}なッ…何だよいきなり！？	【Fierce Shrine Maiden】{rt}Wh-what's that all of a sudden!?	
+A11.0.0012	line		【猛き巫女】{rt}…変な奴だなッ。	【Fierce Shrine Maiden】{rt}...You're weird.	
 A11.0.0013	line		【猛き巫女】{rt}……。	【Fierce Shrine Maiden】{rt}.......	
-A11.0.0014	line		【猛き巫女】{rt}フン、校則のユルイ学校に{rt}いるヤツに言っても、		
-A11.0.0015	line		【猛き巫女】{rt}わからねェか、このキツさは。		
-A11.0.0016	line		【猛き巫女】{rt}ハァ―――ッ。		
-A11.0.0017	line		【猛き巫女】{rt}…お前の所もそうなのか！？		
-A11.0.0018	line		【猛き巫女】{rt}ホント、イヤになるよな。		
-A11.0.0019	line		【猛き巫女】{rt}何かしようとしても、{rt}がんじがらめにされてる…		
-A11.0.0020	line		【猛き巫女】{rt}ッていうのはさ！		
-A11.0.0021	line		【猛き巫女】{rt}…お前の所もそうなのか！？		
-A11.0.0022	line		【猛き巫女】{rt}ホント、イヤになるよな。		
-A11.0.0023	line		【猛き巫女】{rt}何かしようとしても、{rt}がんじがらめにされてる…		
-A11.0.0024	line		【猛き巫女】{rt}ッていうのはさ！		
-A11.0.0025	line		【猛き巫女】{rt}ホントだよ。		
-A11.0.0026	line		【猛き巫女】{rt}堅ッ苦しいッたら{rt}ありゃしねェ。		
-A11.0.0027	line		【猛き巫女】{rt}…まァ、死ぬまであそこに{rt}いる訳じゃネェ…ってのが		
-A11.0.0028	line		【猛き巫女】{rt}今じゃ唯一の救いだよッ。		
-A11.0.0029	line		【猛き巫女】{rt}フン、校則のユルイ学校に{rt}いるヤツに言っても、		
-A11.0.0030	line		【猛き巫女】{rt}わからねェか、このキツさは。		
-A11.0.0031	line		【猛き巫女】{rt}ハァ―――ッ。		
-A11.0.0032	line		【猛き巫女】{rt}フン、校則のユルイ学校に{rt}いるヤツに言っても、		
-A11.0.0033	line		【猛き巫女】{rt}わからねェか、このキツさは。		
-A11.0.0034	line		【猛き巫女】{rt}ハァ―――ッ。		
-A11.0.0035	line		【猛き巫女】{rt}何怒ってんだよお前！？		
-A11.0.0036	line		【猛き巫女】{rt}ッたく…。		
+A11.0.0014	line		【猛き巫女】{rt}フン、校則のユルイ学校に{rt}いるヤツに言っても、	【Fierce Shrine Maiden】{rt}Hmph, no point telling someone from a{rt}school with loose rules,	
+A11.0.0015	line		【猛き巫女】{rt}わからねェか、このキツさは。	【Fierce Shrine Maiden】{rt}you wouldn't get how tough it is.	
+A11.0.0016	line		【猛き巫女】{rt}ハァ―――ッ。	【Fierce Shrine Maiden】{rt}Haaah--.	
+A11.0.0017	line		【猛き巫女】{rt}…お前の所もそうなのか！？	【Fierce Shrine Maiden】{rt}...Your school's like that too!?	
+A11.0.0018	line		【猛き巫女】{rt}ホント、イヤになるよな。	【Fierce Shrine Maiden】{rt}It's the worst, right?	
+A11.0.0019	line		【猛き巫女】{rt}何かしようとしても、{rt}がんじがらめにされてる…	【Fierce Shrine Maiden】{rt}Whatever you try to do, you're tied up{rt}hand and foot...	
+A11.0.0020	line		【猛き巫女】{rt}ッていうのはさ！	【Fierce Shrine Maiden】{rt}it's just awful!	
+A11.0.0021	line		【猛き巫女】{rt}…お前の所もそうなのか！？	【Fierce Shrine Maiden】{rt}...Your school's like that too!?	
+A11.0.0022	line		【猛き巫女】{rt}ホント、イヤになるよな。	【Fierce Shrine Maiden】{rt}It's the worst, right?	
+A11.0.0023	line		【猛き巫女】{rt}何かしようとしても、{rt}がんじがらめにされてる…	【Fierce Shrine Maiden】{rt}Whatever you try to do, you're tied up{rt}hand and foot...	
+A11.0.0024	line		【猛き巫女】{rt}ッていうのはさ！	【Fierce Shrine Maiden】{rt}it's just awful!	
+A11.0.0025	line		【猛き巫女】{rt}ホントだよ。	【Fierce Shrine Maiden】{rt}Tell me about it.	
+A11.0.0026	line		【猛き巫女】{rt}堅ッ苦しいッたら{rt}ありゃしねェ。	【Fierce Shrine Maiden】{rt}It's so stuffy I can't stand it.	
+A11.0.0027	line		【猛き巫女】{rt}…まァ、死ぬまであそこに{rt}いる訳じゃネェ…ってのが	【Fierce Shrine Maiden】{rt}...Well, the only thing saving me right{rt}now is that	
+A11.0.0028	line		【猛き巫女】{rt}今じゃ唯一の救いだよッ。	【Fierce Shrine Maiden】{rt}I won't be stuck there till I die.	
+A11.0.0029	line		【猛き巫女】{rt}フン、校則のユルイ学校に{rt}いるヤツに言っても、	【Fierce Shrine Maiden】{rt}Hmph, no point telling someone from a{rt}school with loose rules,	
+A11.0.0030	line		【猛き巫女】{rt}わからねェか、このキツさは。	【Fierce Shrine Maiden】{rt}you wouldn't get how tough it is.	
+A11.0.0031	line		【猛き巫女】{rt}ハァ―――ッ。	【Fierce Shrine Maiden】{rt}Haaah--.	
+A11.0.0032	line		【猛き巫女】{rt}フン、校則のユルイ学校に{rt}いるヤツに言っても、	【Fierce Shrine Maiden】{rt}Hmph, no point telling someone from a{rt}school with loose rules,	
+A11.0.0033	line		【猛き巫女】{rt}わからねェか、このキツさは。	【Fierce Shrine Maiden】{rt}you wouldn't get how tough it is.	
+A11.0.0034	line		【猛き巫女】{rt}ハァ―――ッ。	【Fierce Shrine Maiden】{rt}Haaah--.	
+A11.0.0035	line		【猛き巫女】{rt}何怒ってんだよお前！？	【Fierce Shrine Maiden】{rt}What're you mad about!?	
+A11.0.0036	line		【猛き巫女】{rt}ッたく…。	【Fierce Shrine Maiden】{rt}Jeez...	
 A11.0.0037	line		【猛き巫女】{rt}……。	【Fierce Shrine Maiden】{rt}.......	

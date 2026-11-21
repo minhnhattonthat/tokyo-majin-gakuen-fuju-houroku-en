@@ -34,7 +34,7 @@ FREE = {'{rt}', '{nl}'}         # line breaks: the English places them (system r
 VARIABLE = r'\{(?:name[12]|&[^}]*)\}'
 # honorific after a name (kanji / katakana run, or a name code) -> EN form; kinship words are not honorifics
 HONORIFICS = {'さん': '-san', 'くん': '-kun', 'ちゃん': '-chan', '先輩': '-senpai', '様': '-sama'}
-NOT_HONORIFIC = re.compile(r'(?:お?[母父兄姉婆爺孫娘]|皆|奥|嬢|叔[父母]|伯[父母]|王|神|仏|殿|お客|患者|お前|坊|子|赤|親御|オレ|俺)$')
+NOT_HONORIFIC = re.compile(r'(?:お?[母父兄姉婆爺孫娘]|皆|奥|嬢|叔[父母]|伯[父母]|王|神|仏|殿|お客|患者|お前|坊|子|赤|親御|オレ|俺|オネー|オネエ)$')
 SPEAKER = re.compile(r'^【([^】]*)】\{rt\}')
 
 

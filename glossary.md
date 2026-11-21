@@ -251,4 +251,11 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   《悩み》 Doubt, 《怒り》 Anger, 《拳》 Fist. Voices: Water Retainer (わらわ/そなた/かえ) = thou/thee; Earth Retainer
   (おで) = "me belly", "dat"; Talisman Sorcerer (Kansai) = "ya", "pal", dropped g's; Last of the Gallants calls the
   player 兄サン = "pal"; Psychokinetic's katakana speech = plain English, childish menace.
+- b043-b047 (B11, A11): 《力場》 -> Power Field (the shrine's ground that powers Akagane). 符 (the weapon) ->
+  talisman. Akagane calls Isuzu/Yamura "you two"; Isuzu calls him Akagane-san. The Eerie Man/Woman (Azusa's dead
+  parents) speak coarse, mocking English ("brat", "Gyahaha").
+- Rows whose JP holds two boxes (`...{rt}{rt}【X】{rt}...`, only B11.0121, A12.4.0038, A12.4.0043, A12.9.0057):
+  the batch check wants the repeated speaker name in the English, so put `【X】` in the body to pass, then after
+  merging rewrite the en by hand as one ordinary box with no inner tag (fit counts {rt}{rt}【X】{rt} as 5 lines on
+  one page; a later `merge --overwrite` of that batch undoes the fix).
 - A term split across two boxes must stay in the box whose JP has it (the check enforces this per box).

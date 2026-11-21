@@ -48,3 +48,11 @@ session; translators read it before their batch.
   and seals the Miasma in a talisman (girl branch: "You're a girl, and you can fight alone"). In hospital, the
   comatose boy is back in bed, calmer. Coda: the Woman's Voice overpowers Enra, who tried to destroy her before she
   gains a Vessel (器); she vows to walk the earth again and makes Enra "help".
+- A11.x detours: the Songstress (TV idol, "nobody knows the real me"), the Maiden of the Fragrant Breeze (wants to
+  rush through cleaning a room; quarrels with the player's attitude).
+- B11: Azusa, a girl who fed a stray dog, finds it beaten to death by two men; her father is a thief, her mother
+  scorns her; she kills them both and then herself. Yamura (on an errand for his father: one rare piece of stationery
+  in Shinjuku) and Isuzu see Azusa's corpse after a "random stabbing" by a middle-aged couple: no blood, Miasma.
+  Azusa's spirit calls them by Ki up 340 stone steps to a ruined shrine guarded by Akagane, a huntsman with dogs who
+  protects her only inside the shrine's Power Field. Her parents' vengeful ghosts (Eerie Man/Woman, "parent-killer")
+  attack; Akagane, they say, also died an unjust death. Yamura's talisman stops them; battle.

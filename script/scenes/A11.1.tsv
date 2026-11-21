@@ -1,53 +1,53 @@
 id	kind	max	jp	en	notes
-A11.1.0000	line		【愛の戦士】{rt}こんにちはッ！		
-A11.1.0001	line		【愛の戦士】{rt}さて―――		
-A11.1.0002	line		【愛の戦士】{rt}ねぇ？　ちょっと{rt}聞いてもいい？		
-A11.1.0003	line		【愛の戦士】{rt}いきなりだけど―――		
-A11.1.0004	line		【愛の戦士】{rt}わたし、他の人と{rt}何か違わない？		
-A11.1.0005	line		【愛の戦士】{rt}ちょっとぉ～、聞いてるの？		
-A11.1.0006	line		【愛の戦士】{rt}あ、わかる？		
-A11.1.0007	line		【愛の戦士】{rt}そうなのよ、コレは―――		
-A11.1.0008	line		【愛の戦士】{rt}特別なスーツなの。		
-A11.1.0009	line		【愛の戦士】{rt}悪人を懲らしめる{rt}ためのスーツ！		
-A11.1.0010	line		【愛の戦士】{rt}…なのよね。		
-A11.1.0011	line		【愛の戦士】{rt}気に入ってくれたかしら？		
-A11.1.0012	line		【愛の戦士】{rt}え～わっかんないかなぁ。		
-A11.1.0013	line		【愛の戦士】{rt}ほら、ほら、なんか違わない？		
-A11.1.0014	line		【愛の戦士】{rt}ここの輝きとか、		
-A11.1.0015	line		【愛の戦士】{rt}……		
-A11.1.0016	line		【愛の戦士】{rt}んもぅ！ニブいなぁ。		
-A11.1.0017	line		【愛の戦士】{rt}わかる！？わかるぅ！？		
-A11.1.0018	line		【愛の戦士】{rt}そうなのよ、このスーツが！		
-A11.1.0019	line		【愛の戦士】{rt}大切なの。		
-A11.1.0020	line		【愛の戦士】{rt}このスーツが…		
-A11.1.0021	line		【愛の戦士】{rt}わたしの心を表すもの！		
-A11.1.0022	line		【愛の戦士】{rt}正義の心の象徴なのよッ！		
-A11.1.0023	line		【愛の戦士】{rt}………		
-A11.1.0024	line		【愛の戦士】{rt}あ、もしかして、{rt}うらやましい？		
-A11.1.0025	line		【愛の戦士】{rt}わかる！？わかるぅ！？		
-A11.1.0026	line		【愛の戦士】{rt}そうなのよ、このスーツが！		
-A11.1.0027	line		【愛の戦士】{rt}大切なのよ。		
-A11.1.0028	line		【愛の戦士】{rt}このスーツが…		
-A11.1.0029	line		【愛の戦士】{rt}わたしの心を表すもの！		
-A11.1.0030	line		【愛の戦士】{rt}正義の心の象徴なのよッ！		
-A11.1.0031	line		【愛の戦士】{rt}………		
-A11.1.0032	line		【愛の戦士】{rt}あ、もしかして、{rt}うらやましい？		
-A11.1.0033	line		【愛の戦士】{rt}わかる！？わかるぅ！？		
-A11.1.0034	line		【愛の戦士】{rt}そうなのよ、このスーツが！		
-A11.1.0035	line		【愛の戦士】{rt}大切なのよ。		
-A11.1.0036	line		【愛の戦士】{rt}このスーツが…		
-A11.1.0037	line		【愛の戦士】{rt}わたしの心を表すもの！		
-A11.1.0038	line		【愛の戦士】{rt}正義の心の象徴なのよッ！		
-A11.1.0039	line		【愛の戦士】{rt}……		
-A11.1.0040	line		【愛の戦士】{rt}ゴメンなさい。		
-A11.1.0041	line		【愛の戦士】{rt}………		
-A11.1.0042	line		【愛の戦士】{rt}いきなり話かけて。		
-A11.1.0043	line		【愛の戦士】{rt}…ゴメン。		
-A11.1.0044	line		【愛の戦士】{rt}た、たしかに。		
-A11.1.0045	line		【愛の戦士】{rt}いきなりの質問には{rt}ビックリかも―――		
-A11.1.0046	line		【愛の戦士】{rt}しれないけどッ！		
-A11.1.0047	line		【愛の戦士】{rt}そんな言い方、ないじゃない！		
-A11.1.0048	line		【愛の戦士】{rt}た、たしかに。		
-A11.1.0049	line		【愛の戦士】{rt}いきなりの質問には{rt}ビックリかも―――		
-A11.1.0050	line		【愛の戦士】{rt}しれないけどッ！		
-A11.1.0051	line		【愛の戦士】{rt}そんな言い方、ないじゃない！		
+A11.1.0000	line		【愛の戦士】{rt}こんにちはッ！	【Warrior of Love】{rt}Hello there!	
+A11.1.0001	line		【愛の戦士】{rt}さて―――	【Warrior of Love】{rt}Now then--	
+A11.1.0002	line		【愛の戦士】{rt}ねぇ？　ちょっと{rt}聞いてもいい？	【Warrior of Love】{rt}Hey? Can I ask you something?	
+A11.1.0003	line		【愛の戦士】{rt}いきなりだけど―――	【Warrior of Love】{rt}This is out of nowhere, but--	
+A11.1.0004	line		【愛の戦士】{rt}わたし、他の人と{rt}何か違わない？	【Warrior of Love】{rt}don't I look different from other{rt}people?	
+A11.1.0005	line		【愛の戦士】{rt}ちょっとぉ～、聞いてるの？	【Warrior of Love】{rt}Hey~, are you listening?	
+A11.1.0006	line		【愛の戦士】{rt}あ、わかる？	【Warrior of Love】{rt}Oh, you can tell?	
+A11.1.0007	line		【愛の戦士】{rt}そうなのよ、コレは―――	【Warrior of Love】{rt}That's right, this is--	
+A11.1.0008	line		【愛の戦士】{rt}特別なスーツなの。	【Warrior of Love】{rt}a special suit.	
+A11.1.0009	line		【愛の戦士】{rt}悪人を懲らしめる{rt}ためのスーツ！	【Warrior of Love】{rt}A suit for punishing bad guys!	
+A11.1.0010	line		【愛の戦士】{rt}…なのよね。	【Warrior of Love】{rt}...is what it is.	
+A11.1.0011	line		【愛の戦士】{rt}気に入ってくれたかしら？	【Warrior of Love】{rt}Do you like it?	
+A11.1.0012	line		【愛の戦士】{rt}え～わっかんないかなぁ。	【Warrior of Love】{rt}Aww, you can't tell?	
+A11.1.0013	line		【愛の戦士】{rt}ほら、ほら、なんか違わない？	【Warrior of Love】{rt}Look, look, isn't something{rt}different?	
+A11.1.0014	line		【愛の戦士】{rt}ここの輝きとか、	【Warrior of Love】{rt}Like the shine right here,	
+A11.1.0015	line		【愛の戦士】{rt}……	【Warrior of Love】{rt}......	
+A11.1.0016	line		【愛の戦士】{rt}んもぅ！ニブいなぁ。	【Warrior of Love】{rt}Ugh! You're so dense.	
+A11.1.0017	line		【愛の戦士】{rt}わかる！？わかるぅ！？	【Warrior of Love】{rt}You get it!? You get iiit!?	
+A11.1.0018	line		【愛の戦士】{rt}そうなのよ、このスーツが！	【Warrior of Love】{rt}That's right, this suit!	
+A11.1.0019	line		【愛の戦士】{rt}大切なの。	【Warrior of Love】{rt}It's precious.	
+A11.1.0020	line		【愛の戦士】{rt}このスーツが…	【Warrior of Love】{rt}This suit is...	
+A11.1.0021	line		【愛の戦士】{rt}わたしの心を表すもの！	【Warrior of Love】{rt}what shows my heart!	
+A11.1.0022	line		【愛の戦士】{rt}正義の心の象徴なのよッ！	【Warrior of Love】{rt}It's the symbol of a heart of justice!	
+A11.1.0023	line		【愛の戦士】{rt}………	【Warrior of Love】{rt}.........	
+A11.1.0024	line		【愛の戦士】{rt}あ、もしかして、{rt}うらやましい？	【Warrior of Love】{rt}Oh, could it be you're jealous?	
+A11.1.0025	line		【愛の戦士】{rt}わかる！？わかるぅ！？	【Warrior of Love】{rt}You get it!? You get iiit!?	
+A11.1.0026	line		【愛の戦士】{rt}そうなのよ、このスーツが！	【Warrior of Love】{rt}That's right, this suit!	
+A11.1.0027	line		【愛の戦士】{rt}大切なのよ。	【Warrior of Love】{rt}It's precious.	
+A11.1.0028	line		【愛の戦士】{rt}このスーツが…	【Warrior of Love】{rt}This suit is...	
+A11.1.0029	line		【愛の戦士】{rt}わたしの心を表すもの！	【Warrior of Love】{rt}what shows my heart!	
+A11.1.0030	line		【愛の戦士】{rt}正義の心の象徴なのよッ！	【Warrior of Love】{rt}It's the symbol of a heart of justice!	
+A11.1.0031	line		【愛の戦士】{rt}………	【Warrior of Love】{rt}.........	
+A11.1.0032	line		【愛の戦士】{rt}あ、もしかして、{rt}うらやましい？	【Warrior of Love】{rt}Oh, could it be you're jealous?	
+A11.1.0033	line		【愛の戦士】{rt}わかる！？わかるぅ！？	【Warrior of Love】{rt}You get it!? You get iiit!?	
+A11.1.0034	line		【愛の戦士】{rt}そうなのよ、このスーツが！	【Warrior of Love】{rt}That's right, this suit!	
+A11.1.0035	line		【愛の戦士】{rt}大切なのよ。	【Warrior of Love】{rt}It's precious.	
+A11.1.0036	line		【愛の戦士】{rt}このスーツが…	【Warrior of Love】{rt}This suit is...	
+A11.1.0037	line		【愛の戦士】{rt}わたしの心を表すもの！	【Warrior of Love】{rt}what shows my heart!	
+A11.1.0038	line		【愛の戦士】{rt}正義の心の象徴なのよッ！	【Warrior of Love】{rt}It's the symbol of a heart of justice!	
+A11.1.0039	line		【愛の戦士】{rt}……	【Warrior of Love】{rt}......	
+A11.1.0040	line		【愛の戦士】{rt}ゴメンなさい。	【Warrior of Love】{rt}I'm sorry.	
+A11.1.0041	line		【愛の戦士】{rt}………	【Warrior of Love】{rt}.........	
+A11.1.0042	line		【愛の戦士】{rt}いきなり話かけて。	【Warrior of Love】{rt}For talking to you out of nowhere.	
+A11.1.0043	line		【愛の戦士】{rt}…ゴメン。	【Warrior of Love】{rt}...Sorry.	
+A11.1.0044	line		【愛の戦士】{rt}た、たしかに。	【Warrior of Love】{rt}S-sure,	
+A11.1.0045	line		【愛の戦士】{rt}いきなりの質問には{rt}ビックリかも―――	【Warrior of Love】{rt}maybe a question out of nowhere is a{rt}bit of a surprise--	
+A11.1.0046	line		【愛の戦士】{rt}しれないけどッ！	【Warrior of Love】{rt}but still!	
+A11.1.0047	line		【愛の戦士】{rt}そんな言い方、ないじゃない！	【Warrior of Love】{rt}There's no need to put it like that!	
+A11.1.0048	line		【愛の戦士】{rt}た、たしかに。	【Warrior of Love】{rt}S-sure,	
+A11.1.0049	line		【愛の戦士】{rt}いきなりの質問には{rt}ビックリかも―――	【Warrior of Love】{rt}maybe a question out of nowhere is a{rt}bit of a surprise--	
+A11.1.0050	line		【愛の戦士】{rt}しれないけどッ！	【Warrior of Love】{rt}but still!	
+A11.1.0051	line		【愛の戦士】{rt}そんな言い方、ないじゃない！	【Warrior of Love】{rt}There's no need to put it like that!	
