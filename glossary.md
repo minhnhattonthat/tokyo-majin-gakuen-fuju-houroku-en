@@ -275,6 +275,10 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   frozen hell. 氷壁 -> ice wall. 《生》 -> Life. Uhatsura (優鉢羅) speaks cold and formal ("Very well", "fear not").
 - b066-b067 (B22-B23): 《身》《口》《意》 -> Body, Speech and Mind. 森羅万象 -> all creation; 理 -> laws. 因果応報 ->
   "what they reap". 生け贄 -> sacrifice. The voice inside Isuzu (B23.0191-0209, later Suzuka) laughs "Hee hee".
+- b068-b071 (B24): 《生け贄》 -> Sacrifice(s). 平将門の《首塚》 -> the Head Mound of Taira no Masakado. 咒 (しゅ)
+  -> curse. 結界 -> barrier. 《傷》 -> Wound. 血華 -> flower of blood. Kumaso says おれ = I; mocking, sadistic.
+  Shiroku (司録) and Shimei (司命) = the Shadows on the Right/Left; formal speech. B24.0509-0541 are voices of
+  another Tokyo's defenders (Boy/Girl/Woman's Voice), heard through the player's Thought.
 - A12.4.0038/0043 and A12.9.0057 start `【【` (a JP typo); merge tags them normally.
 - The only row whose JP holds two boxes (`...{rt}{rt}【X】{rt}...`) is B11.0121:
   the batch check wants the repeated speaker name in the English, so put `【X】` in the body to pass, then after

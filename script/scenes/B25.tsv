@@ -18,7 +18,7 @@ B25.0015	line		【矢村】{rt}―――伊涼ッ。
 B25.0016	line		【伊涼】{rt}うんッ。	【Isuzu】{rt}Yeah!	
 B25.0017	line		【伊涼】{rt}邪氣封印ッ！！	【Isuzu】{rt}Miasma, be sealed!!	
 B25.0018	line		【ヤマト】{rt}ウ―――。		
-B25.0019	line		【ヤマト】{rt}…………。		
+B25.0019	line		【ヤマト】{rt}…………。	【Yamato】{rt}......	
 B25.0020	line		【伊涼】{rt}封印完了ッ！！		
 B25.0021	line		【矢村】{rt}やったな。		
 B25.0022	line		【矢村】{rt}これで、奴の術にかかっていた{rt}人たちも解放されるはずだ。		
@@ -41,12 +41,12 @@ B25.0038	line		【矢村】{rt}俺にはそれが心強かった。
 B25.0039	line		【矢村】{rt}俺はひとりじゃない―――。		
 B25.0040	line		【矢村】{rt}そう思ったら、迷いを振り切る{rt}覚悟ができた。		
 B25.0041	line		【矢村】{rt}伊涼、俺は闘うよ。		
-B25.0042	line		【矢村】{rt}俺の大切なもの―――		
+B25.0042	line		【矢村】{rt}俺の大切なもの―――	【Yamura】{rt}To protect what's precious to me--	
 B25.0043	line		【矢村】{rt}俺の生まれ育ったこの東京や、		
 B25.0044	line		【矢村】{rt}伊涼を、		
 B25.0045	line		【矢村】{rt}《大罪》の牙から最後まで{rt}護りぬくために。		
 B25.0046	line		【伊涼】{rt}俊―――。	【Isuzu】{rt}Shun--	
-B25.0047	line		【伊涼】{rt}私、嬉しいよ。		
+B25.0047	line		【伊涼】{rt}私、嬉しいよ。	【Isuzu】{rt}I'm happy.	
 B25.0048	line		【伊涼】{rt}{name1}くんッ。	【Isuzu】{rt}{name1}-kun.	
 B25.0049	line		【伊涼】{rt}{name2}ちゃんッ。	【Isuzu】{rt}{name2}-chan.	
 B25.0050	line		【伊涼】{rt}ありがとう。	【Isuzu】{rt}Thank you.	

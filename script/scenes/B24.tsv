@@ -1,624 +1,624 @@
 id	kind	max	jp	en	notes
-B24.0000	line		【声】{rt}馬鹿なッ。		
-B24.0001	line		【右の影】{rt}優鉢羅の《氣》が消えた――。		
-B24.0002	line		【右の影】{rt}まさか、奴を{rt}斃したというのかッ？		
+B24.0000	line		【声】{rt}馬鹿なッ。	【Voice】{rt}Impossible.	
+B24.0001	line		【右の影】{rt}優鉢羅の《氣》が消えた――。	【Shadow on the Right】{rt}Uhatsura's Ki has vanished--	
+B24.0002	line		【右の影】{rt}まさか、奴を{rt}斃したというのかッ？	【Shadow on the Right】{rt}Surely they didn't bring him down?	
 B24.0003	line		【右の影】{rt}…………。	【Shadow on the Right】{rt}......	
-B24.0004	line		【右の影】{rt}…いよいよ、我らの出番か。		
-B24.0005	line		【左の影】{rt}そう気を落とすな、{rt}司録（しろく）。		
-B24.0006	line		【左の影】{rt}確かに、仮にも{rt}世を護ろうという		
-B24.0007	line		【左の影】{rt}心を持って奔走している者の{rt}命を奪うというのは		
-B24.0008	line		【左の影】{rt}本意ではないが…。		
-B24.0009	line		【司録】{rt}司命（しみょう）よ、{rt}分かっている。		
-B24.0010	line		【司録】{rt}たった三つの人の子の命と、{rt}この世そのものを		
-B24.0011	line		【司録】{rt}同じ天秤にかける事は{rt}できん―――。		
-B24.0012	line		【司命】{rt}そう―――。		
-B24.0013	line		【司命】{rt}我らは止めねばならん。		
-B24.0014	line		【司命】{rt}どんな手を使ってでもッ――。		
-B24.0015	line		【不良Ａ】{rt}それにしても奴ら、ちょろ{rt}かったッすねェ、アニキ。		
-B24.0016	line		【不良Ｂ】{rt}ああ、全くだ。		
-B24.0017	line		【不良Ｂ】{rt}例の命知らずが事故って寝たき{rt}りになっちまったからって、		
-B24.0018	line		【不良Ｂ】{rt}まさか、あそこまで{rt}フヌケるとはな。		
-B24.0019	line		【不良Ｂ】{rt}ま、理由はどうであれ、{rt}今日は俺たちの完全勝利だ。		
-B24.0020	line		【不良Ｂ】{rt}これで奴らもちったァ{rt}大人しくなるだろうよ。		
-B24.0021	line		【不良Ａ】{rt}よっしゃァ！！みんなァッ！！		
-B24.0022	line		【不良Ａ】{rt}これから祝いのひとっ走りと{rt}しゃれ込もう――		
-B24.0023	line		【声】{rt}ぐああッ！！		
-B24.0024	line		【不良Ｂ】{rt}なんだッ！？		
-B24.0025	line		【不良Ａ】{rt}ア、アニキ！！あ、あそこ…！！		
-B24.0026	line		【不良Ｂ】{rt}―――！！		
-B24.0027	line		【不良Ｂ】{rt}なッ―――何モンだ！？		
-B24.0028	line		【男の声】{rt}はッはッはッ！！		
-B24.0029	line		【怪しい男】{rt}他愛もないねェ。		
-B24.0030	line		【怪しい男】{rt}その妙な乗り物が{rt}でかい音を立てるから、		
-B24.0031	line		【怪しい男】{rt}しばらく様子を見ちまったが{rt}全く、時間の無駄だったな。		
-B24.0032	line		【血まみれの男】{rt}ウウウ…。		
-B24.0033	line		【不良Ｂ】{rt}剣―――？剣だとォッ！？		
-B24.0034	line		【不良Ｂ】{rt}てめェがやりやがったのか！！		
-B24.0035	line		【不良Ｂ】{rt}上等だコラア！！		
-B24.0036	line		【不良Ｂ】{rt}ウチのチームのモンに手を{rt}出して―――		
-B24.0037	line		【不良Ａ】{rt}ア、アニキッ！！		
-B24.0038	line		【不良Ａ】{rt}い、息してないっすよ、{rt}コイツ！！		
-B24.0039	line		【不良Ａ】{rt}血も、こ、こんなに――！！		
-B24.0040	line		【不良Ｂ】{rt}な、何だとッ？		
-B24.0041	line		【不良Ｂ】{rt}まさか…。		
-B24.0042	line		【不良Ｂ】{rt}マ、マジモンなのか――？		
-B24.0043	line		【声】{rt}ぎゃあああッ！！		
-B24.0044	line		【不良Ｂ】{rt}た、退却だッ！！		
-B24.0045	line		【不良Ｂ】{rt}奴ら、狂ってやがるッ！！		
-B24.0046	line		【怪しい男】{rt}逃げるのか？		
-B24.0047	line		【怪しい男】{rt}くくく。		
-B24.0048	line		【怪しい男】{rt}無駄だよ。		
-B24.0049	line		【怪しい男】{rt}《生け贄》ェ！！		
-B24.0050	line		【不良Ｂ】{rt}―――！！		
-B24.0051	line		【不良Ａ】{rt}あぐうッ！？		
-B24.0052	line		【怪しい男】{rt}ハハハハッ！！		
-B24.0053	line		【怪しい男】{rt}さあ―――。		
-B24.0054	line		【怪しい男】{rt}捧げよ《生け贄》どもッ！！		
-B24.0055	line		【怪しい男】{rt}お前たちの魂を―――！！		
-B24.0056	line		【不良Ａ】{rt}う、うううう…。		
-B24.0057	line		【不良Ｂ】{rt}ううう…。		
-B24.0058	line		【怪しい男】{rt}―――殺れ。		
-B24.0059	line		【血まみれの男】{rt}オオッ―――！！		
-B24.0060	line		【血まみれの男】{rt}オオオオッ！！		
-B24.0061	line		【不良Ａ】{rt}ぐああッ！！		
-B24.0062	line		【不良Ｂ】{rt}がああァッ！！		
-B24.0063	line		【声】{rt}ぐおああッ！！		
-B24.0064	line		【血まみれの男】{rt}アアアアッ！！		
-B24.0065	line		【怪しい男】{rt}はッはッはッ！！		
-B24.0066	line		【怪しい男】{rt}一人たりとも逃すなッ！！		
-B24.0067	line		【怪しい男】{rt}より多くの魂を捧げよ！！		
-B24.0068	line		【怪しい男】{rt}吾（われ）らのためにッ―！！		
-B24.0069	line		【ニュース】{rt}昨夜１１時頃、{rt}渋谷区初台の路上で		
-B24.0070	line		【ニュース】{rt}暴走族同士の抗争が{rt}原因と思われる、		
-B24.0071	line		【ニュース】{rt}痛ましい殺人事件が{rt}ありました。		
-B24.0072	line		【ニュース】{rt}殺されていたのは{rt}地元の高校生ら５人で、		
-B24.0073	line		【ニュース】{rt}頚（けい）部を斬り裂かれた{rt}事による出血多量が		
-B24.0074	line		【ニュース】{rt}死因と見られています。		
-B24.0075	line		【ニュース】{rt}捜査の結果、{rt}犯行に使用された凶器が		
-B24.0076	line		【ニュース】{rt}いずれも非常に大振りな刃物と{rt}推定されており、		
-B24.0077	line		【ニュース】{rt}警察では、最近多発している{rt}連続殺人事件と		
-B24.0078	line		【ニュース】{rt}何らかの接点が{rt}あるのではないかとして		
-B24.0079	line		【ニュース】{rt}捜査を進めています。		
-B24.0080	line		【伊涼の声】{rt}ニュース、見たでしょう！？		
-B24.0081	line		【伊涼】{rt}この事件に《大罪》が関わって{rt}るのは間違いないよ。		
-B24.0082	line		【伊涼】{rt}何者かにとり憑いた{rt}《大罪》が、		
-B24.0083	line		【伊涼】{rt}何人もの犠牲者を出してるッ。		
-B24.0084	line		【伊涼】{rt}それを、見て見ぬふり{rt}する気なの！？		
+B24.0004	line		【右の影】{rt}…いよいよ、我らの出番か。	【Shadow on the Right】{rt}...So at last it's our turn.	
+B24.0005	line		【左の影】{rt}そう気を落とすな、{rt}司録（しろく）。	【Shadow on the Left】{rt}Don't be so downcast, Shiroku.	
+B24.0006	line		【左の影】{rt}確かに、仮にも{rt}世を護ろうという	【Shadow on the Left】{rt}True, taking the lives of those who{rt}rush about	
+B24.0007	line		【左の影】{rt}心を持って奔走している者の{rt}命を奪うというのは	【Shadow on the Left】{rt}with hearts set on protecting the{rt}world, after their fashion,	
+B24.0008	line		【左の影】{rt}本意ではないが…。	【Shadow on the Left】{rt}is not what we wish...	
+B24.0009	line		【司録】{rt}司命（しみょう）よ、{rt}分かっている。	【Shiroku】{rt}I know, Shimei.	
+B24.0010	line		【司録】{rt}たった三つの人の子の命と、{rt}この世そのものを	【Shiroku】{rt}The lives of a mere three children of{rt}men and the world itself	
+B24.0011	line		【司録】{rt}同じ天秤にかける事は{rt}できん―――。	【Shiroku】{rt}cannot be weighed on the same{rt}scales--	
+B24.0012	line		【司命】{rt}そう―――。	【Shimei】{rt}Indeed--	
+B24.0013	line		【司命】{rt}我らは止めねばならん。	【Shimei】{rt}We must stop them.	
+B24.0014	line		【司命】{rt}どんな手を使ってでもッ――。	【Shimei】{rt}By any means necessary--	
+B24.0015	line		【不良Ａ】{rt}それにしても奴ら、ちょろ{rt}かったッすねェ、アニキ。	【Delinquent A】{rt}Man, those guys were a pushover, eh,{rt}boss?	
+B24.0016	line		【不良Ｂ】{rt}ああ、全くだ。	【Delinquent B】{rt}Yeah, no kidding.	
+B24.0017	line		【不良Ｂ】{rt}例の命知らずが事故って寝たき{rt}りになっちまったからって、	【Delinquent B】{rt}Just 'cause that daredevil of theirs{rt}crashed and ended up bedridden,	
+B24.0018	line		【不良Ｂ】{rt}まさか、あそこまで{rt}フヌケるとはな。	【Delinquent B】{rt}who'd have thought they'd go that{rt}soft?	
+B24.0019	line		【不良Ｂ】{rt}ま、理由はどうであれ、{rt}今日は俺たちの完全勝利だ。	【Delinquent B】{rt}Well, whatever the reason, today's a{rt}total win for us.	
+B24.0020	line		【不良Ｂ】{rt}これで奴らもちったァ{rt}大人しくなるだろうよ。	【Delinquent B】{rt}That oughta keep 'em quiet for a{rt}while.	
+B24.0021	line		【不良Ａ】{rt}よっしゃァ！！みんなァッ！！	【Delinquent A】{rt}All riiight!! Everybody!!	
+B24.0022	line		【不良Ａ】{rt}これから祝いのひとっ走りと{rt}しゃれ込もう――	【Delinquent A】{rt}Let's go for a victory ride--	
+B24.0023	line		【声】{rt}ぐああッ！！	【Voice】{rt}Gwaaah!!	
+B24.0024	line		【不良Ｂ】{rt}なんだッ！？	【Delinquent B】{rt}What!?	
+B24.0025	line		【不良Ａ】{rt}ア、アニキ！！あ、あそこ…！！	【Delinquent A】{rt}B-boss!! O-over there...!!	
+B24.0026	line		【不良Ｂ】{rt}―――！！	【Delinquent B】{rt}--!!	
+B24.0027	line		【不良Ｂ】{rt}なッ―――何モンだ！？	【Delinquent B】{rt}Wh--who the hell are you!?	
+B24.0028	line		【男の声】{rt}はッはッはッ！！	【Man's Voice】{rt}Ha ha ha!!	
+B24.0029	line		【怪しい男】{rt}他愛もないねェ。	【Suspicious Man】{rt}How pathetic.	
+B24.0030	line		【怪しい男】{rt}その妙な乗り物が{rt}でかい音を立てるから、	【Suspicious Man】{rt}Those odd vehicles of yours made such{rt}a racket,	
+B24.0031	line		【怪しい男】{rt}しばらく様子を見ちまったが{rt}全く、時間の無駄だったな。	【Suspicious Man】{rt}I watched a while, but what a waste of{rt}time.	
+B24.0032	line		【血まみれの男】{rt}ウウウ…。	【Bloodied Man】{rt}Uuugh...	
+B24.0033	line		【不良Ｂ】{rt}剣―――？剣だとォッ！？	【Delinquent B】{rt}A sword--? A sword!?	
+B24.0034	line		【不良Ｂ】{rt}てめェがやりやがったのか！！	【Delinquent B】{rt}You did this!!	
+B24.0035	line		【不良Ｂ】{rt}上等だコラア！！	【Delinquent B】{rt}Bring it on, punk!!	
+B24.0036	line		【不良Ｂ】{rt}ウチのチームのモンに手を{rt}出して―――	【Delinquent B】{rt}Layin' a hand on one of our gang--	
+B24.0037	line		【不良Ａ】{rt}ア、アニキッ！！	【Delinquent A】{rt}B-boss!!	
+B24.0038	line		【不良Ａ】{rt}い、息してないっすよ、{rt}コイツ！！	【Delinquent A】{rt}H-he ain't breathin'!!	
+B24.0039	line		【不良Ａ】{rt}血も、こ、こんなに――！！	【Delinquent A】{rt}And the blood, s-so much--!!	
+B24.0040	line		【不良Ｂ】{rt}な、何だとッ？	【Delinquent B】{rt}Wh-what?	
+B24.0041	line		【不良Ｂ】{rt}まさか…。	【Delinquent B】{rt}No way...	
+B24.0042	line		【不良Ｂ】{rt}マ、マジモンなのか――？	【Delinquent B】{rt}I-is this for real--?	
+B24.0043	line		【声】{rt}ぎゃあああッ！！	【Voice】{rt}Gyaaaah!!	
+B24.0044	line		【不良Ｂ】{rt}た、退却だッ！！	【Delinquent B】{rt}R-retreat!!	
+B24.0045	line		【不良Ｂ】{rt}奴ら、狂ってやがるッ！！	【Delinquent B】{rt}These guys are psycho!!	
+B24.0046	line		【怪しい男】{rt}逃げるのか？	【Suspicious Man】{rt}Running away?	
+B24.0047	line		【怪しい男】{rt}くくく。	【Suspicious Man】{rt}Heh heh heh.	
+B24.0048	line		【怪しい男】{rt}無駄だよ。	【Suspicious Man】{rt}It's useless.	
+B24.0049	line		【怪しい男】{rt}《生け贄》ェ！！	【Suspicious Man】{rt}Sacrifices!!	
+B24.0050	line		【不良Ｂ】{rt}―――！！	【Delinquent B】{rt}--!!	
+B24.0051	line		【不良Ａ】{rt}あぐうッ！？	【Delinquent A】{rt}Aguh!?	
+B24.0052	line		【怪しい男】{rt}ハハハハッ！！	【Suspicious Man】{rt}Hahahaha!!	
+B24.0053	line		【怪しい男】{rt}さあ―――。	【Suspicious Man】{rt}Now--	
+B24.0054	line		【怪しい男】{rt}捧げよ《生け贄》どもッ！！	【Suspicious Man】{rt}Offer them up, you Sacrifices!!	
+B24.0055	line		【怪しい男】{rt}お前たちの魂を―――！！	【Suspicious Man】{rt}Your souls--!!	
+B24.0056	line		【不良Ａ】{rt}う、うううう…。	【Delinquent A】{rt}U-uuuugh...	
+B24.0057	line		【不良Ｂ】{rt}ううう…。	【Delinquent B】{rt}Uuugh...	
+B24.0058	line		【怪しい男】{rt}―――殺れ。	【Suspicious Man】{rt}--Kill them.	
+B24.0059	line		【血まみれの男】{rt}オオッ―――！！	【Bloodied Man】{rt}Ooh--!!	
+B24.0060	line		【血まみれの男】{rt}オオオオッ！！	【Bloodied Man】{rt}OOOOH!!	
+B24.0061	line		【不良Ａ】{rt}ぐああッ！！	【Delinquent A】{rt}Gwaah!!	
+B24.0062	line		【不良Ｂ】{rt}がああァッ！！	【Delinquent B】{rt}Gaaaah!!	
+B24.0063	line		【声】{rt}ぐおああッ！！	【Voice】{rt}Gwoaaah!!	
+B24.0064	line		【血まみれの男】{rt}アアアアッ！！	【Bloodied Man】{rt}AAAAAH!!	
+B24.0065	line		【怪しい男】{rt}はッはッはッ！！	【Suspicious Man】{rt}Ha ha ha!!	
+B24.0066	line		【怪しい男】{rt}一人たりとも逃すなッ！！	【Suspicious Man】{rt}Don't let a single one escape!!	
+B24.0067	line		【怪しい男】{rt}より多くの魂を捧げよ！！	【Suspicious Man】{rt}Offer up more souls!!	
+B24.0068	line		【怪しい男】{rt}吾（われ）らのためにッ―！！	【Suspicious Man】{rt}For our sake--!!	
+B24.0069	line		【ニュース】{rt}昨夜１１時頃、{rt}渋谷区初台の路上で	【News】{rt}At around 11 last night, on a street in{rt}Hatsudai, Shibuya,	
+B24.0070	line		【ニュース】{rt}暴走族同士の抗争が{rt}原因と思われる、	【News】{rt}in what appears to be a clash between{rt}biker gangs,	
+B24.0071	line		【ニュース】{rt}痛ましい殺人事件が{rt}ありました。	【News】{rt}a tragic killing took place.	
+B24.0072	line		【ニュース】{rt}殺されていたのは{rt}地元の高校生ら５人で、	【News】{rt}The five victims were local high school{rt}students and others;	
+B24.0073	line		【ニュース】{rt}頚（けい）部を斬り裂かれた{rt}事による出血多量が	【News】{rt}the cause of death is thought to be{rt}blood loss	
+B24.0074	line		【ニュース】{rt}死因と見られています。	【News】{rt}from wounds slashing open their{rt}necks.	
+B24.0075	line		【ニュース】{rt}捜査の結果、{rt}犯行に使用された凶器が	【News】{rt}Investigators believe the weapons{rt}used	
+B24.0076	line		【ニュース】{rt}いずれも非常に大振りな刃物と{rt}推定されており、	【News】{rt}were all very large blades,	
+B24.0077	line		【ニュース】{rt}警察では、最近多発している{rt}連続殺人事件と	【News】{rt}and police are pursuing a possible{rt}link	
+B24.0078	line		【ニュース】{rt}何らかの接点が{rt}あるのではないかとして	【News】{rt}with the string of serial killings	
+B24.0079	line		【ニュース】{rt}捜査を進めています。	【News】{rt}that has occurred recently.	
+B24.0080	line		【伊涼の声】{rt}ニュース、見たでしょう！？	【Isuzu's Voice】{rt}You saw the news, didn't you!?	
+B24.0081	line		【伊涼】{rt}この事件に《大罪》が関わって{rt}るのは間違いないよ。	【Isuzu】{rt}There's no doubt the Great Sin is{rt}involved in this.	
+B24.0082	line		【伊涼】{rt}何者かにとり憑いた{rt}《大罪》が、	【Isuzu】{rt}A Great Sin possessing someone	
+B24.0083	line		【伊涼】{rt}何人もの犠牲者を出してるッ。	【Isuzu】{rt}is claiming victim after victim.	
+B24.0084	line		【伊涼】{rt}それを、見て見ぬふり{rt}する気なの！？	【Isuzu】{rt}Are you going to pretend you didn't{rt}see it!?	
 B24.0085	line		【矢村】{rt}伊涼…。	【Yamura】{rt}Isuzu...	
-B24.0086	line		【矢村】{rt}そうは言ってないよ。		
-B24.0087	line		【矢村】{rt}ただ―――。		
+B24.0086	line		【矢村】{rt}そうは言ってないよ。	【Yamura】{rt}I didn't say that.	
+B24.0087	line		【矢村】{rt}ただ―――。	【Yamura】{rt}It's just--	
 B24.0088	line		【矢村】{rt}…………。	【Yamura】{rt}............	
 B24.0089	line		【伊涼】{rt}俊―――。	【Isuzu】{rt}Shun--	
-B24.0090	line		【伊涼】{rt}分かった。		
-B24.0091	line		【伊涼】{rt}俊が元気を取り戻すまで、		
-B24.0092	line		【伊涼】{rt}私と{name1}くんで、{rt}調べを進めておくよ。		
-B24.0093	line		【伊涼】{rt}だから、{name1}くんを		
-B24.0094	line		【伊涼】{rt}私と{name2}ちゃん、{rt}調べを進めておくよ。		
-B24.0095	line		【伊涼】{rt}だから、{name2}ちゃんを		
-B24.0096	line		【伊涼】{rt}勧請して―――		
+B24.0090	line		【伊涼】{rt}分かった。	【Isuzu】{rt}Fine.	
+B24.0091	line		【伊涼】{rt}俊が元気を取り戻すまで、	【Isuzu】{rt}Until you're back on your feet, Shun,	
+B24.0092	line		【伊涼】{rt}私と{name1}くんで、{rt}調べを進めておくよ。	【Isuzu】{rt}{name1}-kun and I will carry on{rt}investigating.	
+B24.0093	line		【伊涼】{rt}だから、{name1}くんを	【Isuzu】{rt}So, {name1}-kun,	
+B24.0094	line		【伊涼】{rt}私と{name2}ちゃん、{rt}調べを進めておくよ。	【Isuzu】{rt}{name2}-chan and I will carry on{rt}investigating.	
+B24.0095	line		【伊涼】{rt}だから、{name2}ちゃんを	【Isuzu】{rt}So, {name2}-chan,	
+B24.0096	line		【伊涼】{rt}勧請して―――	【Isuzu】{rt}summon--	
 B24.0097	line		【矢村】{rt}だめだッ。	【Yamura】{rt}No!	
-B24.0098	line		【伊涼】{rt}―――えッ？		
-B24.0099	line		【矢村】{rt}できないッ。		
-B24.0100	line		【矢村】{rt}行くな、伊涼。		
-B24.0101	line		【矢村】{rt}今、行くのは―――		
-B24.0102	line		【矢村】{rt}危険かもしれない…。		
+B24.0098	line		【伊涼】{rt}―――えッ？	【Isuzu】{rt}--Huh?	
+B24.0099	line		【矢村】{rt}できないッ。	【Yamura】{rt}I can't.	
+B24.0100	line		【矢村】{rt}行くな、伊涼。	【Yamura】{rt}Don't go, Isuzu.	
+B24.0101	line		【矢村】{rt}今、行くのは―――	【Yamura】{rt}Going now--	
+B24.0102	line		【矢村】{rt}危険かもしれない…。	【Yamura】{rt}might be dangerous...	
 B24.0103	line		【伊涼】{rt}そんな…。	【Isuzu】{rt}No...	
 B24.0104	line		【矢村】{rt}伊涼―――。	【Yamura】{rt}Isuzu--	
-B24.0105	line		【矢村】{rt}すまない。		
-B24.0106	line		【矢村】{rt}本当に信じていいものとは{rt}一体何なのかが、		
-B24.0107	line		【矢村】{rt}俺にはまだ分からない…。		
-B24.0108	line		【矢村】{rt}このままでは、俺は―――		
-B24.0109	line		【矢村】{rt}闘えない…。		
+B24.0105	line		【矢村】{rt}すまない。	【Yamura】{rt}I'm sorry.	
+B24.0106	line		【矢村】{rt}本当に信じていいものとは{rt}一体何なのかが、	【Yamura】{rt}What I can truly believe in,	
+B24.0107	line		【矢村】{rt}俺にはまだ分からない…。	【Yamura】{rt}I still don't know...	
+B24.0108	line		【矢村】{rt}このままでは、俺は―――	【Yamura】{rt}Like this, I--	
+B24.0109	line		【矢村】{rt}闘えない…。	【Yamura】{rt}can't fight...	
 B24.0110	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
-B24.0111	line		【伊涼】{rt}（俊…。）		
-B24.0112	line		【学生】{rt}ウウウウ…。		
-B24.0113	line		【怪しい男】{rt}…………。		
-B24.0114	line		【怪しい男】{rt}殺れ。		
-B24.0115	line		【血まみれの男】{rt}ウオオオッ！！		
-B24.0116	line		【学生】{rt}ぎゃあああッ！！		
-B24.0117	line		【怪しい男】{rt}…ふんッ。		
-B24.0118	line		【怪しい男】{rt}…つまらんな。		
-B24.0119	line		【怪しい男】{rt}この、異常なまでに豊かな、{rt}争いのない世界で		
-B24.0120	line		【怪しい男】{rt}おのれの魂を曇らせている…。		
-B24.0121	line		【怪しい男】{rt}この者どもの魂は		
-B24.0122	line		【怪しい男】{rt}《生け贄》とするにも、{rt}あまりに無価値だ。		
-B24.0123	line		【怪しい男】{rt}そう思わないか、《ヤマト》？		
-B24.0124	line		【ヤマト】{rt}ウウウウッ…。		
-B24.0125	line		【ヤマト】{rt}もう―――や…めてくれ。		
-B24.0126	line		【ヤマト】{rt}た、頼む。		
-B24.0127	line		【ヤマト】{rt}もう私は、殺したく―――		
-B24.0128	line		【怪しい男】{rt}殺したくない？		
-B24.0129	line		【怪しい男】{rt}馬鹿な。		
-B24.0130	line		【怪しい男】{rt}《生け贄》の首を刎ねている{rt}のは、お前の剣ではないか。		
-B24.0131	line		【怪しい男】{rt}お前の腕は殺すためにある。		
-B24.0132	line		【怪しい男】{rt}剣を離せるか？		
-B24.0133	line		【怪しい男】{rt}離せまい。		
-B24.0134	line		【怪しい男】{rt}それはもう、お前の腕の{rt}一部なのだからなァ。		
-B24.0135	line		【ヤマト】{rt}う…ぐううッ！！		
-B24.0136	line		【怪しい男】{rt}…安心しろ。		
-B24.0137	line		【怪しい男】{rt}《生け贄》を探す手間は{rt}おれが背負ってやる。		
-B24.0138	line		【怪しい男】{rt}より磨き上げられた{rt}魂を持つ者を見つけ出し、		
-B24.0139	line		【怪しい男】{rt}このおれの《力》で		
-B24.0140	line		【怪しい男】{rt}より上等な《生け贄》に{rt}仕立てあげてやる。		
-B24.0141	line		【怪しい男】{rt}かつてお前に斬られたおれが{rt}晴れて昇天するために、		
-B24.0142	line		【怪しい男】{rt}お前はその責任を果たせ。		
-B24.0143	line		【怪しい男】{rt}なあ、《ヤマト》。		
-B24.0144	line		【怪しい男】{rt}はッはッはッ！！		
-B24.0145	line		【ヤマト】{rt}ううッ―――。		
-B24.0146	line		【矢村】{rt}（これから《大罪》が{rt}　更に犠牲者を出すと		
-B24.0147	line		【矢村】{rt}　分かっていながら、		
-B24.0148	line		【矢村】{rt}　それを黙って受け止めるのが{rt}　正しい選択なのか？）		
-B24.0149	line		【矢村】{rt}（俺にはどうしても{rt}　そうだとは思えない。）		
-B24.0150	line		【矢村】{rt}（だが―――		
-B24.0151	line		【矢村】{rt}　《大罪》と闘うために、{rt}　俺が信じるべきものとは、		
-B24.0152	line		【矢村】{rt}　一体何だ？）		
-B24.0153	line		【矢村】{rt}（…………。）		
-B24.0154	line		【矢村】{rt}（だめだッ。）		
-B24.0155	line		【矢村】{rt}（分からない…。）		
-B24.0156	line		【声】{rt}ほほう、浮かない顔だな。		
+B24.0111	line		【伊涼】{rt}（俊…。）	【Isuzu】{rt}(Shun...)	
+B24.0112	line		【学生】{rt}ウウウウ…。	【Student】{rt}Uuuugh...	
+B24.0113	line		【怪しい男】{rt}…………。	【Suspicious Man】{rt}......	
+B24.0114	line		【怪しい男】{rt}殺れ。	【Suspicious Man】{rt}Kill him.	
+B24.0115	line		【血まみれの男】{rt}ウオオオッ！！	【Bloodied Man】{rt}UOOOOH!!	
+B24.0116	line		【学生】{rt}ぎゃあああッ！！	【Student】{rt}Gyaaaah!!	
+B24.0117	line		【怪しい男】{rt}…ふんッ。	【Suspicious Man】{rt}...Hmph.	
+B24.0118	line		【怪しい男】{rt}…つまらんな。	【Suspicious Man】{rt}...How dull.	
+B24.0119	line		【怪しい男】{rt}この、異常なまでに豊かな、{rt}争いのない世界で	【Suspicious Man】{rt}In this strangely rich world without{rt}strife,	
+B24.0120	line		【怪しい男】{rt}おのれの魂を曇らせている…。	【Suspicious Man】{rt}they let their souls grow cloudy...	
+B24.0121	line		【怪しい男】{rt}この者どもの魂は	【Suspicious Man】{rt}The souls of these ones	
+B24.0122	line		【怪しい男】{rt}《生け贄》とするにも、{rt}あまりに無価値だ。	【Suspicious Man】{rt}are far too worthless even as{rt}Sacrifices.	
+B24.0123	line		【怪しい男】{rt}そう思わないか、《ヤマト》？	【Suspicious Man】{rt}Don't you think, Yamato?	
+B24.0124	line		【ヤマト】{rt}ウウウウッ…。	【Yamato】{rt}Uuuugh...	
+B24.0125	line		【ヤマト】{rt}もう―――や…めてくれ。	【Yamato】{rt}No more-- please... stop.	
+B24.0126	line		【ヤマト】{rt}た、頼む。	【Yamato】{rt}I-I beg you.	
+B24.0127	line		【ヤマト】{rt}もう私は、殺したく―――	【Yamato】{rt}I don't want to kill any more--	
+B24.0128	line		【怪しい男】{rt}殺したくない？	【Suspicious Man】{rt}Don't want to kill?	
+B24.0129	line		【怪しい男】{rt}馬鹿な。	【Suspicious Man】{rt}Nonsense.	
+B24.0130	line		【怪しい男】{rt}《生け贄》の首を刎ねている{rt}のは、お前の剣ではないか。	【Suspicious Man】{rt}It's your sword that takes the{rt}Sacrifices' heads, isn't it?	
+B24.0131	line		【怪しい男】{rt}お前の腕は殺すためにある。	【Suspicious Man】{rt}Your arm exists to kill.	
+B24.0132	line		【怪しい男】{rt}剣を離せるか？	【Suspicious Man】{rt}Can you let go of the sword?	
+B24.0133	line		【怪しい男】{rt}離せまい。	【Suspicious Man】{rt}You can't.	
+B24.0134	line		【怪しい男】{rt}それはもう、お前の腕の{rt}一部なのだからなァ。	【Suspicious Man】{rt}It's already part of your arm, after{rt}all.	
+B24.0135	line		【ヤマト】{rt}う…ぐううッ！！	【Yamato】{rt}Ugh... guuugh!!	
+B24.0136	line		【怪しい男】{rt}…安心しろ。	【Suspicious Man】{rt}...Don't worry.	
+B24.0137	line		【怪しい男】{rt}《生け贄》を探す手間は{rt}おれが背負ってやる。	【Suspicious Man】{rt}I'll take on the trouble of finding{rt}Sacrifices.	
+B24.0138	line		【怪しい男】{rt}より磨き上げられた{rt}魂を持つ者を見つけ出し、	【Suspicious Man】{rt}I'll find those with more polished{rt}souls,	
+B24.0139	line		【怪しい男】{rt}このおれの《力》で	【Suspicious Man】{rt}and with my Power	
+B24.0140	line		【怪しい男】{rt}より上等な《生け贄》に{rt}仕立てあげてやる。	【Suspicious Man】{rt}make them into finer Sacrifices.	
+B24.0141	line		【怪しい男】{rt}かつてお前に斬られたおれが{rt}晴れて昇天するために、	【Suspicious Man】{rt}So that I, whom you once cut down,{rt}may finally rise to heaven,	
+B24.0142	line		【怪しい男】{rt}お前はその責任を果たせ。	【Suspicious Man】{rt}you will take responsibility for it.	
+B24.0143	line		【怪しい男】{rt}なあ、《ヤマト》。	【Suspicious Man】{rt}Right, Yamato?	
+B24.0144	line		【怪しい男】{rt}はッはッはッ！！	【Suspicious Man】{rt}Ha ha ha!!	
+B24.0145	line		【ヤマト】{rt}ううッ―――。	【Yamato】{rt}Uugh--	
+B24.0146	line		【矢村】{rt}（これから《大罪》が{rt}　更に犠牲者を出すと	【Yamura】{rt}(Knowing that the Great Sin will claim	
+B24.0147	line		【矢村】{rt}　分かっていながら、	【Yamura】{rt}even more victims from here on,	
+B24.0148	line		【矢村】{rt}　それを黙って受け止めるのが{rt}　正しい選択なのか？）	【Yamura】{rt}is silently accepting it the right{rt}choice?)	
+B24.0149	line		【矢村】{rt}（俺にはどうしても{rt}　そうだとは思えない。）	【Yamura】{rt}(I just can't believe that it is.)	
+B24.0150	line		【矢村】{rt}（だが―――	【Yamura】{rt}(But--	
+B24.0151	line		【矢村】{rt}　《大罪》と闘うために、{rt}　俺が信じるべきものとは、	【Yamura】{rt}what am I supposed to believe in	
+B24.0152	line		【矢村】{rt}　一体何だ？）	【Yamura】{rt}to fight the Great Sin?)	
+B24.0153	line		【矢村】{rt}（…………。）	【Yamura】{rt}(......)	
+B24.0154	line		【矢村】{rt}（だめだッ。）	【Yamura】{rt}(It's no good.)	
+B24.0155	line		【矢村】{rt}（分からない…。）	【Yamura】{rt}(I don't know...)	
+B24.0156	line		【声】{rt}ほほう、浮かない顔だな。	【Voice】{rt}Oho, what a gloomy face.	
 B24.0157	line		【矢村】{rt}―――！？	【Yamura】{rt}--!?	
-B24.0158	line		【矢村】{rt}誰だッ。		
-B24.0159	line		【怪しい男】{rt}少々上等な《氣》を{rt}感じて来てみれば―――		
-B24.0160	line		【怪しい男】{rt}どうした？恋煩いか？		
-B24.0161	line		【怪しい男】{rt}はははッ。		
+B24.0158	line		【矢村】{rt}誰だッ。	【Yamura】{rt}Who's there?	
+B24.0159	line		【怪しい男】{rt}少々上等な《氣》を{rt}感じて来てみれば―――	【Suspicious Man】{rt}I sensed some rather fine Ki and came{rt}to see--	
+B24.0160	line		【怪しい男】{rt}どうした？恋煩いか？	【Suspicious Man】{rt}What's wrong? Lovesick?	
+B24.0161	line		【怪しい男】{rt}はははッ。	【Suspicious Man】{rt}Hahaha.	
 B24.0162	line		【伊涼】{rt}俊ッ！！	【Isuzu】{rt}Shun!!	
 B24.0163	line		【矢村】{rt}伊涼ッ。	【Yamura】{rt}Isuzu!	
-B24.0164	line		【伊涼】{rt}《大罪》がこんなに身近に{rt}現れるなんて―――。		
-B24.0165	line		【伊涼】{rt}何者ッ！？		
-B24.0166	line		【伊涼】{rt}何をしにここへ来たの！？		
-B24.0167	line		【怪しい男】{rt}おれの名は《クマソ》。		
-B24.0168	line		【クマソ】{rt}そして、こっちの{rt}デカいのが―――		
-B24.0169	line		【クマソの声】{rt}おれの親友、《ヤマト》だ。		
-B24.0170	line		【クマソ】{rt}俺たちの目的は実に簡単だ。		
-B24.0171	line		【クマソ】{rt}お前らの魂を貰いに来た。		
-B24.0172	line		【伊涼】{rt}魂―――！？		
-B24.0173	line		【伊涼】{rt}（血のついた太刀―――。）		
-B24.0174	line		【伊涼】{rt}間違いない。		
-B24.0175	line		【伊涼】{rt}彼らが、あの事件の{rt}犯人だよッ。		
-B24.0176	line		【伊涼】{rt}俊ッ。{name1}くんをッ。		
+B24.0164	line		【伊涼】{rt}《大罪》がこんなに身近に{rt}現れるなんて―――。	【Isuzu】{rt}To think a Great Sin would show up this{rt}close--	
+B24.0165	line		【伊涼】{rt}何者ッ！？	【Isuzu】{rt}Who are you!?	
+B24.0166	line		【伊涼】{rt}何をしにここへ来たの！？	【Isuzu】{rt}What did you come here for!?	
+B24.0167	line		【怪しい男】{rt}おれの名は《クマソ》。	【Suspicious Man】{rt}My name is Kumaso.	
+B24.0168	line		【クマソ】{rt}そして、こっちの{rt}デカいのが―――	【Kumaso】{rt}And this big one here is--	
+B24.0169	line		【クマソの声】{rt}おれの親友、《ヤマト》だ。	【Kumaso's Voice】{rt}my dear friend, Yamato.	
+B24.0170	line		【クマソ】{rt}俺たちの目的は実に簡単だ。	【Kumaso】{rt}Our aim is very simple.	
+B24.0171	line		【クマソ】{rt}お前らの魂を貰いに来た。	【Kumaso】{rt}We've come for your souls.	
+B24.0172	line		【伊涼】{rt}魂―――！？	【Isuzu】{rt}Our souls--!?	
+B24.0173	line		【伊涼】{rt}（血のついた太刀―――。）	【Isuzu】{rt}(A bloodied longsword--)	
+B24.0174	line		【伊涼】{rt}間違いない。	【Isuzu】{rt}No doubt about it.	
+B24.0175	line		【伊涼】{rt}彼らが、あの事件の{rt}犯人だよッ。	【Isuzu】{rt}They're the ones behind those{rt}killings.	
+B24.0176	line		【伊涼】{rt}俊ッ。{name1}くんをッ。	【Isuzu】{rt}Shun. {name1}-kun.	
 B24.0177	line		【伊涼】{rt}俊ッ。	【Isuzu】{rt}Shun!	
-B24.0178	line		【伊涼】{rt}{name2}ちゃんをッ。		
-B24.0179	line		【矢村】{rt}（…やむを得ない、か。）		
-B24.0180	line		【矢村】{rt}分かった。		
-B24.0181	line		【矢村】{rt}氏神勧請・{name1}大明神！！		
-B24.0182	line		【クマソ】{rt}―――！？		
-B24.0183	line		【クマソ】{rt}（これは―――		
-B24.0184	line		【クマソ】{rt}　この《氣》は…。）		
-B24.0185	line		【クマソ】{rt}素晴らしい！！		
-B24.0186	line		【クマソ】{rt}この時代にも、		
-B24.0187	line		【クマソ】{rt}このような魂を持つ者が{rt}存在したとはッ！！		
-B24.0188	line		【クマソ】{rt}行け、ヤマトッ！！		
-B24.0189	line		【クマソ】{rt}奴の魂を召し取れッ！！		
-B24.0190	line		【ヤマト】{rt}ウ―――ウウッ！！		
-B24.0191	line		【ヤマト】{rt}ウオオオオッ！！		
-B24.0192	line		【伊涼】{rt}きゃッ！！		
-B24.0193	line		【ヤマト】{rt}―――！！		
-B24.0194	line		【ヤマト】{rt}グヌウウッ！？		
-B24.0195	line		【ヤマト】{rt}我が剣を―――		
-B24.0196	line		【ヤマト】{rt}止めただとォ！？		
-B24.0197	line		【伊涼】{rt}{name1}くんッ！！		
-B24.0198	line		【伊涼】{rt}{name2}ちゃんッ！！		
-B24.0199	line		【クマソ】{rt}くくッ―――！！		
-B24.0200	line		【クマソ】{rt}他人の身を{rt}心配している場合か？		
-B24.0201	line		【クマソ】{rt}お前の相手はこのおれだッ！！		
-B24.0202	line		【矢村】{rt}（う―――！！）		
+B24.0178	line		【伊涼】{rt}{name2}ちゃんをッ。	【Isuzu】{rt}{name2}-chan.	
+B24.0179	line		【矢村】{rt}（…やむを得ない、か。）	【Yamura】{rt}(...No choice, then.)	
+B24.0180	line		【矢村】{rt}分かった。	【Yamura】{rt}All right.	
+B24.0181	line		【矢村】{rt}氏神勧請・{name1}大明神！！	【Yamura】{rt}Ujigami Summoning: Great Deity{rt}{name1}!!	
+B24.0182	line		【クマソ】{rt}―――！？	【Kumaso】{rt}--!?	
+B24.0183	line		【クマソ】{rt}（これは―――	【Kumaso】{rt}(This--	
+B24.0184	line		【クマソ】{rt}　この《氣》は…。）	【Kumaso】{rt}this Ki...)	
+B24.0185	line		【クマソ】{rt}素晴らしい！！	【Kumaso】{rt}Splendid!!	
+B24.0186	line		【クマソ】{rt}この時代にも、	【Kumaso】{rt}To think that even in this age,	
+B24.0187	line		【クマソ】{rt}このような魂を持つ者が{rt}存在したとはッ！！	【Kumaso】{rt}there's someone with a soul like this!!	
+B24.0188	line		【クマソ】{rt}行け、ヤマトッ！！	【Kumaso】{rt}Go, Yamato!!	
+B24.0189	line		【クマソ】{rt}奴の魂を召し取れッ！！	【Kumaso】{rt}Take its soul!!	
+B24.0190	line		【ヤマト】{rt}ウ―――ウウッ！！	【Yamato】{rt}U--uugh!!	
+B24.0191	line		【ヤマト】{rt}ウオオオオッ！！	【Yamato】{rt}UOOOOOH!!	
+B24.0192	line		【伊涼】{rt}きゃッ！！	【Isuzu】{rt}Eek!!	
+B24.0193	line		【ヤマト】{rt}―――！！	【Yamato】{rt}--!!	
+B24.0194	line		【ヤマト】{rt}グヌウウッ！？	【Yamato】{rt}Gnuuugh!?	
+B24.0195	line		【ヤマト】{rt}我が剣を―――	【Yamato】{rt}It stopped--	
+B24.0196	line		【ヤマト】{rt}止めただとォ！？	【Yamato】{rt}my sword!?	
+B24.0197	line		【伊涼】{rt}{name1}くんッ！！	【Isuzu】{rt}{name1}-kun!!	
+B24.0198	line		【伊涼】{rt}{name2}ちゃんッ！！	【Isuzu】{rt}{name2}-chan!!	
+B24.0199	line		【クマソ】{rt}くくッ―――！！	【Kumaso】{rt}Heh heh--!!	
+B24.0200	line		【クマソ】{rt}他人の身を{rt}心配している場合か？	【Kumaso】{rt}Is this the time to worry about{rt}others?	
+B24.0201	line		【クマソ】{rt}お前の相手はこのおれだッ！！	【Kumaso】{rt}Your opponent is me!!	
+B24.0202	line		【矢村】{rt}（う―――！！）	【Yamura】{rt}(Ugh--!!)	
 B24.0203	line		【伊涼】{rt}俊ッ！！	【Isuzu】{rt}Shun!!	
 B24.0204	line		【矢村】{rt}くッ―――！！	【Yamura】{rt}Ngh--!!	
-B24.0205	line		【クマソ】{rt}何を迷っている？		
-B24.0206	line		【クマソ】{rt}お前の魂は今しも押し{rt}つぶされそうだ。		
-B24.0207	line		【クマソ】{rt}その迷いはせっかくの{rt}上等な魂を濁らせている。		
+B24.0205	line		【クマソ】{rt}何を迷っている？	【Kumaso】{rt}What are you hesitating over?	
+B24.0206	line		【クマソ】{rt}お前の魂は今しも押し{rt}つぶされそうだ。	【Kumaso】{rt}Your soul looks about to be crushed.	
+B24.0207	line		【クマソ】{rt}その迷いはせっかくの{rt}上等な魂を濁らせている。	【Kumaso】{rt}That doubt clouds what should be a{rt}fine soul.	
 B24.0208	line		【伊涼】{rt}―――？	【Isuzu】{rt}--?	
-B24.0209	line		【クマソ】{rt}お前らの《氣》は、		
-B24.0210	line		【クマソ】{rt}幾つもの闘いを通して{rt}練り上げられたものだ。		
-B24.0211	line		【クマソ】{rt}おれはそのような気高い―――		
-B24.0212	line		【クマソ】{rt}価値ある魂を求めて{rt}ここへやって来た。		
-B24.0213	line		【クマソ】{rt}しかし、今のお前はどうだ？		
-B24.0214	line		【クマソ】{rt}お前の魂を奪い去り、		
-B24.0215	line		【クマソ】{rt}死へと誘おうという者を{rt}前にしても、		
-B24.0216	line		【クマソ】{rt}闘おうという意志がまるで{rt}感じられん。		
+B24.0209	line		【クマソ】{rt}お前らの《氣》は、	【Kumaso】{rt}Your Ki	
+B24.0210	line		【クマソ】{rt}幾つもの闘いを通して{rt}練り上げられたものだ。	【Kumaso】{rt}has been forged through many{rt}battles.	
+B24.0211	line		【クマソ】{rt}おれはそのような気高い―――	【Kumaso】{rt}I came here seeking just such a{rt}noble--	
+B24.0212	line		【クマソ】{rt}価値ある魂を求めて{rt}ここへやって来た。	【Kumaso】{rt}a worthy soul.	
+B24.0213	line		【クマソ】{rt}しかし、今のお前はどうだ？	【Kumaso】{rt}But what about you now?	
+B24.0214	line		【クマソ】{rt}お前の魂を奪い去り、	【Kumaso】{rt}Even facing one who would steal your{rt}soul	
+B24.0215	line		【クマソ】{rt}死へと誘おうという者を{rt}前にしても、	【Kumaso】{rt}and lead you to death,	
+B24.0216	line		【クマソ】{rt}闘おうという意志がまるで{rt}感じられん。	【Kumaso】{rt}I can't feel any will to fight in you.	
 B24.0217	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B24.0218	line		【クマソ】{rt}今、お前の魂を{rt}奪ったところで、		
-B24.0219	line		【クマソ】{rt}それはおれたちが今までに{rt}殺した雑魚どものそれと		
-B24.0220	line		【クマソ】{rt}変わりはしないだろう。		
-B24.0221	line		【クマソ】{rt}おれはそんな魂には{rt}飽き飽きしてるんだ。		
-B24.0222	line		【クマソ】{rt}殺す価値もない―――。		
-B24.0223	line		【クマソ】{rt}近頃そう感じてきたよ。		
-B24.0224	line		【矢村】{rt}つッ―――！？		
-B24.0225	line		【クマソ】{rt}時間をやろう。		
-B24.0226	line		【クマソ】{rt}一昼夜だ。		
-B24.0227	line		【クマソ】{rt}その間に迷いを捨て、		
-B24.0228	line		【クマソ】{rt}平将門（たいらのまさかど）の{rt}《首塚》まで来い。		
-B24.0229	line		【クマソ】{rt}それまでは《生け贄》を{rt}殺すのを控えてやるよ。		
-B24.0230	line		【クマソ】{rt}どうやら、気に入らない{rt}ようだからな。		
-B24.0231	line		【伊涼】{rt}本当ね？		
-B24.0232	line		【クマソ】{rt}ああ。		
-B24.0233	line		【クマソ】{rt}そいつの頬の傷が約束の証だ。		
-B24.0234	line		【クマソ】{rt}くくッ。		
-B24.0235	line		【クマソ】{rt}その代わり―――。		
+B24.0218	line		【クマソ】{rt}今、お前の魂を{rt}奪ったところで、	【Kumaso】{rt}If I took your soul now,	
+B24.0219	line		【クマソ】{rt}それはおれたちが今までに{rt}殺した雑魚どものそれと	【Kumaso】{rt}it'd be no different from those of the{rt}small fry	
+B24.0220	line		【クマソ】{rt}変わりはしないだろう。	【Kumaso】{rt}we've killed so far.	
+B24.0221	line		【クマソ】{rt}おれはそんな魂には{rt}飽き飽きしてるんだ。	【Kumaso】{rt}I'm sick and tired of souls like that.	
+B24.0222	line		【クマソ】{rt}殺す価値もない―――。	【Kumaso】{rt}Not even worth killing--	
+B24.0223	line		【クマソ】{rt}近頃そう感じてきたよ。	【Kumaso】{rt}that's how I've come to feel lately.	
+B24.0224	line		【矢村】{rt}つッ―――！？	【Yamura】{rt}Tch--!?	
+B24.0225	line		【クマソ】{rt}時間をやろう。	【Kumaso】{rt}I'll give you time.	
+B24.0226	line		【クマソ】{rt}一昼夜だ。	【Kumaso】{rt}One day and one night.	
+B24.0227	line		【クマソ】{rt}その間に迷いを捨て、	【Kumaso】{rt}In that time, cast off your doubt,	
+B24.0228	line		【クマソ】{rt}平将門（たいらのまさかど）の{rt}《首塚》まで来い。	【Kumaso】{rt}and come to the Head Mound of Taira{rt}no Masakado.	
+B24.0229	line		【クマソ】{rt}それまでは《生け贄》を{rt}殺すのを控えてやるよ。	【Kumaso】{rt}Until then, I'll hold off on killing{rt}Sacrifices.	
+B24.0230	line		【クマソ】{rt}どうやら、気に入らない{rt}ようだからな。	【Kumaso】{rt}You don't seem to like it, after all.	
+B24.0231	line		【伊涼】{rt}本当ね？	【Isuzu】{rt}You mean it?	
+B24.0232	line		【クマソ】{rt}ああ。	【Kumaso】{rt}Yes.	
+B24.0233	line		【クマソ】{rt}そいつの頬の傷が約束の証だ。	【Kumaso】{rt}The cut on his cheek is proof of the{rt}promise.	
+B24.0234	line		【クマソ】{rt}くくッ。	【Kumaso】{rt}Heh heh.	
+B24.0235	line		【クマソ】{rt}その代わり―――。	【Kumaso】{rt}In exchange--	
 B24.0236	line		【矢村】{rt}―――！？	【Yamura】{rt}--!?	
-B24.0237	line		【クマソ】{rt}一昼夜の内にお前が迷いを{rt}捨てられなかった場合は、		
-B24.0238	line		【クマソ】{rt}その傷からおれの咒（しゅ）が{rt}侵入し、		
-B24.0239	line		【クマソ】{rt}お前を冒すだろう。		
-B24.0240	line		【クマソ】{rt}くくくッ。		
-B24.0241	line		【クマソ】{rt}そうなれば、意図せずとも、		
-B24.0242	line		【クマソ】{rt}お前の足は勝手に{rt}首塚へと向かう。		
-B24.0243	line		【クマソ】{rt}《生け贄》としてな。		
+B24.0237	line		【クマソ】{rt}一昼夜の内にお前が迷いを{rt}捨てられなかった場合は、	【Kumaso】{rt}if you can't cast off your doubt within{rt}a day and a night,	
+B24.0238	line		【クマソ】{rt}その傷からおれの咒（しゅ）が{rt}侵入し、	【Kumaso】{rt}my curse will enter through that cut	
+B24.0239	line		【クマソ】{rt}お前を冒すだろう。	【Kumaso】{rt}and eat away at you.	
+B24.0240	line		【クマソ】{rt}くくくッ。	【Kumaso】{rt}Heh heh heh.	
+B24.0241	line		【クマソ】{rt}そうなれば、意図せずとも、	【Kumaso】{rt}Then, whether you mean to or not,	
+B24.0242	line		【クマソ】{rt}お前の足は勝手に{rt}首塚へと向かう。	【Kumaso】{rt}your feet will carry you to the Head{rt}Mound on their own.	
+B24.0243	line		【クマソ】{rt}《生け贄》としてな。	【Kumaso】{rt}As a Sacrifice.	
 B24.0244	line		【矢村】{rt}くッ―――。	【Yamura】{rt}Ngh--	
-B24.0245	line		【伊涼】{rt}そんなッ！！		
-B24.0246	line		【クマソ】{rt}ま、そういう訳だ。		
-B24.0247	line		【クマソ】{rt}どうせ捧げるなら、相手に{rt}喜ばれたほうが得だぞ？		
-B24.0248	line		【クマソ】{rt}ははははッ！！		
-B24.0249	line		【ヤマト】{rt}…………。		
+B24.0245	line		【伊涼】{rt}そんなッ！！	【Isuzu】{rt}No!!	
+B24.0246	line		【クマソ】{rt}ま、そういう訳だ。	【Kumaso】{rt}Well, that's how it is.	
+B24.0247	line		【クマソ】{rt}どうせ捧げるなら、相手に{rt}喜ばれたほうが得だぞ？	【Kumaso】{rt}If you're going to be offered up{rt}anyway, better that it pleases, no?	
+B24.0248	line		【クマソ】{rt}ははははッ！！	【Kumaso】{rt}Hahahaha!!	
+B24.0249	line		【ヤマト】{rt}…………。	【Yamato】{rt}......	
 B24.0250	line		【伊涼】{rt}俊ッ。	【Isuzu】{rt}Shun!	
-B24.0251	line		【矢村】{rt}―――。		
-B24.0252	line		【伊涼】{rt}迷ってられない。闘おう、俊。		
-B24.0253	line		【伊涼】{rt}闘って、呪いを解こう？		
+B24.0251	line		【矢村】{rt}―――。	【Yamura】{rt}--	
+B24.0252	line		【伊涼】{rt}迷ってられない。闘おう、俊。	【Isuzu】{rt}We can't hesitate. Let's fight, Shun.	
+B24.0253	line		【伊涼】{rt}闘って、呪いを解こう？	【Isuzu】{rt}Fight, and break the curse, okay?	
 B24.0254	line		【矢村】{rt}伊涼―――。	【Yamura】{rt}Isuzu--	
-B24.0255	line		【矢村】{rt}…だめだ。		
-B24.0256	line		【矢村】{rt}だめなんだッ。		
+B24.0255	line		【矢村】{rt}…だめだ。	【Yamura】{rt}...It's no good.	
+B24.0256	line		【矢村】{rt}だめなんだッ。	【Yamura】{rt}It's no good.	
 B24.0257	line		【伊涼】{rt}俊ッ！！	【Isuzu】{rt}Shun!!	
-B24.0258	line		【矢村】{rt}こんな迷いを抱えたまま{rt}《大罪》と闘っても、		
-B24.0259	line		【矢村】{rt}勝てやしないッ。		
+B24.0258	line		【矢村】{rt}こんな迷いを抱えたまま{rt}《大罪》と闘っても、	【Yamura】{rt}Fighting the Great Sin with this doubt{rt}hanging over me,	
+B24.0259	line		【矢村】{rt}勝てやしないッ。	【Yamura】{rt}I could never win.	
 B24.0260	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
-B24.0261	line		【矢村】{rt}俺は今まで、{rt}自分が《大罪》を祓う事が		
-B24.0262	line		【矢村】{rt}この世を浄化するものだと{rt}ばかり思っていた。		
-B24.0263	line		【矢村】{rt}しかし、振り返れば、それは{rt}俺の思い込みに過ぎない。		
-B24.0264	line		【矢村】{rt}優鉢羅は、{rt}俺たちが行動する事が		
-B24.0265	line		【矢村】{rt}ますます酷い結果を生む{rt}と言った。		
-B24.0266	line		【矢村】{rt}もし、奴の言った事が{rt}正しいとしたら―――。		
-B24.0267	line		【伊涼】{rt}でも、現に《大罪》の犠牲に{rt}なっている人がいるんだよ？		
-B24.0268	line		【伊涼】{rt}《大罪》は悪い。		
-B24.0269	line		【伊涼】{rt}だから封印する―――。		
-B24.0270	line		【伊涼】{rt}それじゃいけないの？		
+B24.0261	line		【矢村】{rt}俺は今まで、{rt}自分が《大罪》を祓う事が	【Yamura】{rt}Until now, I always thought purging the{rt}Great Sin	
+B24.0262	line		【矢村】{rt}この世を浄化するものだと{rt}ばかり思っていた。	【Yamura】{rt}was cleansing the world.	
+B24.0263	line		【矢村】{rt}しかし、振り返れば、それは{rt}俺の思い込みに過ぎない。	【Yamura】{rt}But looking back, that was only my own{rt}assumption.	
+B24.0264	line		【矢村】{rt}優鉢羅は、{rt}俺たちが行動する事が	【Yamura】{rt}Uhatsura said our actions	
+B24.0265	line		【矢村】{rt}ますます酷い結果を生む{rt}と言った。	【Yamura】{rt}would bring about even worse{rt}results.	
+B24.0266	line		【矢村】{rt}もし、奴の言った事が{rt}正しいとしたら―――。	【Yamura】{rt}If what he said is right--	
+B24.0267	line		【伊涼】{rt}でも、現に《大罪》の犠牲に{rt}なっている人がいるんだよ？	【Isuzu】{rt}But there are people falling victim to{rt}the Great Sin right now, you know?	
+B24.0268	line		【伊涼】{rt}《大罪》は悪い。	【Isuzu】{rt}The Great Sin is bad.	
+B24.0269	line		【伊涼】{rt}だから封印する―――。	【Isuzu】{rt}So we seal it--	
+B24.0270	line		【伊涼】{rt}それじゃいけないの？	【Isuzu】{rt}Isn't that enough?	
 B24.0271	line		【矢村】{rt}だめだッ。	【Yamura】{rt}No!	
-B24.0272	line		【伊涼】{rt}どうして！？		
-B24.0273	line		【矢村】{rt}《大罪》は人間の生むものだ。		
-B24.0274	line		【矢村】{rt}それに対して他方を悪と{rt}決め付けるような考えで		
-B24.0275	line		【矢村】{rt}立ち向かうのは、		
-B24.0276	line		【矢村】{rt}あの高丸と変わらないッ。		
+B24.0272	line		【伊涼】{rt}どうして！？	【Isuzu】{rt}Why!?	
+B24.0273	line		【矢村】{rt}《大罪》は人間の生むものだ。	【Yamura】{rt}The Great Sin is something humans give{rt}birth to.	
+B24.0274	line		【矢村】{rt}それに対して他方を悪と{rt}決め付けるような考えで	【Yamura】{rt}Facing it with a mindset that brands{rt}the other side as evil	
+B24.0275	line		【矢村】{rt}立ち向かうのは、	【Yamura】{rt}makes me	
+B24.0276	line		【矢村】{rt}あの高丸と変わらないッ。	【Yamura】{rt}no different from Takamaru.	
 B24.0277	line		【高丸】{rt}決して《陰》に交わらぬ―――	【Takamaru】{rt}Never mingling with the Shade--	
 B24.0278	line		【高丸】{rt}それが貴様ら、《陽の者》だ。	【Takamaru】{rt}that's what you Light folk are.	
 B24.0279	line		【高丸】{rt}己が大願を成すためには{rt}貴様らを斃さねばならない。	【Takamaru】{rt}To fulfil my great wish, I must bring{rt}you down.	
 B24.0280	line		【高丸】{rt}死んでいった{rt}《陰の者》たち―――	【Takamaru】{rt}For the Shade folk who died--	
-B24.0281	line		【高丸】{rt}そして、{rt}己の娘の魂のためにも…		
+B24.0281	line		【高丸】{rt}そして、{rt}己の娘の魂のためにも…	【Takamaru】{rt}And for my daughter's soul...	
 B24.0282	line		【高丸】{rt}俊宗―――	【Takamaru】{rt}Toshimune--	
 B24.0283	line		【高丸】{rt}己は貴様を{rt}許しはしないぞッ！！	【Takamaru】{rt}I will never forgive you!!	
 B24.0284	line		【高丸】{rt}絶対になあッ！！	【Takamaru】{rt}Never!!	
-B24.0285	line		【矢村】{rt}それでも一時は《大罪》を{rt}鎮められるかもしれない。		
-B24.0286	line		【矢村】{rt}しかし、それはいずれ{rt}善と悪の対立を生み、		
-B24.0287	line		【矢村】{rt}悪と決め付けられた者―――		
-B24.0288	line		【矢村】{rt}つまり《陰の者》の生む{rt}憎しみは、		
-B24.0289	line		【矢村】{rt}再び《大罪》へと{rt}成長するに違いないんだッ。		
-B24.0290	line		【伊涼】{rt}でも―――		
-B24.0291	line		【伊涼】{rt}それじゃあ、俊のその《力》は{rt}何のためにあるの！？		
-B24.0292	line		【伊涼】{rt}《大罪》に		
-B24.0293	line		【伊涼】{rt}私や{name1}くんと		
-B24.0294	line		【伊涼】{rt}私や{name2}ちゃんと		
-B24.0295	line		【伊涼】{rt}一緒に立ち向かうための{rt}《力》じゃないの？		
+B24.0285	line		【矢村】{rt}それでも一時は《大罪》を{rt}鎮められるかもしれない。	【Yamura】{rt}Even so, we might calm the Great Sin{rt}for a while.	
+B24.0286	line		【矢村】{rt}しかし、それはいずれ{rt}善と悪の対立を生み、	【Yamura】{rt}But sooner or later that breeds a clash{rt}of good and evil,	
+B24.0287	line		【矢村】{rt}悪と決め付けられた者―――	【Yamura】{rt}and the hatred born of those branded{rt}evil--	
+B24.0288	line		【矢村】{rt}つまり《陰の者》の生む{rt}憎しみは、	【Yamura】{rt}the Shade folk, that is--	
+B24.0289	line		【矢村】{rt}再び《大罪》へと{rt}成長するに違いないんだッ。	【Yamura】{rt}is sure to grow into the Great Sin{rt}again.	
+B24.0290	line		【伊涼】{rt}でも―――	【Isuzu】{rt}But--	
+B24.0291	line		【伊涼】{rt}それじゃあ、俊のその《力》は{rt}何のためにあるの！？	【Isuzu】{rt}then what is that Power of yours for,{rt}Shun!?	
+B24.0292	line		【伊涼】{rt}《大罪》に	【Isuzu】{rt}Isn't it Power for standing up to	
+B24.0293	line		【伊涼】{rt}私や{name1}くんと	【Isuzu】{rt}the Great Sin with me and{rt}{name1}-kun,	
+B24.0294	line		【伊涼】{rt}私や{name2}ちゃんと	【Isuzu】{rt}the Great Sin with me and{rt}{name2}-chan,	
+B24.0295	line		【伊涼】{rt}一緒に立ち向かうための{rt}《力》じゃないの？	【Isuzu】{rt}together?	
 B24.0296	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B24.0297	line		【伊涼】{rt}誰が正しいのかなんて、{rt}私にも分からない。		
+B24.0297	line		【伊涼】{rt}誰が正しいのかなんて、{rt}私にも分からない。	【Isuzu】{rt}Who's right, I don't know either.	
 B24.0298	line		【伊涼】{rt}だけど―――	【Isuzu】{rt}But--	
-B24.0299	line		【伊涼】{rt}私、この東京が好きだから…。		
-B24.0300	line		【伊涼】{rt}《大罪》が現れる前の生活を{rt}壊されたくないから、		
-B24.0301	line		【伊涼】{rt}そのために、闘いたいのッ。		
+B24.0299	line		【伊涼】{rt}私、この東京が好きだから…。	【Isuzu】{rt}I love this Tokyo...	
+B24.0300	line		【伊涼】{rt}《大罪》が現れる前の生活を{rt}壊されたくないから、	【Isuzu】{rt}I don't want the life we had before the{rt}Great Sin appeared destroyed,	
+B24.0301	line		【伊涼】{rt}そのために、闘いたいのッ。	【Isuzu】{rt}so I want to fight for that.	
 B24.0302	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B24.0303	line		【伊涼】{rt}自分勝手かもしれないけど――		
-B24.0304	line		【伊涼】{rt}そんな呪いなんかで{rt}俊が命を落としたら、		
-B24.0305	line		【伊涼】{rt}その、すごく大きな部分が{rt}欠けちゃうんだ。		
-B24.0306	line		【伊涼】{rt}そんなの、私―――		
-B24.0307	line		【伊涼】{rt}我慢できないよ…。		
+B24.0303	line		【伊涼】{rt}自分勝手かもしれないけど――	【Isuzu】{rt}It might be selfish, but--	
+B24.0304	line		【伊涼】{rt}そんな呪いなんかで{rt}俊が命を落としたら、	【Isuzu】{rt}if you lose your life to some curse,{rt}Shun,	
+B24.0305	line		【伊涼】{rt}その、すごく大きな部分が{rt}欠けちゃうんだ。	【Isuzu】{rt}a really big part of that will be{rt}missing.	
+B24.0306	line		【伊涼】{rt}そんなの、私―――	【Isuzu】{rt}I just--	
+B24.0307	line		【伊涼】{rt}我慢できないよ…。	【Isuzu】{rt}couldn't stand that...	
 B24.0308	line		【伊涼】{rt}{name1}くん…。	【Isuzu】{rt}{name1}-kun...	
 B24.0309	line		【伊涼】{rt}{name2}ちゃん…。	【Isuzu】{rt}{name2}-chan...	
-B24.0310	line		【伊涼】{rt}たったこれだけの事じゃ、		
-B24.0311	line		【伊涼】{rt}《大罪》と闘う理由には{rt}ならないのかな？		
+B24.0310	line		【伊涼】{rt}たったこれだけの事じゃ、	【Isuzu】{rt}Is something as small as that	
+B24.0311	line		【伊涼】{rt}《大罪》と闘う理由には{rt}ならないのかな？	【Isuzu】{rt}not reason enough to fight the Great{rt}Sin?	
 B24.0312	line		【伊涼】{rt}{name1}くん…。	【Isuzu】{rt}{name1}-kun...	
 B24.0313	line		【伊涼】{rt}{name2}ちゃん…。	【Isuzu】{rt}{name2}-chan...	
-B24.0314	line		【伊涼】{rt}私、嬉しい。		
+B24.0314	line		【伊涼】{rt}私、嬉しい。	【Isuzu】{rt}I'm happy.	
 B24.0315	line		【伊涼】{rt}俊―――。	【Isuzu】{rt}Shun--	
-B24.0316	line		【伊涼】{rt}迷う事はないよ。		
-B24.0317	line		【伊涼】{rt}一緒に行こう。		
-B24.0318	line		【伊涼】{rt}そして、闘おう？		
+B24.0316	line		【伊涼】{rt}迷う事はないよ。	【Isuzu】{rt}There's nothing to hesitate over.	
+B24.0317	line		【伊涼】{rt}一緒に行こう。	【Isuzu】{rt}Let's go together.	
+B24.0318	line		【伊涼】{rt}そして、闘おう？	【Isuzu】{rt}And fight, okay?	
 B24.0319	line		【伊涼】{rt}ね？	【Isuzu】{rt}Right?	
 B24.0320	line		【矢村】{rt}…………。	【Yamura】{rt}............	
 B24.0321	line		【矢村】{rt}{name1}…。	【Yamura】{rt}{name1}...	
-B24.0322	line		【矢村】{rt}お前はいつも真っ直ぐ先を{rt}見てるんだな。		
-B24.0323	line		【矢村】{rt}そして、いつも俺より先に{rt}答を得ている―――。		
-B24.0324	line		【矢村】{rt}そんな感じがするよ。		
+B24.0322	line		【矢村】{rt}お前はいつも真っ直ぐ先を{rt}見てるんだな。	【Yamura】{rt}You always look straight ahead, don't{rt}you?	
+B24.0323	line		【矢村】{rt}そして、いつも俺より先に{rt}答を得ている―――。	【Yamura】{rt}And you always find the answer before{rt}I do--	
+B24.0324	line		【矢村】{rt}そんな感じがするよ。	【Yamura】{rt}that's how it feels.	
 B24.0325	line		【伊涼】{rt}{name1}くん…。	【Isuzu】{rt}{name1}-kun...	
 B24.0326	line		【伊涼】{rt}{name2}ちゃん…。	【Isuzu】{rt}{name2}-chan...	
-B24.0327	line		【伊涼】{rt}私、嬉しいよ。		
+B24.0327	line		【伊涼】{rt}私、嬉しいよ。	【Isuzu】{rt}I'm happy.	
 B24.0328	line		【矢村】{rt}{name1}…。	【Yamura】{rt}{name1}...	
-B24.0329	line		【矢村】{rt}お前も伊涼に近い{rt}考えなんだな。		
+B24.0329	line		【矢村】{rt}お前も伊涼に近い{rt}考えなんだな。	【Yamura】{rt}You think like Isuzu too, huh.	
 B24.0330	line		【矢村】{rt}だが―――	【Yamura】{rt}But--	
-B24.0331	line		【矢村】{rt}自分を信じて闘うのはいいが、{rt}その結果が出るまで、		
-B24.0332	line		【矢村】{rt}それが正しかったかどうかは{rt}分からないんだ。		
-B24.0333	line		【矢村】{rt}自分の行動が悪い結果を{rt}引き起こしたら―――。		
-B24.0334	line		【矢村】{rt}俺はそれが怖いんだ。		
-B24.0335	line		【伊涼】{rt}でもッ！！		
-B24.0336	line		【伊涼】{rt}だからって、{rt}ここで闘わなかったら、		
-B24.0337	line		【伊涼】{rt}良いにせよ、悪いにせよ―――		
-B24.0338	line		【伊涼】{rt}俊の未来自体が{rt}なくなっちゃうんだよッ！？		
+B24.0331	line		【矢村】{rt}自分を信じて闘うのはいいが、{rt}その結果が出るまで、	【Yamura】{rt}Believing in yourself and fighting is{rt}fine, but until the results are in,	
+B24.0332	line		【矢村】{rt}それが正しかったかどうかは{rt}分からないんだ。	【Yamura】{rt}you don't know whether it was right.	
+B24.0333	line		【矢村】{rt}自分の行動が悪い結果を{rt}引き起こしたら―――。	【Yamura】{rt}What if what I do brings about{rt}something bad--	
+B24.0334	line		【矢村】{rt}俺はそれが怖いんだ。	【Yamura】{rt}That's what scares me.	
+B24.0335	line		【伊涼】{rt}でもッ！！	【Isuzu】{rt}But!!	
+B24.0336	line		【伊涼】{rt}だからって、{rt}ここで闘わなかったら、	【Isuzu】{rt}Even so, if you don't fight now,	
+B24.0337	line		【伊涼】{rt}良いにせよ、悪いにせよ―――	【Isuzu】{rt}good or bad--	
+B24.0338	line		【伊涼】{rt}俊の未来自体が{rt}なくなっちゃうんだよッ！？	【Isuzu】{rt}you won't have any future at all,{rt}Shun!?	
 B24.0339	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B24.0340	line		【伊涼】{rt}大丈夫だよ…。		
-B24.0341	line		【伊涼】{rt}私たちがついてるから…。		
+B24.0340	line		【伊涼】{rt}大丈夫だよ…。	【Isuzu】{rt}It's okay...	
+B24.0341	line		【伊涼】{rt}私たちがついてるから…。	【Isuzu】{rt}We're with you...	
 B24.0342	line		【伊涼】{rt}{name1}くん…。	【Isuzu】{rt}{name1}-kun...	
 B24.0343	line		【伊涼】{rt}{name2}ちゃん…。	【Isuzu】{rt}{name2}-chan...	
 B24.0344	line		【矢村】{rt}{name1}―――。	【Yamura】{rt}{name1}--	
-B24.0345	line		【矢村】{rt}お前も俺と同じように{rt}迷っていたのか？		
-B24.0346	line		【矢村】{rt}俺にはそうは見えなかった。		
-B24.0347	line		【矢村】{rt}お前にはいつも、		
-B24.0348	line		【矢村】{rt}真っ直ぐな先が見えている{rt}のかと思っていたよ。		
+B24.0345	line		【矢村】{rt}お前も俺と同じように{rt}迷っていたのか？	【Yamura】{rt}You were hesitating like me too?	
+B24.0346	line		【矢村】{rt}俺にはそうは見えなかった。	【Yamura】{rt}It didn't look that way to me.	
+B24.0347	line		【矢村】{rt}お前にはいつも、	【Yamura】{rt}I thought you could always	
+B24.0348	line		【矢村】{rt}真っ直ぐな先が見えている{rt}のかと思っていたよ。	【Yamura】{rt}see straight ahead.	
 B24.0349	line		【伊涼】{rt}{name1}くん…。	【Isuzu】{rt}{name1}-kun...	
 B24.0350	line		【伊涼】{rt}{name2}ちゃん…。	【Isuzu】{rt}{name2}-chan...	
-B24.0351	line		【矢村】{rt}…すまない。		
-B24.0352	line		【矢村】{rt}闘う理由というものを何かしら{rt}つかんでいるお前には、		
-B24.0353	line		【矢村】{rt}俺の迷いなんてのは{rt}じれったいだけだよな。		
+B24.0351	line		【矢村】{rt}…すまない。	【Yamura】{rt}...I'm sorry.	
+B24.0352	line		【矢村】{rt}闘う理由というものを何かしら{rt}つかんでいるお前には、	【Yamura】{rt}You've grasped some kind of reason to{rt}fight,	
+B24.0353	line		【矢村】{rt}俺の迷いなんてのは{rt}じれったいだけだよな。	【Yamura】{rt}my doubts must just be frustrating to{rt}you.	
 B24.0354	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
 B24.0355	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B24.0356	line		【矢村】{rt}行くよ。《首塚》へ。		
+B24.0356	line		【矢村】{rt}行くよ。《首塚》へ。	【Yamura】{rt}I'll go. To the Head Mound.	
 B24.0357	line		【伊涼】{rt}俊ッ！！	【Isuzu】{rt}Shun!!	
-B24.0358	line		【矢村】{rt}…答が出た訳じゃない。		
-B24.0359	line		【矢村】{rt}だが、それを考えるにせよ、{rt}一昼夜は短すぎる。		
-B24.0360	line		【矢村】{rt}そうだろう？伊涼。		
-B24.0361	line		【伊涼】{rt}そう―――。そうだよッ。		
-B24.0362	line		【矢村】{rt}ひとまず、{rt}死ぬ訳にはいかない…。		
-B24.0363	line		【矢村】{rt}（死ねば、迷いを抱える事すら{rt}　できなくなるんだから…）		
-B24.0364	line		【矢村】{rt}ここが平将門の怨念が{rt}眠るという《首塚》か。		
-B24.0365	line		【矢村】{rt}よりによってこんな場所を{rt}選ぶとは…。		
+B24.0358	line		【矢村】{rt}…答が出た訳じゃない。	【Yamura】{rt}...It's not that I've found the{rt}answer.	
+B24.0359	line		【矢村】{rt}だが、それを考えるにせよ、{rt}一昼夜は短すぎる。	【Yamura】{rt}But even to think it over, a day and a{rt}night is too short.	
+B24.0360	line		【矢村】{rt}そうだろう？伊涼。	【Yamura】{rt}Right, Isuzu?	
+B24.0361	line		【伊涼】{rt}そう―――。そうだよッ。	【Isuzu】{rt}Right--that's right.	
+B24.0362	line		【矢村】{rt}ひとまず、{rt}死ぬ訳にはいかない…。	【Yamura】{rt}For now, I can't afford to die...	
+B24.0363	line		【矢村】{rt}（死ねば、迷いを抱える事すら{rt}　できなくなるんだから…）	【Yamura】{rt}(If I die, I won't even be able to have{rt}doubts...)	
+B24.0364	line		【矢村】{rt}ここが平将門の怨念が{rt}眠るという《首塚》か。	【Yamura】{rt}So this is the Head Mound where Taira{rt}no Masakado's grudge sleeps.	
+B24.0365	line		【矢村】{rt}よりによってこんな場所を{rt}選ぶとは…。	【Yamura】{rt}Of all the places to pick...	
 B24.0366	line		【伊涼】{rt}―――！！	【Isuzu】{rt}--!!	
-B24.0367	line		【伊涼】{rt}神鈴が―――。		
-B24.0368	line		【矢村】{rt}来たな。		
-B24.0369	line		【伊涼】{rt}！？		
-B24.0370	line		【不良】{rt}…ううう。		
-B24.0371	line		【不良】{rt}あ…ううう。		
-B24.0372	line		【男の声】{rt}くくくく…。		
-B24.0373	line		【男の声】{rt}思ったより早かったな。		
-B24.0374	line		【伊涼】{rt}クマソ…。		
-B24.0375	line		【不良】{rt}…………。		
-B24.0376	line		【不良】{rt}…………。		
-B24.0377	line		【矢村】{rt}彼らに術をかけたのか！？		
-B24.0378	line		【矢村】{rt}俺との約束はどうしたッ！？		
-B24.0379	line		【クマソ】{rt}おっと、怖いねえ。		
-B24.0380	line		【クマソ】{rt}くくく。誤解するなよ。		
-B24.0381	line		【クマソ】{rt}おれが約束したのは、{rt}『殺さない』という事		
-B24.0382	line		【クマソ】{rt}だけだぜ。		
-B24.0383	line		【クマソ】{rt}だが、まあ、安心しなよ。		
-B24.0384	line		【クマソ】{rt}今日は《生け贄》どもには{rt}まだ指一本触れちゃいない。		
-B24.0385	line		【矢村】{rt}《生け贄》…。		
-B24.0386	line		【ヤマト】{rt}ぐ、ぐううッ…！！		
-B24.0387	line		【クマソ】{rt}感じるか？		
-B24.0388	line		【クマソ】{rt}かの武将、{rt}平将門の怨念を―――。		
-B24.0389	line		【クマソ】{rt}しかし、その魂は実はもう{rt}どこにも存在していない。		
-B24.0390	line		【クマソ】{rt}残るのはむせ返るような{rt}この怨念だけ―――。		
-B24.0391	line		【クマソ】{rt}この世に未練を残し、		
-B24.0392	line		【クマソ】{rt}蘇って仇敵を討とうという{rt}怨念だけだ。		
-B24.0393	line		【クマソ】{rt}ま、そのおかげで、{rt}おれの《傷》の具合は		
-B24.0394	line		【クマソ】{rt}ここにいる限りだいぶ{rt}いいんだがなァ。		
-B24.0395	line		【矢村】{rt}俺は約束どおりここへ来た！！		
-B24.0396	line		【矢村】{rt}術を解き、彼らを解放しろッ。		
-B24.0397	line		【クマソ】{rt}解く？		
-B24.0398	line		【クマソ】{rt}は―――。		
-B24.0399	line		【クマソ】{rt}そいつは残念だな。		
-B24.0400	line		【クマソ】{rt}おれ、解き方を知らないよ。		
+B24.0367	line		【伊涼】{rt}神鈴が―――。	【Isuzu】{rt}The Divine Bell--	
+B24.0368	line		【矢村】{rt}来たな。	【Yamura】{rt}He's here.	
+B24.0369	line		【伊涼】{rt}！？	【Isuzu】{rt}!?	
+B24.0370	line		【不良】{rt}…ううう。	【Delinquent】{rt}...Uuugh.	
+B24.0371	line		【不良】{rt}あ…ううう。	【Delinquent】{rt}Ah... uuugh.	
+B24.0372	line		【男の声】{rt}くくくく…。	【Man's Voice】{rt}Heh heh heh heh...	
+B24.0373	line		【男の声】{rt}思ったより早かったな。	【Man's Voice】{rt}Sooner than I expected.	
+B24.0374	line		【伊涼】{rt}クマソ…。	【Isuzu】{rt}Kumaso...	
+B24.0375	line		【不良】{rt}…………。	【Delinquent】{rt}......	
+B24.0376	line		【不良】{rt}…………。	【Delinquent】{rt}......	
+B24.0377	line		【矢村】{rt}彼らに術をかけたのか！？	【Yamura】{rt}You put a spell on them!?	
+B24.0378	line		【矢村】{rt}俺との約束はどうしたッ！？	【Yamura】{rt}What about your promise to me!?	
+B24.0379	line		【クマソ】{rt}おっと、怖いねえ。	【Kumaso】{rt}Whoa, scary.	
+B24.0380	line		【クマソ】{rt}くくく。誤解するなよ。	【Kumaso】{rt}Heh heh heh. Don't misunderstand.	
+B24.0381	line		【クマソ】{rt}おれが約束したのは、{rt}『殺さない』という事	【Kumaso】{rt}All I promised was	
+B24.0382	line		【クマソ】{rt}だけだぜ。	【Kumaso】{rt}"not to kill".	
+B24.0383	line		【クマソ】{rt}だが、まあ、安心しなよ。	【Kumaso】{rt}But hey, relax.	
+B24.0384	line		【クマソ】{rt}今日は《生け贄》どもには{rt}まだ指一本触れちゃいない。	【Kumaso】{rt}Today I haven't laid a finger on the{rt}Sacrifices yet.	
+B24.0385	line		【矢村】{rt}《生け贄》…。	【Yamura】{rt}Sacrifices...	
+B24.0386	line		【ヤマト】{rt}ぐ、ぐううッ…！！	【Yamato】{rt}Gh, guuugh...!!	
+B24.0387	line		【クマソ】{rt}感じるか？	【Kumaso】{rt}Can you feel it?	
+B24.0388	line		【クマソ】{rt}かの武将、{rt}平将門の怨念を―――。	【Kumaso】{rt}The grudge of that warlord, Taira no{rt}Masakado--	
+B24.0389	line		【クマソ】{rt}しかし、その魂は実はもう{rt}どこにも存在していない。	【Kumaso】{rt}But in truth, his soul no longer exists{rt}anywhere.	
+B24.0390	line		【クマソ】{rt}残るのはむせ返るような{rt}この怨念だけ―――。	【Kumaso】{rt}All that remains is this stifling{rt}grudge--	
+B24.0391	line		【クマソ】{rt}この世に未練を残し、	【Kumaso】{rt}a grudge clinging to this world,	
+B24.0392	line		【クマソ】{rt}蘇って仇敵を討とうという{rt}怨念だけだ。	【Kumaso】{rt}wanting to come back and strike down{rt}its foes.	
+B24.0393	line		【クマソ】{rt}ま、そのおかげで、{rt}おれの《傷》の具合は	【Kumaso】{rt}Well, thanks to it, my Wound	
+B24.0394	line		【クマソ】{rt}ここにいる限りだいぶ{rt}いいんだがなァ。	【Kumaso】{rt}feels a good deal better as long as I'm{rt}here.	
+B24.0395	line		【矢村】{rt}俺は約束どおりここへ来た！！	【Yamura】{rt}I came here as promised!!	
+B24.0396	line		【矢村】{rt}術を解き、彼らを解放しろッ。	【Yamura】{rt}Undo the spell and let them go.	
+B24.0397	line		【クマソ】{rt}解く？	【Kumaso】{rt}Undo it?	
+B24.0398	line		【クマソ】{rt}は―――。	【Kumaso】{rt}Ha--	
+B24.0399	line		【クマソ】{rt}そいつは残念だな。	【Kumaso】{rt}That's too bad.	
+B24.0400	line		【クマソ】{rt}おれ、解き方を知らないよ。	【Kumaso】{rt}I don't know how to undo it.	
 B24.0401	line		【矢村】{rt}何だとッ！？	【Yamura】{rt}What!?	
-B24.0402	line		【クマソ】{rt}解こうなんて思った事も{rt}ないしな。		
-B24.0403	line		【クマソ】{rt}みんな、コイツが斬っち{rt}まったし。		
-B24.0404	line		【ヤマト】{rt}く、クマソ…。		
-B24.0405	line		【クマソ】{rt}お、なんだァ、ヤマト。		
-B24.0406	line		【クマソ】{rt}待ちきれないのか！？		
+B24.0402	line		【クマソ】{rt}解こうなんて思った事も{rt}ないしな。	【Kumaso】{rt}Never even thought about undoing{rt}it.	
+B24.0403	line		【クマソ】{rt}みんな、コイツが斬っち{rt}まったし。	【Kumaso】{rt}This guy always cut them all down.	
+B24.0404	line		【ヤマト】{rt}く、クマソ…。	【Yamato】{rt}K-Kumaso...	
+B24.0405	line		【クマソ】{rt}お、なんだァ、ヤマト。	【Kumaso】{rt}Oh, what is it, Yamato?	
+B24.0406	line		【クマソ】{rt}待ちきれないのか！？	【Kumaso】{rt}Can't wait any longer!?	
 B24.0407	line		【伊涼】{rt}―――？	【Isuzu】{rt}--?	
-B24.0408	line		【クマソ】{rt}分かったよ。		
-B24.0409	line		【クマソ】{rt}じゃあ、そろそろ始めるか！！		
-B24.0410	line		【不良】{rt}…う。		
-B24.0411	line		【不良】{rt}うううッ！！		
+B24.0408	line		【クマソ】{rt}分かったよ。	【Kumaso】{rt}All right.	
+B24.0409	line		【クマソ】{rt}じゃあ、そろそろ始めるか！！	【Kumaso】{rt}Then let's get started!!	
+B24.0410	line		【不良】{rt}…う。	【Delinquent】{rt}...Ugh.	
+B24.0411	line		【不良】{rt}うううッ！！	【Delinquent】{rt}Uuuugh!!	
 B24.0412	line		【伊涼】{rt}―――！！	【Isuzu】{rt}--!!	
-B24.0413	line		【ヤマト】{rt}クマソォッ！！		
-B24.0414	line		【ヤマト】{rt}やめろォォ！！		
-B24.0415	line		【クマソ】{rt}やめろ？		
-B24.0416	line		【クマソ】{rt}くくくく―――。		
-B24.0417	line		【クマソ】{rt}やめろ、だと！？		
-B24.0418	line		【クマソ】{rt}ふざけるなよ、ヤマトッ。		
-B24.0419	line		【クマソ】{rt}これはお前に惨殺された{rt}民の魂に捧げる		
-B24.0420	line		【クマソ】{rt}《生け贄》なんだぞ！？		
-B24.0421	line		【クマソ】{rt}分かるか？ヤマトォ！？		
-B24.0422	line		【ヤマト】{rt}ぐうううッ！！		
-B24.0423	line		【伊涼】{rt}（クマソの《力》が{rt}　ヤマトを縛っている！？）		
-B24.0424	line		【ヤマト】{rt}や、やめ…ろッ！！		
-B24.0425	line		【クマソ】{rt}くくく…。		
-B24.0426	line		【クマソ】{rt}安心して殺せよ。		
-B24.0427	line		【クマソ】{rt}どうせこのような愚民どもには		
-B24.0428	line		【クマソ】{rt}生け贄の他に利用価値なんて{rt}ありはしないぜ。		
-B24.0429	line		【クマソ】{rt}それは古（いにしえ）の{rt}あの時も今も…		
-B24.0430	line		【クマソ】{rt}変わりはしない。{rt}そうだろう、ヤマト―――？		
-B24.0431	line		【ヤマト】{rt}オ、オオオ―――		
-B24.0432	line		【ヤマト】{rt}グウオオッ！！		
-B24.0433	line		【クマソ】{rt}それでいい。		
-B24.0434	line		【クマソ】{rt}…行け、《生け贄》ども。		
+B24.0413	line		【ヤマト】{rt}クマソォッ！！	【Yamato】{rt}Kumasooo!!	
+B24.0414	line		【ヤマト】{rt}やめろォォ！！	【Yamato】{rt}Stoooop!!	
+B24.0415	line		【クマソ】{rt}やめろ？	【Kumaso】{rt}Stop?	
+B24.0416	line		【クマソ】{rt}くくくく―――。	【Kumaso】{rt}Heh heh heh heh--	
+B24.0417	line		【クマソ】{rt}やめろ、だと！？	【Kumaso】{rt}Stop, you say!?	
+B24.0418	line		【クマソ】{rt}ふざけるなよ、ヤマトッ。	【Kumaso】{rt}Don't make me laugh, Yamato.	
+B24.0419	line		【クマソ】{rt}これはお前に惨殺された{rt}民の魂に捧げる	【Kumaso】{rt}These are Sacrifices offered to the{rt}souls	
+B24.0420	line		【クマソ】{rt}《生け贄》なんだぞ！？	【Kumaso】{rt}of the people you slaughtered, you{rt}know!?	
+B24.0421	line		【クマソ】{rt}分かるか？ヤマトォ！？	【Kumaso】{rt}Understand? Yamatooo!?	
+B24.0422	line		【ヤマト】{rt}ぐうううッ！！	【Yamato】{rt}Guuuugh!!	
+B24.0423	line		【伊涼】{rt}（クマソの《力》が{rt}　ヤマトを縛っている！？）	【Isuzu】{rt}(Kumaso's Power is binding Yamato!?)	
+B24.0424	line		【ヤマト】{rt}や、やめ…ろッ！！	【Yamato】{rt}S-stop... it!!	
+B24.0425	line		【クマソ】{rt}くくく…。	【Kumaso】{rt}Heh heh heh...	
+B24.0426	line		【クマソ】{rt}安心して殺せよ。	【Kumaso】{rt}Go ahead and kill, no worries.	
+B24.0427	line		【クマソ】{rt}どうせこのような愚民どもには	【Kumaso】{rt}Fools like these	
+B24.0428	line		【クマソ】{rt}生け贄の他に利用価値なんて{rt}ありはしないぜ。	【Kumaso】{rt}are worth nothing but as sacrifices{rt}anyway.	
+B24.0429	line		【クマソ】{rt}それは古（いにしえ）の{rt}あの時も今も…	【Kumaso】{rt}Back in the old days and now...	
+B24.0430	line		【クマソ】{rt}変わりはしない。{rt}そうだろう、ヤマト―――？	【Kumaso】{rt}nothing's changed. Isn't that right,{rt}Yamato--?	
+B24.0431	line		【ヤマト】{rt}オ、オオオ―――	【Yamato】{rt}O, ooooh--	
+B24.0432	line		【ヤマト】{rt}グウオオッ！！	【Yamato】{rt}GWOOOH!!	
+B24.0433	line		【クマソ】{rt}それでいい。	【Kumaso】{rt}That's it.	
+B24.0434	line		【クマソ】{rt}…行け、《生け贄》ども。	【Kumaso】{rt}...Go, Sacrifices.	
 B24.0435	line		【矢村】{rt}―――！！	【Yamura】{rt}--!!	
-B24.0436	line		【ヤマト】{rt}（やめろッ！！私はもう――）		
-B24.0437	line		【不良】{rt}…う、うう。		
-B24.0438	line		【ヤマト】{rt}（誰も殺したくはないんだ！）		
-B24.0439	line		【不良】{rt}…う、うう。		
-B24.0440	line		【ヤマト】{rt}オオオオオッ！！		
-B24.0441	line		【不良】{rt}ぎゃああッ！！		
-B24.0442	line		【ヤマト】{rt}アアッ！！		
-B24.0443	line		【クマソ】{rt}はッはッはッ！！		
-B24.0444	line		【クマソ】{rt}始まったァ！！		
-B24.0445	line		【クマソ】{rt}もう止まらないッ！！		
-B24.0446	line		【クマソ】{rt}獲物が無くなるまで殺すぞ！！		
-B24.0447	line		【クマソ】{rt}ハハハハァッ！！		
-B24.0448	line		【クマソ】{rt}いいぞ、ヤマト！！		
-B24.0449	line		【クマソ】{rt}古のお前を思い出せッ！！		
+B24.0436	line		【ヤマト】{rt}（やめろッ！！私はもう――）	【Yamato】{rt}(Stop!! I don't want--)	
+B24.0437	line		【不良】{rt}…う、うう。	【Delinquent】{rt}...Uh, uugh.	
+B24.0438	line		【ヤマト】{rt}（誰も殺したくはないんだ！）	【Yamato】{rt}(to kill anyone anymore!)	
+B24.0439	line		【不良】{rt}…う、うう。	【Delinquent】{rt}...Uh, uugh.	
+B24.0440	line		【ヤマト】{rt}オオオオオッ！！	【Yamato】{rt}OOOOOOH!!	
+B24.0441	line		【不良】{rt}ぎゃああッ！！	【Delinquent】{rt}Gyaaah!!	
+B24.0442	line		【ヤマト】{rt}アアッ！！	【Yamato】{rt}AAAH!!	
+B24.0443	line		【クマソ】{rt}はッはッはッ！！	【Kumaso】{rt}Ha ha ha!!	
+B24.0444	line		【クマソ】{rt}始まったァ！！	【Kumaso】{rt}It's begun!!	
+B24.0445	line		【クマソ】{rt}もう止まらないッ！！	【Kumaso】{rt}There's no stopping it now!!	
+B24.0446	line		【クマソ】{rt}獲物が無くなるまで殺すぞ！！	【Kumaso】{rt}We kill until there's no prey left!!	
+B24.0447	line		【クマソ】{rt}ハハハハァッ！！	【Kumaso】{rt}Hahahahaaa!!	
+B24.0448	line		【クマソ】{rt}いいぞ、ヤマト！！	【Kumaso】{rt}That's it, Yamato!!	
+B24.0449	line		【クマソ】{rt}古のお前を思い出せッ！！	【Kumaso】{rt}Remember the you of old!!	
 B24.0450	line		【伊涼】{rt}そ、そんな…。	【Isuzu】{rt}N-no...	
-B24.0451	line		【ヤマト】{rt}ウオオッ！！		
-B24.0452	line		【不良】{rt}ぎゃああっ！！		
-B24.0453	line		【ヤマト】{rt}はあッ、はあッ………。		
-B24.0454	line		【ヤマト】{rt}あ―――		
-B24.0455	line		【ヤマト】{rt}あああああッ！！		
-B24.0456	line		【クマソ】{rt}くくく。		
-B24.0457	line		【ヤマト】{rt}わ、私は…		
-B24.0458	line		【ヤマト】{rt}私はまた―――！！		
-B24.0459	line		【クマソ】{rt}いいねえ。ゾクゾクするよ。		
-B24.0460	line		【クマソ】{rt}だが―――。		
-B24.0461	line		【伊涼】{rt}（え…？）		
-B24.0462	line		【クマソ】{rt}これで終わりにしちゃあ、{rt}ヘビの生殺しってやつだ。		
-B24.0463	line		【クマソ】{rt}そうだろ？え？ヤマトよ…。		
-B24.0464	line		【クマソ】{rt}今日は上玉が混じってる…。		
-B24.0465	line		【クマソ】{rt}女だ…。女にしよう。		
+B24.0451	line		【ヤマト】{rt}ウオオッ！！	【Yamato】{rt}UOOOH!!	
+B24.0452	line		【不良】{rt}ぎゃああっ！！	【Delinquent】{rt}Gyaaah!!	
+B24.0453	line		【ヤマト】{rt}はあッ、はあッ………。	【Yamato】{rt}Hah, hah.........	
+B24.0454	line		【ヤマト】{rt}あ―――	【Yamato】{rt}Ah--	
+B24.0455	line		【ヤマト】{rt}あああああッ！！	【Yamato】{rt}AAAAAAH!!	
+B24.0456	line		【クマソ】{rt}くくく。	【Kumaso】{rt}Heh heh heh.	
+B24.0457	line		【ヤマト】{rt}わ、私は…	【Yamato】{rt}I-I...	
+B24.0458	line		【ヤマト】{rt}私はまた―――！！	【Yamato】{rt}I've done it again--!!	
+B24.0459	line		【クマソ】{rt}いいねえ。ゾクゾクするよ。	【Kumaso】{rt}Lovely. Gives me chills.	
+B24.0460	line		【クマソ】{rt}だが―――。	【Kumaso】{rt}But--	
+B24.0461	line		【伊涼】{rt}（え…？）	【Isuzu】{rt}(Huh...?)	
+B24.0462	line		【クマソ】{rt}これで終わりにしちゃあ、{rt}ヘビの生殺しってやつだ。	【Kumaso】{rt}Ending it here would be leaving the{rt}snake half-dead.	
+B24.0463	line		【クマソ】{rt}そうだろ？え？ヤマトよ…。	【Kumaso】{rt}Isn't that right, eh? Yamato...	
+B24.0464	line		【クマソ】{rt}今日は上玉が混じってる…。	【Kumaso】{rt}There's a real gem mixed in today...	
+B24.0465	line		【クマソ】{rt}女だ…。女にしよう。	【Kumaso】{rt}A woman... Let's make it the woman.	
 B24.0466	line		【伊涼】{rt}（―――！！）	【Isuzu】{rt}(--!!)	
-B24.0467	line		【クマソ】{rt}くくく…。		
-B24.0468	line		【クマソ】{rt}とはいっても、		
-B24.0469	line		【クマソ】{rt}氏神、お前は別だ。		
-B24.0470	line		【クマソ】{rt}一応女だというだけで、お前は{rt}実に油断ならんからな。		
-B24.0471	line		【クマソ】{rt}おれが見たいのは―――		
-B24.0472	line		【クマソ】{rt}儚（はかな）く散る、{rt}女の最期…。		
-B24.0473	line		【クマソ】{rt}それはお前にはどうやっても{rt}演じられん役柄だろうよ。		
-B24.0474	line		【クマソ】{rt}なあ？		
-B24.0475	line		【ヤマト】{rt}うううッ…。やめ…ろッ！！		
-B24.0476	line		【矢村】{rt}クマソッ！！		
-B24.0477	line		【矢村】{rt}貴様、自分が何をしているか{rt}分かってるのかッ！？		
-B24.0478	line		【クマソ】{rt}おっとォ、勇ましいね。		
-B24.0479	line		【クマソ】{rt}だが―――		
-B24.0480	line		【クマソ】{rt}いまだ迷いの渦中にある{rt}お前には		
-B24.0481	line		【クマソ】{rt}手出しする権利など{rt}ないわッ！！		
-B24.0482	line		【矢村】{rt}あ…{rt}ぐッ―――！？		
-B24.0483	line		【クマソ】{rt}はッはッはッ。		
-B24.0484	line		【クマソ】{rt}いいザマだねえ。		
-B24.0485	line		【クマソ】{rt}おれの《力》は人を魅了し、{rt}呪縛する《力》。		
-B24.0486	line		【クマソ】{rt}じきにお前たちの身体は勝手に{rt}ヤマトの刃の前に踊り出る。		
-B24.0487	line		【クマソ】{rt}『斬って下さい』ってなあ！！		
-B24.0488	line		【矢村】{rt}ク…マソッ―――		
-B24.0489	line		【矢村】{rt}ううッ―――。		
-B24.0490	line		【矢村】{rt}（い、{rt}　意識が―――）		
-B24.0491	line		【クマソ】{rt}さて、ヤマトよ…。		
-B24.0492	line		【クマソ】{rt}若く、美しい女の肢体を{rt}斬り裂いて		
-B24.0493	line		【クマソ】{rt}苦しみ、のたうちまわるお前の{rt}姿をおれはぜひ見たいッ。		
-B24.0494	line		【伊涼】{rt}い、嫌ッ…。来ないでッ！！		
-B24.0495	line		【クマソ】{rt}見せてくれ…。		
-B24.0496	line		【クマソ】{rt}この《生け贄》の身体が、		
-B24.0497	line		【クマソ】{rt}美しい血華（けっか）を{rt}咲かせる瞬間を―――！！		
-B24.0498	line		【伊涼】{rt}嫌ァッ！！		
+B24.0467	line		【クマソ】{rt}くくく…。	【Kumaso】{rt}Heh heh heh...	
+B24.0468	line		【クマソ】{rt}とはいっても、	【Kumaso】{rt}That said,	
+B24.0469	line		【クマソ】{rt}氏神、お前は別だ。	【Kumaso】{rt}Ujigami, you're another matter.	
+B24.0470	line		【クマソ】{rt}一応女だというだけで、お前は{rt}実に油断ならんからな。	【Kumaso】{rt}You may be a woman, but you're truly{rt}not to be trifled with.	
+B24.0471	line		【クマソ】{rt}おれが見たいのは―――	【Kumaso】{rt}What I want to see is--	
+B24.0472	line		【クマソ】{rt}儚（はかな）く散る、{rt}女の最期…。	【Kumaso】{rt}a woman's final moment, scattering like{rt}a frail blossom...	
+B24.0473	line		【クマソ】{rt}それはお前にはどうやっても{rt}演じられん役柄だろうよ。	【Kumaso】{rt}That's a role you could never play,{rt}whatever you did.	
+B24.0474	line		【クマソ】{rt}なあ？	【Kumaso】{rt}Right?	
+B24.0475	line		【ヤマト】{rt}うううッ…。やめ…ろッ！！	【Yamato】{rt}Uuugh... Stop... it!!	
+B24.0476	line		【矢村】{rt}クマソッ！！	【Yamura】{rt}Kumaso!!	
+B24.0477	line		【矢村】{rt}貴様、自分が何をしているか{rt}分かってるのかッ！？	【Yamura】{rt}Do you know what you're doing!?	
+B24.0478	line		【クマソ】{rt}おっとォ、勇ましいね。	【Kumaso】{rt}Whoa, how brave.	
+B24.0479	line		【クマソ】{rt}だが―――	【Kumaso】{rt}But--	
+B24.0480	line		【クマソ】{rt}いまだ迷いの渦中にある{rt}お前には	【Kumaso】{rt}you, still caught in the whirlpool of{rt}doubt,	
+B24.0481	line		【クマソ】{rt}手出しする権利など{rt}ないわッ！！	【Kumaso】{rt}have no right to lay a hand on me!!	
+B24.0482	line		【矢村】{rt}あ…{rt}ぐッ―――！？	【Yamura】{rt}Ah... gh--!?	
+B24.0483	line		【クマソ】{rt}はッはッはッ。	【Kumaso】{rt}Ha ha ha.	
+B24.0484	line		【クマソ】{rt}いいザマだねえ。	【Kumaso】{rt}What a sight you are.	
+B24.0485	line		【クマソ】{rt}おれの《力》は人を魅了し、{rt}呪縛する《力》。	【Kumaso】{rt}My Power is the Power to charm and{rt}bind people.	
+B24.0486	line		【クマソ】{rt}じきにお前たちの身体は勝手に{rt}ヤマトの刃の前に踊り出る。	【Kumaso】{rt}Soon your bodies will leap before{rt}Yamato's blade on their own.	
+B24.0487	line		【クマソ】{rt}『斬って下さい』ってなあ！！	【Kumaso】{rt}"Please cut me down!"	
+B24.0488	line		【矢村】{rt}ク…マソッ―――	【Yamura】{rt}Ku... maso--	
+B24.0489	line		【矢村】{rt}ううッ―――。	【Yamura】{rt}Uugh--	
+B24.0490	line		【矢村】{rt}（い、{rt}　意識が―――）	【Yamura】{rt}(My... mind is--)	
+B24.0491	line		【クマソ】{rt}さて、ヤマトよ…。	【Kumaso】{rt}Now then, Yamato...	
+B24.0492	line		【クマソ】{rt}若く、美しい女の肢体を{rt}斬り裂いて	【Kumaso】{rt}I'd love to see you cut apart a young,{rt}beautiful woman's body	
+B24.0493	line		【クマソ】{rt}苦しみ、のたうちまわるお前の{rt}姿をおれはぜひ見たいッ。	【Kumaso】{rt}and then writhe in agony.	
+B24.0494	line		【伊涼】{rt}い、嫌ッ…。来ないでッ！！	【Isuzu】{rt}N-no... Stay away!!	
+B24.0495	line		【クマソ】{rt}見せてくれ…。	【Kumaso】{rt}Show me...	
+B24.0496	line		【クマソ】{rt}この《生け贄》の身体が、	【Kumaso】{rt}the moment this Sacrifice's body	
+B24.0497	line		【クマソ】{rt}美しい血華（けっか）を{rt}咲かせる瞬間を―――！！	【Kumaso】{rt}blooms with a beautiful flower of{rt}blood--!!	
+B24.0498	line		【伊涼】{rt}嫌ァッ！！	【Isuzu】{rt}Nooo!!	
 B24.0499	line		【優鉢羅】{rt}人間は《大罪》を生んだ。	【Uhatsura】{rt}Humans gave birth to the Great Sin.	
 B24.0500	line		【優鉢羅】{rt}その因果応報であり、	【Uhatsura】{rt}This is what they reap,	
 B24.0501	line		【優鉢羅】{rt}人間にはそれを受け止める{rt}義務があるのだ。	【Uhatsura】{rt}and humans have a duty to bear it.	
 B24.0502	line		【優鉢羅】{rt}たとえ、そこに多少の苦痛が{rt}伴うにしても―――。	【Uhatsura】{rt}Even if it comes with some pain--	
-B24.0503	line		【伊涼】{rt}私、この東京が好きだから…。		
-B24.0504	line		【伊涼】{rt}《大罪》が現れる前の生活を{rt}壊されたくないから、		
-B24.0505	line		【伊涼】{rt}そのために、闘いたいのッ。		
-B24.0506	line		【矢村】{rt}（俺が、失いたく{rt}　ないもの…。）		
-B24.0507	line		【矢村】{rt}（俺が、護りたい{rt}　もの―――。）		
-B24.0508	line		【矢村】{rt}（それは――。）		
-B24.0509	line		【少年の声】{rt}お前が―――		
-B24.0510	line		【少年の声】{rt}この東京を護ろうとする{rt}気持ちと、		
-B24.0511	line		【少年の声】{rt}俺たちの気持ちは{rt}変わらないはずだ。		
+B24.0503	line		【伊涼】{rt}私、この東京が好きだから…。	【Isuzu】{rt}I love this Tokyo...	
+B24.0504	line		【伊涼】{rt}《大罪》が現れる前の生活を{rt}壊されたくないから、	【Isuzu】{rt}I don't want the life we had before the{rt}Great Sin appeared destroyed,	
+B24.0505	line		【伊涼】{rt}そのために、闘いたいのッ。	【Isuzu】{rt}so I want to fight for that.	
+B24.0506	line		【矢村】{rt}（俺が、失いたく{rt}　ないもの…。）	【Yamura】{rt}(What I don't want to lose...)	
+B24.0507	line		【矢村】{rt}（俺が、護りたい{rt}　もの―――。）	【Yamura】{rt}(What I want to protect--)	
+B24.0508	line		【矢村】{rt}（それは――。）	【Yamura】{rt}(It's--)	
+B24.0509	line		【少年の声】{rt}お前が―――	【Boy's Voice】{rt}Your--	
+B24.0510	line		【少年の声】{rt}この東京を護ろうとする{rt}気持ちと、	【Boy's Voice】{rt}wish to protect this Tokyo	
+B24.0511	line		【少年の声】{rt}俺たちの気持ちは{rt}変わらないはずだ。	【Boy's Voice】{rt}is no different from ours.	
 B24.0512	line		【矢村】{rt}―――！？	【Yamura】{rt}--!?	
-B24.0513	line		【矢村】{rt}今のは―――！？		
-B24.0514	line		【少女の声】{rt}でも、あたしには、		
-B24.0515	line		【少女の声】{rt}みんなみたいな{rt}《力》なんてない。		
-B24.0516	line		【少女の声】{rt}体をはってこの東京を{rt}護る事だってできないし―――		
-B24.0517	line		【少女の声】{rt}ましてや、{rt}闘う事だってできない…。		
-B24.0518	line		【少年の声】{rt}《力》があるって事は、{rt}そんなに大事な事なのか？		
-B24.0519	line		【少年の声】{rt}何かを護るために、{rt}必要な事なのか？		
-B24.0520	line		【少年の声】{rt}俺は、そうは思わない。		
-B24.0521	line		【少年の声】{rt}特別な《力》が無くたって、{rt}何かを―――		
-B24.0522	line		【少年の声】{rt}誰かを護る事は、{rt}できるじゃないか。		
-B24.0523	line		【少年の声】{rt}俺たちも、お前も、{rt}そういう想いで闘ってる。		
-B24.0524	line		【矢村】{rt}この感じは―――。		
+B24.0513	line		【矢村】{rt}今のは―――！？	【Yamura】{rt}That was--!?	
+B24.0514	line		【少女の声】{rt}でも、あたしには、	【Girl's Voice】{rt}But I don't have	
+B24.0515	line		【少女の声】{rt}みんなみたいな{rt}《力》なんてない。	【Girl's Voice】{rt}Power like the rest of you.	
+B24.0516	line		【少女の声】{rt}体をはってこの東京を{rt}護る事だってできないし―――	【Girl's Voice】{rt}I can't put my body on the line to{rt}protect this Tokyo--	
+B24.0517	line		【少女の声】{rt}ましてや、{rt}闘う事だってできない…。	【Girl's Voice】{rt}let alone fight...	
+B24.0518	line		【少年の声】{rt}《力》があるって事は、{rt}そんなに大事な事なのか？	【Boy's Voice】{rt}Is having Power really that{rt}important?	
+B24.0519	line		【少年の声】{rt}何かを護るために、{rt}必要な事なのか？	【Boy's Voice】{rt}Is it what you need to protect{rt}something?	
+B24.0520	line		【少年の声】{rt}俺は、そうは思わない。	【Boy's Voice】{rt}I don't think so.	
+B24.0521	line		【少年の声】{rt}特別な《力》が無くたって、{rt}何かを―――	【Boy's Voice】{rt}Even without special Power, you can{rt}protect	
+B24.0522	line		【少年の声】{rt}誰かを護る事は、{rt}できるじゃないか。	【Boy's Voice】{rt}something--someone, can't you?	
+B24.0523	line		【少年の声】{rt}俺たちも、お前も、{rt}そういう想いで闘ってる。	【Boy's Voice】{rt}We fight with that feeling, and so do{rt}you.	
+B24.0524	line		【矢村】{rt}この感じは―――。	【Yamura】{rt}This feeling--	
 B24.0525	line		【矢村】{rt}{name1}―――。	【Yamura】{rt}{name1}--	
-B24.0526	line		【矢村】{rt}これは、お前の―――		
-B24.0527	line		【矢村】{rt}《念》が発する声なのか！？		
-B24.0528	line		【少女の声】{rt}あいつらは、		
-B24.0529	line		【少女の声】{rt}この東京を護るために{rt}命を賭けてる。		
-B24.0530	line		【少女の声】{rt}現に今もひとり入院してて、{rt}意識がない――。		
-B24.0531	line		【少年の声】{rt}もう―――こんな風に{rt}誰かが斃れるのは		
-B24.0532	line		【少年の声】{rt}ゴメンだと思っていた{rt}はずなのにッ！！		
-B24.0533	line		【女の声】{rt}死なせやするもんか。{rt}絶対にねェ。		
-B24.0534	line		【少年の声】{rt}こいつは、人の大切なものを{rt}数知れず傷つけてきた。		
-B24.0535	line		【少年の声】{rt}そのツケを払わせなきゃ{rt}なんねェだろッ！！		
-B24.0536	line		【矢村】{rt}これは―――。		
-B24.0537	line		【矢村】{rt}彼らは―――。		
-B24.0538	line		【少年の声】{rt}誰かを犠牲にして叶う{rt}願いなど、あるはずもない。		
-B24.0539	line		【少年の声】{rt}願いというのは、信じる心から{rt}生まれるものだ。		
-B24.0540	line		【少年の声】{rt}希望を、夢を―――		
-B24.0541	line		【少年の声】{rt}そういうものを、信じる心から{rt}生まれるものだ。		
+B24.0526	line		【矢村】{rt}これは、お前の―――	【Yamura】{rt}Is this your--	
+B24.0527	line		【矢村】{rt}《念》が発する声なのか！？	【Yamura】{rt}the voice your Thought gives off!?	
+B24.0528	line		【少女の声】{rt}あいつらは、	【Girl's Voice】{rt}Those guys	
+B24.0529	line		【少女の声】{rt}この東京を護るために{rt}命を賭けてる。	【Girl's Voice】{rt}are risking their lives to protect this{rt}Tokyo.	
+B24.0530	line		【少女の声】{rt}現に今もひとり入院してて、{rt}意識がない――。	【Girl's Voice】{rt}Right now one of them is in hospital,{rt}unconscious--	
+B24.0531	line		【少年の声】{rt}もう―――こんな風に{rt}誰かが斃れるのは	【Boy's Voice】{rt}I swore I'd had enough--	
+B24.0532	line		【少年の声】{rt}ゴメンだと思っていた{rt}はずなのにッ！！	【Boy's Voice】{rt}of people falling like this!!	
+B24.0533	line		【女の声】{rt}死なせやするもんか。{rt}絶対にねェ。	【Woman's Voice】{rt}I won't let 'em die. No way.	
+B24.0534	line		【少年の声】{rt}こいつは、人の大切なものを{rt}数知れず傷つけてきた。	【Boy's Voice】{rt}This one's hurt countless people's{rt}precious things.	
+B24.0535	line		【少年の声】{rt}そのツケを払わせなきゃ{rt}なんねェだろッ！！	【Boy's Voice】{rt}We gotta make it pay for that!!	
+B24.0536	line		【矢村】{rt}これは―――。	【Yamura】{rt}This is--	
+B24.0537	line		【矢村】{rt}彼らは―――。	【Yamura】{rt}They're--	
+B24.0538	line		【少年の声】{rt}誰かを犠牲にして叶う{rt}願いなど、あるはずもない。	【Boy's Voice】{rt}There's no wish that can come true by{rt}sacrificing someone.	
+B24.0539	line		【少年の声】{rt}願いというのは、信じる心から{rt}生まれるものだ。	【Boy's Voice】{rt}Wishes are born from a heart that{rt}believes.	
+B24.0540	line		【少年の声】{rt}希望を、夢を―――	【Boy's Voice】{rt}Hope, dreams--	
+B24.0541	line		【少年の声】{rt}そういうものを、信じる心から{rt}生まれるものだ。	【Boy's Voice】{rt}they're born from a heart that{rt}believes in such things.	
 B24.0542	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B24.0543	line		【矢村】{rt}自分の《力》と信じるべきもの{rt}に対する葛藤―――。		
-B24.0544	line		【矢村】{rt}苦しんでいたのは、{rt}俺だけじゃなかった…。		
+B24.0543	line		【矢村】{rt}自分の《力》と信じるべきもの{rt}に対する葛藤―――。	【Yamura】{rt}The struggle between your own Power{rt}and what to believe in--	
+B24.0544	line		【矢村】{rt}苦しんでいたのは、{rt}俺だけじゃなかった…。	【Yamura】{rt}I wasn't the only one suffering...	
 B24.0545	line		【矢村】{rt}{name1}…。	【Yamura】{rt}{name1}...	
-B24.0546	line		【矢村】{rt}自分の想い―――		
-B24.0547	line		【矢村】{rt}俺が何のために{rt}闘おうとしているのかを、		
-B24.0548	line		【矢村】{rt}今、やっと、曇りのない眼で{rt}見る事ができた気がするよ。		
-B24.0549	line		【矢村】{rt}そう―――。		
-B24.0550	line		【矢村】{rt}俺だって、同じだ。		
-B24.0551	line		【矢村】{rt}俺の大切なもの―――		
-B24.0552	line		【矢村】{rt}俺が生まれ育った{rt}この東京や、		
-B24.0553	line		【矢村】{rt}伊涼を護るためにこそ、		
-B24.0554	line		【矢村】{rt}俺はこの《力》と―――{rt}お前とともに闘いたい！！		
-B24.0555	line		【矢村】{rt}それで―――		
-B24.0556	line		【矢村】{rt}それで、いいんだよな？		
-B24.0557	line		【矢村】{rt}{name1}ッ！？		
-B24.0558	line		【矢村】{rt}{name1}、{rt}ありがとう。		
-B24.0559	line		【矢村】{rt}俺は闘える。		
-B24.0560	line		【矢村】{rt}こんな呪縛ごときに、{rt}屈しはしないッ！！		
+B24.0546	line		【矢村】{rt}自分の想い―――	【Yamura】{rt}My own feelings--	
+B24.0547	line		【矢村】{rt}俺が何のために{rt}闘おうとしているのかを、	【Yamura】{rt}what I'm trying to fight for--	
+B24.0548	line		【矢村】{rt}今、やっと、曇りのない眼で{rt}見る事ができた気がするよ。	【Yamura】{rt}I feel like I can finally see it with clear{rt}eyes.	
+B24.0549	line		【矢村】{rt}そう―――。	【Yamura】{rt}Yes--	
+B24.0550	line		【矢村】{rt}俺だって、同じだ。	【Yamura】{rt}I'm the same.	
+B24.0551	line		【矢村】{rt}俺の大切なもの―――	【Yamura】{rt}To protect what's precious to me--	
+B24.0552	line		【矢村】{rt}俺が生まれ育った{rt}この東京や、	【Yamura】{rt}this Tokyo where I was born and{rt}raised,	
+B24.0553	line		【矢村】{rt}伊涼を護るためにこそ、	【Yamura】{rt}and Isuzu--	
+B24.0554	line		【矢村】{rt}俺はこの《力》と―――{rt}お前とともに闘いたい！！	【Yamura】{rt}that's why I want to fight with this{rt}Power--and with you!!	
+B24.0555	line		【矢村】{rt}それで―――	【Yamura】{rt}That's--	
+B24.0556	line		【矢村】{rt}それで、いいんだよな？	【Yamura】{rt}that's all right, isn't it?	
+B24.0557	line		【矢村】{rt}{name1}ッ！？	【Yamura】{rt}{name1}!?	
+B24.0558	line		【矢村】{rt}{name1}、{rt}ありがとう。	【Yamura】{rt}{name1}, thank you.	
+B24.0559	line		【矢村】{rt}俺は闘える。	【Yamura】{rt}I can fight.	
+B24.0560	line		【矢村】{rt}こんな呪縛ごときに、{rt}屈しはしないッ！！	【Yamura】{rt}I won't give in to a binding like this!!	
 B24.0561	line		【矢村】{rt}{name1}。	【Yamura】{rt}{name1}.	
-B24.0562	line		【矢村】{rt}心から礼をいうよ。		
-B24.0563	line		【矢村】{rt}ありがとう。		
-B24.0564	line		【矢村】{rt}お前は俺に{rt}気付かせてくれた。		
-B24.0565	line		【矢村】{rt}俺は闘えるッ。		
-B24.0566	line		【矢村】{rt}《大罪》には絶対に―――		
-B24.0567	line		【矢村】{rt}負けやしない！！		
-B24.0568	line		【矢村】{rt}俺だって、心の底では{rt}分かってたんだ。		
-B24.0569	line		【矢村】{rt}ただ、俺にはそれを信じる{rt}勇気がなかった…。		
+B24.0562	line		【矢村】{rt}心から礼をいうよ。	【Yamura】{rt}I thank you from the bottom of my{rt}heart.	
+B24.0563	line		【矢村】{rt}ありがとう。	【Yamura】{rt}Thank you.	
+B24.0564	line		【矢村】{rt}お前は俺に{rt}気付かせてくれた。	【Yamura】{rt}You made me realise.	
+B24.0565	line		【矢村】{rt}俺は闘えるッ。	【Yamura】{rt}I can fight.	
+B24.0566	line		【矢村】{rt}《大罪》には絶対に―――	【Yamura】{rt}I will never--	
+B24.0567	line		【矢村】{rt}負けやしない！！	【Yamura】{rt}lose to the Great Sin!!	
+B24.0568	line		【矢村】{rt}俺だって、心の底では{rt}分かってたんだ。	【Yamura】{rt}Deep down, I knew it too.	
+B24.0569	line		【矢村】{rt}ただ、俺にはそれを信じる{rt}勇気がなかった…。	【Yamura】{rt}I just didn't have the courage to{rt}believe it...	
 B24.0570	line		【矢村】{rt}{name1}、	【Yamura】{rt}{name1},	
-B24.0571	line		【矢村】{rt}お前は俺に{rt}勇気をくれた。		
-B24.0572	line		【矢村】{rt}だからあとは、{rt}俺のすべき事だ。		
-B24.0573	line		【矢村】{rt}見ていてくれ、{name1}。		
-B24.0574	line		【矢村】{rt}俺自身で{rt}踏み出して見せるッ。		
-B24.0575	line		【矢村】{rt}破ァ―――！！		
-B24.0576	line		【伊涼】{rt}はあッ、はあ―――。		
+B24.0571	line		【矢村】{rt}お前は俺に{rt}勇気をくれた。	【Yamura】{rt}You gave me courage.	
+B24.0572	line		【矢村】{rt}だからあとは、{rt}俺のすべき事だ。	【Yamura】{rt}So the rest is up to me.	
+B24.0573	line		【矢村】{rt}見ていてくれ、{name1}。	【Yamura】{rt}Watch me, {name1}.	
+B24.0574	line		【矢村】{rt}俺自身で{rt}踏み出して見せるッ。	【Yamura】{rt}I'll take the step myself.	
+B24.0575	line		【矢村】{rt}破ァ―――！！	【Yamura】{rt}HAAAH--!!	
+B24.0576	line		【伊涼】{rt}はあッ、はあ―――。	【Isuzu】{rt}Hah, hah--	
 B24.0577	line		【伊涼】{rt}―――！？	【Isuzu】{rt}--!?	
-B24.0578	line		【伊涼】{rt}（また、同じ場所！？）		
-B24.0579	line		【クマソ】{rt}くくく…。		
-B24.0580	line		【クマソ】{rt}お前はもうすでに{rt}おれの結界の中にいるのだ。		
-B24.0581	line		【クマソ】{rt}絶対に逃げられん。		
-B24.0582	line		【クマソ】{rt}そらそら。		
-B24.0583	line		【クマソ】{rt}あんまり走り回ると、いい声で{rt}鳴けなくなっちまうぞ。		
-B24.0584	line		【クマソ】{rt}早いとこ諦めたほうが―――		
-B24.0585	line		【クマソ】{rt}…ぐッ？		
-B24.0586	line		【クマソ】{rt}ぐああッ！？		
-B24.0587	line		【ヤマト】{rt}…！？		
-B24.0588	line		【矢村】{rt}…外道めッ。		
+B24.0578	line		【伊涼】{rt}（また、同じ場所！？）	【Isuzu】{rt}(The same place again!?)	
+B24.0579	line		【クマソ】{rt}くくく…。	【Kumaso】{rt}Heh heh heh...	
+B24.0580	line		【クマソ】{rt}お前はもうすでに{rt}おれの結界の中にいるのだ。	【Kumaso】{rt}You're already inside my barrier.	
+B24.0581	line		【クマソ】{rt}絶対に逃げられん。	【Kumaso】{rt}There's no escape.	
+B24.0582	line		【クマソ】{rt}そらそら。	【Kumaso】{rt}Come on, come on.	
+B24.0583	line		【クマソ】{rt}あんまり走り回ると、いい声で{rt}鳴けなくなっちまうぞ。	【Kumaso】{rt}Run around too much and you won't be{rt}able to scream so nicely.	
+B24.0584	line		【クマソ】{rt}早いとこ諦めたほうが―――	【Kumaso】{rt}Better give up quickly--	
+B24.0585	line		【クマソ】{rt}…ぐッ？	【Kumaso】{rt}...Gh?	
+B24.0586	line		【クマソ】{rt}ぐああッ！？	【Kumaso】{rt}Gwaaah!?	
+B24.0587	line		【ヤマト】{rt}…！？	【Yamato】{rt}...!?	
+B24.0588	line		【矢村】{rt}…外道めッ。	【Yamura】{rt}...You fiend.	
 B24.0589	line		【伊涼】{rt}俊ッ！！	【Isuzu】{rt}Shun!!	
-B24.0590	line		【矢村】{rt}伊涼。俺の後ろへ。		
-B24.0591	line		【矢村】{rt}クマソ！！		
-B24.0592	line		【矢村】{rt}俺は迷いを捨てたぞッ。		
-B24.0593	line		【矢村】{rt}お前に今の俺の魂が{rt}召し取れるかどうか、		
-B24.0594	line		【矢村】{rt}試してみろッ！！		
-B24.0595	line		【クマソ】{rt}ひぐあああッ！！{rt}おれの身体が…		
-B24.0596	line		【クマソ】{rt}身体がああッ！！		
-B24.0597	line		【クマソの声】{rt}おのれえ…か、身体がッ、		
-B24.0598	line		【クマソの声】{rt}また―――		
-B24.0599	line		【クマソ】{rt}真っ二つだァァッ！！		
-B24.0600	line		【伊涼】{rt}―――ッ！！		
-B24.0601	line		【クマソ】{rt}かつてヤマトに{rt}斬られたこの傷、		
-B24.0602	line		【クマソ】{rt}せっかく、くっついて{rt}いたのにッ！！		
-B24.0603	line		【矢村】{rt}クマソ…。		
-B24.0604	line		【矢村】{rt}それがお前の本性かッ？		
-B24.0605	line		【クマソ】{rt}―――！？		
-B24.0606	line		【クマソ】{rt}みィィ―――見たなあッ！！		
-B24.0607	line		【ヤマト】{rt}う…ぐうう…。		
-B24.0608	line		【クマソ】{rt}いいか、ヤマトッ！！		
-B24.0609	line		【クマソ】{rt}手出しは無用だぞッ。		
-B24.0610	line		【クマソ】{rt}こ、こいつらは		
-B24.0611	line		【クマソ】{rt}おれの素顔を暴きやがった！！		
-B24.0612	line		【クマソ】{rt}許せねェッ！！		
-B24.0613	line		【クマソ】{rt}おれが直々に―――		
-B24.0614	line		【クマソ】{rt}この、おれの手で目の玉を{rt}えぐり、		
-B24.0615	line		【クマソ】{rt}脳髄を叩き潰して{rt}くれるゥッ！！		
-B24.0616	line		【矢村】{rt}望むところだッ。		
-B24.0617	line		【矢村】{rt}《大罪》に魅入られた{rt}お前の魂、		
-B24.0618	line		【矢村】{rt}消し去ってやるッ！！		
-B24.0619	line		【矢村】{rt}行くぞ、伊涼、{rt}{name1}ッ。		
-B24.0620	line		【伊涼】{rt}…うんッ。		
-B24.0621	line		【矢村】{rt}クマソッ！！		
+B24.0590	line		【矢村】{rt}伊涼。俺の後ろへ。	【Yamura】{rt}Isuzu. Get behind me.	
+B24.0591	line		【矢村】{rt}クマソ！！	【Yamura】{rt}Kumaso!!	
+B24.0592	line		【矢村】{rt}俺は迷いを捨てたぞッ。	【Yamura】{rt}I've cast off my doubt.	
+B24.0593	line		【矢村】{rt}お前に今の俺の魂が{rt}召し取れるかどうか、	【Yamura】{rt}See whether you can take	
+B24.0594	line		【矢村】{rt}試してみろッ！！	【Yamura】{rt}my soul as it is now!!	
+B24.0595	line		【クマソ】{rt}ひぐあああッ！！{rt}おれの身体が…	【Kumaso】{rt}Higyaaah!! My body...	
+B24.0596	line		【クマソ】{rt}身体がああッ！！	【Kumaso】{rt}My bodyyy!!	
+B24.0597	line		【クマソの声】{rt}おのれえ…か、身体がッ、	【Kumaso's Voice】{rt}Damn youuu... m-my body,	
+B24.0598	line		【クマソの声】{rt}また―――	【Kumaso's Voice】{rt}again--	
+B24.0599	line		【クマソ】{rt}真っ二つだァァッ！！	【Kumaso】{rt}it's split in twooo!!	
+B24.0600	line		【伊涼】{rt}―――ッ！！	【Isuzu】{rt}--!!	
+B24.0601	line		【クマソ】{rt}かつてヤマトに{rt}斬られたこの傷、	【Kumaso】{rt}This wound Yamato gave me long{rt}ago--	
+B24.0602	line		【クマソ】{rt}せっかく、くっついて{rt}いたのにッ！！	【Kumaso】{rt}and it had finally knit back together!!	
+B24.0603	line		【矢村】{rt}クマソ…。	【Yamura】{rt}Kumaso...	
+B24.0604	line		【矢村】{rt}それがお前の本性かッ？	【Yamura】{rt}Is that your true nature?	
+B24.0605	line		【クマソ】{rt}―――！？	【Kumaso】{rt}--!?	
+B24.0606	line		【クマソ】{rt}みィィ―――見たなあッ！！	【Kumaso】{rt}Y-you saaaw it!!	
+B24.0607	line		【ヤマト】{rt}う…ぐうう…。	【Yamato】{rt}Ugh... guuugh...	
+B24.0608	line		【クマソ】{rt}いいか、ヤマトッ！！	【Kumaso】{rt}Listen, Yamato!!	
+B24.0609	line		【クマソ】{rt}手出しは無用だぞッ。	【Kumaso】{rt}Don't you interfere.	
+B24.0610	line		【クマソ】{rt}こ、こいつらは	【Kumaso】{rt}Th-these ones	
+B24.0611	line		【クマソ】{rt}おれの素顔を暴きやがった！！	【Kumaso】{rt}exposed my true face!!	
+B24.0612	line		【クマソ】{rt}許せねェッ！！	【Kumaso】{rt}Unforgivable!!	
+B24.0613	line		【クマソ】{rt}おれが直々に―――	【Kumaso】{rt}I'll personally--	
+B24.0614	line		【クマソ】{rt}この、おれの手で目の玉を{rt}えぐり、	【Kumaso】{rt}with my own hands, gouge out their{rt}eyes	
+B24.0615	line		【クマソ】{rt}脳髄を叩き潰して{rt}くれるゥッ！！	【Kumaso】{rt}and smash their brains!!	
+B24.0616	line		【矢村】{rt}望むところだッ。	【Yamura】{rt}Bring it on.	
+B24.0617	line		【矢村】{rt}《大罪》に魅入られた{rt}お前の魂、	【Yamura】{rt}Your soul, enthralled by the Great{rt}Sin--	
+B24.0618	line		【矢村】{rt}消し去ってやるッ！！	【Yamura】{rt}I'll wipe it out!!	
+B24.0619	line		【矢村】{rt}行くぞ、伊涼、{rt}{name1}ッ。	【Yamura】{rt}Let's go, Isuzu, {name1}.	
+B24.0620	line		【伊涼】{rt}…うんッ。	【Isuzu】{rt}...Right.	
+B24.0621	line		【矢村】{rt}クマソッ！！	【Yamura】{rt}Kumaso!!	
 B24.0622	line		【矢村】{rt}貴様の邪氣、{rt}祓ってやるッ！！	【Yamura】{rt}I'll purge your Miasma!!	

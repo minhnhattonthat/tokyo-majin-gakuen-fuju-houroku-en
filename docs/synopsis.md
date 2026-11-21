@@ -110,3 +110,10 @@ session; translators read it before their batch.
   Uhatsura, and "Isuzu" seals him, then talks to the player as another person sworn to protect "this girl". Next
   morning Yamura is shaken: Enra left saying he would "fulfil his role", Uhatsura seemed honest, and Yamura no
   longer knows what to believe in to fight.
+- B24: the Shadows Shiroku and Shimei, sensing Uhatsura gone, resolve to stop the trio by any means. Kumaso and his
+  bound "friend" Yamato (a giant swordsman who once cut Kumaso in two and must now kill Sacrifices for him) slaughter
+  bikers and students in Shibuya. Yamura, paralysed by doubt, won't fight; Kumaso finds his soul too clouded to be
+  worth taking, curses him with a cut, and gives him a day and night to come to Masakado's Head Mound. There Kumaso
+  makes Yamato kill bound delinquents and targets Isuzu. Voices of another Tokyo's defenders, heard through the
+  player's Thought, show Yamura he fights to protect Tokyo and Isuzu; he breaks the binding and splits Kumaso's old
+  wound open, revealing his true form; battle.
