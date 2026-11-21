@@ -1,118 +1,118 @@
 id	kind	max	jp	en	notes
-B13.0000	line		【梓】{rt}アカガネッ！！		
-B13.0001	line		【アカガネ】{rt}梓―――よかったな。		
-B13.0002	line		【アカガネ】{rt}これでお前はやっと救われる。		
-B13.0003	line		【梓】{rt}良くないよッ！！{rt}アカガネッ、		
-B13.0004	line		【梓】{rt}あなたが死んで、{rt}いい訳ないッ！！		
+B13.0000	line		【梓】{rt}アカガネッ！！	【Azusa】{rt}Akagane!!	
+B13.0001	line		【アカガネ】{rt}梓―――よかったな。	【Akagane】{rt}Azusa--I'm glad.	
+B13.0002	line		【アカガネ】{rt}これでお前はやっと救われる。	【Akagane】{rt}Now you'll finally be saved.	
+B13.0003	line		【梓】{rt}良くないよッ！！{rt}アカガネッ、	【Azusa】{rt}It's not good!! Akagane,	
+B13.0004	line		【梓】{rt}あなたが死んで、{rt}いい訳ないッ！！	【Azusa】{rt}there's no way it's all right for you to{rt}die!!	
 B13.0005	line		【アカガネ】{rt}梓―――。	【Akagane】{rt}Azusa--	
-B13.0006	line		【アカガネ】{rt}お前はいつでも優しいんだな。		
-B13.0007	line		【梓】{rt}アカガネッ。		
+B13.0006	line		【アカガネ】{rt}お前はいつでも優しいんだな。	【Akagane】{rt}You're always so kind.	
+B13.0007	line		【梓】{rt}アカガネッ。	【Azusa】{rt}Akagane.	
 B13.0008	line		【梓】{rt}…………。	【Azusa】{rt}......	
-B13.0009	line		【梓】{rt}約束…守るよ。{rt}ここから出ない。		
-B13.0010	line		【梓】{rt}だから―――		
-B13.0011	line		【梓】{rt}だから、お願い―――。		
-B13.0012	line		【アカガネ】{rt}梓…。		
-B13.0013	line		【アカガネ】{rt}ただの野良犬だった俺の死に{rt}涙を流してくれたお前に――		
-B13.0014	line		【梓】{rt}（え…？）		
-B13.0015	line		【アカガネ】{rt}恩返しができた…。		
-B13.0016	line		【アカガネ】{rt}最期くらい、{rt}せめてそう思わせてくれよ。		
+B13.0009	line		【梓】{rt}約束…守るよ。{rt}ここから出ない。	【Azusa】{rt}I'll... keep my promise. I won't leave this{rt}place.	
+B13.0010	line		【梓】{rt}だから―――	【Azusa】{rt}So--	
+B13.0011	line		【梓】{rt}だから、お願い―――。	【Azusa】{rt}so, please--	
+B13.0012	line		【アカガネ】{rt}梓…。	【Akagane】{rt}Azusa...	
+B13.0013	line		【アカガネ】{rt}ただの野良犬だった俺の死に{rt}涙を流してくれたお前に――	【Akagane】{rt}You shed tears over the death of the{rt}stray dog I was--	
+B13.0014	line		【梓】{rt}（え…？）	【Azusa】{rt}(Huh...?)	
+B13.0015	line		【アカガネ】{rt}恩返しができた…。	【Akagane】{rt}and I've repaid you...	
+B13.0016	line		【アカガネ】{rt}最期くらい、{rt}せめてそう思わせてくれよ。	【Akagane】{rt}At the very end, at least let me think{rt}so.	
 B13.0017	line		【少女】{rt}…………。	【Girl】{rt}......	
 B13.0018	line		【少女】{rt}ひとりぼっち…。	【Girl】{rt}All alone...	
 B13.0019	line		【少女】{rt}お前と私、似ているのかも{rt}しれないね…。	【Girl】{rt}Maybe you and I are alike...	
 B13.0020	line		【野良犬】{rt}ｃｕｕｎ…。	【Stray Dog】{rt}Whiiine...	
-B13.0021	line		【梓】{rt}あ、あなた…あの時の？		
-B13.0022	line		【アカガネ】{rt}ああ…。		
-B13.0023	line		【アカガネ】{rt}あの時、お前がいて{rt}くれなければ		
-B13.0024	line		【アカガネ】{rt}俺も、彼らのように、		
-B13.0025	line		【アカガネ】{rt}自分に理不尽な死を与えた{rt}人間たちに		
-B13.0026	line		【アカガネ】{rt}憎悪していたに{rt}違いない―――。		
-B13.0027	line		【アカガネ】{rt}お前の心は俺の魂を{rt}清い道へと導いてくれた。		
-B13.0028	line		【アカガネ】{rt}だから…。		
-B13.0029	line		【アカガネ】{rt}だから今度は、俺がお前を{rt}導いてやる番だ―――。		
-B13.0030	line		【梓】{rt}ア、アカガネ…。		
-B13.0031	line		【アカガネ】{rt}そう悲しそうな顔をするな。		
-B13.0032	line		【アカガネ】{rt}《大罪》から分離されるまでに{rt}少し時間がかかるだろうが…		
-B13.0033	line		【アカガネ】{rt}いつか、きっとお前のもとへ{rt}辿り着いてみせるから――。		
-B13.0034	line		【梓】{rt}アカガネ―――。		
-B13.0035	line		【アカガネ】{rt}受け取ってくれるか？		
-B13.0036	line		【アカガネ】{rt}俺の恩返しを…。		
+B13.0021	line		【梓】{rt}あ、あなた…あの時の？	【Azusa】{rt}Y-you're... the one from back then?	
+B13.0022	line		【アカガネ】{rt}ああ…。	【Akagane】{rt}Yes...	
+B13.0023	line		【アカガネ】{rt}あの時、お前がいて{rt}くれなければ	【Akagane】{rt}If you hadn't been there for me{rt}then,	
+B13.0024	line		【アカガネ】{rt}俺も、彼らのように、	【Akagane】{rt}I, too, like them,	
+B13.0025	line		【アカガネ】{rt}自分に理不尽な死を与えた{rt}人間たちに	【Akagane】{rt}would surely have come to hate the{rt}humans	
+B13.0026	line		【アカガネ】{rt}憎悪していたに{rt}違いない―――。	【Akagane】{rt}who gave me such an unjust death--	
+B13.0027	line		【アカガネ】{rt}お前の心は俺の魂を{rt}清い道へと導いてくれた。	【Akagane】{rt}Your heart led my soul down a pure{rt}path.	
+B13.0028	line		【アカガネ】{rt}だから…。	【Akagane】{rt}So...	
+B13.0029	line		【アカガネ】{rt}だから今度は、俺がお前を{rt}導いてやる番だ―――。	【Akagane】{rt}so this time, it's my turn to lead{rt}you--	
+B13.0030	line		【梓】{rt}ア、アカガネ…。	【Azusa】{rt}A-Akagane...	
+B13.0031	line		【アカガネ】{rt}そう悲しそうな顔をするな。	【Akagane】{rt}Don't look so sad.	
+B13.0032	line		【アカガネ】{rt}《大罪》から分離されるまでに{rt}少し時間がかかるだろうが…	【Akagane】{rt}It will take a while to separate from{rt}the Great Sin...	
+B13.0033	line		【アカガネ】{rt}いつか、きっとお前のもとへ{rt}辿り着いてみせるから――。	【Akagane】{rt}but some day, I swear, I'll find my way{rt}back to you--	
+B13.0034	line		【梓】{rt}アカガネ―――。	【Azusa】{rt}Akagane--	
+B13.0035	line		【アカガネ】{rt}受け取ってくれるか？	【Akagane】{rt}Will you accept it?	
+B13.0036	line		【アカガネ】{rt}俺の恩返しを…。	【Akagane】{rt}My repayment...	
 B13.0037	line		【梓】{rt}…………。	【Azusa】{rt}......	
-B13.0038	line		【梓】{rt}ありがとう…。{rt}アカガネ―――。		
+B13.0038	line		【梓】{rt}ありがとう…。{rt}アカガネ―――。	【Azusa】{rt}Thank you... Akagane--	
 B13.0039	line		【矢村】{rt}…………。	【Yamura】{rt}............	
 B13.0040	line		【伊涼】{rt}梓ちゃん…。	【Isuzu】{rt}Azusa-chan...	
-B13.0041	line		【アカガネ】{rt}すまんな、湿っぽくなって。		
-B13.0042	line		【アカガネ】{rt}―――さあ、そろそろだ。		
-B13.0043	line		【アカガネ】{rt}《大罪》を封印するんだ。		
-B13.0044	line		【アカガネ】{rt}俺とともに…。		
-B13.0045	line		【伊涼】{rt}…邪氣、封印ッ。		
+B13.0041	line		【アカガネ】{rt}すまんな、湿っぽくなって。	【Akagane】{rt}Sorry, for getting so gloomy.	
+B13.0042	line		【アカガネ】{rt}―――さあ、そろそろだ。	【Akagane】{rt}--Now, it's time.	
+B13.0043	line		【アカガネ】{rt}《大罪》を封印するんだ。	【Akagane】{rt}Seal the Great Sin.	
+B13.0044	line		【アカガネ】{rt}俺とともに…。	【Akagane】{rt}Along with me...	
+B13.0045	line		【伊涼】{rt}…邪氣、封印ッ。	【Isuzu】{rt}...Miasma, sealed.	
 B13.0046	line		【アカガネ】{rt}…………。	【Akagane】{rt}......	
 B13.0047	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B13.0048	line		【矢村】{rt}この東京に、		
-B13.0049	line		【矢村】{rt}アカガネが《大罪》と呼んだ{rt}《邪氣》は、		
-B13.0050	line		【矢村】{rt}いったいいくつ存在し、		
-B13.0051	line		【矢村】{rt}いくつの悪事を生み出して{rt}いるのだろうか？		
-B13.0052	line		【矢村】{rt}《邪氣》は、		
-B13.0053	line		【矢村】{rt}人々から多くのものを失わせ、{rt}何も生みはしない―――		
-B13.0054	line		【矢村】{rt}邪悪な《力》だ。		
-B13.0055	line		【矢村】{rt}《邪氣》を{rt}この東京から消滅させる。		
-B13.0056	line		【矢村】{rt}俺たちには{rt}それができるはずだ。		
-B13.0057	line		【矢村】{rt}必ず。		
-B13.0058	line		【矢村】{rt}ひとつ残らず―――。		
-B13.0059	line		【梓】{rt}アカガネッ！！		
-B13.0060	line		【アカガネ】{rt}梓―――よかったな。		
-B13.0061	line		【アカガネ】{rt}これでお前はやっと救われる。		
-B13.0062	line		【梓】{rt}良くないよッ！！{rt}アカガネッ、		
-B13.0063	line		【梓】{rt}あなたが死んで、{rt}いい訳ないッ！！		
+B13.0048	line		【矢村】{rt}この東京に、	【Yamura】{rt}In this Tokyo,	
+B13.0049	line		【矢村】{rt}アカガネが《大罪》と呼んだ{rt}《邪氣》は、	【Yamura】{rt}how many of the Miasma Akagane called{rt}the Great Sin	
+B13.0050	line		【矢村】{rt}いったいいくつ存在し、	【Yamura】{rt}exist,	
+B13.0051	line		【矢村】{rt}いくつの悪事を生み出して{rt}いるのだろうか？	【Yamura】{rt}and how many evil deeds are they{rt}spawning?	
+B13.0052	line		【矢村】{rt}《邪氣》は、	【Yamura】{rt}Miasma is	
+B13.0053	line		【矢村】{rt}人々から多くのものを失わせ、{rt}何も生みはしない―――	【Yamura】{rt}an evil Power that makes people lose so{rt}much	
+B13.0054	line		【矢村】{rt}邪悪な《力》だ。	【Yamura】{rt}and creates nothing--	
+B13.0055	line		【矢村】{rt}《邪氣》を{rt}この東京から消滅させる。	【Yamura】{rt}We'll wipe Miasma out of this Tokyo.	
+B13.0056	line		【矢村】{rt}俺たちには{rt}それができるはずだ。	【Yamura】{rt}We should be able to do it.	
+B13.0057	line		【矢村】{rt}必ず。	【Yamura】{rt}We will.	
+B13.0058	line		【矢村】{rt}ひとつ残らず―――。	【Yamura】{rt}Every last one of them--	
+B13.0059	line		【梓】{rt}アカガネッ！！	【Azusa】{rt}Akagane!!	
+B13.0060	line		【アカガネ】{rt}梓―――よかったな。	【Akagane】{rt}Azusa--I'm glad.	
+B13.0061	line		【アカガネ】{rt}これでお前はやっと救われる。	【Akagane】{rt}Now you'll finally be saved.	
+B13.0062	line		【梓】{rt}良くないよッ！！{rt}アカガネッ、	【Azusa】{rt}It's not good!! Akagane,	
+B13.0063	line		【梓】{rt}あなたが死んで、{rt}いい訳ないッ！！	【Azusa】{rt}there's no way it's all right for you to{rt}die!!	
 B13.0064	line		【アカガネ】{rt}梓―――。	【Akagane】{rt}Azusa--	
-B13.0065	line		【アカガネ】{rt}お前はいつでも優しいんだな。		
-B13.0066	line		【梓】{rt}アカガネッ。		
+B13.0065	line		【アカガネ】{rt}お前はいつでも優しいんだな。	【Akagane】{rt}You're always so kind.	
+B13.0066	line		【梓】{rt}アカガネッ。	【Azusa】{rt}Akagane.	
 B13.0067	line		【梓】{rt}…………。	【Azusa】{rt}......	
-B13.0068	line		【梓】{rt}約束…守るよ。{rt}ここから出ない。		
-B13.0069	line		【梓】{rt}だから―――		
-B13.0070	line		【梓】{rt}だから、お願い―――。		
-B13.0071	line		【アカガネ】{rt}梓…。		
-B13.0072	line		【アカガネ】{rt}ただの野良犬だった俺の死に{rt}涙を流してくれたお前に――		
-B13.0073	line		【梓】{rt}（え…？）		
-B13.0074	line		【アカガネ】{rt}恩返しができた…。		
-B13.0075	line		【アカガネ】{rt}最期くらい、{rt}せめてそう思わせてくれよ。		
-B13.0076	line		【梓】{rt}ひとりぼっち…。		
-B13.0077	line		【梓】{rt}お前と私、似ているかも{rt}しれないね…。		
+B13.0068	line		【梓】{rt}約束…守るよ。{rt}ここから出ない。	【Azusa】{rt}I'll... keep my promise. I won't leave this{rt}place.	
+B13.0069	line		【梓】{rt}だから―――	【Azusa】{rt}So--	
+B13.0070	line		【梓】{rt}だから、お願い―――。	【Azusa】{rt}so, please--	
+B13.0071	line		【アカガネ】{rt}梓…。	【Akagane】{rt}Azusa...	
+B13.0072	line		【アカガネ】{rt}ただの野良犬だった俺の死に{rt}涙を流してくれたお前に――	【Akagane】{rt}You shed tears over the death of the{rt}stray dog I was--	
+B13.0073	line		【梓】{rt}（え…？）	【Azusa】{rt}(Huh...?)	
+B13.0074	line		【アカガネ】{rt}恩返しができた…。	【Akagane】{rt}and I've repaid you...	
+B13.0075	line		【アカガネ】{rt}最期くらい、{rt}せめてそう思わせてくれよ。	【Akagane】{rt}At the very end, at least let me think{rt}so.	
+B13.0076	line		【梓】{rt}ひとりぼっち…。	【Azusa】{rt}All alone...	
+B13.0077	line		【梓】{rt}お前と私、似ているかも{rt}しれないね…。	【Azusa】{rt}Maybe you and I are alike...	
 B13.0078	line		【野良犬】{rt}ｃｕｕｎ…。	【Stray Dog】{rt}Whiiine...	
-B13.0079	line		【梓】{rt}あ、あなた…あの時の？		
-B13.0080	line		【アカガネ】{rt}ああ…。		
-B13.0081	line		【アカガネ】{rt}あの時、お前がいて{rt}くれなければ		
-B13.0082	line		【アカガネ】{rt}俺も、彼らのように、		
-B13.0083	line		【アカガネ】{rt}自分に理不尽な死を与えた{rt}人間たちに		
-B13.0084	line		【アカガネ】{rt}憎悪していたに{rt}違いない―――。		
-B13.0085	line		【アカガネ】{rt}お前の心は俺の魂を{rt}清い道へと導いてくれた。		
-B13.0086	line		【アカガネ】{rt}だから…。		
-B13.0087	line		【アカガネ】{rt}だから今度は、俺がお前を{rt}導いてやる番だ―――。		
-B13.0088	line		【梓】{rt}ア、アカガネ…。		
-B13.0089	line		【アカガネ】{rt}そう悲しそうな顔をするな。		
-B13.0090	line		【アカガネ】{rt}《大罪》から分離されるまでに{rt}少し時間がかかるだろうが…		
-B13.0091	line		【アカガネ】{rt}いつか、きっとお前のもとへ{rt}辿り着いてみせるから――。		
-B13.0092	line		【梓】{rt}アカガネ―――。		
-B13.0093	line		【アカガネ】{rt}受け取ってくれるか？		
-B13.0094	line		【アカガネ】{rt}俺の恩返しを…。		
+B13.0079	line		【梓】{rt}あ、あなた…あの時の？	【Azusa】{rt}Y-you're... the one from back then?	
+B13.0080	line		【アカガネ】{rt}ああ…。	【Akagane】{rt}Yes...	
+B13.0081	line		【アカガネ】{rt}あの時、お前がいて{rt}くれなければ	【Akagane】{rt}If you hadn't been there for me{rt}then,	
+B13.0082	line		【アカガネ】{rt}俺も、彼らのように、	【Akagane】{rt}I, too, like them,	
+B13.0083	line		【アカガネ】{rt}自分に理不尽な死を与えた{rt}人間たちに	【Akagane】{rt}would surely have come to hate the{rt}humans	
+B13.0084	line		【アカガネ】{rt}憎悪していたに{rt}違いない―――。	【Akagane】{rt}who gave me such an unjust death--	
+B13.0085	line		【アカガネ】{rt}お前の心は俺の魂を{rt}清い道へと導いてくれた。	【Akagane】{rt}Your heart led my soul down a pure{rt}path.	
+B13.0086	line		【アカガネ】{rt}だから…。	【Akagane】{rt}So...	
+B13.0087	line		【アカガネ】{rt}だから今度は、俺がお前を{rt}導いてやる番だ―――。	【Akagane】{rt}so this time, it's my turn to lead{rt}you--	
+B13.0088	line		【梓】{rt}ア、アカガネ…。	【Azusa】{rt}A-Akagane...	
+B13.0089	line		【アカガネ】{rt}そう悲しそうな顔をするな。	【Akagane】{rt}Don't look so sad.	
+B13.0090	line		【アカガネ】{rt}《大罪》から分離されるまでに{rt}少し時間がかかるだろうが…	【Akagane】{rt}It will take a while to separate from{rt}the Great Sin...	
+B13.0091	line		【アカガネ】{rt}いつか、きっとお前のもとへ{rt}辿り着いてみせるから――。	【Akagane】{rt}but some day, I swear, I'll find my way{rt}back to you--	
+B13.0092	line		【梓】{rt}アカガネ―――。	【Azusa】{rt}Akagane--	
+B13.0093	line		【アカガネ】{rt}受け取ってくれるか？	【Akagane】{rt}Will you accept it?	
+B13.0094	line		【アカガネ】{rt}俺の恩返しを…。	【Akagane】{rt}My repayment...	
 B13.0095	line		【梓】{rt}…………。	【Azusa】{rt}......	
-B13.0096	line		【梓】{rt}ありがとう…。{rt}アカガネ―――。		
+B13.0096	line		【梓】{rt}ありがとう…。{rt}アカガネ―――。	【Azusa】{rt}Thank you... Akagane--	
 B13.0097	line		【矢村】{rt}…………。	【Yamura】{rt}............	
 B13.0098	line		【伊涼】{rt}梓ちゃん…。	【Isuzu】{rt}Azusa-chan...	
-B13.0099	line		【アカガネ】{rt}すまんな、湿っぽくなって。		
-B13.0100	line		【アカガネ】{rt}―――さあ、そろそろだ。		
-B13.0101	line		【アカガネ】{rt}《大罪》を封印するんだ。		
-B13.0102	line		【アカガネ】{rt}俺とともに…。		
-B13.0103	line		【伊涼】{rt}…邪氣、封印ッ。		
+B13.0099	line		【アカガネ】{rt}すまんな、湿っぽくなって。	【Akagane】{rt}Sorry, for getting so gloomy.	
+B13.0100	line		【アカガネ】{rt}―――さあ、そろそろだ。	【Akagane】{rt}--Now, it's time.	
+B13.0101	line		【アカガネ】{rt}《大罪》を封印するんだ。	【Akagane】{rt}Seal the Great Sin.	
+B13.0102	line		【アカガネ】{rt}俺とともに…。	【Akagane】{rt}Along with me...	
+B13.0103	line		【伊涼】{rt}…邪氣、封印ッ。	【Isuzu】{rt}...Miasma, sealed.	
 B13.0104	line		【アカガネ】{rt}…………。	【Akagane】{rt}......	
 B13.0105	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B13.0106	line		【矢村】{rt}この東京に、《邪氣》―――		
-B13.0107	line		【矢村】{rt}《大罪》とアカガネは{rt}呼んだ―――は、		
-B13.0108	line		【矢村】{rt}いったいいくつ存在し、		
-B13.0109	line		【矢村】{rt}いくつの悪事を生み出して{rt}いるのだろうか？		
-B13.0110	line		【矢村】{rt}《邪氣》は、		
-B13.0111	line		【矢村】{rt}人々から多くのものを失わせ、{rt}何も生みはしない―――		
-B13.0112	line		【矢村】{rt}邪悪な《力》だ。		
-B13.0113	line		【矢村】{rt}《邪氣》を{rt}この東京から消滅させる。		
-B13.0114	line		【矢村】{rt}俺たちには{rt}それができるはずだ。		
-B13.0115	line		【矢村】{rt}必ず。		
-B13.0116	line		【矢村】{rt}ひとつ残らず―――。		
+B13.0106	line		【矢村】{rt}この東京に、《邪氣》―――	【Yamura】{rt}In this Tokyo, Miasma--	
+B13.0107	line		【矢村】{rt}《大罪》とアカガネは{rt}呼んだ―――は、	【Yamura】{rt}which Akagane called the Great Sin--	
+B13.0108	line		【矢村】{rt}いったいいくつ存在し、	【Yamura】{rt}exist,	
+B13.0109	line		【矢村】{rt}いくつの悪事を生み出して{rt}いるのだろうか？	【Yamura】{rt}and how many evil deeds are they{rt}spawning?	
+B13.0110	line		【矢村】{rt}《邪氣》は、	【Yamura】{rt}Miasma is	
+B13.0111	line		【矢村】{rt}人々から多くのものを失わせ、{rt}何も生みはしない―――	【Yamura】{rt}an evil Power that makes people lose so{rt}much	
+B13.0112	line		【矢村】{rt}邪悪な《力》だ。	【Yamura】{rt}and creates nothing--	
+B13.0113	line		【矢村】{rt}《邪氣》を{rt}この東京から消滅させる。	【Yamura】{rt}We'll wipe Miasma out of this Tokyo.	
+B13.0114	line		【矢村】{rt}俺たちには{rt}それができるはずだ。	【Yamura】{rt}We should be able to do it.	
+B13.0115	line		【矢村】{rt}必ず。	【Yamura】{rt}We will.	
+B13.0116	line		【矢村】{rt}ひとつ残らず―――。	【Yamura】{rt}Every last one of them--	

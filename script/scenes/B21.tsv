@@ -41,7 +41,7 @@ B21.0038	line		【伊涼】{rt}高丸の声じゃない！！
 B21.0039	line		【伊涼】{rt}いつものあの夢じゃないッ。		
 B21.0040	line		【矢村】{rt}何だとッ！？		
 B21.0041	line		【男の声】{rt}ち―――血が…。		
-B21.0042	line		【伊涼】{rt}誰ッ！？		
+B21.0042	line		【伊涼】{rt}誰ッ！？	【Isuzu】{rt}Who's there!?	
 B21.0043	line		【伊涼】{rt}誰なのッ―――？		
 B21.0044	line		【伊涼】{rt}はッ―――！？		
 B21.0045	line		【男】{rt}か、身体が、冷えていく…。		
@@ -99,7 +99,7 @@ B21.0096	line		【矢村】{rt}しっかりしろ、伊涼。
 B21.0097	line		【矢村】{rt}もう少しの辛抱だ。		
 B21.0098	line		【伊涼】{rt}う、うん…。		
 B21.0099	line		【矢村】{rt}…勧請ッ。		
-B21.0100	line		【矢村】{rt}氏神・{name1}大明神ッ。		
+B21.0100	line		【矢村】{rt}氏神・{name1}大明神ッ。	【Yamura】{rt}Ujigami, Great Deity {name1}!	
 B21.0101	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
 B21.0102	line		【伊涼】{rt}ううッ…。	【Isuzu】{rt}Uuugh...	
 B21.0103	line		【男】{rt}…………。	【Man】{rt}............	

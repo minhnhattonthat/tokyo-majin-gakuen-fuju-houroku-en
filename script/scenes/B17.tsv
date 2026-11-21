@@ -77,14 +77,14 @@ B17.0074	line		【矢村】{rt}あんまり気にする事はないさ。
 B17.0075	line		【矢村】{rt}お前が無事に帰ってきた―――		
 B17.0076	line		【矢村】{rt}俺はそれだけで充分だ。		
 B17.0077	line		【伊涼】{rt}俊―――。	【Isuzu】{rt}Shun--	
-B17.0078	line		【矢村】{rt}罠かもしれないなんて{rt}臆病になっていたら、		
-B17.0079	line		【矢村】{rt}伊涼はッ―――		
-B17.0080	line		【矢村】{rt}伊涼の命はッ…。		
-B17.0081	line		【矢村】{rt}…{name1}殿ッ。		
-B17.0082	line		【矢村】{rt}俺に…		
-B17.0083	line		【矢村】{rt}《力》を貸してくださいッ。		
-B17.0084	line		【矢村】{rt}伊涼を助けるため―――		
-B17.0085	line		【矢村】{rt}あなたの御《力》をッ！！		
+B17.0078	line		【矢村】{rt}罠かもしれないなんて{rt}臆病になっていたら、	【Yamura】{rt}If I turn coward thinking it might be a{rt}trap,	
+B17.0079	line		【矢村】{rt}伊涼はッ―――	【Yamura】{rt}Isuzu's--	
+B17.0080	line		【矢村】{rt}伊涼の命はッ…。	【Yamura】{rt}Isuzu's life...	
+B17.0081	line		【矢村】{rt}…{name1}殿ッ。	【Yamura】{rt}...{name1}-dono.	
+B17.0082	line		【矢村】{rt}俺に…	【Yamura】{rt}Please lend me...	
+B17.0083	line		【矢村】{rt}《力》を貸してくださいッ。	【Yamura】{rt}your Power.	
+B17.0084	line		【矢村】{rt}伊涼を助けるため―――	【Yamura】{rt}To save Isuzu--	
+B17.0085	line		【矢村】{rt}あなたの御《力》をッ！！	【Yamura】{rt}your august Power!!	
 B17.0086	line		【矢村】{rt}…………。	【Yamura】{rt}............	
 B17.0087	line		【矢村】{rt}{name1}殿…。	【Yamura】{rt}{name1}-dono...	
 B17.0088	line		【矢村】{rt}伊涼を助け出せたのは、		
@@ -107,14 +107,14 @@ B17.0104	line		【伊涼】{rt}でも、私、この次からは{rt}もっと頑
 B17.0105	line		【伊涼】{rt}私―――	【Isuzu】{rt}I'm--	
 B17.0106	line		【伊涼】{rt}《邪氣》なんかに{rt}負けたくないよッ…。		
 B17.0107	line		【矢村】{rt}伊涼―――。		
-B17.0108	line		【矢村】{rt}罠かもしれないなんて{rt}臆病になっていたら、		
-B17.0109	line		【矢村】{rt}伊涼はッ―――		
-B17.0110	line		【矢村】{rt}伊涼の命はッ…。		
-B17.0111	line		【矢村】{rt}…{name1}殿ッ。		
-B17.0112	line		【矢村】{rt}俺に…		
-B17.0113	line		【矢村】{rt}《力》を貸してくださいッ。		
-B17.0114	line		【矢村】{rt}伊涼を助けるため―――		
-B17.0115	line		【矢村】{rt}あなたの御《力》をッ！！		
+B17.0108	line		【矢村】{rt}罠かもしれないなんて{rt}臆病になっていたら、	【Yamura】{rt}If I turn coward thinking it might be a{rt}trap,	
+B17.0109	line		【矢村】{rt}伊涼はッ―――	【Yamura】{rt}Isuzu's--	
+B17.0110	line		【矢村】{rt}伊涼の命はッ…。	【Yamura】{rt}Isuzu's life...	
+B17.0111	line		【矢村】{rt}…{name1}殿ッ。	【Yamura】{rt}...{name1}-dono.	
+B17.0112	line		【矢村】{rt}俺に…	【Yamura】{rt}Please lend me...	
+B17.0113	line		【矢村】{rt}《力》を貸してくださいッ。	【Yamura】{rt}your Power.	
+B17.0114	line		【矢村】{rt}伊涼を助けるため―――	【Yamura】{rt}To save Isuzu--	
+B17.0115	line		【矢村】{rt}あなたの御《力》をッ！！	【Yamura】{rt}your august Power!!	
 B17.0116	line		【矢村】{rt}…………。	【Yamura】{rt}............	
 B17.0117	line		【矢村】{rt}俺も、お前と同じ想いだよ。		
 B17.0118	line		【矢村】{rt}{name1}殿…。	【Yamura】{rt}{name1}-dono...	
@@ -141,14 +141,14 @@ B17.0138	line		【伊涼】{rt}俊、
 B17.0139	line		【伊涼】{rt}{name1}くん―――。		
 B17.0140	line		【伊涼】{rt}ありがとうッ。		
 B17.0141	line		【矢村】{rt}伊涼…。	【Yamura】{rt}Isuzu...	
-B17.0142	line		【矢村】{rt}罠かもしれないなんて{rt}臆病になっていたら、		
-B17.0143	line		【矢村】{rt}伊涼はッ―――		
-B17.0144	line		【矢村】{rt}伊涼の命はッ…。		
-B17.0145	line		【矢村】{rt}…{name1}殿ッ。		
-B17.0146	line		【矢村】{rt}俺に…		
-B17.0147	line		【矢村】{rt}《力》を貸してくださいッ。		
-B17.0148	line		【矢村】{rt}伊涼を助けるため―――		
-B17.0149	line		【矢村】{rt}あなたの御《力》をッ！！		
+B17.0142	line		【矢村】{rt}罠かもしれないなんて{rt}臆病になっていたら、	【Yamura】{rt}If I turn coward thinking it might be a{rt}trap,	
+B17.0143	line		【矢村】{rt}伊涼はッ―――	【Yamura】{rt}Isuzu's--	
+B17.0144	line		【矢村】{rt}伊涼の命はッ…。	【Yamura】{rt}Isuzu's life...	
+B17.0145	line		【矢村】{rt}…{name1}殿ッ。	【Yamura】{rt}...{name1}-dono.	
+B17.0146	line		【矢村】{rt}俺に…	【Yamura】{rt}Please lend me...	
+B17.0147	line		【矢村】{rt}《力》を貸してくださいッ。	【Yamura】{rt}your Power.	
+B17.0148	line		【矢村】{rt}伊涼を助けるため―――	【Yamura】{rt}To save Isuzu--	
+B17.0149	line		【矢村】{rt}あなたの御《力》をッ！！	【Yamura】{rt}your august Power!!	
 B17.0150	line		【矢村】{rt}…………。	【Yamura】{rt}............	
 B17.0151	line		【矢村】{rt}…いや、		
 B17.0152	line		【矢村】{rt}俺はお前に礼をいわれるような{rt}事はしていない…。		
@@ -178,14 +178,14 @@ B17.0175	line		【伊涼】{rt}俊、
 B17.0176	line		【伊涼】{rt}{name2}ちゃん―――。		
 B17.0177	line		【伊涼】{rt}ありがとうッ。		
 B17.0178	line		【矢村】{rt}伊涼…。	【Yamura】{rt}Isuzu...	
-B17.0179	line		【矢村】{rt}罠かもしれないなんて{rt}臆病になっていたら、		
-B17.0180	line		【矢村】{rt}伊涼はッ―――		
-B17.0181	line		【矢村】{rt}伊涼の命はッ…。		
-B17.0182	line		【矢村】{rt}…{name1}殿ッ。		
-B17.0183	line		【矢村】{rt}俺に…		
-B17.0184	line		【矢村】{rt}《力》を貸してくださいッ。		
-B17.0185	line		【矢村】{rt}伊涼を助けるため―――		
-B17.0186	line		【矢村】{rt}あなたの御《力》をッ！！		
+B17.0179	line		【矢村】{rt}罠かもしれないなんて{rt}臆病になっていたら、	【Yamura】{rt}If I turn coward thinking it might be a{rt}trap,	
+B17.0180	line		【矢村】{rt}伊涼はッ―――	【Yamura】{rt}Isuzu's--	
+B17.0181	line		【矢村】{rt}伊涼の命はッ…。	【Yamura】{rt}Isuzu's life...	
+B17.0182	line		【矢村】{rt}…{name1}殿ッ。	【Yamura】{rt}...{name1}-dono.	
+B17.0183	line		【矢村】{rt}俺に…	【Yamura】{rt}Please lend me...	
+B17.0184	line		【矢村】{rt}《力》を貸してくださいッ。	【Yamura】{rt}your Power.	
+B17.0185	line		【矢村】{rt}伊涼を助けるため―――	【Yamura】{rt}To save Isuzu--	
+B17.0186	line		【矢村】{rt}あなたの御《力》をッ！！	【Yamura】{rt}your august Power!!	
 B17.0187	line		【矢村】{rt}…………。	【Yamura】{rt}............	
 B17.0188	line		【矢村】{rt}…いや、		
 B17.0189	line		【矢村】{rt}俺はお前に礼をいわれるような{rt}事はしていない…。		
@@ -232,14 +232,14 @@ B17.0229	line		【伊涼】{rt}―――うんッ。
 B17.0230	line		【矢村】{rt}よしッ。		
 B17.0231	line		【矢村】{rt}これでひと安心だな。		
 B17.0232	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B17.0233	line		【矢村】{rt}罠かもしれないなんて{rt}臆病になっていたら、		
-B17.0234	line		【矢村】{rt}伊涼はッ―――		
-B17.0235	line		【矢村】{rt}伊涼の命はッ…。		
-B17.0236	line		【矢村】{rt}…{name1}殿ッ。		
-B17.0237	line		【矢村】{rt}俺に…		
-B17.0238	line		【矢村】{rt}《力》を貸してくださいッ。		
-B17.0239	line		【矢村】{rt}伊涼を助けるため―――		
-B17.0240	line		【矢村】{rt}あなたの御《力》をッ！！		
+B17.0233	line		【矢村】{rt}罠かもしれないなんて{rt}臆病になっていたら、	【Yamura】{rt}If I turn coward thinking it might be a{rt}trap,	
+B17.0234	line		【矢村】{rt}伊涼はッ―――	【Yamura】{rt}Isuzu's--	
+B17.0235	line		【矢村】{rt}伊涼の命はッ…。	【Yamura】{rt}Isuzu's life...	
+B17.0236	line		【矢村】{rt}…{name1}殿ッ。	【Yamura】{rt}...{name1}-dono.	
+B17.0237	line		【矢村】{rt}俺に…	【Yamura】{rt}Please lend me...	
+B17.0238	line		【矢村】{rt}《力》を貸してくださいッ。	【Yamura】{rt}your Power.	
+B17.0239	line		【矢村】{rt}伊涼を助けるため―――	【Yamura】{rt}To save Isuzu--	
+B17.0240	line		【矢村】{rt}あなたの御《力》をッ！！	【Yamura】{rt}your august Power!!	
 B17.0241	line		【矢村】{rt}…………。	【Yamura】{rt}............	
 B17.0242	line		【矢村】{rt}…{name1}殿。		
 B17.0243	line		【矢村】{rt}こうして伊涼を{rt}無事助け出せたのも、		
@@ -262,14 +262,14 @@ B17.0259	line		【矢村】{rt}俺は―――
 B17.0260	line		【矢村】{rt}お前が無事だったってだけで{rt}充分なんだから…。		
 B17.0261	line		【伊涼】{rt}ううッ、俊ッ―――。		
 B17.0262	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B17.0263	line		【矢村】{rt}罠かもしれないなんて{rt}臆病になっていたら、		
-B17.0264	line		【矢村】{rt}伊涼はッ―――		
-B17.0265	line		【矢村】{rt}伊涼の命はッ…。		
-B17.0266	line		【矢村】{rt}…{name1}殿ッ。		
-B17.0267	line		【矢村】{rt}俺に…		
-B17.0268	line		【矢村】{rt}《力》を貸してくださいッ。		
-B17.0269	line		【矢村】{rt}伊涼を助けるため―――		
-B17.0270	line		【矢村】{rt}あなたの御《力》をッ！！		
+B17.0263	line		【矢村】{rt}罠かもしれないなんて{rt}臆病になっていたら、	【Yamura】{rt}If I turn coward thinking it might be a{rt}trap,	
+B17.0264	line		【矢村】{rt}伊涼はッ―――	【Yamura】{rt}Isuzu's--	
+B17.0265	line		【矢村】{rt}伊涼の命はッ…。	【Yamura】{rt}Isuzu's life...	
+B17.0266	line		【矢村】{rt}…{name1}殿ッ。	【Yamura】{rt}...{name1}-dono.	
+B17.0267	line		【矢村】{rt}俺に…	【Yamura】{rt}Please lend me...	
+B17.0268	line		【矢村】{rt}《力》を貸してくださいッ。	【Yamura】{rt}your Power.	
+B17.0269	line		【矢村】{rt}伊涼を助けるため―――	【Yamura】{rt}To save Isuzu--	
+B17.0270	line		【矢村】{rt}あなたの御《力》をッ！！	【Yamura】{rt}your august Power!!	
 B17.0271	line		【矢村】{rt}{name1}殿…。	【Yamura】{rt}{name1}-dono...	
 B17.0272	line		【矢村】{rt}伊涼を無事に助け出せた―――		
 B17.0273	line		【矢村】{rt}それも、あなたのご助力が{rt}あったから可能になった事。		
@@ -291,14 +291,14 @@ B17.0288	line		【矢村】{rt}俺は―――
 B17.0289	line		【矢村】{rt}お前が無事だったってだけで{rt}充分なんだから…。		
 B17.0290	line		【伊涼】{rt}ううッ、俊ッ―――。		
 B17.0291	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B17.0292	line		【矢村】{rt}罠かもしれないなんて{rt}臆病になっていたら、		
-B17.0293	line		【矢村】{rt}伊涼はッ―――		
-B17.0294	line		【矢村】{rt}伊涼の命はッ…。		
-B17.0295	line		【矢村】{rt}…{name1}殿ッ。		
-B17.0296	line		【矢村】{rt}俺に…		
-B17.0297	line		【矢村】{rt}《力》を貸してくださいッ。		
-B17.0298	line		【矢村】{rt}伊涼を助けるため―――		
-B17.0299	line		【矢村】{rt}あなたの御《力》をッ！！		
+B17.0292	line		【矢村】{rt}罠かもしれないなんて{rt}臆病になっていたら、	【Yamura】{rt}If I turn coward thinking it might be a{rt}trap,	
+B17.0293	line		【矢村】{rt}伊涼はッ―――	【Yamura】{rt}Isuzu's--	
+B17.0294	line		【矢村】{rt}伊涼の命はッ…。	【Yamura】{rt}Isuzu's life...	
+B17.0295	line		【矢村】{rt}…{name1}殿ッ。	【Yamura】{rt}...{name1}-dono.	
+B17.0296	line		【矢村】{rt}俺に…	【Yamura】{rt}Please lend me...	
+B17.0297	line		【矢村】{rt}《力》を貸してくださいッ。	【Yamura】{rt}your Power.	
+B17.0298	line		【矢村】{rt}伊涼を助けるため―――	【Yamura】{rt}To save Isuzu--	
+B17.0299	line		【矢村】{rt}あなたの御《力》をッ！！	【Yamura】{rt}your august Power!!	
 B17.0300	line		【矢村】{rt}…………。	【Yamura】{rt}............	
 B17.0301	line		【矢村】{rt}{name1}殿…。	【Yamura】{rt}{name1}-dono...	
 B17.0302	line		【矢村】{rt}伊涼を無事に助け出せた―――		

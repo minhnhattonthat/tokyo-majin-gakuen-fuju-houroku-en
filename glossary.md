@@ -257,6 +257,10 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 - b048-b050 (A12, B12): 《大罪》 -> Great Sin (first in B12; pairs with 《罪》 Sin). 《喜び》 -> Joy. 現世 -> the mortal
   world. Choice B12.0049 符を渡す/渡さない -> Hand it over / Keep it. A12 voices: Cat Girl and One-Eyed Tengu speak
   Kansai ("ya", dropped g's, "ain't"; Cat Girl adds "nya"); the Automaton Maker's 儚い tic -> "how fleeting".
+- b051-b053 (B13-B15): 鈴鹿の鬼姫 -> Oni Princess of Suzuka. 式神 -> shikigami; 式招来 -> "Shiki, I summon
+  thee!". 妖 (あやかし) -> demon. 六十重の塔 -> the sixty-tiered tower (= Sunshine 60). 巣鴨監獄 -> Sugamo Prison.
+  大江山 -> Mt. Oe. 魂魄 -> souls. 勧請ッ！ -> "Summoning!"; 氏神・{name1}大明神 -> "Ujigami, Great Deity {name1}!".
+  Takamaru says 己 (おれ) = plain "I/me"; his Woman's Voice laughs くふふ = "Kuh-huhu". 《影》 -> Shadow.
 - A12.4.0038/0043 and A12.9.0057 start `【【` (a JP typo); merge tags them normally.
 - The only row whose JP holds two boxes (`...{rt}{rt}【X】{rt}...`) is B11.0121:
   the batch check wants the repeated speaker name in the English, so put `【X】` in the body to pass, then after

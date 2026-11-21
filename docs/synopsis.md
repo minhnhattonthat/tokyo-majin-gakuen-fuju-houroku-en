@@ -64,3 +64,14 @@ session; translators read it before their batch.
   as a pair, so sealing it means sealing her too. Choice: hand Akagane the talisman or not; he takes it (his dog
   snatches it), absorbs the parents' half of the Great Sin to draw out Azusa's half, and turns into a beast (he was
   never human). Azusa offers her Thought to the Ujigami; Isuzu and Yamura tell her she's too weak; battle.
+- B13: Akagane reveals he was the stray dog Azusa wept over; her kindness kept his soul from hatred, and this is his
+  repayment. He is sealed with the Great Sin, promising to find his way back to her. Yamura vows to wipe every
+  Miasma out of Tokyo.
+- B14: Isuzu dreams of a battlefield of skulls: a Young Warrior, Toshimune (looks like Shun), stands over the
+  defeated Takamaru, whose Power an Ujigami (Enra) sealed; Takamaru swears to return and take the heads of
+  Toshimune's children and grandchildren; a woman whispers "Toshimune". Takamaru appears to Isuzu: she is the "Oni
+  Princess of Suzuka", of his kind; he summons a shikigami (a Woman's Voice promised a new body for Toshimune's
+  head). The Woman's Voice, a Shadow assassin, wakes Yamura ("Toshimune"); he summons the player; battle.
+- B15: the beaten assassin says Isuzu went to "the land where grudges sleep, below the sixty-tiered tower" to
+  become her true self. Yamura reads it as Sunshine 60 over Ikebukuro (old Sugamo Prison), blames himself, and asks
+  the player to come. In Ikebukuro, vengeful voices of "the clan of Mt. Oe" attack him as Toshimune; battle.
