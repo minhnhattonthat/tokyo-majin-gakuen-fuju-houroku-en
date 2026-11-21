@@ -1,80 +1,80 @@
 id	kind	max	jp	en	notes
-B25.0000	line		【クマソ】{rt}ひ、ひいいいッ。		
-B25.0001	line		【クマソ】{rt}お、俺の身体…{rt}バラバラに―――		
-B25.0002	line		【ヤマト】{rt}う、うう…。		
-B25.0003	line		【クマソ】{rt}ヤ…マト…。		
-B25.0004	line		【クマソ】{rt}おれの代わり…に―――		
-B25.0005	line		【矢村】{rt}もうお終いだクマソッ！！		
-B25.0006	line		【矢村】{rt}―――伊涼ッ。		
+B25.0000	line		【クマソ】{rt}ひ、ひいいいッ。	【Kumaso】{rt}H-hiiiieee.	
+B25.0001	line		【クマソ】{rt}お、俺の身体…{rt}バラバラに―――	【Kumaso】{rt}M-my body... in pieces--	
+B25.0002	line		【ヤマト】{rt}う、うう…。	【Yamato】{rt}Uh, uugh...	
+B25.0003	line		【クマソ】{rt}ヤ…マト…。	【Kumaso】{rt}Ya... mato...	
+B25.0004	line		【クマソ】{rt}おれの代わり…に―――	【Kumaso】{rt}In my... place--	
+B25.0005	line		【矢村】{rt}もうお終いだクマソッ！！	【Yamura】{rt}It's over, Kumaso!!	
+B25.0006	line		【矢村】{rt}―――伊涼ッ。	【Yamura】{rt}--Isuzu.	
 B25.0007	line		【伊涼】{rt}うんッ。	【Isuzu】{rt}Yeah!	
 B25.0008	line		【伊涼】{rt}邪氣封印ッ！！	【Isuzu】{rt}Miasma, be sealed!!	
-B25.0009	line		【クマソ】{rt}ひ、ひいいいッ。		
-B25.0010	line		【クマソ】{rt}お、俺の身体…{rt}バラバラに―――		
-B25.0011	line		【ヤマト】{rt}う、うう…。		
-B25.0012	line		【クマソ】{rt}ヤ…マト…。		
-B25.0013	line		【クマソ】{rt}おれの代わり…に―――		
-B25.0014	line		【矢村】{rt}もうお終いだクマソッ！！		
-B25.0015	line		【矢村】{rt}―――伊涼ッ。		
+B25.0009	line		【クマソ】{rt}ひ、ひいいいッ。	【Kumaso】{rt}H-hiiiieee.	
+B25.0010	line		【クマソ】{rt}お、俺の身体…{rt}バラバラに―――	【Kumaso】{rt}M-my body... in pieces--	
+B25.0011	line		【ヤマト】{rt}う、うう…。	【Yamato】{rt}Uh, uugh...	
+B25.0012	line		【クマソ】{rt}ヤ…マト…。	【Kumaso】{rt}Ya... mato...	
+B25.0013	line		【クマソ】{rt}おれの代わり…に―――	【Kumaso】{rt}In my... place--	
+B25.0014	line		【矢村】{rt}もうお終いだクマソッ！！	【Yamura】{rt}It's over, Kumaso!!	
+B25.0015	line		【矢村】{rt}―――伊涼ッ。	【Yamura】{rt}--Isuzu.	
 B25.0016	line		【伊涼】{rt}うんッ。	【Isuzu】{rt}Yeah!	
 B25.0017	line		【伊涼】{rt}邪氣封印ッ！！	【Isuzu】{rt}Miasma, be sealed!!	
-B25.0018	line		【ヤマト】{rt}ウ―――。		
+B25.0018	line		【ヤマト】{rt}ウ―――。	【Yamato】{rt}Ugh--	
 B25.0019	line		【ヤマト】{rt}…………。	【Yamato】{rt}......	
-B25.0020	line		【伊涼】{rt}封印完了ッ！！		
-B25.0021	line		【矢村】{rt}やったな。		
-B25.0022	line		【矢村】{rt}これで、奴の術にかかっていた{rt}人たちも解放されるはずだ。		
+B25.0020	line		【伊涼】{rt}封印完了ッ！！	【Isuzu】{rt}Sealing complete!!	
+B25.0021	line		【矢村】{rt}やったな。	【Yamura】{rt}We did it.	
+B25.0022	line		【矢村】{rt}これで、奴の術にかかっていた{rt}人たちも解放されるはずだ。	【Yamura】{rt}Now the people under his spell should{rt}be freed too.	
 B25.0023	line		【伊涼】{rt}俊…。	【Isuzu】{rt}Shun...	
-B25.0024	line		【矢村】{rt}心配かけたな、伊涼。		
-B25.0025	line		【伊涼】{rt}ううん…。		
-B25.0026	line		【矢村】{rt}クマソの術で意識が薄れた時、		
-B25.0027	line		【矢村】{rt}俺の中に{name1}の《念》が{rt}流れ込んできたんだ。		
-B25.0028	line		【矢村】{rt}俺の聞いた事のない声、		
-B25.0029	line		【矢村】{rt}知らない人間の《念》…。		
-B25.0030	line		【矢村】{rt}何のために、		
-B25.0031	line		【矢村】{rt}何を信じて		
-B25.0032	line		【矢村】{rt}俺たちは闘うべきなのか。		
-B25.0033	line		【矢村】{rt}彼らも闘っていたよ。		
-B25.0034	line		【矢村】{rt}《護るべきもの》のために。		
-B25.0035	line		【矢村】{rt}自分がそれを護りたいと思う		
-B25.0036	line		【矢村】{rt}心を信じて―――。		
+B25.0024	line		【矢村】{rt}心配かけたな、伊涼。	【Yamura】{rt}Sorry I worried you, Isuzu.	
+B25.0025	line		【伊涼】{rt}ううん…。	【Isuzu】{rt}It's okay...	
+B25.0026	line		【矢村】{rt}クマソの術で意識が薄れた時、	【Yamura】{rt}When my mind was fading under{rt}Kumaso's spell,	
+B25.0027	line		【矢村】{rt}俺の中に{name1}の《念》が{rt}流れ込んできたんだ。	【Yamura】{rt}{name1}'s Thought flowed into me.	
+B25.0028	line		【矢村】{rt}俺の聞いた事のない声、	【Yamura】{rt}Voices I'd never heard,	
+B25.0029	line		【矢村】{rt}知らない人間の《念》…。	【Yamura】{rt}the Thought of people I don't know...	
+B25.0030	line		【矢村】{rt}何のために、	【Yamura】{rt}What we should fight for,	
+B25.0031	line		【矢村】{rt}何を信じて	【Yamura】{rt}what we should believe in	
+B25.0032	line		【矢村】{rt}俺たちは闘うべきなのか。	【Yamura】{rt}as we fight.	
+B25.0033	line		【矢村】{rt}彼らも闘っていたよ。	【Yamura】{rt}They were fighting too.	
+B25.0034	line		【矢村】{rt}《護るべきもの》のために。	【Yamura】{rt}For "what they must protect".	
+B25.0035	line		【矢村】{rt}自分がそれを護りたいと思う	【Yamura】{rt}Believing in the heart	
+B25.0036	line		【矢村】{rt}心を信じて―――。	【Yamura】{rt}that wants to protect it--	
 B25.0037	line		【伊涼】{rt}俊…。	【Isuzu】{rt}Shun...	
-B25.0038	line		【矢村】{rt}俺にはそれが心強かった。		
-B25.0039	line		【矢村】{rt}俺はひとりじゃない―――。		
-B25.0040	line		【矢村】{rt}そう思ったら、迷いを振り切る{rt}覚悟ができた。		
-B25.0041	line		【矢村】{rt}伊涼、俺は闘うよ。		
+B25.0038	line		【矢村】{rt}俺にはそれが心強かった。	【Yamura】{rt}That gave me strength.	
+B25.0039	line		【矢村】{rt}俺はひとりじゃない―――。	【Yamura】{rt}I'm not alone--	
+B25.0040	line		【矢村】{rt}そう思ったら、迷いを振り切る{rt}覚悟ができた。	【Yamura】{rt}once I thought that, I found the{rt}resolve to shake off my doubt.	
+B25.0041	line		【矢村】{rt}伊涼、俺は闘うよ。	【Yamura】{rt}Isuzu, I'll fight.	
 B25.0042	line		【矢村】{rt}俺の大切なもの―――	【Yamura】{rt}To protect what's precious to me--	
-B25.0043	line		【矢村】{rt}俺の生まれ育ったこの東京や、		
-B25.0044	line		【矢村】{rt}伊涼を、		
-B25.0045	line		【矢村】{rt}《大罪》の牙から最後まで{rt}護りぬくために。		
+B25.0043	line		【矢村】{rt}俺の生まれ育ったこの東京や、	【Yamura】{rt}To protect this Tokyo where I was born{rt}and raised,	
+B25.0044	line		【矢村】{rt}伊涼を、	【Yamura】{rt}and you, Isuzu,	
+B25.0045	line		【矢村】{rt}《大罪》の牙から最後まで{rt}護りぬくために。	【Yamura】{rt}from the fangs of the Great Sin, to the{rt}very end.	
 B25.0046	line		【伊涼】{rt}俊―――。	【Isuzu】{rt}Shun--	
 B25.0047	line		【伊涼】{rt}私、嬉しいよ。	【Isuzu】{rt}I'm happy.	
 B25.0048	line		【伊涼】{rt}{name1}くんッ。	【Isuzu】{rt}{name1}-kun.	
 B25.0049	line		【伊涼】{rt}{name2}ちゃんッ。	【Isuzu】{rt}{name2}-chan.	
 B25.0050	line		【伊涼】{rt}ありがとう。	【Isuzu】{rt}Thank you.	
-B25.0051	line		【伊涼】{rt}これからも、三人で{rt}闘っていこう！！		
-B25.0052	line		【矢村】{rt}伊涼―――{rt}{name1}…。		
-B25.0053	line		【矢村】{rt}なんて感動してる場合じゃ{rt}ないな。		
-B25.0054	line		【矢村】{rt}まだ、息のある人が{rt}いるかもしれない。		
-B25.0055	line		【矢村】{rt}俺はヤマトを看てみる。		
-B25.0056	line		【矢村】{rt}伊涼はあっちを。		
+B25.0051	line		【伊涼】{rt}これからも、三人で{rt}闘っていこう！！	【Isuzu】{rt}Let's keep fighting, the three of us,{rt}from now on too!!	
+B25.0052	line		【矢村】{rt}伊涼―――{rt}{name1}…。	【Yamura】{rt}Isuzu--{name1}...	
+B25.0053	line		【矢村】{rt}なんて感動してる場合じゃ{rt}ないな。	【Yamura】{rt}Then again, this is no time to get all{rt}choked up.	
+B25.0054	line		【矢村】{rt}まだ、息のある人が{rt}いるかもしれない。	【Yamura】{rt}There may be people still breathing.	
+B25.0055	line		【矢村】{rt}俺はヤマトを看てみる。	【Yamura】{rt}I'll check on Yamato.	
+B25.0056	line		【矢村】{rt}伊涼はあっちを。	【Yamura】{rt}Isuzu, you take over there.	
 B25.0057	line		【伊涼】{rt}うん。	【Isuzu】{rt}Okay.	
-B25.0058	line		【不良】{rt}う―――。		
-B25.0059	line		【伊涼】{rt}（…よかった。）		
-B25.0060	line		【伊涼】{rt}大丈夫？		
-B25.0061	line		【不良】{rt}あ…う…。		
-B25.0062	line		【矢村】{rt}（クマソの《力》が{rt}　絶たれたのか…。）		
-B25.0063	line		【矢村】{rt}おい、ヤマト。大丈夫―――		
-B25.0064	line		【ヤマト】{rt}―――ッ。		
+B25.0058	line		【不良】{rt}う―――。	【Delinquent】{rt}Ugh--	
+B25.0059	line		【伊涼】{rt}（…よかった。）	【Isuzu】{rt}(...Thank goodness.)	
+B25.0060	line		【伊涼】{rt}大丈夫？	【Isuzu】{rt}Are you okay?	
+B25.0061	line		【不良】{rt}あ…う…。	【Delinquent】{rt}Ah... uh...	
+B25.0062	line		【矢村】{rt}（クマソの《力》が{rt}　絶たれたのか…。）	【Yamura】{rt}(Kumaso's Power has been cut off...)	
+B25.0063	line		【矢村】{rt}おい、ヤマト。大丈夫―――	【Yamura】{rt}Hey, Yamato. Are you all right--	
+B25.0064	line		【ヤマト】{rt}―――ッ。	【Yamato】{rt}--!	
 B25.0065	line		【矢村】{rt}うッ―――！？	【Yamura】{rt}Ugh--!?	
 B25.0066	line		【伊涼】{rt}俊ッ！！	【Isuzu】{rt}Shun!!	
-B25.0067	line		【矢村】{rt}…だ、大丈夫だ。{rt}大した事ない。		
-B25.0068	line		【矢村】{rt}ヤマト！！あんた―――		
-B25.0069	line		【ヤマト】{rt}ウウウウ…。		
-B25.0070	line		【伊涼】{rt}別の《邪氣》！？{rt}そんなッ…！！		
-B25.0071	line		【伊涼】{rt}《大罪》がふたつも！？		
-B25.0072	line		【矢村】{rt}《大罪》を宿していたのは、		
-B25.0073	line		【矢村】{rt}クマソだけじゃ{rt}なかったって事か…。		
-B25.0074	line		【ヤマト】{rt}ウウウウッ！！		
-B25.0075	line		【矢村】{rt}ヤマト―――。		
-B25.0076	line		【矢村】{rt}貴様の邪氣、{rt}祓ってやるッ…。		
-B25.0077	line		【矢村】{rt}《大罪》を全て消し去る{rt}ためッ。		
-B25.0078	line		【ヤマト】{rt}ガアアアッ！！		
+B25.0067	line		【矢村】{rt}…だ、大丈夫だ。{rt}大した事ない。	【Yamura】{rt}...I-I'm fine. It's nothing much.	
+B25.0068	line		【矢村】{rt}ヤマト！！あんた―――	【Yamura】{rt}Yamato!! You--	
+B25.0069	line		【ヤマト】{rt}ウウウウ…。	【Yamato】{rt}Uuuuugh...	
+B25.0070	line		【伊涼】{rt}別の《邪氣》！？{rt}そんなッ…！！	【Isuzu】{rt}Another Miasma!? No...!!	
+B25.0071	line		【伊涼】{rt}《大罪》がふたつも！？	【Isuzu】{rt}Two Great Sins!?	
+B25.0072	line		【矢村】{rt}《大罪》を宿していたのは、	【Yamura】{rt}So the one harbouring a Great Sin	
+B25.0073	line		【矢村】{rt}クマソだけじゃ{rt}なかったって事か…。	【Yamura】{rt}wasn't only Kumaso...	
+B25.0074	line		【ヤマト】{rt}ウウウウッ！！	【Yamato】{rt}UUUUUGH!!	
+B25.0075	line		【矢村】{rt}ヤマト―――。	【Yamura】{rt}Yamato--	
+B25.0076	line		【矢村】{rt}貴様の邪氣、{rt}祓ってやるッ…。	【Yamura】{rt}I'll purge your Miasma...	
+B25.0077	line		【矢村】{rt}《大罪》を全て消し去る{rt}ためッ。	【Yamura】{rt}To wipe out every last Great Sin.	
+B25.0078	line		【ヤマト】{rt}ガアアアッ！！	【Yamato】{rt}GAAAAH!!	

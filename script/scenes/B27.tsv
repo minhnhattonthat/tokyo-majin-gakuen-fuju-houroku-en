@@ -1,122 +1,122 @@
 id	kind	max	jp	en	notes
-B27.0000	line		【妙な男たち】{rt}堕ちるがいいッ！！		
+B27.0000	line		【妙な男たち】{rt}堕ちるがいいッ！！	【Strange Men】{rt}Fall!!	
 B27.0001	line		【伊涼】{rt}―――！！	【Isuzu】{rt}--!!	
-B27.0002	line		【妙な男たち】{rt}無間（むけん）空間へッ―！！		
-B27.0003	line		【矢村】{rt}な、何だッ！？		
-B27.0004	line		【伊涼】{rt}きゃあああッ―――！！		
-B27.0005	line		【矢村】{rt}うッ―――。		
+B27.0002	line		【妙な男たち】{rt}無間（むけん）空間へッ―！！	【Strange Men】{rt}Into the Endless Space--!!	
+B27.0003	line		【矢村】{rt}な、何だッ！？	【Yamura】{rt}Wh-what!?	
+B27.0004	line		【伊涼】{rt}きゃあああッ―――！！	【Isuzu】{rt}Kyaaaaah--!!	
+B27.0005	line		【矢村】{rt}うッ―――。	【Yamura】{rt}Ugh--	
 B27.0006	line		【矢村】{rt}ここは―――？	【Yamura】{rt}Where is this--?	
-B27.0007	line		【伊涼】{rt}俊…。気がついたのね。		
-B27.0008	line		【矢村】{rt}伊涼、{name1}…。		
-B27.0009	line		【矢村】{rt}無事かッ？		
-B27.0010	line		【伊涼】{rt}うん…。でも…。		
-B27.0011	line		【妙な男たち】{rt}…………。		
-B27.0012	line		【矢村】{rt}あんたたちか？		
-B27.0013	line		【矢村】{rt}俺たちをこんな妙なところへ{rt}連れてきたのは？		
-B27.0014	line		【右の男】{rt}…………。		
-B27.0015	line		【右の男】{rt}言ったろうが。		
-B27.0016	line		【右の男】{rt}無間空間と―――。		
-B27.0017	line		【伊涼】{rt}無間…空間？		
-B27.0018	line		【矢村】{rt}それはどういう意味だ？		
-B27.0019	line		【左の男】{rt}聞いてのとおりだ。		
-B27.0020	line		【左の男】{rt}どこにでも口を開け、		
-B27.0021	line		【左の男】{rt}しかし、どこへも{rt}いない		
-B27.0022	line		【左の男】{rt}―――秩序を重んじるために{rt}世に生じた矛盾を封じる場。		
-B27.0023	line		【左の男】{rt}すなわち、無間空間よ。		
-B27.0024	line		【矢村】{rt}あんたたちは何者だ？		
-B27.0025	line		【矢村】{rt}なぜ俺たちをそんな場所へ{rt}連れてきたッ？		
-B27.0026	line		【左の男】{rt}ふんッ、質問が多いな。		
-B27.0027	line		【左の男】{rt}こう言えば分かるか？		
-B27.0028	line		【左の男】{rt}『優鉢羅が世話になった』と。		
-B27.0029	line		【伊涼】{rt}優鉢羅―――まさか。		
-B27.0030	line		【左の男】{rt}我が名は司命（しみょう）…。		
-B27.0031	line		【右の男】{rt}我が名は司録（しろく）…。		
-B27.0032	line		【司命】{rt}優鉢羅は我らと同じく、		
-B27.0033	line		【司命】{rt}貴様らに《処分》を働く刺客{rt}だった―――。		
-B27.0034	line		【司録】{rt}貴様らは優鉢羅を葬った。		
-B27.0035	line		【司録】{rt}そこで我らの出番と{rt}なったのだ。		
-B27.0036	line		【司録】{rt}よって我らの役目は		
-B27.0037	line		【司録】{rt}貴様らから《大罪》を没収する{rt}だけに留まらん。		
-B27.0038	line		【司命】{rt}我らは、貴様らの存在自体を{rt}この無間空間に葬り去る、		
-B27.0039	line		【司命】{rt}断罪人である。		
-B27.0040	line		【矢村】{rt}何だと！？		
-B27.0041	line		【司録】{rt}事態は極めて深刻だ。		
-B27.0042	line		【司録】{rt}《大罪》を取り上げただけでは{rt}解決には至らないのだよ。		
-B27.0043	line		【矢村】{rt}《大罪》は渡さないッ。		
-B27.0044	line		【矢村】{rt}《大罪》を《力》として使うべ{rt}き目的なんてありはしない。		
-B27.0045	line		【矢村】{rt}選ばれるべき道は―――封印。		
-B27.0046	line		【矢村】{rt}そうだろう？{name1}ッ。		
-B27.0047	line		【矢村】{rt}その通りだ。		
-B27.0048	line		【矢村】{rt}《大罪》は誰の手にも余る…		
-B27.0049	line		【矢村】{rt}大きすぎる《力》なんだ。		
-B27.0050	line		【司命】{rt}ふんッ。いいだろう。		
-B27.0051	line		【司命】{rt}お前の心構えは認めてやろう。		
-B27.0052	line		【司録】{rt}だが、やはり《大罪》は{rt}返してもらわねばならん。		
+B27.0007	line		【伊涼】{rt}俊…。気がついたのね。	【Isuzu】{rt}Shun... You're awake.	
+B27.0008	line		【矢村】{rt}伊涼、{name1}…。	【Yamura】{rt}Isuzu, {name1}...	
+B27.0009	line		【矢村】{rt}無事かッ？	【Yamura】{rt}Are you all right?	
+B27.0010	line		【伊涼】{rt}うん…。でも…。	【Isuzu】{rt}Yeah... but...	
+B27.0011	line		【妙な男たち】{rt}…………。	【Strange Men】{rt}......	
+B27.0012	line		【矢村】{rt}あんたたちか？	【Yamura】{rt}Was it you?	
+B27.0013	line		【矢村】{rt}俺たちをこんな妙なところへ{rt}連れてきたのは？	【Yamura】{rt}Who brought us to this strange{rt}place?	
+B27.0014	line		【右の男】{rt}…………。	【Man on the Right】{rt}......	
+B27.0015	line		【右の男】{rt}言ったろうが。	【Man on the Right】{rt}We told you.	
+B27.0016	line		【右の男】{rt}無間空間と―――。	【Man on the Right】{rt}The Endless Space--	
+B27.0017	line		【伊涼】{rt}無間…空間？	【Isuzu】{rt}Endless... Space?	
+B27.0018	line		【矢村】{rt}それはどういう意味だ？	【Yamura】{rt}What does that mean?	
+B27.0019	line		【左の男】{rt}聞いてのとおりだ。	【Man on the Left】{rt}Just what you heard.	
+B27.0020	line		【左の男】{rt}どこにでも口を開け、	【Man on the Left】{rt}It opens its mouth anywhere,	
+B27.0021	line		【左の男】{rt}しかし、どこへも{rt}いない	【Man on the Left】{rt}yet is nowhere--	
+B27.0022	line		【左の男】{rt}―――秩序を重んじるために{rt}世に生じた矛盾を封じる場。	【Man on the Left】{rt}--a place to seal the contradictions{rt}born in the world to keep order.	
+B27.0023	line		【左の男】{rt}すなわち、無間空間よ。	【Man on the Left】{rt}That is, the Endless Space.	
+B27.0024	line		【矢村】{rt}あんたたちは何者だ？	【Yamura】{rt}Who are you?	
+B27.0025	line		【矢村】{rt}なぜ俺たちをそんな場所へ{rt}連れてきたッ？	【Yamura】{rt}Why did you bring us to such a place?	
+B27.0026	line		【左の男】{rt}ふんッ、質問が多いな。	【Man on the Left】{rt}Hmph, so many questions.	
+B27.0027	line		【左の男】{rt}こう言えば分かるか？	【Man on the Left】{rt}Would this make it clear?	
+B27.0028	line		【左の男】{rt}『優鉢羅が世話になった』と。	【Man on the Left】{rt}"Thank you for taking care of{rt}Uhatsura."	
+B27.0029	line		【伊涼】{rt}優鉢羅―――まさか。	【Isuzu】{rt}Uhatsura--don't tell me.	
+B27.0030	line		【左の男】{rt}我が名は司命（しみょう）…。	【Man on the Left】{rt}My name is Shimei...	
+B27.0031	line		【右の男】{rt}我が名は司録（しろく）…。	【Man on the Right】{rt}My name is Shiroku...	
+B27.0032	line		【司命】{rt}優鉢羅は我らと同じく、	【Shimei】{rt}Uhatsura, like us,	
+B27.0033	line		【司命】{rt}貴様らに《処分》を働く刺客{rt}だった―――。	【Shimei】{rt}was an assassin sent for your{rt}Disposal--	
+B27.0034	line		【司録】{rt}貴様らは優鉢羅を葬った。	【Shiroku】{rt}You put Uhatsura in the ground.	
+B27.0035	line		【司録】{rt}そこで我らの出番と{rt}なったのだ。	【Shiroku】{rt}So now it is our turn.	
+B27.0036	line		【司録】{rt}よって我らの役目は	【Shiroku】{rt}Thus our task	
+B27.0037	line		【司録】{rt}貴様らから《大罪》を没収する{rt}だけに留まらん。	【Shiroku】{rt}does not stop at confiscating the{rt}Great Sin from you.	
+B27.0038	line		【司命】{rt}我らは、貴様らの存在自体を{rt}この無間空間に葬り去る、	【Shimei】{rt}We are executioners who will bury your{rt}very existence	
+B27.0039	line		【司命】{rt}断罪人である。	【Shimei】{rt}in this Endless Space.	
+B27.0040	line		【矢村】{rt}何だと！？	【Yamura】{rt}What!?	
+B27.0041	line		【司録】{rt}事態は極めて深刻だ。	【Shiroku】{rt}The situation is extremely grave.	
+B27.0042	line		【司録】{rt}《大罪》を取り上げただけでは{rt}解決には至らないのだよ。	【Shiroku】{rt}Merely taking the Great Sin away won't{rt}resolve it.	
+B27.0043	line		【矢村】{rt}《大罪》は渡さないッ。	【Yamura】{rt}I won't hand over the Great Sin.	
+B27.0044	line		【矢村】{rt}《大罪》を《力》として使うべ{rt}き目的なんてありはしない。	【Yamura】{rt}There's no purpose that the Great Sin{rt}should be used as Power for.	
+B27.0045	line		【矢村】{rt}選ばれるべき道は―――封印。	【Yamura】{rt}The path to choose is--sealing.	
+B27.0046	line		【矢村】{rt}そうだろう？{name1}ッ。	【Yamura】{rt}Isn't that right, {name1}?	
+B27.0047	line		【矢村】{rt}その通りだ。	【Yamura】{rt}Exactly.	
+B27.0048	line		【矢村】{rt}《大罪》は誰の手にも余る…	【Yamura】{rt}The Great Sin is too much for anyone{rt}to handle...	
+B27.0049	line		【矢村】{rt}大きすぎる《力》なんだ。	【Yamura】{rt}It's too big a Power.	
+B27.0050	line		【司命】{rt}ふんッ。いいだろう。	【Shimei】{rt}Hmph. Very well.	
+B27.0051	line		【司命】{rt}お前の心構えは認めてやろう。	【Shimei】{rt}We'll acknowledge your resolve.	
+B27.0052	line		【司録】{rt}だが、やはり《大罪》は{rt}返してもらわねばならん。	【Shiroku】{rt}But we must still have the Great Sin{rt}back.	
 B27.0053	line		【矢村】{rt}ああ。	【Yamura】{rt}Yeah.	
-B27.0054	line		【矢村】{rt}…あんたたちにこれは{rt}渡さない。		
-B27.0055	line		【矢村】{rt}これは俺たちが封印するッ。		
-B27.0056	line		【司命】{rt}ふんッ。いいだろう。		
-B27.0057	line		【司命】{rt}お前の心構えは認めてやろう。		
-B27.0058	line		【司録】{rt}だが、やはり《大罪》は{rt}返してもらわねばならん。		
-B27.0059	line		【矢村】{rt}奴らの方がふさわしい{rt}…とでも言いたいのか？		
-B27.0060	line		【司命】{rt}ふんッ。		
-B27.0061	line		【司命】{rt}不様だな、氏神。		
+B27.0054	line		【矢村】{rt}…あんたたちにこれは{rt}渡さない。	【Yamura】{rt}...I won't hand this to you.	
+B27.0055	line		【矢村】{rt}これは俺たちが封印するッ。	【Yamura】{rt}We'll seal it ourselves.	
+B27.0056	line		【司命】{rt}ふんッ。いいだろう。	【Shimei】{rt}Hmph. Very well.	
+B27.0057	line		【司命】{rt}お前の心構えは認めてやろう。	【Shimei】{rt}We'll acknowledge your resolve.	
+B27.0058	line		【司録】{rt}だが、やはり《大罪》は{rt}返してもらわねばならん。	【Shiroku】{rt}But we must still have the Great Sin{rt}back.	
+B27.0059	line		【矢村】{rt}奴らの方がふさわしい{rt}…とでも言いたいのか？	【Yamura】{rt}Are you saying they're better suited to{rt}it...?	
+B27.0060	line		【司命】{rt}ふんッ。	【Shimei】{rt}Hmph.	
+B27.0061	line		【司命】{rt}不様だな、氏神。	【Shimei】{rt}How pathetic, Ujigami.	
 B27.0062	line		【伊涼】{rt}{name1}くん…。	【Isuzu】{rt}{name1}-kun...	
-B27.0063	line		【司録】{rt}だが、降参するのが{rt}いささか遅かったようだ。		
-B27.0064	line		【司録】{rt}やはり《大罪》は{rt}返してもらわねばならん。		
+B27.0063	line		【司録】{rt}だが、降参するのが{rt}いささか遅かったようだ。	【Shiroku】{rt}But it seems you surrendered a little{rt}too late.	
+B27.0064	line		【司録】{rt}やはり《大罪》は{rt}返してもらわねばならん。	【Shiroku】{rt}We must still have the Great Sin{rt}back.	
 B27.0065	line		【伊涼】{rt}{name2}ちゃん…。	【Isuzu】{rt}{name2}-chan...	
-B27.0066	line		【司録】{rt}だが、降参するのが{rt}いささか遅かったようだ。		
-B27.0067	line		【司録】{rt}やはり《大罪》は{rt}返してもらわねばならん。		
+B27.0066	line		【司録】{rt}だが、降参するのが{rt}いささか遅かったようだ。	【Shiroku】{rt}But it seems you surrendered a little{rt}too late.	
+B27.0067	line		【司録】{rt}やはり《大罪》は{rt}返してもらわねばならん。	【Shiroku】{rt}We must still have the Great Sin{rt}back.	
 B27.0068	line		【矢村】{rt}{name1}…。	【Yamura】{rt}{name1}...	
-B27.0069	line		【司命】{rt}ふんッ。		
-B27.0070	line		【司命】{rt}今頃気づいたとしても、{rt}時、既に遅しッ。		
-B27.0071	line		【司録】{rt}やはり《大罪》は{rt}返してもらわねばならん。		
-B27.0072	line		【伊涼】{rt}《大罪》を封じた符！？		
-B27.0073	line		【矢村】{rt}あの符は{name1}が持っていた{rt}はず…		
-B27.0074	line		【矢村】{rt}{name1}の目を欺いたのか！？		
-B27.0075	line		【司命】{rt}符そのものを{rt}盗み取った訳ではない。		
-B27.0076	line		【司命】{rt}符に封じられた{rt}《大罪》の―――		
-B27.0077	line		【司命】{rt}いわば複製を創り出した、		
-B27.0078	line		【司命】{rt}とでもいっておこうか。		
-B27.0079	line		【伊涼】{rt}複製ッ…？		
-B27.0080	line		【司録】{rt}そう…。		
-B27.0081	line		【司録】{rt}氏神の手から符を奪うと{rt}すれば、		
-B27.0082	line		【司録】{rt}そのために無駄に闘う羽目に{rt}なろう。		
-B27.0083	line		【司録】{rt}だが、《念》を読み取り、{rt}複製を創るとすれば、		
-B27.0084	line		【司録】{rt}それは我らには可能な事だ。		
-B27.0085	line		【司録】{rt}《大罪》の放つ巨大な邪氣は{rt}簡単に隠せるものではない。		
-B27.0086	line		【司命】{rt}貴様らをここへ誘った時に、		
-B27.0087	line		【司命】{rt}その氏神の数々の《念》の中か{rt}ら造作もなく拾い出せたわ。		
-B27.0088	line		【矢村】{rt}なんて事をッ―――。		
-B27.0089	line		【司命】{rt}複製だからといって{rt}侮らぬ方がいい。		
-B27.0090	line		【司命】{rt}我らの《力》は完璧に貴様らの{rt}持つ《大罪》を読み取り、		
-B27.0091	line		【司命】{rt}映し出すのだからなッ。		
-B27.0092	line		【司録】{rt}これから貴様らを現世（うつ{rt}しよ）から削除しにかかる。		
-B27.0093	line		【司録】{rt}《念》には《念》を入れ…		
-B27.0094	line		【司録】{rt}というところか？		
-B27.0095	line		【伊涼】{rt}なにをする気ッ！？		
-B27.0096	line		【司命】{rt}ふんッ。黙って見ておれ。		
-B27.0097	line		【司命】{rt}『司命、これより{rt}　この者―――		
-B27.0098	line		【司命】{rt}　封じられし魂に再び命{rt}　（いのち）を与えるッ！』		
+B27.0069	line		【司命】{rt}ふんッ。	【Shimei】{rt}Hmph.	
+B27.0070	line		【司命】{rt}今頃気づいたとしても、{rt}時、既に遅しッ。	【Shimei】{rt}Even if you notice now, it's already too{rt}late.	
+B27.0071	line		【司録】{rt}やはり《大罪》は{rt}返してもらわねばならん。	【Shiroku】{rt}We must still have the Great Sin{rt}back.	
+B27.0072	line		【伊涼】{rt}《大罪》を封じた符！？	【Isuzu】{rt}The talismans that sealed the Great{rt}Sin!?	
+B27.0073	line		【矢村】{rt}あの符は{name1}が持っていた{rt}はず…	【Yamura】{rt}{name1} was supposed to have{rt}those talismans...	
+B27.0074	line		【矢村】{rt}{name1}の目を欺いたのか！？	【Yamura】{rt}You fooled {name1}'s eyes!?	
+B27.0075	line		【司命】{rt}符そのものを{rt}盗み取った訳ではない。	【Shimei】{rt}We didn't steal the talismans{rt}themselves.	
+B27.0076	line		【司命】{rt}符に封じられた{rt}《大罪》の―――	【Shimei】{rt}Of the Great Sin sealed in them--	
+B27.0077	line		【司命】{rt}いわば複製を創り出した、	【Shimei】{rt}we created a copy, as it were,	
+B27.0078	line		【司命】{rt}とでもいっておこうか。	【Shimei】{rt}let's say.	
+B27.0079	line		【伊涼】{rt}複製ッ…？	【Isuzu】{rt}A copy...?	
+B27.0080	line		【司録】{rt}そう…。	【Shiroku】{rt}Yes...	
+B27.0081	line		【司録】{rt}氏神の手から符を奪うと{rt}すれば、	【Shiroku】{rt}Taking the talismans from the Ujigami's{rt}hands	
+B27.0082	line		【司録】{rt}そのために無駄に闘う羽目に{rt}なろう。	【Shiroku】{rt}would mean a pointless fight.	
+B27.0083	line		【司録】{rt}だが、《念》を読み取り、{rt}複製を創るとすれば、	【Shiroku】{rt}But reading Thought and creating{rt}copies--	
+B27.0084	line		【司録】{rt}それは我らには可能な事だ。	【Shiroku】{rt}that much is within our power.	
+B27.0085	line		【司録】{rt}《大罪》の放つ巨大な邪氣は{rt}簡単に隠せるものではない。	【Shiroku】{rt}The huge Miasma the Great Sin gives{rt}off is not easily hidden.	
+B27.0086	line		【司命】{rt}貴様らをここへ誘った時に、	【Shimei】{rt}When we lured you here,	
+B27.0087	line		【司命】{rt}その氏神の数々の《念》の中か{rt}ら造作もなく拾い出せたわ。	【Shimei】{rt}we picked it out of the Ujigami's many{rt}Thoughts with no trouble.	
+B27.0088	line		【矢村】{rt}なんて事をッ―――。	【Yamura】{rt}How could you--	
+B27.0089	line		【司命】{rt}複製だからといって{rt}侮らぬ方がいい。	【Shimei】{rt}Don't take them lightly just because{rt}they're copies.	
+B27.0090	line		【司命】{rt}我らの《力》は完璧に貴様らの{rt}持つ《大罪》を読み取り、	【Shimei】{rt}Our Power reads the Great Sin you hold{rt}perfectly,	
+B27.0091	line		【司命】{rt}映し出すのだからなッ。	【Shimei】{rt}and reflects it!	
+B27.0092	line		【司録】{rt}これから貴様らを現世（うつ{rt}しよ）から削除しにかかる。	【Shiroku】{rt}Now we'll set about deleting you from{rt}the mortal world.	
+B27.0093	line		【司録】{rt}《念》には《念》を入れ…	【Shiroku】{rt}Fight Thought with Thought...	
+B27.0094	line		【司録】{rt}というところか？	【Shiroku】{rt}as it were?	
+B27.0095	line		【伊涼】{rt}なにをする気ッ！？	【Isuzu】{rt}What are you going to do!?	
+B27.0096	line		【司命】{rt}ふんッ。黙って見ておれ。	【Shimei】{rt}Hmph. Watch in silence.	
+B27.0097	line		【司命】{rt}『司命、これより{rt}　この者―――	【Shimei】{rt}"I, Shimei, now grant this one--	
+B27.0098	line		【司命】{rt}　封じられし魂に再び命{rt}　（いのち）を与えるッ！』	【Shimei】{rt}this sealed soul--life once more!"	
 B27.0099	line		【矢村】{rt}なッ―――	【Yamura】{rt}Wh--	
-B27.0100	line		【クマソ】{rt}う―――。		
+B27.0100	line		【クマソ】{rt}う―――。	【Kumaso】{rt}Ugh--	
 B27.0101	line		【矢村】{rt}―――！！	【Yamura】{rt}--!!	
-B27.0102	line		【クマソ】{rt}恨めしいィ――。		
-B27.0103	line		【クマソ】{rt}おれを斬った者が{rt}恨めしいィ――。		
-B27.0104	line		【伊涼】{rt}そんな―――！！		
-B27.0105	line		【伊涼】{rt}封印を解いてしまうなんて…。		
-B27.0106	line		【司命】{rt}くくく。驚いたか？{rt}貴様らを恨み、		
-B27.0107	line		【司命】{rt}悔しさの言葉をぶつけながら{rt}封印されていった		
-B27.0108	line		【司命】{rt}者たちの《念》は{rt}強く《大罪》と結びつき、		
-B27.0109	line		【司命】{rt}た易くこの現世（うつしよ）に{rt}甦るのだ！！		
-B27.0110	line		【司録】{rt}それだけではないぞッ。		
+B27.0102	line		【クマソ】{rt}恨めしいィ――。	【Kumaso】{rt}Hateful--	
+B27.0103	line		【クマソ】{rt}おれを斬った者が{rt}恨めしいィ――。	【Kumaso】{rt}The one who cut me down is{rt}hateful--	
+B27.0104	line		【伊涼】{rt}そんな―――！！	【Isuzu】{rt}No--!!	
+B27.0105	line		【伊涼】{rt}封印を解いてしまうなんて…。	【Isuzu】{rt}Breaking the seal...	
+B27.0106	line		【司命】{rt}くくく。驚いたか？{rt}貴様らを恨み、	【Shimei】{rt}Heh heh heh. Surprised? The Thought{rt}of those sealed away	
+B27.0107	line		【司命】{rt}悔しさの言葉をぶつけながら{rt}封印されていった	【Shimei】{rt}while hating you and hurling words of{rt}bitterness at you	
+B27.0108	line		【司命】{rt}者たちの《念》は{rt}強く《大罪》と結びつき、	【Shimei】{rt}binds tightly to the Great Sin,	
+B27.0109	line		【司命】{rt}た易くこの現世（うつしよ）に{rt}甦るのだ！！	【Shimei】{rt}and easily revives in the mortal{rt}world!!	
+B27.0110	line		【司録】{rt}それだけではないぞッ。	【Shiroku】{rt}And that's not all.	
 B27.0111	line		【矢村】{rt}―――！？	【Yamura】{rt}--!?	
-B27.0112	line		【司録】{rt}『司録、これよりこの者、		
-B27.0113	line		【司録】{rt}　封じられし魂に再び{rt}　命（めい）を与えるッ！』		
-B27.0114	line		【司録】{rt}行けッ！！		
-B27.0115	line		【クマソ】{rt}おおおお…。		
-B27.0116	line		【クマソ】{rt}許すまじ、許すまじ――。		
-B27.0117	line		【クマソ】{rt}お前らもォッ、		
-B27.0118	line		【クマソ】{rt}道連れに…してやるゥッ！！		
-B27.0119	line		【クマソ】{rt}真っ二つだァッ！！		
+B27.0112	line		【司録】{rt}『司録、これよりこの者、	【Shiroku】{rt}"I, Shiroku, now grant this one,	
+B27.0113	line		【司録】{rt}　封じられし魂に再び{rt}　命（めい）を与えるッ！』	【Shiroku】{rt}this sealed soul, orders once more!"	
+B27.0114	line		【司録】{rt}行けッ！！	【Shiroku】{rt}Go!!	
+B27.0115	line		【クマソ】{rt}おおおお…。	【Kumaso】{rt}Oooooh...	
+B27.0116	line		【クマソ】{rt}許すまじ、許すまじ――。	【Kumaso】{rt}Unforgivable, unforgivable--	
+B27.0117	line		【クマソ】{rt}お前らもォッ、	【Kumaso】{rt}You too,	
+B27.0118	line		【クマソ】{rt}道連れに…してやるゥッ！！	【Kumaso】{rt}I'll take you down with me!!	
+B27.0119	line		【クマソ】{rt}真っ二つだァッ！！	【Kumaso】{rt}Split in two!!	
 B27.0120	line		【伊涼】{rt}―――！！	【Isuzu】{rt}--!!	

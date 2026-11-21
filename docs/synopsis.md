@@ -117,3 +117,13 @@ session; translators read it before their batch.
   makes Yamato kill bound delinquents and targets Isuzu. Voices of another Tokyo's defenders, heard through the
   player's Thought, show Yamura he fights to protect Tokyo and Isuzu; he breaks the binding and splits Kumaso's old
   wound open, revealing his true form; battle.
+- B25: Kumaso is sealed; Yamura says the player's Thought showed him others fighting for "what they must protect"
+  and vows to protect Tokyo and Isuzu. Yamato also holds a Great Sin; battle.
+- B26: Yamato is the soul of Yamato Takeru, who killed rebels like Kumaso Takeru for the Court and was haunted by
+  them; he thanks the trio and ascends. That makes eight Great Sins. Shimei and Shiroku drop the trio into the
+  Endless Space.
+- B27: the two "executioners" mean to erase the trio, not just take the Great Sin; they copy the sealed Great Sin
+  from the player's Thought and revive Kumaso; battle.
+- B28: Kumaso is re-sealed. Shimei and Shiroku list the ten Great Sins (Abuse, Flattery, Greed, Malice, Lies, Lust,
+  Killing, Theft = the eight gathered; Double Tongue, which they used to set Kumaso on them; False View, still
+  unclaimed), born of humanity's Heart, Speech and Mind, and revive Uhatsura to fight again; battle.

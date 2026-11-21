@@ -1,102 +1,102 @@
 id	kind	max	jp	en	notes
-B28.0000	line		【クマソ】{rt}あああッ！！		
-B28.0001	line		【クマソ】{rt}誰だッ！？誰なんだァッ？		
-B28.0002	line		【クマソ】{rt}お、おれの心がどんどん{rt}喰われていく！！		
-B28.0003	line		【クマソ】{rt}誰だ！！		
-B28.0004	line		【クマソ】{rt}お、おれを喰うな！！		
-B28.0005	line		【クマソ】{rt}お、おれ…ッ喰…なッ―――。		
-B28.0006	line		【伊涼】{rt}（お願いだから、		
-B28.0007	line		【伊涼】{rt}　眠りについてッ。）		
-B28.0008	line		【伊涼】{rt}邪氣封印！！		
-B28.0009	line		【司命】{rt}ふんッ、少しはやるようだな。		
-B28.0010	line		【司命】{rt}闘いの中で腕をあげたか？		
-B28.0011	line		【矢村】{rt}お前たちは間違っている！！		
-B28.0012	line		【矢村】{rt}封じられた《大罪》を{rt}解放するなんてッ！！		
-B28.0013	line		【司命】{rt}ほう―――。		
-B28.0014	line		【司命】{rt}それを悪事と呼ぶか？		
-B28.0015	line		【司録】{rt}では、《大罪》を集めてきた{rt}貴様らはどうなのだ？		
-B28.0016	line		【司録】{rt}数々の者から《大罪》を{rt}剥ぎ取り、自らの身に纏う。		
-B28.0017	line		【司録】{rt}それが《罪》ではないとでも{rt}いうのか？		
-B28.0018	line		【伊涼】{rt}（《大罪》を…集める？）		
-B28.0019	line		【司命】{rt}《大罪》…。		
-B28.0020	line		【司命】{rt}すなわち…		
-B28.0021	line		【司命】{rt}人の発達した《口》の成す{rt}悪行―――		
-B28.0022	line		【司命の声】{rt}《悪口（あっく）》		
-B28.0023	line		【司録】{rt}自らを美しく飾る事のできる{rt}力こそ万能とつけあがる――		
-B28.0024	line		【司録の声】{rt}《綺語（きご）》		
-B28.0025	line		【司命】{rt}欲し、そして得る快感に溺れ、		
-B28.0026	line		【司命】{rt}他者を犠牲とする事をも{rt}顧（かえり）みない―――		
-B28.0027	line		【司命の声】{rt}《貪欲（どんよく）》		
-B28.0028	line		【司録】{rt}燃え上がる炎の如き怨み、{rt}怒り、		
-B28.0029	line		【司録】{rt}そして呪い―――		
-B28.0030	line		【司録の声】{rt}《瞋恚（しんい）》		
-B28.0031	line		【司命】{rt}嘘を並べ、{rt}虚なるものを生み出す―――		
-B28.0032	line		【司命の声】{rt}《妄語（もうご）》		
-B28.0033	line		【司録】{rt}物事を色好みで判断する{rt}愚かさ、		
-B28.0034	line		【司録】{rt}その残虐なる事―――		
-B28.0035	line		【司録の声】{rt}《好色（こうしょく）》		
-B28.0036	line		【司命】{rt}生きるべき命を無残に斬り{rt}散らす		
-B28.0037	line		【司命の声】{rt}《殺生（せっしょう）》		
-B28.0038	line		【司録】{rt}優鉢羅が取り返し伊涼の意識{rt}から死の情景を盗み出した…		
-B28.0039	line		【司録】{rt}他者のものを奪い去る―――		
-B28.0040	line		【司録の声】{rt}《偸盗（ちゅうとう）》		
-B28.0041	line		【司命】{rt}貴様らがそれを帯びる者を斃し{rt}手に入れた八つだ。		
-B28.0042	line		【司録】{rt}そして、		
-B28.0043	line		【司録】{rt}我らがクマソを貴様らに{rt}けしかけるのに使った…		
-B28.0044	line		【司録】{rt}他者を操り、{rt}更なる他者と闘わせる―――		
-B28.0045	line		【司録】{rt}《両舌（りょうぜつ）》		
-B28.0046	line		【司命】{rt}更には未だ我らも、{rt}貴様らも手にできていない		
-B28.0047	line		【司命】{rt}生まれ、死に、		
-B28.0048	line		【司命】{rt}そして別のものとして蘇る…		
-B28.0049	line		【司命】{rt}その因果と摂理を{rt}無視する邪悪―――		
-B28.0050	line		【司命】{rt}《邪見（じゃけん）》		
-B28.0051	line		【司命】{rt}その十が《大罪》の全て。		
-B28.0052	line		【伊涼】{rt}十の…《大罪》…。		
-B28.0053	line		【司録】{rt}現在、		
-B28.0054	line		【司録】{rt}この《大罪》は仏教の中{rt}のみでの概念とされているが		
-B28.0055	line		【司録】{rt}その正体は、思想や宗教を{rt}超えたもの―――		
-B28.0056	line		【司録】{rt}人間自身の《心（しん）》、		
-B28.0057	line		【司録】{rt}《口（く）》、		
-B28.0058	line		【司録】{rt}《意（い）》、		
-B28.0059	line		【司録】{rt}そのものが生み出す《罪》。		
-B28.0060	line		【司命】{rt}貴様らは、		
-B28.0061	line		【司命】{rt}《大罪》を帯びる強大な《念》{rt}をも《力》に含んでいる。		
-B28.0062	line		【司命】{rt}およそ、優鉢羅が敗れたのも{rt}そのために相違ない。		
-B28.0063	line		【司命】{rt}つまり、貴様らと対等に{rt}闘うには、		
-B28.0064	line		【司命】{rt}こちらにもそれなりの{rt}武器が要るという事だ。		
-B28.0065	line		【司録】{rt}我らにとって、		
-B28.0066	line		【司録】{rt}貴様らを処分できる{rt}唯一の刃こそ他ならぬ、		
-B28.0067	line		【司録】{rt}《大罪》なのだッ。		
-B28.0068	line		【司命】{rt}優鉢羅よ…。		
-B28.0069	line		【司命】{rt}お前の無念の心、{rt}無駄にはせぬぞ。		
-B28.0070	line		【司命】{rt}お前を斃した《大罪》人は{rt}ここにいる…。		
-B28.0071	line		【矢村】{rt}やめろッ！！		
-B28.0072	line		【矢村】{rt}お前たちがやっている事は		
-B28.0073	line		【矢村】{rt}死者の魂を弄ぶ行為に{rt}他ならないッ！！		
-B28.0074	line		【司命】{rt}ふんッ。		
-B28.0075	line		【司命】{rt}聞く耳持たぬわ。		
-B28.0076	line		【司命】{rt}『司命、これより{rt}　この者―――		
-B28.0077	line		【司命】{rt}　封じられし魂に再び命{rt}　（いのち）を与えるッ！』		
+B28.0000	line		【クマソ】{rt}あああッ！！	【Kumaso】{rt}Aaaah!!	
+B28.0001	line		【クマソ】{rt}誰だッ！？誰なんだァッ？	【Kumaso】{rt}Who!? Who is it?	
+B28.0002	line		【クマソ】{rt}お、おれの心がどんどん{rt}喰われていく！！	【Kumaso】{rt}M-my heart is being eaten away!!	
+B28.0003	line		【クマソ】{rt}誰だ！！	【Kumaso】{rt}Who is it!!	
+B28.0004	line		【クマソ】{rt}お、おれを喰うな！！	【Kumaso】{rt}D-don't eat me!!	
+B28.0005	line		【クマソ】{rt}お、おれ…ッ喰…なッ―――。	【Kumaso】{rt}D-don't... eat... me--	
+B28.0006	line		【伊涼】{rt}（お願いだから、	【Isuzu】{rt}(Please,	
+B28.0007	line		【伊涼】{rt}　眠りについてッ。）	【Isuzu】{rt}go to sleep.)	
+B28.0008	line		【伊涼】{rt}邪氣封印！！	【Isuzu】{rt}Miasma, sealed!!	
+B28.0009	line		【司命】{rt}ふんッ、少しはやるようだな。	【Shimei】{rt}Hmph, not bad.	
+B28.0010	line		【司命】{rt}闘いの中で腕をあげたか？	【Shimei】{rt}Did your skill grow in battle?	
+B28.0011	line		【矢村】{rt}お前たちは間違っている！！	【Yamura】{rt}You're wrong!!	
+B28.0012	line		【矢村】{rt}封じられた《大罪》を{rt}解放するなんてッ！！	【Yamura】{rt}Releasing a sealed Great Sin!!	
+B28.0013	line		【司命】{rt}ほう―――。	【Shimei】{rt}Oho--	
+B28.0014	line		【司命】{rt}それを悪事と呼ぶか？	【Shimei】{rt}You call that an evil deed?	
+B28.0015	line		【司録】{rt}では、《大罪》を集めてきた{rt}貴様らはどうなのだ？	【Shiroku】{rt}Then what about you, who've been{rt}gathering the Great Sin?	
+B28.0016	line		【司録】{rt}数々の者から《大罪》を{rt}剥ぎ取り、自らの身に纏う。	【Shiroku】{rt}You strip the Great Sin from one after{rt}another and wear it yourselves.	
+B28.0017	line		【司録】{rt}それが《罪》ではないとでも{rt}いうのか？	【Shiroku】{rt}Are you saying that's no Sin?	
+B28.0018	line		【伊涼】{rt}（《大罪》を…集める？）	【Isuzu】{rt}(Gathering... the Great Sin?)	
+B28.0019	line		【司命】{rt}《大罪》…。	【Shimei】{rt}The Great Sin...	
+B28.0020	line		【司命】{rt}すなわち…	【Shimei】{rt}that is...	
+B28.0021	line		【司命】{rt}人の発達した《口》の成す{rt}悪行―――	【Shimei】{rt}the evil done by humanity's developed{rt}Speech--	
+B28.0022	line		【司命の声】{rt}《悪口（あっく）》	【Shimei's Voice】{rt}Abuse.	
+B28.0023	line		【司録】{rt}自らを美しく飾る事のできる{rt}力こそ万能とつけあがる――	【Shiroku】{rt}Growing arrogant, thinking the power{rt}to adorn oneself is all--	
+B28.0024	line		【司録の声】{rt}《綺語（きご）》	【Shiroku's Voice】{rt}Flattery.	
+B28.0025	line		【司命】{rt}欲し、そして得る快感に溺れ、	【Shimei】{rt}Drowning in the pleasure of wanting{rt}and getting,	
+B28.0026	line		【司命】{rt}他者を犠牲とする事をも{rt}顧（かえり）みない―――	【Shimei】{rt}heedless even of sacrificing others--	
+B28.0027	line		【司命の声】{rt}《貪欲（どんよく）》	【Shimei's Voice】{rt}Greed.	
+B28.0028	line		【司録】{rt}燃え上がる炎の如き怨み、{rt}怒り、	【Shiroku】{rt}Grudges like blazing flames, anger,	
+B28.0029	line		【司録】{rt}そして呪い―――	【Shiroku】{rt}and curses--	
+B28.0030	line		【司録の声】{rt}《瞋恚（しんい）》	【Shiroku's Voice】{rt}Malice.	
+B28.0031	line		【司命】{rt}嘘を並べ、{rt}虚なるものを生み出す―――	【Shimei】{rt}Stringing lies together, giving birth to{rt}falsehoods--	
+B28.0032	line		【司命の声】{rt}《妄語（もうご）》	【Shimei's Voice】{rt}Lies.	
+B28.0033	line		【司録】{rt}物事を色好みで判断する{rt}愚かさ、	【Shiroku】{rt}The folly of judging things by lust,	
+B28.0034	line		【司録】{rt}その残虐なる事―――	【Shiroku】{rt}and its cruelty--	
+B28.0035	line		【司録の声】{rt}《好色（こうしょく）》	【Shiroku's Voice】{rt}Lust.	
+B28.0036	line		【司命】{rt}生きるべき命を無残に斬り{rt}散らす	【Shimei】{rt}Cruelly cutting down lives that should{rt}live--	
+B28.0037	line		【司命の声】{rt}《殺生（せっしょう）》	【Shimei's Voice】{rt}Killing.	
+B28.0038	line		【司録】{rt}優鉢羅が取り返し伊涼の意識{rt}から死の情景を盗み出した…	【Shiroku】{rt}What Uhatsura took back, stealing the{rt}scene of death from Isuzu's mind...	
+B28.0039	line		【司録】{rt}他者のものを奪い去る―――	【Shiroku】{rt}taking away what belongs to{rt}others--	
+B28.0040	line		【司録の声】{rt}《偸盗（ちゅうとう）》	【Shiroku's Voice】{rt}Theft.	
+B28.0041	line		【司命】{rt}貴様らがそれを帯びる者を斃し{rt}手に入れた八つだ。	【Shimei】{rt}Those are the eight you obtained by{rt}defeating those who bore them.	
+B28.0042	line		【司録】{rt}そして、	【Shiroku】{rt}And	
+B28.0043	line		【司録】{rt}我らがクマソを貴様らに{rt}けしかけるのに使った…	【Shiroku】{rt}the one we used to set Kumaso on{rt}you...	
+B28.0044	line		【司録】{rt}他者を操り、{rt}更なる他者と闘わせる―――	【Shiroku】{rt}manipulating others to make them fight{rt}still others--	
+B28.0045	line		【司録】{rt}《両舌（りょうぜつ）》	【Shiroku】{rt}Double Tongue.	
+B28.0046	line		【司命】{rt}更には未だ我らも、{rt}貴様らも手にできていない	【Shimei】{rt}And further, the one neither we nor{rt}you have yet obtained--	
+B28.0047	line		【司命】{rt}生まれ、死に、	【Shimei】{rt}the evil that ignores the karma and{rt}providence	
+B28.0048	line		【司命】{rt}そして別のものとして蘇る…	【Shimei】{rt}of being born, dying,	
+B28.0049	line		【司命】{rt}その因果と摂理を{rt}無視する邪悪―――	【Shimei】{rt}and returning as something else--	
+B28.0050	line		【司命】{rt}《邪見（じゃけん）》	【Shimei】{rt}False View.	
+B28.0051	line		【司命】{rt}その十が《大罪》の全て。	【Shimei】{rt}These ten are the whole of the Great{rt}Sin.	
+B28.0052	line		【伊涼】{rt}十の…《大罪》…。	【Isuzu】{rt}The ten... Great Sins...	
+B28.0053	line		【司録】{rt}現在、	【Shiroku】{rt}Today,	
+B28.0054	line		【司録】{rt}この《大罪》は仏教の中{rt}のみでの概念とされているが	【Shiroku】{rt}these Great Sins are thought a concept{rt}of Buddhism alone,	
+B28.0055	line		【司録】{rt}その正体は、思想や宗教を{rt}超えたもの―――	【Shiroku】{rt}but their true nature goes beyond{rt}thought and religion--	
+B28.0056	line		【司録】{rt}人間自身の《心（しん）》、	【Shiroku】{rt}the Sin born of humanity's own	
+B28.0057	line		【司録】{rt}《口（く）》、	【Shiroku】{rt}Heart,	
+B28.0058	line		【司録】{rt}《意（い）》、	【Shiroku】{rt}Speech,	
+B28.0059	line		【司録】{rt}そのものが生み出す《罪》。	【Shiroku】{rt}and Mind.	
+B28.0060	line		【司命】{rt}貴様らは、	【Shimei】{rt}You	
+B28.0061	line		【司命】{rt}《大罪》を帯びる強大な《念》{rt}をも《力》に含んでいる。	【Shimei】{rt}hold even the vast Thought that bears{rt}the Great Sin within your Power.	
+B28.0062	line		【司命】{rt}およそ、優鉢羅が敗れたのも{rt}そのために相違ない。	【Shimei】{rt}That is surely why Uhatsura lost.	
+B28.0063	line		【司命】{rt}つまり、貴様らと対等に{rt}闘うには、	【Shimei】{rt}In other words, to fight you as{rt}equals,	
+B28.0064	line		【司命】{rt}こちらにもそれなりの{rt}武器が要るという事だ。	【Shimei】{rt}we need a weapon to match.	
+B28.0065	line		【司録】{rt}我らにとって、	【Shiroku】{rt}For us,	
+B28.0066	line		【司録】{rt}貴様らを処分できる{rt}唯一の刃こそ他ならぬ、	【Shiroku】{rt}the one blade that can dispose of you{rt}is none other	
+B28.0067	line		【司録】{rt}《大罪》なのだッ。	【Shiroku】{rt}than the Great Sin!	
+B28.0068	line		【司命】{rt}優鉢羅よ…。	【Shimei】{rt}Uhatsura...	
+B28.0069	line		【司命】{rt}お前の無念の心、{rt}無駄にはせぬぞ。	【Shimei】{rt}we won't let your regret go to{rt}waste.	
+B28.0070	line		【司命】{rt}お前を斃した《大罪》人は{rt}ここにいる…。	【Shimei】{rt}The Great Sinners who struck you down{rt}are here...	
+B28.0071	line		【矢村】{rt}やめろッ！！	【Yamura】{rt}Stop it!!	
+B28.0072	line		【矢村】{rt}お前たちがやっている事は	【Yamura】{rt}What you're doing is nothing but	
+B28.0073	line		【矢村】{rt}死者の魂を弄ぶ行為に{rt}他ならないッ！！	【Yamura】{rt}toying with the souls of the dead!!	
+B28.0074	line		【司命】{rt}ふんッ。	【Shimei】{rt}Hmph.	
+B28.0075	line		【司命】{rt}聞く耳持たぬわ。	【Shimei】{rt}We won't hear it.	
+B28.0076	line		【司命】{rt}『司命、これより{rt}　この者―――	【Shimei】{rt}"I, Shimei, now grant this one--	
+B28.0077	line		【司命】{rt}　封じられし魂に再び命{rt}　（いのち）を与えるッ！』	【Shimei】{rt}this sealed soul--life once more!"	
 B28.0078	line		【優鉢羅】{rt}…………。	【Uhatsura】{rt}......	
-B28.0079	line		【優鉢羅】{rt}司命に司録…。		
-B28.0080	line		【優鉢羅】{rt}ここは…？		
-B28.0081	line		【優鉢羅】{rt}俺は、死んだはず――。		
-B28.0082	line		【司命】{rt}優鉢羅よ。		
-B28.0083	line		【司命】{rt}お前の死してなお忠実な心、		
-B28.0084	line		【司命】{rt}眠らせておくには{rt}もったいない。		
-B28.0085	line		【司命】{rt}もう一度、闘ってくれるな？		
+B28.0079	line		【優鉢羅】{rt}司命に司録…。	【Uhatsura】{rt}Shimei and Shiroku...	
+B28.0080	line		【優鉢羅】{rt}ここは…？	【Uhatsura】{rt}Where is this...?	
+B28.0081	line		【優鉢羅】{rt}俺は、死んだはず――。	【Uhatsura】{rt}I should be dead--	
+B28.0082	line		【司命】{rt}優鉢羅よ。	【Shimei】{rt}Uhatsura.	
+B28.0083	line		【司命】{rt}お前の死してなお忠実な心、	【Shimei】{rt}Your heart, loyal even in death,	
+B28.0084	line		【司命】{rt}眠らせておくには{rt}もったいない。	【Shimei】{rt}is too good to leave sleeping.	
+B28.0085	line		【司命】{rt}もう一度、闘ってくれるな？	【Shimei】{rt}You'll fight once more, won't you?	
 B28.0086	line		【優鉢羅】{rt}―――！！	【Uhatsura】{rt}--!!	
-B28.0087	line		【優鉢羅】{rt}そうか…。		
-B28.0088	line		【優鉢羅】{rt}そういう事か！！		
-B28.0089	line		【矢村】{rt}優鉢羅…。		
-B28.0090	line		【優鉢羅】{rt}ありがたいッ！！		
-B28.0091	line		【優鉢羅】{rt}人間たちよ。		
-B28.0092	line		【優鉢羅】{rt}あの時融解せし俺の魂は、{rt}今ここに再び結束した！！		
-B28.0093	line		【優鉢羅】{rt}今度こそ、俺はお前たちを{rt}動かぬ氷塊に変えるだろう！		
-B28.0094	line		【優鉢羅】{rt}司録、俺に許しを！！		
-B28.0095	line		【優鉢羅】{rt}俺に闘う目的を示せ！！		
-B28.0096	line		【司録】{rt}承知ッ。		
-B28.0097	line		【司録】{rt}『司録、これより{rt}　この者―――		
-B28.0098	line		【司録】{rt}　封じられし魂に再び{rt}　命（めい）を与えるッ！』		
-B28.0099	line		【司録】{rt}行けェいッ！！優鉢羅ッ！！		
+B28.0087	line		【優鉢羅】{rt}そうか…。	【Uhatsura】{rt}I see...	
+B28.0088	line		【優鉢羅】{rt}そういう事か！！	【Uhatsura】{rt}So that's how it is!!	
+B28.0089	line		【矢村】{rt}優鉢羅…。	【Yamura】{rt}Uhatsura...	
+B28.0090	line		【優鉢羅】{rt}ありがたいッ！！	【Uhatsura】{rt}I'm grateful!!	
+B28.0091	line		【優鉢羅】{rt}人間たちよ。	【Uhatsura】{rt}Humans.	
+B28.0092	line		【優鉢羅】{rt}あの時融解せし俺の魂は、{rt}今ここに再び結束した！！	【Uhatsura】{rt}My soul, melted that day, is bound{rt}together again here and now!!	
+B28.0093	line		【優鉢羅】{rt}今度こそ、俺はお前たちを{rt}動かぬ氷塊に変えるだろう！	【Uhatsura】{rt}This time, I'll turn you into blocks of ice{rt}that never move!	
+B28.0094	line		【優鉢羅】{rt}司録、俺に許しを！！	【Uhatsura】{rt}Shiroku, grant me leave!!	
+B28.0095	line		【優鉢羅】{rt}俺に闘う目的を示せ！！	【Uhatsura】{rt}Show me a purpose to fight!!	
+B28.0096	line		【司録】{rt}承知ッ。	【Shiroku】{rt}Understood.	
+B28.0097	line		【司録】{rt}『司録、これより{rt}　この者―――	【Shiroku】{rt}"I, Shiroku, now grant this one--	
+B28.0098	line		【司録】{rt}　封じられし魂に再び{rt}　命（めい）を与えるッ！』	【Shiroku】{rt}this sealed soul, orders once more!"	
+B28.0099	line		【司録】{rt}行けェいッ！！優鉢羅ッ！！	【Shiroku】{rt}Go!! Uhatsura!!	
 B28.0100	line		【優鉢羅】{rt}ひゅるううッ！！	【Uhatsura】{rt}Hyuuurrr!!	

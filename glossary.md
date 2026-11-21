@@ -279,6 +279,12 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   -> curse. 結界 -> barrier. 《傷》 -> Wound. 血華 -> flower of blood. Kumaso says おれ = I; mocking, sadistic.
   Shiroku (司録) and Shimei (司命) = the Shadows on the Right/Left; formal speech. B24.0509-0541 are voices of
   another Tokyo's defenders (Boy/Girl/Woman's Voice), heard through the player's Thought.
+- b072-b074 (B25-B28): 日本武尊 -> Yamato Takeru; 熊襲魁帥 -> Kumaso Takeru. 無間空間 -> the Endless Space. 断罪人 ->
+  executioners. 《処分》 -> Disposal. 《護るべきもの》 -> "what they must protect". The ten Great Sins (十悪, B28):
+  《悪口》 Abuse, 《綺語》 Flattery, 《貪欲》 Greed, 《瞋恚》 Malice, 《妄語》 Lies, 《好色》 Lust, 《殺生》 Killing,
+  《偸盗》 Theft, 《両舌》 Double Tongue, 《邪見》 False View (readings in brackets dropped). 《心》《口》《意》 at B28 ->
+  Heart, Speech, Mind. Shimei's/Shiroku's incantation: 「司命、これよりこの者…命（いのち）を与える」 -> "I, Shimei,
+  now grant this one... life once more!"; Shiroku's 命（めい） -> "orders".
 - A12.4.0038/0043 and A12.9.0057 start `【【` (a JP typo); merge tags them normally.
 - The only row whose JP holds two boxes (`...{rt}{rt}【X】{rt}...`) is B11.0121:
   the batch check wants the repeated speaker name in the English, so put `【X】` in the body to pass, then after
