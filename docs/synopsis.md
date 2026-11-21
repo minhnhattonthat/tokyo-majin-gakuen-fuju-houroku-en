@@ -143,3 +143,9 @@ session; translators read it before their batch.
   trio to defeat Amanosagume and leaves his Thought in a charm. Takamaru reveals he was Otakemaru, raised by a
   Great Sin after Toshimune killed his daughter at Omi; he spurns the fated Stars and swears the Shade folk's
   history begins when the Light folk are destroyed; battle.
+- B33: Takamaru, beaten, relives Omi 1200 years ago: his daughter Kihata begged to see "the stars dance" (Suzuka's
+  lure), drew him out of his warded cave, and Enra's Kannon-blessed arrows and Toshimune's army struck. Wanting
+  Power for revenge, he draws in all ten Great Sins despite Yamura and Isuzu's efforts and rises again; battle.
+- B34: the ten Great Sins' Miasma overwhelms Takamaru and pours into Isuzu. Isuzu speaks to Yamura (she knew of the
+  library vision and still trusted him) and to the player, then falls silent: Amanosagume takes her body, mocks
+  Isuzu as a borrowed mask, and is reborn in her true form.

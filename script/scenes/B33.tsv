@@ -1,135 +1,135 @@
 id	kind	max	jp	en	notes
-B33.0000	line		【高丸】{rt}ぐ―――ぐぬうッ…。		
-B33.0001	line		【高丸】{rt}な、何故だ―――。		
-B33.0002	line		【高丸】{rt}何故勝てんのだ？		
-B33.0003	line		【高丸】{rt}お、己はまた負けるのか！？		
-B33.0004	line		【高丸】{rt}貴様らに―――		
-B33.0005	line		【高丸】{rt}《陽の者》にッ…。		
-B33.0006	line		【高丸の声】{rt}貴様らに―――		
-B33.0007	line		【高丸の声】{rt}《陽の者》にッ…。		
-B33.0008	line		【少女の声】{rt}父（とと）様…。		
-B33.0009	line		【少女の声】{rt}ねえ、父様ッ。		
-B33.0010	line		【高丸】{rt}ン―――？		
-B33.0011	line		【少女の声】{rt}お星の舞いッ。		
-B33.0012	line		【少女の声】{rt}お星の舞いが見れるよ。		
-B33.0013	line		【高丸】{rt}なんだと、キハタ？		
-B33.0014	line		【キハタ】{rt}あのね、		
-B33.0015	line		【キハタ】{rt}外でお星が舞ってるの。		
-B33.0016	line		【キハタ】{rt}ねえ、父様。		
-B33.0017	line		【キハタ】{rt}見てきてもいいでしょ？		
-B33.0018	line		【高丸】{rt}星…？		
-B33.0019	line		【高丸】{rt}…ならぬッ。		
-B33.0020	line		【高丸】{rt}人間どもが―――		
-B33.0021	line		【高丸】{rt}俊宗が己をおびき出そうとする{rt}策略かも知れぬ。		
-B33.0022	line		【高丸】{rt}岩屋の外へ出てはならぬぞ、{rt}キハタ。		
-B33.0023	line		【キハタ】{rt}でも…。		
-B33.0024	line		【高丸】{rt}キハタ―――よく聞け。		
-B33.0025	line		【高丸】{rt}父は、人間どもに、{rt}負けるかもしれん。		
-B33.0026	line		【キハタ】{rt}えッ―――？		
-B33.0027	line		【高丸】{rt}まだ勝負はついておらぬが、{rt}今度派遣された若武者―――		
-B33.0028	line		【高丸】{rt}あれが曲者だ。		
-B33.0029	line		【高丸】{rt}だがな、安心しろ。		
-B33.0030	line		【高丸】{rt}お前だけは、何があっても{rt}俊宗の―――		
-B33.0031	line		【高丸】{rt}人間どもの手には渡さぬ。		
-B33.0032	line		【高丸】{rt}父は命を張って、{rt}お前を護るぞ。		
-B33.0033	line		【キハタ】{rt}父様…。		
-B33.0034	line		【高丸】{rt}キハタ、お前は賢い子だ。		
-B33.0035	line		【高丸】{rt}父のいう事が聞けるよな？		
-B33.0036	line		【キハタ】{rt}うん…。		
-B33.0037	line		【キハタ】{rt}でもね、父様。		
-B33.0038	line		【高丸】{rt}ん？		
-B33.0039	line		【キハタ】{rt}お星はお星だよ。		
-B33.0040	line		【キハタ】{rt}人間じゃないよ。		
-B33.0041	line		【高丸】{rt}キハタ、いい加減にしろ。		
-B33.0042	line		【高丸】{rt}父のいう事が―――		
-B33.0043	line		【キハタ】{rt}あんな美しい舞いは{rt}人間には無理だもん。		
-B33.0044	line		【キハタ】{rt}本物のお星が舞ってるんだッ。		
-B33.0045	line		【キハタ】{rt}父も行こうッ？		
-B33.0046	line		【キハタ】{rt}早くしないとお星、{rt}帰っちゃうよォ。		
+B33.0000	line		【高丸】{rt}ぐ―――ぐぬうッ…。	【Takamaru】{rt}Ngh--grrraaah...	
+B33.0001	line		【高丸】{rt}な、何故だ―――。	【Takamaru】{rt}Wh-why--	
+B33.0002	line		【高丸】{rt}何故勝てんのだ？	【Takamaru】{rt}Why can't I win?	
+B33.0003	line		【高丸】{rt}お、己はまた負けるのか！？	【Takamaru】{rt}A-am I to lose again!?	
+B33.0004	line		【高丸】{rt}貴様らに―――	【Takamaru】{rt}To you--	
+B33.0005	line		【高丸】{rt}《陽の者》にッ…。	【Takamaru】{rt}To the Light folk...	
+B33.0006	line		【高丸の声】{rt}貴様らに―――	【Takamaru's Voice】{rt}To you--	
+B33.0007	line		【高丸の声】{rt}《陽の者》にッ…。	【Takamaru's Voice】{rt}To the Light folk...	
+B33.0008	line		【少女の声】{rt}父（とと）様…。	【Girl's Voice】{rt}Papa...	
+B33.0009	line		【少女の声】{rt}ねえ、父様ッ。	【Girl's Voice】{rt}Hey, Papa!	
+B33.0010	line		【高丸】{rt}ン―――？	【Takamaru】{rt}Hm--?	
+B33.0011	line		【少女の声】{rt}お星の舞いッ。	【Girl's Voice】{rt}The stars are dancing!	
+B33.0012	line		【少女の声】{rt}お星の舞いが見れるよ。	【Girl's Voice】{rt}You can see the stars dance!	
+B33.0013	line		【高丸】{rt}なんだと、キハタ？	【Takamaru】{rt}What's that, Kihata?	
+B33.0014	line		【キハタ】{rt}あのね、	【Kihata】{rt}Listen,	
+B33.0015	line		【キハタ】{rt}外でお星が舞ってるの。	【Kihata】{rt}the stars are dancing outside.	
+B33.0016	line		【キハタ】{rt}ねえ、父様。	【Kihata】{rt}Hey, Papa.	
+B33.0017	line		【キハタ】{rt}見てきてもいいでしょ？	【Kihata】{rt}Can I go and see?	
+B33.0018	line		【高丸】{rt}星…？	【Takamaru】{rt}Stars...?	
+B33.0019	line		【高丸】{rt}…ならぬッ。	【Takamaru】{rt}...No!	
+B33.0020	line		【高丸】{rt}人間どもが―――	【Takamaru】{rt}It may be the humans--	
+B33.0021	line		【高丸】{rt}俊宗が己をおびき出そうとする{rt}策略かも知れぬ。	【Takamaru】{rt}a ploy by Toshimune to lure me out.	
+B33.0022	line		【高丸】{rt}岩屋の外へ出てはならぬぞ、{rt}キハタ。	【Takamaru】{rt}Don't leave the cave, Kihata.	
+B33.0023	line		【キハタ】{rt}でも…。	【Kihata】{rt}But...	
+B33.0024	line		【高丸】{rt}キハタ―――よく聞け。	【Takamaru】{rt}Kihata--listen well.	
+B33.0025	line		【高丸】{rt}父は、人間どもに、{rt}負けるかもしれん。	【Takamaru】{rt}Your father may lose to the humans.	
+B33.0026	line		【キハタ】{rt}えッ―――？	【Kihata】{rt}Huh--?	
+B33.0027	line		【高丸】{rt}まだ勝負はついておらぬが、{rt}今度派遣された若武者―――	【Takamaru】{rt}It isn't settled yet, but the young{rt}warrior they sent this time--	
+B33.0028	line		【高丸】{rt}あれが曲者だ。	【Takamaru】{rt}he is a dangerous one.	
+B33.0029	line		【高丸】{rt}だがな、安心しろ。	【Takamaru】{rt}But don't worry.	
+B33.0030	line		【高丸】{rt}お前だけは、何があっても{rt}俊宗の―――	【Takamaru】{rt}Whatever happens, I will never let you{rt}fall	
+B33.0031	line		【高丸】{rt}人間どもの手には渡さぬ。	【Takamaru】{rt}into the hands of Toshimune and the{rt}humans.	
+B33.0032	line		【高丸】{rt}父は命を張って、{rt}お前を護るぞ。	【Takamaru】{rt}Your father will protect you with his{rt}life.	
+B33.0033	line		【キハタ】{rt}父様…。	【Kihata】{rt}Papa...	
+B33.0034	line		【高丸】{rt}キハタ、お前は賢い子だ。	【Takamaru】{rt}Kihata, you're a clever girl.	
+B33.0035	line		【高丸】{rt}父のいう事が聞けるよな？	【Takamaru】{rt}You'll listen to your father, won't{rt}you?	
+B33.0036	line		【キハタ】{rt}うん…。	【Kihata】{rt}Okay...	
+B33.0037	line		【キハタ】{rt}でもね、父様。	【Kihata】{rt}But Papa...	
+B33.0038	line		【高丸】{rt}ん？	【Takamaru】{rt}Hm?	
+B33.0039	line		【キハタ】{rt}お星はお星だよ。	【Kihata】{rt}Stars are stars.	
+B33.0040	line		【キハタ】{rt}人間じゃないよ。	【Kihata】{rt}They're not humans.	
+B33.0041	line		【高丸】{rt}キハタ、いい加減にしろ。	【Takamaru】{rt}Kihata, that's enough.	
+B33.0042	line		【高丸】{rt}父のいう事が―――	【Takamaru】{rt}Listen to your father--	
+B33.0043	line		【キハタ】{rt}あんな美しい舞いは{rt}人間には無理だもん。	【Kihata】{rt}Humans could never dance so{rt}beautifully.	
+B33.0044	line		【キハタ】{rt}本物のお星が舞ってるんだッ。	【Kihata】{rt}It's real stars dancing!	
+B33.0045	line		【キハタ】{rt}父も行こうッ？	【Kihata】{rt}You come too, Papa?	
+B33.0046	line		【キハタ】{rt}早くしないとお星、{rt}帰っちゃうよォ。	【Kihata】{rt}If we don't hurry, the stars will go{rt}home!	
 B33.0047	line		【高丸】{rt}…………。	【Takamaru】{rt}......	
-B33.0048	line		【高丸】{rt}分かった、分かった。		
-B33.0049	line		【高丸】{rt}だが、あまり羽目を外すなよ。		
-B33.0050	line		【キハタ】{rt}うんッ。		
-B33.0051	line		【キハタ】{rt}あれ…お星は…？		
-B33.0052	line		【高丸】{rt}―――？		
-B33.0053	line		【高丸】{rt}（おかしな風だ…。）		
-B33.0054	line		【高丸】{rt}―――？		
-B33.0055	line		【高丸】{rt}あの光は―――！？		
-B33.0056	line		【高丸】{rt}―――！！		
-B33.0057	line		【高丸】{rt}キハタ、危ないッ。		
-B33.0058	line		【高丸】{rt}ぐううッ―――。		
-B33.0059	line		【キハタ】{rt}父…様…？		
-B33.0060	line		【高丸】{rt}ぬうううッ。		
-B33.0061	line		【高丸】{rt}や、やはりか―――		
-B33.0062	line		【高丸】{rt}貴様なのだな、俊宗ェェ！！		
-B33.0063	line		【キハタ】{rt}父…父様ァッ！！		
-B33.0064	line		【高丸】{rt}キハタ…逃げろォ…。		
-B33.0065	line		【高丸】{rt}俊宗が…		
-B33.0066	line		【高丸】{rt}《鬼狩り》が来るぞッ。		
-B33.0067	line		【キハタ】{rt}い、いやだッ。		
-B33.0068	line		【キハタ】{rt}父様ッ！！		
+B33.0048	line		【高丸】{rt}分かった、分かった。	【Takamaru】{rt}All right, all right.	
+B33.0049	line		【高丸】{rt}だが、あまり羽目を外すなよ。	【Takamaru】{rt}But don't get carried away.	
+B33.0050	line		【キハタ】{rt}うんッ。	【Kihata】{rt}Okay!	
+B33.0051	line		【キハタ】{rt}あれ…お星は…？	【Kihata】{rt}Huh... where are the stars...?	
+B33.0052	line		【高丸】{rt}―――？	【Takamaru】{rt}--?	
+B33.0053	line		【高丸】{rt}（おかしな風だ…。）	【Takamaru】{rt}(A strange wind...)	
+B33.0054	line		【高丸】{rt}―――？	【Takamaru】{rt}--?	
+B33.0055	line		【高丸】{rt}あの光は―――！？	【Takamaru】{rt}That light is--!?	
+B33.0056	line		【高丸】{rt}―――！！	【Takamaru】{rt}--!!	
+B33.0057	line		【高丸】{rt}キハタ、危ないッ。	【Takamaru】{rt}Kihata, look out!	
+B33.0058	line		【高丸】{rt}ぐううッ―――。	【Takamaru】{rt}Grrraaagh--	
+B33.0059	line		【キハタ】{rt}父…様…？	【Kihata】{rt}Pa... Papa...?	
+B33.0060	line		【高丸】{rt}ぬうううッ。	【Takamaru】{rt}Nnngh!	
+B33.0061	line		【高丸】{rt}や、やはりか―――	【Takamaru】{rt}S-so it is--	
+B33.0062	line		【高丸】{rt}貴様なのだな、俊宗ェェ！！	【Takamaru】{rt}It's you, Toshimune!!	
+B33.0063	line		【キハタ】{rt}父…父様ァッ！！	【Kihata】{rt}Pa... Papaaa!!	
+B33.0064	line		【高丸】{rt}キハタ…逃げろォ…。	【Takamaru】{rt}Kihata... run...	
+B33.0065	line		【高丸】{rt}俊宗が…	【Takamaru】{rt}Toshimune...	
+B33.0066	line		【高丸】{rt}《鬼狩り》が来るぞッ。	【Takamaru】{rt}The Oni Hunter is coming!	
+B33.0067	line		【キハタ】{rt}い、いやだッ。	【Kihata】{rt}N-no!	
+B33.0068	line		【キハタ】{rt}父様ッ！！	【Kihata】{rt}Papa!!	
 B33.0069	line		【藤原俊宗】{rt}…………。	【Fujiwara no Toshimune】{rt}......	
-B33.0070	line		【焔羅】{rt}いかに高丸といえど、		
-B33.0071	line		【焔羅】{rt}観世音に清められし{rt}千頭（ちかしら）の矢を		
-B33.0072	line		【焔羅】{rt}あれほど受ければ{rt}立ってはいられまい…。		
-B33.0073	line		【焔羅】{rt}礼をいうぞ、鈴鹿。		
-B33.0074	line		【焔羅】{rt}おぬしの術に誘われ、		
-B33.0075	line		【焔羅】{rt}結界を張った岩屋から{rt}高丸が出たからこそ		
-B33.0076	line		【焔羅】{rt}攻撃も可能になった。		
-B33.0077	line		【鈴鹿御前】{rt}…いえ。		
-B33.0078	line		【焔羅】{rt}奴が斃れようとしている…		
-B33.0079	line		【焔羅】{rt}奴の呪力が弱まった今こそ、{rt}一気に叩くべき機会ッ。		
+B33.0070	line		【焔羅】{rt}いかに高丸といえど、	【Enra】{rt}Even Takamaru	
+B33.0071	line		【焔羅】{rt}観世音に清められし{rt}千頭（ちかしら）の矢を	【Enra】{rt}cannot stay standing after taking so{rt}many	
+B33.0072	line		【焔羅】{rt}あれほど受ければ{rt}立ってはいられまい…。	【Enra】{rt}of the thousand arrows purified by{rt}Kannon...	
+B33.0073	line		【焔羅】{rt}礼をいうぞ、鈴鹿。	【Enra】{rt}You have my thanks, Suzuka.	
+B33.0074	line		【焔羅】{rt}おぬしの術に誘われ、	【Enra】{rt}Only because your art lured him,	
+B33.0075	line		【焔羅】{rt}結界を張った岩屋から{rt}高丸が出たからこそ	【Enra】{rt}and Takamaru came out of his warded{rt}cave,	
+B33.0076	line		【焔羅】{rt}攻撃も可能になった。	【Enra】{rt}could we attack at all.	
+B33.0077	line		【鈴鹿御前】{rt}…いえ。	【Suzuka Gozen】{rt}...It was nothing.	
+B33.0078	line		【焔羅】{rt}奴が斃れようとしている…	【Enra】{rt}He is about to fall...	
+B33.0079	line		【焔羅】{rt}奴の呪力が弱まった今こそ、{rt}一気に叩くべき機会ッ。	【Enra】{rt}Now that his cursed power has{rt}weakened, we must strike all at once!	
 B33.0080	line		【藤原俊宗】{rt}…………。	【Fujiwara no Toshimune】{rt}......	
-B33.0081	line		【藤原俊宗】{rt}そのとおりです、焔羅大明神。		
-B33.0082	line		【藤原俊宗】{rt}国に害成す鬼どもを、		
-B33.0083	line		【藤原俊宗】{rt}今こそことごとく{rt}滅殺すべしッ。		
+B33.0081	line		【藤原俊宗】{rt}そのとおりです、焔羅大明神。	【Fujiwara no Toshimune】{rt}Just so, Great Deity Enra.	
+B33.0082	line		【藤原俊宗】{rt}国に害成す鬼どもを、	【Fujiwara no Toshimune】{rt}The oni that bring harm to the land	
+B33.0083	line		【藤原俊宗】{rt}今こそことごとく{rt}滅殺すべしッ。	【Fujiwara no Toshimune】{rt}must now be wiped out, every last{rt}one!	
 B33.0084	line		【鈴鹿御前】{rt}…………。	【Suzuka Gozen】{rt}......	
-B33.0085	line		【藤原俊宗】{rt}ゆくぞ、高丸ッ。		
+B33.0085	line		【藤原俊宗】{rt}ゆくぞ、高丸ッ。	【Fujiwara no Toshimune】{rt}Here I come, Takamaru!	
 B33.0086	line		【藤原俊宗】{rt}妖（あやかし）め{rt}覚悟せよッ。	【Fujiwara no Toshimune】{rt}Prepare yourself, demon!	
-B33.0087	line		【藤原俊宗】{rt}全軍、前へ―――ッ！！		
-B33.0088	line		【高丸】{rt}キハタ…逃げろォッ。		
-B33.0089	line		【キハタ】{rt}いや…嫌だあッ！！		
-B33.0090	line		【キハタ】{rt}父―――		
-B33.0091	line		【キハタ】{rt}父様ァッ！！		
-B33.0092	line		【高丸】{rt}（キハタ…。）		
-B33.0093	line		【高丸】{rt}《力》―――。		
-B33.0094	line		【高丸】{rt}《力》が欲しい…。		
-B33.0095	line		【高丸の声】{rt}《力》が―――。		
-B33.0096	line		【矢村】{rt}十の《大罪》が―――！！		
-B33.0097	line		【矢村】{rt}高丸の叫びに共鳴しているッ。		
+B33.0087	line		【藤原俊宗】{rt}全軍、前へ―――ッ！！	【Fujiwara no Toshimune】{rt}All troops, forward--!!	
+B33.0088	line		【高丸】{rt}キハタ…逃げろォッ。	【Takamaru】{rt}Kihata... run!	
+B33.0089	line		【キハタ】{rt}いや…嫌だあッ！！	【Kihata】{rt}No... I won't!!	
+B33.0090	line		【キハタ】{rt}父―――	【Kihata】{rt}Pa--	
+B33.0091	line		【キハタ】{rt}父様ァッ！！	【Kihata】{rt}Papaaa!!	
+B33.0092	line		【高丸】{rt}（キハタ…。）	【Takamaru】{rt}(Kihata...)	
+B33.0093	line		【高丸】{rt}《力》―――。	【Takamaru】{rt}Power--	
+B33.0094	line		【高丸】{rt}《力》が欲しい…。	【Takamaru】{rt}I want Power...	
+B33.0095	line		【高丸の声】{rt}《力》が―――。	【Takamaru's Voice】{rt}Power--	
+B33.0096	line		【矢村】{rt}十の《大罪》が―――！！	【Yamura】{rt}The ten Great Sins--!!	
+B33.0097	line		【矢村】{rt}高丸の叫びに共鳴しているッ。	【Yamura】{rt}They're resonating with Takamaru's{rt}cry!	
 B33.0098	line		【矢村】{rt}{name1}ッ！！	【Yamura】{rt}{name1}!!	
-B33.0099	line		【矢村】{rt}《大罪》を離すなッ！！		
-B33.0100	line		【矢村】{rt}伊涼も力を貸してくれッ！！		
+B33.0099	line		【矢村】{rt}《大罪》を離すなッ！！	【Yamura】{rt}Don't let go of the Great Sins!!	
+B33.0100	line		【矢村】{rt}伊涼も力を貸してくれッ！！	【Yamura】{rt}Isuzu, lend me your strength too!!	
 B33.0101	line		【伊涼】{rt}はいッ！！	【Isuzu】{rt}Right!!	
-B33.0102	line		【矢村】{rt}《大罪》を高丸の元へ{rt}行かせるなッ！！		
-B33.0103	line		【高丸】{rt}（《力》―――《力》を――）		
-B33.0104	line		【矢村】{rt}やめるんだ、高丸ッ！！		
-B33.0105	line		【矢村】{rt}《大罪》に魅入られるぞ！！		
-B33.0106	line		【高丸】{rt}（《大罪》に―――？）		
-B33.0107	line		【高丸】{rt}（それでもいいッ。）		
-B33.0108	line		【高丸】{rt}（己は元よりどうなろうと{rt}　構わぬ。）		
-B33.0109	line		【高丸】{rt}（お前をこの手にかける事が{rt}　できるのならば―――		
-B33.0110	line		【高丸】{rt}　我が娘の、		
-B33.0111	line		【高丸】{rt}　俊宗に狩られた我ら一族の{rt}　仇を討てるのならばッ！）		
-B33.0112	line		【高丸】{rt}（《大罪》よ！！）		
-B33.0113	line		【高丸】{rt}（己に、もう一度{rt}　《力》を！！）		
+B33.0102	line		【矢村】{rt}《大罪》を高丸の元へ{rt}行かせるなッ！！	【Yamura】{rt}Don't let the Great Sins reach{rt}Takamaru!!	
+B33.0103	line		【高丸】{rt}（《力》―――《力》を――）	【Takamaru】{rt}(Power--Power--)	
+B33.0104	line		【矢村】{rt}やめるんだ、高丸ッ！！	【Yamura】{rt}Stop it, Takamaru!!	
+B33.0105	line		【矢村】{rt}《大罪》に魅入られるぞ！！	【Yamura】{rt}The Great Sins will take hold of you!!	
+B33.0106	line		【高丸】{rt}（《大罪》に―――？）	【Takamaru】{rt}(The Great Sins--?)	
+B33.0107	line		【高丸】{rt}（それでもいいッ。）	【Takamaru】{rt}(So be it.)	
+B33.0108	line		【高丸】{rt}（己は元よりどうなろうと{rt}　構わぬ。）	【Takamaru】{rt}(I never cared what became of me.)	
+B33.0109	line		【高丸】{rt}（お前をこの手にかける事が{rt}　できるのならば―――	【Takamaru】{rt}(If only I can strike you down with this{rt}hand--	
+B33.0110	line		【高丸】{rt}　我が娘の、	【Takamaru】{rt}if only I can avenge my daughter,	
+B33.0111	line		【高丸】{rt}　俊宗に狩られた我ら一族の{rt}　仇を討てるのならばッ！）	【Takamaru】{rt}and my clan, hunted down by{rt}Toshimune!)	
+B33.0112	line		【高丸】{rt}（《大罪》よ！！）	【Takamaru】{rt}(Great Sins!!)	
+B33.0113	line		【高丸】{rt}（己に、もう一度{rt}　《力》を！！）	【Takamaru】{rt}(Give me Power once more!!)	
 B33.0114	line		【矢村】{rt}くッ―――！！	【Yamura】{rt}Ngh--!!	
-B33.0115	line		【矢村】{rt}だ、だめだッ！！		
-B33.0116	line		【矢村】{rt}抑え切れない―――ッ！！		
-B33.0117	line		【高丸】{rt}…ぐうッ！？		
+B33.0115	line		【矢村】{rt}だ、だめだッ！！	【Yamura】{rt}N-no!!	
+B33.0116	line		【矢村】{rt}抑え切れない―――ッ！！	【Yamura】{rt}I can't hold them back--!!	
+B33.0117	line		【高丸】{rt}…ぐうッ！？	【Takamaru】{rt}...Ngh!?	
 B33.0118	line		【矢村】{rt}―――！！	【Yamura】{rt}--!!	
 B33.0119	line		【高丸】{rt}…………。	【Takamaru】{rt}......	
-B33.0120	line		【高丸】{rt}（《力》…。）		
-B33.0121	line		【高丸】{rt}とてつもない《力》だッ！！		
+B33.0120	line		【高丸】{rt}（《力》…。）	【Takamaru】{rt}(Power...)	
+B33.0121	line		【高丸】{rt}とてつもない《力》だッ！！	【Takamaru】{rt}What tremendous Power!!	
 B33.0122	line		【高丸】{rt}ハハハハッ！！	【Takamaru】{rt}Hahahaha!!	
-B33.0123	line		【高丸】{rt}もう一度闘えるぞッ！！		
-B33.0124	line		【高丸】{rt}これならば…。		
-B33.0125	line		【高丸】{rt}この《力》があればッ―――		
-B33.0126	line		【矢村】{rt}そんな馬鹿な…。		
-B33.0127	line		【矢村】{rt}十の《大罪》を{rt}呑み込んだのか？		
-B33.0128	line		【高丸】{rt}俊宗ェッ！！		
-B33.0129	line		【高丸】{rt}今度こそッ、{rt}お前をひねり潰し、		
-B33.0130	line		【高丸】{rt}《陽の者》を{rt}皆殺しにしてくれるッ！！		
-B33.0131	line		【高丸】{rt}この日本が己と《陰の者》の手{rt}によって変わっていく様を		
-B33.0132	line		【高丸】{rt}冥土からしかと見るが{rt}いいッ！！		
-B33.0133	line		【高丸】{rt}オオオオッ！！		
+B33.0123	line		【高丸】{rt}もう一度闘えるぞッ！！	【Takamaru】{rt}I can fight again!!	
+B33.0124	line		【高丸】{rt}これならば…。	【Takamaru】{rt}With this...	
+B33.0125	line		【高丸】{rt}この《力》があればッ―――	【Takamaru】{rt}With this Power--	
+B33.0126	line		【矢村】{rt}そんな馬鹿な…。	【Yamura】{rt}That's impossible...	
+B33.0127	line		【矢村】{rt}十の《大罪》を{rt}呑み込んだのか？	【Yamura】{rt}He swallowed the ten Great Sins?	
+B33.0128	line		【高丸】{rt}俊宗ェッ！！	【Takamaru】{rt}Toshimuuune!!	
+B33.0129	line		【高丸】{rt}今度こそッ、{rt}お前をひねり潰し、	【Takamaru】{rt}This time I will crush you,	
+B33.0130	line		【高丸】{rt}《陽の者》を{rt}皆殺しにしてくれるッ！！	【Takamaru】{rt}and slaughter every one of the Light{rt}folk!!	
+B33.0131	line		【高丸】{rt}この日本が己と《陰の者》の手{rt}によって変わっていく様を	【Takamaru】{rt}Watch closely from the land of the{rt}dead	
+B33.0132	line		【高丸】{rt}冥土からしかと見るが{rt}いいッ！！	【Takamaru】{rt}as Japan is changed by me and the{rt}Shade folk!!	
+B33.0133	line		【高丸】{rt}オオオオッ！！	【Takamaru】{rt}Ooooooh!!	

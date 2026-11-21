@@ -5,9 +5,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 6. Translate in progress (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 with B00-B03
   English, sha1 6e2fcc5dfb56.. (story_00 warp checked: `work/qa/pilot_zoom.png`). Marker build
   `build/tmgfh_marker.gba` sha1 91c3d9342694...
-- **Progress:** batches b001-b080 merged: B00-B32 and every A scene (A0.x-A12.x) complete (2026-11-22). B11.0121
+- **Progress:** batches b001-b082 merged: B00-B34 and every A scene (A0.x-A12.x) complete (2026-11-22). B11.0121
   holds two boxes (fixed by hand after merge; see the glossary note). Merges also fill identical JP lines in later
-  chapters (B33-B38 partly filled). Remaining: B33-B39 (~1 090 rows), system
+  chapters (B33-B38 partly filled). Remaining: B35-B39 (~830 rows), system
   cf/d1/d6 (2 605 rows). Staff roll ({dc} rows, B39) is left out of batches: translate by hand at
   the end. `batches.py`: 赤ちゃん is not an honorific (added to NOT_HONORIFIC).
 - **How (each session):** read `docs/translator-brief.md`, `docs/style-reference.md`, `docs/synopsis.md` and the
@@ -18,7 +18,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `tools/windows.tsv`, run by `tests/test_fit.py`); dialogue bodies are wrapped by merge (2 rows, 232/218 px,
   about 65 chars). Phase 6 done-when: batch check 0 errors everywhere, glossary current, a review pass with no
   Critical/Important (do it as a fresh read-only pass per chapter; codex once its limit resets).
-- **Next:** `split --only B33.,B34.`, then B35-B39 (no A scenes past A12), a few chapters per split. The fit
+- **Next:** `split --only B35.,B36.`, then B37-B39 (no A scenes past A12), a few chapters per split. The fit
   lint's unit budgets depend on the encoder built from all text, so new merges can push an old row over (B04.0181
   after b050): run `tools/check.py` after each merge and reword the row it names. Rows of kind `grid` are not translated. Notes for translators: system strings are often pieces joined
   at run time (turn banner 符咒士 / name + の / ターン; deck-editor prompts with 真神 and counts; deck help line 1;
