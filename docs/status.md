@@ -2,14 +2,22 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate (next; phase 5 done 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22, sha1
-  8d9efb85a8f2.. (built from `script/`, identical to the dump), smoke ok. Marker build `build/tmgfh_marker.gba`
-  sha1 91c3d9342694.. (after the deck-name grid change).
-- **Next:** phase 6, translate in batches (`references/translation.md`). Budgets per box variant are in
-  `tools/windows.tsv` (columns variant / applies_to / lines / px / last_px / units / status / evidence); no lint reads
-  it yet: the fit lint (VWF widths via `tools/vwf.py ext`, per-variant px and line counts, the dialogue last-line
-  218 px, per-entry tutorial limits, `{&..}` numbers and `{I0xx}` 16-px icons counted) is the first job before the
-  first batch. Rows of kind `grid` are not translated. Notes for translators: system strings are often pieces joined
+- **Phase:** 6. Translate in progress (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 with B00-B03
+  English, sha1 6e2fcc5dfb56.. (story_00 warp checked: `work/qa/pilot_zoom.png`). Marker build
+  `build/tmgfh_marker.gba` sha1 91c3d9342694...
+- **Progress:** batches b001-b004 merged (B00-B03, ~650 rows incl. repeats filled by merge). Batches b005-b006 (rest of
+  B03-B04) are split in `work/tl/` (gitignored, this machine) and not translated yet. Remaining: B04-B39, every A
+  detour scene, system cf/d1/d6 (~16 000 rows, ~360k JP chars). Staff roll ({dc} rows, B39) is left out of batches:
+  translate by hand at the end.
+- **How (each session):** read `docs/translator-brief.md`, `docs/style-reference.md`, `docs/synopsis.md` and the
+  glossary (in parts). `python -X utf8 tools/batches.py split --only B05.,B06.` (chapter order: B then that
+  chapter's A scenes; system last) -> translate `work/tl/bNNN.tsv` into `bNNN.out.tsv` (Write tool) -> `check` ->
+  `merge` -> extend synopsis/glossary -> commit. No subagents in Orca workers and codex is rate-limited until
+  2026-11-26: the worker translates itself, ~4-5 batches per context. Fit lint: `tools/fit.py` (all budgets from
+  `tools/windows.tsv`, run by `tests/test_fit.py`); dialogue bodies are wrapped by merge (2 rows, 232/218 px,
+  about 65 chars). Phase 6 done-when: batch check 0 errors everywhere, glossary current, a review pass with no
+  Critical/Important (do it as a fresh read-only pass per chapter; codex once its limit resets).
+- **Next:** b005. Rows of kind `grid` are not translated. Notes for translators: system strings are often pieces joined
   at run time (turn banner 符咒士 / name + の / ターン; deck-editor prompts with 真神 and counts; deck help line 1;
   `　　枚` slots that receive numbers): check the joined line. The sound test body D1BD60 keeps its full-width cell
   layout (label <= 64 px in cells 1-4, then the JP spaces and ／). Yes/no option lines are fixed:

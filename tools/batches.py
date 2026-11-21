@@ -34,7 +34,7 @@ FREE = {'{rt}', '{nl}'}         # line breaks: the English places them (system r
 VARIABLE = r'\{(?:name[12]|&[^}]*)\}'
 # honorific after a name (kanji / katakana run, or a name code) -> EN form; kinship words are not honorifics
 HONORIFICS = {'さん': '-san', 'くん': '-kun', 'ちゃん': '-chan', '先輩': '-senpai', '様': '-sama'}
-NOT_HONORIFIC = re.compile(r'(?:お?[母父兄姉婆爺]|皆|奥|嬢|叔[父母]|伯[父母]|王|神|仏|奥|殿|お客|お嬢|お前|皆)$')
+NOT_HONORIFIC = re.compile(r'(?:お?[母父兄姉婆爺孫娘]|皆|奥|嬢|叔[父母]|伯[父母]|王|神|仏|殿|お客|お前|坊|子)$')
 SPEAKER = re.compile(r'^【([^】]*)】\{rt\}')
 
 
@@ -113,9 +113,10 @@ def honorifics(jp):
             if not before:
                 continue
             prev = before[-1]
-            if not (kind(prev) in ('kanji', 'katakana') or before.endswith('}')):
+            code = re.search(r'\{name[12]\}$', before)
+            if not (kind(prev) in ('kanji', 'katakana') or code):
                 continue
-            if jpf == '様' and kind(prev) != 'katakana' and not before.endswith('}'):
+            if jpf == '様' and kind(prev) != 'katakana' and not code:
                 continue
             if NOT_HONORIFIC.search(before):
                 continue

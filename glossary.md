@@ -49,8 +49,14 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
 | 符咒士 | Talismancer | | card duelist; the game's own word | |
-| 氏神 | guardian god | | the player's role for the Yamura family | |
-| 勧請師 | summoner | | | |
+| 氏神 | Ujigami | | the clan's guardian god; the player's role for the Yamura family (explained in B02) | guardian god |
+| 勧請師 | Summoner | | 勧請 (calling down an Ujigami) = summon / summoning | |
+| 邪氣 / 邪気 | Miasma | | the evil aura behind the incidents | |
+| 大明神 | Great Deity | | 焔羅大明神 = Great Deity Enra | |
+| 現世 | the mortal world | | うつしよ | |
+| 神鈴 | Divine Bell | | Isuzu's bell; rings near Miasma | |
+| 巫女 | shrine maiden | | | |
+| 焔羅様 | Lord Enra | | Yamura and Isuzu's form of address | |
 
 ## Speaker tags
 | JP | EN |
@@ -227,3 +233,8 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | 学生 | Student |
 
 ## Decisions from earlier batches
+- b001-b004 《X》 terms (not enforced: single kanji): 《力》 -> Power, 《氣》 -> Ki, 《念》 -> Thought, 《定め》 -> Destiny,
+  《因果》 -> Causality, 《生》 -> Life, 《奴》 -> HE (the unseen enemy, capitals). Capitalised, no brackets.
+- b003 address: Yamura calls the player {name1}-sama / {name1}-dono / Great Deity; Isuzu tries {name1}-kun,
+  {name2}-chan. Enra calls the player "lad". The player is male (school uniform).
+- A term split across two boxes must stay in the box whose JP has it (the check enforces this per box).
