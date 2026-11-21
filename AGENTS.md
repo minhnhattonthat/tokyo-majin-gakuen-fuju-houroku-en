@@ -6,7 +6,8 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Build:    `python -X utf8 build.py` -> build/tmgfh_en.gba (checks the dump against `rom.sha1` first; not written yet, phase 3)
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this; `git config core.hooksPath tools/hooks` after cloning)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/tmgfh_en.gba --out work/qa/smoke --route tools/routes/boot.txt --smoke`
-- Warp:     `python -X utf8 $SKILL/scripts/emu.py build/tmgfh_en.gba --out work/qa/warp --script tools/debug/warp.lua --var "SCENE='<name>'" --frames 900 --sheet` (scenes: `tools/debug/scenes.tsv`; never ask the user to play to a scene)
+- Warp:     `python -X utf8 tools/debug/warp.py <name|B05|A3.2|MODE17> [--rom build/tmgfh_en.gba] [--mash 40]` -> work/qa/warp/<name>/sheet.png; `--all --states` runs every row of `tools/debug/scenes.tsv` and regenerates `work/states/` (never ask the user to play to a scene)
+- Saves:    `python -X utf8 tools/debug/save.py make|info|set|test` (layout: `tools/debug/save_layout.md`)
 - Release:  `python -X utf8 tools/release.py` (patch + verify; never publish without the user)
 - Clean:    `python -X utf8 tools/clean.py` (published projects: lists rebuildable/downloadable files; `--yes` deletes)
 

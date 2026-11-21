@@ -1,0 +1,6 @@
+# title with a save (--sav): cursor starts on 続きから -> load
+1400 -
+4 start
+200 -
+6 a
+400 -

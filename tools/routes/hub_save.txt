@@ -1,0 +1,20 @@
+# cold boot -> MODE6 hub (warp) -> 記録 -> はい: writes the battery save
+1400 -
+4 start
+200 -
+4 a
+600 -
+6 down
+40 -
+6 down
+40 -
+6 a
+200 -
+6 left
+40 -
+6 a
+300 -
+6 a
+300 -
+6 a
+300 -

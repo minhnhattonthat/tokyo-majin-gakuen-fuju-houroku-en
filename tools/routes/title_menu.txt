@@ -1,0 +1,4 @@
+# cold boot -> title -> PUSH START -> menu cursor down N, A (title submenus)
+1400 -
+4 start
+200 -

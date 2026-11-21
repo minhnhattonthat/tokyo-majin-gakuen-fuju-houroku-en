@@ -67,7 +67,28 @@ its usage limit); `tools/gfx_zoom.py` re-renders any asset at chosen widths. Wid
 | S28 | 0xD451F8 (16x16 icon + kanji pairs) | card type icons 術 武 ... |
 | S29 | 0xD53CD8, 0xD57D48, 0xD59218, 0xD5A748, 0xD5E538, 0xD5F1A8 | window frames with label tiles (シンボル, 背景, 属性, ジャンル ...): card/deck info screens, read in game |
 
+### Screens reached with the debug tool (phase 2; `python -X utf8 tools/debug/warp.py <row>`)
+Seen in warp shots; whether each label is tiles or font text is settled in phase 8 by a VRAM dump of the row.
+| # | warp row | Japanese on screen |
+|---|---|---|
+| W1 | `hub`, `hub_dungeon`, `hub_save` | 寄り道/封陰窟, 符咒編集, 記録, 設定, 先に進む (menu tiles, S13/S16 candidates); 記録しますか？ はい いいえ (font) |
+| W2 | `detour_map` | 寄り道 banner; map labels 光明院, 句会, 骨董品店, 封陰窟 (map art) |
+| W3 | `dungeon` | 封陰窟 一階 vertical banner (S15); 地下へ降りる, 最初から降りる, 戻る |
+| W4 | `shop`, `trade_room` | 骨董品店 / 符咒交換之間 banners (S15); 買う 売る 店を出る |
+| W5 | `link_battle`, `title_link_battle` | 通信対戦之間 banner; 戦闘開始, 符咒編集, 終了する; 使用符咒 |
+| W6 | `title_save`, `title_link_*` | 続きから, 通信, 通信対戦, 通信交換 (G4) |
+| W7 | `settings`, `title_settings` | 設定 banner; 文字表示 エフェクト セリフ ボイス 設定終了; values 普通 有り (S21) |
+| W8 | `sound_test` | サウンドテスト, BGM, SE, セリフ, ボイス + song/line names (S22) |
+| W9 | `haiku` | 句会 banner, 蛍火の句会 |
+| W10 | `ending_38`, `ending_39` | staff roll: role captions ◎グラフィック◎, ◎企画・開発◎, ◎プロデューサー◎, ◎監督◎, names (D3: English) |
+| W11 | `ending_39` | 東京魔人學園 符咒封録 完 end card (tiles) |
+| W12 | `story_00`, `story_NN` | vertical scene captions (暗黒の渦――: G5) at the top right of story scenes |
+| W13 | `board` | sutra board: 悪口 貪欲 妄語 好色 綺語 両舌 邪見 殺生 偸盗 瞋恚... (art: keep or redraw, phase 8) |
+| W14 | `battle_tutorial` | battle HUD; これから戦闘の基本的なルールを説明します (font) |
+| W15 | `name_entry` | G6/G7 |
+Not reached: the defeat / rematch screen (敗北 S9, 再戦する 終了する at 0xD65298); see `docs/re/game.md`.
+
 Sheets 028-031 reviewed (2026-11-22): 0xCAF748-0xCE5748 is the rest of the font; 0xCE7768 is the 符咒封録 logo art
 (G3); 0xE407F8.. (sheet 031) is non-graphic data. No LZ77 block was left unreviewed (they sit in sheets 021-025).
-Not yet listed: chapter cards, game over, ending, credits as seen in game (need the debug tool, phase 2). The
-shredded strips (S2, S3, S11, S12, S16, S25) get their real layout from in-game VRAM dumps in phase 8.
+Chapter captions, ending and credits are now in the W rows above (the game has no separate chapter card: each
+story scene opens with its vertical caption). The shredded strips (S2, S3, S11, S12, S16, S25) get their real layout from in-game VRAM dumps in phase 8.

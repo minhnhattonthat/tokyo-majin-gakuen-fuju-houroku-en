@@ -1,0 +1,14 @@
+# title WITH a save (--sav): 通信 -> 通信交換 (link trade)
+1400 -
+4 start
+200 -
+6 left
+40 -
+6 down
+40 -
+6 a
+200 -
+6 right
+40 -
+6 a
+400 -
