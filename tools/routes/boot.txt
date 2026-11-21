@@ -1,0 +1,8 @@
+# cold boot to the title, start, then into the first menu
+1400 -
+4 start
+180 -
+4 a
+240 -
+4 a
+300 -
