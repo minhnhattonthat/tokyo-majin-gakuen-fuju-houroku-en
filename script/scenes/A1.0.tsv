@@ -1,30 +1,30 @@
 id	kind	max	jp	en	notes
-A1.0.0000	line		【聖女】{rt}私が持っている、{rt}癒しの《力》。		
-A1.0.0001	line		【聖女】{rt}この《力》を使う時、		
-A1.0.0002	line		【聖女】{rt}その時は誰かが{rt}傷ついているって事よね。		
-A1.0.0003	line		【聖女】{rt}私、怖いの。		
-A1.0.0004	line		【聖女】{rt}この《力》が、かえって{rt}みんなを傷つかせている、		
-A1.0.0005	line		【聖女】{rt}そんな気がして―――。		
+A1.0.0000	line		【聖女】{rt}私が持っている、{rt}癒しの《力》。	【Saint】{rt}The healing Power that I have.	
+A1.0.0001	line		【聖女】{rt}この《力》を使う時、	【Saint】{rt}When I use this Power,	
+A1.0.0002	line		【聖女】{rt}その時は誰かが{rt}傷ついているって事よね。	【Saint】{rt}it means someone has been hurt,{rt}doesn't it?	
+A1.0.0003	line		【聖女】{rt}私、怖いの。	【Saint】{rt}I'm scared.	
+A1.0.0004	line		【聖女】{rt}この《力》が、かえって{rt}みんなを傷つかせている、	【Saint】{rt}That this Power is only making{rt}everyone get hurt more,	
+A1.0.0005	line		【聖女】{rt}そんな気がして―――。	【Saint】{rt}that's the feeling I get--.	
 A1.0.0006	line		【聖女】{rt}……。	【Saint】{rt}......	
-A1.0.0007	line		【聖女】{rt}あ…、ありがとう。		
-A1.0.0008	line		【聖女】{rt}そんな風に言ってもらえる{rt}なんて思ってなかったから、		
-A1.0.0009	line		【聖女】{rt}私…。		
+A1.0.0007	line		【聖女】{rt}あ…、ありがとう。	【Saint】{rt}Oh... thank you.	
+A1.0.0008	line		【聖女】{rt}そんな風に言ってもらえる{rt}なんて思ってなかったから、	【Saint】{rt}I never thought anyone would say that{rt}to me, so...	
+A1.0.0009	line		【聖女】{rt}私…。	【Saint】{rt}I...	
 A1.0.0010	line		【聖女】{rt}……。	【Saint】{rt}......	
-A1.0.0011	line		【聖女】{rt}やっぱり、そう…よね。		
-A1.0.0012	line		【聖女】{rt}私の《力》がみんなを…。		
+A1.0.0011	line		【聖女】{rt}やっぱり、そう…よね。	【Saint】{rt}I knew it... didn't I.	
+A1.0.0012	line		【聖女】{rt}私の《力》がみんなを…。	【Saint】{rt}My Power is making everyone...	
 A1.0.0013	line		【聖女】{rt}……。	【Saint】{rt}......	
-A1.0.0014	line		【聖女】{rt}やっぱり、そう…よね。		
-A1.0.0015	line		【聖女】{rt}私の《力》がみんなを…。		
+A1.0.0014	line		【聖女】{rt}やっぱり、そう…よね。	【Saint】{rt}I knew it... didn't I.	
+A1.0.0015	line		【聖女】{rt}私の《力》がみんなを…。	【Saint】{rt}My Power is making everyone...	
 A1.0.0016	line		【聖女】{rt}……。	【Saint】{rt}......	
-A1.0.0017	line		【聖女】{rt}ありがとう。		
-A1.0.0018	line		【聖女】{rt}そう言ってもらえて、		
-A1.0.0019	line		【聖女】{rt}少し、気が楽になったわ。		
-A1.0.0020	line		【聖女】{rt}私のせいで、{rt}みんなが無理をしてしまう。		
-A1.0.0021	line		【聖女】{rt}どうして私には、こんな力が{rt}あるのかしら{rt}…。		
-A1.0.0022	line		【聖女】{rt}ごめんなさい。		
-A1.0.0023	line		【聖女】{rt}そんな顔、しないで…。		
+A1.0.0017	line		【聖女】{rt}ありがとう。	【Saint】{rt}Thank you.	
+A1.0.0018	line		【聖女】{rt}そう言ってもらえて、	【Saint】{rt}Hearing you say that	
+A1.0.0019	line		【聖女】{rt}少し、気が楽になったわ。	【Saint】{rt}makes me feel a little better.	
+A1.0.0020	line		【聖女】{rt}私のせいで、{rt}みんなが無理をしてしまう。	【Saint】{rt}Everyone pushes themselves too hard{rt}because of me.	
+A1.0.0021	line		【聖女】{rt}どうして私には、こんな力が{rt}あるのかしら{rt}…。	【Saint】{rt}Why do I even have a power like{rt}this...?	
+A1.0.0022	line		【聖女】{rt}ごめんなさい。	【Saint】{rt}I'm sorry.	
+A1.0.0023	line		【聖女】{rt}そんな顔、しないで…。	【Saint】{rt}Please, don't make that face...	
 A1.0.0024	line		【聖女】{rt}……。	【Saint】{rt}......	
-A1.0.0025	line		【聖女】{rt}そう…よね。		
-A1.0.0026	line		【聖女】{rt}私のせいで、みんなが…。		
-A1.0.0027	line		【聖女】{rt}…ごめんなさい…。		
-A1.0.0028	line		【聖女】{rt}…ごめんなさい…。		
+A1.0.0025	line		【聖女】{rt}そう…よね。	【Saint】{rt}That's right... isn't it.	
+A1.0.0026	line		【聖女】{rt}私のせいで、みんなが…。	【Saint】{rt}Because of me, everyone...	
+A1.0.0027	line		【聖女】{rt}…ごめんなさい…。	【Saint】{rt}...I'm sorry...	
+A1.0.0028	line		【聖女】{rt}…ごめんなさい…。	【Saint】{rt}...I'm sorry...	

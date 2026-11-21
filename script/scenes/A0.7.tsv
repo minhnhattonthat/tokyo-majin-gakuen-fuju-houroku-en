@@ -1,46 +1,46 @@
 id	kind	max	jp	en	notes
-A0.7.0000	line		【邪手使い】{rt}大切なモノ…		
-A0.7.0001	line		【邪手使い】{rt}そいつを踏みにじられた。		
-A0.7.0002	line		【邪手使い】{rt}だからさ、		
-A0.7.0003	line		【邪手使い】{rt}だから、殴った。		
-A0.7.0004	line		【邪手使い】{rt}だから、ヤったんだ。		
-A0.7.0005	line		【邪手使い】{rt}お前だったらどうしたって？		
-A0.7.0006	line		【邪手使い】{rt}お前だって！		
-A0.7.0007	line		【邪手使い】{rt}そうすんだろうがよォ？		
-A0.7.0008	line		【邪手使い】{rt}……。		
-A0.7.0009	line		【邪手使い】{rt}お前には何にもねえんだな。		
-A0.7.0010	line		【邪手使い】{rt}今、この瞬間さえ見えてねェ…		
-A0.7.0011	line		【邪手使い】{rt}そんじゃ、しょうがねェな。		
-A0.7.0012	line		【邪手使い】{rt}ケッ！		
-A0.7.0013	line		【邪手使い】{rt}そ、そうだよな。		
-A0.7.0014	line		【邪手使い】{rt}本気で怒ってんだからな、		
-A0.7.0015	line		【邪手使い】{rt}相手の顔なんざ、{rt}見てねェよな。		
-A0.7.0016	line		【邪手使い】{rt}そうだよな！		
-A0.7.0017	line		【邪手使い】{rt}あァ？		
-A0.7.0018	line		【邪手使い】{rt}真剣に怒った事がねえんだな。		
-A0.7.0019	line		【邪手使い】{rt}それじゃあ、わかんねェよな。		
-A0.7.0020	line		【邪手使い】{rt}なんだ、お前もかよ。		
-A0.7.0021	line		【邪手使い】{rt}本気で怒ってんだからな、		
-A0.7.0022	line		【邪手使い】{rt}相手の顔なんざ、{rt}見てねェよなァ。		
-A0.7.0023	line		【邪手使い】{rt}なんだ、お前もかよ。		
-A0.7.0024	line		【邪手使い】{rt}本気で怒ってんだからな、		
-A0.7.0025	line		【邪手使い】{rt}相手の顔なんざ、{rt}見てねェよなァ。		
-A0.7.0026	line		【邪手使い】{rt}そうだよな。		
-A0.7.0027	line		【邪手使い】{rt}本気で怒ってんだからな、		
-A0.7.0028	line		【邪手使い】{rt}相手の顔なんざ、{rt}見てねェよな。		
-A0.7.0029	line		【邪手使い】{rt}……。		
-A0.7.0030	line		【邪手使い】{rt}そうか、やっぱりな。		
-A0.7.0031	line		【邪手使い】{rt}俺はいつもそうだった。		
-A0.7.0032	line		【邪手使い】{rt}目の前が真っ白に{rt}なっちまうんだ。		
-A0.7.0033	line		【邪手使い】{rt}俺はそれが恐ェんだ。		
-A0.7.0034	line		【邪手使い】{rt}今でも、{rt}何よりも…な。		
-A0.7.0035	line		【邪手使い】{rt}あァ？		
-A0.7.0036	line		【邪手使い】{rt}そうなのか？		
-A0.7.0037	line		【邪手使い】{rt}……。		
-A0.7.0038	line		【邪手使い】{rt}お前は誰か殴る時も{rt}そんなに…		
-A0.7.0039	line		【邪手使い】{rt}冷静なのか？		
-A0.7.0040	line		【邪手使い】{rt}…恐ェな。		
-A0.7.0041	line		【邪手使い】{rt}何、キレてんだ！？		
-A0.7.0042	line		【邪手使い】{rt}お前、いつもそんななのか？		
-A0.7.0043	line		【邪手使い】{rt}俺がいうのもなんだけど、		
-A0.7.0044	line		【邪手使い】{rt}お前、ヤバイ奴だな…。		
+A0.7.0000	line		【邪手使い】{rt}大切なモノ…	【Wicked Hand】{rt}Something precious to me...	
+A0.7.0001	line		【邪手使い】{rt}そいつを踏みにじられた。	【Wicked Hand】{rt}got trampled on.	
+A0.7.0002	line		【邪手使い】{rt}だからさ、	【Wicked Hand】{rt}So, you know,	
+A0.7.0003	line		【邪手使い】{rt}だから、殴った。	【Wicked Hand】{rt}so I hit him.	
+A0.7.0004	line		【邪手使い】{rt}だから、ヤったんだ。	【Wicked Hand】{rt}So I did him in.	
+A0.7.0005	line		【邪手使い】{rt}お前だったらどうしたって？	【Wicked Hand】{rt}What would YOU have done?	
+A0.7.0006	line		【邪手使い】{rt}お前だって！	【Wicked Hand】{rt}You too!	
+A0.7.0007	line		【邪手使い】{rt}そうすんだろうがよォ？	【Wicked Hand】{rt}You'd do the same, wouldn't ya?	
+A0.7.0008	line		【邪手使い】{rt}……。	【Wicked Hand】{rt}.......	
+A0.7.0009	line		【邪手使い】{rt}お前には何にもねえんだな。	【Wicked Hand】{rt}You've got nothin' inside you, huh.	
+A0.7.0010	line		【邪手使い】{rt}今、この瞬間さえ見えてねェ…	【Wicked Hand】{rt}Can't even see what's right in front of{rt}you...	
+A0.7.0011	line		【邪手使い】{rt}そんじゃ、しょうがねェな。	【Wicked Hand】{rt}Well then, nothin' to be done.	
+A0.7.0012	line		【邪手使い】{rt}ケッ！	【Wicked Hand】{rt}Tch!	
+A0.7.0013	line		【邪手使い】{rt}そ、そうだよな。	【Wicked Hand】{rt}R-right, yeah.	
+A0.7.0014	line		【邪手使い】{rt}本気で怒ってんだからな、	【Wicked Hand】{rt}When you're really pissed off,	
+A0.7.0015	line		【邪手使い】{rt}相手の顔なんざ、{rt}見てねェよな。	【Wicked Hand】{rt}you don't even see the other guy's{rt}face.	
+A0.7.0016	line		【邪手使い】{rt}そうだよな！	【Wicked Hand】{rt}Yeah, that's right!	
+A0.7.0017	line		【邪手使い】{rt}あァ？	【Wicked Hand】{rt}Huh?	
+A0.7.0018	line		【邪手使い】{rt}真剣に怒った事がねえんだな。	【Wicked Hand】{rt}You've never been really angry, huh.	
+A0.7.0019	line		【邪手使い】{rt}それじゃあ、わかんねェよな。	【Wicked Hand】{rt}Then I guess you wouldn't get it.	
+A0.7.0020	line		【邪手使い】{rt}なんだ、お前もかよ。	【Wicked Hand】{rt}What, you too?	
+A0.7.0021	line		【邪手使い】{rt}本気で怒ってんだからな、	【Wicked Hand】{rt}When you're really pissed off,	
+A0.7.0022	line		【邪手使い】{rt}相手の顔なんざ、{rt}見てねェよなァ。	【Wicked Hand】{rt}You don't even see the other guy's{rt}face, yeah?	
+A0.7.0023	line		【邪手使い】{rt}なんだ、お前もかよ。	【Wicked Hand】{rt}What, you too?	
+A0.7.0024	line		【邪手使い】{rt}本気で怒ってんだからな、	【Wicked Hand】{rt}When you're really pissed off,	
+A0.7.0025	line		【邪手使い】{rt}相手の顔なんざ、{rt}見てねェよなァ。	【Wicked Hand】{rt}You don't even see the other guy's{rt}face, yeah?	
+A0.7.0026	line		【邪手使い】{rt}そうだよな。	【Wicked Hand】{rt}Yeah, that's right.	
+A0.7.0027	line		【邪手使い】{rt}本気で怒ってんだからな、	【Wicked Hand】{rt}When you're really pissed off,	
+A0.7.0028	line		【邪手使い】{rt}相手の顔なんざ、{rt}見てねェよな。	【Wicked Hand】{rt}you don't even see the other guy's{rt}face.	
+A0.7.0029	line		【邪手使い】{rt}……。	【Wicked Hand】{rt}.......	
+A0.7.0030	line		【邪手使い】{rt}そうか、やっぱりな。	【Wicked Hand】{rt}I see. Figured as much.	
+A0.7.0031	line		【邪手使い】{rt}俺はいつもそうだった。	【Wicked Hand】{rt}It was always like that for me.	
+A0.7.0032	line		【邪手使い】{rt}目の前が真っ白に{rt}なっちまうんだ。	【Wicked Hand】{rt}Everything in front of me goes{rt}white.	
+A0.7.0033	line		【邪手使い】{rt}俺はそれが恐ェんだ。	【Wicked Hand】{rt}That's what scares me.	
+A0.7.0034	line		【邪手使い】{rt}今でも、{rt}何よりも…な。	【Wicked Hand】{rt}Even now, more than anything...{rt}yeah.	
+A0.7.0035	line		【邪手使い】{rt}あァ？	【Wicked Hand】{rt}Huh?	
+A0.7.0036	line		【邪手使い】{rt}そうなのか？	【Wicked Hand】{rt}Is that so?	
+A0.7.0037	line		【邪手使い】{rt}……。	【Wicked Hand】{rt}.......	
+A0.7.0038	line		【邪手使い】{rt}お前は誰か殴る時も{rt}そんなに…	【Wicked Hand】{rt}Even when you're hitting someone,{rt}you're that...	
+A0.7.0039	line		【邪手使い】{rt}冷静なのか？	【Wicked Hand】{rt}calm?	
+A0.7.0040	line		【邪手使い】{rt}…恐ェな。	【Wicked Hand】{rt}...That's scary.	
+A0.7.0041	line		【邪手使い】{rt}何、キレてんだ！？	【Wicked Hand】{rt}What're you flipping out for!?	
+A0.7.0042	line		【邪手使い】{rt}お前、いつもそんななのか？	【Wicked Hand】{rt}Are you always like this?	
+A0.7.0043	line		【邪手使い】{rt}俺がいうのもなんだけど、	【Wicked Hand】{rt}I'm one to talk, but	
+A0.7.0044	line		【邪手使い】{rt}お前、ヤバイ奴だな…。	【Wicked Hand】{rt}you're a dangerous guy...	

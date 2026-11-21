@@ -1,12 +1,12 @@
 id	kind	max	jp	en	notes
-A1.5.0000	line		【弓使い】{rt}ちょっと、{rt}質問したいんだけど。		
-A1.5.0001	line		【弓使い】{rt}あのね…キミの親友が、		
-A1.5.0002	line		【弓使い】{rt}ある人の事を{rt}好きになったんだ。		
-A1.5.0003	line		【弓使い】{rt}でも、キミもその人が…		
-A1.5.0004	line		【弓使い】{rt}親友が好きになった人を{rt}ずっと想っていたんだ。		
-A1.5.0005	line		【弓使い】{rt}自分の想いと、親友への配慮。		
-A1.5.0006	line		【弓使い】{rt}ねェ、キミならどうする？		
-A1.5.0007	line		【弓使い】{rt}やっぱり…遠慮しちゃう？		
+A1.5.0000	line		【弓使い】{rt}ちょっと、{rt}質問したいんだけど。	【Archer】{rt}Hey, I've got a question for you.	
+A1.5.0001	line		【弓使い】{rt}あのね…キミの親友が、	【Archer】{rt}Um... say your best friend	
+A1.5.0002	line		【弓使い】{rt}ある人の事を{rt}好きになったんだ。	【Archer】{rt}fell for someone.	
+A1.5.0003	line		【弓使い】{rt}でも、キミもその人が…	【Archer】{rt}But you've...	
+A1.5.0004	line		【弓使い】{rt}親友が好きになった人を{rt}ずっと想っていたんだ。	【Archer】{rt}had feelings for that same person all{rt}along.	
+A1.5.0005	line		【弓使い】{rt}自分の想いと、親友への配慮。	【Archer】{rt}Your own feelings, or caring for your{rt}best friend.	
+A1.5.0006	line		【弓使い】{rt}ねェ、キミならどうする？	【Archer】{rt}Hey, what would you do?	
+A1.5.0007	line		【弓使い】{rt}やっぱり…遠慮しちゃう？	【Archer】{rt}Would you... hold back after all?	
 A1.5.0008	line		【弓使い】{rt}ちょっと！		
 A1.5.0009	line		【弓使い】{rt}無視する事ないだろッ！		
 A1.5.0010	line		【弓使い】{rt}真面目に聞いてるのにッ！		

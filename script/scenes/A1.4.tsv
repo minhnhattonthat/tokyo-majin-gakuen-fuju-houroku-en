@@ -1,44 +1,44 @@
 id	kind	max	jp	en	notes
-A1.4.0000	line		【筮法師】{rt}目の前に二つの仕事がある。		
-A1.4.0001	line		【筮法師】{rt}なに、たいした仕事ではない。		
-A1.4.0002	line		【筮法師】{rt}その気になればあッという間に{rt}終わる程度のものよ。		
-A1.4.0003	line		【筮法師】{rt}わしはそいつを一つだけ―――		
-A1.4.0004	line		【筮法師】{rt}片づけて、休むことにした。		
-A1.4.0005	line		【筮法師】{rt}なに、残りは明日にでも{rt}やればよいと思うたのでな。		
-A1.4.0006	line		【筮法師】{rt}と、{rt}小うるさい弟子がわしにいう、		
-A1.4.0007	line		【筮法師】{rt}先生、またですか？		
-A1.4.0008	line		【筮法師】{rt}―――とな。		
-A1.4.0009	line		【筮法師】{rt}お前さんはどう思う？		
-A1.4.0010	line		【筮法師】{rt}この話を…。		
-A1.4.0011	line		【筮法師】{rt}ふむ。少々難しかったかの？		
-A1.4.0012	line		【筮法師】{rt}まァ、考えるのも修行じゃよ。		
-A1.4.0013	line		【筮法師】{rt}ふォふォふォ。面白い小僧よ。		
-A1.4.0014	line		【筮法師】{rt}まあ、人間―――		
-A1.4.0015	line		【筮法師】{rt}仕事だけに生きる、{rt}というのも寂しいじゃろう。		
-A1.4.0016	line		【筮法師】{rt}わしがいいたいのは{rt}それだけよ。		
-A1.4.0017	line		【筮法師】{rt}ふォふォふォ。		
-A1.4.0018	line		【筮法師】{rt}若いわりには話がわかるのう。		
-A1.4.0019	line		【筮法師】{rt}そう―――		
-A1.4.0020	line		【筮法師】{rt}何もどっちかに傾く―――		
-A1.4.0021	line		【筮法師】{rt}そんな必要はないのじゃ。		
-A1.4.0022	line		【筮法師】{rt}大事なのは考える事。		
-A1.4.0023	line		【筮法師】{rt}それで先が見えることも{rt}あるじゃろうてな。		
-A1.4.0024	line		【筮法師】{rt}…ふむ。		
-A1.4.0025	line		【筮法師】{rt}まあ、人間―――		
-A1.4.0026	line		【筮法師】{rt}仕事だけに生きる、{rt}というのも寂しいじゃろう。		
-A1.4.0027	line		【筮法師】{rt}わしがいいたいのは{rt}それだけよ。		
-A1.4.0028	line		【筮法師】{rt}…ほう？お前さんもかの？		
-A1.4.0029	line		【筮法師】{rt}まあ、人生には余裕というもの{rt}が必要だということじゃよ。		
-A1.4.0030	line		【筮法師】{rt}ふォふォふォ。		
-A1.4.0031	line		【筮法師】{rt}お前さんには少々難しかった{rt}かの？		
-A1.4.0032	line		【筮法師】{rt}まあ、わしにとっては{rt}正直―――		
-A1.4.0033	line		【筮法師】{rt}どうでも良い事なんじゃがの。		
-A1.4.0034	line		【筮法師】{rt}なんじゃ、お前さんも{rt}弟子と同じ事を言うか。		
-A1.4.0035	line		【筮法師】{rt}まあ、悪気があって言っておる{rt}わけではないようじゃがの。		
-A1.4.0036	line		【筮法師】{rt}なんじゃ、お前さんも{rt}弟子と同じ事を言うか。		
-A1.4.0037	line		【筮法師】{rt}まったくもう少し持てぬ{rt}ものか？		
-A1.4.0038	line		【筮法師】{rt}余裕―――というものをよ。		
-A1.4.0039	line		【筮法師】{rt}…やれやれ。		
-A1.4.0040	line		【筮法師】{rt}お前さん、相当短気じゃのう。		
-A1.4.0041	line		【筮法師】{rt}どうやら人生のなんたるか{rt}よりも		
-A1.4.0042	line		【筮法師】{rt}礼儀を先に教えてやらねば{rt}ならんようじゃの。		
+A1.4.0000	line		【筮法師】{rt}目の前に二つの仕事がある。	【Diviner】{rt}Before me are two tasks.	
+A1.4.0001	line		【筮法師】{rt}なに、たいした仕事ではない。	【Diviner】{rt}Oh, nothing much.	
+A1.4.0002	line		【筮法師】{rt}その気になればあッという間に{rt}終わる程度のものよ。	【Diviner】{rt}The sort of thing I could finish in a{rt}flash if I put my mind to it.	
+A1.4.0003	line		【筮法師】{rt}わしはそいつを一つだけ―――	【Diviner】{rt}I took care of just one of them--	
+A1.4.0004	line		【筮法師】{rt}片づけて、休むことにした。	【Diviner】{rt}and decided to rest.	
+A1.4.0005	line		【筮法師】{rt}なに、残りは明日にでも{rt}やればよいと思うたのでな。	【Diviner】{rt}Well, I thought I could do the rest{rt}tomorrow, you see.	
+A1.4.0006	line		【筮法師】{rt}と、{rt}小うるさい弟子がわしにいう、	【Diviner】{rt}Then my nagging disciple says to me,	
+A1.4.0007	line		【筮法師】{rt}先生、またですか？	【Diviner】{rt}"Master, not again?"	
+A1.4.0008	line		【筮法師】{rt}―――とな。	【Diviner】{rt}--he says.	
+A1.4.0009	line		【筮法師】{rt}お前さんはどう思う？	【Diviner】{rt}What do you make of it?	
+A1.4.0010	line		【筮法師】{rt}この話を…。	【Diviner】{rt}Of this story...	
+A1.4.0011	line		【筮法師】{rt}ふむ。少々難しかったかの？	【Diviner】{rt}Hmm. A little too difficult for you?	
+A1.4.0012	line		【筮法師】{rt}まァ、考えるのも修行じゃよ。	【Diviner】{rt}Well, thinking is part of training too.	
+A1.4.0013	line		【筮法師】{rt}ふォふォふォ。面白い小僧よ。	【Diviner】{rt}Ho ho ho. An interesting youngster.	
+A1.4.0014	line		【筮法師】{rt}まあ、人間―――	【Diviner】{rt}Well, for a person--	
+A1.4.0015	line		【筮法師】{rt}仕事だけに生きる、{rt}というのも寂しいじゃろう。	【Diviner】{rt}to live for work alone would be lonely,{rt}wouldn't it?	
+A1.4.0016	line		【筮法師】{rt}わしがいいたいのは{rt}それだけよ。	【Diviner】{rt}That's all I wanted to say.	
+A1.4.0017	line		【筮法師】{rt}ふォふォふォ。	【Diviner】{rt}Ho ho ho.	
+A1.4.0018	line		【筮法師】{rt}若いわりには話がわかるのう。	【Diviner】{rt}You're quite understanding for one so{rt}young.	
+A1.4.0019	line		【筮法師】{rt}そう―――	【Diviner】{rt}Yes--	
+A1.4.0020	line		【筮法師】{rt}何もどっちかに傾く―――	【Diviner】{rt}there's no need to lean--	
+A1.4.0021	line		【筮法師】{rt}そんな必要はないのじゃ。	【Diviner】{rt}one way or the other.	
+A1.4.0022	line		【筮法師】{rt}大事なのは考える事。	【Diviner】{rt}What matters is to think.	
+A1.4.0023	line		【筮法師】{rt}それで先が見えることも{rt}あるじゃろうてな。	【Diviner】{rt}Sometimes that lets you see what lies{rt}ahead.	
+A1.4.0024	line		【筮法師】{rt}…ふむ。	【Diviner】{rt}...Hmm.	
+A1.4.0025	line		【筮法師】{rt}まあ、人間―――	【Diviner】{rt}Well, for a person--	
+A1.4.0026	line		【筮法師】{rt}仕事だけに生きる、{rt}というのも寂しいじゃろう。	【Diviner】{rt}to live for work alone would be lonely,{rt}wouldn't it?	
+A1.4.0027	line		【筮法師】{rt}わしがいいたいのは{rt}それだけよ。	【Diviner】{rt}That's all I wanted to say.	
+A1.4.0028	line		【筮法師】{rt}…ほう？お前さんもかの？	【Diviner】{rt}...Oh? You as well?	
+A1.4.0029	line		【筮法師】{rt}まあ、人生には余裕というもの{rt}が必要だということじゃよ。	【Diviner】{rt}Well, what I mean is that life needs a{rt}little leeway.	
+A1.4.0030	line		【筮法師】{rt}ふォふォふォ。	【Diviner】{rt}Ho ho ho.	
+A1.4.0031	line		【筮法師】{rt}お前さんには少々難しかった{rt}かの？	【Diviner】{rt}Was it a little too difficult for you?	
+A1.4.0032	line		【筮法師】{rt}まあ、わしにとっては{rt}正直―――	【Diviner】{rt}Well, to be honest, to me--	
+A1.4.0033	line		【筮法師】{rt}どうでも良い事なんじゃがの。	【Diviner】{rt}it hardly matters either way.	
+A1.4.0034	line		【筮法師】{rt}なんじゃ、お前さんも{rt}弟子と同じ事を言うか。	【Diviner】{rt}What, you say the same thing as my{rt}disciple?	
+A1.4.0035	line		【筮法師】{rt}まあ、悪気があって言っておる{rt}わけではないようじゃがの。	【Diviner】{rt}Well, you don't seem to mean any harm{rt}by it.	
+A1.4.0036	line		【筮法師】{rt}なんじゃ、お前さんも{rt}弟子と同じ事を言うか。	【Diviner】{rt}What, you say the same thing as my{rt}disciple?	
+A1.4.0037	line		【筮法師】{rt}まったくもう少し持てぬ{rt}ものか？	【Diviner】{rt}Honestly, can't you have a little{rt}more...	
+A1.4.0038	line		【筮法師】{rt}余裕―――というものをよ。	【Diviner】{rt}leeway--in you?	
+A1.4.0039	line		【筮法師】{rt}…やれやれ。	【Diviner】{rt}...Good grief.	
+A1.4.0040	line		【筮法師】{rt}お前さん、相当短気じゃのう。	【Diviner】{rt}You're quite the hothead, aren't{rt}you?	
+A1.4.0041	line		【筮法師】{rt}どうやら人生のなんたるか{rt}よりも	【Diviner】{rt}It seems that before the meaning of{rt}life,	
+A1.4.0042	line		【筮法師】{rt}礼儀を先に教えてやらねば{rt}ならんようじゃの。	【Diviner】{rt}I'll have to teach you some manners.	
