@@ -1,69 +1,69 @@
 id	kind	max	jp	en	notes
-B19.0000	line		【左の男】{rt}ぐ、ぐうう…。		
-B19.0001	line		【左の男】{rt}た、大した《念》の力量だ。		
-B19.0002	line		【左の男】{rt}だが、この程度で済むと{rt}思わぬ事だな！！		
-B19.0003	line		【矢村】{rt}何だと…？		
-B19.0004	line		【右の男】{rt}一度活性化した《言霊》の{rt}怨念は		
-B19.0005	line		【右の男】{rt}そうた易くは静まらんッ！！		
-B19.0006	line		【左の男】{rt}お前たちはここで《言霊》に{rt}食い尽くされるのだッ！！		
-B19.0007	line		【左の男】{rt}な、何だッ！？		
+B19.0000	line		【左の男】{rt}ぐ、ぐうう…。	【Man on the Left】{rt}Gh, guuugh...	
+B19.0001	line		【左の男】{rt}た、大した《念》の力量だ。	【Man on the Left】{rt}Th-that's quite some strength of{rt}Thought.	
+B19.0002	line		【左の男】{rt}だが、この程度で済むと{rt}思わぬ事だな！！	【Man on the Left】{rt}But don't think it ends with this!!	
+B19.0003	line		【矢村】{rt}何だと…？	【Yamura】{rt}What...?	
+B19.0004	line		【右の男】{rt}一度活性化した《言霊》の{rt}怨念は	【Man on the Right】{rt}Once roused, the grudge of the Word{rt}Spirits	
+B19.0005	line		【右の男】{rt}そうた易くは静まらんッ！！	【Man on the Right】{rt}won't be calmed so easily!!	
+B19.0006	line		【左の男】{rt}お前たちはここで《言霊》に{rt}食い尽くされるのだッ！！	【Man on the Left】{rt}You'll be devoured by the Word Spirits{rt}right here!!	
+B19.0007	line		【左の男】{rt}な、何だッ！？	【Man on the Left】{rt}Wh-what!?	
 B19.0008	line		【伊涼】{rt}邪氣封印ッ！！	【Isuzu】{rt}Miasma, be sealed!!	
-B19.0009	line		【右の男】{rt}何ィィッ！？		
-B19.0010	line		【右の男】{rt}まだ―――いたのか！？		
-B19.0011	line		【左の男】{rt}おおおッ！！{rt}《言霊》よ、		
-B19.0012	line		【左の男】{rt}我らが恨みを―――		
+B19.0009	line		【右の男】{rt}何ィィッ！？	【Man on the Right】{rt}Whaaat!?	
+B19.0010	line		【右の男】{rt}まだ―――いたのか！？	【Man on the Right】{rt}There was--still another!?	
+B19.0011	line		【左の男】{rt}おおおッ！！{rt}《言霊》よ、	【Man on the Left】{rt}Ooooh!! Word Spirits,	
+B19.0012	line		【左の男】{rt}我らが恨みを―――	【Man on the Left】{rt}our grudge--	
 B19.0013	line		【矢村】{rt}伊涼ッ！！	【Yamura】{rt}Isuzu!!	
-B19.0014	line		【伊涼】{rt}なんとか、間に合った{rt}みたいね。		
-B19.0015	line		【伊涼】{rt}こんなところにも{rt}《大罪》が―――		
+B19.0014	line		【伊涼】{rt}なんとか、間に合った{rt}みたいね。	【Isuzu】{rt}Looks like I made it, somehow.	
+B19.0015	line		【伊涼】{rt}こんなところにも{rt}《大罪》が―――	【Isuzu】{rt}A Great Sin, even in a place like{rt}this--	
 B19.0016	line		【矢村】{rt}―――！？	【Yamura】{rt}--!?	
-B19.0017	line		【伊涼】{rt}この不気味な{rt}ざわめきは―――。		
-B19.0018	line		【言霊】{rt}（うううう…。）		
-B19.0019	line		【言霊】{rt}（憎い―――。）		
-B19.0020	line		【言霊】{rt}（我を産んだ人間が憎い―。）		
-B19.0021	line		【矢村】{rt}これが…彼らの言っていた{rt}悪しき《言霊》―――！！		
-B19.0022	line		【言霊】{rt}（我を認めよ―――）		
-B19.0023	line		【言霊】{rt}（我らを産んだ《大罪》を{rt}　認めよ―――）		
-B19.0024	line		【矢村】{rt}（俺は…{rt}《言霊》の意思に		
-B19.0025	line		【矢村】{rt}　屈する訳には{rt}　いかないんだッ。		
-B19.0026	line		【矢村】{rt}　そのためにも―――。）		
-B19.0027	line		【言霊】{rt}（うううう…。）		
-B19.0028	line		【言霊】{rt}（憎い―――。）		
-B19.0029	line		【言霊】{rt}（憎い―――。）		
-B19.0030	line		【矢村】{rt}《言霊》から《邪氣》を{rt}祓い落とし、封じるッ！！		
-B19.0031	line		【矢村】{rt}用意はいいか！？		
-B19.0032	line		【矢村】{rt}伊涼、{name1}ッ！！		
-B19.0033	line		【伊涼】{rt}うんッ！！		
-B19.0034	line		【左の男】{rt}ぐ、ぐうう…。		
-B19.0035	line		【左の男】{rt}た、大した《念》の力量だ。		
-B19.0036	line		【左の男】{rt}だが、この程度で済むと{rt}思わぬ事だな！！		
-B19.0037	line		【矢村】{rt}何だと…？		
-B19.0038	line		【右の男】{rt}一度活性化した《言霊》の{rt}怨念は		
-B19.0039	line		【右の男】{rt}そうた易くは静まらんッ！！		
-B19.0040	line		【左の男】{rt}お前たちはここで《言霊》に{rt}食い尽くされるのだッ！！		
-B19.0041	line		【左の男】{rt}な、何だッ！？		
+B19.0017	line		【伊涼】{rt}この不気味な{rt}ざわめきは―――。	【Isuzu】{rt}This eerie murmuring is--	
+B19.0018	line		【言霊】{rt}（うううう…。）	【Kotodama】{rt}(Uuuuugh...)	
+B19.0019	line		【言霊】{rt}（憎い―――。）	【Kotodama】{rt}(Hateful--)	
+B19.0020	line		【言霊】{rt}（我を産んだ人間が憎い―。）	【Kotodama】{rt}(I hate the humans who bore me--)	
+B19.0021	line		【矢村】{rt}これが…彼らの言っていた{rt}悪しき《言霊》―――！！	【Yamura】{rt}So this is... the evil Word Spirits they{rt}talked about--!!	
+B19.0022	line		【言霊】{rt}（我を認めよ―――）	【Kotodama】{rt}(Acknowledge me--)	
+B19.0023	line		【言霊】{rt}（我らを産んだ《大罪》を{rt}　認めよ―――）	【Kotodama】{rt}(Acknowledge the Great Sin that bore{rt}us--)	
+B19.0024	line		【矢村】{rt}（俺は…{rt}《言霊》の意思に	【Yamura】{rt}(I... can't give in	
+B19.0025	line		【矢村】{rt}　屈する訳には{rt}　いかないんだッ。	【Yamura】{rt}to the will of the Word Spirits.	
+B19.0026	line		【矢村】{rt}　そのためにも―――。）	【Yamura】{rt}And for that--)	
+B19.0027	line		【言霊】{rt}（うううう…。）	【Kotodama】{rt}(Uuuuugh...)	
+B19.0028	line		【言霊】{rt}（憎い―――。）	【Kotodama】{rt}(Hateful--)	
+B19.0029	line		【言霊】{rt}（憎い―――。）	【Kotodama】{rt}(Hateful--)	
+B19.0030	line		【矢村】{rt}《言霊》から《邪氣》を{rt}祓い落とし、封じるッ！！	【Yamura】{rt}We'll purge the Miasma from the Word{rt}Spirits and seal it!!	
+B19.0031	line		【矢村】{rt}用意はいいか！？	【Yamura】{rt}Ready!?	
+B19.0032	line		【矢村】{rt}伊涼、{name1}ッ！！	【Yamura】{rt}Isuzu, {name1}!!	
+B19.0033	line		【伊涼】{rt}うんッ！！	【Isuzu】{rt}Right!!	
+B19.0034	line		【左の男】{rt}ぐ、ぐうう…。	【Man on the Left】{rt}Gh, guuugh...	
+B19.0035	line		【左の男】{rt}た、大した《念》の力量だ。	【Man on the Left】{rt}Th-that's quite some strength of{rt}Thought.	
+B19.0036	line		【左の男】{rt}だが、この程度で済むと{rt}思わぬ事だな！！	【Man on the Left】{rt}But don't think it ends with this!!	
+B19.0037	line		【矢村】{rt}何だと…？	【Yamura】{rt}What...?	
+B19.0038	line		【右の男】{rt}一度活性化した《言霊》の{rt}怨念は	【Man on the Right】{rt}Once roused, the grudge of the Word{rt}Spirits	
+B19.0039	line		【右の男】{rt}そうた易くは静まらんッ！！	【Man on the Right】{rt}won't be calmed so easily!!	
+B19.0040	line		【左の男】{rt}お前たちはここで《言霊》に{rt}食い尽くされるのだッ！！	【Man on the Left】{rt}You'll be devoured by the Word Spirits{rt}right here!!	
+B19.0041	line		【左の男】{rt}な、何だッ！？	【Man on the Left】{rt}Wh-what!?	
 B19.0042	line		【伊涼】{rt}邪氣封印ッ！！	【Isuzu】{rt}Miasma, be sealed!!	
-B19.0043	line		【右の男】{rt}何ィィッ！？		
-B19.0044	line		【右の男】{rt}まだ―――いたのか！？		
-B19.0045	line		【左の男】{rt}おおおッ！！{rt}《言霊》よ、		
-B19.0046	line		【左の男】{rt}我らが恨みを―――		
+B19.0043	line		【右の男】{rt}何ィィッ！？	【Man on the Right】{rt}Whaaat!?	
+B19.0044	line		【右の男】{rt}まだ―――いたのか！？	【Man on the Right】{rt}There was--still another!?	
+B19.0045	line		【左の男】{rt}おおおッ！！{rt}《言霊》よ、	【Man on the Left】{rt}Ooooh!! Word Spirits,	
+B19.0046	line		【左の男】{rt}我らが恨みを―――	【Man on the Left】{rt}our grudge--	
 B19.0047	line		【矢村】{rt}伊涼ッ！！	【Yamura】{rt}Isuzu!!	
-B19.0048	line		【伊涼】{rt}なんとか、間に合った{rt}みたいね。		
-B19.0049	line		【伊涼】{rt}こんなところにも{rt}《大罪》が―――		
+B19.0048	line		【伊涼】{rt}なんとか、間に合った{rt}みたいね。	【Isuzu】{rt}Looks like I made it, somehow.	
+B19.0049	line		【伊涼】{rt}こんなところにも{rt}《大罪》が―――	【Isuzu】{rt}A Great Sin, even in a place like{rt}this--	
 B19.0050	line		【矢村】{rt}―――！？	【Yamura】{rt}--!?	
-B19.0051	line		【伊涼】{rt}この不気味な{rt}ざわめきは―――。		
-B19.0052	line		【言霊】{rt}（うううう…。）		
-B19.0053	line		【言霊】{rt}（憎い―――。）		
-B19.0054	line		【言霊】{rt}（我を産んだ人間が憎い―。）		
-B19.0055	line		【矢村】{rt}これが…彼らの言っていた{rt}悪しき《言霊》―――！！		
-B19.0056	line		【言霊】{rt}（我を認めよ―――）		
-B19.0057	line		【言霊】{rt}（我らを産んだ《大罪》を{rt}　認めよ―――）		
-B19.0058	line		【矢村】{rt}（俺は…{rt}《言霊》の意思に		
-B19.0059	line		【矢村】{rt}　屈する訳には{rt}　いかないんだッ。		
-B19.0060	line		【矢村】{rt}　そのためにも―――）		
-B19.0061	line		【言霊】{rt}（うううう…。）		
-B19.0062	line		【言霊】{rt}（憎い―――。）		
-B19.0063	line		【言霊】{rt}（憎い―――。）		
-B19.0064	line		【矢村】{rt}《言霊》から《邪氣》を{rt}祓い落とし、封じるッ！！		
-B19.0065	line		【矢村】{rt}用意はいいか！？		
-B19.0066	line		【矢村】{rt}伊涼、{name1}ッ！！		
-B19.0067	line		【伊涼】{rt}うんッ！！		
+B19.0051	line		【伊涼】{rt}この不気味な{rt}ざわめきは―――。	【Isuzu】{rt}This eerie murmuring is--	
+B19.0052	line		【言霊】{rt}（うううう…。）	【Kotodama】{rt}(Uuuuugh...)	
+B19.0053	line		【言霊】{rt}（憎い―――。）	【Kotodama】{rt}(Hateful--)	
+B19.0054	line		【言霊】{rt}（我を産んだ人間が憎い―。）	【Kotodama】{rt}(I hate the humans who bore me--)	
+B19.0055	line		【矢村】{rt}これが…彼らの言っていた{rt}悪しき《言霊》―――！！	【Yamura】{rt}So this is... the evil Word Spirits they{rt}talked about--!!	
+B19.0056	line		【言霊】{rt}（我を認めよ―――）	【Kotodama】{rt}(Acknowledge me--)	
+B19.0057	line		【言霊】{rt}（我らを産んだ《大罪》を{rt}　認めよ―――）	【Kotodama】{rt}(Acknowledge the Great Sin that bore{rt}us--)	
+B19.0058	line		【矢村】{rt}（俺は…{rt}《言霊》の意思に	【Yamura】{rt}(I... can't give in	
+B19.0059	line		【矢村】{rt}　屈する訳には{rt}　いかないんだッ。	【Yamura】{rt}to the will of the Word Spirits.	
+B19.0060	line		【矢村】{rt}　そのためにも―――）	【Yamura】{rt}And for that--)	
+B19.0061	line		【言霊】{rt}（うううう…。）	【Kotodama】{rt}(Uuuuugh...)	
+B19.0062	line		【言霊】{rt}（憎い―――。）	【Kotodama】{rt}(Hateful--)	
+B19.0063	line		【言霊】{rt}（憎い―――。）	【Kotodama】{rt}(Hateful--)	
+B19.0064	line		【矢村】{rt}《言霊》から《邪氣》を{rt}祓い落とし、封じるッ！！	【Yamura】{rt}We'll purge the Miasma from the Word{rt}Spirits and seal it!!	
+B19.0065	line		【矢村】{rt}用意はいいか！？	【Yamura】{rt}Ready!?	
+B19.0066	line		【矢村】{rt}伊涼、{name1}ッ！！	【Yamura】{rt}Isuzu, {name1}!!	
+B19.0067	line		【伊涼】{rt}うんッ！！	【Isuzu】{rt}Right!!	

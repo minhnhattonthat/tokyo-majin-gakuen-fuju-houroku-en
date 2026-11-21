@@ -271,6 +271,8 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   古今著聞集 -> the Kokon Chomonju. 悪路王 -> Akuro-o (glossed once as "King of Evil Roads"). 蝦夷 (えみし) -> Emishi;
   (えぞ) -> Ezo. 天女 -> celestial maiden. 魔国 -> demon nation. 怨霊 -> vengeful ghost. 神鈴 -> Divine Bell. From B18
   Yamura calls the player plain {name1} (no -dono) in casual talk. Route choice B18.0113 -> With Yamura / With Isuzu.
+- b063-b065 (B19-B21): 言霊の幸わう国 -> "the land where Word Spirits flourish". 人柱 -> human pillar. 極寒獄 ->
+  frozen hell. 氷壁 -> ice wall. 《生》 -> Life. Uhatsura (優鉢羅) speaks cold and formal ("Very well", "fear not").
 - A12.4.0038/0043 and A12.9.0057 start `【【` (a JP typo); merge tags them normally.
 - The only row whose JP holds two boxes (`...{rt}{rt}【X】{rt}...`) is B11.0121:
   the batch check wants the repeated speaker name in the English, so put `【X】` in the body to pass, then after

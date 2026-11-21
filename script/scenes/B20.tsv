@@ -1,147 +1,147 @@
 id	kind	max	jp	en	notes
-B20.0000	line		【言霊】{rt}ウウウッ――！！		
-B20.0001	line		【言霊】{rt}おのれ人間！！		
-B20.0002	line		【言霊】{rt}我ら―――言霊を{rt}消し去るかッ！！		
-B20.0003	line		【言霊】{rt}コトダマのォ、{rt}サキワウクニのタミが――？		
-B20.0004	line		【言霊】{rt}オノレェ！！		
-B20.0005	line		【言霊】{rt}クヤしやァ―――！！		
-B20.0006	line		【言霊】{rt}アアアアァ―――。		
+B20.0000	line		【言霊】{rt}ウウウッ――！！	【Kotodama】{rt}Uuuugh--!!	
+B20.0001	line		【言霊】{rt}おのれ人間！！	【Kotodama】{rt}Damn you, humans!!	
+B20.0002	line		【言霊】{rt}我ら―――言霊を{rt}消し去るかッ！！	【Kotodama】{rt}You would wipe us out--us Word{rt}Spirits!!	
+B20.0003	line		【言霊】{rt}コトダマのォ、{rt}サキワウクニのタミが――？	【Kotodama】{rt}The people of the land where Word{rt}Spirits flourish--?	
+B20.0004	line		【言霊】{rt}オノレェ！！	【Kotodama】{rt}Damn youuu!!	
+B20.0005	line		【言霊】{rt}クヤしやァ―――！！	【Kotodama】{rt}How vexiiing--!!	
+B20.0006	line		【言霊】{rt}アアアアァ―――。	【Kotodama】{rt}Aaaaaah--	
 B20.0007	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B20.0008	line		【矢村】{rt}…鎮まったのか？		
-B20.0009	line		【伊涼】{rt}ふう。		
+B20.0008	line		【矢村】{rt}…鎮まったのか？	【Yamura】{rt}...Has it calmed down?	
+B20.0009	line		【伊涼】{rt}ふう。	【Isuzu】{rt}Phew.	
 B20.0010	line		【伊涼】{rt}―――？	【Isuzu】{rt}--?	
-B20.0011	line		【伊涼】{rt}『鈴鹿山の鬼伝承』…？		
-B20.0012	line		【伊涼】{rt}この本、見てたの？		
+B20.0011	line		【伊涼】{rt}『鈴鹿山の鬼伝承』…？	【Isuzu】{rt}"The Oni Legends of Mt. Suzuka"...?	
+B20.0012	line		【伊涼】{rt}この本、見てたの？	【Isuzu】{rt}Were you reading this book?	
 B20.0013	line		【矢村】{rt}―――！！	【Yamura】{rt}--!!	
-B20.0014	line		【矢村】{rt}ま、待て！！伊涼ッ！！		
+B20.0014	line		【矢村】{rt}ま、待て！！伊涼ッ！！	【Yamura】{rt}W-wait!! Isuzu!!	
 B20.0015	line		【伊涼】{rt}―――！？	【Isuzu】{rt}--!?	
 B20.0016	line		【伊涼】{rt}どうしたの？	【Isuzu】{rt}What's wrong?	
-B20.0017	line		【矢村】{rt}い、いや、その…。		
-B20.0018	line		【伊涼】{rt}見て、俊。		
-B20.0019	line		【伊涼】{rt}本―――真っ白だよ。		
+B20.0017	line		【矢村】{rt}い、いや、その…。	【Yamura】{rt}N-no, it's just...	
+B20.0018	line		【伊涼】{rt}見て、俊。	【Isuzu】{rt}Look, Shun.	
+B20.0019	line		【伊涼】{rt}本―――真っ白だよ。	【Isuzu】{rt}The book--it's blank.	
 B20.0020	line		【矢村】{rt}―――！！	【Yamura】{rt}--!!	
-B20.0021	line		【矢村】{rt}本当だ…。		
-B20.0022	line		【伊涼】{rt}言霊―――		
-B20.0023	line		【伊涼】{rt}いなくなったみたいだね。		
-B20.0024	line		【伊涼】{rt}これじゃ、借りてく訳にも{rt}いかないか。		
-B20.0025	line		【伊涼】{rt}残念だけど…。		
+B20.0021	line		【矢村】{rt}本当だ…。	【Yamura】{rt}It really is...	
+B20.0022	line		【伊涼】{rt}言霊―――	【Isuzu】{rt}The Word Spirits--	
+B20.0023	line		【伊涼】{rt}いなくなったみたいだね。	【Isuzu】{rt}seem to be gone.	
+B20.0024	line		【伊涼】{rt}これじゃ、借りてく訳にも{rt}いかないか。	【Isuzu】{rt}We can't exactly borrow it like this.	
+B20.0025	line		【伊涼】{rt}残念だけど…。	【Isuzu】{rt}It's a shame, but...	
 B20.0026	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B20.0027	line		【矢村】{rt}…あ、ああ。そうだな。		
-B20.0028	line		【伊涼】{rt}―――。		
-B20.0029	line		【矢村】{rt}もう、帰ろう。{rt}伊涼、{name1}。		
-B20.0030	line		【矢村】{rt}閉館の時間だ―――。		
-B20.0031	line		【矢村】{rt}…俺は、		
-B20.0032	line		【矢村】{rt}高丸の語った過去とそっくりな{rt}伝承を見つけた―――。		
-B20.0033	line		【矢村】{rt}１２００年前、		
-B20.0034	line		【矢村】{rt}鈴鹿山を占拠して悪事をなした{rt}《大嶽丸》という鬼がいた。		
-B20.0035	line		【矢村】{rt}《大嶽丸》は{rt}強力な妖力を誇ったが、		
-B20.0036	line		【矢村】{rt}それを斃したのは、		
-B20.0037	line		【矢村】{rt}他でもない、{rt}藤原俊宗だった…。		
-B20.0038	line		【矢村】{rt}そして、		
-B20.0039	line		【矢村】{rt}藤原俊宗が		
-B20.0040	line		【矢村】{rt}《大嶽丸》を攻略するために{rt}《力》を借りたのが		
-B20.0041	line		【矢村】{rt}鈴鹿御前―――。		
+B20.0027	line		【矢村】{rt}…あ、ああ。そうだな。	【Yamura】{rt}...Y-yeah. I guess so.	
+B20.0028	line		【伊涼】{rt}―――。	【Isuzu】{rt}--	
+B20.0029	line		【矢村】{rt}もう、帰ろう。{rt}伊涼、{name1}。	【Yamura】{rt}Let's go home. Isuzu, {name1}.	
+B20.0030	line		【矢村】{rt}閉館の時間だ―――。	【Yamura】{rt}It's closing time--	
+B20.0031	line		【矢村】{rt}…俺は、	【Yamura】{rt}...I	
+B20.0032	line		【矢村】{rt}高丸の語った過去とそっくりな{rt}伝承を見つけた―――。	【Yamura】{rt}found a legend just like the past{rt}Takamaru described--	
+B20.0033	line		【矢村】{rt}１２００年前、	【Yamura】{rt}1200 years ago,	
+B20.0034	line		【矢村】{rt}鈴鹿山を占拠して悪事をなした{rt}《大嶽丸》という鬼がいた。	【Yamura】{rt}there was an oni called Otakemaru who{rt}seized Mt. Suzuka and did evil.	
+B20.0035	line		【矢村】{rt}《大嶽丸》は{rt}強力な妖力を誇ったが、	【Yamura】{rt}Otakemaru boasted mighty demon{rt}power,	
+B20.0036	line		【矢村】{rt}それを斃したのは、	【Yamura】{rt}but the one who brought him down	
+B20.0037	line		【矢村】{rt}他でもない、{rt}藤原俊宗だった…。	【Yamura】{rt}was none other than Fujiwara no{rt}Toshimune...	
+B20.0038	line		【矢村】{rt}そして、	【Yamura】{rt}And	
+B20.0039	line		【矢村】{rt}藤原俊宗が	【Yamura】{rt}the one Fujiwara no Toshimune	
+B20.0040	line		【矢村】{rt}《大嶽丸》を攻略するために{rt}《力》を借りたのが	【Yamura】{rt}borrowed Power from to take down{rt}Otakemaru	
+B20.0041	line		【矢村】{rt}鈴鹿御前―――。	【Yamura】{rt}was Suzuka Gozen--	
 B20.0042	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
 B20.0043	line		【矢村】{rt}残念ながら、	【Yamura】{rt}Unfortunately,	
-B20.0044	line		【矢村】{rt}《大嶽丸》と高丸が{rt}同一だという証拠はない。		
-B20.0045	line		【矢村】{rt}だが日本を自分たちの色に染め{rt}上げようと画策していた点や		
-B20.0046	line		【矢村】{rt}斃された後に復活した点が、{rt}両者に共通している…。		
-B20.0047	line		【矢村】{rt}―――結局、分かったのは{rt}これだけだ。		
-B20.0048	line		【矢村】{rt}伊涼の方は？		
-B20.0049	line		【伊涼】{rt}私は―――		
+B20.0044	line		【矢村】{rt}《大嶽丸》と高丸が{rt}同一だという証拠はない。	【Yamura】{rt}There's no proof Otakemaru and{rt}Takamaru are the same.	
+B20.0045	line		【矢村】{rt}だが日本を自分たちの色に染め{rt}上げようと画策していた点や	【Yamura】{rt}But both plotted to paint Japan in{rt}their own colours,	
+B20.0046	line		【矢村】{rt}斃された後に復活した点が、{rt}両者に共通している…。	【Yamura】{rt}and both came back after being struck{rt}down...	
+B20.0047	line		【矢村】{rt}―――結局、分かったのは{rt}これだけだ。	【Yamura】{rt}--In the end, that's all we found out.	
+B20.0048	line		【矢村】{rt}伊涼の方は？	【Yamura】{rt}How about you, Isuzu?	
+B20.0049	line		【伊涼】{rt}私は―――	【Isuzu】{rt}I--	
 B20.0050	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
-B20.0051	line		【伊涼】{rt}だめだったよ。		
-B20.0052	line		【伊涼】{rt}それを超えるような情報は{rt}見つからなかった。		
+B20.0051	line		【伊涼】{rt}だめだったよ。	【Isuzu】{rt}no luck.	
+B20.0052	line		【伊涼】{rt}それを超えるような情報は{rt}見つからなかった。	【Isuzu】{rt}I didn't find anything beyond that.	
 B20.0053	line		【矢村】{rt}…そうか。	【Yamura】{rt}...I see.	
-B20.0054	line		【伊涼】{rt}もう。		
-B20.0055	line		【伊涼】{rt}さっきから、どうしたの？		
-B20.0056	line		【伊涼】{rt}急に元気なくして…。		
-B20.0057	line		【伊涼】{rt}疲れたの？		
+B20.0054	line		【伊涼】{rt}もう。	【Isuzu】{rt}Geez.	
+B20.0055	line		【伊涼】{rt}さっきから、どうしたの？	【Isuzu】{rt}What's wrong with you all of a{rt}sudden?	
+B20.0056	line		【伊涼】{rt}急に元気なくして…。	【Isuzu】{rt}You've gone all down...	
+B20.0057	line		【伊涼】{rt}疲れたの？	【Isuzu】{rt}Are you tired?	
 B20.0058	line		【矢村】{rt}伊涼…。	【Yamura】{rt}Isuzu...	
-B20.0059	line		【矢村】{rt}お前は―――		
+B20.0059	line		【矢村】{rt}お前は―――	【Yamura】{rt}You're--	
 B20.0060	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B20.0061	line		【矢村】{rt}…いや何でもない。		
+B20.0061	line		【矢村】{rt}…いや何でもない。	【Yamura】{rt}...No, never mind.	
 B20.0062	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
-B20.0063	line		【伊涼】{rt}もし、高丸と、		
-B20.0064	line		【伊涼】{rt}その―――《大嶽丸》が{rt}同一だとしたら、		
-B20.0065	line		【伊涼】{rt}私たちと高丸が闘う事も、		
-B20.0066	line		【伊涼】{rt}昔から決まって{rt}いたのかもね…。		
+B20.0063	line		【伊涼】{rt}もし、高丸と、	【Isuzu】{rt}If Takamaru and	
+B20.0064	line		【伊涼】{rt}その―――《大嶽丸》が{rt}同一だとしたら、	【Isuzu】{rt}that--Otakemaru are the same,	
+B20.0065	line		【伊涼】{rt}私たちと高丸が闘う事も、	【Isuzu】{rt}then maybe our fight with Takamaru	
+B20.0066	line		【伊涼】{rt}昔から決まって{rt}いたのかもね…。	【Isuzu】{rt}was decided long ago...	
 B20.0067	line		【矢村】{rt}―――？	【Yamura】{rt}--?	
-B20.0068	line		【伊涼】{rt}俊宗と鈴鹿の生まれ変わり{rt}である私たちは、		
-B20.0069	line		【伊涼】{rt}１２００年を隔てた{rt}高丸との闘いに		
-B20.0070	line		【伊涼】{rt}決着をつけなきゃならない…。		
-B20.0071	line		【伊涼】{rt}もちろん、高丸に勝つ―――		
-B20.0072	line		【伊涼】{rt}高丸たちの悪事の根源に{rt}なってる《邪氣》を		
-B20.0073	line		【伊涼】{rt}消し去るってかたちでね。		
+B20.0068	line		【伊涼】{rt}俊宗と鈴鹿の生まれ変わり{rt}である私たちは、	【Isuzu】{rt}We, reborn from Toshimune and{rt}Suzuka,	
+B20.0069	line		【伊涼】{rt}１２００年を隔てた{rt}高丸との闘いに	【Isuzu】{rt}have to settle the fight with{rt}Takamaru	
+B20.0070	line		【伊涼】{rt}決着をつけなきゃならない…。	【Isuzu】{rt}that's lasted across 1200 years...	
+B20.0071	line		【伊涼】{rt}もちろん、高丸に勝つ―――	【Isuzu】{rt}By beating Takamaru, of course--	
+B20.0072	line		【伊涼】{rt}高丸たちの悪事の根源に{rt}なってる《邪氣》を	【Isuzu】{rt}by wiping out the Miasma at the root{rt}of Takamaru's	
+B20.0073	line		【伊涼】{rt}消し去るってかたちでね。	【Isuzu】{rt}and his allies' evil deeds.	
 B20.0074	line		【矢村】{rt}伊涼…。	【Yamura】{rt}Isuzu...	
-B20.0075	line		【伊涼】{rt}…なんてね。		
-B20.0076	line		【伊涼】{rt}似合いもしないのに、{rt}かっこいい事いっちゃった。		
-B20.0077	line		【伊涼】{rt}…分かってるの。		
-B20.0078	line		【伊涼】{rt}そんな事、いくらいっても、		
-B20.0079	line		【伊涼】{rt}結局は私たち、{name1}くんが		
-B20.0080	line		【伊涼】{rt}結局は私たち、{name2}ちゃんが		
-B20.0081	line		【伊涼】{rt}《力》を貸してくれないと		
-B20.0082	line		【伊涼】{rt}高丸にだって{rt}勝てっこないんだ…。		
-B20.0083	line		【伊涼】{rt}そう言ってくれるなら、{rt}私、恐くないよ！！		
-B20.0084	line		【矢村】{rt}…そうだな。		
-B20.0085	line		【矢村】{rt}恐くない―――		
-B20.0086	line		【矢村】{rt}それは言いすぎだとしても、{rt}心強いよ、{name1}。		
-B20.0087	line		【伊涼】{rt}私にも、直接闘える《力》が{rt}あれば…時々そう思うよ。		
-B20.0088	line		【矢村】{rt}仕方ない事だ。		
-B20.0089	line		【矢村】{rt}俺たちの《力》は{rt}それには向いていない。		
-B20.0090	line		【矢村】{rt}俺たちで《大罪》{rt}に立ち向かうには		
-B20.0091	line		【矢村】{rt}{name1}、お前の《力》が{rt}必要なんだ。		
-B20.0092	line		【伊涼】{rt}ごめん。		
-B20.0093	line		【伊涼】{rt}でも、いくら背伸びしても、		
-B20.0094	line		【伊涼】{rt}私には《大罪》を{rt}封印する事しかできない。		
-B20.0095	line		【矢村】{rt}俺だってそうさ。		
-B20.0096	line		【矢村】{rt}だが、欲望から手に入れた{rt}《力》では		
-B20.0097	line		【矢村】{rt}《大罪》に対抗できない…		
-B20.0098	line		【矢村】{rt}俺はそう思うんだ。		
-B20.0099	line		【矢村】{rt}《邪氣》は何の抵抗力も{rt}持たない人々の心に寄生し、		
-B20.0100	line		【矢村】{rt}不幸な道へと踏み込ませる{rt}邪悪な《力》だ。		
-B20.0101	line		【矢村】{rt}俺たちは間違ってはいない…。		
-B20.0102	line		【矢村】{rt}正しいはずだッ。		
-B20.0103	line		【伊涼】{rt}（俊―――？）		
-B20.0104	line		【矢村】{rt}{name1}。{rt}改めて頼む。		
-B20.0105	line		【矢村】{rt}《大罪》を祓うために、{rt}俺たちに力を貸してくれッ。		
-B20.0106	line		【矢村】{rt}さて、そろそろ時間だ。		
-B20.0107	line		【矢村】{rt}{name1}、またな。		
-B20.0108	line		【伊涼】{rt}…じゃあね、{name1}くん。		
-B20.0109	line		【矢村】{rt}さて、そろそろ時間だ。		
-B20.0110	line		【矢村】{rt}{name1}、またな。		
-B20.0111	line		【伊涼】{rt}…じゃあね、{name2}ちゃん。		
-B20.0112	line		【伊涼】{rt}毎晩冷えるけど、{rt}風邪ひかないようにね。		
-B20.0113	line		【矢村】{rt}そうだな。		
+B20.0075	line		【伊涼】{rt}…なんてね。	【Isuzu】{rt}...Just kidding.	
+B20.0076	line		【伊涼】{rt}似合いもしないのに、{rt}かっこいい事いっちゃった。	【Isuzu】{rt}That was way too cool a line for me.	
+B20.0077	line		【伊涼】{rt}…分かってるの。	【Isuzu】{rt}...I know.	
+B20.0078	line		【伊涼】{rt}そんな事、いくらいっても、	【Isuzu】{rt}However much I talk like that,	
+B20.0079	line		【伊涼】{rt}結局は私たち、{name1}くんが	【Isuzu】{rt}in the end, unless {name1}-kun	
+B20.0080	line		【伊涼】{rt}結局は私たち、{name2}ちゃんが	【Isuzu】{rt}in the end, unless {name2}-chan	
+B20.0081	line		【伊涼】{rt}《力》を貸してくれないと	【Isuzu】{rt}lends us Power,	
+B20.0082	line		【伊涼】{rt}高丸にだって{rt}勝てっこないんだ…。	【Isuzu】{rt}we could never beat Takamaru...	
+B20.0083	line		【伊涼】{rt}そう言ってくれるなら、{rt}私、恐くないよ！！	【Isuzu】{rt}If you say so, then I'm not scared!!	
+B20.0084	line		【矢村】{rt}…そうだな。	【Yamura】{rt}...You're right.	
+B20.0085	line		【矢村】{rt}恐くない―――	【Yamura】{rt}"Not scared"--	
+B20.0086	line		【矢村】{rt}それは言いすぎだとしても、{rt}心強いよ、{name1}。	【Yamura】{rt}maybe that's going too far, but it's{rt}reassuring, {name1}.	
+B20.0087	line		【伊涼】{rt}私にも、直接闘える《力》が{rt}あれば…時々そう思うよ。	【Isuzu】{rt}If only I had Power to fight directly...{rt}sometimes I think that.	
+B20.0088	line		【矢村】{rt}仕方ない事だ。	【Yamura】{rt}It can't be helped.	
+B20.0089	line		【矢村】{rt}俺たちの《力》は{rt}それには向いていない。	【Yamura】{rt}Our Power isn't suited for that.	
+B20.0090	line		【矢村】{rt}俺たちで《大罪》{rt}に立ち向かうには	【Yamura】{rt}For us to stand up to the Great Sin,	
+B20.0091	line		【矢村】{rt}{name1}、お前の《力》が{rt}必要なんだ。	【Yamura】{rt}{name1}, we need your Power.	
+B20.0092	line		【伊涼】{rt}ごめん。	【Isuzu】{rt}Sorry.	
+B20.0093	line		【伊涼】{rt}でも、いくら背伸びしても、	【Isuzu】{rt}But however hard I try,	
+B20.0094	line		【伊涼】{rt}私には《大罪》を{rt}封印する事しかできない。	【Isuzu】{rt}all I can do is seal the Great Sin.	
+B20.0095	line		【矢村】{rt}俺だってそうさ。	【Yamura】{rt}Same goes for me.	
+B20.0096	line		【矢村】{rt}だが、欲望から手に入れた{rt}《力》では	【Yamura】{rt}But Power gained out of desire	
+B20.0097	line		【矢村】{rt}《大罪》に対抗できない…	【Yamura】{rt}can't stand against the Great Sin...	
+B20.0098	line		【矢村】{rt}俺はそう思うんだ。	【Yamura】{rt}That's what I think.	
+B20.0099	line		【矢村】{rt}《邪氣》は何の抵抗力も{rt}持たない人々の心に寄生し、	【Yamura】{rt}Miasma is an evil Power that preys on{rt}the hearts of the defenceless	
+B20.0100	line		【矢村】{rt}不幸な道へと踏み込ませる{rt}邪悪な《力》だ。	【Yamura】{rt}and leads them down roads of{rt}misery.	
+B20.0101	line		【矢村】{rt}俺たちは間違ってはいない…。	【Yamura】{rt}We're not wrong...	
+B20.0102	line		【矢村】{rt}正しいはずだッ。	【Yamura】{rt}We have to be right.	
+B20.0103	line		【伊涼】{rt}（俊―――？）	【Isuzu】{rt}(Shun--?)	
+B20.0104	line		【矢村】{rt}{name1}。{rt}改めて頼む。	【Yamura】{rt}{name1}. I'll ask again.	
+B20.0105	line		【矢村】{rt}《大罪》を祓うために、{rt}俺たちに力を貸してくれッ。	【Yamura】{rt}Lend us your power to purge the Great{rt}Sin.	
+B20.0106	line		【矢村】{rt}さて、そろそろ時間だ。	【Yamura】{rt}Well, it's about time.	
+B20.0107	line		【矢村】{rt}{name1}、またな。	【Yamura】{rt}See you, {name1}.	
+B20.0108	line		【伊涼】{rt}…じゃあね、{name1}くん。	【Isuzu】{rt}...Bye, {name1}-kun.	
+B20.0109	line		【矢村】{rt}さて、そろそろ時間だ。	【Yamura】{rt}Well, it's about time.	
+B20.0110	line		【矢村】{rt}{name1}、またな。	【Yamura】{rt}See you, {name1}.	
+B20.0111	line		【伊涼】{rt}…じゃあね、{name2}ちゃん。	【Isuzu】{rt}...Bye, {name2}-chan.	
+B20.0112	line		【伊涼】{rt}毎晩冷えるけど、{rt}風邪ひかないようにね。	【Isuzu】{rt}It's cold at night, so don't catch a{rt}cold.	
+B20.0113	line		【矢村】{rt}そうだな。	【Yamura】{rt}Yeah.	
 B20.0114	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B20.0115	line		【矢村】{rt}（言える訳がない。		
-B20.0116	line		【矢村】{rt}　たとえ、あれが{rt}　嘘だとしたって…。）		
-B20.0117	line		【右の影】{rt}（《大罪》の動きが{rt}　活性化しつつある…。）		
-B20.0118	line		【左の影】{rt}（このままでは―――。）		
-B20.0119	line		【黒衣の男】{rt}優鉢羅（うはつら）、		
-B20.0120	line		【優鉢羅】{rt}ただいま戻った。		
-B20.0121	line		【左の影】{rt}おう、優鉢羅―――。		
-B20.0122	line		【左の影】{rt}待ったぞ。		
-B20.0123	line		【左の影】{rt}それで、成果は？		
-B20.0124	line		【優鉢羅】{rt}駄目だな。		
-B20.0125	line		【優鉢羅】{rt}かろうじて、ひとつ。		
-B20.0126	line		【優鉢羅】{rt}《大罪》は移動を続けている。		
-B20.0127	line		【優鉢羅】{rt}数が減ったとはいえ、		
-B20.0128	line		【優鉢羅】{rt}その勢いは弱まっては{rt}いないようだ。		
-B20.0129	line		【右の影】{rt}我らも今、それを懸念して{rt}いたところだ。		
-B20.0130	line		【右の影】{rt}《大罪》は、あたかも目的を{rt}持っているかのように、		
-B20.0131	line		【右の影】{rt}一点に集まりつつある。		
-B20.0132	line		【優鉢羅】{rt}やはり―――{rt}あの者たちが？		
-B20.0133	line		【左の影】{rt}間違いないだろう。		
-B20.0134	line		【右の影】{rt}我が主の《氣》が消えた今、		
-B20.0135	line		【右の影】{rt}もはや我らが静観していては、		
-B20.0136	line		【右の影】{rt}事態は最悪の道を{rt}歩みかねん。		
-B20.0137	line		【右の影】{rt}行ってくれるか？		
-B20.0138	line		【右の影】{rt}優鉢羅―――。		
-B20.0139	line		【優鉢羅】{rt}…………。		
-B20.0140	line		【優鉢羅】{rt}やむを得ない。		
-B20.0141	line		【左の影】{rt}そうか…。		
-B20.0142	line		【右の影】{rt}…………。		
-B20.0143	line		【右の影】{rt}ついに我らの手を		
-B20.0144	line		【右の影】{rt}人の子の血で濡らさねば{rt}ならん時が来たか――。		
-B20.0145	line		【優鉢羅】{rt}…………。		
+B20.0115	line		【矢村】{rt}（言える訳がない。	【Yamura】{rt}(As if I could tell her.	
+B20.0116	line		【矢村】{rt}　たとえ、あれが{rt}　嘘だとしたって…。）	【Yamura】{rt}Even if that was a lie...)	
+B20.0117	line		【右の影】{rt}（《大罪》の動きが{rt}　活性化しつつある…。）	【Shadow on the Right】{rt}(The Great Sin is growing more{rt}active...)	
+B20.0118	line		【左の影】{rt}（このままでは―――。）	【Shadow on the Left】{rt}(At this rate--)	
+B20.0119	line		【黒衣の男】{rt}優鉢羅（うはつら）、	【Man in Black】{rt}Uhatsura,	
+B20.0120	line		【優鉢羅】{rt}ただいま戻った。	【Uhatsura】{rt}has just returned.	
+B20.0121	line		【左の影】{rt}おう、優鉢羅―――。	【Shadow on the Left】{rt}Ah, Uhatsura--	
+B20.0122	line		【左の影】{rt}待ったぞ。	【Shadow on the Left】{rt}We've been waiting.	
+B20.0123	line		【左の影】{rt}それで、成果は？	【Shadow on the Left】{rt}So, what did you find?	
+B20.0124	line		【優鉢羅】{rt}駄目だな。	【Uhatsura】{rt}Nothing good.	
+B20.0125	line		【優鉢羅】{rt}かろうじて、ひとつ。	【Uhatsura】{rt}Just barely, one thing.	
+B20.0126	line		【優鉢羅】{rt}《大罪》は移動を続けている。	【Uhatsura】{rt}The Great Sin keeps moving.	
+B20.0127	line		【優鉢羅】{rt}数が減ったとはいえ、	【Uhatsura】{rt}Their numbers are down,	
+B20.0128	line		【優鉢羅】{rt}その勢いは弱まっては{rt}いないようだ。	【Uhatsura】{rt}but their momentum doesn't seem to{rt}have weakened.	
+B20.0129	line		【右の影】{rt}我らも今、それを懸念して{rt}いたところだ。	【Shadow on the Right】{rt}That is just what concerns us now.	
+B20.0130	line		【右の影】{rt}《大罪》は、あたかも目的を{rt}持っているかのように、	【Shadow on the Right】{rt}The Great Sin is gathering to one{rt}point,	
+B20.0131	line		【右の影】{rt}一点に集まりつつある。	【Shadow on the Right】{rt}as if it had a purpose.	
+B20.0132	line		【優鉢羅】{rt}やはり―――{rt}あの者たちが？	【Uhatsura】{rt}As I thought--those ones?	
+B20.0133	line		【左の影】{rt}間違いないだろう。	【Shadow on the Left】{rt}No doubt about it.	
+B20.0134	line		【右の影】{rt}我が主の《氣》が消えた今、	【Shadow on the Right】{rt}Now that our master's Ki has{rt}vanished,	
+B20.0135	line		【右の影】{rt}もはや我らが静観していては、	【Shadow on the Right】{rt}if we merely stand by and watch,	
+B20.0136	line		【右の影】{rt}事態は最悪の道を{rt}歩みかねん。	【Shadow on the Right】{rt}things may take the worst road.	
+B20.0137	line		【右の影】{rt}行ってくれるか？	【Shadow on the Right】{rt}Will you go?	
+B20.0138	line		【右の影】{rt}優鉢羅―――。	【Shadow on the Right】{rt}Uhatsura--	
+B20.0139	line		【優鉢羅】{rt}…………。	【Uhatsura】{rt}......	
+B20.0140	line		【優鉢羅】{rt}やむを得ない。	【Uhatsura】{rt}It can't be helped.	
+B20.0141	line		【左の影】{rt}そうか…。	【Shadow on the Left】{rt}I see...	
+B20.0142	line		【右の影】{rt}…………。	【Shadow on the Right】{rt}......	
+B20.0143	line		【右の影】{rt}ついに我らの手を	【Shadow on the Right】{rt}So the time has finally come	
+B20.0144	line		【右の影】{rt}人の子の血で濡らさねば{rt}ならん時が来たか――。	【Shadow on the Right】{rt}when we must wet our hands with{rt}human blood--	
+B20.0145	line		【優鉢羅】{rt}…………。	【Uhatsura】{rt}......	

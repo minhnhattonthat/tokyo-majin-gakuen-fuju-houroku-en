@@ -94,3 +94,12 @@ session; translators read it before their batch.
   Court branded frontier peoples like the Emishi savage rebels, just like Takamaru's Shade folk. Both routes: the
   Kokon Chomonju says Toshimune later killed Suzuka Gozen for her oni nature; two men (Man on the Left/Right) speak
   through the Word Spirits, calling it a Sin to deny words as lies, and raise an uprising of the Word Spirits; battle.
+- B19: Isuzu arrives in time; the Word Spirits, a Great Sin, cry "acknowledge us"; battle.
+- B20: the Word Spirits fade and the book goes blank. Yamura sums up: Otakemaru, a 1200-year-old oni of Mt. Suzuka
+  killed by Toshimune with Suzuka Gozen's help, matches Takamaru. He keeps secret that Toshimune later killed Suzuka
+  ("As if I could tell her"). Elsewhere, Shadows on the Left and Right (whose master's Ki has vanished) see the
+  Great Sin gathering to one point and send Uhatsura, ready to wet their hands with human blood.
+- B21: Yamura and Isuzu share a dream: a dying man with an arrow through his heart blames Isuzu ("you saw through
+  the truth"); his death freezes everything. Uhatsura says the scene comes from Isuzu's own depths and offers a
+  deal: all the sealed Great Sin plus Isuzu's life (a "human pillar") for Yamura's and the player's release. Isuzu
+  agrees; the player may hand over the talismans. Yamura (or the player) breaks the ice wall; battle.

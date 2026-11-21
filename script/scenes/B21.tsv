@@ -1,286 +1,286 @@
 id	kind	max	jp	en	notes
-B21.0000	line		【伊涼】{rt}（ここは―――？）		
-B21.0001	line		【伊涼】{rt}（夢の中？）		
-B21.0002	line		【伊涼】{rt}（また、あの夢―――？）		
-B21.0003	line		【矢村の声】{rt}伊涼ッ！？		
-B21.0004	line		【矢村の声】{rt}そこにいるのは、{rt}伊涼なのか！？		
+B21.0000	line		【伊涼】{rt}（ここは―――？）	【Isuzu】{rt}(Where is this--?)	
+B21.0001	line		【伊涼】{rt}（夢の中？）	【Isuzu】{rt}(Inside a dream?)	
+B21.0002	line		【伊涼】{rt}（また、あの夢―――？）	【Isuzu】{rt}(That dream again--?)	
+B21.0003	line		【矢村の声】{rt}伊涼ッ！？	【Yamura's Voice】{rt}Isuzu!?	
+B21.0004	line		【矢村の声】{rt}そこにいるのは、{rt}伊涼なのか！？	【Yamura's Voice】{rt}Is that you, Isuzu!?	
 B21.0005	line		【伊涼】{rt}（えッ―――？）	【Isuzu】{rt}(Huh--?)	
-B21.0006	line		【矢村】{rt}やっぱり、伊涼か。		
-B21.0007	line		【伊涼】{rt}俊！？		
-B21.0008	line		【伊涼】{rt}どうしてここに…。		
-B21.0009	line		【矢村】{rt}それを聞きたいのは{rt}こっちの方だよ。		
-B21.0010	line		【矢村】{rt}ここは、一体、どこなんだ？		
+B21.0006	line		【矢村】{rt}やっぱり、伊涼か。	【Yamura】{rt}So it is you, Isuzu.	
+B21.0007	line		【伊涼】{rt}俊！？	【Isuzu】{rt}Shun!?	
+B21.0008	line		【伊涼】{rt}どうしてここに…。	【Isuzu】{rt}Why are you here...	
+B21.0009	line		【矢村】{rt}それを聞きたいのは{rt}こっちの方だよ。	【Yamura】{rt}I'm the one who wants to ask that.	
+B21.0010	line		【矢村】{rt}ここは、一体、どこなんだ？	【Yamura】{rt}Where on earth is this place?	
 B21.0011	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
-B21.0012	line		【伊涼】{rt}夢の中―――。		
-B21.0013	line		【伊涼】{rt}おそらく。		
-B21.0014	line		【矢村】{rt}夢―――！？		
-B21.0015	line		【矢村】{rt}ああ…そういえば、{rt}そんな感じもするが――		
-B21.0016	line		【矢村】{rt}それにしちゃあ、{rt}何だかおかしいな。		
-B21.0017	line		【矢村】{rt}夢を見てると自覚できる{rt}夢なんて、		
-B21.0018	line		【矢村】{rt}今まで見た事ないぞ。		
-B21.0019	line		【伊涼】{rt}俊は、私が自分の夢に出て{rt}きたんだと思ってるでしょ？		
+B21.0012	line		【伊涼】{rt}夢の中―――。	【Isuzu】{rt}Inside a dream--	
+B21.0013	line		【伊涼】{rt}おそらく。	【Isuzu】{rt}probably.	
+B21.0014	line		【矢村】{rt}夢―――！？	【Yamura】{rt}A dream--!?	
+B21.0015	line		【矢村】{rt}ああ…そういえば、{rt}そんな感じもするが――	【Yamura】{rt}Well... now that you say it, it does feel{rt}like one--	
+B21.0016	line		【矢村】{rt}それにしちゃあ、{rt}何だかおかしいな。	【Yamura】{rt}but even so, something's off.	
+B21.0017	line		【矢村】{rt}夢を見てると自覚できる{rt}夢なんて、	【Yamura】{rt}A dream where you know you're{rt}dreaming--	
+B21.0018	line		【矢村】{rt}今まで見た事ないぞ。	【Yamura】{rt}I've never had one before.	
+B21.0019	line		【伊涼】{rt}俊は、私が自分の夢に出て{rt}きたんだと思ってるでしょ？	【Isuzu】{rt}You think I've shown up in your dream,{rt}don't you, Shun?	
 B21.0020	line		【矢村】{rt}―――？	【Yamura】{rt}--?	
-B21.0021	line		【伊涼】{rt}私からしてもそうなの。		
-B21.0022	line		【伊涼】{rt}これは単なる夢じゃない。		
-B21.0023	line		【伊涼】{rt}ふたりで、全く同時に、{rt}同じ夢の世界にいる―――。		
-B21.0024	line		【矢村】{rt}おいおい。		
-B21.0025	line		【矢村】{rt}そういうのは、夢とは{rt}言わないんじゃないか？		
-B21.0026	line		【矢村】{rt}夢ってのは、個人の脳が		
-B21.0027	line		【矢村】{rt}肉体の休眠状態の時に見せる{rt}幻影だって		
-B21.0028	line		【矢村】{rt}どっかの本で読んだぜ？		
-B21.0029	line		【伊涼】{rt}でも、夢だという証拠は{rt}あるわ。		
-B21.0030	line		【伊涼】{rt}この風景は、高丸が{rt}私をさらった時に見せた――		
-B21.0031	line		【伊涼】{rt}そして、その後も私が何度も{rt}見たあの夢によく似ている。		
-B21.0032	line		【伊涼】{rt}もうすぐ、高丸の声が{rt}聞こえてくるはず―――。		
-B21.0033	line		【男の声】{rt}さ、寒い―――。		
+B21.0021	line		【伊涼】{rt}私からしてもそうなの。	【Isuzu】{rt}It's the same from my side.	
+B21.0022	line		【伊涼】{rt}これは単なる夢じゃない。	【Isuzu】{rt}This isn't just a dream.	
+B21.0023	line		【伊涼】{rt}ふたりで、全く同時に、{rt}同じ夢の世界にいる―――。	【Isuzu】{rt}We're both in the same dream world, at{rt}exactly the same time--	
+B21.0024	line		【矢村】{rt}おいおい。	【Yamura】{rt}Hey, hey.	
+B21.0025	line		【矢村】{rt}そういうのは、夢とは{rt}言わないんじゃないか？	【Yamura】{rt}Isn't that the kind of thing you don't{rt}call a dream?	
+B21.0026	line		【矢村】{rt}夢ってのは、個人の脳が	【Yamura】{rt}A dream is an illusion a person's brain{rt}shows them	
+B21.0027	line		【矢村】{rt}肉体の休眠状態の時に見せる{rt}幻影だって	【Yamura】{rt}while the body is asleep,	
+B21.0028	line		【矢村】{rt}どっかの本で読んだぜ？	【Yamura】{rt}I read that in some book, you know?	
+B21.0029	line		【伊涼】{rt}でも、夢だという証拠は{rt}あるわ。	【Isuzu】{rt}But there's proof it's a dream.	
+B21.0030	line		【伊涼】{rt}この風景は、高丸が{rt}私をさらった時に見せた――	【Isuzu】{rt}This place looks like what Takamaru{rt}showed me when he took me--	
+B21.0031	line		【伊涼】{rt}そして、その後も私が何度も{rt}見たあの夢によく似ている。	【Isuzu】{rt}and like that dream I've had over and{rt}over since.	
+B21.0032	line		【伊涼】{rt}もうすぐ、高丸の声が{rt}聞こえてくるはず―――。	【Isuzu】{rt}Any moment now, we should hear{rt}Takamaru's voice--	
+B21.0033	line		【男の声】{rt}さ、寒い―――。	【Man's Voice】{rt}I-it's cold--	
 B21.0034	line		【矢村】{rt}―――！？	【Yamura】{rt}--!?	
 B21.0035	line		【伊涼】{rt}えッ―――！？	【Isuzu】{rt}Huh--!?	
-B21.0036	line		【男の声】{rt}さ、寒い―――。		
-B21.0037	line		【伊涼】{rt}違うッ。		
-B21.0038	line		【伊涼】{rt}高丸の声じゃない！！		
-B21.0039	line		【伊涼】{rt}いつものあの夢じゃないッ。		
-B21.0040	line		【矢村】{rt}何だとッ！？		
-B21.0041	line		【男の声】{rt}ち―――血が…。		
+B21.0036	line		【男の声】{rt}さ、寒い―――。	【Man's Voice】{rt}I-it's cold--	
+B21.0037	line		【伊涼】{rt}違うッ。	【Isuzu】{rt}No.	
+B21.0038	line		【伊涼】{rt}高丸の声じゃない！！	【Isuzu】{rt}That's not Takamaru's voice!!	
+B21.0039	line		【伊涼】{rt}いつものあの夢じゃないッ。	【Isuzu】{rt}It's not the usual dream!	
+B21.0040	line		【矢村】{rt}何だとッ！？	【Yamura】{rt}What!?	
+B21.0041	line		【男の声】{rt}ち―――血が…。	【Man's Voice】{rt}B--blood...	
 B21.0042	line		【伊涼】{rt}誰ッ！？	【Isuzu】{rt}Who's there!?	
-B21.0043	line		【伊涼】{rt}誰なのッ―――？		
-B21.0044	line		【伊涼】{rt}はッ―――！？		
-B21.0045	line		【男】{rt}か、身体が、冷えていく…。		
-B21.0046	line		【矢村】{rt}これは…。		
-B21.0047	line		【伊涼】{rt}だ、大丈夫ですかッ！？		
-B21.0048	line		【矢村】{rt}（矢が心臓を貫いてる――。）		
-B21.0049	line		【伊涼】{rt}しっかり！！		
-B21.0050	line		【伊涼】{rt}しっかりしてッ！！		
-B21.0051	line		【男】{rt}ぐッ…ぐううううッ！！		
-B21.0052	line		【伊涼】{rt}ああッ！！血が―――		
-B21.0053	line		【男】{rt}さ、触るなァッ！！		
+B21.0043	line		【伊涼】{rt}誰なのッ―――？	【Isuzu】{rt}Who's there--?	
+B21.0044	line		【伊涼】{rt}はッ―――！？	【Isuzu】{rt}Ah--!?	
+B21.0045	line		【男】{rt}か、身体が、冷えていく…。	【Man】{rt}M-my body's growing cold...	
+B21.0046	line		【矢村】{rt}これは…。	【Yamura】{rt}This is...	
+B21.0047	line		【伊涼】{rt}だ、大丈夫ですかッ！？	【Isuzu】{rt}A-are you all right!?	
+B21.0048	line		【矢村】{rt}（矢が心臓を貫いてる――。）	【Yamura】{rt}(An arrow's pierced his heart--)	
+B21.0049	line		【伊涼】{rt}しっかり！！	【Isuzu】{rt}Hang on!!	
+B21.0050	line		【伊涼】{rt}しっかりしてッ！！	【Isuzu】{rt}Hang in there!!	
+B21.0051	line		【男】{rt}ぐッ…ぐううううッ！！	【Man】{rt}Gh... guuuugh!!	
+B21.0052	line		【伊涼】{rt}ああッ！！血が―――	【Isuzu】{rt}Ah!! The blood--	
+B21.0053	line		【男】{rt}さ、触るなァッ！！	【Man】{rt}D-don't touch me!!	
 B21.0054	line		【伊涼】{rt}―――！！	【Isuzu】{rt}--!!	
-B21.0055	line		【男】{rt}う―――！！ご、ごほッ！！		
-B21.0056	line		【伊涼】{rt}喋っちゃだめ！！		
-B21.0057	line		【伊涼】{rt}早く手当てをしないとッ。		
-B21.0058	line		【男】{rt}ううう…。		
-B21.0059	line		【男】{rt}お前―――お前の―――		
-B21.0060	line		【伊涼】{rt}え？		
-B21.0061	line		【男】{rt}お前の、せいだ…！！		
-B21.0062	line		【伊涼】{rt}私の、せい？		
+B21.0055	line		【男】{rt}う―――！！ご、ごほッ！！	【Man】{rt}Ugh--!! Kh-kohh!!	
+B21.0056	line		【伊涼】{rt}喋っちゃだめ！！	【Isuzu】{rt}Don't talk!!	
+B21.0057	line		【伊涼】{rt}早く手当てをしないとッ。	【Isuzu】{rt}We have to treat you, fast.	
+B21.0058	line		【男】{rt}ううう…。	【Man】{rt}Uuugh...	
+B21.0059	line		【男】{rt}お前―――お前の―――	【Man】{rt}You--it's your--	
+B21.0060	line		【伊涼】{rt}え？	【Isuzu】{rt}Huh?	
+B21.0061	line		【男】{rt}お前の、せいだ…！！	【Man】{rt}It's your fault...!!	
+B21.0062	line		【伊涼】{rt}私の、せい？	【Isuzu】{rt}My fault?	
 B21.0063	line		【矢村】{rt}―――？	【Yamura】{rt}--?	
-B21.0064	line		【男】{rt}お、お前が…		
-B21.0065	line		【男】{rt}真実を見破ったりするから{rt}私はこんな事に―――		
-B21.0066	line		【男】{rt}もう、お終いだ。{rt}何もかも―――。		
-B21.0067	line		【伊涼】{rt}喋らないで！！{rt}血が―――。		
+B21.0064	line		【男】{rt}お、お前が…	【Man】{rt}B-because you...	
+B21.0065	line		【男】{rt}真実を見破ったりするから{rt}私はこんな事に―――	【Man】{rt}saw through the truth, I ended up like{rt}this--	
+B21.0066	line		【男】{rt}もう、お終いだ。{rt}何もかも―――。	【Man】{rt}It's over now. All of it--	
+B21.0067	line		【伊涼】{rt}喋らないで！！{rt}血が―――。	【Isuzu】{rt}Don't talk!! The blood--	
 B21.0068	line		【伊涼】{rt}俊ッ！！	【Isuzu】{rt}Shun!!	
-B21.0069	line		【伊涼】{rt}どうしたらいいのッ？		
-B21.0070	line		【伊涼】{rt}身体が―――		
-B21.0071	line		【伊涼】{rt}どんどん冷たくなって{rt}くよッ！！		
+B21.0069	line		【伊涼】{rt}どうしたらいいのッ？	【Isuzu】{rt}What do I do?	
+B21.0070	line		【伊涼】{rt}身体が―――	【Isuzu】{rt}His body--	
+B21.0071	line		【伊涼】{rt}どんどん冷たくなって{rt}くよッ！！	【Isuzu】{rt}is getting colder and colder!!	
 B21.0072	line		【矢村】{rt}くッ―――。	【Yamura】{rt}Ngh--	
-B21.0073	line		【矢村】{rt}伊涼、どうにかしようにも…		
-B21.0074	line		【矢村】{rt}その傷は―――。		
-B21.0075	line		【伊涼】{rt}そ、そんな…。		
-B21.0076	line		【男】{rt}…さ、寒いな。{rt}すごく、寒いよ。		
-B21.0077	line		【矢村】{rt}（息が白い―――。）		
-B21.0078	line		【矢村】{rt}（冷気？）		
-B21.0079	line		【矢村】{rt}（辺りが寒くなってる？）		
-B21.0080	line		【男】{rt}お、おお…！！こ、凍る！！		
-B21.0081	line		【男】{rt}こんなに寒くては凍って{rt}しまうッ。		
-B21.0082	line		【男】{rt}さ、寒いいッ！！		
-B21.0083	line		【伊涼】{rt}あ…う…。		
+B21.0073	line		【矢村】{rt}伊涼、どうにかしようにも…	【Yamura】{rt}Isuzu, even if we try something...	
+B21.0074	line		【矢村】{rt}その傷は―――。	【Yamura】{rt}that wound is--	
+B21.0075	line		【伊涼】{rt}そ、そんな…。	【Isuzu】{rt}N-no...	
+B21.0076	line		【男】{rt}…さ、寒いな。{rt}すごく、寒いよ。	【Man】{rt}...I-it's cold. So, so cold.	
+B21.0077	line		【矢村】{rt}（息が白い―――。）	【Yamura】{rt}(Our breath is white--)	
+B21.0078	line		【矢村】{rt}（冷気？）	【Yamura】{rt}(A chill?)	
+B21.0079	line		【矢村】{rt}（辺りが寒くなってる？）	【Yamura】{rt}(It's getting colder around us?)	
+B21.0080	line		【男】{rt}お、おお…！！こ、凍る！！	【Man】{rt}O-ohh...!! I-I'm freezing!!	
+B21.0081	line		【男】{rt}こんなに寒くては凍って{rt}しまうッ。	【Man】{rt}This cold will freeze me solid.	
+B21.0082	line		【男】{rt}さ、寒いいッ！！	【Man】{rt}S-so cooold!!	
+B21.0083	line		【伊涼】{rt}あ…う…。	【Isuzu】{rt}Ah... uh...	
 B21.0084	line		【伊涼】{rt}ううッ…。	【Isuzu】{rt}Uuugh...	
-B21.0085	line		【伊涼】{rt}手足の感覚がだんだん遠く{rt}なっていくッ…。		
-B21.0086	line		【矢村】{rt}（ま、まずい…。）		
-B21.0087	line		【矢村】{rt}（このままじゃ―――。）		
-B21.0088	line		【伊涼】{rt}う…ううッ。		
-B21.0089	line		【矢村】{rt}しっかりしろ、伊涼ッ。		
-B21.0090	line		【伊涼】{rt}しゅ、俊…。{rt}{name1}くんを…。		
-B21.0091	line		【伊涼】{rt}しゅ、俊…。		
-B21.0092	line		【伊涼】{rt}{name2}ちゃんを…。		
+B21.0085	line		【伊涼】{rt}手足の感覚がだんだん遠く{rt}なっていくッ…。	【Isuzu】{rt}I'm losing the feeling in my hands and{rt}feet...	
+B21.0086	line		【矢村】{rt}（ま、まずい…。）	【Yamura】{rt}(Th-this is bad...)	
+B21.0087	line		【矢村】{rt}（このままじゃ―――。）	【Yamura】{rt}(At this rate--)	
+B21.0088	line		【伊涼】{rt}う…ううッ。	【Isuzu】{rt}Uh... uugh.	
+B21.0089	line		【矢村】{rt}しっかりしろ、伊涼ッ。	【Yamura】{rt}Hang in there, Isuzu.	
+B21.0090	line		【伊涼】{rt}しゅ、俊…。{rt}{name1}くんを…。	【Isuzu】{rt}Sh-Shun... {name1}-kun...	
+B21.0091	line		【伊涼】{rt}しゅ、俊…。	【Isuzu】{rt}Sh-Shun...	
+B21.0092	line		【伊涼】{rt}{name2}ちゃんを…。	【Isuzu】{rt}{name2}-chan...	
 B21.0093	line		【矢村】{rt}ああ。	【Yamura】{rt}Yeah.	
-B21.0094	line		【矢村】{rt}俺もそれを考えていた{rt}ところだ。		
-B21.0095	line		【矢村】{rt}こんな状況で頼りになるのは、{rt}{name1}の他にはいないッ。		
-B21.0096	line		【矢村】{rt}しっかりしろ、伊涼。		
-B21.0097	line		【矢村】{rt}もう少しの辛抱だ。		
-B21.0098	line		【伊涼】{rt}う、うん…。		
-B21.0099	line		【矢村】{rt}…勧請ッ。		
+B21.0094	line		【矢村】{rt}俺もそれを考えていた{rt}ところだ。	【Yamura】{rt}I was just thinking the same thing.	
+B21.0095	line		【矢村】{rt}こんな状況で頼りになるのは、{rt}{name1}の他にはいないッ。	【Yamura】{rt}In a situation like this, there's nobody{rt}to rely on but {name1}.	
+B21.0096	line		【矢村】{rt}しっかりしろ、伊涼。	【Yamura】{rt}Hang in there, Isuzu.	
+B21.0097	line		【矢村】{rt}もう少しの辛抱だ。	【Yamura】{rt}Just a little longer.	
+B21.0098	line		【伊涼】{rt}う、うん…。	【Isuzu】{rt}O-okay...	
+B21.0099	line		【矢村】{rt}…勧請ッ。	【Yamura】{rt}...Summoning.	
 B21.0100	line		【矢村】{rt}氏神・{name1}大明神ッ。	【Yamura】{rt}Ujigami, Great Deity {name1}!	
 B21.0101	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
 B21.0102	line		【伊涼】{rt}ううッ…。	【Isuzu】{rt}Uuugh...	
 B21.0103	line		【男】{rt}…………。	【Man】{rt}............	
-B21.0104	line		【矢村】{rt}（遅い―――。）		
-B21.0105	line		【矢村】{rt}（やはり、夢の中までは――）		
+B21.0104	line		【矢村】{rt}（遅い―――。）	【Yamura】{rt}(Too slow--)	
+B21.0105	line		【矢村】{rt}（やはり、夢の中までは――）	【Yamura】{rt}(So even into a dream, it can't--)	
 B21.0106	line		【伊涼】{rt}{name1}くん―――。	【Isuzu】{rt}{name1}-kun--	
 B21.0107	line		【伊涼】{rt}{name2}ちゃん―――。	【Isuzu】{rt}{name2}-chan--	
-B21.0108	line		【矢村】{rt}{name1}ッ！！		
+B21.0108	line		【矢村】{rt}{name1}ッ！！	【Yamura】{rt}{name1}!!	
 B21.0109	line		【矢村】{rt}―――！？	【Yamura】{rt}--!?	
 B21.0110	line		【伊涼】{rt}俊ッ！！	【Isuzu】{rt}Shun!!	
-B21.0111	line		【伊涼】{rt}か、壁が、氷の壁が―――。		
-B21.0112	line		【男】{rt}く…くくく…。		
-B21.0113	line		【男】{rt}こ、氷…。		
-B21.0114	line		【男】{rt}み、見渡す限り、氷だらけ…。		
-B21.0115	line		【伊涼】{rt}喋っちゃ…だめ…。		
-B21.0116	line		【男】{rt}お前を信じた私が…		
-B21.0117	line		【男】{rt}馬鹿だったよ。		
-B21.0118	line		【男】{rt}おかげで、このザマだ…。		
-B21.0119	line		【男】{rt}も、もう、お終いだ―――。		
-B21.0120	line		【男】{rt}何もかも…。		
-B21.0121	line		【伊涼】{rt}だめッ！！目を開けて！！		
-B21.0122	line		【伊涼】{rt}目をつぶっちゃいけない――。		
+B21.0111	line		【伊涼】{rt}か、壁が、氷の壁が―――。	【Isuzu】{rt}Th-the wall, a wall of ice--	
+B21.0112	line		【男】{rt}く…くくく…。	【Man】{rt}Heh... heh heh heh...	
+B21.0113	line		【男】{rt}こ、氷…。	【Man】{rt}I-ice...	
+B21.0114	line		【男】{rt}み、見渡す限り、氷だらけ…。	【Man】{rt}A-as far as the eye can see, nothing{rt}but ice...	
+B21.0115	line		【伊涼】{rt}喋っちゃ…だめ…。	【Isuzu】{rt}Don't... talk...	
+B21.0116	line		【男】{rt}お前を信じた私が…	【Man】{rt}I was a fool...	
+B21.0117	line		【男】{rt}馬鹿だったよ。	【Man】{rt}to trust you.	
+B21.0118	line		【男】{rt}おかげで、このザマだ…。	【Man】{rt}And look where it got me...	
+B21.0119	line		【男】{rt}も、もう、お終いだ―――。	【Man】{rt}I-it's over now--	
+B21.0120	line		【男】{rt}何もかも…。	【Man】{rt}all of it...	
+B21.0121	line		【伊涼】{rt}だめッ！！目を開けて！！	【Isuzu】{rt}No!! Open your eyes!!	
+B21.0122	line		【伊涼】{rt}目をつぶっちゃいけない――。	【Isuzu】{rt}You mustn't close your eyes--	
 B21.0123	line		【男】{rt}…………。	【Man】{rt}............	
-B21.0124	line		【伊涼】{rt}目を…目を開けてッ―――。		
-B21.0125	line		【別の男の声】{rt}無駄だ。		
-B21.0126	line		【別の男の声】{rt}そいつは死ぬよ。水兼伊涼。		
-B21.0127	line		【伊涼】{rt}誰…ッ？		
-B21.0128	line		【矢村】{rt}…誰だッ？		
-B21.0129	line		【黒衣の男】{rt}俺の名は優鉢羅（うはつら）。		
-B21.0130	line		【優鉢羅】{rt}寒かろう？		
-B21.0131	line		【優鉢羅】{rt}お前たちの身体も、どんどん{rt}温もりを失っていくな。		
-B21.0132	line		【伊涼】{rt}あなたが…やったの―――？		
-B21.0133	line		【優鉢羅】{rt}少し、違うな。		
-B21.0134	line		【優鉢羅】{rt}こうして温度を奪い、{rt}空気を凍てつかせているのは、		
-B21.0135	line		【優鉢羅】{rt}あくまで、そこの男の死だ。		
-B21.0136	line		【優鉢羅】{rt}俺はそれを、お前たちにも		
-B21.0137	line		【優鉢羅】{rt}感じられるものに{rt}変えるだけだ…。		
-B21.0138	line		【矢村】{rt}死―――。		
-B21.0139	line		【優鉢羅】{rt}見よ、氏神の侵入を阻む{rt}氷の壁を。		
-B21.0140	line		【優鉢羅】{rt}何人も死は超えられん。		
-B21.0141	line		【優鉢羅】{rt}まさしくその体現だ。		
+B21.0124	line		【伊涼】{rt}目を…目を開けてッ―――。	【Isuzu】{rt}Open... open your eyes--	
+B21.0125	line		【別の男の声】{rt}無駄だ。	【Another Man's Voice】{rt}It's useless.	
+B21.0126	line		【別の男の声】{rt}そいつは死ぬよ。水兼伊涼。	【Another Man's Voice】{rt}He's going to die, Isuzu Mizukane.	
+B21.0127	line		【伊涼】{rt}誰…ッ？	【Isuzu】{rt}Who's... there?	
+B21.0128	line		【矢村】{rt}…誰だッ？	【Yamura】{rt}...Who's there?	
+B21.0129	line		【黒衣の男】{rt}俺の名は優鉢羅（うはつら）。	【Man in Black】{rt}My name is Uhatsura.	
+B21.0130	line		【優鉢羅】{rt}寒かろう？	【Uhatsura】{rt}Cold, isn't it?	
+B21.0131	line		【優鉢羅】{rt}お前たちの身体も、どんどん{rt}温もりを失っていくな。	【Uhatsura】{rt}Your bodies are losing their warmth{rt}fast too.	
+B21.0132	line		【伊涼】{rt}あなたが…やったの―――？	【Isuzu】{rt}Did you... do this--?	
+B21.0133	line		【優鉢羅】{rt}少し、違うな。	【Uhatsura】{rt}Not quite.	
+B21.0134	line		【優鉢羅】{rt}こうして温度を奪い、{rt}空気を凍てつかせているのは、	【Uhatsura】{rt}What steals the heat and freezes the{rt}air like this	
+B21.0135	line		【優鉢羅】{rt}あくまで、そこの男の死だ。	【Uhatsura】{rt}is that man's death, nothing more.	
+B21.0136	line		【優鉢羅】{rt}俺はそれを、お前たちにも	【Uhatsura】{rt}I merely turn it into something	
+B21.0137	line		【優鉢羅】{rt}感じられるものに{rt}変えるだけだ…。	【Uhatsura】{rt}you two can feel as well...	
+B21.0138	line		【矢村】{rt}死―――。	【Yamura】{rt}Death--	
+B21.0139	line		【優鉢羅】{rt}見よ、氏神の侵入を阻む{rt}氷の壁を。	【Uhatsura】{rt}Behold the wall of ice that bars the{rt}Ujigami.	
+B21.0140	line		【優鉢羅】{rt}何人も死は超えられん。	【Uhatsura】{rt}No one can cross death.	
+B21.0141	line		【優鉢羅】{rt}まさしくその体現だ。	【Uhatsura】{rt}This is that, made real.	
 B21.0142	line		【男】{rt}…………。	【Man】{rt}............	
-B21.0143	line		【伊涼】{rt}死んだ…。		
-B21.0144	line		【伊涼】{rt}死んじゃったのッ？		
-B21.0145	line		【優鉢羅】{rt}この男のために涙を流すか？		
-B21.0146	line		【優鉢羅】{rt}やめておけ。		
-B21.0147	line		【優鉢羅】{rt}じき、涙すら凍りつくぞ。		
-B21.0148	line		【伊涼】{rt}どうしてッ？		
-B21.0149	line		【伊涼】{rt}どうしてこんな事に―――？		
-B21.0150	line		【優鉢羅】{rt}…………。		
-B21.0151	line		【優鉢羅】{rt}（どうして、だと…？）		
-B21.0152	line		【優鉢羅】{rt}この光景は、お前の意識の{rt}深層より盗み出したもの。		
-B21.0153	line		【優鉢羅】{rt}それをなぜ知らぬのだ？		
-B21.0154	line		【伊涼】{rt}ううッ―――。		
-B21.0155	line		【優鉢羅】{rt}まあ良い。		
-B21.0156	line		【優鉢羅】{rt}聞け。{rt}矢村、{name1}よ。		
-B21.0157	line		【優鉢羅】{rt}ここでの死は、{rt}現実での意識の死となる。		
-B21.0158	line		【優鉢羅】{rt}つまり、ここで死ねば		
-B21.0159	line		【優鉢羅】{rt}お前たちは永遠に{rt}この悪夢に閉じ込められる。		
-B21.0160	line		【矢村】{rt}な、何だと…。		
-B21.0161	line		【優鉢羅】{rt}だが―――客観的に見れば、		
-B21.0162	line		【優鉢羅】{rt}お前たちは無関係と{rt}言えなくもない。		
-B21.0163	line		【優鉢羅】{rt}その男の生んだ極寒獄で{rt}お前たちまで死ぬ事はない。		
-B21.0164	line		【優鉢羅】{rt}そのために、交渉しようでは{rt}ではないか。		
-B21.0165	line		【矢村】{rt}交渉―――？		
-B21.0166	line		【優鉢羅】{rt}そうだ。		
-B21.0167	line		【優鉢羅】{rt}俺がお前たちに求めるもの。		
-B21.0168	line		【優鉢羅】{rt}それは、お前たちが斃し、{rt}符に封じた―――		
-B21.0169	line		【優鉢羅】{rt}《大罪》だ。		
-B21.0170	line		【優鉢羅】{rt}それを全て渡せ。		
+B21.0143	line		【伊涼】{rt}死んだ…。	【Isuzu】{rt}He's dead...	
+B21.0144	line		【伊涼】{rt}死んじゃったのッ？	【Isuzu】{rt}He died?	
+B21.0145	line		【優鉢羅】{rt}この男のために涙を流すか？	【Uhatsura】{rt}Will you shed tears for this man?	
+B21.0146	line		【優鉢羅】{rt}やめておけ。	【Uhatsura】{rt}Don't bother.	
+B21.0147	line		【優鉢羅】{rt}じき、涙すら凍りつくぞ。	【Uhatsura】{rt}Soon even your tears will freeze.	
+B21.0148	line		【伊涼】{rt}どうしてッ？	【Isuzu】{rt}Why?	
+B21.0149	line		【伊涼】{rt}どうしてこんな事に―――？	【Isuzu】{rt}Why did this happen--?	
+B21.0150	line		【優鉢羅】{rt}…………。	【Uhatsura】{rt}......	
+B21.0151	line		【優鉢羅】{rt}（どうして、だと…？）	【Uhatsura】{rt}(Why, she says...?)	
+B21.0152	line		【優鉢羅】{rt}この光景は、お前の意識の{rt}深層より盗み出したもの。	【Uhatsura】{rt}This scene was stolen from the depths{rt}of your own mind.	
+B21.0153	line		【優鉢羅】{rt}それをなぜ知らぬのだ？	【Uhatsura】{rt}How can you not know it?	
+B21.0154	line		【伊涼】{rt}ううッ―――。	【Isuzu】{rt}Uuugh--	
+B21.0155	line		【優鉢羅】{rt}まあ良い。	【Uhatsura】{rt}No matter.	
+B21.0156	line		【優鉢羅】{rt}聞け。{rt}矢村、{name1}よ。	【Uhatsura】{rt}Listen, Yamura, {name1}.	
+B21.0157	line		【優鉢羅】{rt}ここでの死は、{rt}現実での意識の死となる。	【Uhatsura】{rt}Death here becomes the death of your{rt}mind in reality.	
+B21.0158	line		【優鉢羅】{rt}つまり、ここで死ねば	【Uhatsura】{rt}In other words, die here, and	
+B21.0159	line		【優鉢羅】{rt}お前たちは永遠に{rt}この悪夢に閉じ込められる。	【Uhatsura】{rt}you'll be locked in this nightmare{rt}forever.	
+B21.0160	line		【矢村】{rt}な、何だと…。	【Yamura】{rt}Wh-what...	
+B21.0161	line		【優鉢羅】{rt}だが―――客観的に見れば、	【Uhatsura】{rt}But--seen objectively,	
+B21.0162	line		【優鉢羅】{rt}お前たちは無関係と{rt}言えなくもない。	【Uhatsura】{rt}you could be called unconnected to{rt}this.	
+B21.0163	line		【優鉢羅】{rt}その男の生んだ極寒獄で{rt}お前たちまで死ぬ事はない。	【Uhatsura】{rt}There's no need for you to die too in{rt}the frozen hell this man made.	
+B21.0164	line		【優鉢羅】{rt}そのために、交渉しようでは{rt}ではないか。	【Uhatsura】{rt}To that end, why don't we{rt}negotiate?	
+B21.0165	line		【矢村】{rt}交渉―――？	【Yamura】{rt}Negotiate--?	
+B21.0166	line		【優鉢羅】{rt}そうだ。	【Uhatsura】{rt}That's right.	
+B21.0167	line		【優鉢羅】{rt}俺がお前たちに求めるもの。	【Uhatsura】{rt}What I ask of you	
+B21.0168	line		【優鉢羅】{rt}それは、お前たちが斃し、{rt}符に封じた―――	【Uhatsura】{rt}is what you've defeated and sealed in{rt}talismans--	
+B21.0169	line		【優鉢羅】{rt}《大罪》だ。	【Uhatsura】{rt}The Great Sin.	
+B21.0170	line		【優鉢羅】{rt}それを全て渡せ。	【Uhatsura】{rt}Hand all of it over.	
 B21.0171	line		【矢村】{rt}―――！！	【Yamura】{rt}--!!	
-B21.0172	line		【矢村】{rt}《大罪》を…？		
-B21.0173	line		【優鉢羅】{rt}そうだ。		
-B21.0174	line		【優鉢羅】{rt}そして、伊涼。		
-B21.0175	line		【優鉢羅】{rt}お前に求めるもの―――		
-B21.0176	line		【優鉢羅】{rt}それは、お前の命だ。		
+B21.0172	line		【矢村】{rt}《大罪》を…？	【Yamura】{rt}The Great Sin...?	
+B21.0173	line		【優鉢羅】{rt}そうだ。	【Uhatsura】{rt}That's right.	
+B21.0174	line		【優鉢羅】{rt}そして、伊涼。	【Uhatsura】{rt}And, Isuzu.	
+B21.0175	line		【優鉢羅】{rt}お前に求めるもの―――	【Uhatsura】{rt}What I ask of you--	
+B21.0176	line		【優鉢羅】{rt}それは、お前の命だ。	【Uhatsura】{rt}is your life.	
 B21.0177	line		【伊涼】{rt}―――！！	【Isuzu】{rt}--!!	
-B21.0178	line		【矢村】{rt}命ッ！？		
-B21.0179	line		【優鉢羅】{rt}全ての《大罪》と伊涼の命…。		
-B21.0180	line		【優鉢羅】{rt}その二つが手に入れば、		
-B21.0181	line		【優鉢羅】{rt}矢村と{name1}は、すぐさま{rt}夢の外へと返してやろう。		
-B21.0182	line		【優鉢羅】{rt}しかし、案ずるな、伊涼。		
-B21.0183	line		【優鉢羅】{rt}お前は犬死にする訳ではない。		
-B21.0184	line		【優鉢羅】{rt}例えるなら―――		
-B21.0185	line		【優鉢羅】{rt}お前は、この世で比類無き程に{rt}大きな人柱となるのだ…。		
-B21.0186	line		【優鉢羅】{rt}苦痛もない。		
-B21.0187	line		【優鉢羅】{rt}安らかな夢の中で{rt}召されるのだ。		
-B21.0188	line		【矢村】{rt}目的はなんだッ！！		
-B21.0189	line		【矢村】{rt}何のためにそれを{rt}必要とするッ！？		
-B21.0190	line		【優鉢羅】{rt}俺は伊涼に訊いているッ。		
-B21.0191	line		【優鉢羅】{rt}答を出すのは、お前ではない。		
-B21.0192	line		【優鉢羅】{rt}何のためか―――		
-B21.0193	line		【優鉢羅】{rt}それを知っていいのは、{rt}決意を固めた伊涼だけだ。		
-B21.0194	line		【矢村】{rt}―――ッ。		
+B21.0178	line		【矢村】{rt}命ッ！？	【Yamura】{rt}Her life!?	
+B21.0179	line		【優鉢羅】{rt}全ての《大罪》と伊涼の命…。	【Uhatsura】{rt}All of the Great Sin, and Isuzu's life...	
+B21.0180	line		【優鉢羅】{rt}その二つが手に入れば、	【Uhatsura】{rt}Once I have both,	
+B21.0181	line		【優鉢羅】{rt}矢村と{name1}は、すぐさま{rt}夢の外へと返してやろう。	【Uhatsura】{rt}I'll send Yamura and {name1}{rt}straight out of the dream.	
+B21.0182	line		【優鉢羅】{rt}しかし、案ずるな、伊涼。	【Uhatsura】{rt}But fear not, Isuzu.	
+B21.0183	line		【優鉢羅】{rt}お前は犬死にする訳ではない。	【Uhatsura】{rt}You won't die for nothing.	
+B21.0184	line		【優鉢羅】{rt}例えるなら―――	【Uhatsura】{rt}You might say--	
+B21.0185	line		【優鉢羅】{rt}お前は、この世で比類無き程に{rt}大きな人柱となるのだ…。	【Uhatsura】{rt}you'll become a human pillar greater{rt}than any this world has known...	
+B21.0186	line		【優鉢羅】{rt}苦痛もない。	【Uhatsura】{rt}There's no pain.	
+B21.0187	line		【優鉢羅】{rt}安らかな夢の中で{rt}召されるのだ。	【Uhatsura】{rt}You'll pass away in a peaceful dream.	
+B21.0188	line		【矢村】{rt}目的はなんだッ！！	【Yamura】{rt}What's your aim!!	
+B21.0189	line		【矢村】{rt}何のためにそれを{rt}必要とするッ！？	【Yamura】{rt}What do you need them for!?	
+B21.0190	line		【優鉢羅】{rt}俺は伊涼に訊いているッ。	【Uhatsura】{rt}I'm asking Isuzu.	
+B21.0191	line		【優鉢羅】{rt}答を出すのは、お前ではない。	【Uhatsura】{rt}You're not the one to answer.	
+B21.0192	line		【優鉢羅】{rt}何のためか―――	【Uhatsura】{rt}What it's for--	
+B21.0193	line		【優鉢羅】{rt}それを知っていいのは、{rt}決意を固めた伊涼だけだ。	【Uhatsura】{rt}only Isuzu, once she's made up her{rt}mind, may know that.	
+B21.0194	line		【矢村】{rt}―――ッ。	【Yamura】{rt}--!	
 B21.0195	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
 B21.0196	line		【伊涼】{rt}俊―――。	【Isuzu】{rt}Shun--	
-B21.0197	line		【伊涼】{rt}私―――。		
+B21.0197	line		【伊涼】{rt}私―――。	【Isuzu】{rt}I--	
 B21.0198	line		【矢村】{rt}―――！？	【Yamura】{rt}--!?	
-B21.0199	line		【矢村】{rt}まさか…？		
+B21.0199	line		【矢村】{rt}まさか…？	【Yamura】{rt}Don't tell me...?	
 B21.0200	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
-B21.0201	line		【矢村】{rt}い、伊涼ッ。よせッ！！		
-B21.0202	line		【優鉢羅】{rt}伊涼よ。このままでは、{rt}お前たちは全員凍死だ。		
-B21.0203	line		【優鉢羅】{rt}勧請師がいなければ、		
-B21.0204	line		【優鉢羅】{rt}氏神もまた、外の世界へ{rt}出る事はできなくなる。		
-B21.0205	line		【優鉢羅】{rt}それは死と何ら変わらない。		
-B21.0206	line		【優鉢羅】{rt}答を出すなら、{rt}早くしたほうがいい。		
+B21.0201	line		【矢村】{rt}い、伊涼ッ。よせッ！！	【Yamura】{rt}I-Isuzu. Don't!!	
+B21.0202	line		【優鉢羅】{rt}伊涼よ。このままでは、{rt}お前たちは全員凍死だ。	【Uhatsura】{rt}Isuzu. At this rate, you'll all freeze to{rt}death.	
+B21.0203	line		【優鉢羅】{rt}勧請師がいなければ、	【Uhatsura】{rt}Without the Summoner,	
+B21.0204	line		【優鉢羅】{rt}氏神もまた、外の世界へ{rt}出る事はできなくなる。	【Uhatsura】{rt}the Ujigami can't leave for the outside{rt}world either.	
+B21.0205	line		【優鉢羅】{rt}それは死と何ら変わらない。	【Uhatsura】{rt}That's no different from death.	
+B21.0206	line		【優鉢羅】{rt}答を出すなら、{rt}早くしたほうがいい。	【Uhatsura】{rt}If you're going to answer, you'd better{rt}be quick.	
 B21.0207	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
-B21.0208	line		【伊涼】{rt}渡せば―――		
-B21.0209	line		【伊涼】{rt}渡せば、ふたりを帰して{rt}くれるの？		
-B21.0210	line		【伊涼】{rt}夢から出してくれる？		
-B21.0211	line		【優鉢羅】{rt}ああ。約束する。		
-B21.0212	line		【優鉢羅】{rt}冷気は消え、{rt}温かい体に戻れる。		
+B21.0208	line		【伊涼】{rt}渡せば―――	【Isuzu】{rt}If I give it--	
+B21.0209	line		【伊涼】{rt}渡せば、ふたりを帰して{rt}くれるの？	【Isuzu】{rt}if I give it to you, will you send them{rt}both back?	
+B21.0210	line		【伊涼】{rt}夢から出してくれる？	【Isuzu】{rt}Let them out of the dream?	
+B21.0211	line		【優鉢羅】{rt}ああ。約束する。	【Uhatsura】{rt}Yes. I promise.	
+B21.0212	line		【優鉢羅】{rt}冷気は消え、{rt}温かい体に戻れる。	【Uhatsura】{rt}The cold will vanish, and their bodies{rt}will be warm again.	
 B21.0213	line		【伊涼】{rt}{name1}くん―――。	【Isuzu】{rt}{name1}-kun--	
 B21.0214	line		【矢村】{rt}―――！！	【Yamura】{rt}--!!	
-B21.0215	line		【優鉢羅】{rt}氏神か？		
-B21.0216	line		【優鉢羅】{rt}あの氏神が持っているのか？		
+B21.0215	line		【優鉢羅】{rt}氏神か？	【Uhatsura】{rt}The Ujigami?	
+B21.0216	line		【優鉢羅】{rt}あの氏神が持っているのか？	【Uhatsura】{rt}That Ujigami has them?	
 B21.0217	line		【矢村】{rt}伊涼―――。	【Yamura】{rt}Isuzu--	
-B21.0218	line		【伊涼】{rt}俊、{name1}くん、私―――		
+B21.0218	line		【伊涼】{rt}俊、{name1}くん、私―――	【Isuzu】{rt}Shun, {name1}-kun, I--	
 B21.0219	line		【伊涼】{rt}{name2}ちゃん―――。	【Isuzu】{rt}{name2}-chan--	
-B21.0220	line		【優鉢羅】{rt}氏神か？		
-B21.0221	line		【優鉢羅】{rt}あの氏神が持っているのか？		
+B21.0220	line		【優鉢羅】{rt}氏神か？	【Uhatsura】{rt}The Ujigami?	
+B21.0221	line		【優鉢羅】{rt}あの氏神が持っているのか？	【Uhatsura】{rt}That Ujigami has them?	
 B21.0222	line		【矢村】{rt}伊涼―――。	【Yamura】{rt}Isuzu--	
-B21.0223	line		【伊涼】{rt}俊、{name2}ちゃん、{rt}私―――		
-B21.0224	line		【伊涼】{rt}私のせいでふたりが{rt}死んじゃうなんて、		
-B21.0225	line		【伊涼】{rt}我慢できないよッ。		
-B21.0226	line		【伊涼】{rt}ふたりは、闘う《力》を{rt}持ってる。		
-B21.0227	line		【伊涼】{rt}私がいなくたって大丈夫――。		
+B21.0223	line		【伊涼】{rt}俊、{name2}ちゃん、{rt}私―――	【Isuzu】{rt}Shun, {name2}-chan, I--	
+B21.0224	line		【伊涼】{rt}私のせいでふたりが{rt}死んじゃうなんて、	【Isuzu】{rt}I can't stand the thought	
+B21.0225	line		【伊涼】{rt}我慢できないよッ。	【Isuzu】{rt}of you two dying because of me.	
+B21.0226	line		【伊涼】{rt}ふたりは、闘う《力》を{rt}持ってる。	【Isuzu】{rt}You both have the Power to fight.	
+B21.0227	line		【伊涼】{rt}私がいなくたって大丈夫――。	【Isuzu】{rt}You'll be fine without me--	
 B21.0228	line		【矢村】{rt}伊涼ッ！！	【Yamura】{rt}Isuzu!!	
-B21.0229	line		【矢村】{rt}馬鹿な事をいうなッ！！		
+B21.0229	line		【矢村】{rt}馬鹿な事をいうなッ！！	【Yamura】{rt}Don't talk nonsense!!	
 B21.0230	line		【伊涼】{rt}お願い。	【Isuzu】{rt}Please.	
-B21.0231	line		【伊涼】{rt}{name1}くん。符を―――		
-B21.0232	line		【伊涼】{rt}{name2}ちゃん。符を―――		
+B21.0231	line		【伊涼】{rt}{name1}くん。符を―――	【Isuzu】{rt}{name1}-kun. The talismans--	
+B21.0232	line		【伊涼】{rt}{name2}ちゃん。符を―――	【Isuzu】{rt}{name2}-chan. The talismans--	
 B21.0233	line		【伊涼】{rt}{name1}くん…。	【Isuzu】{rt}{name1}-kun...	
 B21.0234	line		【伊涼】{rt}{name2}ちゃん…。	【Isuzu】{rt}{name2}-chan...	
-B21.0235	line		【優鉢羅】{rt}分かればそれで良い。		
-B21.0236	line		【矢村】{rt}{name1}、お前―――。		
-B21.0237	line		【優鉢羅】{rt}自分の《生》のために{rt}仲間を売る―――。		
-B21.0238	line		【優鉢羅】{rt}安心しろ。氏神。		
-B21.0239	line		【優鉢羅】{rt}俺は貴様を卑劣と{rt}嘲（あざけ）りはしない。		
-B21.0240	line		【優鉢羅】{rt}この極限状態ではそれとて{rt}ひとつの選択肢だ。		
-B21.0241	line		【優鉢羅】{rt}―――それは駄賃の代わりだ。		
-B21.0242	line		【優鉢羅】{rt}伊涼と、{rt}《大罪》が空ける隙間を、		
-B21.0243	line		【優鉢羅】{rt}それで埋めるがいい…。		
+B21.0235	line		【優鉢羅】{rt}分かればそれで良い。	【Uhatsura】{rt}As long as you understand.	
+B21.0236	line		【矢村】{rt}{name1}、お前―――。	【Yamura】{rt}{name1}, you--	
+B21.0237	line		【優鉢羅】{rt}自分の《生》のために{rt}仲間を売る―――。	【Uhatsura】{rt}Selling out a comrade for your own{rt}Life--	
+B21.0238	line		【優鉢羅】{rt}安心しろ。氏神。	【Uhatsura】{rt}Don't worry, Ujigami.	
+B21.0239	line		【優鉢羅】{rt}俺は貴様を卑劣と{rt}嘲（あざけ）りはしない。	【Uhatsura】{rt}I won't sneer at you as a coward.	
+B21.0240	line		【優鉢羅】{rt}この極限状態ではそれとて{rt}ひとつの選択肢だ。	【Uhatsura】{rt}In a situation this dire, that too is a{rt}choice.	
+B21.0241	line		【優鉢羅】{rt}―――それは駄賃の代わりだ。	【Uhatsura】{rt}--Take that as your tip.	
+B21.0242	line		【優鉢羅】{rt}伊涼と、{rt}《大罪》が空ける隙間を、	【Uhatsura】{rt}The gap that Isuzu and the Great Sin{rt}leave--	
+B21.0243	line		【優鉢羅】{rt}それで埋めるがいい…。	【Uhatsura】{rt}let it fill that...	
 B21.0244	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B21.0245	line		【優鉢羅】{rt}では、約束だ。		
-B21.0246	line		【優鉢羅】{rt}伊涼と《大罪》をこちらへ――		
-B21.0247	line		【優鉢羅】{rt}ぐおッ！？		
-B21.0248	line		【矢村】{rt}…{name1}。		
-B21.0249	line		【矢村】{rt}まさかお前、伊涼を見捨てる{rt}気じゃないだろうな？		
-B21.0250	line		【矢村】{rt}そんな勝手は俺が許さない{rt}ぞッ！！		
+B21.0245	line		【優鉢羅】{rt}では、約束だ。	【Uhatsura】{rt}Now, as promised.	
+B21.0246	line		【優鉢羅】{rt}伊涼と《大罪》をこちらへ――	【Uhatsura】{rt}Isuzu and the Great Sin, over here--	
+B21.0247	line		【優鉢羅】{rt}ぐおッ！？	【Uhatsura】{rt}Gwoh!?	
+B21.0248	line		【矢村】{rt}…{name1}。	【Yamura】{rt}...{name1}.	
+B21.0249	line		【矢村】{rt}まさかお前、伊涼を見捨てる{rt}気じゃないだろうな？	【Yamura】{rt}Don't tell me you mean to abandon{rt}Isuzu?	
+B21.0250	line		【矢村】{rt}そんな勝手は俺が許さない{rt}ぞッ！！	【Yamura】{rt}I won't allow anything so selfish!!	
 B21.0251	line		【伊涼】{rt}俊―――。	【Isuzu】{rt}Shun--	
-B21.0252	line		【矢村】{rt}破ッ！！		
-B21.0253	line		【優鉢羅】{rt}馬鹿なッ！！		
-B21.0254	line		【優鉢羅】{rt}氷壁を―――破壊しただと！？		
-B21.0255	line		【優鉢羅】{rt}この《氣》の昂ぶり…。		
-B21.0256	line		【優鉢羅】{rt}まさか勧請師の《氣》が{rt}ここまで上昇するとは――。		
-B21.0257	line		【優鉢羅】{rt}勧請師ッ！！		
-B21.0258	line		【優鉢羅】{rt}貴様、この娘の命運に{rt}介入しようというのだなッ。		
-B21.0259	line		【矢村】{rt}…その通りだッ。		
+B21.0252	line		【矢村】{rt}破ッ！！	【Yamura】{rt}HAAH!!	
+B21.0253	line		【優鉢羅】{rt}馬鹿なッ！！	【Uhatsura】{rt}Impossible!!	
+B21.0254	line		【優鉢羅】{rt}氷壁を―――破壊しただと！？	【Uhatsura】{rt}He--broke the ice wall!?	
+B21.0255	line		【優鉢羅】{rt}この《氣》の昂ぶり…。	【Uhatsura】{rt}This surge of Ki...	
+B21.0256	line		【優鉢羅】{rt}まさか勧請師の《氣》が{rt}ここまで上昇するとは――。	【Uhatsura】{rt}To think the Summoner's Ki could rise{rt}this high--	
+B21.0257	line		【優鉢羅】{rt}勧請師ッ！！	【Uhatsura】{rt}Summoner!!	
+B21.0258	line		【優鉢羅】{rt}貴様、この娘の命運に{rt}介入しようというのだなッ。	【Uhatsura】{rt}So you mean to interfere with this{rt}girl's fate.	
+B21.0259	line		【矢村】{rt}…その通りだッ。	【Yamura】{rt}...That's right.	
 B21.0260	line		【矢村】{rt}{name1}。	【Yamura】{rt}{name1}.	
-B21.0261	line		【矢村】{rt}お前にも手伝ってもらうぞッ。		
-B21.0262	line		【矢村】{rt}伊涼を救い出し―――		
-B21.0263	line		【矢村】{rt}優鉢羅ッ！！		
-B21.0264	line		【矢村】{rt}貴様の邪氣、{rt}祓ってやるッ！！		
-B21.0265	line		【矢村】{rt}諦めるな、伊涼ッ！！		
-B21.0266	line		【矢村】{rt}俺たちがお前をみすみす{rt}死なせる訳がないだろうッ！		
-B21.0267	line		【矢村】{rt}…こんなところでッ。		
-B21.0268	line		【優鉢羅】{rt}無駄だと言っているッ。		
-B21.0269	line		【優鉢羅】{rt}いかに強い感情をぶつけよう{rt}とも、その壁は破れん。		
-B21.0270	line		【優鉢羅】{rt}全て跳ね返し―――		
+B21.0261	line		【矢村】{rt}お前にも手伝ってもらうぞッ。	【Yamura】{rt}You're helping too.	
+B21.0262	line		【矢村】{rt}伊涼を救い出し―――	【Yamura】{rt}We'll rescue Isuzu--	
+B21.0263	line		【矢村】{rt}優鉢羅ッ！！	【Yamura】{rt}Uhatsura!!	
+B21.0264	line		【矢村】{rt}貴様の邪氣、{rt}祓ってやるッ！！	【Yamura】{rt}I'll purge your Miasma!!	
+B21.0265	line		【矢村】{rt}諦めるな、伊涼ッ！！	【Yamura】{rt}Don't give up, Isuzu!!	
+B21.0266	line		【矢村】{rt}俺たちがお前をみすみす{rt}死なせる訳がないだろうッ！	【Yamura】{rt}As if we'd just stand by and let you{rt}die!	
+B21.0267	line		【矢村】{rt}…こんなところでッ。	【Yamura】{rt}...Not in a place like this.	
+B21.0268	line		【優鉢羅】{rt}無駄だと言っているッ。	【Uhatsura】{rt}I told you, it's useless.	
+B21.0269	line		【優鉢羅】{rt}いかに強い感情をぶつけよう{rt}とも、その壁は破れん。	【Uhatsura】{rt}However strong the feelings you hurl{rt}at it, that wall won't break.	
+B21.0270	line		【優鉢羅】{rt}全て跳ね返し―――	【Uhatsura】{rt}It throws back everything--	
 B21.0271	line		【矢村】{rt}{name1}―――。	【Yamura】{rt}{name1}--	
-B21.0272	line		【優鉢羅】{rt}条件が飲めぬと言いたいのか？		
-B21.0273	line		【優鉢羅】{rt}良かろう。		
-B21.0274	line		【優鉢羅】{rt}三人揃ってこの夢の氷原で		
-B21.0275	line		【優鉢羅】{rt}死んでいくがいい―――		
-B21.0276	line		【優鉢羅】{rt}―――！？		
-B21.0277	line		【優鉢羅】{rt}何だッ！？		
-B21.0278	line		【優鉢羅】{rt}この《氣》の昂ぶりは！？		
-B21.0279	line		【優鉢羅】{rt}―――ッ！？		
-B21.0280	line		【矢村】{rt}{name1}ッ！！		
-B21.0281	line		【優鉢羅】{rt}こ、これほどまでの《力》を{rt}秘めていようとはッ―――。		
-B21.0282	line		【優鉢羅】{rt}おのれ氏神ッ。		
-B21.0283	line		【優鉢羅】{rt}氷壁を破壊し、この娘の命運に{rt}介入しようというのだなッ。		
-B21.0284	line		【優鉢羅】{rt}させてたまるかッ！！		
+B21.0272	line		【優鉢羅】{rt}条件が飲めぬと言いたいのか？	【Uhatsura】{rt}You mean you won't accept my{rt}terms?	
+B21.0273	line		【優鉢羅】{rt}良かろう。	【Uhatsura】{rt}Very well.	
+B21.0274	line		【優鉢羅】{rt}三人揃ってこの夢の氷原で	【Uhatsura】{rt}Then die, all three of you,	
+B21.0275	line		【優鉢羅】{rt}死んでいくがいい―――	【Uhatsura】{rt}on this dream's field of ice--	
+B21.0276	line		【優鉢羅】{rt}―――！？	【Uhatsura】{rt}--!?	
+B21.0277	line		【優鉢羅】{rt}何だッ！？	【Uhatsura】{rt}What!?	
+B21.0278	line		【優鉢羅】{rt}この《氣》の昂ぶりは！？	【Uhatsura】{rt}This surge of Ki!?	
+B21.0279	line		【優鉢羅】{rt}―――ッ！？	【Uhatsura】{rt}--!?	
+B21.0280	line		【矢村】{rt}{name1}ッ！！	【Yamura】{rt}{name1}!!	
+B21.0281	line		【優鉢羅】{rt}こ、これほどまでの《力》を{rt}秘めていようとはッ―――。	【Uhatsura】{rt}T-to think it held this much Power--	
+B21.0282	line		【優鉢羅】{rt}おのれ氏神ッ。	【Uhatsura】{rt}Damn you, Ujigami.	
+B21.0283	line		【優鉢羅】{rt}氷壁を破壊し、この娘の命運に{rt}介入しようというのだなッ。	【Uhatsura】{rt}You'd break the ice wall and interfere{rt}with this girl's fate.	
+B21.0284	line		【優鉢羅】{rt}させてたまるかッ！！	【Uhatsura】{rt}I won't let you!!	
