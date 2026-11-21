@@ -1,45 +1,45 @@
 id	kind	max	jp	en	notes
-A8.4.0000	line		【騎士】{rt}僕は…		
-A8.4.0001	line		【騎士】{rt}もっと強くなりたいんです。		
-A8.4.0002	line		【騎士】{rt}でも、負けるのが恐くて…		
-A8.4.0003	line		【騎士】{rt}傷付くのが恐くて…		
-A8.4.0004	line		【騎士】{rt}時々、逃げ出したくなることも{rt}…あります。		
-A8.4.0005	line		【騎士】{rt}どうすれば…良いんでしょう。		
-A8.4.0006	line		【騎士】{rt}僕は…		
-A8.4.0007	line		【騎士】{rt}どうすれば…		
+A8.4.0000	line		【騎士】{rt}僕は…	【Knight】{rt}I...	
+A8.4.0001	line		【騎士】{rt}もっと強くなりたいんです。	【Knight】{rt}want to get stronger.	
+A8.4.0002	line		【騎士】{rt}でも、負けるのが恐くて…	【Knight】{rt}But I'm scared of losing...	
+A8.4.0003	line		【騎士】{rt}傷付くのが恐くて…	【Knight】{rt}scared of getting hurt...	
+A8.4.0004	line		【騎士】{rt}時々、逃げ出したくなることも{rt}…あります。	【Knight】{rt}Sometimes I even... want to run{rt}away.	
+A8.4.0005	line		【騎士】{rt}どうすれば…良いんでしょう。	【Knight】{rt}What should I... do?	
+A8.4.0006	line		【騎士】{rt}僕は…	【Knight】{rt}I...	
+A8.4.0007	line		【騎士】{rt}どうすれば…	【Knight】{rt}What should I...	
 A8.4.0008	line		【騎士】{rt}……。	【Knight】{rt}......	
-A8.4.0009	line		【騎士】{rt}そう…ですよね。		
-A8.4.0010	line		【騎士】{rt}あなたには関係ない…。		
+A8.4.0009	line		【騎士】{rt}そう…ですよね。	【Knight】{rt}Of course... you're right.	
+A8.4.0010	line		【騎士】{rt}あなたには関係ない…。	【Knight】{rt}It's got nothing to do with you...	
 A8.4.0011	line		【騎士】{rt}……。	【Knight】{rt}......	
-A8.4.0012	line		【騎士】{rt}あ…、		
-A8.4.0013	line		【騎士】{rt}ありがとう…ございます。		
-A8.4.0014	line		【騎士】{rt}そんな風にいってもらえたら{rt}少し気が楽になりました。		
-A8.4.0015	line		【騎士】{rt}僕…もっと頑張ってみます！		
-A8.4.0016	line		【騎士】{rt}そう…ですよね。		
-A8.4.0017	line		【騎士】{rt}こんなこと聞かれても{rt}困りますよね…。		
-A8.4.0018	line		【騎士】{rt}僕は真面目に悩んでるんです！		
+A8.4.0012	line		【騎士】{rt}あ…、	【Knight】{rt}Oh...	
+A8.4.0013	line		【騎士】{rt}ありがとう…ございます。	【Knight】{rt}thank... you.	
+A8.4.0014	line		【騎士】{rt}そんな風にいってもらえたら{rt}少し気が楽になりました。	【Knight】{rt}Hearing you say that makes me feel a{rt}little better.	
+A8.4.0015	line		【騎士】{rt}僕…もっと頑張ってみます！	【Knight】{rt}I'll... I'll try harder!	
+A8.4.0016	line		【騎士】{rt}そう…ですよね。	【Knight】{rt}Of course... you're right.	
+A8.4.0017	line		【騎士】{rt}こんなこと聞かれても{rt}困りますよね…。	【Knight】{rt}Being asked this must be awkward for{rt}you...	
+A8.4.0018	line		【騎士】{rt}僕は真面目に悩んでるんです！	【Knight】{rt}I'm worrying about this seriously!	
 A8.4.0019	line		【騎士】{rt}……。	【Knight】{rt}......	
-A8.4.0020	line		【騎士】{rt}そんな風にいってもらえたら{rt}少し気が楽になりました。		
-A8.4.0021	line		【騎士】{rt}僕…もっと頑張ってみます！		
-A8.4.0022	line		【騎士】{rt}ありがとうございました！		
-A8.4.0023	line		【騎士】{rt}そう…ですよね。		
-A8.4.0024	line		【騎士】{rt}深く考えても{rt}仕様がないですよね。		
-A8.4.0025	line		【騎士】{rt}それより帰って修行に{rt}励みます！		
-A8.4.0026	line		【騎士】{rt}ありがとうございました！		
-A8.4.0027	line		【騎士】{rt}あ…		
-A8.4.0028	line		【騎士】{rt}あの…すいません。		
-A8.4.0029	line		【騎士】{rt}情けないこといっちゃって、		
-A8.4.0030	line		【騎士】{rt}なんか…恥ずかしいです。		
-A8.4.0031	line		【騎士】{rt}強くなりたいんだったら、		
-A8.4.0032	line		【騎士】{rt}こんなことしてる暇ない{rt}ですよね。		
-A8.4.0033	line		【騎士】{rt}それより帰って修行に{rt}励みます！		
-A8.4.0034	line		【騎士】{rt}そう…ですよね。		
-A8.4.0035	line		【騎士】{rt}答えは自分でださなくちゃ{rt}ダメ…なんですよね！		
-A8.4.0036	line		【騎士】{rt}なんだか{rt}情けないこといっちゃて		
-A8.4.0037	line		【騎士】{rt}本当に、{rt}すいませんでした！		
+A8.4.0020	line		【騎士】{rt}そんな風にいってもらえたら{rt}少し気が楽になりました。	【Knight】{rt}Hearing you say that makes me feel a{rt}little better.	
+A8.4.0021	line		【騎士】{rt}僕…もっと頑張ってみます！	【Knight】{rt}I'll... I'll try harder!	
+A8.4.0022	line		【騎士】{rt}ありがとうございました！	【Knight】{rt}Thank you very much!	
+A8.4.0023	line		【騎士】{rt}そう…ですよね。	【Knight】{rt}Of course... you're right.	
+A8.4.0024	line		【騎士】{rt}深く考えても{rt}仕様がないですよね。	【Knight】{rt}No use thinking too hard about it,{rt}right?	
+A8.4.0025	line		【騎士】{rt}それより帰って修行に{rt}励みます！	【Knight】{rt}I'll go home and work hard at training{rt}instead!	
+A8.4.0026	line		【騎士】{rt}ありがとうございました！	【Knight】{rt}Thank you very much!	
+A8.4.0027	line		【騎士】{rt}あ…	【Knight】{rt}Oh...	
+A8.4.0028	line		【騎士】{rt}あの…すいません。	【Knight】{rt}um... I'm sorry.	
+A8.4.0029	line		【騎士】{rt}情けないこといっちゃって、	【Knight】{rt}Saying such pathetic things,	
+A8.4.0030	line		【騎士】{rt}なんか…恥ずかしいです。	【Knight】{rt}it's kind of... embarrassing.	
+A8.4.0031	line		【騎士】{rt}強くなりたいんだったら、	【Knight】{rt}If I want to get stronger,	
+A8.4.0032	line		【騎士】{rt}こんなことしてる暇ない{rt}ですよね。	【Knight】{rt}I don't have time for this, do I?	
+A8.4.0033	line		【騎士】{rt}それより帰って修行に{rt}励みます！	【Knight】{rt}I'll go home and work hard at training{rt}instead!	
+A8.4.0034	line		【騎士】{rt}そう…ですよね。	【Knight】{rt}Of course... you're right.	
+A8.4.0035	line		【騎士】{rt}答えは自分でださなくちゃ{rt}ダメ…なんですよね！	【Knight】{rt}I have to find the answer myself...{rt}right!	
+A8.4.0036	line		【騎士】{rt}なんだか{rt}情けないこといっちゃて	【Knight】{rt}I said such pathetic things,	
+A8.4.0037	line		【騎士】{rt}本当に、{rt}すいませんでした！	【Knight】{rt}I'm really sorry!	
 A8.4.0038	line		【騎士】{rt}……。	【Knight】{rt}......	
-A8.4.0039	line		【騎士】{rt}多分、僕は―――		
-A8.4.0040	line		【騎士】{rt}誰かにそんな風に…{rt}いって欲しかったんです。		
-A8.4.0041	line		【騎士】{rt}本当に…。		
-A8.4.0042	line		【騎士】{rt}甘えたこといってすみません。		
-A8.4.0043	line		【騎士】{rt}僕、これからもがんばります！		
+A8.4.0039	line		【騎士】{rt}多分、僕は―――	【Knight】{rt}I think I--	
+A8.4.0040	line		【騎士】{rt}誰かにそんな風に…{rt}いって欲しかったんです。	【Knight】{rt}wanted someone to tell me that.	
+A8.4.0041	line		【騎士】{rt}本当に…。	【Knight】{rt}Really...	
+A8.4.0042	line		【騎士】{rt}甘えたこといってすみません。	【Knight】{rt}I'm sorry for being so needy.	
+A8.4.0043	line		【騎士】{rt}僕、これからもがんばります！	【Knight】{rt}I'll keep doing my best!	

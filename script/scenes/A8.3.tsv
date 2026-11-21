@@ -1,39 +1,39 @@
 id	kind	max	jp	en	notes
-A8.3.0000	line		【信じる者】{rt}―――どうして僕には{rt}《力》がないんだろう…。		
-A8.3.0001	line		【信じる者】{rt}《力》があれば、護れるのに！		
-A8.3.0002	line		【信じる者】{rt}大切な人も、故郷も、みんな…		
-A8.3.0003	line		【信じる者】{rt}大きな《力》を得るには、{rt}何が必要なのでしょうか？		
-A8.3.0004	line		【信じる者】{rt}どんな心を持ち続ける事が{rt}大切なのでしょうか？		
-A8.3.0005	line		【信じる者】{rt}無の心…ですか？		
-A8.3.0006	line		【信じる者】{rt}心を無にして世界を感じ取る、		
-A8.3.0007	line		【信じる者】{rt}そういう事なんですね。		
-A8.3.0008	line		【信じる者】{rt}ありがとう！		
-A8.3.0009	line		【信じる者】{rt}僕、何とかやってみます！		
-A8.3.0010	line		【信じる者】{rt}愛…ですか？		
-A8.3.0011	line		【信じる者】{rt}人を愛する心が《力》を生む。		
-A8.3.0012	line		【信じる者】{rt}なるほど…わかりました。		
-A8.3.0013	line		【信じる者】{rt}おわかりにならないですか。		
-A8.3.0014	line		【信じる者】{rt}そうですか、そうですよね…。		
-A8.3.0015	line		【信じる者】{rt}……。		
-A8.3.0016	line		【信じる者】{rt}どうして笑うんですかッ！？		
-A8.3.0017	line		【信じる者】{rt}僕は真面目に…！		
-A8.3.0018	line		【信じる者】{rt}そ、そうかッ！		
-A8.3.0019	line		【信じる者】{rt}どんな時にも常に{rt}笑えるだけの余裕を持て、		
-A8.3.0020	line		【信じる者】{rt}…ということですね？		
-A8.3.0021	line		【信じる者】{rt}ありがとうございましたッ！		
-A8.3.0022	line		【信じる者】{rt}友を大切に想う心…		
-A8.3.0023	line		【信じる者】{rt}その心が《力》の源になる…！		
-A8.3.0024	line		【信じる者】{rt}なるほど…わかりました。		
-A8.3.0025	line		【信じる者】{rt}何事にも動じない心が大切…		
-A8.3.0026	line		【信じる者】{rt}と、いうことか…。		
-A8.3.0027	line		【信じる者】{rt}なるほど…わかりました。		
-A8.3.0028	line		【信じる者】{rt}悲しみを乗り越えた時、{rt}新しい力が生まれる…。		
-A8.3.0029	line		【信じる者】{rt}なるほど…		
-A8.3.0030	line		【信じる者】{rt}わかるような、気がします。		
-A8.3.0031	line		【信じる者】{rt}常に冷静に事を構える。		
-A8.3.0032	line		【信じる者】{rt}そういった心構えが必要…。		
-A8.3.0033	line		【信じる者】{rt}なるほど、よくわかりました！		
-A8.3.0034	line		【信じる者】{rt}怒りや、憎しみ…		
-A8.3.0035	line		【信じる者】{rt}そういったものが《力》の源…		
-A8.3.0036	line		【信じる者】{rt}なるほど…		
-A8.3.0037	line		【信じる者】{rt}わかるような、気がします。		
+A8.3.0000	line		【信じる者】{rt}―――どうして僕には{rt}《力》がないんだろう…。	【Believer】{rt}--Why don't I have any Power...?	
+A8.3.0001	line		【信じる者】{rt}《力》があれば、護れるのに！	【Believer】{rt}If I had Power, I could protect them!	
+A8.3.0002	line		【信じる者】{rt}大切な人も、故郷も、みんな…	【Believer】{rt}The people I care about, my hometown,{rt}everyone...	
+A8.3.0003	line		【信じる者】{rt}大きな《力》を得るには、{rt}何が必要なのでしょうか？	【Believer】{rt}What does it take to gain great{rt}Power?	
+A8.3.0004	line		【信じる者】{rt}どんな心を持ち続ける事が{rt}大切なのでしょうか？	【Believer】{rt}What kind of heart is it important to{rt}keep?	
+A8.3.0005	line		【信じる者】{rt}無の心…ですか？	【Believer】{rt}An empty mind... you say?	
+A8.3.0006	line		【信じる者】{rt}心を無にして世界を感じ取る、	【Believer】{rt}Empty your mind and feel the world,	
+A8.3.0007	line		【信じる者】{rt}そういう事なんですね。	【Believer】{rt}that's what you mean, isn't it?	
+A8.3.0008	line		【信じる者】{rt}ありがとう！	【Believer】{rt}Thank you!	
+A8.3.0009	line		【信じる者】{rt}僕、何とかやってみます！	【Believer】{rt}I'll do my best to try it!	
+A8.3.0010	line		【信じる者】{rt}愛…ですか？	【Believer】{rt}Love... you say?	
+A8.3.0011	line		【信じる者】{rt}人を愛する心が《力》を生む。	【Believer】{rt}A heart that loves others gives birth{rt}to Power.	
+A8.3.0012	line		【信じる者】{rt}なるほど…わかりました。	【Believer】{rt}I see... I understand.	
+A8.3.0013	line		【信じる者】{rt}おわかりにならないですか。	【Believer】{rt}You don't know either?	
+A8.3.0014	line		【信じる者】{rt}そうですか、そうですよね…。	【Believer】{rt}I see, of course not...	
+A8.3.0015	line		【信じる者】{rt}……。	【Believer】{rt}.......	
+A8.3.0016	line		【信じる者】{rt}どうして笑うんですかッ！？	【Believer】{rt}Why are you laughing!?	
+A8.3.0017	line		【信じる者】{rt}僕は真面目に…！	【Believer】{rt}I'm being serious...!	
+A8.3.0018	line		【信じる者】{rt}そ、そうかッ！	【Believer】{rt}O-oh, I get it!	
+A8.3.0019	line		【信じる者】{rt}どんな時にも常に{rt}笑えるだけの余裕を持て、	【Believer】{rt}Always keep enough composure to{rt}laugh, no matter what,	
+A8.3.0020	line		【信じる者】{rt}…ということですね？	【Believer】{rt}...is that what you mean?	
+A8.3.0021	line		【信じる者】{rt}ありがとうございましたッ！	【Believer】{rt}Thank you very much!	
+A8.3.0022	line		【信じる者】{rt}友を大切に想う心…	【Believer】{rt}A heart that cherishes friends...	
+A8.3.0023	line		【信じる者】{rt}その心が《力》の源になる…！	【Believer】{rt}that heart becomes the source of{rt}Power...!	
+A8.3.0024	line		【信じる者】{rt}なるほど…わかりました。	【Believer】{rt}I see... I understand.	
+A8.3.0025	line		【信じる者】{rt}何事にも動じない心が大切…	【Believer】{rt}A heart that's unshaken by anything is{rt}what matters...	
+A8.3.0026	line		【信じる者】{rt}と、いうことか…。	【Believer】{rt}is that it...	
+A8.3.0027	line		【信じる者】{rt}なるほど…わかりました。	【Believer】{rt}I see... I understand.	
+A8.3.0028	line		【信じる者】{rt}悲しみを乗り越えた時、{rt}新しい力が生まれる…。	【Believer】{rt}When you overcome sorrow, a new{rt}power is born...	
+A8.3.0029	line		【信じる者】{rt}なるほど…	【Believer】{rt}I see...	
+A8.3.0030	line		【信じる者】{rt}わかるような、気がします。	【Believer】{rt}I think I sort of understand.	
+A8.3.0031	line		【信じる者】{rt}常に冷静に事を構える。	【Believer】{rt}Always face things calmly.	
+A8.3.0032	line		【信じる者】{rt}そういった心構えが必要…。	【Believer】{rt}That's the mindset I need...	
+A8.3.0033	line		【信じる者】{rt}なるほど、よくわかりました！	【Believer】{rt}I see, I understand perfectly!	
+A8.3.0034	line		【信じる者】{rt}怒りや、憎しみ…	【Believer】{rt}Anger, hatred...	
+A8.3.0035	line		【信じる者】{rt}そういったものが《力》の源…	【Believer】{rt}those are the source of Power...	
+A8.3.0036	line		【信じる者】{rt}なるほど…	【Believer】{rt}I see...	
+A8.3.0037	line		【信じる者】{rt}わかるような、気がします。	【Believer】{rt}I think I sort of understand.	

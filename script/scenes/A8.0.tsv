@@ -1,40 +1,40 @@
 id	kind	max	jp	en	notes
-A8.0.0000	line		【静謐なる拳士】{rt}あの…あなたは、		
-A8.0.0001	line		【静謐なる拳士】{rt}自分にないものを{rt}持っている人を、		
-A8.0.0002	line		【静謐なる拳士】{rt}ねたんだり、恨んだり…、		
-A8.0.0003	line		【静謐なる拳士】{rt}してしまったことは{rt}ありますか？		
-A8.0.0004	line		【静謐なる拳士】{rt}あの…、		
-A8.0.0005	line		【静謐なる拳士】{rt}……。		
-A8.0.0006	line		【静謐なる拳士】{rt}つまらない事を聞いてしまって{rt}すいませんでした…。		
-A8.0.0007	line		【静謐なる拳士】{rt}そ、そうですか。		
-A8.0.0008	line		【静謐なる拳士】{rt}……。		
-A8.0.0009	line		【静謐なる拳士】{rt}変なことを聞いてしまって、{rt}すいませんでした。		
-A8.0.0010	line		【静謐なる拳士】{rt}…あなたはいいひとですね。		
-A8.0.0011	line		【静謐なる拳士】{rt}もう気にしないでください。		
-A8.0.0012	line		【静謐なる拳士】{rt}変なことをきいてしまって、{rt}すいませんでした。		
-A8.0.0013	line		【静謐なる拳士】{rt}え…？		
-A8.0.0014	line		【静謐なる拳士】{rt}そんなに喜ぶようなことじゃ、{rt}ないとおもうんですけど…。		
-A8.0.0015	line		【静謐なる拳士】{rt}……。		
-A8.0.0016	line		【静謐なる拳士】{rt}…そうですね。		
-A8.0.0017	line		【静謐なる拳士】{rt}本当は良くないことだけど、		
-A8.0.0018	line		【静謐なる拳士】{rt}―――兄さんは、僕と正反対で		
-A8.0.0019	line		【静謐なる拳士】{rt}僕にはないものばかり{rt}持っている。		
-A8.0.0020	line		【静謐なる拳士】{rt}でもそれは、裏を返せば、		
-A8.0.0021	line		【静謐なる拳士】{rt}互いに足りない部分を、補い{rt}あえるということでもある。		
-A8.0.0022	line		【静謐なる拳士】{rt}そう考えられるようになれば{rt}いいと思うんですけれどね。		
-A8.0.0023	line		【静謐なる拳士】{rt}そうですか…。		
-A8.0.0024	line		【静謐なる拳士】{rt}僕も時々、そんな風に考えて{rt}しまいそうな時があります。		
-A8.0.0025	line		【静謐なる拳士】{rt}本当は良くないことだと{rt}わかっているんですけど、		
-A8.0.0026	line		【静謐なる拳士】{rt}……。		
-A8.0.0027	line		【静謐なる拳士】{rt}そう…、ですよね。		
-A8.0.0028	line		【静謐なる拳士】{rt}そんな風に考えるのは、{rt}よくないですよね…。		
-A8.0.0029	line		【静謐なる拳士】{rt}変なことをきいてしまって、{rt}すいませんでした。		
-A8.0.0030	line		【静謐なる拳士】{rt}…そうですか。		
-A8.0.0031	line		【静謐なる拳士】{rt}つまらない事を聞いてしまって{rt}すいませんでした…。		
-A8.0.0032	line		【静謐なる拳士】{rt}…そうですよね。		
-A8.0.0033	line		【静謐なる拳士】{rt}そんなのは、{rt}よくないですよね。		
-A8.0.0034	line		【静謐なる拳士】{rt}自分は自分で、{rt}他の誰かとは違う。		
-A8.0.0035	line		【静謐なる拳士】{rt}それに、{rt}努力もせずにねたんだり、		
-A8.0.0036	line		【静謐なる拳士】{rt}恨んだりするのは{rt}筋違いですよね。		
-A8.0.0037	line		【静謐なる拳士】{rt}わかってたはずなのに、{rt}なんだか自信がなくて…。		
-A8.0.0038	line		【静謐なる拳士】{rt}変なことをきいてしまって、{rt}すいませんでした。		
+A8.0.0000	line		【静謐なる拳士】{rt}あの…あなたは、	【Serene Fist】{rt}Um... have you ever	
+A8.0.0001	line		【静謐なる拳士】{rt}自分にないものを{rt}持っている人を、	【Serene Fist】{rt}envied someone who has what you{rt}don't,	
+A8.0.0002	line		【静謐なる拳士】{rt}ねたんだり、恨んだり…、	【Serene Fist】{rt}or resented them...	
+A8.0.0003	line		【静謐なる拳士】{rt}してしまったことは{rt}ありますか？	【Serene Fist】{rt}without meaning to?	
+A8.0.0004	line		【静謐なる拳士】{rt}あの…、	【Serene Fist】{rt}Um...	
+A8.0.0005	line		【静謐なる拳士】{rt}……。	【Serene Fist】{rt}.......	
+A8.0.0006	line		【静謐なる拳士】{rt}つまらない事を聞いてしまって{rt}すいませんでした…。	【Serene Fist】{rt}I'm sorry for asking something so{rt}trivial...	
+A8.0.0007	line		【静謐なる拳士】{rt}そ、そうですか。	【Serene Fist】{rt}I-I see.	
+A8.0.0008	line		【静謐なる拳士】{rt}……。	【Serene Fist】{rt}.......	
+A8.0.0009	line		【静謐なる拳士】{rt}変なことを聞いてしまって、{rt}すいませんでした。	【Serene Fist】{rt}I'm sorry for asking something{rt}strange.	
+A8.0.0010	line		【静謐なる拳士】{rt}…あなたはいいひとですね。	【Serene Fist】{rt}...You're a good person.	
+A8.0.0011	line		【静謐なる拳士】{rt}もう気にしないでください。	【Serene Fist】{rt}Please don't worry about it any{rt}more.	
+A8.0.0012	line		【静謐なる拳士】{rt}変なことをきいてしまって、{rt}すいませんでした。	【Serene Fist】{rt}I'm sorry for asking something{rt}strange.	
+A8.0.0013	line		【静謐なる拳士】{rt}え…？	【Serene Fist】{rt}Huh...?	
+A8.0.0014	line		【静謐なる拳士】{rt}そんなに喜ぶようなことじゃ、{rt}ないとおもうんですけど…。	【Serene Fist】{rt}I don't think that's anything to be so{rt}happy about...	
+A8.0.0015	line		【静謐なる拳士】{rt}……。	【Serene Fist】{rt}.......	
+A8.0.0016	line		【静謐なる拳士】{rt}…そうですね。	【Serene Fist】{rt}...That's right.	
+A8.0.0017	line		【静謐なる拳士】{rt}本当は良くないことだけど、	【Serene Fist】{rt}I know it's not a good thing, but	
+A8.0.0018	line		【静謐なる拳士】{rt}―――兄さんは、僕と正反対で	【Serene Fist】{rt}--my brother is my complete{rt}opposite,	
+A8.0.0019	line		【静謐なる拳士】{rt}僕にはないものばかり{rt}持っている。	【Serene Fist】{rt}and he has everything I don't.	
+A8.0.0020	line		【静謐なる拳士】{rt}でもそれは、裏を返せば、	【Serene Fist】{rt}But turn that around,	
+A8.0.0021	line		【静謐なる拳士】{rt}互いに足りない部分を、補い{rt}あえるということでもある。	【Serene Fist】{rt}and it means we can each make up for{rt}what the other lacks.	
+A8.0.0022	line		【静謐なる拳士】{rt}そう考えられるようになれば{rt}いいと思うんですけれどね。	【Serene Fist】{rt}I wish I could learn to see it that{rt}way.	
+A8.0.0023	line		【静謐なる拳士】{rt}そうですか…。	【Serene Fist】{rt}I see...	
+A8.0.0024	line		【静謐なる拳士】{rt}僕も時々、そんな風に考えて{rt}しまいそうな時があります。	【Serene Fist】{rt}Sometimes I almost catch myself{rt}thinking like that too.	
+A8.0.0025	line		【静謐なる拳士】{rt}本当は良くないことだと{rt}わかっているんですけど、	【Serene Fist】{rt}I know it's not a good thing, but,	
+A8.0.0026	line		【静謐なる拳士】{rt}……。	【Serene Fist】{rt}.......	
+A8.0.0027	line		【静謐なる拳士】{rt}そう…、ですよね。	【Serene Fist】{rt}Yes... you're right.	
+A8.0.0028	line		【静謐なる拳士】{rt}そんな風に考えるのは、{rt}よくないですよね…。	【Serene Fist】{rt}Thinking that way isn't good, is it...	
+A8.0.0029	line		【静謐なる拳士】{rt}変なことをきいてしまって、{rt}すいませんでした。	【Serene Fist】{rt}I'm sorry for asking something{rt}strange.	
+A8.0.0030	line		【静謐なる拳士】{rt}…そうですか。	【Serene Fist】{rt}...I see.	
+A8.0.0031	line		【静謐なる拳士】{rt}つまらない事を聞いてしまって{rt}すいませんでした…。	【Serene Fist】{rt}I'm sorry for asking something so{rt}trivial...	
+A8.0.0032	line		【静謐なる拳士】{rt}…そうですよね。	【Serene Fist】{rt}...You're right.	
+A8.0.0033	line		【静謐なる拳士】{rt}そんなのは、{rt}よくないですよね。	【Serene Fist】{rt}That kind of thing isn't good.	
+A8.0.0034	line		【静謐なる拳士】{rt}自分は自分で、{rt}他の誰かとは違う。	【Serene Fist】{rt}I'm me, and different from anyone{rt}else.	
+A8.0.0035	line		【静謐なる拳士】{rt}それに、{rt}努力もせずにねたんだり、	【Serene Fist】{rt}And besides, envying or resenting{rt}others	
+A8.0.0036	line		【静謐なる拳士】{rt}恨んだりするのは{rt}筋違いですよね。	【Serene Fist】{rt}without making any effort myself is{rt}just wrong.	
+A8.0.0037	line		【静謐なる拳士】{rt}わかってたはずなのに、{rt}なんだか自信がなくて…。	【Serene Fist】{rt}I should have known that, but somehow{rt}I lost my confidence...	
+A8.0.0038	line		【静謐なる拳士】{rt}変なことをきいてしまって、{rt}すいませんでした。	【Serene Fist】{rt}I'm sorry for asking something{rt}strange.	

@@ -1,40 +1,40 @@
 id	kind	max	jp	en	notes
-A8.1.0000	line		【厳格な才女】{rt}素朴な疑問なのよ。		
-A8.1.0001	line		【厳格な才女】{rt}厳しくて堅いって言われるのと		
-A8.1.0002	line		【厳格な才女】{rt}いいかげんでだらしないって、		
-A8.1.0003	line		【厳格な才女】{rt}…言われるのと、		
-A8.1.0004	line		【厳格な才女】{rt}どっちがいいのかしら…ね？		
-A8.1.0005	line		【厳格な才女】{rt}……		
-A8.1.0006	line		【厳格な才女】{rt}そうね、こういう事は{rt}自分で考えるべきなのかも。		
-A8.1.0007	line		【厳格な才女】{rt}しょうがないと思う時もある。		
-A8.1.0008	line		【厳格な才女】{rt}けどね！		
-A8.1.0009	line		【厳格な才女】{rt}ツライって思う時もあるのよ。		
-A8.1.0010	line		【厳格な才女】{rt}なっ！		
-A8.1.0011	line		【厳格な才女】{rt}何を言ってるの？		
-A8.1.0012	line		【厳格な才女】{rt}ひ、人の話を聞かないって、{rt}言われた事…ない？		
-A8.1.0013	line		【厳格な才女】{rt}ありがとう。		
-A8.1.0014	line		【厳格な才女】{rt}あなたが考えてくれた。		
-A8.1.0015	line		【厳格な才女】{rt}それだけで…うれしい。		
-A8.1.0016	line		【厳格な才女】{rt}……		
-A8.1.0017	line		【厳格な才女】{rt}そうね、こういう事は{rt}自分で考えるべきなのかも。		
-A8.1.0018	line		【厳格な才女】{rt}しょうがないと思う時もある。		
-A8.1.0019	line		【厳格な才女】{rt}けどね！		
-A8.1.0020	line		【厳格な才女】{rt}ツライって思う時もあるのよ。		
-A8.1.0021	line		【厳格な才女】{rt}ありがとう。		
-A8.1.0022	line		【厳格な才女】{rt}悩みなんてものじゃないの。		
-A8.1.0023	line		【厳格な才女】{rt}ただ少し、思ったの。		
-A8.1.0024	line		【厳格な才女】{rt}どっちがいいのかなぁ～って。		
-A8.1.0025	line		【厳格な才女】{rt}それだけなんだけど。		
-A8.1.0026	line		【厳格な才女】{rt}そうでしょう？		
-A8.1.0027	line		【厳格な才女】{rt}くだらないことなんだけど…		
-A8.1.0028	line		【厳格な才女】{rt}中途半端が苦手なのよね。		
-A8.1.0029	line		【厳格な才女】{rt}ありがとう。		
-A8.1.0030	line		【厳格な才女】{rt}あなたが考えてくれた。		
-A8.1.0031	line		【厳格な才女】{rt}それだけで…うれしい。		
-A8.1.0032	line		【厳格な才女】{rt}……		
-A8.1.0033	line		【厳格な才女】{rt}そうね、こういう事は自分で{rt}考えるべきなのかもね。		
-A8.1.0034	line		【厳格な才女】{rt}それじゃあ。		
-A8.1.0035	line		【厳格な才女】{rt}お、怒らなくたって！		
-A8.1.0036	line		【厳格な才女】{rt}私、私だって別に{rt}別に…！		
-A8.1.0037	line		【厳格な才女】{rt}つ、つまらない事{rt}聞いちゃったわ。		
-A8.1.0038	line		【厳格な才女】{rt}じゃあ…		
+A8.1.0000	line		【厳格な才女】{rt}素朴な疑問なのよ。	【Strict Prodigy】{rt}It's just a simple question.	
+A8.1.0001	line		【厳格な才女】{rt}厳しくて堅いって言われるのと	【Strict Prodigy】{rt}Being called strict and uptight,	
+A8.1.0002	line		【厳格な才女】{rt}いいかげんでだらしないって、	【Strict Prodigy】{rt}or being called sloppy and careless...	
+A8.1.0003	line		【厳格な才女】{rt}…言われるのと、	【Strict Prodigy】{rt}...being called that,	
+A8.1.0004	line		【厳格な才女】{rt}どっちがいいのかしら…ね？	【Strict Prodigy】{rt}which is better, I wonder...?	
+A8.1.0005	line		【厳格な才女】{rt}……	【Strict Prodigy】{rt}......	
+A8.1.0006	line		【厳格な才女】{rt}そうね、こういう事は{rt}自分で考えるべきなのかも。	【Strict Prodigy】{rt}You're right, maybe this is something I{rt}should think about myself.	
+A8.1.0007	line		【厳格な才女】{rt}しょうがないと思う時もある。	【Strict Prodigy】{rt}Sometimes I think it can't be helped.	
+A8.1.0008	line		【厳格な才女】{rt}けどね！	【Strict Prodigy】{rt}But still!	
+A8.1.0009	line		【厳格な才女】{rt}ツライって思う時もあるのよ。	【Strict Prodigy】{rt}Sometimes it's hard, you know.	
+A8.1.0010	line		【厳格な才女】{rt}なっ！	【Strict Prodigy】{rt}Wha--!	
+A8.1.0011	line		【厳格な才女】{rt}何を言ってるの？	【Strict Prodigy】{rt}What are you saying?	
+A8.1.0012	line		【厳格な才女】{rt}ひ、人の話を聞かないって、{rt}言われた事…ない？	【Strict Prodigy】{rt}H-hasn't anyone ever told you that you{rt}don't listen?	
+A8.1.0013	line		【厳格な才女】{rt}ありがとう。	【Strict Prodigy】{rt}Thank you.	
+A8.1.0014	line		【厳格な才女】{rt}あなたが考えてくれた。	【Strict Prodigy】{rt}You thought about it for me.	
+A8.1.0015	line		【厳格な才女】{rt}それだけで…うれしい。	【Strict Prodigy】{rt}That alone... makes me happy.	
+A8.1.0016	line		【厳格な才女】{rt}……	【Strict Prodigy】{rt}......	
+A8.1.0017	line		【厳格な才女】{rt}そうね、こういう事は{rt}自分で考えるべきなのかも。	【Strict Prodigy】{rt}You're right, maybe this is something I{rt}should think about myself.	
+A8.1.0018	line		【厳格な才女】{rt}しょうがないと思う時もある。	【Strict Prodigy】{rt}Sometimes I think it can't be helped.	
+A8.1.0019	line		【厳格な才女】{rt}けどね！	【Strict Prodigy】{rt}But still!	
+A8.1.0020	line		【厳格な才女】{rt}ツライって思う時もあるのよ。	【Strict Prodigy】{rt}Sometimes it's hard, you know.	
+A8.1.0021	line		【厳格な才女】{rt}ありがとう。	【Strict Prodigy】{rt}Thank you.	
+A8.1.0022	line		【厳格な才女】{rt}悩みなんてものじゃないの。	【Strict Prodigy】{rt}It's not a worry or anything.	
+A8.1.0023	line		【厳格な才女】{rt}ただ少し、思ったの。	【Strict Prodigy】{rt}I just got to thinking a little.	
+A8.1.0024	line		【厳格な才女】{rt}どっちがいいのかなぁ～って。	【Strict Prodigy】{rt}About which one is better, you{rt}know~.	
+A8.1.0025	line		【厳格な才女】{rt}それだけなんだけど。	【Strict Prodigy】{rt}That's all it is.	
+A8.1.0026	line		【厳格な才女】{rt}そうでしょう？	【Strict Prodigy】{rt}Right?	
+A8.1.0027	line		【厳格な才女】{rt}くだらないことなんだけど…	【Strict Prodigy】{rt}It's silly, but...	
+A8.1.0028	line		【厳格な才女】{rt}中途半端が苦手なのよね。	【Strict Prodigy】{rt}I'm no good with half-measures.	
+A8.1.0029	line		【厳格な才女】{rt}ありがとう。	【Strict Prodigy】{rt}Thank you.	
+A8.1.0030	line		【厳格な才女】{rt}あなたが考えてくれた。	【Strict Prodigy】{rt}You thought about it for me.	
+A8.1.0031	line		【厳格な才女】{rt}それだけで…うれしい。	【Strict Prodigy】{rt}That alone... makes me happy.	
+A8.1.0032	line		【厳格な才女】{rt}……	【Strict Prodigy】{rt}......	
+A8.1.0033	line		【厳格な才女】{rt}そうね、こういう事は自分で{rt}考えるべきなのかもね。	【Strict Prodigy】{rt}You're right, maybe this is something I{rt}should think about myself.	
+A8.1.0034	line		【厳格な才女】{rt}それじゃあ。	【Strict Prodigy】{rt}See you, then.	
+A8.1.0035	line		【厳格な才女】{rt}お、怒らなくたって！	【Strict Prodigy】{rt}Y-you don't have to get angry!	
+A8.1.0036	line		【厳格な才女】{rt}私、私だって別に{rt}別に…！	【Strict Prodigy】{rt}It's not like I, I was...!	
+A8.1.0037	line		【厳格な才女】{rt}つ、つまらない事{rt}聞いちゃったわ。	【Strict Prodigy】{rt}I-I asked something silly.	
+A8.1.0038	line		【厳格な才女】{rt}じゃあ…	【Strict Prodigy】{rt}Well then...	
