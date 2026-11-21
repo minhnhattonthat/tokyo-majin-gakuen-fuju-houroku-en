@@ -1,231 +1,231 @@
 id	kind	max	jp	en	notes
-B08.0000	line		【少年】{rt}（１６０……１７０……。）		
-B08.0001	line		【少年】{rt}（…まだだ。）		
-B08.0002	line		【少年】{rt}（１８０……１９０……。）		
-B08.0003	line		【少年】{rt}（２００ッ―――。）		
-B08.0004	line		【少年】{rt}（…もっと。）		
-B08.0005	line		【少年】{rt}（もっとだ！！）		
-B08.0006	line		【警官】{rt}そこのバイク！！{rt}止まりなさい！！		
-B08.0007	line		【警官】{rt}こ、こらァッ！！		
-B08.0008	line		【警官】{rt}止まりなさい―――ッ。		
-B08.0009	line		【少年】{rt}（２１０……２２０ッ！！）		
-B08.0010	line		【少年】{rt}（おおッ！！）		
-B08.0011	line		【少年】{rt}（オオオッ！！）		
-B08.0012	line		【少年】{rt}（もっとだッ―――！！）		
-B08.0013	line		【少年の声】{rt}（この―――）		
-B08.0014	line		【少年の声】{rt}（この腹の中の熱いものは{rt}　何だ？）		
-B08.0015	line		【少年】{rt}（ボクは―――死んだのか？）		
-B08.0016	line		【少年】{rt}（いや。）		
-B08.0017	line		【少年】{rt}（死んじゃいない…。）		
-B08.0018	line		【少年】{rt}（その証拠に、腹の底が{rt}　燃えるように熱い。）		
-B08.0019	line		【少年】{rt}（でも、まだだ。）		
-B08.0020	line		【少年】{rt}（ボクはこれをもっと熱く{rt}　しなければならない。）		
-B08.0021	line		【少年】{rt}（身体が動く。）		
-B08.0022	line		【少年】{rt}（そのために。）		
-B08.0023	line		【少年】{rt}（もっと熱い《力》を{rt}　呑み込むためだけに。）		
-B08.0024	line		【ＴＶ】{rt}しかし、奇妙な事件ですね。		
-B08.0025	line		【ＴＶ】{rt}昏睡状態の少年が姿を消す…。		
-B08.0026	line		【ＴＶ】{rt}窓が割られていたところを{rt}見ると、誘拐ですか？		
-B08.0027	line		【ＴＶ】{rt}まさか。		
-B08.0028	line		【ＴＶ】{rt}大病院の七階ですよ？		
-B08.0029	line		【ＴＶ】{rt}しかし、昏睡状態の少年が{rt}自力で逃げ出したというのは		
-B08.0030	line		【ＴＶ】{rt}ますます考えられない事{rt}なのでは―――		
-B08.0031	line		【少年の声】{rt}（鷲って、いいよなあ。）		
-B08.0032	line		【少年の声】{rt}（鷲ってさ、食物連鎖では…		
-B08.0033	line		【少年の声】{rt}　頂点に位置するらしいよ。）		
-B08.0034	line		【少年の声】{rt}（ほら―――{rt}　三角形の一番とんがり。）		
-B08.0035	line		【少年の声】{rt}（大空を自由に飛べてさ、		
-B08.0036	line		【少年の声】{rt}　いつでも、{rt}　見下ろす立場にいる。）		
-B08.0037	line		【少年の声】{rt}（人間？）		
-B08.0038	line		【少年の声】{rt}（人間はダメさ。）		
-B08.0039	line		【少年の声】{rt}（ダラクするじゃない。）		
-B08.0040	line		【少年の声】{rt}（鷲はダラクしない。）		
-B08.0041	line		【少年の声】{rt}（だから、いいんだ。）		
-B08.0042	line		【無線】{rt}甲州街道幡ヶ谷付近。		
-B08.0043	line		【無線】{rt}自動車１４台による玉突き事故{rt}が発生。		
-B08.0044	line		【無線】{rt}原因は不明。		
-B08.0045	line		【無線】{rt}負傷した複数のドライバーが{rt}巨大な鳥のような形の影を		
-B08.0046	line		【無線】{rt}相次いで目撃したと証言して{rt}いる。		
-B08.0047	line		【無線】{rt}どうぞ―――。		
-B08.0048	line		【警官】{rt}―――で？		
-B08.0049	line		【ドライバー】{rt}ほ、本当なんだよッ。		
-B08.0050	line		【ドライバー】{rt}空を覆うような馬鹿でかい鳥が		
-B08.0051	line		【ドライバー】{rt}ものすごいスピードで{rt}突っ込んできたんだ！！		
-B08.0052	line		【ドライバー】{rt}嘘じゃねえよッ―――		
-B08.0053	line		【少年の声】{rt}（ポケットの中には、{rt}　大きな鳥の羽が		
-B08.0054	line		【少年の声】{rt}　いっぱい詰まってた。）		
-B08.0055	line		【少年の声】{rt}（いつの間に？）		
-B08.0056	line		【少年の声】{rt}（この、身体の芯に残る{rt}　疾走感は一体―――？）		
-B08.0057	line		【少年の声】{rt}（だめだ。）		
-B08.0058	line		【少年の声】{rt}（思い出せない。）		
-B08.0059	line		【少年の声】{rt}（羽―――。）		
-B08.0060	line		【少年の声】{rt}（これが、この退屈な世界から{rt}　飛び立つための―――		
-B08.0061	line		【少年の声】{rt}　ボクの羽なのか…？）		
-B08.0062	line		【天気予報】{rt}さて、日が落ちてから		
-B08.0063	line		【天気予報】{rt}いっそうの賑わいを見せる{rt}新宿歌舞伎町ですが―――		
-B08.0064	line		【天気予報】{rt}ここ数日、寒さが急に増した{rt}せいか		
-B08.0065	line		【天気予報】{rt}路上で意識を失ってしまう人が{rt}いるそうです。		
-B08.0066	line		【天気予報】{rt}お酒に酔った直後に		
-B08.0067	line		【天気予報】{rt}冷えきった外気に{rt}触れたためでしょうか―――		
-B08.0068	line		【少年の声】{rt}（夜の歌舞伎町は、{rt}　暗いエネルギーの塊だ。）		
-B08.0069	line		【少年の声】{rt}（暗い《力》を生み出す、{rt}　極彩色のエンジン。）		
-B08.0070	line		【少年の声】{rt}（《力》を、遠慮なく{rt}　もらっていくよ。）		
-B08.0071	line		【少年の声】{rt}（ボクにはやり遂げなくちゃ{rt}　ならない事があるから。）		
-B08.0072	line		【少年の声】{rt}（そのために―――）		
-B08.0073	line		【少年の声】{rt}―――！？		
-B08.0074	line		【少年】{rt}この匂いは―――。		
-B08.0075	line		【少年】{rt}くくッ！！		
-B08.0076	line		【少年】{rt}兎狩りはもうお終いだ。		
-B08.0077	line		【少年】{rt}ついに見つけたぞッ。		
-B08.0078	line		【少年】{rt}幻の巨象―――		
-B08.0079	line		【少年】{rt}いや。{rt}それ以上の獲物をッ。		
-B08.0080	line		【少年の声】{rt}クククク…。		
-B08.0081	line		【少年の声】{rt}夜遅くに失礼するよ。		
-B08.0082	line		【少年の声】{rt}おっと―――		
-B08.0083	line		【少年の声】{rt}妙な事は考えちゃいけないよ。		
-B08.0084	line		【少年の声】{rt}眠りを妨げられて不機嫌に{rt}なるのはキミだけでいい。		
-B08.0085	line		【少年の声】{rt}用件はなるべく簡単に{rt}話す事にするよ。		
-B08.0086	line		【少年の声】{rt}ボクは―――		
-B08.0087	line		【少年】{rt}キミのその《力》が欲しい。		
-B08.0088	line		【少年】{rt}ボクはそのために{rt}ここへ来たんだ。		
-B08.0089	line		【少年】{rt}ボクの鼻はごまかせないぜ？		
-B08.0090	line		【少年】{rt}キミの《力》は、歌舞伎町まで{rt}その匂いを漂わせていた。		
-B08.0091	line		【少年】{rt}真に欲する者にはそれが分かる		
-B08.0092	line		【少年】{rt}どうだい？		
-B08.0093	line		【少年】{rt}目を覚ます価値くらいは{rt}あるだろう？		
-B08.0094	line		【少年】{rt}クックックッ。		
-B08.0095	line		【少年】{rt}そいつは良かった。		
-B08.0096	line		【少年】{rt}キミを見つけるまでは{rt}大変だったんだぜ？		
-B08.0097	line		【少年】{rt}愉快な奴だな、キミは。		
-B08.0098	line		【少年】{rt}こんな、のらりくらりとした{rt}奴が		
-B08.0099	line		【少年】{rt}そんな《力》を持っている{rt}とは…		
-B08.0100	line		【少年】{rt}全く、不公平としか{rt}言いようがないね。		
-B08.0101	line		【少年】{rt}キミを見つけるまでは{rt}大変だったんだぜ？		
-B08.0102	line		【少年】{rt}そんな目、するなよ。		
-B08.0103	line		【少年】{rt}キミの今の目は、《力》の{rt}強い者が弱い者に向ける、		
-B08.0104	line		【少年】{rt}蔑（さげす）みの目だぜ？		
-B08.0105	line		【少年】{rt}まあ―――{rt}キミの言いたい事も分かる。		
-B08.0106	line		【少年】{rt}だが、こう見えても{rt}できる限りはやったんだ。		
-B08.0107	line		【少年】{rt}キミの言いたい事は分かるさ。		
-B08.0108	line		【少年】{rt}他力本願だってんだろ？		
-B08.0109	line		【少年】{rt}だが、こう見えても{rt}できる限りはやったんだ。		
-B08.0110	line		【少年】{rt}喧嘩、暴走、破壊―――		
-B08.0111	line		【少年】{rt}努力っていうやつだよ。		
-B08.0112	line		【少年】{rt}だけど、そんなもんだ。		
-B08.0113	line		【少年】{rt}それでお終いだった。		
-B08.0114	line		【少年】{rt}ボクのようなたかが高校生に		
-B08.0115	line		【少年】{rt}手に入る破壊力なんて、{rt}そんなもんさ。		
-B08.0116	line		【少年】{rt}刺し殺して下さいと言わんばか{rt}りに中年腹を揺らしてる		
-B08.0117	line		【少年】{rt}サラリーマンの群れすら{rt}絶滅できやしない…。		
-B08.0118	line		【少年】{rt}ボクにはもっと大きな《力》が{rt}必要なんだ…。		
-B08.0119	line		【少年】{rt}ドでかい《力》さえ{rt}手にする事ができたら、		
-B08.0120	line		【少年】{rt}ボクひとりだってこの世を{rt}ぶち壊す事ができるッ。		
-B08.0121	line		【少年】{rt}違うかい？		
-B08.0122	line		【少年】{rt}分かってるじゃないか。		
-B08.0123	line		【少年】{rt}ボクの言ってる事には{rt}イマイチ賛同できないって？		
-B08.0124	line		【少年】{rt}それはお門違いだぜ？		
-B08.0125	line		【少年】{rt}ボクに破壊衝動を起こさせる{rt}ような		
-B08.0126	line		【少年】{rt}ろくでもないこの世が{rt}悪いんだ！！		
-B08.0127	line		【少年】{rt}ボクは《力》をためこむ。		
-B08.0128	line		【少年】{rt}ためこむだけためこんで、一発{rt}でこの世をおじゃんにできる		
-B08.0129	line		【少年】{rt}核弾頭みたいな《力》を創る。		
-B08.0130	line		【少年】{rt}キミは羨ましいくらい{rt}強い《力》を持っている。		
-B08.0131	line		【少年】{rt}ボクはキミよりもその《力》を{rt}有効に活用する自信がある。		
-B08.0132	line		【少年】{rt}《力》にとってボクは最も{rt}ふさわしい人間…		
-B08.0133	line		【少年】{rt}適性者なんだよ。		
-B08.0134	line		【少年】{rt}だから、キミの持ってるそれを{rt}―――よこせ。		
-B08.0135	line		【少年】{rt}よこせ。		
-B08.0136	line		【少年】{rt}よこせッ！！		
-B08.0137	line		【少年の声】{rt}クククッ…。		
-B08.0138	line		【少年の声】{rt}こいつはいい。		
-B08.0139	line		【少年の声】{rt}まさか、祠とはね。		
-B08.0140	line		【少年の声】{rt}確かにコイツは、{rt}ただモンじゃないはずだ。		
-B08.0141	line		【少年の声】{rt}…来てもらうよ。		
-B08.0142	line		【少年の声】{rt}ボクと一緒に―――！！		
-B08.0143	line		【少年の声】{rt}くくくく…。		
-B08.0144	line		【少年の声】{rt}さすがに		
-B08.0145	line		【少年の声】{rt}驚いているようだね？		
-B08.0146	line		【少年の声】{rt}眠りを妨げられ、		
-B08.0147	line		【少年の声】{rt}おまけに薄暗い祠の中から、		
-B08.0148	line		【少年の声】{rt}気がつけば歌舞伎町なんかへ{rt}跳んでる…。		
-B08.0149	line		【少年の声】{rt}簡潔にいおうか。		
-B08.0150	line		【少年の声】{rt}ボクは―――		
-B08.0151	line		【少年】{rt}キミのその《力》が欲しい。		
-B08.0152	line		【少年】{rt}ボクはそのためにキミを呼んだ{rt}…。		
-B08.0153	line		【少年】{rt}ボクの鼻はごまかせないぜ？{rt}キミの《力》は―――		
-B08.0154	line		【少年】{rt}この歌舞伎町まで{rt}その匂いを漂わせていた。		
-B08.0155	line		【少年】{rt}真に欲する者にはそれが{rt}分かる…。		
-B08.0156	line		【少年】{rt}くくく…。		
-B08.0157	line		【少年】{rt}悪くないだろ？		
-B08.0158	line		【少年】{rt}キミが目を覚ます価値くらいは{rt}しっかりあるってわけだ。		
-B08.0159	line		【少年】{rt}ボクは欲した―――。		
-B08.0160	line		【少年】{rt}キミのような《力》を持った{rt}者を見つける事。		
-B08.0161	line		【少年】{rt}あの薄暗い祠の中で、		
-B08.0162	line		【少年】{rt}どういうわけか目に見えない姿{rt}で閉じ込められていたキミを		
-B08.0163	line		【少年】{rt}この場へ連れ出す事――。		
-B08.0164	line		【少年】{rt}ボクは、大きな《力》を{rt}手に入れなけりゃならない。		
-B08.0165	line		【少年】{rt}怠惰に怠惰を重ねた、		
-B08.0166	line		【少年】{rt}見るも醜い幾億{rt}もの人間どもを		
-B08.0167	line		【少年】{rt}なぎ倒せるような{rt}《力》を―――。		
-B08.0168	line		【少年】{rt}ちょっと前までは、{rt}そんなのは遠い夢だった。		
-B08.0169	line		【少年】{rt}だが、今は違う！！		
-B08.0170	line		【少年】{rt}ボクには、欲し、		
-B08.0171	line		【少年】{rt}それを手に入れる権利と、{rt}《力》がある！！		
-B08.0172	line		【少年】{rt}ドでかい《力》さえ{rt}手にする事ができたら、		
-B08.0173	line		【少年】{rt}ボクひとりだってこの世を{rt}ぶち壊す事ができるッ。		
-B08.0174	line		【少年】{rt}違うかい？		
-B08.0175	line		【少年】{rt}分かってるじゃないか。		
-B08.0176	line		【少年】{rt}ボクの言ってる事には		
-B08.0177	line		【少年】{rt}イマイチ賛同できないって？		
-B08.0178	line		【少年】{rt}それはお門違いだぜ？		
-B08.0179	line		【少年】{rt}ボクに破壊衝動を起こさせる{rt}ような		
-B08.0180	line		【少年】{rt}ろくでもないこの世が悪い{rt}んだ！！		
-B08.0181	line		【少年】{rt}ボクは《力》をためこむ。		
-B08.0182	line		【少年】{rt}ためこむだけためこんで、一発{rt}でこの世をおじゃんにできる		
-B08.0183	line		【少年】{rt}核弾頭みたいな《力》を創る。		
-B08.0184	line		【少年】{rt}そして、それを成し遂げる{rt}だけの《力》が、		
-B08.0185	line		【少年】{rt}今、キミの手にあるんだ…。		
-B08.0186	line		【少年】{rt}くく…。		
-B08.0187	line		【少年】{rt}正直にいおうか。		
-B08.0188	line		【少年】{rt}本当はキミを殺して、キミから{rt}《力》を奪おうと思った。		
-B08.0189	line		【少年】{rt}だが、こうしてキミと{rt}面と向かって見ると―――		
-B08.0190	line		【少年】{rt}まあ、早い話が、ボクは{rt}キミを殺したくはないんだ。		
-B08.0191	line		【少年】{rt}キミは強い《力》を持ってる{rt}し、醜くもない。		
-B08.0192	line		【少年】{rt}この世の堕落を消し去る{rt}ために、		
-B08.0193	line		【少年】{rt}ボクの隣においてあげても{rt}いいんだよ。		
-B08.0194	line		【少年】{rt}クククッ…。		
-B08.0195	line		【少年】{rt}どうだい？		
-B08.0196	line		【少年】{rt}考えるまでもないと{rt}思うけどね…？		
-B08.0197	line		【少年】{rt}…そうかい。		
-B08.0198	line		【少年】{rt}―――気が変わったよッ。		
-B08.0199	line		【少年】{rt}キミはそんな風にぺこぺこと{rt}従う女ではないと		
-B08.0200	line		【少年】{rt}思ってたんだが―――		
-B08.0201	line		【少年】{rt}ボクの期待が過ぎたようだ。		
-B08.0202	line		【少年】{rt}キミは堕落しているッ！！		
-B08.0203	line		【少年】{rt}くくくくッ…。		
-B08.0204	line		【少年】{rt}残念だよッ。		
-B08.0205	line		【少年】{rt}仕方ない―――		
-B08.0206	line		【少年】{rt}いいね。		
-B08.0207	line		【少年】{rt}何事も冷静に判断できる―――		
-B08.0208	line		【少年】{rt}キミのそんなところが{rt}好きだよ。		
-B08.0209	line		【少年】{rt}キミには欠けたところが{rt}ひとつもない…。		
-B08.0210	line		【少年】{rt}すごく綺麗だ―――。		
-B08.0211	line		【少年】{rt}バラバラにしてやりたい{rt}くらいにねッ！！		
-B08.0212	line		【少年】{rt}悩む？		
-B08.0213	line		【少年】{rt}何を悩む事が		
-B08.0214	line		【少年】{rt}あるっていうんだい？		
-B08.0215	line		【少年】{rt}どうやら―――		
-B08.0216	line		【少年】{rt}キミにはボクの考えは理解して{rt}もらえないようだねッ。		
-B08.0217	line		【少年】{rt}残念だよッ。		
-B08.0218	line		【少年】{rt}仕方ない―――		
-B08.0219	line		【少年】{rt}どんな誘惑の前でも{rt}自分の意思を貫きとおす…。		
-B08.0220	line		【少年】{rt}信じるべきものがはっきりと{rt}見えているからこそ、		
-B08.0221	line		【少年】{rt}《力》はキミに宿ったのかも{rt}しれないな…。		
-B08.0222	line		【少年】{rt}まあ、そんな事は{rt}どうでもいいさ。		
-B08.0223	line		【少年】{rt}どのみち、ボクのいう事は{rt}聞いてもらえない…。		
-B08.0224	line		【少年】{rt}くくくくッ…。		
-B08.0225	line		【少年】{rt}残念だよッ。		
-B08.0226	line		【少年】{rt}仕方ない―――		
-B08.0227	line		【少年】{rt}キミを殺し、キミから《力》を{rt}引きずり出すとしようッ！！		
-B08.0228	line		【少年】{rt}覚悟しなよッ！！		
-B08.0229	line		【少年】{rt}ハハハハッ！！		
+B08.0000	line		【少年】{rt}（１６０……１７０……。）	【Boy】{rt}(160... 170...)	
+B08.0001	line		【少年】{rt}（…まだだ。）	【Boy】{rt}(...Not yet.)	
+B08.0002	line		【少年】{rt}（１８０……１９０……。）	【Boy】{rt}(180... 190...)	
+B08.0003	line		【少年】{rt}（２００ッ―――。）	【Boy】{rt}(200--.)	
+B08.0004	line		【少年】{rt}（…もっと。）	【Boy】{rt}(...More.)	
+B08.0005	line		【少年】{rt}（もっとだ！！）	【Boy】{rt}(MORE!!)	
+B08.0006	line		【警官】{rt}そこのバイク！！{rt}止まりなさい！！	【Police Officer】{rt}You on the bike!! Pull over!!	
+B08.0007	line		【警官】{rt}こ、こらァッ！！	【Police Officer】{rt}H-hey!!	
+B08.0008	line		【警官】{rt}止まりなさい―――ッ。	【Police Officer】{rt}I said pull over--!	
+B08.0009	line		【少年】{rt}（２１０……２２０ッ！！）	【Boy】{rt}(210... 220!!)	
+B08.0010	line		【少年】{rt}（おおッ！！）	【Boy】{rt}(Ohh!!)	
+B08.0011	line		【少年】{rt}（オオオッ！！）	【Boy】{rt}(OHHH!!)	
+B08.0012	line		【少年】{rt}（もっとだッ―――！！）	【Boy】{rt}(More--!!)	
+B08.0013	line		【少年の声】{rt}（この―――）	【Boy's Voice】{rt}(This--)	
+B08.0014	line		【少年の声】{rt}（この腹の中の熱いものは{rt}　何だ？）	【Boy's Voice】{rt}(What is this hot thing inside my{rt}gut?)	
+B08.0015	line		【少年】{rt}（ボクは―――死んだのか？）	【Boy】{rt}(Am I--dead?)	
+B08.0016	line		【少年】{rt}（いや。）	【Boy】{rt}(No.)	
+B08.0017	line		【少年】{rt}（死んじゃいない…。）	【Boy】{rt}(I'm not dead...)	
+B08.0018	line		【少年】{rt}（その証拠に、腹の底が{rt}　燃えるように熱い。）	【Boy】{rt}(The proof is the pit of my stomach,{rt}burning hot.)	
+B08.0019	line		【少年】{rt}（でも、まだだ。）	【Boy】{rt}(But not yet.)	
+B08.0020	line		【少年】{rt}（ボクはこれをもっと熱く{rt}　しなければならない。）	【Boy】{rt}(I have to make it hotter still.)	
+B08.0021	line		【少年】{rt}（身体が動く。）	【Boy】{rt}(My body moves.)	
+B08.0022	line		【少年】{rt}（そのために。）	【Boy】{rt}(For that alone.)	
+B08.0023	line		【少年】{rt}（もっと熱い《力》を{rt}　呑み込むためだけに。）	【Boy】{rt}(Just to swallow down a hotter{rt}Power.)	
+B08.0024	line		【ＴＶ】{rt}しかし、奇妙な事件ですね。	【TV】{rt}It's a strange case, isn't it?	
+B08.0025	line		【ＴＶ】{rt}昏睡状態の少年が姿を消す…。	【TV】{rt}A comatose boy disappears...	
+B08.0026	line		【ＴＶ】{rt}窓が割られていたところを{rt}見ると、誘拐ですか？	【TV】{rt}Judging from the broken window, was{rt}it a kidnapping?	
+B08.0027	line		【ＴＶ】{rt}まさか。	【TV】{rt}Surely not.	
+B08.0028	line		【ＴＶ】{rt}大病院の七階ですよ？	【TV】{rt}This is the seventh floor of a major{rt}hospital.	
+B08.0029	line		【ＴＶ】{rt}しかし、昏睡状態の少年が{rt}自力で逃げ出したというのは	【TV】{rt}But a comatose boy escaping under his{rt}own power	
+B08.0030	line		【ＴＶ】{rt}ますます考えられない事{rt}なのでは―――	【TV】{rt}is even more unthinkable, surely--	
+B08.0031	line		【少年の声】{rt}（鷲って、いいよなあ。）	【Boy's Voice】{rt}(Eagles are great, aren't they?)	
+B08.0032	line		【少年の声】{rt}（鷲ってさ、食物連鎖では…	【Boy's Voice】{rt}(Eagles, you know, are supposedly at{rt}the top...	
+B08.0033	line		【少年の声】{rt}　頂点に位置するらしいよ。）	【Boy's Voice】{rt}of the food chain.)	
+B08.0034	line		【少年の声】{rt}（ほら―――{rt}　三角形の一番とんがり。）	【Boy's Voice】{rt}(See--the very tip of the triangle.)	
+B08.0035	line		【少年の声】{rt}（大空を自由に飛べてさ、	【Boy's Voice】{rt}(They can fly freely through the sky,	
+B08.0036	line		【少年の声】{rt}　いつでも、{rt}　見下ろす立場にいる。）	【Boy's Voice】{rt}always the ones looking down.)	
+B08.0037	line		【少年の声】{rt}（人間？）	【Boy's Voice】{rt}(Humans?)	
+B08.0038	line		【少年の声】{rt}（人間はダメさ。）	【Boy's Voice】{rt}(Humans are no good.)	
+B08.0039	line		【少年の声】{rt}（ダラクするじゃない。）	【Boy's Voice】{rt}(They go rotten, don't they?)	
+B08.0040	line		【少年の声】{rt}（鷲はダラクしない。）	【Boy's Voice】{rt}(Eagles never go rotten.)	
+B08.0041	line		【少年の声】{rt}（だから、いいんだ。）	【Boy's Voice】{rt}(That's why they're great.)	
+B08.0042	line		【無線】{rt}甲州街道幡ヶ谷付近。	【Radio】{rt}Koshu Kaido, near Hatagaya.	
+B08.0043	line		【無線】{rt}自動車１４台による玉突き事故{rt}が発生。	【Radio】{rt}A fourteen-car pile-up has occurred.	
+B08.0044	line		【無線】{rt}原因は不明。	【Radio】{rt}Cause unknown.	
+B08.0045	line		【無線】{rt}負傷した複数のドライバーが{rt}巨大な鳥のような形の影を	【Radio】{rt}Several injured drivers report{rt}seeing	
+B08.0046	line		【無線】{rt}相次いで目撃したと証言して{rt}いる。	【Radio】{rt}the shadow of what looked like a giant{rt}bird.	
+B08.0047	line		【無線】{rt}どうぞ―――。	【Radio】{rt}Over--.	
+B08.0048	line		【警官】{rt}―――で？	【Police Officer】{rt}--And?	
+B08.0049	line		【ドライバー】{rt}ほ、本当なんだよッ。	【Driver】{rt}I-it's true, I'm telling you!	
+B08.0050	line		【ドライバー】{rt}空を覆うような馬鹿でかい鳥が	【Driver】{rt}A huge bird big enough to cover the{rt}sky	
+B08.0051	line		【ドライバー】{rt}ものすごいスピードで{rt}突っ込んできたんだ！！	【Driver】{rt}came flying at us at incredible{rt}speed!!	
+B08.0052	line		【ドライバー】{rt}嘘じゃねえよッ―――	【Driver】{rt}I ain't lying--	
+B08.0053	line		【少年の声】{rt}（ポケットの中には、{rt}　大きな鳥の羽が	【Boy's Voice】{rt}(My pockets were stuffed	
+B08.0054	line		【少年の声】{rt}　いっぱい詰まってた。）	【Boy's Voice】{rt}full of big bird feathers.)	
+B08.0055	line		【少年の声】{rt}（いつの間に？）	【Boy's Voice】{rt}(When did that happen?)	
+B08.0056	line		【少年の声】{rt}（この、身体の芯に残る{rt}　疾走感は一体―――？）	【Boy's Voice】{rt}(This feeling of speed left deep in my{rt}body, what--?)	
+B08.0057	line		【少年の声】{rt}（だめだ。）	【Boy's Voice】{rt}(It's no good.)	
+B08.0058	line		【少年の声】{rt}（思い出せない。）	【Boy's Voice】{rt}(I can't remember.)	
+B08.0059	line		【少年の声】{rt}（羽―――。）	【Boy's Voice】{rt}(Feathers--.)	
+B08.0060	line		【少年の声】{rt}（これが、この退屈な世界から{rt}　飛び立つための―――	【Boy's Voice】{rt}(Are these the wings that will let me{rt}fly away from this boring world--	
+B08.0061	line		【少年の声】{rt}　ボクの羽なのか…？）	【Boy's Voice】{rt}my wings...?)	
+B08.0062	line		【天気予報】{rt}さて、日が落ちてから	【Weather Report】{rt}Now, Shinjuku's Kabukicho, which only{rt}gets livelier	
+B08.0063	line		【天気予報】{rt}いっそうの賑わいを見せる{rt}新宿歌舞伎町ですが―――	【Weather Report】{rt}after the sun goes down--	
+B08.0064	line		【天気予報】{rt}ここ数日、寒さが急に増した{rt}せいか	【Weather Report】{rt}perhaps because of the sudden cold{rt}these past few days,	
+B08.0065	line		【天気予報】{rt}路上で意識を失ってしまう人が{rt}いるそうです。	【Weather Report】{rt}people have reportedly been passing{rt}out in the street.	
+B08.0066	line		【天気予報】{rt}お酒に酔った直後に	【Weather Report】{rt}Perhaps it's from being exposed to the{rt}freezing air	
+B08.0067	line		【天気予報】{rt}冷えきった外気に{rt}触れたためでしょうか―――	【Weather Report】{rt}right after drinking--	
+B08.0068	line		【少年の声】{rt}（夜の歌舞伎町は、{rt}　暗いエネルギーの塊だ。）	【Boy's Voice】{rt}(Kabukicho at night is a mass of dark{rt}energy.)	
+B08.0069	line		【少年の声】{rt}（暗い《力》を生み出す、{rt}　極彩色のエンジン。）	【Boy's Voice】{rt}(A gaudy engine that churns out dark{rt}Power.)	
+B08.0070	line		【少年の声】{rt}（《力》を、遠慮なく{rt}　もらっていくよ。）	【Boy's Voice】{rt}(I'll help myself to that Power, don't{rt}mind me.)	
+B08.0071	line		【少年の声】{rt}（ボクにはやり遂げなくちゃ{rt}　ならない事があるから。）	【Boy's Voice】{rt}(Because there's something I have to{rt}accomplish.)	
+B08.0072	line		【少年の声】{rt}（そのために―――）	【Boy's Voice】{rt}(And for that--)	
+B08.0073	line		【少年の声】{rt}―――！？	【Boy's Voice】{rt}--!?	
+B08.0074	line		【少年】{rt}この匂いは―――。	【Boy】{rt}This smell--.	
+B08.0075	line		【少年】{rt}くくッ！！	【Boy】{rt}Heh heh!!	
+B08.0076	line		【少年】{rt}兎狩りはもうお終いだ。	【Boy】{rt}No more hunting rabbits.	
+B08.0077	line		【少年】{rt}ついに見つけたぞッ。	【Boy】{rt}I've finally found it.	
+B08.0078	line		【少年】{rt}幻の巨象―――	【Boy】{rt}The phantom mammoth--	
+B08.0079	line		【少年】{rt}いや。{rt}それ以上の獲物をッ。	【Boy】{rt}no. Prey even greater than that.	
+B08.0080	line		【少年の声】{rt}クククク…。	【Boy's Voice】{rt}Heh heh heh heh...	
+B08.0081	line		【少年の声】{rt}夜遅くに失礼するよ。	【Boy's Voice】{rt}Sorry to drop in so late at night.	
+B08.0082	line		【少年の声】{rt}おっと―――	【Boy's Voice】{rt}Whoa--	
+B08.0083	line		【少年の声】{rt}妙な事は考えちゃいけないよ。	【Boy's Voice】{rt}don't go getting any funny ideas.	
+B08.0084	line		【少年の声】{rt}眠りを妨げられて不機嫌に{rt}なるのはキミだけでいい。	【Boy's Voice】{rt}You're the only one who needs to be{rt}cranky about being woken up.	
+B08.0085	line		【少年の声】{rt}用件はなるべく簡単に{rt}話す事にするよ。	【Boy's Voice】{rt}I'll keep this as short as I can.	
+B08.0086	line		【少年の声】{rt}ボクは―――	【Boy's Voice】{rt}I--	
+B08.0087	line		【少年】{rt}キミのその《力》が欲しい。	【Boy】{rt}want that Power of yours.	
+B08.0088	line		【少年】{rt}ボクはそのために{rt}ここへ来たんだ。	【Boy】{rt}That's why I came here.	
+B08.0089	line		【少年】{rt}ボクの鼻はごまかせないぜ？	【Boy】{rt}You can't fool my nose, y'know?	
+B08.0090	line		【少年】{rt}キミの《力》は、歌舞伎町まで{rt}その匂いを漂わせていた。	【Boy】{rt}The smell of your Power drifted all the{rt}way to Kabukicho.	
+B08.0091	line		【少年】{rt}真に欲する者にはそれが分かる	【Boy】{rt}Those who truly crave it can tell.	
+B08.0092	line		【少年】{rt}どうだい？	【Boy】{rt}How about it?	
+B08.0093	line		【少年】{rt}目を覚ます価値くらいは{rt}あるだろう？	【Boy】{rt}Worth waking up for, at least, isn't{rt}it?	
+B08.0094	line		【少年】{rt}クックックッ。	【Boy】{rt}Heh heh heh.	
+B08.0095	line		【少年】{rt}そいつは良かった。	【Boy】{rt}Glad to hear it.	
+B08.0096	line		【少年】{rt}キミを見つけるまでは{rt}大変だったんだぜ？	【Boy】{rt}It was a real pain finding you,{rt}y'know?	
+B08.0097	line		【少年】{rt}愉快な奴だな、キミは。	【Boy】{rt}You're an amusing one.	
+B08.0098	line		【少年】{rt}こんな、のらりくらりとした{rt}奴が	【Boy】{rt}That someone this slippery and{rt}easygoing	
+B08.0099	line		【少年】{rt}そんな《力》を持っている{rt}とは…	【Boy】{rt}should have such Power...	
+B08.0100	line		【少年】{rt}全く、不公平としか{rt}言いようがないね。	【Boy】{rt}I can only call it unfair.	
+B08.0101	line		【少年】{rt}キミを見つけるまでは{rt}大変だったんだぜ？	【Boy】{rt}It was a real pain finding you,{rt}y'know?	
+B08.0102	line		【少年】{rt}そんな目、するなよ。	【Boy】{rt}Don't look at me like that.	
+B08.0103	line		【少年】{rt}キミの今の目は、《力》の{rt}強い者が弱い者に向ける、	【Boy】{rt}The look in your eyes is the look of{rt}contempt	
+B08.0104	line		【少年】{rt}蔑（さげす）みの目だぜ？	【Boy】{rt}the Powerful give to the weak,{rt}y'know?	
+B08.0105	line		【少年】{rt}まあ―――{rt}キミの言いたい事も分かる。	【Boy】{rt}Well--I get what you want to say.	
+B08.0106	line		【少年】{rt}だが、こう見えても{rt}できる限りはやったんだ。	【Boy】{rt}But believe it or not, I did all I could.	
+B08.0107	line		【少年】{rt}キミの言いたい事は分かるさ。	【Boy】{rt}I know what you want to say.	
+B08.0108	line		【少年】{rt}他力本願だってんだろ？	【Boy】{rt}That I'm relying on others, right?	
+B08.0109	line		【少年】{rt}だが、こう見えても{rt}できる限りはやったんだ。	【Boy】{rt}But believe it or not, I did all I could.	
+B08.0110	line		【少年】{rt}喧嘩、暴走、破壊―――	【Boy】{rt}Fights, joyriding, wrecking stuff--	
+B08.0111	line		【少年】{rt}努力っていうやつだよ。	【Boy】{rt}what you'd call effort.	
+B08.0112	line		【少年】{rt}だけど、そんなもんだ。	【Boy】{rt}But that's all it was.	
+B08.0113	line		【少年】{rt}それでお終いだった。	【Boy】{rt}And that was the end of it.	
+B08.0114	line		【少年】{rt}ボクのようなたかが高校生に	【Boy】{rt}The destructive power a mere{rt}high-schooler	
+B08.0115	line		【少年】{rt}手に入る破壊力なんて、{rt}そんなもんさ。	【Boy】{rt}like me can get his hands on is nothing{rt}much.	
+B08.0116	line		【少年】{rt}刺し殺して下さいと言わんばか{rt}りに中年腹を揺らしてる	【Boy】{rt}I can't even wipe out the herds of{rt}salarymen	
+B08.0117	line		【少年】{rt}サラリーマンの群れすら{rt}絶滅できやしない…。	【Boy】{rt}jiggling their middle-aged bellies like{rt}they're begging to be stabbed...	
+B08.0118	line		【少年】{rt}ボクにはもっと大きな《力》が{rt}必要なんだ…。	【Boy】{rt}I need a bigger Power...	
+B08.0119	line		【少年】{rt}ドでかい《力》さえ{rt}手にする事ができたら、	【Boy】{rt}If I could just get my hands on a huge{rt}Power,	
+B08.0120	line		【少年】{rt}ボクひとりだってこの世を{rt}ぶち壊す事ができるッ。	【Boy】{rt}I could smash this world to bits all by{rt}myself!	
+B08.0121	line		【少年】{rt}違うかい？	【Boy】{rt}Am I wrong?	
+B08.0122	line		【少年】{rt}分かってるじゃないか。	【Boy】{rt}So you get it.	
+B08.0123	line		【少年】{rt}ボクの言ってる事には{rt}イマイチ賛同できないって？	【Boy】{rt}You can't quite agree with what I'm{rt}saying?	
+B08.0124	line		【少年】{rt}それはお門違いだぜ？	【Boy】{rt}You've got it backwards, y'know.	
+B08.0125	line		【少年】{rt}ボクに破壊衝動を起こさせる{rt}ような	【Boy】{rt}It's this rotten world's fault	
+B08.0126	line		【少年】{rt}ろくでもないこの世が{rt}悪いんだ！！	【Boy】{rt}for making me want to destroy{rt}things!!	
+B08.0127	line		【少年】{rt}ボクは《力》をためこむ。	【Boy】{rt}I'm going to store up Power.	
+B08.0128	line		【少年】{rt}ためこむだけためこんで、一発{rt}でこの世をおじゃんにできる	【Boy】{rt}Store up as much as I can, and make a{rt}Power like a nuclear warhead	
+B08.0129	line		【少年】{rt}核弾頭みたいな《力》を創る。	【Boy】{rt}that can wreck this world in a single{rt}shot.	
+B08.0130	line		【少年】{rt}キミは羨ましいくらい{rt}強い《力》を持っている。	【Boy】{rt}You have an enviably strong Power.	
+B08.0131	line		【少年】{rt}ボクはキミよりもその《力》を{rt}有効に活用する自信がある。	【Boy】{rt}I'm sure I can make better use of that{rt}Power than you can.	
+B08.0132	line		【少年】{rt}《力》にとってボクは最も{rt}ふさわしい人間…	【Boy】{rt}I'm the person best suited to that{rt}Power...	
+B08.0133	line		【少年】{rt}適性者なんだよ。	【Boy】{rt}the one it's meant for.	
+B08.0134	line		【少年】{rt}だから、キミの持ってるそれを{rt}―――よこせ。	【Boy】{rt}So that thing you've got--hand it{rt}over.	
+B08.0135	line		【少年】{rt}よこせ。	【Boy】{rt}Hand it over.	
+B08.0136	line		【少年】{rt}よこせッ！！	【Boy】{rt}HAND IT OVER!!	
+B08.0137	line		【少年の声】{rt}クククッ…。	【Boy's Voice】{rt}Heh heh heh...	
+B08.0138	line		【少年の声】{rt}こいつはいい。	【Boy's Voice】{rt}This is great.	
+B08.0139	line		【少年の声】{rt}まさか、祠とはね。	【Boy's Voice】{rt}Who'd have thought, a shrine.	
+B08.0140	line		【少年の声】{rt}確かにコイツは、{rt}ただモンじゃないはずだ。	【Boy's Voice】{rt}This one's definitely no ordinary{rt}being.	
+B08.0141	line		【少年の声】{rt}…来てもらうよ。	【Boy's Voice】{rt}...You're coming with me.	
+B08.0142	line		【少年の声】{rt}ボクと一緒に―――！！	【Boy's Voice】{rt}Along with me--!!	
+B08.0143	line		【少年の声】{rt}くくくく…。	【Boy's Voice】{rt}Heh heh heh heh...	
+B08.0144	line		【少年の声】{rt}さすがに	【Boy's Voice】{rt}Seems you're	
+B08.0145	line		【少年の声】{rt}驚いているようだね？	【Boy's Voice】{rt}surprised after all, huh?	
+B08.0146	line		【少年の声】{rt}眠りを妨げられ、	【Boy's Voice】{rt}Woken from your sleep,	
+B08.0147	line		【少年の声】{rt}おまけに薄暗い祠の中から、	【Boy's Voice】{rt}and on top of that, from inside a{rt}gloomy shrine,	
+B08.0148	line		【少年の声】{rt}気がつけば歌舞伎町なんかへ{rt}跳んでる…。	【Boy's Voice】{rt}before you know it, you've leapt all the{rt}way to Kabukicho...	
+B08.0149	line		【少年の声】{rt}簡潔にいおうか。	【Boy's Voice】{rt}Let me put it simply.	
+B08.0150	line		【少年の声】{rt}ボクは―――	【Boy's Voice】{rt}I--	
+B08.0151	line		【少年】{rt}キミのその《力》が欲しい。	【Boy】{rt}want that Power of yours.	
+B08.0152	line		【少年】{rt}ボクはそのためにキミを呼んだ{rt}…。	【Boy】{rt}That's why I called you here...	
+B08.0153	line		【少年】{rt}ボクの鼻はごまかせないぜ？{rt}キミの《力》は―――	【Boy】{rt}You can't fool my nose, y'know? The{rt}smell of your Power--	
+B08.0154	line		【少年】{rt}この歌舞伎町まで{rt}その匂いを漂わせていた。	【Boy】{rt}drifted all the way here to{rt}Kabukicho.	
+B08.0155	line		【少年】{rt}真に欲する者にはそれが{rt}分かる…。	【Boy】{rt}Those who truly crave it can tell...	
+B08.0156	line		【少年】{rt}くくく…。	【Boy】{rt}Heh heh heh...	
+B08.0157	line		【少年】{rt}悪くないだろ？	【Boy】{rt}Not bad, right?	
+B08.0158	line		【少年】{rt}キミが目を覚ます価値くらいは{rt}しっかりあるってわけだ。	【Boy】{rt}It's well worth you waking up for, at{rt}least.	
+B08.0159	line		【少年】{rt}ボクは欲した―――。	【Boy】{rt}I craved it--.	
+B08.0160	line		【少年】{rt}キミのような《力》を持った{rt}者を見つける事。	【Boy】{rt}To find someone with a Power like{rt}yours.	
+B08.0161	line		【少年】{rt}あの薄暗い祠の中で、	【Boy】{rt}To bring you out here, you who were{rt}somehow	
+B08.0162	line		【少年】{rt}どういうわけか目に見えない姿{rt}で閉じ込められていたキミを	【Boy】{rt}shut away, invisible,	
+B08.0163	line		【少年】{rt}この場へ連れ出す事――。	【Boy】{rt}inside that gloomy shrine--.	
+B08.0164	line		【少年】{rt}ボクは、大きな《力》を{rt}手に入れなけりゃならない。	【Boy】{rt}I have to get my hands on a great{rt}Power.	
+B08.0165	line		【少年】{rt}怠惰に怠惰を重ねた、	【Boy】{rt}A Power that can mow down the billions{rt}of hideous humans	
+B08.0166	line		【少年】{rt}見るも醜い幾億{rt}もの人間どもを	【Boy】{rt}who pile sloth upon sloth,	
+B08.0167	line		【少年】{rt}なぎ倒せるような{rt}《力》を―――。	【Boy】{rt}ugly to behold--.	
+B08.0168	line		【少年】{rt}ちょっと前までは、{rt}そんなのは遠い夢だった。	【Boy】{rt}Until a little while ago, that was a{rt}distant dream.	
+B08.0169	line		【少年】{rt}だが、今は違う！！	【Boy】{rt}But not any more!!	
+B08.0170	line		【少年】{rt}ボクには、欲し、	【Boy】{rt}I have the right, and the Power,	
+B08.0171	line		【少年】{rt}それを手に入れる権利と、{rt}《力》がある！！	【Boy】{rt}to crave it and to take it!!	
+B08.0172	line		【少年】{rt}ドでかい《力》さえ{rt}手にする事ができたら、	【Boy】{rt}If I could just get my hands on a huge{rt}Power,	
+B08.0173	line		【少年】{rt}ボクひとりだってこの世を{rt}ぶち壊す事ができるッ。	【Boy】{rt}I could smash this world to bits all by{rt}myself!	
+B08.0174	line		【少年】{rt}違うかい？	【Boy】{rt}Am I wrong?	
+B08.0175	line		【少年】{rt}分かってるじゃないか。	【Boy】{rt}So you get it.	
+B08.0176	line		【少年】{rt}ボクの言ってる事には	【Boy】{rt}You can't quite agree	
+B08.0177	line		【少年】{rt}イマイチ賛同できないって？	【Boy】{rt}with what I'm saying?	
+B08.0178	line		【少年】{rt}それはお門違いだぜ？	【Boy】{rt}You've got it backwards, y'know.	
+B08.0179	line		【少年】{rt}ボクに破壊衝動を起こさせる{rt}ような	【Boy】{rt}It's this rotten world's fault	
+B08.0180	line		【少年】{rt}ろくでもないこの世が悪い{rt}んだ！！	【Boy】{rt}It's this rotten world's fault!!	
+B08.0181	line		【少年】{rt}ボクは《力》をためこむ。	【Boy】{rt}I'm going to store up Power.	
+B08.0182	line		【少年】{rt}ためこむだけためこんで、一発{rt}でこの世をおじゃんにできる	【Boy】{rt}Store up as much as I can, and make a{rt}Power like a nuclear warhead	
+B08.0183	line		【少年】{rt}核弾頭みたいな《力》を創る。	【Boy】{rt}that can wreck this world in a single{rt}shot.	
+B08.0184	line		【少年】{rt}そして、それを成し遂げる{rt}だけの《力》が、	【Boy】{rt}And the Power to make it happen	
+B08.0185	line		【少年】{rt}今、キミの手にあるんだ…。	【Boy】{rt}is in your hands right now...	
+B08.0186	line		【少年】{rt}くく…。	【Boy】{rt}Heh heh...	
+B08.0187	line		【少年】{rt}正直にいおうか。	【Boy】{rt}Let me be honest.	
+B08.0188	line		【少年】{rt}本当はキミを殺して、キミから{rt}《力》を奪おうと思った。	【Boy】{rt}I really meant to kill you and rip the{rt}Power out of you.	
+B08.0189	line		【少年】{rt}だが、こうしてキミと{rt}面と向かって見ると―――	【Boy】{rt}But now that I'm face to face with{rt}you--	
+B08.0190	line		【少年】{rt}まあ、早い話が、ボクは{rt}キミを殺したくはないんだ。	【Boy】{rt}well, long story short, I don't want to{rt}kill you.	
+B08.0191	line		【少年】{rt}キミは強い《力》を持ってる{rt}し、醜くもない。	【Boy】{rt}You've got a strong Power, and you're{rt}not ugly.	
+B08.0192	line		【少年】{rt}この世の堕落を消し去る{rt}ために、	【Boy】{rt}To wipe out the rot of this world,	
+B08.0193	line		【少年】{rt}ボクの隣においてあげても{rt}いいんだよ。	【Boy】{rt}I wouldn't mind keeping you by my{rt}side.	
+B08.0194	line		【少年】{rt}クククッ…。	【Boy】{rt}Heh heh heh...	
+B08.0195	line		【少年】{rt}どうだい？	【Boy】{rt}How about it?	
+B08.0196	line		【少年】{rt}考えるまでもないと{rt}思うけどね…？	【Boy】{rt}I don't think it needs much thought,{rt}though...?	
+B08.0197	line		【少年】{rt}…そうかい。	【Boy】{rt}...Is that so.	
+B08.0198	line		【少年】{rt}―――気が変わったよッ。	【Boy】{rt}--I've changed my mind!	
+B08.0199	line		【少年】{rt}キミはそんな風にぺこぺこと{rt}従う女ではないと	【Boy】{rt}I didn't think you were the kind of{rt}girl	
+B08.0200	line		【少年】{rt}思ってたんだが―――	【Boy】{rt}who'd bow and scrape like that--	
+B08.0201	line		【少年】{rt}ボクの期待が過ぎたようだ。	【Boy】{rt}Seems I expected too much.	
+B08.0202	line		【少年】{rt}キミは堕落しているッ！！	【Boy】{rt}You're rotten!!	
+B08.0203	line		【少年】{rt}くくくくッ…。	【Boy】{rt}Heh heh heh heh...	
+B08.0204	line		【少年】{rt}残念だよッ。	【Boy】{rt}What a shame!	
+B08.0205	line		【少年】{rt}仕方ない―――	【Boy】{rt}Oh well--	
+B08.0206	line		【少年】{rt}いいね。	【Boy】{rt}Nice.	
+B08.0207	line		【少年】{rt}何事も冷静に判断できる―――	【Boy】{rt}Able to judge everything calmly--	
+B08.0208	line		【少年】{rt}キミのそんなところが{rt}好きだよ。	【Boy】{rt}I like that about you.	
+B08.0209	line		【少年】{rt}キミには欠けたところが{rt}ひとつもない…。	【Boy】{rt}There's not a single flaw in you...	
+B08.0210	line		【少年】{rt}すごく綺麗だ―――。	【Boy】{rt}You're so beautiful--.	
+B08.0211	line		【少年】{rt}バラバラにしてやりたい{rt}くらいにねッ！！	【Boy】{rt}So beautiful I want to tear you to{rt}pieces!!	
+B08.0212	line		【少年】{rt}悩む？	【Boy】{rt}Hesitate?	
+B08.0213	line		【少年】{rt}何を悩む事が	【Boy】{rt}What is there	
+B08.0214	line		【少年】{rt}あるっていうんだい？	【Boy】{rt}to hesitate about?	
+B08.0215	line		【少年】{rt}どうやら―――	【Boy】{rt}Looks like--	
+B08.0216	line		【少年】{rt}キミにはボクの考えは理解して{rt}もらえないようだねッ。	【Boy】{rt}you can't understand the way I{rt}think!	
+B08.0217	line		【少年】{rt}残念だよッ。	【Boy】{rt}What a shame!	
+B08.0218	line		【少年】{rt}仕方ない―――	【Boy】{rt}Oh well--	
+B08.0219	line		【少年】{rt}どんな誘惑の前でも{rt}自分の意思を貫きとおす…。	【Boy】{rt}Holding to your own will in the face of{rt}any temptation...	
+B08.0220	line		【少年】{rt}信じるべきものがはっきりと{rt}見えているからこそ、	【Boy】{rt}Maybe the Power came to dwell in you{rt}precisely because	
+B08.0221	line		【少年】{rt}《力》はキミに宿ったのかも{rt}しれないな…。	【Boy】{rt}you see clearly what you should believe{rt}in...	
+B08.0222	line		【少年】{rt}まあ、そんな事は{rt}どうでもいいさ。	【Boy】{rt}Well, that doesn't matter.	
+B08.0223	line		【少年】{rt}どのみち、ボクのいう事は{rt}聞いてもらえない…。	【Boy】{rt}Either way, you won't listen to me...	
+B08.0224	line		【少年】{rt}くくくくッ…。	【Boy】{rt}Heh heh heh heh...	
+B08.0225	line		【少年】{rt}残念だよッ。	【Boy】{rt}What a shame!	
+B08.0226	line		【少年】{rt}仕方ない―――	【Boy】{rt}Oh well--	
+B08.0227	line		【少年】{rt}キミを殺し、キミから《力》を{rt}引きずり出すとしようッ！！	【Boy】{rt}So I'll kill you and drag the Power out{rt}of you!!	
+B08.0228	line		【少年】{rt}覚悟しなよッ！！	【Boy】{rt}Get ready!!	
+B08.0229	line		【少年】{rt}ハハハハッ！！	【Boy】{rt}Hahahaha!!	

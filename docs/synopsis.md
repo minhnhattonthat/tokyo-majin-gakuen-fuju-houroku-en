@@ -39,3 +39,7 @@ session; translators read it before their batch.
 - B07: Isuzu seals their Miasma; the couple confess their loneliness (family gone, ignored by society); Yamura and
   Isuzu offer to help them change things. Isuzu asks the player's old school: Magami Academy (真神学園) in Shinjuku,
   which neither has heard of. Yamura's Summoning only lasts so long each day.
+- B08: a comatose boy vanishes from a hospital's seventh floor; a giant bird causes a pile-up; people collapse in
+  Kabukicho. The Boy (speeding biker, eagle fixation, wants a "nuclear warhead" of Power to wreck the rotten world)
+  smells the player's Power, drags the player out of the Yamura shrine to Kabukicho and demands it; battle. Girl
+  branch: B08.0199 (キミは…女ではない) calls the player a girl.
