@@ -44,3 +44,7 @@ session; translators read it before their batch.
   smells the player's Power, drags the player out of the Yamura shrine to Kabukicho and demands it; battle. Girl
   branch: B08.0199 (キミは…女ではない) calls the player a girl.
 - B09: the beaten Boy refuses to give up and turns into a Great Eagle ("the top of the food chain"); battle.
+- B10: the Boy's Power turns on him; the player subdues it. Isuzu finds the player collapsed outside the shrine
+  and seals the Miasma in a talisman (girl branch: "You're a girl, and you can fight alone"). In hospital, the
+  comatose boy is back in bed, calmer. Coda: the Woman's Voice overpowers Enra, who tried to destroy her before she
+  gains a Vessel (器); she vows to walk the earth again and makes Enra "help".
