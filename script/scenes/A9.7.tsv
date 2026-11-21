@@ -1,34 +1,34 @@
 id	kind	max	jp	en	notes
-A9.7.0000	line		【火走り】{rt}…ドウシテニンゲンハ、		
-A9.7.0001	line		【火走り】{rt}自分ト違ウモノヲ{rt}キライニナルノ？		
-A9.7.0002	line		【火走り】{rt}キライナモノ、{rt}ヘンナモノッテ、		
-A9.7.0003	line		【火走り】{rt}ドウシテ《区別》シテ{rt}イジメルノ？		
-A9.7.0004	line		【火走り】{rt}ドウシテ《殺ス》―――ノ？		
-A9.7.0005	line		【火走り】{rt}…………。		
-A9.7.0006	line		【火走り】{rt}ヤッパリソウナンダネ…。		
-A9.7.0007	line		【火走り】{rt}…………。		
-A9.7.0008	line		【火走り】{rt}マリィ…ヨクワカラナイ。		
-A9.7.0009	line		【火走り】{rt}ワカラナイヨ…。		
-A9.7.0010	line		【火走り】{rt}ソレハ…		
-A9.7.0011	line		【火走り】{rt}仕方ナイ事ナノ？		
-A9.7.0012	line		【火走り】{rt}《ヒト》ダカラ？		
-A9.7.0013	line		【火走り】{rt}…………。		
-A9.7.0014	line		【火走り】{rt}ヤッパリソウナンダ…。		
-A9.7.0015	line		【火走り】{rt}…キライ！！{rt}大ッキライ！！		
-A9.7.0016	line		【火走り】{rt}ヤッパリ、ソウ……ナノ？		
-A9.7.0017	line		【火走り】{rt}ソレハ…		
-A9.7.0018	line		【火走り】{rt}仕方ナイ事ナノ？		
-A9.7.0019	line		【火走り】{rt}《ヒト》ダカラ？		
-A9.7.0020	line		【火走り】{rt}…………。		
-A9.7.0021	line		【火走り】{rt}ヤッパリソウナンダ…。		
-A9.7.0022	line		【火走り】{rt}ヤッパリ…。		
-A9.7.0023	line		【火走り】{rt}ソウ…ダヨネ。		
-A9.7.0024	line		【火走り】{rt}違ウヨネ。		
-A9.7.0025	line		【火走り】{rt}ヨカッタ…。		
-A9.7.0026	line		【火走り】{rt}ヘンナ事キイテゴメンネ。		
-A9.7.0027	line		【火走り】{rt}本当ニ…？		
-A9.7.0028	line		【火走り】{rt}本当ニ…違ウ？		
-A9.7.0029	line		【火走り】{rt}信ジテモイイノ？		
-A9.7.0030	line		【火走り】{rt}…………。		
-A9.7.0031	line		【火走り】{rt}ゴメン…ナサイ。		
-A9.7.0032	line		【火走り】{rt}…………。		
+A9.7.0000	line		【火走り】{rt}…ドウシテニンゲンハ、	【Firerunner】{rt}...Why do humans	
+A9.7.0001	line		【火走り】{rt}自分ト違ウモノヲ{rt}キライニナルノ？	【Firerunner】{rt}hate things that are different from{rt}them?	
+A9.7.0002	line		【火走り】{rt}キライナモノ、{rt}ヘンナモノッテ、	【Firerunner】{rt}Things they hate, things that are{rt}weird,	
+A9.7.0003	line		【火走り】{rt}ドウシテ《区別》シテ{rt}イジメルノ？	【Firerunner】{rt}why do they Set Them Apart and bully{rt}them?	
+A9.7.0004	line		【火走り】{rt}ドウシテ《殺ス》―――ノ？	【Firerunner】{rt}Why do they KILL--them?	
+A9.7.0005	line		【火走り】{rt}…………。	【Firerunner】{rt}..........	
+A9.7.0006	line		【火走り】{rt}ヤッパリソウナンダネ…。	【Firerunner】{rt}I knew it...	
+A9.7.0007	line		【火走り】{rt}…………。	【Firerunner】{rt}..........	
+A9.7.0008	line		【火走り】{rt}マリィ…ヨクワカラナイ。	【Firerunner】{rt}Marie... doesn't understand.	
+A9.7.0009	line		【火走り】{rt}ワカラナイヨ…。	【Firerunner】{rt}I don't understand...	
+A9.7.0010	line		【火走り】{rt}ソレハ…	【Firerunner】{rt}Is that...	
+A9.7.0011	line		【火走り】{rt}仕方ナイ事ナノ？	【Firerunner】{rt}something that can't be helped?	
+A9.7.0012	line		【火走り】{rt}《ヒト》ダカラ？	【Firerunner】{rt}Because they're Human?	
+A9.7.0013	line		【火走り】{rt}…………。	【Firerunner】{rt}..........	
+A9.7.0014	line		【火走り】{rt}ヤッパリソウナンダ…。	【Firerunner】{rt}I knew it...	
+A9.7.0015	line		【火走り】{rt}…キライ！！{rt}大ッキライ！！	【Firerunner】{rt}...I hate it!! I HATE it!!	
+A9.7.0016	line		【火走り】{rt}ヤッパリ、ソウ……ナノ？	【Firerunner】{rt}So it's... true?	
+A9.7.0017	line		【火走り】{rt}ソレハ…	【Firerunner】{rt}Is that...	
+A9.7.0018	line		【火走り】{rt}仕方ナイ事ナノ？	【Firerunner】{rt}something that can't be helped?	
+A9.7.0019	line		【火走り】{rt}《ヒト》ダカラ？	【Firerunner】{rt}Because they're Human?	
+A9.7.0020	line		【火走り】{rt}…………。	【Firerunner】{rt}..........	
+A9.7.0021	line		【火走り】{rt}ヤッパリソウナンダ…。	【Firerunner】{rt}I knew it...	
+A9.7.0022	line		【火走り】{rt}ヤッパリ…。	【Firerunner】{rt}I knew it...	
+A9.7.0023	line		【火走り】{rt}ソウ…ダヨネ。	【Firerunner】{rt}That's... right.	
+A9.7.0024	line		【火走り】{rt}違ウヨネ。	【Firerunner】{rt}It's not like that, right?	
+A9.7.0025	line		【火走り】{rt}ヨカッタ…。	【Firerunner】{rt}I'm so glad...	
+A9.7.0026	line		【火走り】{rt}ヘンナ事キイテゴメンネ。	【Firerunner】{rt}Sorry for asking something weird.	
+A9.7.0027	line		【火走り】{rt}本当ニ…？	【Firerunner】{rt}Really...?	
+A9.7.0028	line		【火走り】{rt}本当ニ…違ウ？	【Firerunner】{rt}It's really... not like that?	
+A9.7.0029	line		【火走り】{rt}信ジテモイイノ？	【Firerunner】{rt}Can I believe you?	
+A9.7.0030	line		【火走り】{rt}…………。	【Firerunner】{rt}..........	
+A9.7.0031	line		【火走り】{rt}ゴメン…ナサイ。	【Firerunner】{rt}I'm... sorry.	
+A9.7.0032	line		【火走り】{rt}…………。	【Firerunner】{rt}..........	

@@ -43,3 +43,4 @@ session; translators read it before their batch.
   Kabukicho. The Boy (speeding biker, eagle fixation, wants a "nuclear warhead" of Power to wreck the rotten world)
   smells the player's Power, drags the player out of the Yamura shrine to Kabukicho and demands it; battle. Girl
   branch: B08.0199 (キミは…女ではない) calls the player a girl.
+- B09: the beaten Boy refuses to give up and turns into a Great Eagle ("the top of the food chain"); battle.

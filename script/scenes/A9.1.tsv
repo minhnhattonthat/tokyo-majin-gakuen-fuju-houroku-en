@@ -1,47 +1,47 @@
 id	kind	max	jp	en	notes
-A9.1.0000	line		【陽の武道家】{rt}悪しきを成す《力》、		
-A9.1.0001	line		【陽の武道家】{rt}そして、それを正す《力》。		
-A9.1.0002	line		【陽の武道家】{rt}二つの《力》が凌ぎを削り、		
-A9.1.0003	line		【陽の武道家】{rt}その狭間で、{rt}人々がおののき生きる。		
-A9.1.0004	line		【陽の武道家】{rt}世界は改まる事はなく、		
-A9.1.0005	line		【陽の武道家】{rt}そして生きる事は易くない。		
-A9.1.0006	line		【陽の武道家】{rt}これが正しい世界だと思うか？		
-A9.1.0007	line		【陽の武道家】{rt}それとも？		
-A9.1.0008	line		【陽の武道家】{rt}…時は流れ、		
-A9.1.0009	line		【陽の武道家】{rt}そしてお前は、自らの意志など{rt}持たぬ者となった、		
-A9.1.0010	line		【陽の武道家】{rt}―――か。		
-A9.1.0011	line		【陽の武道家】{rt}誰かのために拳を振るう。		
-A9.1.0012	line		【陽の武道家】{rt}その事だけを思ってきた。		
-A9.1.0013	line		【陽の武道家】{rt}だがそれも、{rt}やっと報われる時が―――		
-A9.1.0014	line		【陽の武道家】{rt}きたのかも知れぬ。		
-A9.1.0015	line		【陽の武道家】{rt}たしかに。		
-A9.1.0016	line		【陽の武道家】{rt}人は護られるだけでは、{rt}変わらぬのかも知れぬ。		
-A9.1.0017	line		【陽の武道家】{rt}それも１つの、{rt}想いか―――		
-A9.1.0018	line		【陽の武道家】{rt}人を助ける事を喜びと成す、{rt}か。		
-A9.1.0019	line		【陽の武道家】{rt}そうだな。		
-A9.1.0020	line		【陽の武道家】{rt}それこそが正しいのかも{rt}しれぬ。		
-A9.1.0021	line		【陽の武道家】{rt}思い悩むより、{rt}その方が…		
-A9.1.0022	line		【陽の武道家】{rt}俺とともに、{rt}人を助くというか？		
-A9.1.0023	line		【陽の武道家】{rt}ふふ…それもよかろう。		
-A9.1.0024	line		【陽の武道家】{rt}我が思いはすべてを越えて、		
-A9.1.0025	line		【陽の武道家】{rt}今、お前にたどり着いたの{rt}かも、知れぬ。		
-A9.1.0026	line		【陽の武道家】{rt}俺とともに、{rt}人を助くというか？		
-A9.1.0027	line		【陽の武道家】{rt}ふふ…それもよかろう。		
-A9.1.0028	line		【陽の武道家】{rt}我が思いはすべてを越えて、		
-A9.1.0029	line		【陽の武道家】{rt}今、お前にたどり着いたの{rt}かも、知れぬ。		
-A9.1.0030	line		【陽の武道家】{rt}俺とお前の心は違う…か。		
-A9.1.0031	line		【陽の武道家】{rt}今に厳しいは、{rt}未来を視る者の証。		
-A9.1.0032	line		【陽の武道家】{rt}お前は、弱き人と{rt}共に歩む―――		
-A9.1.0033	line		【陽の武道家】{rt}その運命にあるのかも{rt}知れぬ。		
-A9.1.0034	line		【陽の武道家】{rt}人は、自らの生くる道を―――		
-A9.1.0035	line		【陽の武道家】{rt}自らの意志で開かねばならぬ。		
-A9.1.0036	line		【陽の武道家】{rt}それは解る。		
-A9.1.0037	line		【陽の武道家】{rt}だが、すべての人は、{rt}強き者ではない。		
-A9.1.0038	line		【陽の武道家】{rt}俺はそれを愛おしいと思う。		
-A9.1.0039	line		【陽の武道家】{rt}お前が煩わしいと思うのと、{rt}同じように…な。		
-A9.1.0040	line		【陽の武道家】{rt}人は、自らの生くる道を―――		
-A9.1.0041	line		【陽の武道家】{rt}自らの意志で開かねばならぬ。		
-A9.1.0042	line		【陽の武道家】{rt}それは解る。		
-A9.1.0043	line		【陽の武道家】{rt}だが、すべての人は、{rt}強き者ではない。		
-A9.1.0044	line		【陽の武道家】{rt}俺はそれを愛おしいと思う。		
-A9.1.0045	line		【陽の武道家】{rt}お前が煩わしいと思うのと、{rt}同じように…な。		
+A9.1.0000	line		【陽の武道家】{rt}悪しきを成す《力》、	【Martial Artist of Light】{rt}The Power that works evil,	
+A9.1.0001	line		【陽の武道家】{rt}そして、それを正す《力》。	【Martial Artist of Light】{rt}and the Power that sets it right.	
+A9.1.0002	line		【陽の武道家】{rt}二つの《力》が凌ぎを削り、	【Martial Artist of Light】{rt}The two Powers clash blade to blade,	
+A9.1.0003	line		【陽の武道家】{rt}その狭間で、{rt}人々がおののき生きる。	【Martial Artist of Light】{rt}and between them, people live in{rt}fear.	
+A9.1.0004	line		【陽の武道家】{rt}世界は改まる事はなく、	【Martial Artist of Light】{rt}The world never changes,	
+A9.1.0005	line		【陽の武道家】{rt}そして生きる事は易くない。	【Martial Artist of Light】{rt}and living is never easy.	
+A9.1.0006	line		【陽の武道家】{rt}これが正しい世界だと思うか？	【Martial Artist of Light】{rt}Do you think this is the world as it{rt}should be?	
+A9.1.0007	line		【陽の武道家】{rt}それとも？	【Martial Artist of Light】{rt}Or not?	
+A9.1.0008	line		【陽の武道家】{rt}…時は流れ、	【Martial Artist of Light】{rt}...Time has passed,	
+A9.1.0009	line		【陽の武道家】{rt}そしてお前は、自らの意志など{rt}持たぬ者となった、	【Martial Artist of Light】{rt}and you have become one with no will{rt}of your own,	
+A9.1.0010	line		【陽の武道家】{rt}―――か。	【Martial Artist of Light】{rt}--is that it.	
+A9.1.0011	line		【陽の武道家】{rt}誰かのために拳を振るう。	【Martial Artist of Light】{rt}To swing my fist for someone else's{rt}sake.	
+A9.1.0012	line		【陽の武道家】{rt}その事だけを思ってきた。	【Martial Artist of Light】{rt}That alone is what I've lived for.	
+A9.1.0013	line		【陽の武道家】{rt}だがそれも、{rt}やっと報われる時が―――	【Martial Artist of Light】{rt}But perhaps the time has finally{rt}come--	
+A9.1.0014	line		【陽の武道家】{rt}きたのかも知れぬ。	【Martial Artist of Light】{rt}for that to be rewarded.	
+A9.1.0015	line		【陽の武道家】{rt}たしかに。	【Martial Artist of Light】{rt}Indeed.	
+A9.1.0016	line		【陽の武道家】{rt}人は護られるだけでは、{rt}変わらぬのかも知れぬ。	【Martial Artist of Light】{rt}Perhaps people never change if they{rt}are only protected.	
+A9.1.0017	line		【陽の武道家】{rt}それも１つの、{rt}想いか―――	【Martial Artist of Light】{rt}That too is one way to feel--	
+A9.1.0018	line		【陽の武道家】{rt}人を助ける事を喜びと成す、{rt}か。	【Martial Artist of Light】{rt}to take joy in helping others, is it.	
+A9.1.0019	line		【陽の武道家】{rt}そうだな。	【Martial Artist of Light】{rt}I see.	
+A9.1.0020	line		【陽の武道家】{rt}それこそが正しいのかも{rt}しれぬ。	【Martial Artist of Light】{rt}Perhaps that is what's right.	
+A9.1.0021	line		【陽の武道家】{rt}思い悩むより、{rt}その方が…	【Martial Artist of Light】{rt}Better that than brooding over it...	
+A9.1.0022	line		【陽の武道家】{rt}俺とともに、{rt}人を助くというか？	【Martial Artist of Light】{rt}You'd help people alongside me?	
+A9.1.0023	line		【陽の武道家】{rt}ふふ…それもよかろう。	【Martial Artist of Light】{rt}Heh... very well.	
+A9.1.0024	line		【陽の武道家】{rt}我が思いはすべてを越えて、	【Martial Artist of Light】{rt}Perhaps my feelings have crossed{rt}everything	
+A9.1.0025	line		【陽の武道家】{rt}今、お前にたどり着いたの{rt}かも、知れぬ。	【Martial Artist of Light】{rt}and now, at last, have reached you.	
+A9.1.0026	line		【陽の武道家】{rt}俺とともに、{rt}人を助くというか？	【Martial Artist of Light】{rt}You'd help people alongside me?	
+A9.1.0027	line		【陽の武道家】{rt}ふふ…それもよかろう。	【Martial Artist of Light】{rt}Heh... very well.	
+A9.1.0028	line		【陽の武道家】{rt}我が思いはすべてを越えて、	【Martial Artist of Light】{rt}Perhaps my feelings have crossed{rt}everything	
+A9.1.0029	line		【陽の武道家】{rt}今、お前にたどり着いたの{rt}かも、知れぬ。	【Martial Artist of Light】{rt}and now, at last, have reached you.	
+A9.1.0030	line		【陽の武道家】{rt}俺とお前の心は違う…か。	【Martial Artist of Light】{rt}Your heart and mine are different... is{rt}that it.	
+A9.1.0031	line		【陽の武道家】{rt}今に厳しいは、{rt}未来を視る者の証。	【Martial Artist of Light】{rt}Being harsh on the present is the mark{rt}of one who sees the future.	
+A9.1.0032	line		【陽の武道家】{rt}お前は、弱き人と{rt}共に歩む―――	【Martial Artist of Light】{rt}Perhaps you are fated--	
+A9.1.0033	line		【陽の武道家】{rt}その運命にあるのかも{rt}知れぬ。	【Martial Artist of Light】{rt}to walk alongside the weak.	
+A9.1.0034	line		【陽の武道家】{rt}人は、自らの生くる道を―――	【Martial Artist of Light】{rt}People must open the path of their{rt}lives--	
+A9.1.0035	line		【陽の武道家】{rt}自らの意志で開かねばならぬ。	【Martial Artist of Light】{rt}by their own will.	
+A9.1.0036	line		【陽の武道家】{rt}それは解る。	【Martial Artist of Light】{rt}That much I understand.	
+A9.1.0037	line		【陽の武道家】{rt}だが、すべての人は、{rt}強き者ではない。	【Martial Artist of Light】{rt}But not everyone is strong.	
+A9.1.0038	line		【陽の武道家】{rt}俺はそれを愛おしいと思う。	【Martial Artist of Light】{rt}I hold that dear.	
+A9.1.0039	line		【陽の武道家】{rt}お前が煩わしいと思うのと、{rt}同じように…な。	【Martial Artist of Light】{rt}Just as you find it a bother... yes.	
+A9.1.0040	line		【陽の武道家】{rt}人は、自らの生くる道を―――	【Martial Artist of Light】{rt}People must open the path of their{rt}lives--	
+A9.1.0041	line		【陽の武道家】{rt}自らの意志で開かねばならぬ。	【Martial Artist of Light】{rt}by their own will.	
+A9.1.0042	line		【陽の武道家】{rt}それは解る。	【Martial Artist of Light】{rt}That much I understand.	
+A9.1.0043	line		【陽の武道家】{rt}だが、すべての人は、{rt}強き者ではない。	【Martial Artist of Light】{rt}But not everyone is strong.	
+A9.1.0044	line		【陽の武道家】{rt}俺はそれを愛おしいと思う。	【Martial Artist of Light】{rt}I hold that dear.	
+A9.1.0045	line		【陽の武道家】{rt}お前が煩わしいと思うのと、{rt}同じように…な。	【Martial Artist of Light】{rt}Just as you find it a bother... yes.	
