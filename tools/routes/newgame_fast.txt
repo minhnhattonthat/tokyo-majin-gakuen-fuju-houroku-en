@@ -1,0 +1,27 @@
+# cold boot -> title -> settings: Text Speed Fast, Effects Off -> Exit -> 始めから (new game). For long mash runs
+# (text coverage: tools/cover.py); warp.lua takes over when the game enters story mode.
+1400 -
+4 start
+200 -
+6 right
+40 -
+6 a
+400 -
+6 right
+60 -
+6 down
+60 -
+6 right
+60 -
+6 down
+40 -
+6 down
+40 -
+6 down
+60 -
+6 a
+400 -
+6 left
+60 -
+6 a
+120 -

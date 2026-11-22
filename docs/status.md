@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 18),
+- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 19, unchanged bytes),
   sha1 82aef7599a18..; check.py 37 passed.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
@@ -181,7 +181,27 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (mode 13), kept under D5 (D13). New probes `tools/debug/srcall.lua` (every ROM source a run loads) +
   `tools/debug/srchits.py` (filter logs by asset), `ppuat.lua` takes `AT={f1,f2}`. Warp MODE11 / MODE19 give blank
   screens (mode 11 needs setup). check.py 37 passed; build sha1 82aef7599a18..
-- **Next (phase 8):** (0) graphics left: S16 0xC03F88 link-room badges (look like 待機中 / 通信中; loaded only in
+  Session 19 (2026-11-22): **text coverage tooling** (release gate, `emulator-qa.md` §Text coverage). `build.py`
+  now writes `build/strings.tsv` (17 151 rows: every scene line / choice and pointed system string, kind `grid`
+  left out, at its address in this build; code-area pieces/prefectures not listed). `tools/cover.py`: `scenes`
+  (warp + mash every story scene with `$SKILL` textcover.lua, route `tools/routes/newgame_fast.txt` = Text Speed
+  Fast + Effects Off, `--mash 4 --mash-hold 2` ~43 frames a line), `scenes --branches` (one run per branch option,
+  `tools/debug/forcebranch.lua BRANCH=k`), `gaps` (rounds restarting each scene at the label before its first
+  unread line, `tools/debug/startlabel.lua LABEL=n`), `rows` (the scenes.tsv rows), `report [--by-scene]`
+  (textcover.py on `work/qa/cover`, using the strings.tsv copy kept there). `warp.py` gained `--route` and
+  `--mash-hold`. Findings in `docs/re/text.md` §Story scene format (branch ops, loader = label seek).
+  **Result so far:** plain pass over all 170 scenes ok; 9 543 of 17 151 unshown (system 2 532 / 2 604; A event
+  scenes ~75% unshown = the 9-way emotion branches; B chapters stop where the chapter battle is, e.g. B18 after
+  line 460). The `--branches` pass (10 jobs) was **stopped by Claude Code for low system memory** after branch0 and
+  part of branch1: re-run with `--jobs 4` at most. B18 from label 70 was proven to read 461-853.
+- **Next (phase 8):** (A) text coverage: `python -X utf8 tools/cover.py scenes --branches --jobs 4` (finishes
+  branch1-8; delete `work/qa/cover/branch1` first, it is partial), then `tools/cover.py gaps --jobs 4`, then
+  `report --by-scene`. Scenes should reach ~0 unshown; system strings need `rows` plus new routes (card text needs
+  owned cards: map the card fields in `tools/debug/save_layout.md`, also needed for stress saves); waive only what is
+  shown unreachable in `docs/text_unshown.tsv`. Do not rebuild between coverage runs (cover.py refuses when
+  strings.tsv changed; move `work/qa/cover` away and re-run all after a rebuild). (B) choice boxes are fixed x=48-192,
+  text left-aligned from x=64 like the JP (`tools/windows.tsv`): confirm with inkbox on a JP shot that they are not
+  centred, then record. (0) graphics left: S16 0xC03F88 link-room badges (look like 待機中 / 通信中; loaded only in
   link-room sub-state 2, 0x0805BFE8: force the sub-state or poke it to see them, then redraw); 0xD280D0 (title
   set, table 0xD289A0) unidentified; trade / discard plaques (S17) in game (trade room -> Trade, needs cards). (1) see an element text icon ({I006}-{I015}) in game (card text popup of a Ward/Slay/Bane card)
   and a large frame (39-43). (2) a land / spell mini label in game (thumbnail of a non-character card on the

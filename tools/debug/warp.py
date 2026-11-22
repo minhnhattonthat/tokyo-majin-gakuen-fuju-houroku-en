@@ -48,7 +48,7 @@ def run(row, a):
     out = os.path.join(a.out, name)
     os.makedirs(out, exist_ok=True)
     frames = int(row.get('frames') or a.frames)
-    route = row.get('route') or DEFAULT_ROUTE
+    route = row.get('route') or a.route
     if not os.path.isabs(route):
         route = os.path.join(ROOT, route)
     first = 600 if row['spec'].startswith('WAIT') else WARP_FRAME + a.every
@@ -59,6 +59,8 @@ def run(row, a):
     mash = row.get('mash') or (str(a.mash) if a.mash else '')
     if mash and mash != '0':
         cmd += ['--mash', mash]
+        if a.mash_hold:
+            cmd += ['--mash-hold', str(a.mash_hold)]
     for v in (row.get('vars') or '').split():
         cmd += ['--var', v]
     for s in a.script:
@@ -101,9 +103,12 @@ def main():
     ap.add_argument('--frames', type=int, default=3000)
     ap.add_argument('--every', type=int, default=150)
     ap.add_argument('--mash', type=int, default=0, help='default mash period for rows without one')
+    ap.add_argument('--mash-hold', type=int, default=0, help='frames each mash press is held (emu.py default 6)')
     ap.add_argument('--jobs', type=int, default=3)
     ap.add_argument('--timeout', type=int, default=300)
     ap.add_argument('--states', action='store_true')
+    ap.add_argument('--route', default=DEFAULT_ROUTE, help='route for rows without one (default newgame.txt; '
+                    'tools/routes/newgame_fast.txt sets Text Speed Fast + Effects Off first)')
     ap.add_argument('--script', action='append', default=[], help='extra Lua probe for every run (repeatable), '
                     'e.g. tools/debug/glyphlog.lua: its lines land in each run\'s log.txt')
     ap.add_argument('--var', action='append', default=[], help='NAME=VALUE for the --script probes (repeatable), '

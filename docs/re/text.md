@@ -44,6 +44,15 @@ Argument counts are the digits shown; prove each with the marker build before th
 - Branches are by label index, never by byte offset: `09 nn` = goto label nn; `08 xx`, `01 a b 00` and `0A 00`
   (emotion choice, 179) are each followed by a list of `09 nn` and `FF FF`. `06 00 stat delta` = stat change. So a
   repack only recomputes the header offsets and the A/B pointers.
+- **Branch ops (phase 8, verified by forcing them in game, `tools/debug/forcebranch.lua`):** each calls a helper
+  whose r0 indexes the `09 nn` list after the op. 0A emotion choice (9 ways; 179 ops: 130 in A scenes, 49 in B):
+  helper 0x0805F7D0 returns -1 while waiting, read at 0x0803FEB2. 0F text choice: 0x0805FAFC, at 0x08040166. 08 flag
+  test (2 ways, 113): 0x0805E204, at 0x08040014. 01 stat test (2 ways, 25): 0x0805E160, at 0x080400AE. Script state
+  struct pointer at 0x03007570: +0 current op pointer, +4 label index the loader seeks to.
+- **Loader = label seek:** 0x0803F3B4 starts at label `[struct+4]` (op 09 nn stores nn - 1 there and the loader runs
+  again). A chapter with a battle stops mid-scene (B18 after line 460: chapter end 0x0805E3BC -> hub) and resumes at a
+  later label after the battle; `tools/debug/startlabel.lua LABEL=n` starts a warped scene at label n (B18 label 70 =
+  line 461).
 - Every scene ends with `FF FF`; no scene has an empty line. Scenes are back to back in 0xD82324-0xE2B97A (no slack:
   the region is full), then 00 00 and LZ77 data at 0xE2B97C. Longer text spills into a second region
   (`scenes.pack(..., regions)`); the spill region needs the phase 7 trap test first.
