@@ -146,8 +146,8 @@ D64A8C	str	7	天探女	Amanosagume
 D64A94	str	11	変生天探女	Morphed Amanosagume	
 D64AA0	str	7	焔羅	Enra	
 D64AA8	str	11	司命・司録	Shimei & Shiroku	
-D64AB4	str	15	変生熊襲魁帥	Morphed Kumaso Chief	
-D64AC4	str	11	熊襲魁帥	Kumaso Chief	
+D64AB4	str	15	変生熊襲魁帥	Morphed Kumaso Takeru	
+D64AC4	str	11	熊襲魁帥	Kumaso Takeru	
 D64AD0	str	11	日本武尊	Yamato Takeru	
 D64ADC	str	11	変生優鉢羅	Morphed Uhatsura	
 D64AE8	str	7	優鉢羅	Uhatsura	
@@ -1461,73 +1461,73 @@ D72614	str	7	　は行	 Ha
 D7261C	str	7	　ま行	 Ma	
 D72624	str	7	　や行	 Ya	
 D7262C	str	7	　ら行	 Ra	
-D72634	str	7	　わ行		
-D7269C	str	19	　　　　を　　　順		
-D726B0	str	15	に表示しながら		
-D726C0	str	19	編集を行います。		
-D726D4	str	19	売る符を選びます。		
-D726E8	str	19	交換を行います。		
-D726FC	str	19	捨てる符を選びます		
-D72710	str	55	売買符　　を{rt}一枚毎の確認はせず{rt}一括して売ります。		
-D72748	str	35	一括して売っても{rt}よろしいですか？		
-D7276C	str	15	はい　いいえ		
-D7277C	str	35	売買符　　枚を{rt}全て売りました。		
-D727A0	str	19	価値　　を獲得！		
-D727EC	str	11	所持枚数		
-D727F8	str	19	　　　　　　　　		
-D7280C	str	3	～		
-D72810	str	19	　　枚中　　枚目		
-D72824	str	11	この符を		
-D72830	str	19	に{rt}登録します。		
-D72844	str	19	よろしいですか？		
-D72858	str	7	はい		
-D72860	str	7	いいえ		
-D72868	str	63	一つの符咒には、{rt}同名の符を{rt}４枚までしか{rt}登録できません。		
-D728A8	str	19	{rt}から削除します。		
-D728BC	str	27	これ以上{rt}登録できません。		
-D728D8	str	19	に{rt}登録しました。		
-D728EC	str	23	から{rt}削除しました。		
-D72904	str	15	現在の登録数は		
-D72914	str	11	枚です。		
-D72920	str	19	を選択中{rt}登録枚数		
-D72934	str	35	Ａボタンで登録を{rt}削除できます。		
-D72958	str	15	登録を削除して		
-D72968	str	27	Ａボタンで{rt}登録できます。		
-D72984	str	35	売買用の符を設定{rt}する場所です。		
-D729A8	str	23	この符は{rt}稀少符です。		
-D729C0	str	39	稀少符を登録する{rt}ことはできません。		
-D729E8	str	15	符咒で使用中！		
-D729F8	str	15	符咒への登録を		
-D72A08	str	15	全て削除して		
-D72A18	str	15	売買の登録を		
-D72A28	str	15	して下さい。		
-D72A38	str	19	よろしいですか？。		
-D72A4C	str	35	この符はすでに{rt}登録されています		
-D72A70	str	19	から{rt}削除します。		
-D72A84	str	15	売買符として		
-D72A94	str	15	登録します。		
-D72AA4	str	11	売買登録を		
-D72AB0	str	15	削除します。		
-D72AC0	str	11	＜登録＞{rt}		
-D72ACC	str	27	に新しく{rt}符を登録します。		
-D72AE8	str	35	から登録済みの{rt}符を削除します。		
-D72B20	str	19	登録を削除しても		
-D72B34	str	51	この符を価値　Ｐ{rt}で売ります。{rt}よろしいですか？		
-D72B68	str	3	１		
-D72B6C	str	3	３		
-D72B70	str	3	５		
-D72B74	str	31	この符を売ること{rt}はできません		
-D72B94	str	59	交換する符として{rt}　枚目を登録{rt}します。{rt}よろしいですか？		
-D72BD0	str	3	２		
-D72BD4	str	35	この符を交換する{rt}ことはできません		
-D72BF8	str	35	　枚目の交換符{rt}を登録しました。		
-D72C1C	str	35	この符を捨てても{rt}よろしいですか？		
-D72C40	str	47	『龍の伝承者』を{rt}捨てることは{rt}できません。		
-D72C70	str	39	この符は{rt}捨てることが{rt}できません。		
-D72C98	str	27	選択した符を{rt}捨てました。		
-D72CB4	str	15	現在の持ち符は		
-D72CC4	str	11	人物符総数		
-D72CD0	str	11	土地符総数		
+D72634	str	7	　わ行	 Wa	
+D7269C	str	19	　　　　を　　　順	[81][40][81][40][81][40][81][40] by[81][40][81][40][81][40]	
+D726B0	str	15	に表示しながら	 order, as	
+D726C0	str	19	編集を行います。	you edit.	
+D726D4	str	19	売る符を選びます。	you pick to sell.	
+D726E8	str	19	交換を行います。	you trade.	
+D726FC	str	19	捨てる符を選びます	Pick cards to discard	
+D72710	str	55	売買符　　を{rt}一枚毎の確認はせず{rt}一括して売ります。	Sell all[81][40][81][40]{rt}trade cards at once,{rt}unchecked.	
+D72748	str	35	一括して売っても{rt}よろしいですか？	Sell them all{rt}at once. Sure?	
+D7276C	str	15	はい　いいえ	Yes[81][40]No	
+D7277C	str	35	売買符　　枚を{rt}全て売りました。	Sold all[81][40][81][40]{rt}trade cards.	
+D727A0	str	19	価値　　を獲得！	Gained[81][40][81][40] value!	
+D727EC	str	11	所持枚数	Owned	
+D727F8	str	19	　　　　　　　　	[81][40][81][40][81][40][81][40][81][40][81][40][81][40][81][40]	
+D7280C	str	3	～	-	
+D72810	str	19	　　枚中　　枚目	[81][40][81][40] cards, #[81][40][81][40]	
+D72824	str	11	この符を	This card -> 	
+D72830	str	19	に{rt}登録します。	{rt}will be added.	
+D72844	str	19	よろしいですか？	Are you sure?	
+D72858	str	7	はい	Yes	
+D72860	str	7	いいえ	No	
+D72868	str	63	一つの符咒には、{rt}同名の符を{rt}４枚までしか{rt}登録できません。	A deck can hold{rt}at most four{rt}cards of the{rt}same name.	
+D728A8	str	19	{rt}から削除します。	{rt}will be removed.	
+D728BC	str	27	これ以上{rt}登録できません。	No more can{rt}be added.	
+D728D8	str	19	に{rt}登録しました。	{rt}was added.	
+D728EC	str	23	から{rt}削除しました。	{rt}was removed.	
+D72904	str	15	現在の登録数は	Registered now:	
+D72914	str	11	枚です。	 cards.	
+D72920	str	19	を選択中{rt}登録枚数	 selected{rt}Registered	
+D72934	str	35	Ａボタンで登録を{rt}削除できます。	A Button removes{rt}the entry.	
+D72958	str	15	登録を削除して	Remove the entry,	
+D72968	str	27	Ａボタンで{rt}登録できます。	A Button{rt}adds it.	
+D72984	str	35	売買用の符を設定{rt}する場所です。	Set cards for{rt}trading here.	
+D729A8	str	23	この符は{rt}稀少符です。	This card{rt}is rare.	
+D729C0	str	39	稀少符を登録する{rt}ことはできません。	Rare cards can't{rt}be registered.	
+D729E8	str	15	符咒で使用中！	In use in a deck!	
+D729F8	str	15	符咒への登録を	Remove all of its	
+D72A08	str	15	全て削除して	deck entries,	
+D72A18	str	15	売買の登録を	then register it	
+D72A28	str	15	して下さい。	for trade.	
+D72A38	str	19	よろしいですか？。	Are you sure?	
+D72A4C	str	35	この符はすでに{rt}登録されています	This card is{rt}already registered	
+D72A70	str	19	から{rt}削除します。	{rt}will be removed.	
+D72A84	str	15	売買符として	As a trade card,	
+D72A94	str	15	登録します。	register it.	
+D72AA4	str	11	売買登録を	Its trade entry	
+D72AB0	str	15	削除します。	will be removed.	
+D72AC0	str	11	＜登録＞{rt}	<Add>{rt}	
+D72ACC	str	27	に新しく{rt}符を登録します。	: add new{rt}cards to it.	
+D72AE8	str	35	から登録済みの{rt}符を削除します。	: remove added{rt}cards from it.	
+D72B20	str	19	登録を削除しても	Even if removed,	
+D72B34	str	51	この符を価値　Ｐ{rt}で売ります。{rt}よろしいですか？	Sell this card{rt}for[81][40]P?{rt}Are you sure?	
+D72B68	str	3	１	1	
+D72B6C	str	3	３	3	
+D72B70	str	3	５	5	
+D72B74	str	31	この符を売ること{rt}はできません	This card{rt}can't be sold	
+D72B94	str	59	交換する符として{rt}　枚目を登録{rt}します。{rt}よろしいですか？	Register as{rt}[81][40] of the{rt}trade cards.{rt}Are you sure?	
+D72BD0	str	3	２	2	
+D72BD4	str	35	この符を交換する{rt}ことはできません	This card can't{rt}be traded	
+D72BF8	str	35	　枚目の交換符{rt}を登録しました。	[81][40] of the trade{rt}cards registered.	
+D72C1C	str	35	この符を捨てても{rt}よろしいですか？	Discard this{rt}card. Sure?	
+D72C40	str	47	『龍の伝承者』を{rt}捨てることは{rt}できません。	"Dragon Heir"{rt}can't be{rt}discarded.	
+D72C70	str	39	この符は{rt}捨てることが{rt}できません。	This card{rt}can't be{rt}discarded.	
+D72C98	str	27	選択した符を{rt}捨てました。	Discarded the{rt}chosen cards.	
+D72CB4	str	15	現在の持ち符は	Cards you now own:	
+D72CC4	str	11	人物符総数	Characters	
+D72CD0	str	11	土地符総数	Lands	
 D72F00	grid	11	ー　　　　		
 D72F0C	grid	11	ぱぴぷぺぽ		
 D72F18	grid	11	ゃゅょっ　		
@@ -1564,66 +1564,66 @@ D73080	grid	11	サシスセソ
 D7308C	grid	11	カキクケコ		
 D73098	grid	11	アイウエオ		
 D730A4	grid	11	わ　　　　		
-D7874C	str	47	この十罪は{rt}すでに入っている{rt}ので入れません		
-D7877C	str	15	入る　やめる		
-D7878C	str	51	邪見／じゃけん{rt}因果の理を無視し{rt}た考え、行いの罪		
-D787C0	str	47	両舌／りょうぜつ{rt}他者を言葉で操り{rt}争わせる罪		
-D787F0	str	47	殺生／せっしょう{rt}命を奪う行い、{rt}惨い行いの罪		
-D78820	str	47	好色／こうしょく{rt}みだらなことや{rt}浅ましさの罪		
-D78850	str	47	偸盗／ちゅうとう{rt}他人のものを{rt}横取りする罪		
-D78880	str	39	妄語／もうご{rt}真実でないことを{rt}言う罪		
-D788A8	str	51	瞋恚／しんい{rt}激しい怒り、恨み{rt}を覚えることの罪		
-D788DC	str	47	貪欲／どんよく{rt}己の欲するものに{rt}執着する罪		
-D7890C	str	47	綺語／きご{rt}真実に背いて巧み{rt}に飾り立てる罪		
-D7893C	str	43	悪口／あっく{rt}言葉や、食など{rt}口に関する罪		
-D78990	str	31	これ以上符を購入{rt}出来ません{wc}		
-D789B0	str	63	売買登録を{rt}削除します。{rt}よろしいですか？{rt}　はい　いいえ{wc}		
-D789F0	str	63	売買符として{rt}登録します。{rt}よろしいですか？{rt}　はい　いいえ{wc}		
-D78A30	str	11	価値＝{wc}		
-D78A3C	str	47	ブースターパック{rt}黄　龍を購入{rt}しました。{wc}		
-D78A6C	str	47	ブースターパック{rt}血風録を購入{rt}しました。{wc}		
-D78A9C	str	47	ブースターパック{rt}外法帖を購入{rt}しました。{wc}		
-D78ACC	str	47	ブースターパック{rt}朧綺譚を購入{rt}しました。{wc}		
-D78AFC	str	47	ブースターパック{rt}剣風帖を購入{rt}しました。{wc}		
-D78B2C	str	51	購入します！{rt}よろしいですか？{rt}　はい　いいえ{wc}		
-D78B60	str	55	ブースターパック{rt}３つの中から１つ{rt}選んで下さい。{wc}		
-D78B98	str	19	価値が足りません{wc}		
-D78BAC	str	55	ブースターパック{rt}黄　龍を価値３０{rt}で購入します。{wc}		
-D78BE4	str	55	ブースターパック{rt}血風録を価値３０{rt}で購入します。{wc}		
-D78C1C	str	55	ブースターパック{rt}外法帖を価値３０{rt}で購入します。{wc}		
-D78C54	str	55	ブースターパック{rt}朧綺譚を価値３０{rt}で購入します。{wc}		
-D78C8C	str	55	ブースターパック{rt}剣風帖を価値３０{rt}で購入します。{wc}		
-D78E04	str	64	封陰窟データが{rt}初期化されます{rt}よろしいですか{rt}　はい　いいえ{wc}		
-D78E7C	str	31	交換できる符が{rt}ありません{wc}		
-D78E9C	str	31	相手の中止を{rt}受け付けました		
-D78EBC	str	19	交換を開始します		
-D78ED0	str	23	相手の状態が{rt}違います		
-D78EE8	str	31	相手の準備が{rt}出来ていません		
-D78F08	str	19	対戦を開始します		
-D78F1C	str	31	通信チェック中{rt}おまちください		
-D78F44	str	27	電源を切らないで下さい{wc}		
-D78F60	str	3	３		
-D78F64	str	3	２		
-D78F68	str	3	１		
-D78F6C	str	3	０		
-D78F70	str	27	交換内容を記録しました{wc}		
-D78F8C	str	27	交換内容を記録中です！{wc}		
-D78FA8	str	23	交換が成立しました{wc}		
-D78FC0	str	23	交換を開始します！{wc}		
-D78FD8	str	23	交換は断られました{wc}		
-D78FF0	str	19	交換を断りました{wc}		
-D79004	str	31	　　　の確認終了を待ちます{wc}		
-D79024	str	31	交換しますか？　はい　いいえ{wc}		
-D79044	str	23	はいを選んで下さい{wc}		
-D7905C	str	27	この内容で交換する場合は{wc}		
-D79078	str	31	符の内容を確認してください{wc}		
-D79098	str	31	　　　の登録終了を待ちます{wc}		
-D790B8	str	31	終了しますか？　はい　いいえ{wc}		
-D790D8	str	31	交換用の符　枚を登録しました{wc}		
-D790F8	str	31	ここには登録されていません{wc}		
-D79118	str	31	削除しますか？　はい　いいえ{wc}		
-D79138	str	27	すでに登録されています{wc}		
-D79154	str	31	登録しますか？　はい　いいえ{wc}		
-D79188	str	7	緋勇		
-D79190	str	7	龍麻		
-D79198	str	4	真神		
+D7874C	str	47	この十罪は{rt}すでに入っている{rt}ので入れません	This Sin is{rt}already in, so it{rt}can't go in.	
+D7877C	str	15	入る　やめる	Add[81][40]Cancel	
+D7878C	str	51	邪見／じゃけん{rt}因果の理を無視し{rt}た考え、行いの罪	False View{rt}Thoughts and deeds{rt}that defy karma	
+D787C0	str	47	両舌／りょうぜつ{rt}他者を言葉で操り{rt}争わせる罪	Double Tongue{rt}Using words to set{rt}others fighting	
+D787F0	str	47	殺生／せっしょう{rt}命を奪う行い、{rt}惨い行いの罪	Killing{rt}Taking life;{rt}cruel deeds	
+D78820	str	47	好色／こうしょく{rt}みだらなことや{rt}浅ましさの罪	Lust{rt}Lewdness and{rt}baseness	
+D78850	str	47	偸盗／ちゅうとう{rt}他人のものを{rt}横取りする罪	Theft{rt}Taking what{rt}is another's	
+D78880	str	39	妄語／もうご{rt}真実でないことを{rt}言う罪	Lies{rt}Saying what{rt}is not true	
+D788A8	str	51	瞋恚／しんい{rt}激しい怒り、恨み{rt}を覚えることの罪	Malice{rt}Feeling fierce{rt}anger and hatred	
+D788DC	str	47	貪欲／どんよく{rt}己の欲するものに{rt}執着する罪	Greed{rt}Clinging to what{rt}you desire	
+D7890C	str	47	綺語／きご{rt}真実に背いて巧み{rt}に飾り立てる罪	Flattery{rt}Dressing up words{rt}against the truth	
+D7893C	str	43	悪口／あっく{rt}言葉や、食など{rt}口に関する罪	Abuse{rt}Sins of the mouth:{rt}words, food and such	
+D78990	str	31	これ以上符を購入{rt}出来ません{wc}	You can't buy{rt}any more cards{wc}	
+D789B0	str	63	売買登録を{rt}削除します。{rt}よろしいですか？{rt}　はい　いいえ{wc}	Remove its{rt}trade entry.{rt}Are you sure?{rt}[81][40]Yes[81][40]No{wc}	
+D789F0	str	63	売買符として{rt}登録します。{rt}よろしいですか？{rt}　はい　いいえ{wc}	Register it as{rt}a trade card.{rt}Are you sure?{rt}[81][40]Yes[81][40]No{wc}	
+D78A30	str	11	価値＝{wc}	Value={wc}	
+D78A3C	str	47	ブースターパック{rt}黄　龍を購入{rt}しました。{wc}	Bought the{rt}Kouryu booster{rt}pack.{wc}	
+D78A6C	str	47	ブースターパック{rt}血風録を購入{rt}しました。{wc}	Bought the{rt}Keppuroku booster{rt}pack.{wc}	
+D78A9C	str	47	ブースターパック{rt}外法帖を購入{rt}しました。{wc}	Bought the{rt}Gehocho booster{rt}pack.{wc}	
+D78ACC	str	47	ブースターパック{rt}朧綺譚を購入{rt}しました。{wc}	Bought the{rt}Oboro Kitan booster{rt}pack.{wc}	
+D78AFC	str	47	ブースターパック{rt}剣風帖を購入{rt}しました。{wc}	Bought the{rt}Kenpucho booster{rt}pack.{wc}	
+D78B2C	str	51	購入します！{rt}よろしいですか？{rt}　はい　いいえ{wc}	Buying it!{rt}Are you sure?{rt}[81][40]Yes[81][40]No{wc}	
+D78B60	str	55	ブースターパック{rt}３つの中から１つ{rt}選んで下さい。{wc}	Choose one of{rt}the three booster{rt}packs.{wc}	
+D78B98	str	19	価値が足りません{wc}	Not enough value{wc}	
+D78BAC	str	55	ブースターパック{rt}黄　龍を価値３０{rt}で購入します。{wc}	Buy the Kouryu{rt}booster pack for{rt}30 value.{wc}	
+D78BE4	str	55	ブースターパック{rt}血風録を価値３０{rt}で購入します。{wc}	Buy the Keppuroku{rt}booster pack for{rt}30 value.{wc}	
+D78C1C	str	55	ブースターパック{rt}外法帖を価値３０{rt}で購入します。{wc}	Buy the Gehocho{rt}booster pack for{rt}30 value.{wc}	
+D78C54	str	55	ブースターパック{rt}朧綺譚を価値３０{rt}で購入します。{wc}	Buy the Oboro Kitan{rt}booster pack for{rt}30 value.{wc}	
+D78C8C	str	55	ブースターパック{rt}剣風帖を価値３０{rt}で購入します。{wc}	Buy the Kenpucho{rt}booster pack for{rt}30 value.{wc}	
+D78E04	str	64	封陰窟データが{rt}初期化されます{rt}よろしいですか{rt}　はい　いいえ{wc}	Fuin Cave data{rt}will be reset.{rt}Are you sure?{rt}[81][40]Yes[81][40]No{wc}	
+D78E7C	str	31	交換できる符が{rt}ありません{wc}	There are no cards{rt}you can trade{wc}	
+D78E9C	str	31	相手の中止を{rt}受け付けました	The other player{rt}cancelled	
+D78EBC	str	19	交換を開始します	Starting the trade	
+D78ED0	str	23	相手の状態が{rt}違います	The other player is{rt}in a different state	
+D78EE8	str	31	相手の準備が{rt}出来ていません	The other player{rt}isn't ready	
+D78F08	str	19	対戦を開始します	Starting the battle	
+D78F1C	str	31	通信チェック中{rt}おまちください	Checking the link{rt}Please wait	
+D78F44	str	27	電源を切らないで下さい{wc}	Keep the power on{wc}	
+D78F60	str	3	３	3	
+D78F64	str	3	２	2	
+D78F68	str	3	１	1	
+D78F6C	str	3	０	0	
+D78F70	str	27	交換内容を記録しました{wc}	Trade recorded{wc}	
+D78F8C	str	27	交換内容を記録中です！{wc}	Recording the trade!{wc}	
+D78FA8	str	23	交換が成立しました{wc}	Trade complete{wc}	
+D78FC0	str	23	交換を開始します！{wc}	Starting the trade!{wc}	
+D78FD8	str	23	交換は断られました{wc}	Trade refused{wc}	
+D78FF0	str	19	交換を断りました{wc}	You refused{wc}	
+D79004	str	31	　　　の確認終了を待ちます{wc}	[81][40][81][40][81][40]: confirming{wc}	
+D79024	str	31	交換しますか？　はい　いいえ{wc}	Trade?[81][40]Yes[81][40]No{wc}	
+D79044	str	23	はいを選んで下さい{wc}	Please choose Yes{wc}	
+D7905C	str	27	この内容で交換する場合は{wc}	To trade with this,{wc}	
+D79078	str	31	符の内容を確認してください{wc}	Check the cards{wc}	
+D79098	str	31	　　　の登録終了を待ちます{wc}	[81][40][81][40][81][40]: registering{wc}	
+D790B8	str	31	終了しますか？　はい　いいえ{wc}	Finish?[81][40]Yes[81][40]No{wc}	
+D790D8	str	31	交換用の符　枚を登録しました{wc}	[81][40] cards set to trade{wc}	
+D790F8	str	31	ここには登録されていません{wc}	Not registered here{wc}	
+D79118	str	31	削除しますか？　はい　いいえ{wc}	Delete?[81][40]Yes[81][40]No{wc}	
+D79138	str	27	すでに登録されています{wc}	Already registered{wc}	
+D79154	str	31	登録しますか？　はい　いいえ{wc}	Register? [81][40]Yes[81][40]No{wc}	
+D79188	str	7	緋勇	Hiyu	
+D79190	str	7	龍麻	Tatsuma	
+D79198	str	4	真神	Magami	

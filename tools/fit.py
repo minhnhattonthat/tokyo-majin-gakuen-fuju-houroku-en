@@ -57,7 +57,8 @@ RANGES = [
     (0xD72434, 0xD724C0, 'deck_help', 3, 144, None, 9),
     (0xD1BDF4, 0xD1BEA8, 'sound_title', 1, 160, None, 10),
     (0xD1BDE0, 0xD1BDF4, 'sound_header', 1, 176, None, 11),
-    (0xD78E04, 0xD7913C, 'link_message', None, 124, None, 8),
+    # link-cable messages: JP lines reach 14 cells (交換しますか？　はい　いいえ), so the window holds 224 px
+    (0xD78E04, 0xD7913C, 'link_message', None, 224, None, 14),
     (0xD65298, 0xD652AC, 'rematch_menu', 2, 112, None, 7),
 ]
 SINGLE = {0xD726B0: ('deck_help', 3, 144, None, 9), 0xD678D4: ('popup', 3, 128, None, 8),
@@ -66,7 +67,12 @@ SINGLE = {0xD726B0: ('deck_help', 3, 144, None, 9), 0xD678D4: ('popup', 3, 128, 
           0xD65330: ('fragment', 1, 128, None, 8), 0xD65338: ('fragment', 1, 128, None, 8),
           0xD6533C: ('fragment', 1, 128, None, 8), 0xD67978: ('fragment', 1, 128, None, 8),
           # help-page icon legends (one icon + label per line); JP labels are 1-2 kanji; inferred, check in game
-          0xD6FE34: ('icon_legend', 4, 96, None, 6), 0xD6FE88: ('icon_legend', 5, 96, None, 6)}
+          0xD6FE34: ('icon_legend', 4, 96, None, 6), 0xD6FE88: ('icon_legend', 5, 96, None, 6),
+          # deck screen filler / counter rows: the JP itself is 8 cells (128 px)
+          0xD727F8: ('card_prompt', 1, 128, None, 8), 0xD72810: ('card_prompt', 1, 128, None, 8),
+          # default surname / given name / deck name copied into the name buffers at New Game (name entry: phase 8)
+          0xD79188: ('default_name', 1, 64, None, 4), 0xD79190: ('default_name', 1, 64, None, 4),
+          0xD79198: ('default_name', 1, 64, None, 4)}
 # card_tag (CF13C0-CF2A00): line 1 is the 【tag】 shown at 64 px; the popup shows all three lines at 128
 TAG_FIRST_PX = 64
 
