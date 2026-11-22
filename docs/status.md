@@ -203,7 +203,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
   a card, down does not) and `allcards_{land,spell,barrier,possession}.txt` (tab = down xk), run with emu.py `--sav
   work/saves/allcards.sav --script textcover.lua --var RANGES=...` into `work/qa/cover/cards_*`; **sound test**
   route `tools/routes/sound_test_cover.txt` (`warp.py MODE20 --route ...`, a raw spec so --frames applies) into
-  `work/qa/cover/sound`: all track names shown. System unshown 2532 -> 1888. What is left in system (by prefix):
+  `work/qa/cover/sound`: all track names shown. Battle runs (board_turn.mss + `work/qa/bd/rand.txt` 12000 f;
+defeat_quote.mss) into `work/qa/cover/battle_*`: +45 only (each opponent has its own quotes: needs one battle per
+chapter opponent, e.g. warp each chapter battle and poke life to end it, `docs/re/game.md` §Chapter battles).
+System unshown 2532 -> 1843. What is left in system (by prefix):
   D645E4-D650xx person-name lists (xn/yn, 白岐, 九龍主人公 ..: where shown is unknown, maybe link/free-battle
   opponent lists), D6E8-D6EA long ability labels 【変生】.., CF72 short element-ish words, battle quotes D67C/D6D3/
   D6D6.. (enemy taunts: need battle runs), D725/D72A deck/discard prompts, D78F link-cable. **Choice boxes checked
