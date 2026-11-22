@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 10),
-  sha1 891e08a2c0ab..; check.py 37 passed, smoke ok.
+- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 11),
+  sha1 13df0116a09e..; check.py 37 passed.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -116,9 +116,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
   Code area 0x0-0xC0000 swept (`tools/debug/codesweep.py`): nothing else. The 47 SJIS prefecture strings stay in
   ROM unread: list them as known in the release's `jp_left.py` run. Story gate 0 open (verdict file
   `zz_recheck10_20261122.tsv`). Second picker caller 0x080543xx (another screen) not seen.
+  Session 11 (2026-11-22): **S7 large turn-order cards English** (10 cards, kind `bigcard` in `gfx/battle_ui.tsv`,
+  `tools/gfx_battle.py`: old numeral + rim inpainted, Arabic digit in the same ink; "2" seen in game at the
+  turn-order draw from board_turn.mss + `work/qa/bd/rand.txt`, `work/qa/bigcard/zoom.png`). check.py 37 passed.
 - **Next (phase 8):** Remaining graphics text: S19 leftovers 0xC6A2D8 (deck-editor window frame sheet:
   check for labels); find where VS / CLASH / Attack-Wait show (srclog.lua with SRC_LO=0x08ACCCCC over a longer or
-  link battle); S7 large numeral cards 0xAE5FDC..; the name entry's kana grid (G7, English layout with the u16 grids below);
+  link battle); the name entry's kana grid (G7, English layout with the u16 grids below);
   card class labels (S1), card/skill name art (S5), 邪気封印 card art,
   emblems (S20), rarity legend (S27), card type icons (S28), info-screen labels (S29), sound test labels (S22),
   rematch menu graphics 0xD65298 if any (the menu seen was font text). Then a full English tour, verdicts per chunk

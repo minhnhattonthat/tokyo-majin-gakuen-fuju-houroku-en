@@ -191,6 +191,68 @@ def cardnum(rom, off, text):
     return card_bytes(px)
 
 
+BIG_AREA = (0, 2, 40, 36)   # x0, y0, x1, y1 searched for the numeral on a large card
+
+
+def bigcard(rom, off, text):
+    """large turn-order card (8bpp 112x160 = 14x20 tiles in row order; screen table 0xD815A0..: blue set
+    0xAE5FDC.., red set 0xACF24C..; palette right before the tiles, indexed directly): the kanji numeral is
+    painted on the art in pure blue (2,12,20) or red (28,3..4,0) with a white (31,31,31) rim. Glyph pixels (ink,
+    plus white within 2 px of ink) are filled from the surrounding art, peeling inwards with the commonest
+    unmasked neighbour; the Arabic digit is drawn in the same ink with a 1 px white rim, centred on the old glyph"""
+    px = [[rom[off + (y // 8 * 14 + x // 8) * 64 + y % 8 * 8 + x % 8] for x in range(112)] for y in range(160)]
+    n = BIG_PAL[off]
+    pal = struct.unpack_from('<%dH' % n, rom, off - n * 2)
+
+    def rgb(i):
+        c = pal[i] if i < n else 0
+        return c & 31, c >> 5 & 31, c >> 10 & 31
+    ink_cols = {(2, 12, 20), (28, 3, 0), (28, 4, 0)}
+    x0, y0, x1, y1 = BIG_AREA
+    ink = {(x, y) for y in range(y0, y1) for x in range(x0, x1) if rgb(px[y][x]) in ink_cols}
+    ink_i = max(set(px[y][x] for x, y in ink), key=lambda i: sum(px[y][x] == i for x, y in ink))
+    near = {(x + dx, y + dy) for x, y in ink for dx in range(-2, 3) for dy in range(-2, 3)}
+    near = {(x, y) for x, y in near if 0 <= x < 112 and 0 <= y < 160}
+    rim = [px[y][x] for x, y in near if min(rgb(px[y][x])) >= 30]
+    white = max(set(rim), key=rim.count)   # the rim colour: (31,31,31), or (31,31,30) on 0xAD3BBC
+    masked = near   # ink, its white rim and the blended fringe between rim and art
+    gx0, gx1 = min(x for x, _ in ink), max(x for x, _ in ink) + 1
+    gy0, gy1 = min(y for _, y in ink), max(y for _, y in ink) + 1
+    hole = set(masked)
+    while hole:
+        fill = {}
+        for x, y in hole:
+            nb = [px[y + dy][x + dx] for dx, dy in ((-1, 0), (1, 0), (0, -1), (0, 1), (-1, -1), (1, 1), (-1, 1), (1, -1))
+                  if 0 <= x + dx < 112 and 0 <= y + dy < 160 and (x + dx, y + dy) not in hole]
+            if nb:
+                fill[x, y] = max(set(nb), key=nb.count)
+        for (x, y), v in fill.items():
+            px[y][x] = v
+        hole -= set(fill)
+    m = mask(text, gx1 - gx0 - 2, gy1 - gy0 - 2, maxsize=26)
+    a = m.load()
+    mx, my = (gx0 + gx1 - m.width) // 2, gy0 + 1
+    glyph = {(mx + x, my + y) for y in range(m.height) for x in range(m.width) if a[x, y] >= 100}
+    for x, y in glyph:
+        for dx in (-1, 0, 1):
+            for dy in (-1, 0, 1):
+                if (x + dx, y + dy) not in glyph:
+                    px[y + dy][x + dx] = white
+    for x, y in glyph:
+        px[y][x] = ink_i
+    out = bytearray()
+    for t in range(280):
+        tx, ty = t % 14 * 8, t // 14 * 8
+        for y in range(8):
+            out += bytes(px[ty + y][tx:tx + 8])
+    return bytes(out)
+
+
+# palette size (colours) of each large card, from the screen table (palette pointer -> tiles pointer)
+BIG_PAL = {0xAE5FDC: 80, 0xAEA8AC: 80, 0xAEF17C: 80, 0xAF3A4C: 80, 0xAF831C: 80,
+           0xACF24C: 160, 0xAD3BBC: 160, 0xAD852C: 160, 0xADCE9C: 160, 0xAE180C: 160}
+
+
 def panel(rom, off, text):
     """48x48 stone panel 攻撃 / 待機 (0xB54068: 36 tiles, map 0xB544E8 = 6x6 in order, palette 0xB54048 as bank
     13): white (15) glyphs straight on the stone. Each glyph pixel is replaced by the stone pixel 3 to its left
@@ -231,6 +293,8 @@ def battle_ui(rom):
             data = phase(rom, off, r['en'], r['kind'][6:])
         elif r['kind'] == 'cardnum':
             data = cardnum(rom, off, r['en'])
+        elif r['kind'] == 'bigcard':
+            data = bigcard(rom, off, r['en'])
         elif r['kind'] == 'vs':
             data = vs(rom, off, r['en'])
         elif r['kind'] == 'panel':
