@@ -101,18 +101,19 @@ def gap_rounds(a):
     nothing: each scene with unread lines starts at the last label at or before its first unread line"""
     from concurrent.futures import ThreadPoolExecutor
     lines, starts = scene_lines(), label_starts()
-    tried = set()
-    for rnd in range(1, a.rounds + 1):
+    # label runs kept from earlier invocations count as tried (label_r<round>/L<label>/<scene>)
+    tried = {(d.name, int(d.parent.name[1:])) for d in OUT.glob('label_r*/L*/*') if d.is_dir()}
+    first_rnd = 1 + max((int(d.name[7:]) for d in OUT.glob('label_r*')), default=0)
+    for rnd in range(first_rnd, first_rnd + a.rounds):
         seen = shown_ids()
         todo = []
         for sc, n in sorted(lines.items()):
             miss = [i for i in range(n) if '%s.%04d' % (sc, i) not in seen]
-            for i in miss:
+            for i in miss:  # every untried label that holds an unread line (one run per label)
                 lab = max((li for li, first in starts[sc] if first <= i), default=0)
                 if (sc, lab) not in tried:
                     tried.add((sc, lab))
                     todo.append((sc, lab, n - i))
-                    break
         print('round %d: %d scenes' % (rnd, len(todo)), flush=True)
         if not todo:
             return 0

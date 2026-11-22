@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator (started 2026-11-22; session 36: disk blocker cleared, branch pass done, gap
-  pass stopped for low memory). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 19; sessions 20-29 did not
+- **Phase:** 8. QA in the emulator (started 2026-11-22; session 37: gap pass brought scene coverage to 6 unshown
+  (B18 L110 / L119), then stopped for low memory caused by another project's emulators). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 19; sessions 20-29 did not
   rebuild it, because the coverage runs use it; unbuilt there: session 22's 4 text edits, session 23's haiku fix,
   session 24's tab-sprite fix + 2 text edits, sessions 26-29's graphics + D64260, session 30's D72710, session 31's
   D72824/D72830/D728A8/D728D8/D728EC/D72958/D72A84/D72A94, session 33's warn_box), sha1 82aef7599a18..; side
@@ -439,9 +439,22 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   B34 5, B39 35 (69-87, 99-114), system 38 = the 32 haiku (leave strings.tsv at the rebuild, kind grid) + the 6
   haiku-club replies D1685C-D16914 (cover with `tools/debug/haiku_route.py` after the rebuild: good / so-so / bad /
   already-read verdicts). `docs/haiku.md` (`tools/haiku_list.py`): the 32 passwords for the release README (D14).
-- **Next (phase 8):** (1) re-run `cover.py gaps --jobs 2` (fewer jobs: memory) when memory allows; it restarts at
-  round 1 and redoes the 8 finished label runs. Then `report --by-scene`; lines still unshown need a look at their
-  scene's branch / flag (B18 307 is the big one) or a waiver in `docs/text_unshown.tsv` naming why unreachable. (2) Rebuild (everything since session 19 incl.
+  Session 37 (2026-11-23, no rebuild): **scene coverage 499 -> 6 unshown** (total 44 = B18 6 + system 38 haiku).
+  `cover.py gaps` now runs every untried label holding an unread line in one round (was one label per scene per
+  round) and counts the label runs already under `work/qa/cover/label_r*/L*/<scene>` as tried, continuing the
+  round numbers (r9 next r10). B00 92-118: a warped/label run mashes A into the name entry forever; covered by
+  `covrun.py b00_nameexit --route tools/routes/newgame_fast.txt --mash 20 --frames 24000 --script
+  tools/debug/onmode.lua --var "ON_ROUTES={[4]='300 -;6 right;40 -;6 right;40 -;6 a;150 -'}"` (with `--mash 4` and
+  covrun's default hold, A is held and the text stalls at B00.0088). B09 17-20: the scene run only ran out of
+  frames; `long/B09` (12000 frames) shows them. Round r9 (B18, 27 labels, `--jobs 2`) was killed by Claude Code for
+  low memory while ten Mesen runs of `bounty-sword-en` were open; L92/L96 were unfinished and deleted (L92 = line
+  682, L96 = 687 are now shown by other runs). Left: **B18.0780-0781 (L110)** and **B18.0883-0886
+  (L119)**: re-run `cover.py gaps --jobs 2` (only those two labels remain untried). Typo fixed (no rebuild):
+  B18.0780 / 0782 "realiztically" -> "realistically" (story-pass sheet B18 needs a new verdict at the independent
+  story re-run).
+- **Next (phase 8):** (1) `cover.py gaps --jobs 2` when memory allows (check `Get-Process Mesen` first: other
+  projects' runs eat memory); it runs only B18 L110 and L119. Lines still unshown after it need a look at their
+  scene's branch / flag or a waiver in `docs/text_unshown.tsv` naming why unreachable. (2) Rebuild (everything since session 19 incl.
   warn_box, name grids, deck-name fix), then `mv work/qa/cover work/qa/cover_b19`, `cover.py remap
   work/qa/cover_b19 --base b359d4e` (build 19 was made from b359d4e), re-run only what it lists as changed (popcycle
   for CF2B68/CF44CC/CF4558/CF4608; the menu routes for the D72xxx rows: sessions 24-31) and the name-grid rows are
