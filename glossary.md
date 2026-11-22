@@ -336,6 +336,15 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   流浪の剣士 Wandering Blade, 薫風の乙女 Breeze Maiden, 桃園の乙女 Peach Maiden, 常世の唄姫 Tokoyo Diva, 紅の熱血漢
   Red Hothead, 巫女 cards X Miko, 符術士 Talisman Mage, 神速の剣士 Swift Blade (tools/fit.py card_name).
   Yes/no option line: `[81][40]Yes[81][40]No` (raw glyph pairs pass the batch check as text).
+- D6/D7 system text (b097-b107): attack types 拳 Fist, 武 Arms, 飛 Ranged, 術 Art, 氣 Ki; 陰陽属性 alignment, 陰 Yin, 陽
+  Yang; elements 木 Wood, 火 Fire, 土 Earth, 金 Metal, 水 Water; statuses 麻痺 Stun, 毒 Poison, 睡眠 Sleep, 呪詛 Curse.
+  相生 Feed, 相剋 Counter; 摩尼の昇華 Mani Rise; 地形効果 terrain effect; 価値 value; 売買符 trade card; 稀少符 rare card;
+  符咒 (a deck) deck. ◆ -> `[81][9F]`. Card-skill labels on the card face (30 px): 4-letter abbreviations (Chrm, Smn,
+  ...), 即/見/必{Innn} -> {Innn}S / {Innn}D / {Innn}B, 耐{Innn} -> Ward{Innn}. Opponent names: given name first
+  (Kyoichi Horaiji), historical figures in Japanese order (Miyamoto Musashi, Abe no Seimei); 変生X -> Morphed X;
+  渦王須 -> Chaos; 熊襲魁帥 -> Kumaso Takeru. Booster packs: 黄龍 Kouryu, 血風録 Keppuroku, 外法帖 Gehocho, 朧綺譚
+  Oboro Kitan, 剣風帖 Kenpucho. 封陰窟 -> Fuin Cave. Number slots drawn over full-width spaces keep `[81][40]` cells.
+  Particles that join run-time names (を, は, の) become " was", " was", "'s " (whitespace-only English is rejected).
 - A12.4.0038/0043 and A12.9.0057 start `【【` (a JP typo); merge tags them normally.
 - The only row whose JP holds two boxes (`...{rt}{rt}【X】{rt}...`) is B11.0121:
   the batch check wants the repeated speaker name in the English, so put `【X】` in the body to pass, then after
