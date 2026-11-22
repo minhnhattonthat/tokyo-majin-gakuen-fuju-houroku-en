@@ -2,7 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator (started 2026-11-22; session 37: gap pass brought scene coverage to 6 unshown
+- **Phase:** 8. QA in the emulator (started 2026-11-22; session 38: rebuilt, coverage gate 0 failing, full English tour for
+  visual QA next; session 37: gap pass brought scene coverage to 6 unshown
   (B18 L110 / L119), then stopped for low memory caused by another project's emulators). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 19; sessions 20-29 did not
   rebuild it, because the coverage runs use it; unbuilt there: session 22's 4 text edits, session 23's haiku fix,
   session 24's tab-sprite fix + 2 text edits, sessions 26-29's graphics + D64260, session 30's D72710, session 31's
@@ -452,7 +453,14 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   (L119)**: re-run `cover.py gaps --jobs 2` (only those two labels remain untried). Typo fixed (no rebuild):
   B18.0780 / 0782 "realiztically" -> "realistically" (story-pass sheet B18 needs a new verdict at the independent
   story re-run).
-- **Next (phase 8):** (1) `cover.py gaps --jobs 2` when memory allows (check `Get-Process Mesen` first: other
+  Session 38 (2026-11-23): **rebuilt** `build/tmgfh_en.gba` (sha1 e462aaab..; everything since session 19).
+  Coverage moved to `work/qa/cover_b19`, `remap --base b359d4e`, the 15 changed runs re-run (commands and route
+  copies in `work/qa/p8s38/`; popcycle list = new addresses; tradesell4/5 need `--script tools/debug/modeset.lua
+  --var AT=800 --var TO=9`), haiku replies by `haiku_good` / `haiku_twice` / `haiku_short` runs, B18 by `gaps`:
+  **`cover.py report`: 17073/17119 shown, 46 waived, 0 failing** (D16914 "already heard" waived: scripted
+  re-entry types into a half-filled grid). Full English tour `warp.py --all --states --jobs 2` into
+  `work/qa/tour_en` (old one in `tour_en_b19`) started for the visual-QA verdicts.
+- **Next (phase 8):** items (1) and (2) below are done (session 38); continue at (3). (1) `cover.py gaps --jobs 2` when memory allows (check `Get-Process Mesen` first: other
   projects' runs eat memory); it runs only B18 L110 and L119. Lines still unshown after it need a look at their
   scene's branch / flag or a waiver in `docs/text_unshown.tsv` naming why unreachable. (2) Rebuild (everything since session 19 incl.
   warn_box, name grids, deck-name fix), then `mv work/qa/cover work/qa/cover_b19`, `cover.py remap
