@@ -1,0 +1,9 @@
+block	jp	en
+0	勝	LET'S
+1	負	DUEL!
+2	術者	CASTER
+3	交代	SWAP
+4	勝	YOU
+5	利	WIN!
+6	敗	YOU
+7	北	LOSE

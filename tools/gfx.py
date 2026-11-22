@@ -468,6 +468,12 @@ def plaques(rom):
     return gfx_plaques.pack_header(rom)
 
 
+def banners(rom):
+    """battle banners 勝負 / 術者交代 / 勝利 / 敗北 (S9): tools/gfx_banners.py"""
+    import gfx_banners
+    return gfx_banners.banners(rom)
+
+
 def deck_edit(rom):
     """deck editor buttons and category tabs (S19): tools/gfx_deck.py"""
     import gfx_deck
@@ -477,7 +483,8 @@ def deck_edit(rom):
 GROUPS = {'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': dungeon_menu,
           'room_banners': room_banners, 'floor_numerals': floor_numerals, 'signs': signs,
           'settings_screen': settings_screen, 'haiku_screen': haiku_screen, 'deck_name_screen': deck_name_screen,
-          'name_entry_screen': name_entry_screen, 'shop_list_screen': shop_list_screen, 'deck_edit': deck_edit, 'plaques': plaques}
+          'name_entry_screen': name_entry_screen, 'shop_list_screen': shop_list_screen, 'deck_edit': deck_edit, 'plaques': plaques,
+          'banners': banners}
 
 
 def apply(rom):
