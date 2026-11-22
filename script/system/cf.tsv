@@ -449,156 +449,156 @@ CF5AB0	str	7	浪士	Ronin
 CF5AB8	str	7	大百足	Giant Centipede	
 CF5AC0	str	11	夜の召使い	Night Servant	
 CF5ACC	str	7	野良猫	Stray Cat	
-CF5AD4	str	11	螺旋の龍		
-CF5AE0	str	11	無限の王		
-CF5AEC	str	11	始まりの龍		
-CF5AF8	str	11	御用提灯		
-CF5B04	str	11	剣聖の魂		
-CF5B10	str	15	無愛想な老臣		
-CF5B20	str	15	武骨なる忠臣		
-CF5B30	str	11	隠遁の愚者		
-CF5B3C	str	11	憂国の将		
-CF5B48	str	15	粛清されし者		
-CF5B58	str	7	蛸入道		
-CF5B60	str	11	堕ちた仙人		
-CF5B6C	str	11	約束の恋人		
-CF5B78	str	15	忘れじの遊女		
-CF5B88	str	7	蝿の王		
-CF5B90	str	7	影使い		
-CF5B98	str	11	吉原太夫		
-CF5BA4	str	11	美の探究者		
-CF5BB0	str	11	うっかり者		
-CF5BBC	str	11	火附盗賊改		
-CF5BC8	str	11	太極の高僧		
-CF5BD4	str	15	白麗の美剣士		
-CF5BE4	str	15	卑劣なる悪漢		
-CF5BF4	str	7	蟲姫		
-CF5BFC	str	11	伝説の忍者		
-CF5C08	str	11	伝説の剣豪		
-CF5C14	str	15	伝説の兵法者		
-CF5C24	str	15	伝説の陰陽師		
-CF5C34	str	11	見果てぬ者		
-CF5C40	str	11	呪禁道士		
-CF5C4C	str	11	血の領主		
-CF5C58	str	11	蛍火の幼女		
-CF5C64	str	11	おてんば娘		
-CF5C70	str	11	白百合の女		
-CF5C7C	str	11	護らざる者		
-CF5C88	str	11	動乱の証人		
-CF5C94	str	11	鳥面の軍師		
-CF5CA0	str	11	黄泉の女王		
-CF5CAC	str	11	金髪の英雄		
-CF5CB8	str	11	爆炎の志士		
-CF5CC4	str	11	深山の樵		
-CF5CD0	str	7	傀儡姫		
-CF5CD8	str	11	隻眼の天狗		
-CF5CE4	str	11	妖刀使い		
-CF5CF0	str	7	抜け忍		
-CF5CF8	str	11	面打ち師		
-CF5D04	str	15	背徳の殉教者		
-CF5D14	str	11	小さき拳士		
-CF5D20	str	7	破戒僧		
-CF5D28	str	11	狐火の遊女		
-CF5D34	str	15	鬼を率いる者		
-CF5D44	str	7	仙道師		
-CF5D4C	str	15	眠れし戦乙女		
-CF5D5C	str	15	悩める女剣士		
-CF5D6C	str	7	槍御前		
-CF5D74	str	11	からくり師		
-CF5D80	str	11	洗礼の処女		
-CF5D8C	str	7	風流人		
-CF5D94	str	7	猫娘		
-CF5D9C	str	11	桃色の影		
-CF5DA8	str	7	黒き影		
-CF5DB0	str	7	紅き影		
-CF5DB8	str	7	看板娘		
-CF5DC0	str	7	飛脚		
-CF5DC8	str	7	花火師		
-CF5DD0	str	7	くノ一		
-CF5DD8	str	7	仏法者		
-CF5DE0	str	7	弓小町		
-CF5DE8	str	15	菩薩を宿す者		
-CF5DF8	str	11	無双の剣士		
-CF5E04	str	11	莫逆の闘神		
-CF5E10	str	11	美しき鬼姫		
-CF5E1C	str	11	鬼を斬る者		
-CF5E28	str	15	慟哭せし少女		
-CF5E38	str	11	封印の巫女		
-CF5E44	str	7	勧請師		
-CF5E4C	str	15	放たれし天女		
-CF5E5C	str	11	混沌の鬼神		
-CF5E68	str	11	常世の老王		
-CF5E74	str	15	断罪の双生児		
-CF5E84	str	11	裂けし者		
-CF5E90	str	15	欲望の復讐鬼		
-CF5EA0	str	15	草薙ぎし修羅		
-CF5EB0	str	15	凍てつく死龍		
-CF5EC0	str	11	黒き潜入者		
-CF5ECC	str	11	言霊の番人		
-CF5ED8	str	11	偽りの虜囚		
-CF5EE4	str	11	不死の邪王		
-CF5EF0	str	11	煉獄の赤犬		
-CF5EFC	str	15	逞しき犬使い		
-CF5F0C	str	15	貪欲なる大鷲		
-CF5F1C	str	11	脆き破壊者		
-CF5F28	str	11	寂寞の老怪		
-CF5F34	str	15	彷徨えし鬼女		
-CF5F44	str	11	鋼鉄の巨人		
-CF5F50	str	7	朱雀		
-CF5F58	str	7	青龍		
-CF5F60	str	7	玄武		
-CF5F68	str	7	白虎		
-CF5F70	str	11	黒衣の狩人		
-CF5F7C	str	7	妖猫		
-CF5F84	str	15	若き妖怪絵師		
-CF5F94	str	11	拳をもつ者		
-CF5FA0	str	15	狡猾な渡り手		
-CF5FB0	str	15	龍を産みし者		
-CF5FC0	str	11	陽の武道家		
-CF5FCC	str	15	神槍の使い手		
-CF5FDC	str	15	忠実なる番犬		
-CF5FEC	str	7	銀狼		
-CF5FF4	str	15	昔日の癒し手		
-CF6004	str	15	狂気の密教僧		
-CF6014	str	11	刻を渡る者		
-CF6020	str	11	信じる者		
-CF602C	str	11	狐面の巫女		
-CF6038	str	7	審判者		
-CF6040	str	15	外法の探求者		
-CF6050	str	11	朱の淫婦		
-CF605C	str	7	女剣士		
-CF6064	str	15	静謐なる拳士		
-CF6074	str	15	勇猛たる拳士		
-CF6084	str	11	流浪の剣士		
-CF6090	str	11	闇を狩る者		
-CF609C	str	11	厳格な才女		
-CF60A8	str	7	傀儡師		
-CF60B0	str	11	陰の武道家		
-CF60BC	str	11	薫風の乙女		
-CF60C8	str	15	巡り逢えし友		
-CF60D8	str	11	闇に潜む者		
-CF60E4	str	15	彷徨えし悪霊		
-CF60F4	str	7	魍魎		
-CF60FC	str	7	剣鬼		
-CF6104	str	11	外道剣士		
-CF6110	str	11	威嚇する者		
-CF611C	str	11	呪いの人形		
-CF6128	str	11	異形の者		
-CF6134	str	7	下忍		
-CF613C	str	11	深きもの		
-CF6148	str	11	甦りし者		
-CF6154	str	11	常世の使者		
-CF6160	str	11	人喰い鴉		
-CF616C	str	7	狂犬		
-CF6174	str	7	大蝙蝠		
-CF617C	str	11	群をなす者		
-CF6188	str	11	混沌の王		
-CF6194	str	11	不死の剣士		
-CF61A0	str	11	封印する者		
-CF61AC	str	11	朱の陰陽師		
-CF61B8	str	11	怨恨の法師		
-CF61C4	str	11	下劣な巨漢		
-CF61D0	str	7	邪剣士		
+CF5AD4	str	11	螺旋の龍	Spiral Dragon	
+CF5AE0	str	11	無限の王	Endless King	
+CF5AEC	str	11	始まりの龍	First Dragon	
+CF5AF8	str	11	御用提灯	Police Lantern	
+CF5B04	str	11	剣聖の魂	Sword Saint	
+CF5B10	str	15	無愛想な老臣	Gruff Retainer	
+CF5B20	str	15	武骨なる忠臣	Stout Retainer	
+CF5B30	str	11	隠遁の愚者	Hermit Fool	
+CF5B3C	str	11	憂国の将	Patriot General	
+CF5B48	str	15	粛清されし者	The Purged	
+CF5B58	str	7	蛸入道	Octopus Monk	
+CF5B60	str	11	堕ちた仙人	Fallen Sage	
+CF5B6C	str	11	約束の恋人	Promised Love	
+CF5B78	str	15	忘れじの遊女	Fabled Belle	
+CF5B88	str	7	蝿の王	Lord of Flies	
+CF5B90	str	7	影使い	Shadow Wielder	
+CF5B98	str	11	吉原太夫	Yoshiwara Tayu	
+CF5BA4	str	11	美の探究者	Beauty Seeker	
+CF5BB0	str	11	うっかり者	Scatterbrain	
+CF5BBC	str	11	火附盗賊改	Arson Patrol	
+CF5BC8	str	11	太極の高僧	Taiji Abbot	
+CF5BD4	str	15	白麗の美剣士	Fair Swordsman	
+CF5BE4	str	15	卑劣なる悪漢	Vile Villain	
+CF5BF4	str	7	蟲姫	Bug Princess	
+CF5BFC	str	11	伝説の忍者	Legend Ninja	
+CF5C08	str	11	伝説の剣豪	Legend Blade	
+CF5C14	str	15	伝説の兵法者	Legend General	
+CF5C24	str	15	伝説の陰陽師	Legend Onmyoji	
+CF5C34	str	11	見果てぬ者	Endless Seeker	
+CF5C40	str	11	呪禁道士	Jugon Priest	
+CF5C4C	str	11	血の領主	Blood Lord	
+CF5C58	str	11	蛍火の幼女	Firefly Child	
+CF5C64	str	11	おてんば娘	Tomboy	
+CF5C70	str	11	白百合の女	White Lily	
+CF5C7C	str	11	護らざる者	The Unguarding	
+CF5C88	str	11	動乱の証人	Strife Witness	
+CF5C94	str	11	鳥面の軍師	Masked General	
+CF5CA0	str	11	黄泉の女王	Yomi Queen	
+CF5CAC	str	11	金髪の英雄	Blond Hero	
+CF5CB8	str	11	爆炎の志士	Blast Patriot	
+CF5CC4	str	11	深山の樵	Woodcutter	
+CF5CD0	str	7	傀儡姫	Puppet Princess	
+CF5CD8	str	11	隻眼の天狗	One-Eyed Tengu	
+CF5CE4	str	11	妖刀使い	Cursed Blade	
+CF5CF0	str	7	抜け忍	Rogue Ninja	
+CF5CF8	str	11	面打ち師	Mask Carver	
+CF5D04	str	15	背徳の殉教者	Fallen Martyr	
+CF5D14	str	11	小さき拳士	Little Fighter	
+CF5D20	str	7	破戒僧	Corrupt Monk	
+CF5D28	str	11	狐火の遊女	Foxfire Belle	
+CF5D34	str	15	鬼を率いる者	Oni Leader	
+CF5D44	str	7	仙道師	Sennin Adept	
+CF5D4C	str	15	眠れし戦乙女	Dozing Valkyrie	
+CF5D5C	str	15	悩める女剣士	Troubled Blade	
+CF5D6C	str	7	槍御前	Spear Lady	
+CF5D74	str	11	からくり師	Clockmaker	
+CF5D80	str	11	洗礼の処女	Baptized Virgin	
+CF5D8C	str	7	風流人	Aesthete	
+CF5D94	str	7	猫娘	Cat Girl	
+CF5D9C	str	11	桃色の影	Pink Shadow	
+CF5DA8	str	7	黒き影	Black Shadow	
+CF5DB0	str	7	紅き影	Red Shadow	
+CF5DB8	str	7	看板娘	Shop Beauty	
+CF5DC0	str	7	飛脚	Courier	
+CF5DC8	str	7	花火師	Pyrotechnist	
+CF5DD0	str	7	くノ一	Kunoichi	
+CF5DD8	str	7	仏法者	Buddhist	
+CF5DE0	str	7	弓小町	Archer Beauty	
+CF5DE8	str	15	菩薩を宿す者	Buddha Vessel	
+CF5DF8	str	11	無双の剣士	Peerless Blade	
+CF5E04	str	11	莫逆の闘神	Bonded War God	
+CF5E10	str	11	美しき鬼姫	Fair Oni Maiden	
+CF5E1C	str	11	鬼を斬る者	Oni Slayer	
+CF5E28	str	15	慟哭せし少女	Weeping Girl	
+CF5E38	str	11	封印の巫女	Sealing Miko	
+CF5E44	str	7	勧請師	Summoner	
+CF5E4C	str	15	放たれし天女	Freed Celestial	
+CF5E5C	str	11	混沌の鬼神	Chaos Oni God	
+CF5E68	str	11	常世の老王	Old Eternal King	
+CF5E74	str	15	断罪の双生児	Judging Twins	
+CF5E84	str	11	裂けし者	The Torn	
+CF5E90	str	15	欲望の復讐鬼	Greed Avenger	
+CF5EA0	str	15	草薙ぎし修羅	Grass-Cut Asura	
+CF5EB0	str	15	凍てつく死龍	Frozen Wyrm	
+CF5EC0	str	11	黒き潜入者	Black Infiltrator	
+CF5ECC	str	11	言霊の番人	Word Warden	
+CF5ED8	str	11	偽りの虜囚	False Captive	
+CF5EE4	str	11	不死の邪王	Deathless King	
+CF5EF0	str	11	煉獄の赤犬	Hellhound	
+CF5EFC	str	15	逞しき犬使い	Burly Dog Tamer	
+CF5F0C	str	15	貪欲なる大鷲	Greedy Eagle	
+CF5F1C	str	11	脆き破壊者	Frail Destroyer	
+CF5F28	str	11	寂寞の老怪	Lonely Old Spirit	
+CF5F34	str	15	彷徨えし鬼女	Roving Ogress	
+CF5F44	str	11	鋼鉄の巨人	Steel Giant	
+CF5F50	str	7	朱雀	Suzaku	
+CF5F58	str	7	青龍	Seiryu	
+CF5F60	str	7	玄武	Genbu	
+CF5F68	str	7	白虎	Byakko	
+CF5F70	str	11	黒衣の狩人	Black Hunter	
+CF5F7C	str	7	妖猫	Spirit Cat	
+CF5F84	str	15	若き妖怪絵師	Yokai Painter	
+CF5F94	str	11	拳をもつ者	The Fist	
+CF5FA0	str	15	狡猾な渡り手	Sly Drifter	
+CF5FB0	str	15	龍を産みし者	Dragon Bearer	
+CF5FC0	str	11	陽の武道家	Yang Fighter	
+CF5FCC	str	15	神槍の使い手	Divine Spear	
+CF5FDC	str	15	忠実なる番犬	Loyal Watchdog	
+CF5FEC	str	7	銀狼	Silver Wolf	
+CF5FF4	str	15	昔日の癒し手	Healer of Old	
+CF6004	str	15	狂気の密教僧	Mad Mystic	
+CF6014	str	11	刻を渡る者	Time Crosser	
+CF6020	str	11	信じる者	The Believer	
+CF602C	str	11	狐面の巫女	Fox-Mask Miko	
+CF6038	str	7	審判者	The Judge	
+CF6040	str	15	外法の探求者	Heresy Seeker	
+CF6050	str	11	朱の淫婦	Scarlet Harlot	
+CF605C	str	7	女剣士	Swordswoman	
+CF6064	str	15	静謐なる拳士	Serene Fighter	
+CF6074	str	15	勇猛たる拳士	Valiant Fighter	
+CF6084	str	11	流浪の剣士	Wandering Blade	
+CF6090	str	11	闇を狩る者	Dark Hunter	
+CF609C	str	11	厳格な才女	Stern Prodigy	
+CF60A8	str	7	傀儡師	Puppeteer	
+CF60B0	str	11	陰の武道家	Yin Fighter	
+CF60BC	str	11	薫風の乙女	Breeze Maiden	
+CF60C8	str	15	巡り逢えし友	Friend Reunited	
+CF60D8	str	11	闇に潜む者	Lurker in Dark	
+CF60E4	str	15	彷徨えし悪霊	Lost Wraith	
+CF60F4	str	7	魍魎	Moryo	
+CF60FC	str	7	剣鬼	Sword Demon	
+CF6104	str	11	外道剣士	Heretic Blade	
+CF6110	str	11	威嚇する者	The Menacing	
+CF611C	str	11	呪いの人形	Cursed Doll	
+CF6128	str	11	異形の者	The Misshapen	
+CF6134	str	7	下忍	Genin	
+CF613C	str	11	深きもの	Deep One	
+CF6148	str	11	甦りし者	The Revived	
+CF6154	str	11	常世の使者	Tokoyo Envoy	
+CF6160	str	11	人喰い鴉	Man-Eater Crow	
+CF616C	str	7	狂犬	Mad Dog	
+CF6174	str	7	大蝙蝠	Giant Bat	
+CF617C	str	11	群をなす者	The Swarm	
+CF6188	str	11	混沌の王	Chaos King	
+CF6194	str	11	不死の剣士	Deathless Blade	
+CF61A0	str	11	封印する者	The Sealer	
+CF61AC	str	11	朱の陰陽師	Scarlet Onmyoji	
+CF61B8	str	11	怨恨の法師	Grudge Monk	
+CF61C4	str	11	下劣な巨漢	Base Brute	
+CF61D0	str	7	邪剣士	Evil Swordsman	
 CF61D8	str	7	憑依師		
 CF61E0	str	11	嫉妬の大蛇		
 CF61EC	str	11	蛇の宿主		

@@ -56,7 +56,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | 大明神 | Great Deity | | 焔羅大明神 = Great Deity Enra | |
 | 現世 | the mortal world | | うつしよ | |
 | 神鈴 | Divine Bell | | Isuzu's bell; rings near Miasma | |
-| 巫女 | shrine maiden | | | |
+| 巫女 | shrine maiden / Miko | | Miko only where the 94 px card-name slot has no room | |
 | 焔羅様 | Lord Enra | | Yamura and Isuzu's form of address | |
 | 鬼道衆 | Kidoshu | | the oni clan the five Retainers belong to | |
 | 龍脈 | Dragon Vein | | the earth's flow of power under Tokyo | ley line |
