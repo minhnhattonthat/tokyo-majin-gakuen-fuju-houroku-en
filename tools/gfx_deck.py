@@ -102,6 +102,24 @@ def deck_edit(rom):
             rom[a:a + 0x80] = gfx.encode(px, 2)
             out.append((a, a + 0x80))
             continue
+        elif r['kind'] == 'plaque':   # header 符咒編集 0xC6C078: 128x32 = two 64x32 OBJs (bank 10), plaque x 6-89,
+            # y 6-25; marbled interior: rebuild rows 8-22 from the text-free columns x0..x0+8 (ink starts at x 18),
+            # mirrored alternately
+            px = [a_ + b_ for a_, b_ in zip(gfx.decode(rom[a:a + 0x400], 8, 32), gfx.decode(rom[a + 0x400:a + 0x800], 8, 32))]
+            w = 9
+            src = [row[x0:x0 + w] for row in px]
+            for y in range(8, 23):
+                for x in range(x0 + w, x1 + 1):
+                    k, i = divmod(x - x0, w)
+                    px[y][x] = src[y][w - 1 - i if k % 2 else i]
+            lab = shadowed(r['en'], x1 - x0 + 1, 15, 13, (11, 15, 1))
+            for y in range(15):
+                for x in range(x1 - x0 + 1):
+                    if lab[y][x]:
+                        px[8 + y][x0 + x] = lab[y][x]
+            rom[a:a + 0x800] = gfx.encode([row[:64] for row in px], 8) + gfx.encode([row[64:] for row in px], 8)
+            out.append((a, a + 0x800))
+            continue
         elif r['kind'] == 'popup':   # 128x32 = two 64x32 OBJs (8x4 tiles, 0x400 each); en lines split by '|'
             px = [a_ + b_ for a_, b_ in zip(gfx.decode(rom[a:a + 0x400], 8, 32), gfx.decode(rom[a + 0x400:a + 0x800], 8, 32))]
             lines = r['en'].split('|')

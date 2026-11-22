@@ -54,7 +54,7 @@ its usage limit); `tools/gfx_zoom.py` re-renders any asset at chosen widths. Wid
 | S16 | 0xC11C58, 0xC165E8, 0xC1ADF8-0xC1B6F8, 0xC03F88-0xC05A28, 0xC24E08, 0xC26298, 0xC36408, 0xC37968, 0xC37D88 | menu/label strips (wrong width) |
 | S17 | 0xC381A8 売り符選択 / 交換符選択 / 捨て符選択 | shop/trade menu |
 | S18 | 0xC532C8, 0xC557E0, 0xC57CF8, 0xC5A210, 0xC5C728 東京魔人學園 符咒封録 booster packs; 0xC5F760 ブースターパック選択 | |
-| S19 | 0xC66C18, 0xC67D38, 0xC6B118 (両隣 左行 右行...), 0xC6C078 符咒編集, 0xC6D078, 0xC6A2D8 | deck edit / help UI |
+| S19 | 0xC66C18, 0xC67D38, 0xC6B118 (正順 逆順 降順 昇順 あ行..わ行), 0xC6C078 符咒編集, 0xC6D078 (sorting popup), 0xC6A2D8 | deck edit: **English** (group deck_edit, `tools/gfx_deck.py`; tab loader patch TABS_FN in `tools/patches.py`) except 0xC6A2D8 (unchecked) |
 
 | S20 | card frames 0x7ED50C.. (table 0xD80BD4) | five-element emblems 木 火 土 金 水 (small circle, bottom left; large in frames 39-43) |
 | S21 | 0xD1B1A8 (2 tiles wide, 16x16) | settings values: 遅い? 普通 速い 有り 無し ... (message speed / on-off) |
