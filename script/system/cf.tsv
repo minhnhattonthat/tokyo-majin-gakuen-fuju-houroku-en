@@ -221,7 +221,7 @@ CF3B70	str	35	場にある全ての{rt}{I002}を破壊します	Destroys every{r
 CF3B94	str	35	場にある全ての{rt}{I001}を破壊します	Destroys every{rt}{I001} on the field.	
 CF3BB8	str	79	選択した式神を{rt}破壊します{rt}使役者は消費ＡＰ{rt}の半分×１０の{rt}ライフを失います	Destroys a chosen{rt}Shikigami. Its{rt}owner loses half{rt}its AP cost x 10{rt}in Life.	
 CF3C08	str	55	場に出ている{rt}全ての敵{I000}の{rt}能力を使えなくし{rt}ます	Every foe {I000} on{rt}the field loses{rt}the use of its{rt}abilities.	
-CF3C40	str	51	{I000}１枚を選択し、{rt}その{I000}を手札に{rt}戻させます	Choose a {I000} and{rt}return it to its{rt}owner's hand.	
+CF3C40	str	51	{I000}１枚を選択し、{rt}その{I000}を手札に{rt}戻させます	Choose a {I000} and{rt}return that {I000}{rt}to its owner's hand.	
 CF3C74	str	27	対象の{I000}を{I019}に{rt}します	Puts the target{rt}{I000} into {I019}.	
 CF3C90	str	27	対象の{I000}を{I017}に{rt}します	Puts the target{rt}{I000} into {I017}.	
 CF3CAC	str	75	次のターン終了{rt}まで符咒士が{rt}攻撃を受ける度に{rt}同じ分ライフを{rt}回復します	Until the end of{rt}next turn, the{rt}Talismancer heals{rt}Life equal to each{rt}attack taken.	

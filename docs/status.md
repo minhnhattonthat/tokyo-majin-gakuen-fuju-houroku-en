@@ -2,27 +2,26 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 with B00-B03
-  English, sha1 6e2fcc5dfb56.. (story_00 warp checked: `work/qa/pilot_zoom.png`). Marker build
-  `build/tmgfh_marker.gba` sha1 91c3d9342694...
-- **Progress:** batches b001-b089 merged (b089 = d1: haiku club, haiku list, sound test): every story row (B00-B39, A0.x-A12.x) has English (2026-11-22),
-  including the staff roll (B38.0139, B39.0000-0064, by hand; readings unverified). B11.0121 holds two boxes
-  (fixed by hand after merge; see the glossary note). Remaining: system cf/d6 (2 547 rows), then the review
-  pass. `batches.py`: 赤ちゃん is not an honorific (added to NOT_HONORIFIC).
-- **How (each session):** read `docs/translator-brief.md`, `docs/style-reference.md`, `docs/synopsis.md` and the
-  glossary (in parts). `python -X utf8 tools/batches.py split --only B05.,B06.` (chapter order: B then that
-  chapter's A scenes; system last) -> translate `work/tl/bNNN.tsv` into `bNNN.out.tsv` (Write tool) -> `check` ->
-  `merge` -> extend synopsis/glossary -> commit. No subagents in Orca workers and codex is rate-limited until
-  2026-11-26: the worker translates itself, ~4-5 batches per context. Fit lint: `tools/fit.py` (all budgets from
-  `tools/windows.tsv`, run by `tests/test_fit.py`); dialogue bodies are wrapped by merge (2 rows, 232/218 px,
-  about 65 chars). Phase 6 done-when: batch check 0 errors everywhere, glossary current, a review pass with no
-  Critical/Important (do it as a fresh read-only pass per chapter; codex once its limit resets).
-- **Next:** d1 is done (b089). CF is split into b090-b096 (b090-b091 merged: prompts, ability tags, possession
-  effects, spell text); translate b092-b096 with the card-game terms in the glossary notes ("Card game"), then
-  `split --only D6` (1 556) (ids are hex addresses: the --only prefix is upper case), a few batches per context;
-  budgets come from `tools/windows.tsv`. Then the per-chapter review pass. The fit
-  lint's unit budgets depend on the encoder built from all text, so new merges can push an old row over (B04.0181
-  after b050): run `tools/check.py` after each merge and reword the row it names. Rows of kind `grid` are not translated. Notes for translators: system strings are often pieces joined
+- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22, full English,
+  sha1 7c3a27bc3949..; smoke ok (`work/qa/smoke`), B07 warp shows English dialogue (`work/qa/warp/B07/sheet.png`).
+- **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
+  (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
+  only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
+  --gba-ptrs` on the build: only the kana name-entry grids D6E5xx/D72Fxx (kind `grid`, until English name entry)
+  and a graphics false hit at 0x803B27. Phase 6 done 2026-11-22: every row translated, batch check 0 errors,
+  glossary current, story pass B00-B39 / A0-A12 / sys sheets with fixes (`qa_gate.py check work/qa/story/...`
+  exits 0), `docs/polish.md` all ticked.
+- **How:** fit lint `tools/fit.py` (budgets from `tools/windows.tsv`); after any `en` edit run `tools/check.py`,
+  then `tools/story.py` + `qa_gate.py init` on the story manifest and add a verdict line for each changed sheet.
+  No subagents in Orca workers; codex rate-limited until 2026-11-26.
+- **Next (phase 8):** the screen tour per `references/emulator-qa.md`: warp every `tools/debug/scenes.tsv` row on the
+  English build, contact sheets through `qa_gate.py` (visual QA needs read-only subagents, so a non-Orca session or
+  the coordinator's agents); graphics-text redraws (chapter cards, place-name strips, 邪気封印 card art, emblems,
+  rarity legend, game over, credits); `inkbox.py` on choice/centred boxes; stress saves (needs save fields mapped);
+  English name entry (u16 kana grids 0xD16740 / D6E56C / D72F00). Checks carried from phase 6: card-panel range
+  CF24B0-CF2A00, battle-opponent name width (160 px), haiku list layout, sound test layout. The fit
+  lint's unit budgets depend on the encoder built from all text, so an edit can push an old row over: run
+  `tools/check.py` and reword the row it names. Rows of kind `grid` are not translated. Notes: system strings are often pieces joined
   at run time (turn banner 符咒士 / name + の / ターン; deck-editor prompts with 真神 and counts; deck help line 1;
   `　　枚` slots that receive numbers): check the joined line. The sound test body D1BD60 is written straight
   into d1.tsv as raw full-width bytes (ＢＧＭ / ＳＥ / ＤＬＧ / ＶＯＸ, 3 cells each: the counters draw from cell 5);
@@ -51,10 +50,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (`tools/scenes.py`, `tools/strslots.py`, `tests/test_identity.py`). Phase 2 debug tool `tools/debug/warp.py`
   (194 rows, `--all --states`), save editor `tools/debug/save.py`, probes in `tools/debug/`. Phase 1 recon
   (`docs/re/text.md`, `docs/re/graphics.md`). Step 0 setup.
-- **Carry-overs for phase 7:** the scene region has no slack, so longer English needs the spill region (free-space
-  candidate 0xE61678+, trap-test it); verify every slot's pointer sites before relocating (alias 0xCF4DC
-  unverified); English name entry needs the u16 kana grid at 0xD16740 (and the deck-name grid). Boxes that are too
-  narrow for English (choice 112 px fixed, card_skill 30 px, tutorial pages per entry) may want engine widening.
+- **Carry-overs for phase 8:** scenes spill into SPILL (0xE62000+) in the full build; alias 0xCF4DC unverified in
+  game. Boxes that are tight for English (choice 112 px fixed, card_skill 30 px, tutorial pages per entry) may want
+  engine widening if the tour shows clipping.
 - **Gaps in the debug tool (non-blocking, close before phase 8):** no normal path to the sound test (`sound_test`
   warps to mode 20). Save fields beyond names and chapter (cards, deck, money) unmapped; needed for stress saves.
 - **Open bugs:** none.
