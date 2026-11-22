@@ -50,6 +50,8 @@ RANGES = [
     (0xCF6AFC, 0xCF6D00, 'place_effect', 2, 124, None, 8),
     (0xCF13C0, 0xCF2A00, 'popup', 3, 128, None, 8),
     (0xD652AC, 0xD6531C, 'battle_banner', 2, 208, None, 13),
+    # card-battle opponent names; 160 px = the widest JP name (白虎（変生醍醐雄慶）); inferred, check in game
+    (0xD645E4, 0xD65130, 'opponent_name', 1, 160, None, 10),
     (0xD726FC, 0xD72CC4, 'card_prompt', 4, 124, None, 8),
     (0xD7874C, 0xD78CCC, 'card_prompt', 4, 124, None, 8),
     (0xD72434, 0xD724C0, 'deck_help', 3, 144, None, 9),
