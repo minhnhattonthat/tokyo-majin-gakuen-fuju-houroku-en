@@ -391,7 +391,8 @@ def edit_canvas(canvas, edits, rom, pal, white):
         elif r['kind'] == 'patch':   # cover with a blank stretch of the same texture (sx, sy), then white text
             sx, sy = int(r['sx']), int(r['sy'])
             src = [row[sx:sx + w] for row in canvas[sy:sy + h]]
-            px = letter_levels(r['en'], w, h, 12, list(white), 1, align='center')
+            px = (letter_levels(r['en'], w, h, 12, list(white), 1, align='center') if r['en']
+                  else [[0] * w for _ in range(h)])   # empty en: texture only (a label the English drops)
             for yy in range(h):
                 canvas[y + yy][x:x + w] = [p or s for p, s in zip(px[yy], src[yy])]
         elif r['kind'] == 'label':   # transparent backdrop: clear the rect, then left-aligned text with a rim
@@ -506,6 +507,19 @@ def chapter_cards(rom):
     return out
 
 
+def profile_screens(rom):
+    """new-game profile questions after name entry (LZ77 screen-table entries, bank 10 like name entry): 出身地は？
+    0xD7DF28, 誕生日は？ 0xD7DF34 (+ 月 / 日 field labels: 月 -> "/", 日 cleared, so the fields read MM/DD; 進む 戻る
+    終了), 血液型は？ 0xD7DF4C, 性別は？ 0xD7DF58 (男 女). gfx/profile.tsv rows carry their entry"""
+    out = []
+    by = {}
+    for r in rows('profile'):
+        by.setdefault(r['entry'], []).append(r)
+    for entry, edits in by.items():
+        out += lz_screen_edit(rom, int(entry, 16), 10, edits, white=(11, 13, 14, 15), max_tiles=320)
+    return out
+
+
 def shop_list_screen(rom):
     return bg4_edit(rom, 0xD81DBC, 13, rows('shop_list'), white=(10, 13, 14, 15), pal_at=4)
 
@@ -545,7 +559,8 @@ GROUPS = {'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': 
           'settings_screen': settings_screen, 'haiku_screen': haiku_screen, 'deck_name_screen': deck_name_screen,
           'name_entry_screen': name_entry_screen, 'shop_list_screen': shop_list_screen, 'deck_edit': deck_edit, 'plaques': plaques,
           'banners': banners, 'battle_ui': battle_ui, 'captions': captions,
-          'end_card': end_card, 'chapter_cards': chapter_cards}
+          'end_card': end_card, 'chapter_cards': chapter_cards,
+          'profile_screens': profile_screens}
 
 
 def apply(rom):
