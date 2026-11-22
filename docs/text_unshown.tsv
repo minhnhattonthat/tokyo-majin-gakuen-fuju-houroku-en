@@ -44,3 +44,4 @@ D790F8	link trade message: not registered here; needs a second GBA
 D79118	link trade message: delete? yes / no; needs a second GBA
 D79138	link trade message: already registered; needs a second GBA
 D79154	link trade message: register? yes / no; needs a second GBA
+D16914	haiku judge, same haiku entered twice (needs a second visit after the card reward; scripted re-entry types into a half-filled grid); same reply box as D1685C-D168F0, all shown and fitting; length 2 lines like D16884
