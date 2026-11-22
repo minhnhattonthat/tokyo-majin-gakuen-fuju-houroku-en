@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 17),
-  sha1 52127869a2f2..; check.py 37 passed.
+- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 18),
+  sha1 82aef7599a18..; check.py 37 passed.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -173,11 +173,17 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `work/qa/p8s17/tabs_fix.png`). Help rows D72434-D724BC got a fourth blank unit (the count digit covered "cards").
   Story gate 0 open (`zz_recheck17_20261122.tsv`, also covers sessions 13-14's label edits). Sort popup not re-seen
   after the allocator change (routes tried did not open it; it is fixed at 640-703, above the block).
-- **Next (phase 8):** (0) graphics rows in `docs/re/graphics.md` with no group yet: S14 emblem kanji (0xBEF3A8,
-  0xBF07C8), S23 Tokyo map place names (0xD1EC50, BG tileset: find the map screen), S25 brush titles (0xD280D0,
-  0xD2F0D8, 0xD30448), S26 0xD2A248 (8bpp, 1998 6.18 + kanji); S8 0xB1AC8C; S16 strips 0xC03F88-0xC05A28,
-  0xC1ADF8-0xC1B6F8, 0xC37968/0xC37D88 (C37968 = sprite icons, C37D88 = frame pieces: likely no text, confirm);
-  trade / discard plaques (S17) in game (trade room -> Trade, needs cards). (1) see an element text icon ({I006}-{I015}) in game (card text popup of a Ward/Slay/Bane card)
+  Session 18 (2026-11-22): **sutra board (mode 7, W13) English, seen in game**: the ten sin labels are selectable
+  zones, so BG + red highlight sprites redrawn with the glossary names (group sutra_board, `tools/gfx_board.py`;
+  tiles moved to 0xFC0000, setup copy-size literal 0x080567E4 raised; cursor walked over each label,
+  `work/qa/p8s18/bm_z.png`; D13). Open graphics rows triaged (`docs/re/graphics.md`): S8 0xB1AC8C Siddham art, S14
+  LZ77 creature art, S23 = title-screen talisman art, C37968/C37D88 shop icons: no work; S25/S26 = boot logos
+  (mode 13), kept under D5 (D13). New probes `tools/debug/srcall.lua` (every ROM source a run loads) +
+  `tools/debug/srchits.py` (filter logs by asset), `ppuat.lua` takes `AT={f1,f2}`. Warp MODE11 / MODE19 give blank
+  screens (mode 11 needs setup). check.py 37 passed; build sha1 82aef7599a18..
+- **Next (phase 8):** (0) graphics left: S16 0xC03F88 link-room badges (look like 待機中 / 通信中; loaded only in
+  link-room sub-state 2, 0x0805BFE8: force the sub-state or poke it to see them, then redraw); 0xD280D0 (title
+  set, table 0xD289A0) unidentified; trade / discard plaques (S17) in game (trade room -> Trade, needs cards). (1) see an element text icon ({I006}-{I015}) in game (card text popup of a Ward/Slay/Bane card)
   and a large frame (39-43). (2) a land / spell mini label in game (thumbnail of a non-character card on the
   panel). (3) S29 tutorial
   overlays + tutorial panel 0xD35868/0xD333B8 (match the English panel). Remaining graphics
