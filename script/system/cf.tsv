@@ -299,156 +299,156 @@ CF4804	str	23	{I003}の消費ＡＰを{rt}＋４	{I003} AP cost{rt}+4
 CF481C	str	39	場にいる{rt}{I013}２０以下の{I000}を{rt}破壊	Destroys {I000} on{rt}the field with {I013}{rt}20 or less	
 CF4844	str	47	場にいる{I010}の{rt}{I000}のＭＡＸ{I013}{rt}と{I013}＋２０	{I010}{I000} on the{rt}field: Max {I013}{rt}and {I013} +20	
 CF4874	str	47	場にいる{I011}の{rt}{I000}のＭＡＸ{I013}{rt}と{I013}＋２０	{I011}{I000} on the{rt}field: Max {I013}{rt}and {I013} +20	
-CF48A4	str	35	場にいる同名{rt}の{I000}を全て{rt}破壊		
-CF48C8	str	31	{I011}の{I000}の消費{rt}ＡＰを－２		
-CF48E8	str	31	{I010}の{I000}の消費{rt}ＡＰを－２		
-CF4908	str	43	場で{I014}値の{rt}一番高い{I000}を{rt}{I016}にする		
-CF4934	str	47	場で消費ＡＰ値の{rt}一番高い{I000}を{rt}{I016}にする		
-CF4964	str	47	場にいる全ての{rt}{I000}のＭＡＸ{I013}{rt}を半分にする		
-CF4994	str	27	対象の{I000}を{rt}{I018}にする		
-CF49B0	str	43	敵{I000}は、次の自分{rt}のターンまで{rt}攻撃不可		
-CF49DC	str	31	場の男性{I000}全てを{rt}{I016}にする		
-CF49FC	str	47	敵符咒士の場の{rt}{I000}の配置を時計回{rt}りに回転		
-CF4A2C	str	47	敵符咒士の使った{rt}{I000}{I001}{I002}{I003}を{rt}打ち消す		
-CF4A5C	str	59	ライフを－４０し{rt}敵符咒士の使った{rt}{I001}{I002}{I003}を打ち消す		
-CF4A98	str	23	４０のライフを{rt}得る		
-CF4AB0	str	43	場全ての表の符を{rt}裏に、裏の符を{rt}表にする		
-CF4ADC	str	51	次の自分のターン{rt}まで、両符咒士の{rt}ＡＰを０にする		
-CF4B10	str	31	対象の敵{I000}の{rt}{I012}を０にする		
-CF4B30	str	27	敵{I000}全てを{rt}{I016}にする		
-CF4B4C	str	47	敵符咒士は次ター{rt}ン{I000}以外の符を{rt}使用不可		
-CF4B7C	str	31	敵符咒士の墓地の{rt}符を混ぜる		
-CF4B9C	str	39	墓地の一番上に{rt}ある{I003}を{rt}手札に戻す		
-CF4BC4	str	55	両者の手符を破棄{rt}場の符を手札に戻{rt}し、ライフを得る		
-CF4BFC	str	51	敵符咒士の手札の{rt}{I000}一枚をコピーし{rt}手札に加える		
-CF4C30	str	47	敵符咒士の手札の{rt}{I000}全てを病んだ狼{rt}にする		
-CF4C60	str	39	敵符咒士の手札の{rt}{I001}{I002}を全て破棄		
-CF4C88	str	43	敵符咒士の手札を{rt}見て、一枚{rt}捨てさせる		
-CF4CB4	str	39	場の敵{I000}×１０の{rt}ダメージを与える		
-CF4CDC	str	43	ライフを－５０し{rt}敵符咒士に５０ダ{rt}メージ		
-CF4D08	str	27	対象の{I000}に{rt}２０ダメージ		
-CF4D24	str	31	{I001}が憑依している{rt}{I000}を破壊		
-CF4D44	str	55	場の味方{I000}を破壊{rt}その符の価値分{rt}ＭＡＸＡＰを上昇		
-CF4D7C	str	55	このターンのみ、{rt}敵符咒士側の{I000}の{rt}地形効果を無効化		
-CF4DB4	str	47	全摩尼を破壊{rt}破壊摩尼数×２０{rt}のライフを得る		
-CF4DE4	str	51	次の自分のターン{rt}まで、相生相剋を{rt}起こらなくする		
-CF4E18	str	23	全ての摩尼を{rt}０にする		
-CF4E30	str	51	場にある自分の{I000}{rt}を敵の前列へ{rt}送り使役させる		
-CF4E64	str	55	オープンした{I000}を{rt}伏せ、伏せられた{rt}{I000}をオープン		
-CF4E9C	str	35	場にある{I000}×２０{rt}のライフを得る		
-CF4EC0	str	43	敵{I000}を全て{rt}オープンする{rt}能力も無効化		
-CF4EEC	str	51	場の味方{I000}を破壊{rt}その{I000}の属性の{rt}摩尼を＋１		
-CF4F20	str	43	敵符咒士の使った{rt}{I001}{I002}{I003}を打ち消す		
-CF4F4C	str	55	対象の摩尼を破壊{rt}ターン中摩尼×２{rt}ＭＡＸＡＰを上昇		
-CF4F84	str	43	このターン、{rt}全ての{I000}を{rt}無属性に変化		
-CF4FB0	str	39	このターン、{rt}全ての{I000}を{rt}{I009}に変化		
-CF4FD8	str	39	このターン、{rt}全ての{I000}を{rt}{I008}に変化		
-CF5000	str	39	このターン、{rt}全ての{I000}を{rt}{I007}に変化		
-CF5028	str	39	このターン、{rt}全ての{I000}を{rt}{I006}に変化		
-CF5050	str	39	このターン、{rt}全ての{I000}を{rt}{I005}に変化		
-CF5078	str	51	対象の{I000}を除去{rt}{I000}の所有者は{rt}ＭＡＸＡＰ＋１		
-CF50AC	str	31	次の敵符咒士の{rt}ターンをとばす		
-CF50CC	str	23	山札を初期状態に{rt}戻す		
-CF50E4	str	27	変生能力のある{rt}{I000}を変生		
-CF5100	str	39	選択した{I001}を{rt}別の{I000}に{rt}移し変える		
-CF5128	str	27	場にある全ての{rt}{I002}を破壊		
-CF5144	str	27	場にある全ての{rt}{I001}を破壊		
-CF5160	str	55	{I001}{I002}破壊し、{rt}所有者にＡＰ半分{rt}×１０のダメージ		
-CF5198	str	31	全ての敵{I000}の{rt}能力を無効化		
-CF51B8	str	27	対象の{I000}を{rt}手札に戻す		
-CF51D4	str	27	対象の{I000}を{rt}{I019}にする		
-CF51F0	str	27	対象の{I000}を{rt}{I017}にする		
-CF520C	str	43	次のターンまで{rt}ダメージを{rt}ライフに変換		
-CF5238	str	47	使役する{I000}全てに{rt}ＭＡＸ{I013}と{I013}を{rt}＋２０		
-CF5268	str	47	次のターンまで{rt}敵符咒士の{I003}を{rt}使用不可に		
-CF5298	str	47	全ての{I000}は{rt}互いにダメージを{rt}与えられない		
-CF52C8	str	51	手符を全て捨て、{rt}墓地の上から{rt}３枚の{I000}を手札に		
-CF52FC	str	39	墓地の一番上に{rt}ある{I002}を{rt}場に出す		
-CF5324	str	55	墓地の一番上の{I000}{rt}を場に。ターン{rt}終了時{I000}は除去		
-CF535C	str	43	墓地の一番上に{rt}ある{I000}１枚を{rt}手札に戻す		
-CF5388	str	47	手札を全て捨て{rt}敵符咒士に枚数×{rt}１０ダメージ		
-CF53B8	str	35	敵符咒士の手札の{rt}{I003}を全て破棄		
-CF53DC	str	55	両者の手札を破棄{rt}手札の多かった側{rt}と同じ枚数ドロー		
-CF5414	str	27	敵符咒士の手札の{rt}を見る		
-CF5430	str	39	敵符咒士の手札{rt}一枚をランダムに{rt}破壊		
-CF5458	str	27	手札を全て捨て{rt}８枚ドロー		
-CF5474	str	31	３枚ドロー{rt}（手札８枚まで）		
-CF5494	str	43	場にいる全ての{rt}{I005}{I000}に{rt}５０ダメージ		
-CF54C0	str	43	場にいる全ての{rt}{I006}{I000}に{rt}５０ダメージ		
-CF54EC	str	43	場にいる全ての{rt}{I008}{I000}に{rt}５０ダメージ		
-CF5518	str	43	場にいる全ての{rt}{I007}{I000}に{rt}５０ダメージ		
-CF5544	str	43	場にいる全ての{rt}{I009}{I000}に{rt}５０ダメージ		
-CF5570	str	43	場にある{I013}の{rt}減っている{I000}を{rt}全て破壊		
-CF559C	str	27	場にある全ての{rt}符を破壊		
-CF55B8	str	43	摩尼が１以上ある{rt}属性の{I000}全てを{rt}破壊		
-CF55E4	str	39	ライフを－２０し{rt}ＭＡＸＡＰを{rt}＋４		
-CF560C	str	27	ＭＡＸＡＰと{rt}ＡＰを＋４		
-CF5628	str	19	{&X02}ターン終了時		
-CF563C	str	15	破壊された時		
-CF564C	str	15	{&NX0}Ｄ受けた時		
-CF565C	str	19	符咒士に{&NX0}Ｄで		
-CF5670	str	15	{&NX0}Ｄ与えた時		
-CF5680	str	19	この{I000}の待機時		
-CF5694	str	19	この{I000}の攻撃時		
-CF56A8	str	7	エラー		
-CF56B0	str	23	{&X00}が{&NY0}になった時		
-CF56C8	str	11	相生発生時		
-CF56D4	str	11	相剋発生時		
-CF56E0	str	11	オープン時		
-CF56EC	str	27	場にある全ての{rt}{&x14}を{&z11}		
-CF5708	str	35	場にある全ての{rt}属性の{I000}を{&y11}		
-CF572C	str	31	場にある{&x04}属性の{rt}{I000}を{&y11}		
-CF574C	str	39	全ての{I000}{I012}{&Sx0}{rt}{I013}{&Sy0}{I014}{&Sz0}		
-CF5774	str	35	敵全{I000}{I012}{&Sx0}{rt}{I013}{&Sy0}{I014}{&Sz0}		
-CF5798	str	39	味方全{I000}{I012}{&Sx0}{rt}{I013}{&Sy0}{I014}{&Sz0}		
-CF57C0	str	35	{I000}の{I012}{&Sx0}{rt}{I013}{&Sy0}{I014}{&Sz0}		
-CF57E4	str	39	{&x02}の手札{&y03}１枚{rt}ランダムに捨てる		
-CF580C	str	39	{&x02}の手札{&Ny0}枚を{rt}ランダムに捨てる		
-CF5834	str	27	{&x06}のライフを{rt}{&Sy0}する		
-CF5850	str	23	{&x06}のＡＰを{rt}{&Sy0}する		
-CF5868	str	35	{&x06}のＭＡＸＡＰ{rt}{&Sy0}ライフ{&Sz0}		
-CF588C	str	31	{&x06}のＭＡＸＡＰ{rt}を{&Sy0}する		
-CF58AC	str	35	{&x04}摩尼{&Sy0}レベル{rt}ライフを{&Sz0}		
-CF58D0	str	35	摩尼レベルが{rt}{&x05}方向に回転する		
-CF58F4	str	31	{&x04}摩尼が{rt}{&Ny0}レベルになる		
-CF5914	str	27	{&x04}摩尼を{&Sy0}{rt}レベルする		
-CF5930	str	7	心理士		
-CF5938	str	11	夢見る少女		
-CF5944	str	7	墓守		
-CF594C	str	15	微睡みの少年		
-CF595C	str	15	失われし少女		
-CF596C	str	11	宝探し屋		
-CF5978	str	11	婦人警官		
-CF5984	str	11	鬼人の兵		
-CF5990	str	11	慈愛の姫		
-CF599C	str	11	最後の武人		
-CF59A8	str	7	警官		
-CF59B0	str	15	優秀な分析官		
-CF59C0	str	11	夏色の少女		
-CF59CC	str	15	天女を抱く者		
-CF59DC	str	11	拳を持つ者		
-CF59E8	str	11	病んだ狼		
-CF59F4	str	11	悲しみの狼		
-CF5A00	str	11	月夜の少女		
-CF5A0C	str	11	人狼天使		
-CF5A18	str	11	狂気の少年		
-CF5A24	str	7	老刑事		
-CF5A2C	str	7	理解者		
-CF5A34	str	11	混沌の龍		
-CF5A40	str	11	強欲な商人		
-CF5A4C	str	7	悪代官		
-CF5A54	str	11	雷鳴の巨神		
-CF5A60	str	11	戦場の女神		
-CF5A6C	str	11	緑風の神		
-CF5A78	str	11	北の賢者		
-CF5A84	str	11	狼の戦士		
-CF5A90	str	7	魔獣		
-CF5A98	str	11	刺青の戦士		
-CF5AA4	str	11	黄昏の帝王		
-CF5AB0	str	7	浪士		
-CF5AB8	str	7	大百足		
-CF5AC0	str	11	夜の召使い		
-CF5ACC	str	7	野良猫		
+CF48A4	str	35	場にいる同名{rt}の{I000}を全て{rt}破壊	Destroys all {I000}{rt}on the field that{rt}share a name	
+CF48C8	str	31	{I011}の{I000}の消費{rt}ＡＰを－２	{I011}{I000} AP cost{rt}-2	
+CF48E8	str	31	{I010}の{I000}の消費{rt}ＡＰを－２	{I010}{I000} AP cost{rt}-2	
+CF4908	str	43	場で{I014}値の{rt}一番高い{I000}を{rt}{I016}にする	The {I000} with the{rt}most {I014} on the{rt}field gets {I016}	
+CF4934	str	47	場で消費ＡＰ値の{rt}一番高い{I000}を{rt}{I016}にする	The {I000} with the{rt}highest AP cost{rt}gets {I016}	
+CF4964	str	47	場にいる全ての{rt}{I000}のＭＡＸ{I013}{rt}を半分にする	Halves Max {I013}{rt}of every {I000}{rt}on the field	
+CF4994	str	27	対象の{I000}を{rt}{I018}にする	Puts the target{rt}{I000} into {I018}	
+CF49B0	str	43	敵{I000}は、次の自分{rt}のターンまで{rt}攻撃不可	Foe {I000} can't{rt}attack until{rt}your next turn	
+CF49DC	str	31	場の男性{I000}全てを{rt}{I016}にする	Every male {I000}{rt}on the field{rt}gets {I016}	
+CF49FC	str	47	敵符咒士の場の{rt}{I000}の配置を時計回{rt}りに回転	Rotates the foe{rt}Talismancer's {I000}{rt}clockwise	
+CF4A2C	str	47	敵符咒士の使った{rt}{I000}{I001}{I002}{I003}を{rt}打ち消す	Cancels the foe{rt}Talismancer's{rt}{I000}{I001}{I002}{I003}	
+CF4A5C	str	59	ライフを－４０し{rt}敵符咒士の使った{rt}{I001}{I002}{I003}を打ち消す	Life -40; cancels{rt}foe Talismancer's{rt}{I001}{I002}{I003}	
+CF4A98	str	23	４０のライフを{rt}得る	Gain 40 Life	
+CF4AB0	str	43	場全ての表の符を{rt}裏に、裏の符を{rt}表にする	Flips every card on{rt}the field: face up{rt}to down, down to up	
+CF4ADC	str	51	次の自分のターン{rt}まで、両符咒士の{rt}ＡＰを０にする	Until your next{rt}turn, both{rt}Talismancers' AP 0	
+CF4B10	str	31	対象の敵{I000}の{rt}{I012}を０にする	The target foe{rt}{I000}'s {I012}{rt}becomes 0	
+CF4B30	str	27	敵{I000}全てを{rt}{I016}にする	Every foe {I000}{rt}gets {I016}	
+CF4B4C	str	47	敵符咒士は次ター{rt}ン{I000}以外の符を{rt}使用不可	Next turn, the foe{rt}Talismancer plays{rt}only {I000}	
+CF4B7C	str	31	敵符咒士の墓地の{rt}符を混ぜる	Shuffles the foe{rt}Talismancer's{rt}graveyard	
+CF4B9C	str	39	墓地の一番上に{rt}ある{I003}を{rt}手札に戻す	Returns the {I003}{rt}on top of the{rt}graveyard to hand	
+CF4BC4	str	55	両者の手符を破棄{rt}場の符を手札に戻{rt}し、ライフを得る	Both discard hands;{rt}field cards return{rt}to hand; gain Life	
+CF4BFC	str	51	敵符咒士の手札の{rt}{I000}一枚をコピーし{rt}手札に加える	Copies one {I000} from{rt}the foe Talismancer's{rt}hand into yours	
+CF4C30	str	47	敵符咒士の手札の{rt}{I000}全てを病んだ狼{rt}にする	Every {I000} in the{rt}foe Talismancer's{rt}hand: Sick Wolf	
+CF4C60	str	39	敵符咒士の手札の{rt}{I001}{I002}を全て破棄	The foe Talismancer{rt}discards all{rt}{I001}{I002} in hand	
+CF4C88	str	43	敵符咒士の手札を{rt}見て、一枚{rt}捨てさせる	See the foe{rt}Talismancer's hand;{rt}they discard one	
+CF4CB4	str	39	場の敵{I000}×１０の{rt}ダメージを与える	Deals 10 damage{rt}per foe {I000}{rt}on the field	
+CF4CDC	str	43	ライフを－５０し{rt}敵符咒士に５０ダ{rt}メージ	Life -50; deals 50{rt}damage to the foe{rt}Talismancer	
+CF4D08	str	27	対象の{I000}に{rt}２０ダメージ	20 damage to the{rt}target {I000}	
+CF4D24	str	31	{I001}が憑依している{rt}{I000}を破壊	Destroys a {I000}{rt}possessed by a {I001}	
+CF4D44	str	55	場の味方{I000}を破壊{rt}その符の価値分{rt}ＭＡＸＡＰを上昇	Destroys an allied{rt}{I000}; Max AP rises{rt}by its value	
+CF4D7C	str	55	このターンのみ、{rt}敵符咒士側の{I000}の{rt}地形効果を無効化	This turn only, foe{rt}Talismancer {I000}{rt}lose terrain effects	
+CF4DB4	str	47	全摩尼を破壊{rt}破壊摩尼数×２０{rt}のライフを得る	Destroys all Mani;{rt}gain 20 Life per{rt}Mani destroyed	
+CF4DE4	str	51	次の自分のターン{rt}まで、相生相剋を{rt}起こらなくする	Until your next{rt}turn, no element{rt}feeds or counters	
+CF4E18	str	23	全ての摩尼を{rt}０にする	Sets all Mani{rt}to 0	
+CF4E30	str	51	場にある自分の{I000}{rt}を敵の前列へ{rt}送り使役させる	Sends your {I000}{rt}to the foe's front{rt}row to serve them	
+CF4E64	str	55	オープンした{I000}を{rt}伏せ、伏せられた{rt}{I000}をオープン	Turns open {I000}{rt}face down, and{rt}face-down {I000} up	
+CF4E9C	str	35	場にある{I000}×２０{rt}のライフを得る	Gain 20 Life per{rt}{I000} on the field	
+CF4EC0	str	43	敵{I000}を全て{rt}オープンする{rt}能力も無効化	Opens every foe{rt}{I000}; their{rt}abilities don't fire	
+CF4EEC	str	51	場の味方{I000}を破壊{rt}その{I000}の属性の{rt}摩尼を＋１	Destroys an allied{rt}{I000}; Mani of that{rt}{I000}'s element +1	
+CF4F20	str	43	敵符咒士の使った{rt}{I001}{I002}{I003}を打ち消す	Cancels the foe{rt}Talismancer's{rt}{I001}{I002}{I003}	
+CF4F4C	str	55	対象の摩尼を破壊{rt}ターン中摩尼×２{rt}ＭＡＸＡＰを上昇	Destroys target{rt}Mani; Max AP +{rt}Mani x 2 this turn	
+CF4F84	str	43	このターン、{rt}全ての{I000}を{rt}無属性に変化	This turn, every{rt}{I000} loses{rt}its element	
+CF4FB0	str	39	このターン、{rt}全ての{I000}を{rt}{I009}に変化	This turn, every{rt}{I000} becomes{rt}{I009}	
+CF4FD8	str	39	このターン、{rt}全ての{I000}を{rt}{I008}に変化	This turn, every{rt}{I000} becomes{rt}{I008}	
+CF5000	str	39	このターン、{rt}全ての{I000}を{rt}{I007}に変化	This turn, every{rt}{I000} becomes{rt}{I007}	
+CF5028	str	39	このターン、{rt}全ての{I000}を{rt}{I006}に変化	This turn, every{rt}{I000} becomes{rt}{I006}	
+CF5050	str	39	このターン、{rt}全ての{I000}を{rt}{I005}に変化	This turn, every{rt}{I000} becomes{rt}{I005}	
+CF5078	str	51	対象の{I000}を除去{rt}{I000}の所有者は{rt}ＭＡＸＡＰ＋１	Removes target{rt}{I000}; the {I000}'s{rt}owner: Max AP +1	
+CF50AC	str	31	次の敵符咒士の{rt}ターンをとばす	Skips the foe{rt}Talismancer's{rt}next turn	
+CF50CC	str	23	山札を初期状態に{rt}戻す	Resets the draw pile{rt}to its start	
+CF50E4	str	27	変生能力のある{rt}{I000}を変生	Makes a {I000} that{rt}can Morph Morph	
+CF5100	str	39	選択した{I001}を{rt}別の{I000}に{rt}移し変える	Moves a chosen{rt}{I001} to{rt}another {I000}	
+CF5128	str	27	場にある全ての{rt}{I002}を破壊	Destroys every{rt}{I002} on the field	
+CF5144	str	27	場にある全ての{rt}{I001}を破壊	Destroys every{rt}{I001} on the field	
+CF5160	str	55	{I001}{I002}破壊し、{rt}所有者にＡＰ半分{rt}×１０のダメージ	Destroys {I001}{I002};{rt}owner takes half{rt}its AP x 10 damage	
+CF5198	str	31	全ての敵{I000}の{rt}能力を無効化	Nullifies the{rt}abilities of every{rt}foe {I000}	
+CF51B8	str	27	対象の{I000}を{rt}手札に戻す	Returns the target{rt}{I000} to hand	
+CF51D4	str	27	対象の{I000}を{rt}{I019}にする	Puts the target{rt}{I000} into {I019}	
+CF51F0	str	27	対象の{I000}を{rt}{I017}にする	Puts the target{rt}{I000} into {I017}	
+CF520C	str	43	次のターンまで{rt}ダメージを{rt}ライフに変換	Until next turn,{rt}damage becomes{rt}Life	
+CF5238	str	47	使役する{I000}全てに{rt}ＭＡＸ{I013}と{I013}を{rt}＋２０	Your {I000} all get{rt}Max {I013} and {I013}{rt}+20	
+CF5268	str	47	次のターンまで{rt}敵符咒士の{I003}を{rt}使用不可に	The foe Talismancer{rt}can't use {I003}{rt}until next turn	
+CF5298	str	47	全ての{I000}は{rt}互いにダメージを{rt}与えられない	No {I000} can{rt}damage another	
+CF52C8	str	51	手符を全て捨て、{rt}墓地の上から{rt}３枚の{I000}を手札に	Discard hand; take{rt}top 3 {I000} from{rt}the graveyard	
+CF52FC	str	39	墓地の一番上に{rt}ある{I002}を{rt}場に出す	Puts the {I002} on{rt}top of the{rt}graveyard into play	
+CF5324	str	55	墓地の一番上の{I000}{rt}を場に。ターン{rt}終了時{I000}は除去	Top graveyard {I000}{rt}enters play; the{rt}{I000} goes at turn end	
+CF535C	str	43	墓地の一番上に{rt}ある{I000}１枚を{rt}手札に戻す	Returns the top{rt}{I000} of the{rt}graveyard to hand	
+CF5388	str	47	手札を全て捨て{rt}敵符咒士に枚数×{rt}１０ダメージ	Discard your hand;{rt}foe Talismancer{rt}takes 10 per card	
+CF53B8	str	35	敵符咒士の手札の{rt}{I003}を全て破棄	The foe Talismancer{rt}discards every{rt}{I003} in hand	
+CF53DC	str	55	両者の手札を破棄{rt}手札の多かった側{rt}と同じ枚数ドロー	Both discard hands{rt}and draw as many as{rt}the larger hand held	
+CF5414	str	27	敵符咒士の手札の{rt}を見る	See the foe{rt}Talismancer's hand	
+CF5430	str	39	敵符咒士の手札{rt}一枚をランダムに{rt}破壊	Destroys a random{rt}card in the foe{rt}Talismancer's hand	
+CF5458	str	27	手札を全て捨て{rt}８枚ドロー	Discard your hand;{rt}draw 8	
+CF5474	str	31	３枚ドロー{rt}（手札８枚まで）	Draw 3{rt}(hand limit 8)	
+CF5494	str	43	場にいる全ての{rt}{I005}{I000}に{rt}５０ダメージ	50 damage to every{rt}{I005}{I000} on{rt}the field	
+CF54C0	str	43	場にいる全ての{rt}{I006}{I000}に{rt}５０ダメージ	50 damage to every{rt}{I006}{I000} on{rt}the field	
+CF54EC	str	43	場にいる全ての{rt}{I008}{I000}に{rt}５０ダメージ	50 damage to every{rt}{I008}{I000} on{rt}the field	
+CF5518	str	43	場にいる全ての{rt}{I007}{I000}に{rt}５０ダメージ	50 damage to every{rt}{I007}{I000} on{rt}the field	
+CF5544	str	43	場にいる全ての{rt}{I009}{I000}に{rt}５０ダメージ	50 damage to every{rt}{I009}{I000} on{rt}the field	
+CF5570	str	43	場にある{I013}の{rt}減っている{I000}を{rt}全て破壊	Destroys every {I000}{rt}on the field with{rt}lowered {I013}	
+CF559C	str	27	場にある全ての{rt}符を破壊	Destroys every{rt}card on the field	
+CF55B8	str	43	摩尼が１以上ある{rt}属性の{I000}全てを{rt}破壊	Destroys every {I000}{rt}of an element with{rt}1 or more Mani	
+CF55E4	str	39	ライフを－２０し{rt}ＭＡＸＡＰを{rt}＋４	Life -20;{rt}Max AP{rt}+4	
+CF560C	str	27	ＭＡＸＡＰと{rt}ＡＰを＋４	Max AP and{rt}AP +4	
+CF5628	str	19	{&X02}ターン終了時	{&X02}At turn end	
+CF563C	str	15	破壊された時	When destroyed	
+CF564C	str	15	{&NX0}Ｄ受けた時	Took {&NX0} dmg	
+CF565C	str	19	符咒士に{&NX0}Ｄで	Talismancer {&NX0}	
+CF5670	str	15	{&NX0}Ｄ与えた時	Deals {&NX0} dmg	
+CF5680	str	19	この{I000}の待機時	While this {I000} waits	
+CF5694	str	19	この{I000}の攻撃時	When {I000} attacks	
+CF56A8	str	7	エラー	Error	
+CF56B0	str	23	{&X00}が{&NY0}になった時	When {&X00} is {&NY0}	
+CF56C8	str	11	相生発生時	On element feed	
+CF56D4	str	11	相剋発生時	On element counter	
+CF56E0	str	11	オープン時	When opened	
+CF56EC	str	27	場にある全ての{rt}{&x14}を{&z11}	Everything on field{rt}{&x14}: {&z11}	
+CF5708	str	35	場にある全ての{rt}属性の{I000}を{&y11}	Field {I000} of every{rt}element: {&y11}	
+CF572C	str	31	場にある{&x04}属性の{rt}{I000}を{&y11}	{&x04}-element {I000}{rt}on field: {&y11}	
+CF574C	str	39	全ての{I000}{I012}{&Sx0}{rt}{I013}{&Sy0}{I014}{&Sz0}	All {I000}{I012}{&Sx0}{rt}{I013}{&Sy0}{I014}{&Sz0}	
+CF5774	str	35	敵全{I000}{I012}{&Sx0}{rt}{I013}{&Sy0}{I014}{&Sz0}	Foe {I000}{I012}{&Sx0}{rt}{I013}{&Sy0}{I014}{&Sz0}	
+CF5798	str	39	味方全{I000}{I012}{&Sx0}{rt}{I013}{&Sy0}{I014}{&Sz0}	Ally {I000}{I012}{&Sx0}{rt}{I013}{&Sy0}{I014}{&Sz0}	
+CF57C0	str	35	{I000}の{I012}{&Sx0}{rt}{I013}{&Sy0}{I014}{&Sz0}	{I000}{I012}{&Sx0}{rt}{I013}{&Sy0}{I014}{&Sz0}	
+CF57E4	str	39	{&x02}の手札{&y03}１枚{rt}ランダムに捨てる	{&x02} discards{&y03} 1{rt}card at random	
+CF580C	str	39	{&x02}の手札{&Ny0}枚を{rt}ランダムに捨てる	{&x02} discards{rt}{&Ny0} at random	
+CF5834	str	27	{&x06}のライフを{rt}{&Sy0}する	{&x06} Life{rt}{&Sy0}	
+CF5850	str	23	{&x06}のＡＰを{rt}{&Sy0}する	{&x06} AP{rt}{&Sy0}	
+CF5868	str	35	{&x06}のＭＡＸＡＰ{rt}{&Sy0}ライフ{&Sz0}	{&x06} Max AP {&Sy0}{rt}Life {&Sz0}	
+CF588C	str	31	{&x06}のＭＡＸＡＰ{rt}を{&Sy0}する	{&x06} Max AP{rt}{&Sy0}	
+CF58AC	str	35	{&x04}摩尼{&Sy0}レベル{rt}ライフを{&Sz0}	{&x04}Mani {&Sy0} lv{rt}Life {&Sz0}	
+CF58D0	str	35	摩尼レベルが{rt}{&x05}方向に回転する	Mani levels turn{rt}{&x05}	
+CF58F4	str	31	{&x04}摩尼が{rt}{&Ny0}レベルになる	{&x04}Mani goes{rt}to level {&Ny0}	
+CF5914	str	27	{&x04}摩尼を{&Sy0}{rt}レベルする	{&x04}Mani {&Sy0}{rt}level	
+CF5930	str	7	心理士	Psychologist	
+CF5938	str	11	夢見る少女	Dreaming Girl	
+CF5944	str	7	墓守	Gravekeeper	
+CF594C	str	15	微睡みの少年	Drowsy Boy	
+CF595C	str	15	失われし少女	Lost Girl	
+CF596C	str	11	宝探し屋	Relic Hunter	
+CF5978	str	11	婦人警官	Policewoman	
+CF5984	str	11	鬼人の兵	Oni Soldier	
+CF5990	str	11	慈愛の姫	Kind Princess	
+CF599C	str	11	最後の武人	Last Warrior	
+CF59A8	str	7	警官	Police Officer	
+CF59B0	str	15	優秀な分析官	Able Analyst	
+CF59C0	str	11	夏色の少女	Summer Girl	
+CF59CC	str	15	天女を抱く者	Angel's Keeper	
+CF59DC	str	11	拳を持つ者	Fist Bearer	
+CF59E8	str	11	病んだ狼	Sick Wolf	
+CF59F4	str	11	悲しみの狼	Wolf of Sorrow	
+CF5A00	str	11	月夜の少女	Moonlit Girl	
+CF5A0C	str	11	人狼天使	Werewolf Angel	
+CF5A18	str	11	狂気の少年	Mad Boy	
+CF5A24	str	7	老刑事	Old Detective	
+CF5A2C	str	7	理解者	Confidant	
+CF5A34	str	11	混沌の龍	Chaos Dragon	
+CF5A40	str	11	強欲な商人	Greedy Trader	
+CF5A4C	str	7	悪代官	Evil Magistrate	
+CF5A54	str	11	雷鳴の巨神	Thunder Titan	
+CF5A60	str	11	戦場の女神	War Goddess	
+CF5A6C	str	11	緑風の神	Green Wind God	
+CF5A78	str	11	北の賢者	Northern Sage	
+CF5A84	str	11	狼の戦士	Wolf Warrior	
+CF5A90	str	7	魔獣	Demon Beast	
+CF5A98	str	11	刺青の戦士	Inked Warrior	
+CF5AA4	str	11	黄昏の帝王	Dusk Emperor	
+CF5AB0	str	7	浪士	Ronin	
+CF5AB8	str	7	大百足	Giant Centipede	
+CF5AC0	str	11	夜の召使い	Night Servant	
+CF5ACC	str	7	野良猫	Stray Cat	
 CF5AD4	str	11	螺旋の龍		
 CF5AE0	str	11	無限の王		
 CF5AEC	str	11	始まりの龍		
