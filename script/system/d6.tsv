@@ -1310,157 +1310,157 @@ D6FF44	str	39	陰陽属性のアイコンは{nl}次の２種類です	The two al
 D6FF6C	str	59	{I005}木属性{nl}{I006}火属性{nl}{I007}土属性{nl}{I008}金属性{nl}{I009}水属性	{I005}Wood{nl}{I006}Fire{nl}{I007}Earth{nl}{I008}Metal{nl}{I009}Water	
 D6FFA8	str	39	摩尼の属性アイコンは{nl}次の５種類です	The five Mani element{nl}icons are:	
 D6FFD0	str	67	{I000}人物符{nl}{I001}憑依式神符{nl}{I002}結界式神符{nl}{I003}法術符{nl}{I004}土地符	{I000}Character{nl}{I001}Possession{nl}{I002}Barrier{nl}{I003}Spell{nl}{I004}Land	
-D70014	str	39	符の種類のアイコンは{nl}次の５種類です		
-D7003C	str	103	【吹飛】{nl}攻撃した{I000}人物符を吹き飛ばし{nl}後ろの{I000}人物符や{nl}符咒士本体へ{nl}ダメージの半分を与えます{wc}		
-D700A4	str	59	正面以外の{I000}人物符を{nl}攻撃した場合、反撃を{nl}受けません{wc}		
-D700E0	str	59	【狙い】{nl}攻撃時にどの{I000}人物符を{nl}攻撃するかを選べます		
-D7011C	str	143	{I005}に必殺　必{I005}{nl}{I006}に必殺　必{I006}{nl}{I007}に必殺　必{I007}{nl}{I008}に必殺　必{I008}{nl}{I009}に必殺　必{I009}{nl}{I010}に必殺　必{I010}{nl}{I011}に必殺　必{I011}{wc}		
-D701AC	str	47	対象の属性ごとに次のように{nl}表示が異なります		
-D701DC	str	67	【必殺】{nl}対象の属性の{I000}人物符に{nl}１．５倍のダメージを{nl}与えます		
-D70220	str	103	{I020}を見切　見{I020}{nl}{I021}を見切　見{I021}{nl}{I022}を見切　見{I022}{nl}{I023}を見切　見{I023}{nl}{I024}を見切　見{I024}{wc}		
-D70288	str	51	【見切】{nl}対象の攻撃種からの{nl}攻撃を無効化します		
-D702BC	str	143	{I005}に即死　即{I005}{nl}{I006}に即死　即{I006}{nl}{I007}に即死　即{I007}{nl}{I008}に即死　即{I008}{nl}{I009}に即死　即{I009}{nl}{I010}に即死　即{I010}{nl}{I011}に即死　即{I011}{wc}		
-D7034C	str	71	【即死】{nl}対象の属性のダメージを与えた{nl}{I000}人物符を一撃で破壊します		
-D70394	str	35	２ターン続けては{nl}使用できません{wc}		
-D703B8	str	55	【跳躍】{nl}オープンした次の相手の{nl}ターンを飛ばします		
-D703F0	str	39	【範囲】{nl}攻撃時に敵全体を攻撃します{wc}		
-D70418	str	71	【血気】{nl}オープン時に味方{I000}人物符{nl}全員の{I012}ＡＴを＋１０します{wc}		
-D70460	str	79	【加護】{nl}オープン時に味方{I000}人物符{nl}全員のＭＡＸ{I013}ＨＰを{nl}＋１０します{wc}		
-D704B0	str	79	【祝福】{nl}ターン終了時、味方{I000}人物符{nl}全員の{I013}ＨＰを２０回復{nl}させます{wc}		
-D70500	str	91	【蘇生】{nl}そのターンで破壊された{nl}自分以外の味方{I000}人物符を{nl}ターン終了時に復活させます{wc}		
-D7055C	str	115	【治療】{nl}味方{I000}人物符への{nl}ステータス異常の{nl}{I016}麻痺　{I018}睡眠{nl}{I019}呪詛　{I017}毒{nl}及び【傀儡】を無効化します{wc}		
-D705D0	str	63	{I017}毒状態になると毎ターンの{nl}終了時に１０ダメージ受けます{wc}		
-D70610	str	59	【毒】{nl}ダメージを与えた{nl}{I000}人物符を{I017}毒状態にします		
-D7064C	str	47	{I016}麻痺状態になると攻撃が{nl}できなくなります{wc}		
-D7067C	str	63	【麻痺】{nl}ダメージを与えた{I000}人物符を{nl}{I016}麻痺状態にします		
-D706BC	str	51	【連続】{nl}攻撃時に２回連続して{nl}攻撃を行います{wc}		
-D706F0	str	51	手札が８枚以上ある場合、{nl}その符は破壊されます{wc}		
-D70724	str	63	【傀儡】{nl}ダメージを与えた{I000}人物符を{nl}自分の手札に加えます		
-D70764	str	67	【呪詛】{nl}ダメージを与えた{I000}人物符を{nl}{I000}狂犬に変化させます{wc}		
-D707A8	str	51	ダメージを受けると{nl}{I018}睡眠状態から回復します{wc}		
-D707DC	str	47	{I018}睡眠状態になると{nl}攻撃が行えなくなります		
-D7080C	str	63	【睡眠】{nl}ダメージを与えた{I000}人物符を{nl}{I018}睡眠状態にします		alias CF4DC+2
-D7084C	str	55	上昇したＭＡＸ{I013}ＨＰは{nl}ターン終了時に元に戻ります{wc}		
-D70884	str	67	【吸血】{nl}与えたダメージ分ＭＡＸ{I013}ＨＰ{nl}と{I013}ＨＰを上昇させます		
-D708C8	str	67	【再生】{nl}陰属性の攻撃で倒された場合{nl}{I013}ＨＰ１０で復活します{wc}		
-D7090C	str	59	分身した符が手札に戻された{nl}場合、その符は破壊されます{wc}		
-D70948	str	59	ただしどちらかが破壊されると{nl}両方とも破壊されてしまいます		
-D70984	str	71	【分身】{nl}オープン時に２枚に分裂します{nl}場に空きがない場合は無効です		
-D709CC	str	59	召喚された符が手札に戻された{nl}場合、その符は破壊されます{wc}		
-D70A08	str	63	【召喚】{nl}オープン時、場の空きに{nl}特定{I000}人物符を召喚します		
-D70A48	str	47	【友情】{nl}配置後に符術士のＡＰを＋４{nl}します{wc}		
-D70A78	str	35	ただし自分も行動不能になりま{nl}す{wc}		
-D70A9C	str	91	【結界】{nl}オープン時、目の前に{nl}{I000}人物符がいた場合{nl}その{I000}人物符を行動不能に{nl}します		
-D70AF8	str	83	【災厄】{nl}オープン時、場にある自分以外{nl}の{I000}人物符に２０ダメージを{nl}与えます{wc}		
-D70B4C	str	55	敵の{I000}人物符のオープン時の{nl}能力を全て無効化します{wc}		
-D70B84	str	107	【調査】{nl}【調査】を持つ{I000}人物符が{nl}オープンしていると{nl}敵符術士の場にいる{I000}人物符を{nl}強制オープンさせ		
-D70BF0	str	55	【速攻】{nl}場に配置したターンですぐに{nl}オープンします{wc}		
-D70C28	str	63	【式神】{nl}オープン時に敵の式神を{nl}ランダムに１つ破壊します{wc}		
-D70C68	str	39	攻撃終了後、{I012}ＡＴは元に{nl}戻ります{wc}		
-D70C90	str	59	【熱血】{nl}攻撃時に{I012}ＡＴ＋２０{nl}{I013}ＨＰ－２０されます		
-D70CCC	str	75	【迷宮】{nl}オープン時、場に出ている敵の{nl}{I000}人物符の配置を回転させます{wc}		
-D70D18	str	55	【変化】{nl}攻撃時{I012}ＡＴが手札枚数×１０{nl}になります{wc}		
-D70D50	str	47	加算された値はターン終了後に{nl}元に戻ります{wc}		
-D70D80	str	67	吸収した{I000}人物符の{nl}{I012}ＡＴ　{I013}ＨＰ　{I014}ＳＰ{nl}を加算します		
-D70DC4	str	59	【生贄】{nl}オープン時、味方{I000}人物符を{nl}破壊して吸収します		
-D70E00	str	79	【庇う】{nl}前列配置時のみ{nl}隣の{I000}人物符への{nl}攻撃を身代わり{nl}として受けます{wc}		
-D70E50	str	99	【悟り】{nl}オープン時、場に出ている{nl}{I000}人物符の中で{nl}一番高い{I014}ＳＰと同じ{I014}ＳＰに{nl}なります{wc}		
-D70EB4	str	71	【輪廻】{nl}オープン時、墓地の符を{nl}山符に加え、山符を{nl}初期化します{wc}		
-D70EFC	str	95	【風水】{nl}ターンの開始時に{nl}{I012}ＡＴ　{I013}ＨＰ　{I014}ＳＰが{nl}場の摩尼数×１０の値に{nl}なります{wc}		
-D70F5C	str	67	【貫通】{nl}地形効果を無視して{nl}ダメージを与えることが{nl}できます{wc}		
-D70FA0	str	55	【復活】{nl}破壊された時、墓地へ行った後{nl}手札に戻ります		
-D70FD8	str	59	敵符術士の手札が８枚以上ある{nl}場合、その符は破壊されます{wc}		
-D71014	str	67	【送還】{nl}ダメージを与えた{I000}人物符を{nl}敵符術士の手札へと戻します		
-D71058	str	51	手札が８枚以上ある場合、{nl}ドローは中断されます{wc}		
-D7108C	str	39	【知識】{nl}オープン時に３枚ドローします		
-D710B4	str	59	【透視】{nl}オープン時に相手の手札を{nl}見ることができます{wc}		
-D710F0	str	71	【発火】{nl}オープン時に相手の手札から{nl}ランダムに符を１枚{nl}除去します{wc}		
-D71138	str	87	【博愛】{nl}オープン時、場にある自分以外{nl}の{I000}人物符の{I012}ＡＴを１０に{nl}変化させます{wc}		
-D71190	str	55	正面に敵{I000}人物符がいない{nl}場合は、無効となります{wc}		
-D711C8	str	67	【模写】{nl}オープン時、正面にいる{nl}敵{I000}人物符と同じ符になります		
-D7120C	str	63	【賭け】{nl}オープン時にお互いの{nl}手札を捨て８枚ドローします{wc}		
-D7124C	str	59	創造した符が手札に戻された{nl}場合、その符は破壊されます{wc}		
-D71288	str	135	【創造】{nl}オープン時、場に空きがあり、{nl}かつ他に１枚味方の{I000}人物符が{nl}ある場合{nl}その味方の{I000}人物符を{nl}もう１枚空きに創り出します		
-D71310	str	47	【変生】{nl}オープン時に強力な符に{nl}変化します{wc}		
-D71340	str	91	【外法】{nl}オープン時、場に出ている{nl}【変生】を持つ味方の{nl}{I000}人物符を１枚変生させます{wc}		
-D7139C	str	67	【恩恵】{nl}使役符術士のターン終了時{nl}符術士のライフを＋１０します{wc}		
-D713E0	str	51	攻撃終了後{nl}{I012}ＡＴ、{I014}ＳＰは元に{nl}戻ります{wc}		
-D71414	str	87	【葉隠】{nl}攻撃時に{nl}{I013}ＨＰを１０にして{nl}減った数値を{I012}ＡＴ、{nl}{I014}ＳＰに加算します		
-D7146C	str	67	【崩し】{nl}ダメージを与えた{I000}人物符の{nl}{I014}ＳＰを半減させます{wc}		
-D714B0	str	59	【共鳴】{nl}オープン時、自分の属性の摩尼{nl}を１上昇させます{wc}		
-D714EC	str	79	敵{I000}人物符も【居合】を{nl}持っていた場合、{nl}{I014}ＳＰの高い方が優先されます{wc}		
-D7153C	str	75	【居合】{nl}攻撃時に敵{I000}人物符の{nl}{I014}ＳＰに関係なく{nl}先制攻撃ができます		
-D71588	str	87	【盗み】{nl}敵符術士にダメージを与えた時{nl}相手の手札からランダムに{nl}符を１枚奪います{wc}		
-D715E0	str	67	【魅了】{nl}自分のＡＰ値未満の{I000}人物符{nl}から攻撃されなくなります{wc}		
-D71624	str	75	また、この符と同じ属性の{nl}摩尼に対する相剋・相生も{nl}発生しなくなります{wc}		
-D71670	str	83	【鎮守】{nl}この符が場にある限り{nl}この符と同じ属性の土地符が{nl}使用できなくなります		
-D716C4	str	59	自分の墓地に{I000}人物符が{nl}いない場合は、無効となります{wc}		
-D71700	str	67	【霊媒】{nl}自分の墓地の一番上にある{nl}{I000}人物符と同じ符になります		
-D71744	str	143	{I005}に耐性　耐{I005}{nl}{I006}に耐性　耐{I006}{nl}{I007}に耐性　耐{I007}{nl}{I008}に耐性　耐{I008}{nl}{I009}に耐性　耐{I009}{nl}{I010}に耐性　耐{I010}{nl}{I011}に耐性　耐{I011}{wc}		
-D717D4	str	55	【耐性】{nl}対象の攻撃種からの{nl}ダメージを半減させます		
-D7200C	str	3	枚		
-D72010	str	11	持ち符総数		
-D72054	str	11	売買符総数		
-D720A0	str	7	合計		
-D720A8	str	7	憑依符		
-D720B0	str	7	結界符		
-D720B8	str	7	法術符		
-D720C0	str	7	土地符		
-D720C8	str	7	人物符		
-D721A0	str	7	新規		
-D721A8	str	59	符咒編集を終了する{rt}前に点滅中の符咒を{rt}６０枚にして下さい		
-D721E4	str	43	＜装備＞{rt}通常使う符咒として{rt}設定します。		
-D72210	str	11	＜装備＞{rt}		
-D7221C	str	43	は{rt}通常使う符咒として{rt}設定されています。		
-D72248	str	11	＜編集＞{rt}		
-D72254	str	23	の内容を{rt}編集します。		
-D7226C	str	11	＜複写＞{rt}		
-D72278	str	19	を{rt}複写します。		
-D7228C	str	11	＜削除＞{rt}		
-D72298	str	19	を{rt}削除します。		
-D722AC	str	11	＜名前＞{rt}		
-D722B8	str	23	の名前を{rt}変更します。		
-D722D0	str	35	よろしいですか？　{rt}　はい　いいえ		
-D722F4	str	39	を{rt}通常使う符咒として{rt}設定しました。		
-D7231C	str	59	空きがありません！{rt}符咒を一つ削除して{rt}やり直して下さい。		
+D70014	str	39	符の種類のアイコンは{nl}次の５種類です	The five talisman type{nl}icons are:	
+D7003C	str	103	【吹飛】{nl}攻撃した{I000}人物符を吹き飛ばし{nl}後ろの{I000}人物符や{nl}符咒士本体へ{nl}ダメージの半分を与えます{wc}	【Blast】{nl}Knocks back the {I000}Character{nl}it attacks, dealing half{nl}the damage to the {I000}Character{nl}or Talismancer behind.{wc}	
+D700A4	str	59	正面以外の{I000}人物符を{nl}攻撃した場合、反撃を{nl}受けません{wc}	Attacking a {I000}Character{nl}not in front draws{nl}no counterattack.{wc}	
+D700E0	str	59	【狙い】{nl}攻撃時にどの{I000}人物符を{nl}攻撃するかを選べます	【Aim】{nl}Choose which {I000}Character{nl}to attack.	
+D7011C	str	143	{I005}に必殺　必{I005}{nl}{I006}に必殺　必{I006}{nl}{I007}に必殺　必{I007}{nl}{I008}に必殺　必{I008}{nl}{I009}に必殺　必{I009}{nl}{I010}に必殺　必{I010}{nl}{I011}に必殺　必{I011}{wc}	Bane vs {I005}  {I005}B{nl}Bane vs {I006}  {I006}B{nl}Bane vs {I007}  {I007}B{nl}Bane vs {I008}  {I008}B{nl}Bane vs {I009}  {I009}B{nl}Bane vs {I010}  {I010}B{nl}Bane vs {I011}  {I011}B{wc}	
+D701AC	str	47	対象の属性ごとに次のように{nl}表示が異なります	The label differs by{nl}target element:	
+D701DC	str	67	【必殺】{nl}対象の属性の{I000}人物符に{nl}１．５倍のダメージを{nl}与えます	【Bane】{nl}Deals 1.5x damage to{nl}{I000}Characters of the{nl}target element.	
+D70220	str	103	{I020}を見切　見{I020}{nl}{I021}を見切　見{I021}{nl}{I022}を見切　見{I022}{nl}{I023}を見切　見{I023}{nl}{I024}を見切　見{I024}{wc}	Dodge {I020}  {I020}D{nl}Dodge {I021}  {I021}D{nl}Dodge {I022}  {I022}D{nl}Dodge {I023}  {I023}D{nl}Dodge {I024}  {I024}D{wc}	
+D70288	str	51	【見切】{nl}対象の攻撃種からの{nl}攻撃を無効化します	【Dodge】{nl}Nullifies attacks of{nl}the target type.	
+D702BC	str	143	{I005}に即死　即{I005}{nl}{I006}に即死　即{I006}{nl}{I007}に即死　即{I007}{nl}{I008}に即死　即{I008}{nl}{I009}に即死　即{I009}{nl}{I010}に即死　即{I010}{nl}{I011}に即死　即{I011}{wc}	Slay {I005}  {I005}S{nl}Slay {I006}  {I006}S{nl}Slay {I007}  {I007}S{nl}Slay {I008}  {I008}S{nl}Slay {I009}  {I009}S{nl}Slay {I010}  {I010}S{nl}Slay {I011}  {I011}S{wc}	
+D7034C	str	71	【即死】{nl}対象の属性のダメージを与えた{nl}{I000}人物符を一撃で破壊します	【Slay】{nl}One blow destroys a {I000}Character{nl}of the target element it damages.	
+D70394	str	35	２ターン続けては{nl}使用できません{wc}	Can't be used two{nl}turns in a row.{wc}	
+D703B8	str	55	【跳躍】{nl}オープンした次の相手の{nl}ターンを飛ばします	【Leap】{nl}Skips the foe's turn{nl}after it opens.	
+D703F0	str	39	【範囲】{nl}攻撃時に敵全体を攻撃します{wc}	【Area】{nl}Attacks every foe at once.{wc}	
+D70418	str	71	【血気】{nl}オープン時に味方{I000}人物符{nl}全員の{I012}ＡＴを＋１０します{wc}	【Vigor】{nl}On opening, all allied{nl}{I000}Characters get {I012}AT +10.{wc}	
+D70460	str	79	【加護】{nl}オープン時に味方{I000}人物符{nl}全員のＭＡＸ{I013}ＨＰを{nl}＋１０します{wc}	【Aegis】{nl}On opening, all allied{nl}{I000}Characters get{nl}max {I013}HP +10.{wc}	
+D704B0	str	79	【祝福】{nl}ターン終了時、味方{I000}人物符{nl}全員の{I013}ＨＰを２０回復{nl}させます{wc}	【Blessing】{nl}At turn end, all allied{nl}{I000}Characters recover 20{nl}{I013}HP.{wc}	
+D70500	str	91	【蘇生】{nl}そのターンで破壊された{nl}自分以外の味方{I000}人物符を{nl}ターン終了時に復活させます{wc}	【Revive】{nl}At turn end, revives allied{nl}{I000}Characters (not itself){nl}destroyed that turn.{wc}	
+D7055C	str	115	【治療】{nl}味方{I000}人物符への{nl}ステータス異常の{nl}{I016}麻痺　{I018}睡眠{nl}{I019}呪詛　{I017}毒{nl}及び【傀儡】を無効化します{wc}	【Heal】{nl}Nullifies statuses on{nl}allied {I000}Characters:{nl}{I016}Stun  {I018}Sleep{nl}{I019}Curse  {I017}Poison{nl}and 【Puppet】.{wc}	
+D705D0	str	63	{I017}毒状態になると毎ターンの{nl}終了時に１０ダメージ受けます{wc}	{I017}Poisoned cards take 10{nl}damage at each turn's end.{wc}	
+D70610	str	59	【毒】{nl}ダメージを与えた{nl}{I000}人物符を{I017}毒状態にします	【Poison】{nl}{I017}Poisons the{nl}{I000}Character it damages.	
+D7064C	str	47	{I016}麻痺状態になると攻撃が{nl}できなくなります{wc}	{I016}Stunned cards can't{nl}attack.{wc}	
+D7067C	str	63	【麻痺】{nl}ダメージを与えた{I000}人物符を{nl}{I016}麻痺状態にします	【Stun】{nl}{I016}Stuns the {I000}Character{nl}it damages.	
+D706BC	str	51	【連続】{nl}攻撃時に２回連続して{nl}攻撃を行います{wc}	【Combo】{nl}Attacks twice{nl}in a row.{wc}	
+D706F0	str	51	手札が８枚以上ある場合、{nl}その符は破壊されます{wc}	With eight or more in hand,{nl}that talisman is destroyed.{wc}	
+D70724	str	63	【傀儡】{nl}ダメージを与えた{I000}人物符を{nl}自分の手札に加えます	【Puppet】{nl}Adds the {I000}Character it{nl}damages to your hand.	
+D70764	str	67	【呪詛】{nl}ダメージを与えた{I000}人物符を{nl}{I000}狂犬に変化させます{wc}	【Curse】{nl}Turns the {I000}Character it{nl}damages into a {I000}Mad Dog.{wc}	
+D707A8	str	51	ダメージを受けると{nl}{I018}睡眠状態から回復します{wc}	Taking damage wakes{nl}a card from {I018}Sleep.{wc}	
+D707DC	str	47	{I018}睡眠状態になると{nl}攻撃が行えなくなります	{I018}Sleeping cards{nl}can't attack.	
+D7080C	str	63	【睡眠】{nl}ダメージを与えた{I000}人物符を{nl}{I018}睡眠状態にします	【Sleep】{nl}Puts the {I000}Character it{nl}damages to {I018}Sleep.	alias CF4DC+2
+D7084C	str	55	上昇したＭＡＸ{I013}ＨＰは{nl}ターン終了時に元に戻ります{wc}	The added max {I013}HP{nl}reverts at turn end.{wc}	
+D70884	str	67	【吸血】{nl}与えたダメージ分ＭＡＸ{I013}ＨＰ{nl}と{I013}ＨＰを上昇させます	【Drain】{nl}Raises max {I013}HP and {I013}HP{nl}by the damage dealt.	
+D708C8	str	67	【再生】{nl}陰属性の攻撃で倒された場合{nl}{I013}ＨＰ１０で復活します{wc}	【Renew】{nl}If felled by a Yin attack,{nl}revives with 10 {I013}HP.{wc}	
+D7090C	str	59	分身した符が手札に戻された{nl}場合、その符は破壊されます{wc}	If a clone returns to the{nl}hand, it is destroyed.{wc}	
+D70948	str	59	ただしどちらかが破壊されると{nl}両方とも破壊されてしまいます	But if either is destroyed,{nl}both are destroyed.	
+D70984	str	71	【分身】{nl}オープン時に２枚に分裂します{nl}場に空きがない場合は無効です	【Clone】{nl}Splits in two on opening.{nl}No effect with no free slot.	
+D709CC	str	59	召喚された符が手札に戻された{nl}場合、その符は破壊されます{wc}	If a summoned card returns{nl}to the hand, it is destroyed.{wc}	
+D70A08	str	63	【召喚】{nl}オープン時、場の空きに{nl}特定{I000}人物符を召喚します	【Summon】{nl}On opening, summons a set{nl}{I000}Character to a free slot.	
+D70A48	str	47	【友情】{nl}配置後に符術士のＡＰを＋４{nl}します{wc}	【Bond】{nl}After placing, the Talismancer{nl}gets AP +4.{wc}	
+D70A78	str	35	ただし自分も行動不能になりま{nl}す{wc}	But it can't act{nl}either.{wc}	
+D70A9C	str	91	【結界】{nl}オープン時、目の前に{nl}{I000}人物符がいた場合{nl}その{I000}人物符を行動不能に{nl}します	【Barrier】{nl}On opening, if a{nl}{I000}Character is in front,{nl}that {I000}Character can't{nl}act.	
+D70AF8	str	83	【災厄】{nl}オープン時、場にある自分以外{nl}の{I000}人物符に２０ダメージを{nl}与えます{wc}	【Calamity】{nl}On opening, deals 20 damage{nl}to every other {I000}Character{nl}on the field.{wc}	
+D70B4C	str	55	敵の{I000}人物符のオープン時の{nl}能力を全て無効化します{wc}	Nullifies all opening abilities{nl}of foe {I000}Characters.{wc}	
+D70B84	str	107	【調査】{nl}【調査】を持つ{I000}人物符が{nl}オープンしていると{nl}敵符術士の場にいる{I000}人物符を{nl}強制オープンさせ	【Probe】{nl}While a {I000}Character with{nl}【Probe】 is open,{nl}{I000}Characters on the foe's{nl}field are forced open, and	
+D70BF0	str	55	【速攻】{nl}場に配置したターンですぐに{nl}オープンします{wc}	【Haste】{nl}Opens on the turn{nl}it is placed.{wc}	
+D70C28	str	63	【式神】{nl}オープン時に敵の式神を{nl}ランダムに１つ破壊します{wc}	【Dispel】{nl}On opening, destroys one{nl}foe shikigami at random.{wc}	
+D70C68	str	39	攻撃終了後、{I012}ＡＴは元に{nl}戻ります{wc}	After the attack, {I012}AT{nl}reverts.{wc}	
+D70C90	str	59	【熱血】{nl}攻撃時に{I012}ＡＴ＋２０{nl}{I013}ＨＰ－２０されます	【Fervor】{nl}When attacking, {I012}AT +20{nl}and {I013}HP -20.	
+D70CCC	str	75	【迷宮】{nl}オープン時、場に出ている敵の{nl}{I000}人物符の配置を回転させます{wc}	【Maze】{nl}On opening, rotates the places{nl}of the foe's {I000}Characters.{wc}	
+D70D18	str	55	【変化】{nl}攻撃時{I012}ＡＴが手札枚数×１０{nl}になります{wc}	【Change】{nl}When attacking, {I012}AT becomes{nl}cards in hand x 10.{wc}	
+D70D50	str	47	加算された値はターン終了後に{nl}元に戻ります{wc}	The added values revert{nl}at turn end.{wc}	
+D70D80	str	67	吸収した{I000}人物符の{nl}{I012}ＡＴ　{I013}ＨＰ　{I014}ＳＰ{nl}を加算します	Adds the absorbed{nl}{I000}Character's{nl}{I012}AT, {I013}HP and {I014}SP.	
+D70DC4	str	59	【生贄】{nl}オープン時、味方{I000}人物符を{nl}破壊して吸収します	【Sacrifice】{nl}On opening, destroys and{nl}absorbs an allied {I000}Character.	
+D70E00	str	79	【庇う】{nl}前列配置時のみ{nl}隣の{I000}人物符への{nl}攻撃を身代わり{nl}として受けます{wc}	【Cover】{nl}Front row only:{nl}takes attacks{nl}on its neighbor{nl}{I000}Character.{wc}	
+D70E50	str	99	【悟り】{nl}オープン時、場に出ている{nl}{I000}人物符の中で{nl}一番高い{I014}ＳＰと同じ{I014}ＳＰに{nl}なります{wc}	【Insight】{nl}On opening, its {I014}SP{nl}becomes the highest{nl}{I014}SP among {I000}Characters{nl}on the field.{wc}	
+D70EB4	str	71	【輪廻】{nl}オープン時、墓地の符を{nl}山符に加え、山符を{nl}初期化します{wc}	【Samsara】{nl}On opening, returns the{nl}graveyard to the draw pile{nl}and resets it.{wc}	
+D70EFC	str	95	【風水】{nl}ターンの開始時に{nl}{I012}ＡＴ　{I013}ＨＰ　{I014}ＳＰが{nl}場の摩尼数×１０の値に{nl}なります{wc}	【Earth】{nl}At turn start, its{nl}{I012}AT, {I013}HP and {I014}SP become{nl}the field's Mani count x 10.{nl}{wc}	
+D70F5C	str	67	【貫通】{nl}地形効果を無視して{nl}ダメージを与えることが{nl}できます{wc}	【Pierce】{nl}Deals damage that{nl}ignores terrain{nl}effects.{wc}	
+D70FA0	str	55	【復活】{nl}破壊された時、墓地へ行った後{nl}手札に戻ります	【Return】{nl}When destroyed, goes to the{nl}graveyard, then back to hand.	
+D70FD8	str	59	敵符術士の手札が８枚以上ある{nl}場合、その符は破壊されます{wc}	If the foe has eight or more{nl}in hand, that card is destroyed.{wc}	
+D71014	str	67	【送還】{nl}ダメージを与えた{I000}人物符を{nl}敵符術士の手札へと戻します	【Banish】{nl}Returns the {I000}Character it{nl}damages to the foe's hand.	
+D71058	str	51	手札が８枚以上ある場合、{nl}ドローは中断されます{wc}	With eight or more in hand,{nl}the draw stops.{wc}	
+D7108C	str	39	【知識】{nl}オープン時に３枚ドローします	【Lore】{nl}Draws three on opening.	
+D710B4	str	59	【透視】{nl}オープン時に相手の手札を{nl}見ることができます{wc}	【Scry】{nl}On opening, lets you see{nl}the foe's hand.{wc}	
+D710F0	str	71	【発火】{nl}オープン時に相手の手札から{nl}ランダムに符を１枚{nl}除去します{wc}	【Ignite】{nl}On opening, removes a random{nl}talisman from the foe's{nl}hand.{wc}	
+D71138	str	87	【博愛】{nl}オープン時、場にある自分以外{nl}の{I000}人物符の{I012}ＡＴを１０に{nl}変化させます{wc}	【Charity】{nl}On opening, sets the {I012}AT{nl}of every other {I000}Character{nl}on the field to 10.{wc}	
+D71190	str	55	正面に敵{I000}人物符がいない{nl}場合は、無効となります{wc}	No effect with no foe{nl}{I000}Character in front.{wc}	
+D711C8	str	67	【模写】{nl}オープン時、正面にいる{nl}敵{I000}人物符と同じ符になります	【Mimic】{nl}On opening, becomes the{nl}foe {I000}Character in front.	
+D7120C	str	63	【賭け】{nl}オープン時にお互いの{nl}手札を捨て８枚ドローします{wc}	【Gamble】{nl}On opening, both sides{nl}discard their hands, draw 8.{wc}	
+D7124C	str	59	創造した符が手札に戻された{nl}場合、その符は破壊されます{wc}	If a created card returns to{nl}the hand, it is destroyed.{wc}	
+D71288	str	135	【創造】{nl}オープン時、場に空きがあり、{nl}かつ他に１枚味方の{I000}人物符が{nl}ある場合{nl}その味方の{I000}人物符を{nl}もう１枚空きに創り出します	【Create】{nl}On opening, with a free slot{nl}and another allied {I000}Character,{nl}it creates{nl}another copy of that{nl}{I000}Character in the free slot.	
+D71310	str	47	【変生】{nl}オープン時に強力な符に{nl}変化します{wc}	【Morph】{nl}Turns into a stronger{nl}card on opening.{wc}	
+D71340	str	91	【外法】{nl}オープン時、場に出ている{nl}【変生】を持つ味方の{nl}{I000}人物符を１枚変生させます{wc}	【Heresy】{nl}On opening, makes one allied{nl}{I000}Character on the field with{nl}【Morph】 morph.{wc}	
+D7139C	str	67	【恩恵】{nl}使役符術士のターン終了時{nl}符術士のライフを＋１０します{wc}	【Boon】{nl}At its Talismancer's turn end,{nl}the Talismancer gets Life +10.{wc}	
+D713E0	str	51	攻撃終了後{nl}{I012}ＡＴ、{I014}ＳＰは元に{nl}戻ります{wc}	After the attack,{nl}{I012}AT and {I014}SP{nl}revert.{wc}	
+D71414	str	87	【葉隠】{nl}攻撃時に{nl}{I013}ＨＰを１０にして{nl}減った数値を{I012}ＡＴ、{nl}{I014}ＳＰに加算します	【Stealth】{nl}When attacking,{nl}sets {I013}HP to 10 and adds{nl}the HP lost to {I012}AT and{nl}{I014}SP.	
+D7146C	str	67	【崩し】{nl}ダメージを与えた{I000}人物符の{nl}{I014}ＳＰを半減させます{wc}	【Break】{nl}Halves the {I014}SP of the{nl}{I000}Character it damages.{wc}	
+D714B0	str	59	【共鳴】{nl}オープン時、自分の属性の摩尼{nl}を１上昇させます{wc}	【Echo】{nl}On opening, raises the Mani{nl}of its element by 1.{wc}	
+D714EC	str	79	敵{I000}人物符も【居合】を{nl}持っていた場合、{nl}{I014}ＳＰの高い方が優先されます{wc}	If the foe {I000}Character also{nl}has 【Iai】,{nl}the higher {I014}SP goes first.{wc}	
+D7153C	str	75	【居合】{nl}攻撃時に敵{I000}人物符の{nl}{I014}ＳＰに関係なく{nl}先制攻撃ができます	【Iai】{nl}Strikes first regardless{nl}of the foe {I000}Character's{nl}{I014}SP.	
+D71588	str	87	【盗み】{nl}敵符術士にダメージを与えた時{nl}相手の手札からランダムに{nl}符を１枚奪います{wc}	【Steal】{nl}On damaging the foe Talismancer,{nl}steals a random talisman{nl}from the foe's hand.{wc}	
+D715E0	str	67	【魅了】{nl}自分のＡＰ値未満の{I000}人物符{nl}から攻撃されなくなります{wc}	【Charm】{nl}Can't be attacked by {I000}Characters{nl}below your AP.{wc}	
+D71624	str	75	また、この符と同じ属性の{nl}摩尼に対する相剋・相生も{nl}発生しなくなります{wc}	Also, no Counter or Feed{nl}occurs on Mani of this{nl}card's element.{wc}	
+D71670	str	83	【鎮守】{nl}この符が場にある限り{nl}この符と同じ属性の土地符が{nl}使用できなくなります	【Guardian】{nl}While this card is in play,{nl}Land talismans of its element{nl}can't be used.	
+D716C4	str	59	自分の墓地に{I000}人物符が{nl}いない場合は、無効となります{wc}	No effect with no {I000}Character{nl}in your graveyard.{wc}	
+D71700	str	67	【霊媒】{nl}自分の墓地の一番上にある{nl}{I000}人物符と同じ符になります	【Medium】{nl}Becomes the {I000}Character on{nl}top of your graveyard.	
+D71744	str	143	{I005}に耐性　耐{I005}{nl}{I006}に耐性　耐{I006}{nl}{I007}に耐性　耐{I007}{nl}{I008}に耐性　耐{I008}{nl}{I009}に耐性　耐{I009}{nl}{I010}に耐性　耐{I010}{nl}{I011}に耐性　耐{I011}{wc}	Ward {I005}  Ward{I005}{nl}Ward {I006}  Ward{I006}{nl}Ward {I007}  Ward{I007}{nl}Ward {I008}  Ward{I008}{nl}Ward {I009}  Ward{I009}{nl}Ward {I010}  Ward{I010}{nl}Ward {I011}  Ward{I011}{wc}	
+D717D4	str	55	【耐性】{nl}対象の攻撃種からの{nl}ダメージを半減させます	【Ward】{nl}Halves damage from the{nl}target type.	
+D7200C	str	3	枚	[81][40]	
+D72010	str	11	持ち符総数	Cards held	
+D72054	str	11	売買符総数	For trade	
+D720A0	str	7	合計	Total	
+D720A8	str	7	憑依符	Poss.	
+D720B0	str	7	結界符	Barr.	
+D720B8	str	7	法術符	Spell	
+D720C0	str	7	土地符	Land	
+D720C8	str	7	人物符	Char.	
+D721A0	str	7	新規	New	
+D721A8	str	59	符咒編集を終了する{rt}前に点滅中の符咒を{rt}６０枚にして下さい	Before you finish,{rt}make the flashing{rt}deck 60 cards.	
+D721E4	str	43	＜装備＞{rt}通常使う符咒として{rt}設定します。	Equip:{rt}Set as the deck{rt}you normally use.	
+D72210	str	11	＜装備＞{rt}	Equip:{rt}	
+D7221C	str	43	は{rt}通常使う符咒として{rt}設定されています。	 is{rt}set as the deck{rt}you normally use.	
+D72248	str	11	＜編集＞{rt}	<Edit>{rt}	
+D72254	str	23	の内容を{rt}編集します。	: edit its{rt}contents.	
+D7226C	str	11	＜複写＞{rt}	<Copy>{rt}	
+D72278	str	19	を{rt}複写します。	 will be{rt}copied.	
+D7228C	str	11	＜削除＞{rt}	<Delete>{rt}	
+D72298	str	19	を{rt}削除します。	 will be{rt}deleted.	
+D722AC	str	11	＜名前＞{rt}	<Name>{rt}	
+D722B8	str	23	の名前を{rt}変更します。	: change{rt}its name.	
+D722D0	str	35	よろしいですか？　{rt}　はい　いいえ	Are you sure?{rt}[81][40]Yes[81][40]No	
+D722F4	str	39	を{rt}通常使う符咒として{rt}設定しました。	 is now{rt}the deck you{rt}normally use.	
+D7231C	str	59	空きがありません！{rt}符咒を一つ削除して{rt}やり直して下さい。	No free slot!{rt}Delete a deck and{rt}try again.	
 D72358	str	35	よろしいですか？{rt}　はい　いいえ	Is this OK?{rt}[81][40]Yes[81][40]No	
-D7237C	str	39	装備している符咒は{rt}削除できません。		
-D723A4	str	7	価値＝		
-D723AC	str	11	全持ち符		
-D723B8	str	11	全売買符		
-D723C4	str	11	全人物符		
-D723D0	str	11	全土地符		
-D723DC	str	11	全法術符		
-D723E8	str	11	全結界符		
-D723F4	str	11	全憑依符		
-D72434	str	43	の　　枚を{rt}確認しながら{rt}編集を行います。		
-D72460	str	47	の　　枚を{rt}確認しながら{rt}売る符を選びます。		
-D72490	str	43	の　　枚を{rt}確認しながら{rt}交換を行います。		
-D724BC	str	47	の　　枚を{rt}確認しながら捨てる{rt}符を選びます。		
-D724EC	str	59	売買用に登録されて{rt}いる　　枚の符を{rt}まとめて売ります。		
-D72528	str	31	所持符が　　枚{rt}になりました。		
-D72548	str	19	枚を捨てて下さい。		
-D7255C	str	7	かな正		
-D72564	str	7	かな逆		
-D7256C	str	7	ＡＰ降		
-D72574	str	7	ＡＰ昇		
-D7257C	str	7	ＡＴ降		
-D72584	str	7	ＡＴ昇		
-D7258C	str	7	ＳＰ降		
-D72594	str	7	ＳＰ昇		
-D7259C	str	7	ＨＰ降		
-D725A4	str	7	ＨＰ昇		
-D725AC	str	7	価値降		
-D725B4	str	7	価値昇		
-D725EC	str	7	　あ行		
-D725F4	str	7	　か行		
-D725FC	str	7	　さ行		
-D72604	str	7	　た行		
-D7260C	str	7	　な行		
-D72614	str	7	　は行		
-D7261C	str	7	　ま行		
-D72624	str	7	　や行		
-D7262C	str	7	　ら行		
+D7237C	str	39	装備している符咒は{rt}削除できません。	The equipped deck{rt}can't be deleted.	
+D723A4	str	7	価値＝	Value=	
+D723AC	str	11	全持ち符	All Held	
+D723B8	str	11	全売買符	All Trade	
+D723C4	str	11	全人物符	All Char.	
+D723D0	str	11	全土地符	All Land	
+D723DC	str	11	全法術符	All Spell	
+D723E8	str	11	全結界符	All Barr.	
+D723F4	str	11	全憑依符	All Poss.	
+D72434	str	43	の　　枚を{rt}確認しながら{rt}編集を行います。	[81][40][81][40][81][40] cards{rt}are shown while{rt}you edit.	
+D72460	str	47	の　　枚を{rt}確認しながら{rt}売る符を選びます。	[81][40][81][40][81][40] cards{rt}are shown while{rt}you pick what to sell.	
+D72490	str	43	の　　枚を{rt}確認しながら{rt}交換を行います。	[81][40][81][40][81][40] cards{rt}are shown while{rt}you trade.	
+D724BC	str	47	の　　枚を{rt}確認しながら捨てる{rt}符を選びます。	[81][40][81][40][81][40] cards{rt}are shown while you{rt}pick what to discard.	
+D724EC	str	59	売買用に登録されて{rt}いる　　枚の符を{rt}まとめて売ります。	Sell all trade-listed{rt}[81][40][81][40][81][40][81][40] cards{rt}at once.	
+D72528	str	31	所持符が　　枚{rt}になりました。	[81][40][81][40][81][40][81][40][81][40][81][40]{rt}cards now held.	
+D72548	str	19	枚を捨てて下さい。	 cards to discard.	
+D7255C	str	7	かな正	A-Z	
+D72564	str	7	かな逆	Z-A	
+D7256C	str	7	ＡＰ降	AP-	
+D72574	str	7	ＡＰ昇	AP+	
+D7257C	str	7	ＡＴ降	AT-	
+D72584	str	7	ＡＴ昇	AT+	
+D7258C	str	7	ＳＰ降	SP-	
+D72594	str	7	ＳＰ昇	SP+	
+D7259C	str	7	ＨＰ降	HP-	
+D725A4	str	7	ＨＰ昇	HP+	
+D725AC	str	7	価値降	Val-	
+D725B4	str	7	価値昇	Val+	
+D725EC	str	7	　あ行	 A	
+D725F4	str	7	　か行	 Ka	
+D725FC	str	7	　さ行	 Sa	
+D72604	str	7	　た行	 Ta	
+D7260C	str	7	　な行	 Na	
+D72614	str	7	　は行	 Ha	
+D7261C	str	7	　ま行	 Ma	
+D72624	str	7	　や行	 Ya	
+D7262C	str	7	　ら行	 Ra	
 D72634	str	7	　わ行		
 D7269C	str	19	　　　　を　　　順		
 D726B0	str	15	に表示しながら		
