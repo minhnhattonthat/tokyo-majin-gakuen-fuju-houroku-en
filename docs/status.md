@@ -267,10 +267,11 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   --jobs 4` (it skips finished scenes; delete any run dir without final.png first), then `tools/cover.py gaps --jobs
   4`, then `report --by-scene`. Scenes should reach ~0 unshown. Then rebuild (session 22 text edits + session 23
   haiku fix: the haiku rows leave strings.tsv as kind grid), move `work/qa/cover` away and re-run the coverage (or
-  waive with a note naming the changed rows). System strings left (~230 after session 23; list them with
+  waive with a note naming the changed rows). System strings left (228 after session 23, total 4 781 of 17 151; list them with
   `cover.shown_ids()` against `work/qa/cover/strings.tsv`): CF64E8-CF7340 short labels and land/spell names,
   D720A0-D72C98 sell / trade-registration / discard prompts, sort badges AP-/AP+.. (sort popup), kana-row badges
-  (scroll a name-sorted list), D7878C-D7890C sutra board sin descriptions (mode 7: move the cursor over each label),
+  (scroll a name-sorted list), sutra board sin descriptions: 8 of 9 shown (`cover/board_sins`: board.mss, cursor
+  move + A on each label); Theft D78850 not yet (find its label's cursor path),
   D78990-D78C8C shop booster purchase (needs value), D6526C link error / D6E3D4 sync test / D78E04-D79138 link cable
   (waive: needs a second GBA). For each menu: `tools/debug/covrun.py NAME --state-in S --route-str ".."`.
   Release README: list the 32 haiku (kana, romaji, meaning from the d1.tsv notes) so English players can enter them
