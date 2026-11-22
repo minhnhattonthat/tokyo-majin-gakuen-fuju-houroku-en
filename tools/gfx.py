@@ -590,13 +590,20 @@ def link_error(rom):
     return gfx_linkerr.apply(rom)
 
 
+def shop_plaques(rom):
+    """shop / trade card-pick plaques 売り符選択 交換符選択 捨て符選択 (S17, tools/gfx_shopplaques.py)"""
+    import gfx_shopplaques
+    return gfx_shopplaques.apply(rom)
+
+
 GROUPS = {'attack_types': attack_types, 'icons': icons, 'mini_labels': mini_labels, 'frames': frames, 'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': dungeon_menu,
           'room_banners': room_banners, 'floor_numerals': floor_numerals, 'signs': signs,
           'settings_screen': settings_screen, 'haiku_screen': haiku_screen, 'deck_name_screen': deck_name_screen,
           'name_entry_screen': name_entry_screen, 'shop_list_screen': shop_list_screen, 'deck_edit': deck_edit, 'plaques': plaques,
           'banners': banners, 'battle_ui': battle_ui, 'captions': captions,
           'end_card': end_card, 'chapter_cards': chapter_cards,
-          'profile_screens': profile_screens, 'card_classes': card_classes, 'link_error': link_error}
+          'profile_screens': profile_screens, 'card_classes': card_classes, 'link_error': link_error,
+          'shop_plaques': shop_plaques}
 
 
 def apply(rom):

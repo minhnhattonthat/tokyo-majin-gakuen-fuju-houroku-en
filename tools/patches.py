@@ -13,10 +13,10 @@ import struct
 # Deck-editor tab sheet 0xC67D38 (13 entries x 0x200 = left 32x16 + right 32x16: tabs 0-6, sort keys 7-12), set up
 # by 0x080448E8. The game loads each entry's left half (8 OBJ tiles, from tile 494 up) and only two right halves, entry
 # 0's (符) for every tab and entry 7's (blank) for every sort key, so all tabs ended in the same 16 px. The two calls
-# at TABS_FN are rewritten in place: save the bump allocator (0x03001368), point it at OBJ tile 704 (0x5800 - 0x20;
-# tiles 704-767 are free here: the "sorting" popup is fixed at 640-703, another user at 768), load TAB_RIGHTS (written
-# by tools/gfx_deck.py: tab k's right half at k * 0x100, k = 0-6, then the blank one) in ONE loader call (the loader
-# ring 0x03004E40 holds 16 entries unchecked, so the count must not grow), restore the allocator, and leave
+# at TABS_FN are rewritten in place: load TAB_RIGHTS (written by tools/gfx_deck.py: tab k's right half at k * 0x100,
+# k = 0-6, then the blank one) in ONE loader call (the loader ring 0x03004E40 holds 16 entries unchecked, so the
+# count must not grow) through the game's bump allocator (0x03001368), which puts it right after the left halves
+# (tiles ~550-613; fixed users: sort popup 640-703, sell screen Value= glyphs 704+, a RAM image 768-895), and leave
 # D = right tile - first left tile in [sp+0x1c] and the blank's tile in [sp+0x20] for the OBJ loop below.
 TAB_RIGHTS = 0xFDF000
 TABS_FN = 0x044978
@@ -29,7 +29,7 @@ TABS_NEW = b''.join(struct.pack('<H', h) for h in (
     0x9007,          # 97C str r0, [sp, #0x1c]   save cur
     0x20B0, 0x01C0,  # 97E movs r0, #0xB0; lsls r0, r0, #7
     0x3820,          # 982 subs r0, #0x20         0x57E0 -> first tile (cur + 0x20) >> 5 = 704
-    0x6030,          # 984 str r0, [r6]
+    0x46C0,          # 984 nop (was str r0, [r6]: a fixed tile 704 clashed with the sell screen's Value= glyphs)
     0x4650,          # 986 mov r0, sl            (0)
     0x9000, 0x9004,  # 988 str r0, [sp]; str r0, [sp, #0x10]   offset 0, not compressed
     0x2380, 0x011B,  # 98C movs r3, #0x80; lsls r3, r3, #4      0x800 bytes (block size and copy size)
@@ -39,7 +39,7 @@ TABS_NEW = b''.join(struct.pack('<H', h) for h in (
     0x4808,          # 998 ldr r0, =TAB_RIGHTS
     0x2100, 0x2200,  # 99A movs r1, #0; movs r2, #0
     0xF010, 0xF83B,  # 99E bl 0x08054A18          the loader / allocator
-    0x9807, 0x6030,  # 9A2 ldr r0, [sp, #0x1c]; str r0, [r6]   restore cur
+    0x9807, 0x46C0,  # 9A2 ldr r0, [sp, #0x1c]; nop (no restore: the block stays allocated)
     0xA805, 0x8800,  # 9A6 add r0, sp, #0x14; ldrh r0, [r0]     R = first right tile
     0x9909,          # 9AA ldr r1, [sp, #0x24]   L = first left tile
     0x1A41,          # 9AC subs r1, r0, r1

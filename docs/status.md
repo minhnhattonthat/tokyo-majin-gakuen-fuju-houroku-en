@@ -165,6 +165,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (`tools/gfx_linkerr.py`, `gfx/link_error.tsv`) reletters the 256x256 wallpaper LINK ERROR. Unhandled screen-table
   entries reviewed in one sheet (`work/qa/p8s17/unhandled_screens.png`): no other text left except the sutra board
   C165E8/C26298 (W13, art).
+  Also session 17: **S17 card-pick plaques** Sell a Card / Trade a Card / Discard a Card (group shop_plaques,
+  `tools/gfx_shopplaques.py`; "Sell a Card" seen in game; trade / discard plaques rendered only), sell-screen 早
+  badge -> fast-forward mark, text icon 1 売 -> "Tr" (both seen). **Bug fixed:** the deck-editor tab patch forced its
+  64-tile block to OBJ tile 704, which the sell screen's "Value=" glyphs also use ("Own---" on the selected tab):
+  TABS_NEW now lets the game's allocator place it (tiles ~550-613; deck editor and sell screen rechecked,
+  `work/qa/p8s17/tabs_fix.png`). Help rows D72434-D724BC got a fourth blank unit (the count digit covered "cards").
+  Story gate 0 open (`zz_recheck17_20261122.tsv`, also covers sessions 13-14's label edits). Sort popup not re-seen
+  after the allocator change (routes tried did not open it; it is fixed at 640-703, above the block).
 - **Next (phase 8):** (1) see an element text icon ({I006}-{I015}) in game (card text popup of a Ward/Slay/Bane card)
   and a large frame (39-43). (2) a land / spell mini label in game (thumbnail of a non-character card on the
   panel). (3) S29 tutorial

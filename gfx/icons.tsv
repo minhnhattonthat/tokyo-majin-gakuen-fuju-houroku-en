@@ -11,3 +11,4 @@ ball	14	金	Mt	2,2,14,14	disc
 ball	15	水	Wa	2,2,14,14	disc
 seal	24	陰	@moon	2,3,14,13	rect
 seal	25	陽	@sun	2,3,14,13	rect
+box	1	売	Tr	2,2,14,14	rect

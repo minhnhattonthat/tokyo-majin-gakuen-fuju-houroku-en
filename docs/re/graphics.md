@@ -52,7 +52,7 @@ its usage limit); `tools/gfx_zoom.py` re-renders any asset at chosen widths. Wid
 | S14 | 0xBEF3A8, 0xBF07C8 | emblem kanji (闇/悲/怒/喜/愛/哀?) |
 | S15 | 0xBF2628 呪符交換之間; 0xC1B8E8 封陰窟 階; 0xC27A28 骨董品店 店内 | room/scene title art |
 | S16 | 0xC11C58, 0xC165E8, 0xC1ADF8-0xC1B6F8, 0xC03F88-0xC05A28, 0xC24E08, 0xC26298, 0xC36408, 0xC37968, 0xC37D88 | menu/label strips (wrong width) |
-| S17 | 0xC381A8 売り符選択 / 交換符選択 / 捨て符選択 | shop/trade menu |
+| S17 | 0xC381A8 売り符選択 / 交換符選択 / 捨て符選択 | card-pick plaques (sprite entry 0xD81DF8; each two 64x32 OBJs, 0x800 B): **English** Sell a Card / Trade a Card / Discard a Card (group shop_plaques, `tools/gfx_shopplaques.py`); "Sell a Card" seen in game (shop.mss + `30 -;6 a;240 -`). Same module: the sell screen's pink 早 badge 0xC6FAC8 (Trade tab = sell all at once) -> fast-forward mark; text icon 1 売 (trade-card counter) -> "Tr" (group icons). All seen in game (`work/qa/p8s17/sell4z.png`, `help2.png`) |
 | S18 | 0xC532C8, 0xC557E0, 0xC57CF8, 0xC5A210, 0xC5C728 東京魔人學園 符咒封録 booster packs; 0xC5F760 ブースターパック選択 | pack art = title logo (G3, kept); header: entry 0xD81E04, 46 tiles + a 19x4 map 0xC5FD20 at BG2 row 1, tile 45 = the layer's blank: **English** "Pick a Booster Pack" (group plaques, `tools/gfx_plaques.py`; `work/qa/pack3/hdr.png`) |
 | S19 | 0xC66C18, 0xC67D38, 0xC6B118 (正順 逆順 降順 昇順 あ行..わ行), 0xC6C078 符咒編集, 0xC6D078 (sorting popup), 0xC6A2D8 | deck edit: **English** (group deck_edit, `tools/gfx_deck.py`; tab loader patch TABS_FN in `tools/patches.py`) ; 0xC6A2D8 checked 2026-11-22: frame line art only, no text (its tail runs into the English 0xC6B118 badges) |
 
