@@ -19,6 +19,9 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 - Readings in parentheses (亡（ほろ）び, 朧（おぼろ）げ) are furigana: translate the word, drop the reading.
 - No line breaks in dialogue: `tools/batches.py merge` wraps the body and adds the 【speaker】 tag.
 - Plain ASCII plus the glyphs in tools/vwf.py EXTRA (… — “ ” ‘ ’ ♪ é 【 】 「 」 『 』); prefer plain ASCII.
+- US spelling (color, honor, neighbor, realize, apologize, center); "--" ends a cut-off line with no period after it.
+- Player gender: the game has a girl-player branch (docs/decisions.md D10). Rows only the girl branch shows say
+  she/her; rows both branches show stay neutral (no "lad", no "his"); うん answering a question is "Yeah.", not "Okay.".
 
 ## Characters
 | JP | EN | max | notes | Avoid |
