@@ -4,8 +4,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 19; sessions 20-24 did not
   rebuild it, because the coverage runs use it; unbuilt there: session 22's 4 text edits, session 23's haiku fix,
-  session 24's tab-sprite fix + 2 text edits), sha1 82aef7599a18..; side build with everything: `build.py --out
-  work/next/tmgfh_en.gba` (sha1 73c332260804..); check.py 38 passed.
+  session 24's tab-sprite fix + 2 text edits, session 26's tutorial art + D64260), sha1 82aef7599a18..; side
+  build with everything: `build.py --out work/next/tmgfh_en.gba` (sha1 f5bdeb92..); check.py 38 passed.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -281,6 +281,23 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   (kana, typing romaji, meaning; D14 done). Branch pass resumed: branch3 finished, branch4 reached A8 when the
   run was killed for low system memory (incomplete dirs branch4/A8_0..A8_3 left: delete them, then resume; consider
   `--jobs 2`). gaps + report not run yet.
+  Session 26 (2026-11-22): branch pass resumed with `--jobs 2` (branch4 finished; still running, cover.py PID
+  37736, when the session ended: check `work/qa/cover_branches.log` and whether a Mesen/cover.py of this repo runs
+  before starting `gaps`). **Battle-tutorial art English** (S29 + the 8bpp panel picture 0xD35868, group
+  `tutorial`, `tools/gfx_tutorial.py`; art made once by `tools/debug/tut_compose.py` into indexed
+  `gfx/tutorial/<ENTRY>.png`, details in `docs/re/graphics.md` S29): panel reads like the real English panel for
+  the card (Fighter, 【Blst】【Cov】, 1Prce 2B(moon) 3Mrph, Took 40 dmg, BATTLE / Leaf, FIGHTER, Fi), highlights
+  rebuilt from it, callouts Symbol / Origin / Element, captions "Hits for 50", "cuts damage by 30", "Characters get
+  1Prce at [tree] Mani". D64260 "background" -> "origin" to match (story gate 0 open, `zz_recheck26_20261122.tsv`).
+  Seen in game on the side build (`work/qa/p8s26/tut2`, `tut3`: battle_tutorial.mss + `--mash 20`, 6000 f; the
+  warp row's own run stops mashing at f2700). check.py 38 passed. **Found, not fixed:** the tutorial's field
+  cards are their own pre-drawn 64x64 **8bpp** OBJs with Japanese baked in: 0xD3CA78 (神速の剣士, grey emblem) and
+  0xD3EB78 (格闘家, 木 emblem), palette = the 0x80 B before each, (ptr, size) entries 0xD63A38 / (0xD3EB78 not in
+  the 0x1000-size scan: find its entry) and 0xD63A50 (0xD3DAF8) / 0xD63A80 (0xD40BF8), whose format is not 8bpp
+  64x64 (render garbled): reletter the name strip (mini-label style: LIGHTNING / FIGHTER) and the emblem (Ea? / Wd)
+  the way `gfx_frames.py` does. Seen at f1960 of tut3 (`work/qa/p8s26/fieldcard`, PPU dump there). Also check
+  in a fresh real battle that card thumbnails on the panel show English emblems (S20) and mini labels: the
+  hand_panel.mss / board_turn.mss shots show kanji emblems, probably stale VRAM in those states.
 - **Next (phase 8):** (A) text coverage: the branch pass was resumed again in session 22 (`--jobs 4`, log
   `work/qa/cover_branches.log`; resumed again in sessions 23 and 24: branch0-2 done, branch3+ (A scenes only) running
   when session 24 ended). A rebuild moves 12 207 string addresses (scenes re-pack), so after the rebuild the whole
@@ -306,8 +323,8 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   link-room sub-state 2, 0x0805BFE8: force the sub-state or poke it to see them, then redraw); 0xD280D0 (title
   set, table 0xD289A0) unidentified; trade / discard plaques (S17) in game (trade room -> Trade, needs cards). (1) see an element text icon ({I006}-{I015}) in game (card text popup of a Ward/Slay/Bane card)
   and a large frame (39-43). (2) a land / spell mini label in game (thumbnail of a non-character card on the
-  panel). (3) S29 tutorial
-  overlays + tutorial panel 0xD35868/0xD333B8 (match the English panel). Remaining graphics
+  panel). (3) tutorial field-card sprites 0xD3CA78 / 0xD3EB78 (session 26 note; the S29 overlays and the
+  panel picture are done). Remaining graphics
   text: find where S28 attack badges show (card info screens?); find where VS / CLASH / Attack-Wait show (srclog.lua with SRC_LO=0x08ACCCCC over a longer or
   link battle); the name entry's kana grid (G7, English layout with the u16 grids below);
   邪気封印 card art,
