@@ -49,8 +49,12 @@ end)
 -- once cycling, no route input reaches the game (a stray L opens the card view, B closes the popup)
 emu.addEventCallback(L.safe(function() if started then emu.setInput({}, 0) end end), emu.eventType.inputPolled)
 local skip = SKIP or 0
-L.on_exec(0x08018AB0, 0x08018AB0, function()
+-- CALL_AT (default the popup printer) and LR (only calls whose return address is LR) cycle another printer's r0, e.g.
+-- the shop dialogue: CALL_AT=0x08003AA0 LR=0x08057E2F (`work/states/shop_rich.mss`, buy route).
+local call_at, want_lr = CALL_AT or 0x08018AB0, LR
+L.on_exec(call_at, call_at, function()
   if started then return end
+  if want_lr and emu.getState()["cpu.r14"] ~= want_lr then return end
   if skip > 0 then skip = skip - 1 return end
   started = true
   L.save_state(base, function() next_one() end)

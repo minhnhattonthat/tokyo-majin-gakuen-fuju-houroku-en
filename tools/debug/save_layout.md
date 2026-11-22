@@ -8,6 +8,14 @@ the checksum routine 0x08000E00.
 | 0x0000 | 12 | `MAJIN_HUJU1\0` |
 | 0x000C | 8 | surname, Shift-JIS, 00-padded (RAM 0x03003830) |
 | 0x0014 | 8 | given name (RAM 0x03005A70) |
+| 0x06C4 | 4 | RAM 0x030032F0 (unknown) |
+| 0x06C8 | 4 | RAM 0x03001ED4 (unknown) |
+| 0x06CC | 2 | value (shop money), RAM 0x03002EE0, max 9999 (sell code clamps at 0x0804C864); `save.py set --money` |
+| 0x06CE | 2 | RAM 0x03005538 (unknown) |
+| 0x06D0 | 2 | RAM 0x03005668 (mode param) |
+| 0x06D2 | 1 | RAM 0x03003810 (Fuin Cave floor) |
+| 0x06D3 | 1 | RAM 0x03002EC0 (unknown) |
+| 0x06D4 | 1 | RAM 0x030035C0 (unknown) |
 | 0x06D5 | 1 | chapter 0..39 (RAM 0x03005AA8) |
 | 0x06D7 | 1 | loaded into RAM 0x030035B0 (unknown) |
 | 0x06D8 | 4 | checksum: u32 sum of the words at 0x0000..0x06D8 and 0x06DC..0x555C |
@@ -27,5 +35,10 @@ counts 282 / 52 / 83 / 30 / 27 (`work/qa/allcards/final.png`). Deck(s) and money
 
 `save.py set` mirrors its edits into the copy. Test: `save.py test SAV` boots the save, picks 続きから and passes
 when the hub (mode 6) loads with the save's chapter; a chapter-17 save renamed 山田 太郎 loads clean.
-Unmapped: cards owned, deck, money/points, event flags. Map them by the same diff method (buy one card, finish one
+**Session 29:** the load routine 0x08000C84 copies the fields above from the slot into RAM (offsets read from its
+literal pool order; value found by selling one card: only 0x03002EE0 went 0 -> 1). Saves made: `hub_ch05_en.sav`
+(English build, `make --rom build/tmgfh_en.gba`; `hub_ch05.sav` stays the JP-made one), `allcards_en.sav` (every
+card + 9999 value), `rich_ch38.sav`, `rich_few.sav` (9999 value, starting cards: the pack screen then shows NEW),
+`cards999.sav`. Booster packs on sale do not depend on the chapter alone (ch 38 offers Kenpucho + Oboro Kitan only).
+Unmapped: deck, event flags. Map them by the same diff method (buy one card, finish one
 event) when stress saves need them (phase 8).

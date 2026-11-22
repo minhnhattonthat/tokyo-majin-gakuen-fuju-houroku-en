@@ -7,7 +7,7 @@
 
 Layout (tools/debug/save_layout.md): slot at 0x0000, length 0x555C:
   +0x000 'MAJIN_HUJU1\\0'; +0x00C surname (Shift-JIS, 8 bytes, 00-padded); +0x014 given name (8 bytes);
-  +0x6D5 chapter byte (0x03005AA8 in RAM, 0..39); +0x6D8 u32 checksum; +0x6DC..0x555C second buffer (0x4E80).
+  +0x6CC u16 value/money (0x03002EE0, max 9999); +0x6D5 chapter byte (0x03005AA8 in RAM, 0..39); +0x6D8 u32 checksum; +0x6DC..0x555C second buffer (0x4E80).
   checksum = sum of the u32 words of +0x000..0x6D8 and +0x6DC..0x555C (routine 0x08000E00).
 A partial copy of the first part (+0x000..0x6DC) sits at 0x555C (the 32 KiB SRAM cuts the rest off); edits are
 mirrored there so both agree. Always edit a game-written file (`make`), never one built from zeros.
@@ -27,6 +27,7 @@ PART1, CKS, PART2_END = 0x6D8, 0x6D8, 0x555C
 MAGIC = b'MAJIN_HUJU1\x00'
 SURNAME, NAME, NAME_LEN = 0x00C, 0x014, 8
 CHAPTER = 0x6D5
+MONEY, MONEY_MAX = 0x6CC, 9999      # u16 value (RAM 0x03002EE0); the sell code 0x0804C864 clamps to 9999
 BASE_SAVE = os.path.join(ROOT, 'work', 'saves', 'hub_ch05.sav')
 
 
@@ -53,6 +54,7 @@ def info(d):
     print('surname   %s' % sjis_field(d, SLOT + SURNAME))
     print('name      %s' % sjis_field(d, SLOT + NAME))
     print('chapter   %d' % d[SLOT + CHAPTER])
+    print('money     %d' % struct.unpack_from('<H', d, SLOT + MONEY)[0])
     print('checksum  stored %08X calc %08X %s' % (stored, calc, 'ok' if stored == calc else 'BAD'))
     same = d[COPY:COPY + 0x6DC] == d[SLOT:SLOT + 0x6DC]
     print('copy@%X  %s' % (COPY, 'matches slot' if same else 'differs from slot'))
@@ -89,6 +91,10 @@ def edit(d, a):
         if not 0 <= a.chapter <= 39:
             sys.exit('chapter 0..39')
         d[SLOT + CHAPTER] = a.chapter
+    if getattr(a, 'money', None) is not None:
+        if not 0 <= a.money <= MONEY_MAX:
+            sys.exit('money 0..%d' % MONEY_MAX)
+        struct.pack_into('<H', d, SLOT + MONEY, a.money)
     if a.surname is not None:
         put_name(d, SLOT + SURNAME, a.surname)
     if a.name is not None:
@@ -145,6 +151,7 @@ def main():
     p = sub.add_parser('info'); p.add_argument('sav')
     p = sub.add_parser('set'); p.add_argument('sav'); p.add_argument('out')
     p.add_argument('--chapter', type=int); p.add_argument('--surname'); p.add_argument('--name')
+    p.add_argument('--money', type=int, help='value (shop currency) 0..9999')
     p.add_argument('--add-cards', action='append', metavar='A:FIRST-LAST[:B]',
                    help='append owned-card records (id, A, B); A 16..19 = non-character kinds, B 0')
     p = sub.add_parser('make'); p.add_argument('--rom', default=os.path.join(ROOT, 'rom', 'base.gba'))

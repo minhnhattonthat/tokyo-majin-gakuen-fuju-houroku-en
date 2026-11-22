@@ -700,6 +700,18 @@ def link_trade(rom):
     return gfx_linktrade.apply(rom)
 
 
+def pack_open(rom):
+    """booster-pack opening screen: 次へ button + 新 new-card burst (S16, tools/gfx_packopen.py)"""
+    import gfx_packopen
+    return gfx_packopen.pack_open(rom)
+
+
+def thumb_frames(rom):
+    """card thumbnail frames (frame table entries 44-87): element emblem labels (S20, tools/gfx_thumbframes.py)"""
+    import gfx_thumbframes
+    return gfx_thumbframes.thumb_frames(rom)
+
+
 GROUPS = {'attack_types': attack_types, 'icons': icons, 'mini_labels': mini_labels, 'frames': frames, 'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': dungeon_menu,
           'room_banners': room_banners, 'floor_numerals': floor_numerals, 'signs': signs,
           'settings_screen': settings_screen, 'haiku_screen': haiku_screen, 'haiku_input': haiku_input,
@@ -709,7 +721,8 @@ GROUPS = {'attack_types': attack_types, 'icons': icons, 'mini_labels': mini_labe
           'end_card': end_card, 'chapter_cards': chapter_cards,
           'profile_screens': profile_screens, 'card_classes': card_classes, 'link_error': link_error,
           'shop_plaques': shop_plaques, 'sutra_board': sutra_board, 'tutorial': tutorial,
-          'fieldcards': fieldcards, 'link_trade': link_trade}
+          'fieldcards': fieldcards, 'link_trade': link_trade, 'pack_open': pack_open,
+          'thumb_frames': thumb_frames}
 
 
 def apply(rom):

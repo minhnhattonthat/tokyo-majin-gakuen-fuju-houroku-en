@@ -1,0 +1,5 @@
+kind	offset	fill	levels	size	jp	en
+button	C37D88	3	8,b,f	11	次へ	Next
+button	C37F88	9	b,f	11	次へ	Next
+burst	C37988	c	2		新	NEW
+burst	C37B88	f	2		新	NEW

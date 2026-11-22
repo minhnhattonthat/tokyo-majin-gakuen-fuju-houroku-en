@@ -121,3 +121,16 @@ The shredded strips (S2, S3, S11, S12, S16, S25) get their real layout from in-g
   [0x03007570] (0x030012CC = scene base, 0x030012D0 a per-step copy): warp.lua `SEEK=0x1C02` jumps there; scenes.tsv
   rows card_01..card_13, card_end.
 - Credits role captions are font text (already English).
+
+## Phase 8 findings, session 29 (2026-11-22): pack-opening screen
+
+- The booster-pack opening screen (shop -> Buy -> pack, also after a battle) had Japanese OBJs, OBJ palette 10:
+  the 次へ button (bright 0xC37D88, dim 0xC37F88, each two contiguous 32x16 OBJs; session 18 had filed
+  0xC37968/0xC37D88 as shop icons) and the 新 new-card burst (32x32, 0xC37988 yellow, 0xC37B88 white). English
+  "Next" / "NEW" (group pack_open, `tools/gfx_packopen.py`), both seen in game (`work/qa/p8s29/pack_en_z.png`).
+- Card thumbnails are frame-table entries 44-87 (0xD80BD4; entry 44+k = thumbnail of large frame k): 48x64,
+  linear 6x8 8bpp tiles, pixel = palette index 0x20-0x2F, shared map 0xCF1098. 44-79 carry a small element disc
+  (interior 7x7), 83-87 a larger one, 80-82 none. Relabelled Wd Fi Ea Mt Wa in a 3x5 font (group thumb_frames,
+  `tools/gfx_thumbframes.py`); "Ea" seen in game on the pack screen (`work/qa/p8s29/thumb_cmp.png`). These are
+  the kanji emblems earlier sessions saw on the battle-panel thumbnails (not stale VRAM).
+- The 16x16 card-stack icon at 0xC69ED8 (top left of the pack screen) is a picture, not text.
