@@ -420,7 +420,9 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   work/qa/cover_b19 --base b359d4e` (build 19 was made from b359d4e), re-run only what it lists as changed (popcycle
   for CF2B68/CF44CC/CF4558/CF4608; the menu routes for the D72xxx rows: sessions 24-31) and the name-grid rows are
   kind grid (not in strings.tsv). Then `cover.py report` must exit 0 with `docs/text_unshown.tsv`. (3) Full English
-  tour + visual-QA verdicts per chunk, inkbox on choice / centred boxes, stress-save sheets.
+  tour + visual-QA verdicts per chunk, inkbox on choice / centred boxes, stress-save sheets: longest typed names
+  are now 4 romaji units (e.g. Şhi x4, ~64 px): `save.py set` writes Shift-JIS only, so add a raw-units option
+  (codes from that build's `vwf.Encoder`) or type them on name_entry_ne.mss, then check dialogue, VS plate, profile.
   Earlier: (A) text coverage: the branch pass was resumed again in session 22 (`--jobs 4`, log
   `work/qa/cover_branches.log`; resumed again in sessions 23 and 24: branch0-2 done, branch3+ (A scenes only) running
   when session 24 ended). A rebuild moves 12 207 string addresses (scenes re-pack), so after the rebuild the whole
