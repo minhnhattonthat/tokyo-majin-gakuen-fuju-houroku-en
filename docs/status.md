@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22, full English,
-  sha1 a9491f68798d..; smoke ok (`work/qa/smoke`), check.py 37 passed.
+- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 9),
+  sha1 fb150f4b913c..; check.py 37 passed.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -95,12 +95,26 @@ Updated at the end of every session. Keep it to what the next session needs; his
   Wait. New tools: `tools/debug/romblock.py` (block with its ROM palette, original | English; `--obj WxH`),
   `tools/debug/cardnums.py`, `tools/debug/srclog.lua` (BIOS copies whose source is in a ROM range = when a
   graphic loads). check.py 37 passed, smoke ok.
-- **Next (phase 8):** remaining graphics text: S19 leftovers 0xC6A2D8 (deck-editor window frame sheet:
+  Session 9 (2026-11-22): **story location captions** (23, group captions, rotated English; `work/qa/cap_en/both.png`),
+  **13 chapter title cards** "Chapter One / Darkness" .. "Chapter Thirteen / Fated Stars" and the **end card 完 -> The
+  End** (all 14 seen in game: `work/qa/cards/all.png`, warp rows card_01..card_13, card_end via new warp.lua
+  `SEEK=<u16>`), **profile screens** Birthplace? / Birthday? (月 -> "/", fields read MM/DD) / Blood type? / Gender?
+  Male Female (`work/qa/prof_en/z.png`; gender screen not seen in game). Details: `docs/re/graphics.md` §Phase 8
+  findings. check.py 37 passed. Last build sha1 fb150f4b913c..
+  **Found, not fixed (Important):** a code-area string table the extractor never saw, 0x06485C-0x064A2A, 8-byte
+  slots, NUL-ended SJIS: the 47 prefectures (和歌山県 .. 愛知県, reverse gojuon order) shown **vertically** in the
+  Birthplace? box (still Japanese in the English build, `work/qa/prof_en/z.png` left), then 両者 相手 自分 左 右 除去
+  破壊 ＋ － 全ての and ０１２３４５６７８９ (card-effect pieces joined at run time? check card text that names targets).
+  Needs: find the pointers to these slots (likely a pointer table near 0x0648xx/0x064Axx or literals), extract them
+  as a system file, and for the prefectures either romanize short names in a horizontal list (printer change) or
+  find the vertical draw routine; then sweep the code area 0x000000-0x0C0000 for other SJIS runs (`jp_left.py` with
+  `--sjis` but no `--gba-ptrs` filter) since `--gba-ptrs` missed these.
+- **Next (phase 8):** the code-area strings above first. Remaining graphics text: S19 leftovers 0xC6A2D8 (deck-editor window frame sheet:
   check for labels); find where VS / CLASH / Attack-Wait show (srclog.lua with SRC_LO=0x08ACCCCC over a longer or
   link battle); S7 large numeral cards 0xAE5FDC..; the name entry's kana grid (G7, English layout with the u16 grids below);
-  vertical scene captions (W12/G5, S11/S12); card class labels (S1), card/skill name art (S5), 邪気封印 card art,
+  card class labels (S1), card/skill name art (S5), 邪気封印 card art,
   emblems (S20), rarity legend (S27), card type icons (S28), info-screen labels (S29), sound test labels (S22),
-  rematch menu graphics 0xD65298 if any (the menu seen was font text), credits role captions + end card (W10/W11). Then a full English tour, verdicts per chunk
+  rematch menu graphics 0xD65298 if any (the menu seen was font text). Then a full English tour, verdicts per chunk
   (in an Orca worker: read the sheets yourself in a fresh pass, one verdict file per chunk; `codex exec -s
   read-only` after 2026-11-26); `inkbox.py` on choice/centred boxes; stress saves (needs save fields mapped);
   English name entry (u16 kana grids 0xD16740 / D6E56C / D72F00). Checks carried from phase 6: card-panel range

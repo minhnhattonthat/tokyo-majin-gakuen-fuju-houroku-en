@@ -104,5 +104,20 @@ Not reached: the defeat / rematch screen (敗北 S9, 再戦する 終了する a
 
 Sheets 028-031 reviewed (2026-11-22): 0xCAF748-0xCE5748 is the rest of the font; 0xCE7768 is the 符咒封録 logo art
 (G3); 0xE407F8.. (sheet 031) is non-graphic data. No LZ77 block was left unreviewed (they sit in sheets 021-025).
-Chapter captions, ending and credits are now in the W rows above (the game has no separate chapter card: each
-story scene opens with its vertical caption). The shredded strips (S2, S3, S11, S12, S16, S25) get their real layout from in-game VRAM dumps in phase 8.
+The shredded strips (S2, S3, S11, S12, S16, S25) get their real layout from in-game VRAM dumps in phase 8.
+
+## Phase 8 findings (2026-11-22, session 9)
+- **S11 = location captions** (G5/W12): sprite table entries 74-96 (0xD81840, 12 B: tiles, palette 0xBD513C, 0),
+  23 captions x 0x300 B = a 16x96 4bpp column, three 16x32 OBJs at x 216. **English** (group captions,
+  `tools/gfx_captions.py`, `gfx/captions.tsv`: rotated text reading top to bottom, then the JP line).
+- **S12 = LZ77 screens** of the BG loader 0x08003224 (r1 = index into the 12 B table 0xD7DD18: tiles, palette, map;
+  BG2 char 0x0600C000, screen 0xE800, bank 14 or 10). Indices 28-40 (entries 0xD7DE68 + 12k) = the **13 chapter
+  title cards** 第壱話 闇 .. 第拾参話 宿星, index 41 (0xD7DF04) = the 完 end card, 43-47 = name entry and the
+  profile questions (出身地は？ 0xD7DF28, 誕生日は？ 0xD7DF34, 血液型は？ 0xD7DF4C, 性別は？ 0xD7DF58; the gender one
+  is never loaded in a normal new game: the L+R easter egg of B39.0119?). All **English** (groups chapter_cards,
+  end_card, profile_screens; edit kind `shadow` for the brush cards). Indices 0-27: 8bpp backgrounds, no text.
+- Scene command `02 NN` (u16 0xNN02) shows BG NN (0x08003070, called from 0x0803FCEC); cards sit mid-scene in B0 2 5
+  8 11 14 18 21 24 27 32 35 37, 完 in B39. The script interpreter's live read pointer is word 0 of the struct at
+  [0x03007570] (0x030012CC = scene base, 0x030012D0 a per-step copy): warp.lua `SEEK=0x1C02` jumps there; scenes.tsv
+  rows card_01..card_13, card_end.
+- Credits role captions are font text (already English).
