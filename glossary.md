@@ -44,7 +44,20 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 ## Places
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
-| 真神学園 | Magami Academy | | the player's school in Shinjuku (B07); nobody has heard of it | Majin Academy |
+| 真神学園 | Magami Academy / Magami Acad. | | the player's school in Shinjuku (B07); nobody has heard of it. "Magami Acad." only in the 94 px card-name slot (the full name is 95 px) | Majin Academy |
+| 鳳銘高校 | Homei High | | land card (b095) | |
+| 王蘭学院 | Ouran Academy | | land card | |
+| 如月骨董品店 | Kisaragi Curios | | land card | |
+| 九角家屋敷 | Kokonosumi Hall | | land card | |
+| 大宇宙学園 | Daiuchu Acad. | | land card | |
+| 桜ヶ丘病院 | Sakuragaoka | | land card; "Sakuragaoka Hospital" where there is room | |
+| 皇神高校 | Kogami High | | land card | |
+| 神代高校 | Kumashiro High | | land card | |
+| 鎧扇寺高校 | Gaisenji High | | land card | |
+| 拳武館高校 | Kenbukan High | | land card | |
+| 覚羅高校 | Kakura High | | land card | |
+| 鬼道門 | Kido Gate | | land card | |
+| 目黒不動 / 目白不動 / 目黄不動 / 目赤不動 / 目青不動 | Meguro Fudo / Mejiro Fudo / Meki Fudo / Meaka Fudo / Meao Fudo | | the five Fudo temples; land cards | |
 
 ## Items / skills / terms
 | JP | EN | max | notes | Avoid |

@@ -749,156 +749,156 @@ CF6748	str	7	必{I006}	{I006}B
 CF6750	str	7	必{I005}	{I005}B	
 CF6758	str	7	必{I011}	{I011}B	
 CF6760	str	7	必{I010}	{I010}B	
-CF6768	str	7	狙い		
-CF6770	str	7	吹飛		
-CF6778	str	6	－－		
-CF6898	str	11	鳳銘高校		
-CF68A4	str	11	ゆきみヶ原		
-CF68B0	str	15	王蘭学院高校		
-CF68C0	str	11	妖閉空間		
-CF68CC	str	11	織部神社		
-CF68D8	str	11	目黒不動		
-CF68E4	str	15	如月骨董品店		
-CF68F4	str	11	刻の迷宮		
-CF6900	str	15	雑司ヶ谷霊園		
-CF6910	str	11	芝プール		
-CF691C	str	15	練馬区商店街		
-CF692C	str	11	等々力渓谷		
-CF6938	str	11	黒崎商店		
-CF6944	str	11	等々力不動		
-CF6950	str	11	九角家屋敷		
-CF695C	str	11	石神井公園		
-CF6968	str	7	廃屋		
-CF6970	str	11	目白不動		
-CF697C	str	11	大宇宙学園		
-CF6988	str	11	封印の祠		
-CF6994	str	7	旧校舎		
-CF699C	str	11	龍命の塔		
-CF69A8	str	11	明日香学園		
-CF69B4	str	7	竹林		
-CF69BC	str	11	ラーメン屋		
-CF69C8	str	15	新宿中央公園		
-CF69D8	str	11	花園神社		
-CF69E4	str	11	目黄不動		
-CF69F0	str	11	桜ヶ丘病院		
-CF69FC	str	11	新宿都庁		
-CF6A08	str	11	真神学園		
-CF6A14	str	11	歌舞伎町		
-CF6A20	str	11	皇神高校		
-CF6A2C	str	7	研究所		
-CF6A34	str	11	桜塚高校		
-CF6A40	str	11	神代高校		
-CF6A4C	str	11	青山霊園		
-CF6A58	str	11	代々木公園		
-CF6A64	str	11	目赤不動		
-CF6A70	str	11	鎧扇寺高校		
-CF6A7C	str	7	道場		
-CF6A84	str	7	増上寺		
-CF6A8C	str	11	華月高校		
-CF6A98	str	11	拳武館高校		
-CF6AA4	str	11	覚羅高校		
-CF6AB0	str	15	アナスタシア		
-CF6AC0	str	7	浜離宮		
-CF6AC8	str	7	鬼道門		
-CF6AD0	str	11	目青不動		
-CF6ADC	str	11	白髭公園		
-CF6AE8	str	11	江戸川大橋		
-CF6AF4	str	7	寛永寺		
-CF6AFC	str	27	{I009}が３上昇{rt}ライフ－４０		
-CF6B18	str	27	{I009}が２上昇{rt}ライフ－２０		
-CF6B34	str	15	{I009}が１上昇		
-CF6B44	str	27	{I008}が２上昇{rt}ライフ－２０		
-CF6B60	str	15	{I008}が１上昇		
-CF6B70	str	27	{I008}が３上昇{rt}ライフ－４０		
-CF6B8C	str	27	全てが１上昇{rt}ライフ－３０		
-CF6BA8	str	27	全てが２上昇{rt}ライフ－５０		
-CF6BC4	str	27	{I007}が３上昇{rt}ライフ－４０		
-CF6BE0	str	27	{I007}が２上昇{rt}ライフ－２０		
-CF6BFC	str	15	{I007}が１上昇		
-CF6C0C	str	27	{I006}が２上昇{rt}ライフ－２０		
-CF6C28	str	15	{I006}が１上昇		
-CF6C38	str	27	{I006}が３上昇{rt}ライフ－４０		
-CF6C54	str	27	{I005}が２上昇{rt}ライフ－２０		
-CF6C70	str	15	{I005}が１上昇		
-CF6C80	str	27	{I005}が３上昇{rt}ライフ－４０		
-CF6C9C	str	7	寄生		
-CF6CA4	str	11	冬の息吹		
-CF6CB0	str	11	秋の息吹		
-CF6CBC	str	11	夏の息吹		
-CF6CC8	str	11	春の息吹		
-CF6CD4	str	7	二刀流		
-CF6CDC	str	15	葬られし財宝		
-CF6CEC	str	11	即身成仏		
-CF6CF8	str	7	致命傷		
-CF6D00	str	11	鍛えた肉体		
-CF6D0C	str	11	機敏なる脚		
-CF6D18	str	7	道連れ		
-CF6D20	str	7	遠投		
-CF6D28	str	11	猪突猛進		
-CF6D34	str	7	反射		
-CF6D3C	str	11	孤立無援		
-CF6D48	str	11	失墜する翼		
-CF6D54	str	11	蜃気楼の壁		
-CF6D60	str	11	自己犠牲		
-CF6D6C	str	11	歪曲の霧		
-CF6D78	str	11	従属の掟		
-CF6D84	str	15	揺るがぬ精神		
-CF6D94	str	7	貫く拳		
-CF6D9C	str	11	死の契約		
-CF6DA8	str	15	規律ある行軍		
-CF6DB8	str	7	影武者		
-CF6DC0	str	7	追撃		
-CF6DC8	str	11	黄泉帰り		
-CF6DD4	str	15	血染めの咒符		
-CF6DE4	str	7	屍喰い		
-CF6DEC	str	11	凍てつく風		
-CF6DF8	str	15	死への旅立ち		
-CF6E08	str	7	休戦		
-CF6E10	str	7	奇襲		
-CF6E18	str	11	忠実なる死		
-CF6E24	str	11	静寂の闇		
-CF6E30	str	11	裁きの雷		
-CF6E3C	str	11	絡みつく鎖		
-CF6E48	str	7	反抗		
-CF6E50	str	11	昇天する魂		
-CF6E5C	str	11	輝きの逆流		
-CF6E68	str	7	追悼		
-CF6E70	str	15	間違った記憶		
-CF6E80	str	15	不慣れな詠唱		
-CF6E90	str	11	猛毒の沼		
-CF6E9C	str	11	常世の陰気		
-CF6EA8	str	11	天上の加護		
-CF6EB4	str	15	呪われし血脈		
-CF6EC4	str	15	賑やかなる宴		
-CF6ED4	str	11	月夜の逢瀬		
-CF6EE0	str	11	急な斜面		
-CF6EEC	str	11	狭い通路		
-CF6EF8	str	7	衰弱		
-CF6F00	str	15	穏やかな休日		
-CF6F10	str	11	窮屈な衣装		
-CF6F1C	str	11	香る湯煙		
-CF6F28	str	11	天狗投げ		
-CF6F34	str	7	再生紙		
-CF6F3C	str	11	護りの影		
-CF6F48	str	11	癒しの光		
-CF6F54	str	7	混戦		
-CF6F5C	str	7	泥酔		
-CF6F64	str	7	質入れ		
-CF6F6C	str	7	峰打ち		
-CF6F74	str	15	ふさがる両手		
-CF6F84	str	11	乱雑な部屋		
-CF6F90	str	11	木霊する声		
-CF6F9C	str	11	起死回生		
-CF6FA8	str	7	写せ身		
-CF6FB0	str	7	月光浴		
-CF6FB8	str	7	廃棄物		
-CF6FC0	str	11	強制撤去		
-CF6FCC	str	7	厄日		
-CF6FD4	str	11	最後の一撃		
-CF6FE0	str	7	旋風		
-CF6FE8	str	11	悪霊憑き		
-CF6FF4	str	15	継がれる遺志		
-CF7004	str	11	荒地の檻		
+CF6768	str	7	狙い	Aim	
+CF6770	str	7	吹飛	Blst	
+CF6778	str	6	－－	--	
+CF6898	str	11	鳳銘高校	Homei High	
+CF68A4	str	11	ゆきみヶ原	Yukimigahara	
+CF68B0	str	15	王蘭学院高校	Ouran Academy	
+CF68C0	str	11	妖閉空間	Sealed Realm	
+CF68CC	str	11	織部神社	Oribe Shrine	
+CF68D8	str	11	目黒不動	Meguro Fudo	
+CF68E4	str	15	如月骨董品店	Kisaragi Curios	
+CF68F4	str	11	刻の迷宮	Maze of Time	
+CF6900	str	15	雑司ヶ谷霊園	Zoshigaya	
+CF6910	str	11	芝プール	Shiba Pool	
+CF691C	str	15	練馬区商店街	Nerima Shops	
+CF692C	str	11	等々力渓谷	Todoroki Gorge	
+CF6938	str	11	黒崎商店	Kurosaki Store	
+CF6944	str	11	等々力不動	Todoroki Fudo	
+CF6950	str	11	九角家屋敷	Kokonosumi Hall	
+CF695C	str	11	石神井公園	Shakujii Park	
+CF6968	str	7	廃屋	Ruined House	
+CF6970	str	11	目白不動	Mejiro Fudo	
+CF697C	str	11	大宇宙学園	Daiuchu Acad.	
+CF6988	str	11	封印の祠	Sealing Shrine	
+CF6994	str	7	旧校舎	Old Schoolhouse	
+CF699C	str	11	龍命の塔	Ryumei Tower	
+CF69A8	str	11	明日香学園	Asuka Academy	
+CF69B4	str	7	竹林	Bamboo Grove	
+CF69BC	str	11	ラーメン屋	Ramen Shop	
+CF69C8	str	15	新宿中央公園	Shinjuku Park	
+CF69D8	str	11	花園神社	Hanazono	
+CF69E4	str	11	目黄不動	Meki Fudo	
+CF69F0	str	11	桜ヶ丘病院	Sakuragaoka	
+CF69FC	str	11	新宿都庁	City Hall	
+CF6A08	str	11	真神学園	Magami Acad.	
+CF6A14	str	11	歌舞伎町	Kabukicho	
+CF6A20	str	11	皇神高校	Kogami High	
+CF6A2C	str	7	研究所	Laboratory	
+CF6A34	str	11	桜塚高校	Sakurazuka High	
+CF6A40	str	11	神代高校	Kumashiro High	
+CF6A4C	str	11	青山霊園	Aoyama Graves	
+CF6A58	str	11	代々木公園	Yoyogi Park	
+CF6A64	str	11	目赤不動	Meaka Fudo	
+CF6A70	str	11	鎧扇寺高校	Gaisenji High	
+CF6A7C	str	7	道場	Dojo	
+CF6A84	str	7	増上寺	Zojoji	
+CF6A8C	str	11	華月高校	Kagetsu High	
+CF6A98	str	11	拳武館高校	Kenbukan High	
+CF6AA4	str	11	覚羅高校	Kakura High	
+CF6AB0	str	15	アナスタシア	Anastasia	
+CF6AC0	str	7	浜離宮	Hamarikyu	
+CF6AC8	str	7	鬼道門	Kido Gate	
+CF6AD0	str	11	目青不動	Meao Fudo	
+CF6ADC	str	11	白髭公園	Shirahige Park	
+CF6AE8	str	11	江戸川大橋	Edogawa Bridge	
+CF6AF4	str	7	寛永寺	Kan'eiji	
+CF6AFC	str	27	{I009}が３上昇{rt}ライフ－４０	{I009} +3{rt}Life -40	
+CF6B18	str	27	{I009}が２上昇{rt}ライフ－２０	{I009} +2{rt}Life -20	
+CF6B34	str	15	{I009}が１上昇	{I009} +1	
+CF6B44	str	27	{I008}が２上昇{rt}ライフ－２０	{I008} +2{rt}Life -20	
+CF6B60	str	15	{I008}が１上昇	{I008} +1	
+CF6B70	str	27	{I008}が３上昇{rt}ライフ－４０	{I008} +3{rt}Life -40	
+CF6B8C	str	27	全てが１上昇{rt}ライフ－３０	All +1{rt}Life -30	
+CF6BA8	str	27	全てが２上昇{rt}ライフ－５０	All +2{rt}Life -50	
+CF6BC4	str	27	{I007}が３上昇{rt}ライフ－４０	{I007} +3{rt}Life -40	
+CF6BE0	str	27	{I007}が２上昇{rt}ライフ－２０	{I007} +2{rt}Life -20	
+CF6BFC	str	15	{I007}が１上昇	{I007} +1	
+CF6C0C	str	27	{I006}が２上昇{rt}ライフ－２０	{I006} +2{rt}Life -20	
+CF6C28	str	15	{I006}が１上昇	{I006} +1	
+CF6C38	str	27	{I006}が３上昇{rt}ライフ－４０	{I006} +3{rt}Life -40	
+CF6C54	str	27	{I005}が２上昇{rt}ライフ－２０	{I005} +2{rt}Life -20	
+CF6C70	str	15	{I005}が１上昇	{I005} +1	
+CF6C80	str	27	{I005}が３上昇{rt}ライフ－４０	{I005} +3{rt}Life -40	
+CF6C9C	str	7	寄生	Parasite	
+CF6CA4	str	11	冬の息吹	Winter's Breath	
+CF6CB0	str	11	秋の息吹	Autumn's Breath	
+CF6CBC	str	11	夏の息吹	Summer's Breath	
+CF6CC8	str	11	春の息吹	Spring's Breath	
+CF6CD4	str	7	二刀流	Two Swords	
+CF6CDC	str	15	葬られし財宝	Buried Treasure	
+CF6CEC	str	11	即身成仏	Living Buddha	
+CF6CF8	str	7	致命傷	Fatal Wound	
+CF6D00	str	11	鍛えた肉体	Trained Body	
+CF6D0C	str	11	機敏なる脚	Nimble Legs	
+CF6D18	str	7	道連れ	Dragged Along	
+CF6D20	str	7	遠投	Long Throw	
+CF6D28	str	11	猪突猛進	Headlong Rush	
+CF6D34	str	7	反射	Reflex	
+CF6D3C	str	11	孤立無援	All Alone	
+CF6D48	str	11	失墜する翼	Falling Wings	
+CF6D54	str	11	蜃気楼の壁	Mirage Wall	
+CF6D60	str	11	自己犠牲	Self-Sacrifice	
+CF6D6C	str	11	歪曲の霧	Warping Mist	
+CF6D78	str	11	従属の掟	Law of Service	
+CF6D84	str	15	揺るがぬ精神	Steady Mind	
+CF6D94	str	7	貫く拳	Piercing Fist	
+CF6D9C	str	11	死の契約	Death Pact	
+CF6DA8	str	15	規律ある行軍	Ordered March	
+CF6DB8	str	7	影武者	Body Double	
+CF6DC0	str	7	追撃	Pursuit	
+CF6DC8	str	11	黄泉帰り	Back from Yomi	
+CF6DD4	str	15	血染めの咒符	Bloody Talisman	
+CF6DE4	str	7	屍喰い	Corpse Eater	
+CF6DEC	str	11	凍てつく風	Freezing Wind	
+CF6DF8	str	15	死への旅立ち	Last Journey	
+CF6E08	str	7	休戦	Truce	
+CF6E10	str	7	奇襲	Ambush	
+CF6E18	str	11	忠実なる死	Loyal Death	
+CF6E24	str	11	静寂の闇	Silent Dark	
+CF6E30	str	11	裁きの雷	Judgment Bolt	
+CF6E3C	str	11	絡みつく鎖	Binding Chains	
+CF6E48	str	7	反抗	Defiance	
+CF6E50	str	11	昇天する魂	Rising Soul	
+CF6E5C	str	11	輝きの逆流	Backlash	
+CF6E68	str	7	追悼	Mourning	
+CF6E70	str	15	間違った記憶	False Memory	
+CF6E80	str	15	不慣れな詠唱	Clumsy Chant	
+CF6E90	str	11	猛毒の沼	Poison Swamp	
+CF6E9C	str	11	常世の陰気	Tokoyo Gloom	
+CF6EA8	str	11	天上の加護	Heaven's Aegis	
+CF6EB4	str	15	呪われし血脈	Cursed Blood	
+CF6EC4	str	15	賑やかなる宴	Lively Feast	
+CF6ED4	str	11	月夜の逢瀬	Moonlit Tryst	
+CF6EE0	str	11	急な斜面	Steep Slope	
+CF6EEC	str	11	狭い通路	Narrow Path	
+CF6EF8	str	7	衰弱	Weakness	
+CF6F00	str	15	穏やかな休日	Quiet Holiday	
+CF6F10	str	11	窮屈な衣装	Tight Outfit	
+CF6F1C	str	11	香る湯煙	Fragrant Steam	
+CF6F28	str	11	天狗投げ	Tengu Throw	
+CF6F34	str	7	再生紙	Recycled Paper	
+CF6F3C	str	11	護りの影	Guarding Shade	
+CF6F48	str	11	癒しの光	Healing Light	
+CF6F54	str	7	混戦	Melee	
+CF6F5C	str	7	泥酔	Drunk	
+CF6F64	str	7	質入れ	Pawned	
+CF6F6C	str	7	峰打ち	Blunt Strike	
+CF6F74	str	15	ふさがる両手	Hands Full	
+CF6F84	str	11	乱雑な部屋	Messy Room	
+CF6F90	str	11	木霊する声	Echoing Voice	
+CF6F9C	str	11	起死回生	Last-Ditch Rally	
+CF6FA8	str	7	写せ身	Mirror Self	
+CF6FB0	str	7	月光浴	Moonbath	
+CF6FB8	str	7	廃棄物	Rubbish	
+CF6FC0	str	11	強制撤去	Forced Removal	
+CF6FCC	str	7	厄日	Bad Day	
+CF6FD4	str	11	最後の一撃	Final Blow	
+CF6FE0	str	7	旋風	Whirlwind	
+CF6FE8	str	11	悪霊憑き	Possessed	
+CF6FF4	str	15	継がれる遺志	Inherited Will	
+CF7004	str	11	荒地の檻	Wasteland Cage	
 CF7010	str	11	儚い栄光		
 CF701C	str	11	混沌の渦		
 CF7028	str	7	枯渇		
