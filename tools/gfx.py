@@ -572,7 +572,13 @@ def frames(rom):
     return gfx_frames.frames(rom)
 
 
-GROUPS = {'icons': icons, 'frames': frames, 'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': dungeon_menu,
+def mini_labels(rom):
+    """40x8 card-name labels on the battle panel thumbnail (S3, tools/gfx_minilabels.py)"""
+    import gfx_minilabels
+    return gfx_minilabels.mini_labels(rom)
+
+
+GROUPS = {'icons': icons, 'mini_labels': mini_labels, 'frames': frames, 'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': dungeon_menu,
           'room_banners': room_banners, 'floor_numerals': floor_numerals, 'signs': signs,
           'settings_screen': settings_screen, 'haiku_screen': haiku_screen, 'deck_name_screen': deck_name_screen,
           'name_entry_screen': name_entry_screen, 'shop_list_screen': shop_list_screen, 'deck_edit': deck_edit, 'plaques': plaques,

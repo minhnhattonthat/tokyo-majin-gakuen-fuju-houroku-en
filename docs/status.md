@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 14),
-  sha1 49394591c614..; check.py 37 passed.
+- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 15),
+  sha1 348a9bc10f44..; check.py 37 passed.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -148,9 +148,15 @@ Updated at the end of every session. Keep it to what the next session needs; his
   emblems S20 English** (`tools/gfx_frames.py`, `gfx/frames.tsv`: 36 small 3x5 labels, 5 large 5x7; emblem found
   from its white kanji pixels; `work/qa/emb_en_small.png`, `emb_en_large.png`): "Fi" seen in game in the large card
   view (`work/qa/icons_g3/z.png`). check.py 37 passed, build sha1 49394591c614..
+  Session 15 (2026-11-22): **S3 mini name labels English** (468 labels, group mini_labels,
+  `tools/gfx_minilabels.py`, short forms `gfx/mini_labels.tsv`): a PPU dump (`work/qa/mini_ppu`) shows the label
+  OBJ under the thumbnail's BG corner brackets, so only 26 px (tile x 5..30) is visible; 3x5 capital pixel font,
+  centred; full name if it fits, else the TSV short form, else the last word (first word for High / Fudo / Park
+  ..). "BAT" seen in game (`work/qa/mini_g1/z2.png`, board_turn.mss + bd/rand.txt). check.py 37 passed, build sha1
+  348a9bc10f44..
 - **Next (phase 8):** (1) see an element text icon ({I006}-{I015}) in game (card text popup of a Ward/Slay/Bane card)
-  and a large frame (39-43). (2) S3 mini labels
-  (40x8, 0xA0 B a card, needs a tiny pixel font or abbreviations; same tables as gfx_cards). (3) S29 tutorial
+  and a large frame (39-43). (2) a land / spell mini label in game (thumbnail of a non-character card on the
+  panel). (3) S29 tutorial
   overlays + tutorial panel 0xD35868/0xD333B8 (match the English panel). Remaining graphics
   text: S19 leftovers 0xC6A2D8 (deck-editor window frame sheet:
   check for labels); find where VS / CLASH / Attack-Wait show (srclog.lua with SRC_LO=0x08ACCCCC over a longer or
