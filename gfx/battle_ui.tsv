@@ -1,0 +1,31 @@
+kind	offset	jp	en
+plate	ACE90C	先手	FIRST
+plate	ACED0C	後手	SECOND
+apup	B52048	AP上昇	AP UP
+apup	B52848	AP上昇	AP UP
+apup	B53048	AP上昇	AP UP
+apup	B53848	AP上昇	AP UP
+panel	B54068	攻撃/待機	Attack/Wait
+vs	ACCCCC	対	VS
+phase_green	B4F808	配置之間	DEPLOY
+phase_red	B4FE08	剣戟之間	CLASH
+num_blue	ACD4EC	壱	1
+num_blue	ACD6EC	弐	2
+num_blue	ACD8EC	参	3
+num_blue	ACDAEC	四	4
+num_blue	ACDCEC	伍	5
+num_red	ACDEEC	壱	1
+num_red	ACE0EC	弐	2
+num_red	ACE2EC	参	3
+num_red	ACE4EC	四	4
+num_red	ACE6EC	伍	5
+cardnum	B021EC	壱	1
+cardnum	B0328C	弐	2
+cardnum	B0432C	参	3
+cardnum	B053CC	四	4
+cardnum	B0646C	伍	5
+cardnum	AFCC4C	壱	1
+cardnum	AFDD8C	弐	2
+cardnum	AFEECC	参	3
+cardnum	B0000C	四	4
+cardnum	B0114C	伍	5

@@ -474,6 +474,12 @@ def banners(rom):
     return gfx_banners.banners(rom)
 
 
+def battle_ui(rom):
+    """battle HUD sprites: 先手 / 後手 badges (S6), AP上昇 (S10): tools/gfx_battle.py"""
+    import gfx_battle
+    return gfx_battle.battle_ui(rom)
+
+
 def deck_edit(rom):
     """deck editor buttons and category tabs (S19): tools/gfx_deck.py"""
     import gfx_deck
@@ -484,7 +490,7 @@ GROUPS = {'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': 
           'room_banners': room_banners, 'floor_numerals': floor_numerals, 'signs': signs,
           'settings_screen': settings_screen, 'haiku_screen': haiku_screen, 'deck_name_screen': deck_name_screen,
           'name_entry_screen': name_entry_screen, 'shop_list_screen': shop_list_screen, 'deck_edit': deck_edit, 'plaques': plaques,
-          'banners': banners}
+          'banners': banners, 'battle_ui': battle_ui}
 
 
 def apply(rom):

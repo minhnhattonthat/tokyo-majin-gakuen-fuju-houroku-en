@@ -41,11 +41,11 @@ its usage limit); `tools/gfx_zoom.py` re-renders any asset at chosen widths. Wid
 | S3 | 0xA8B5CC, 0xAA1C0C, 0xAB5F0C, 0xABF16C, 0xAC6B4C | small prerendered text (wrong width) |
 | S4 | 0xA9660C | location names (寛永寺, 江戸川大橋, 新宿中央公園, 如月骨董品店...) |
 | S5 | 0xAA3C8C, 0xAB92EC, 0xAC024C | card/skill names (気脈の流れ, 一刀両断, 影武者...) |
-| S6 | 0xACCCCC 対; 0xACD4EC 壱弐参四伍 (2 styles); 0xACE90C 先手/後手 | battle UI |
-| S7 | 0xAE5FDC, 0xAEA8AC, 0xAEF17C, 0xAF3A4C, 0xAF831C; small 0xB021EC-0xB0646C | cards with 壱-伍 numerals |
+| S6 | 0xACCCCC 対 (64x64); 0xACD4EC 壱弐参四伍 (ten 32x32 OBJs, blue then red); 0xACE90C 先手/後手 (64x32 plates) | battle UI, sprite table 0xD814C8 (12 B entries: tiles, palette, map/anim): **English** (group battle_ui, `tools/gfx_battle.py`): FIRST / SECOND and the numerals 1-5 seen in game (turn-order pick from `board_turn.mss`); VS rendered only (not loaded in a 12 000-frame battle: link battle?) |
+| S7 | 0xAE5FDC, 0xAEA8AC, 0xAEF17C, 0xAF3A4C, 0xAF831C; small 0xB021EC-0xB0646C | cards with 壱-伍 numerals. The ten 8bpp 64x64 turn-order cards (blue 0xB021EC.., red 0xAFCC4C..; palette = 0xA0 B before the tiles) have the badge redrawn as 1-5 (`cardnum`, seen in game; `tools/debug/cardnums.py`). The large 0xAE5FDC.. set is unchecked |
 | S8 | 0xB0AAAC, 0xB1AC8C, 0xB43A38 | small labels (zoom to read) |
-| S9 | 0xB4B7E8 勝負/術者交代/勝利/敗北; 0xB4F808 配置之間 剣..; 0xB50000 | battle banners: eight 64x64 OBJ blocks (0x800 each, two stacked per banner, OBJ bank 10) **English** (group banners, `tools/gfx_banners.py`: LET'S/DUEL!, CASTER/SWAP, YOU/WIN!, YOU/LOSE; shots `work/qa/winb2`, `work/qa/def_en2`); 配置之間 and 0xB50000 not yet checked |
-| S10 | 0xB52048 AP上昇; 0xB54068 攻撃/待機 | battle UI |
+| S9 | 0xB4B7E8 勝負/術者交代/勝利/敗北; 0xB4F808 配置之間 剣..; 0xB50000 | battle banners: eight 64x64 OBJ blocks (0x800 each, two stacked per banner, OBJ bank 10) **English** (group banners, `tools/gfx_banners.py`: LET'S/DUEL!, CASTER/SWAP, YOU/WIN!, YOU/LOSE; shots `work/qa/winb2`, `work/qa/def_en2`); 配置之間 and 0xB50000 not yet checked. Vertical phase banners 32x96 (0x600 each, copied to OBJ 0x06017000): 0xB4F808 配置之間 -> DEPLOY (seen in game, f1350 of board_turn + `work/qa/bd/rand.txt`), 0xB4FE08 剣戟之間 -> CLASH (rendered only); flying-card sprites follow at 0xB50408/0xB50428 |
+| S10 | 0xB52048 AP上昇 (four 64x64: arrow up / up lit / down / down lit); 0xB54068 攻撃/待機 (48x48 panel, map 0xB544E8) | **English**: AP UP seen in game (f1260); Attack / Wait panel rendered only (never loaded in the random battle) |
 | S11 | 0xBD515C-0xBD935C (strips of ~0x30 B steps) | place/scene names, wrong width (G5 candidates) |
 | S12 | 0xBDCDA4-0xBE6738 | brush-style captions, wrong width (chapter/scene titles?) |
 | S13 | 0xBEAC20, 0xBEBF00, 0xBECB2C, 0xBEDF7C, 0xBEEA4C, 0xC6D898 | menu windows with labels (終了, 戻る...) |
