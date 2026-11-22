@@ -1,0 +1,10 @@
+kind	x	y	w	h	sx	sy	jp	en
+patch	20	16	64	15	40	112	名前は？	Your name?
+label	104	2	50	13	7	11	苗字	Surname
+label	160	2	72	13	7	11	名前	Given name
+patch	44	51	44	16	44	112	進む	Next
+patch	101	51	44	16	101	112	戻る	Back
+patch	156	51	44	16	156	112	終了	Done
+patch	40	76	56	16	40	130	かな	Hiragana
+patch	95	76	60	16	95	130	カナ	Katakana
+patch	156	76	44	16	156	130	漢字	Kanji

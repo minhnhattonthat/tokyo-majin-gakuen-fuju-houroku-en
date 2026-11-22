@@ -331,17 +331,51 @@ def bg4_edit(rom, ptrs, bank, edits, white=(10, 12, 14, 15), pal_at=-8):
     edits (rows with kind bg = white label on a clear rect, board = reletter a light-ink board, gfx_signs), retile
     (identical tiles shared, no flips) and write it back in place, or into free space at ROOM_SPARE-managed
     BG4_SPARE with the pointers moved when it needs more tiles than the original block holds"""
-    import gfx_signs
     pal, t0, m0 = (struct.unpack_from('<I', rom, ptrs + k)[0] & 0x1FFFFFF for k in (pal_at, 0, 8))
     ntiles = (m0 - t0) // 32
-    ents = struct.unpack_from('<600H', rom, m0)
-    canvas = [[0] * 240 for _ in range(160)]
+    canvas = screen_canvas(rom[t0:m0], struct.unpack_from('<600H', rom, m0))
+    edit_canvas(canvas, edits, rom, pal, white)
+    tiles, mp = tile_bg(canvas, 30, 20, 1024, bank=bank << 12)
+    tiles = tiles.rstrip(b'\0')
+    tiles += bytes(-len(tiles) % 32)
+    if len(tiles) <= ntiles * 32:
+        tiles = tiles.ljust(ntiles * 32, b'\0')
+        rom[t0:t0 + len(tiles)] = tiles
+        rom[m0:m0 + len(mp)] = mp
+        return [(t0, t0 + len(tiles)), (m0, m0 + len(mp))]
+    a = spare(rom, len(tiles) + len(mp))
+    rom[a:a + len(tiles)] = tiles
+    rom[a + len(tiles):a + len(tiles) + len(mp)] = mp
+    struct.pack_into('<I', rom, ptrs, 0x08000000 + a)
+    struct.pack_into('<I', rom, ptrs + 8, 0x08000000 + a + len(tiles))
+    return [(a, a + len(tiles) + len(mp)), (ptrs, ptrs + 4), (ptrs + 8, ptrs + 12)]
+
+
+def spare(n):
+    """claim n bytes of 0xFF free space at BG4_SPARE (256-aligned blocks)"""
+    a = BG4_SPARE[0]
+    assert all(b == 0xFF for b in ROM_FREE[0][a:a + n]), f'{a:06X} is not free space'
+    BG4_SPARE[0] = (a + n + 0xFF) & ~0xFF
+    return a
+
+
+def screen_canvas(tiles, ents, w=30):
+    """4bpp tile bytes + map entries (flips honoured) -> 240-wide pixel canvas of palette indices"""
+    canvas = [[0] * (w * 8) for _ in range(len(ents) // w * 8)]
     for i, e in enumerate(ents):
         n = e & 0x3FF
-        t = decode(rom[t0 + 32 * n:t0 + 32 * n + 32], 1, 1)
+        t = decode(tiles[32 * n:32 * n + 32].ljust(32, b'\0'), 1, 1)
         for y in range(8):
             for x in range(8):
-                canvas[i // 30 * 8 + y][i % 30 * 8 + x] = t[7 - y if e & 0x800 else y][7 - x if e & 0x400 else x]
+                canvas[i // w * 8 + y][i % w * 8 + x] = t[7 - y if e & 0x800 else y][7 - x if e & 0x400 else x]
+    return canvas
+
+
+def edit_canvas(canvas, edits, rom, pal, white):
+    """apply gfx/<group>.tsv rows to a screen canvas. Kinds: bg = white label on a clear rect; board = reletter a
+    light-ink board (gfx_signs); patch = cover with a blank stretch of the same texture at (sx, sy), then centred
+    white text; label = text on the transparent backdrop (index 0), left-aligned, ink `white`, rim index sx"""
+    import gfx_signs
     palrgb = gfx_signs.pal_rgb(rom, pal)
     for r in edits:
         x, y, w, h = int(r['x']), int(r['y']), int(r['w']), int(r['h'])
@@ -360,22 +394,46 @@ def bg4_edit(rom, ptrs, bank, edits, white=(10, 12, 14, 15), pal_at=-8):
             px = letter_levels(r['en'], w, h, 12, list(white), 1, align='center')
             for yy in range(h):
                 canvas[y + yy][x:x + w] = [p or s for p, s in zip(px[yy], src[yy])]
-    tiles, mp = tile_bg(canvas, 30, 20, 1024, bank=bank << 12)
+        elif r['kind'] == 'label':   # transparent backdrop: clear the rect, then left-aligned text with a rim
+            px = letter_levels(r['en'], w, h, int(r['sy'] or 11), list(white), int(r['sx']))
+            for yy in range(h):
+                canvas[y + yy][x:x + w] = px[yy]
+
+
+def lz_screen_edit(rom, entry, bank, edits, white, max_tiles=0):
+    """4bpp 30x20 BG screen of the screen table 0xD7DCC0 whose tiles are LZ77 (BIOS LZ77UnComp into WRAM, then
+    copied to VRAM) and whose palette and raw map follow at entry + 4 / + 8 (name entry: entry 0xD7DF1C, tiles
+    0xBEAC20, palette 0xE51FDA, map 0xE577AA). Edit as bg4_edit, retile, recompress; the stream goes back in place
+    when it fits, else into BG4_SPARE with the tiles pointer moved. The map is rewritten in place (same size).
+    The loader 0x08003268 takes the size from the LZ77 header (allocates the WRAM buffer, copies that many bytes
+    to VRAM), so the set may grow up to max_tiles: keep it below the layer's screen base in VRAM."""
+    import lz77
+    t0, pal, m0 = (struct.unpack_from('<I', rom, entry + k)[0] & 0x1FFFFFF for k in (0, 4, 8))
+    old, end = lz77.decompress(rom, t0)
+    canvas = screen_canvas(old, struct.unpack_from('<600H', rom, m0))
+    edit_canvas(canvas, edits, rom, pal, white)
+    tiles, mp = tile_bg(canvas, 30, 20, max(max_tiles, len(old) // 32), bank=bank << 12)
     tiles = tiles.rstrip(b'\0')
-    tiles += bytes(-len(tiles) % 32)
-    if len(tiles) <= ntiles * 32:
-        tiles = tiles.ljust(ntiles * 32, b'\0')
-        rom[t0:t0 + len(tiles)] = tiles
-        rom[m0:m0 + len(mp)] = mp
-        return [(t0, t0 + len(tiles)), (m0, m0 + len(mp))]
+    tiles = tiles.ljust(max(len(old), (len(tiles) + 31) // 32 * 32), b'\0')
+    packed = lz77.compress(tiles)
+    assert lz77.decompress(packed, 0)[0] == tiles
+    rom[m0:m0 + len(mp)] = mp
+    out = [(m0, m0 + len(mp))]
+    if len(packed) <= end - t0:
+        rom[t0:t0 + len(packed)] = packed
+        return out + [(t0, t0 + len(packed))]
+    a = spare(rom, len(packed))
+    rom[a:a + len(packed)] = packed
+    struct.pack_into('<I', rom, entry, 0x08000000 + a)
+    return out + [(a, a + len(packed)), (entry, entry + 4)]
+
+
+def spare(rom, n):
+    """claim n bytes of 0xFF free space at BG4_SPARE (256-aligned blocks)"""
     a = BG4_SPARE[0]
-    assert all(b == 0xFF for b in rom[a:a + len(tiles) + len(mp)]), f'{a:06X} is not free space'
-    rom[a:a + len(tiles)] = tiles
-    rom[a + len(tiles):a + len(tiles) + len(mp)] = mp
-    struct.pack_into('<I', rom, ptrs, 0x08000000 + a)
-    struct.pack_into('<I', rom, ptrs + 8, 0x08000000 + a + len(tiles))
-    BG4_SPARE[0] = (a + len(tiles) + len(mp) + 0xFF) & ~0xFF
-    return [(a, a + len(tiles) + len(mp)), (ptrs, ptrs + 4), (ptrs + 8, ptrs + 12)]
+    assert all(b == 0xFF for b in rom[a:a + n]), f'{a:06X} is not free space'
+    BG4_SPARE[0] = (a + n + 0xFF) & ~0xFF
+    return a
 
 
 BG4_SPARE = [0xFD8000]   # reset by apply(): free space for 4bpp screens that outgrow their block
@@ -393,6 +451,13 @@ def deck_name_screen(rom):
     return bg4_edit(rom, 0xD81D68, 13, rows('deck_name'), white=(11, 13, 14, 15), pal_at=4)
 
 
+def name_entry_screen(rom):
+    """player name entry (G6, W15): LZ77 screen-table entry 0xD7DF1C, bank 10; the top captions are on the clear
+    backdrop with a brown rim (index 7) like the JP glyphs. BG2 tiles at VRAM 0x0600C000, screen base 0xE800:
+    room for 320 tiles (the JP set has 234; 0xDD40-0xE800 holds only stale data on this screen)"""
+    return lz_screen_edit(rom, 0xD7DF1C, 10, rows('name_entry'), white=(11, 13, 14, 15), max_tiles=320)
+
+
 def shop_list_screen(rom):
     return bg4_edit(rom, 0xD81DBC, 13, rows('shop_list'), white=(10, 13, 14, 15), pal_at=4)
 
@@ -406,7 +471,7 @@ def deck_edit(rom):
 GROUPS = {'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': dungeon_menu,
           'room_banners': room_banners, 'floor_numerals': floor_numerals, 'signs': signs,
           'settings_screen': settings_screen, 'haiku_screen': haiku_screen, 'deck_name_screen': deck_name_screen,
-          'shop_list_screen': shop_list_screen, 'deck_edit': deck_edit}
+          'name_entry_screen': name_entry_screen, 'shop_list_screen': shop_list_screen, 'deck_edit': deck_edit}
 
 
 def apply(rom):
