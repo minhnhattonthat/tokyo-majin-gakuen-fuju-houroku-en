@@ -1,63 +1,94 @@
-"""haiku_list.py: the haiku club passwords as a Markdown table for the release README (D14).
+"""haiku_list.py: write docs/haiku.md, the 32 haiku-club passwords for English players (decision D14).
 
-    python -X utf8 tools/haiku_list.py > docs/haiku.md
+    python -X utf8 tools/haiku_list.py [--check]
 
-Reads the `grid` rows D16A40-D16F54 of script/system/d1.tsv (the kana the game compares against), romanizes them
-(Hepburn, long vowels as typed) and takes the English meaning from the notes column.
+The haiku (script/system/d1.tsv D16A40-D16F54, kind grid) stay kana in the ROM: the club compares what the player
+types on its hiragana grid against them. The list gives the kana, Hepburn romaji (no macrons; each kana as typed, so
+long vowels stay spelt out: おう = ou, and を = wo) and the English meaning from the row's notes. --check exits 1 if the file is stale.
 """
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+OUT = ROOT / 'docs' / 'haiku.md'
 
-_BASE = dict(zip(
-    "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん"
-    "がぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉ",
-    "a i u e o ka ki ku ke ko sa shi su se so ta chi tsu te to na ni nu ne no ha hi fu he ho ma mi mu me mo "
-    "ya yu yo ra ri ru re ro wa o n ga gi gu ge go za ji zu ze zo da ji zu de do ba bi bu be bo pa pi pu pe po "
-    "a i u e o".split()))
-_SMALL_Y = {"ゃ": "ya", "ゅ": "yu", "ょ": "yo"}
+BASE = dict(zip(
+    'あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん'
+    'がぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉゔ',
+    'a i u e o ka ki ku ke ko sa shi su se so ta chi tsu te to na ni nu ne no ha hi fu he ho ma mi mu me mo '
+    'ya yu yo ra ri ru re ro wa wo n ga gi gu ge go za ji zu ze zo da ji zu de do ba bi bu be bo pa pi pu pe po '
+    'a i u e o vu'.split()))
+SMALL_Y = {'ゃ': 'a', 'ゅ': 'u', 'ょ': 'o'}
 
 
-def romaji(kana: str) -> str:
-    out: list[str] = []
-    sokuon = False
-    for ch in kana:
-        if ch == "　":
-            out.append(" / ")
-        elif ch == "っ":
-            sokuon = True
-            continue
-        elif ch == "ー":
-            out.append(out[-1][-1] if out else "")
-        elif ch in _SMALL_Y and out:
-            prev = out.pop()
-            if prev.endswith(("shi", "chi", "ji")):
-                out.append(prev[:-1] + _SMALL_Y[ch][1:])
-            else:
-                out.append(prev[:-1] + _SMALL_Y[ch])
+def romaji(kana):
+    out, i = [], 0
+    while i < len(kana):
+        c = kana[i]
+        nxt = kana[i + 1] if i + 1 < len(kana) else ''
+        if c in BASE and nxt in SMALL_Y:            # きゃ kya, しゃ sha, ちゃ cha, じゃ ja
+            r = BASE[c]
+            r = (r[:-1] if r.endswith(('shi', 'chi')) or r == 'ji' else r[:-1] + 'y') + SMALL_Y[nxt]
+            i += 2
+        elif c == 'っ':                              # doubled consonant; っち = tch
+            r = BASE.get(nxt, '') if nxt else ''
+            r = 't' if r.startswith('ch') else (r[:1] if r else '')
+            i += 1
+        elif c == 'ん':
+            r = "n'" if nxt and (BASE.get(nxt, '')[:1] in tuple('aeiouy')) else 'n'
+            i += 1
+        elif c in BASE:
+            r = BASE[c]
+            i += 1
+        elif c == 'ー':
+            r = '-'                                 # typed as the grid's ー key
+            i += 1
+        elif c in '　 ':
+            r = ' / '
+            i += 1
         else:
-            syl = _BASE.get(ch, ch)
-            if sokuon:
-                syl = ("t" if syl.startswith("ch") else syl[0]) + syl
-            out.append(syl)
-        sokuon = False
-    return "".join(out)
+            r = c
+            i += 1
+        out.append(r)
+    s = ''.join(out)
+    return ' / '.join(p.strip() for p in s.split('/'))
 
 
 def rows():
-    for line in (ROOT / "script/system/d1.tsv").read_text(encoding="utf8").splitlines():
-        f = line.split("\t")
-        if len(f) >= 6 and f[1] == "grid" and "D16A40" <= f[0] <= "D16F54":
-            meaning = f[5].split("meaning:", 1)[-1].strip().replace("　", " / ")
-            yield f[3], romaji(f[3]), meaning
+    for ln in (ROOT / 'script' / 'system' / 'd1.tsv').read_text(encoding='utf-8').splitlines():
+        c = ln.split('\t')
+        if len(c) >= 6 and c[1] == 'grid' and 'D16A40' <= c[0] <= 'D16F54' and 'haiku' in c[5]:
+            meaning = c[5].split('meaning:', 1)[1].strip() if 'meaning:' in c[5] else ''
+            yield c[0], c[3], romaji(c[3]), meaning.replace('　', ' / ')
+
+
+def render():
+    out = ['# Haiku club passwords', '',
+           'The haiku club asks you to type a haiku on its kana keyboard; a matching haiku wins a card. The game only',
+           'accepts the original Japanese, so here are all 32. Type each part on the hiragana grid (NEXT LINE between',
+           'the three parts, END to finish). The romaji spells each kana as typed (ou is お + う, wo is を, - is ー).',
+           'Voiced kana are two presses: the base kana, then ゛ or ゜ (が = か + ゛, ぱ = は + ゜). The meanings are',
+           'loose English renderings. Checked in game: haiku 5 wins a card on the English build, as in the original.',
+           '',
+           '| # | Kana | Romaji | Meaning |', '|---|---|---|---|']
+    for n, (_id, kana, rom, meaning) in enumerate(sorted(rows()), 1):
+        out.append('| %d | %s | %s | %s |' % (n, kana.replace('　', ' / '), rom, meaning))
+    out.append('')
+    out.append('Generated by `tools/haiku_list.py` from `script/system/d1.tsv`.')
+    return '\n'.join(out) + '\n'
 
 
 def main():
-    print("| # | Type this (kana) | Romaji | Meaning |")
-    print("|---|---|---|---|")
-    for i, (kana, rom, meaning) in enumerate(rows(), 1):
-        print(f"| {i} | {kana.replace('　', ' ')} | {rom} | {meaning} |")
+    text = render()
+    n = text.count('\n| ') - 1
+    if n != 32:
+        sys.exit('expected 32 haiku, found %d' % n)
+    if '--check' in sys.argv:
+        return 0 if OUT.exists() and OUT.read_text(encoding='utf-8') == text else 1
+    OUT.write_text(text, encoding='utf-8')
+    print('wrote %s (%d haiku)' % (OUT.relative_to(ROOT), n))
+    return 0
 
 
-if __name__ == "__main__":
-    main()
+if __name__ == '__main__':
+    sys.exit(main())
