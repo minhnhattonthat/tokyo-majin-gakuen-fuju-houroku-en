@@ -7,6 +7,9 @@ Groups (docs/re/graphics.md rows):
 - title_menu (G4): 0xD25E50, 6 labels of 64x16 px, each stored as two 32x16 sprite halves (4x2 tiles each, left
   half first), 16 tiles a label. Pixels are a 16-step grey ramp: 0 transparent, low = dark rim, F = white.
   Lettering: Liberation Sans Bold (fonts/liberation, OFL), antialiased onto the ramp with a dark rim (docs/fonts.md).
+- menu_labels (W1, W4, W5): 64x16 sprite labels, 8x2 tiles row-major, at gfx/menu_labels.tsv offsets; 6-colour
+  ramp (MENU_RAMP), same font at 13 px.
+- dungeon_menu (W3): the dungeon menu's BG2 screen (tiles 0xC24E08, map 0xC25DC8) rebuilt from gfx/dungeon_menu.tsv.
 """
 import csv
 import sys
@@ -48,8 +51,10 @@ def encode(px, cols):
     return bytes(out)
 
 
-def letter(text, w, h, size, dy=0):
-    """text centred in w x h -> ramp indices: alpha -> 3..F ink, 2 = rim around the ink, 0 = transparent"""
+def letter(text, w, h, size, dy=0, ramp=(3, 15, 2)):
+    """text centred in w x h -> ramp indices: alpha -> lo..hi ink, rim around the ink, 0 = transparent.
+    ramp = (lo, hi, rim): (3, 15, 2) for the title menu's 16-step ramp, (2, 5, 1) for the 6-colour menu labels."""
+    lo, hi, rim = ramp
     font = ImageFont.truetype(str(FONT), size)
     img = Image.new('L', (w, h), 0)
     d = ImageDraw.Draw(img)
@@ -67,12 +72,12 @@ def letter(text, w, h, size, dy=0):
         for xx in range(w):
             v = a[xx, yy]
             if v >= 40:
-                px[yy][xx] = 3 + round((v - 40) / 215 * 12)
+                px[yy][xx] = lo + round((v - 40) / 215 * (hi - lo))
     for yy in range(h):
         for xx in range(w):
-            if px[yy][xx] == 0 and any(0 <= yy + j < h and 0 <= xx + i < w and px[yy + j][xx + i] >= 3
+            if px[yy][xx] == 0 and any(0 <= yy + j < h and 0 <= xx + i < w and px[yy + j][xx + i] >= lo
                                        for j in (-1, 0, 1) for i in (-1, 0, 1)):
-                px[yy][xx] = 2
+                px[yy][xx] = rim
     return px
 
 
@@ -97,7 +102,60 @@ def title_menu(rom):
     return [(TITLE_MENU, TITLE_MENU + 0xC00)]
 
 
-GROUPS = {'title_menu': title_menu}
+MENU_RAMP = (2, 5, 1)   # 0 transparent, 1 dark rim, 2-5 grey to white (palette e.g. 0xC24DE8)
+
+
+def menu_labels(rom):
+    """64x16 sprite labels, 8x2 tiles row-major (0x200 bytes) at the tsv's offsets"""
+    out = []
+    for r in rows('menu_labels'):
+        a = int(r['offset'], 16)
+        data = encode(letter(r['en'], 64, 16, 13, ramp=MENU_RAMP), 8)
+        assert len(data) == 0x200
+        rom[a:a + 0x200] = data
+        out.append((a, a + 0x200))
+    return out
+
+
+# dungeon menu (BG2): table 0xD81C3C (tiles, palette, map): 126 tiles at 0xC24E08, 30x20 map at 0xC25DC8 whose
+# entries are 0xB000 | tile (the game adds VRAM tile base 0x90). Each label owns a 3-tile (24 px) band.
+DUNGEON_TILES, DUNGEON_MAP, DUNGEON_NTILES = 0xC24E08, 0xC25DC8, 126
+
+
+def bg_screen(labels, w=30, h=20, cx=64, span=112):
+    """[(top tile row, text)] -> 30x20 pixel canvas with each label centred on x = cx in a span-wide, 24 px band"""
+    px = [[0] * (w * 8) for _ in range(h * 8)]
+    for row, text in labels:
+        lab = letter(text, span, 24, 13, ramp=MENU_RAMP)
+        x0 = cx - span // 2
+        for y in range(24):
+            px[row * 8 + y][x0:x0 + span] = lab[y]
+    return px
+
+
+def tile_bg(px, w, h, ntiles, bank=0xB000):
+    """pixel canvas -> (tile bytes padded to ntiles, map bytes): tile 0 blank, identical tiles shared"""
+    tiles, index, mp = [bytes(32)], {bytes(32): 0}, bytearray()
+    for ty in range(h):
+        for tx in range(w):
+            t = encode([r[tx * 8:tx * 8 + 8] for r in px[ty * 8:ty * 8 + 8]], 1)
+            if t not in index:
+                index[t] = len(tiles)
+                tiles.append(t)
+            mp += (bank | index[t]).to_bytes(2, 'little')
+    assert len(tiles) <= ntiles, f'{len(tiles)} tiles > {ntiles}'
+    return b''.join(tiles).ljust(ntiles * 32, b'\0'), bytes(mp)
+
+
+def dungeon_menu(rom):
+    labels = [(int(r['row']), r['en']) for r in rows('dungeon_menu')]
+    tiles, mp = tile_bg(bg_screen(labels), 30, 20, DUNGEON_NTILES)
+    rom[DUNGEON_TILES:DUNGEON_TILES + len(tiles)] = tiles
+    rom[DUNGEON_MAP:DUNGEON_MAP + len(mp)] = mp
+    return [(DUNGEON_TILES, DUNGEON_TILES + len(tiles)), (DUNGEON_MAP, DUNGEON_MAP + len(mp))]
+
+
+GROUPS = {'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': dungeon_menu}
 
 
 def apply(rom):

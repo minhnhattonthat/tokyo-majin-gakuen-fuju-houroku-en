@@ -28,15 +28,24 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (G4) is English in game (`work/qa/gfx_title/menu_zoom.png`, selected item keeps its yellow palette). Full warp
   tour of the English build into `work/qa/tour_en/` (`--states` regenerated `work/states/`); visual-QA brief with
   this game's standing non-bugs in `docs/visual-qa-brief.md`.
-  Tour result: 193/194 ok; `story_27` FAIL "blank final" (check whether the JP ROM does the same, else extend its
-  hold). `work/qa/manifest.tsv` initialised: 217 sheets, 0 verdicts yet (tour ran partly before the title-menu
-  rebuild: text identical, re-run the `title*` rows).
-- **Next (phase 8):** the same tour on `rom/base.gba` into
-  `work/qa/tour_jp`, then visual-QA verdicts per chunk (`qa_gate.py todo ... --size 30`; read-only reviewer per
-  chunk, or `codex exec -s read-only` after 2026-11-26; in an Orca worker read the sheets in a fresh pass and keep
-  each chunk's verdicts in its own file); graphics-text redraws, next PUSH START (0xD25B30), then the other
-  `docs/re/graphics.md` rows (chapter cards, place-name strips, 邪気封印 card art, emblems, rarity legend, game
-  over, credits) as new `tools/gfx.py` groups; `inkbox.py` on choice/centred boxes; stress saves (needs save fields mapped);
+  Tour result: 193/194 ok; `story_27` "blank final" is the game's own fade (JP final frame is black too,
+  `work/qa/s27_cmp.png`): verdict ok. JP tour done: `work/qa/tour_jp` 194/194 (warp.py's default `--rom` is
+  `rom/base.gba`: pass `--rom build/tmgfh_en.gba` for the English build).
+  Session 2 (2026-11-22): PUSH START (0xD25B30) is already English in the original: no work. Menu labels English
+  in game (`work/qa/gfx_menus/sheet.png`): group `menu_labels` (15 sprite labels: hub, shop, trade room, link room)
+  and group `dungeon_menu` (BG2 screen, 126 tiles + 30x20 map rebuilt). New `tools/gfx_screens.py` renders the
+  screen table's (tiles, palette, map) triples; `tools/debug/vramsrc.lua` finds a VRAM range's ROM source.
+  Format notes in `docs/re/graphics.md` W1-W5 and §Screen table. check.py 37 passed, smoke ok.
+  Visual-QA verdicts not started on purpose: redraws change most sheets, so tour + verdicts go last. Review
+  sheets at full scale: `sheet.py DIR --div 1 --changed 0.02` (~86k image tokens for the whole tour; split it
+  across sessions by chunk). Tour sheets are half-scale and too small to judge text.
+- **Next (phase 8):** remaining graphics text, in order of screen time: vertical room banners (S15: 封陰窟 一階 with
+  floor numerals, 骨董品店 店内, 呪符交換之間, 通信対戦之間, 寄り道, 句会, 設定) and 使用符咒; settings labels (BG,
+  D1AA24-D1BB43, S21/S22: 文字表示 エフェクト セリフ ボイス 設定終了, 普通 有り); detour map names; 商品選択 (screen
+  0xC36408); deck-name entry screen 0xC6D898 (G6); battle UI (S6/S9/S10); chapter cards, place-name strips, 邪気封印
+  card art, emblems, rarity legend, game over, credits/end card. Then a full English tour, verdicts per chunk
+  (in an Orca worker: read the sheets yourself in a fresh pass, one verdict file per chunk; `codex exec -s
+  read-only` after 2026-11-26); `inkbox.py` on choice/centred boxes; stress saves (needs save fields mapped);
   English name entry (u16 kana grids 0xD16740 / D6E56C / D72F00). Checks carried from phase 6: card-panel range
   CF24B0-CF2A00, battle-opponent name width (160 px), haiku list layout, sound test layout. The fit
   lint's unit budgets depend on the encoder built from all text, so an edit can push an old row over: run

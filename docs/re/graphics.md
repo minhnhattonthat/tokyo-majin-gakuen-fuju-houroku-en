@@ -71,11 +71,23 @@ its usage limit); `tools/gfx_zoom.py` re-renders any asset at chosen widths. Wid
 Seen in warp shots; whether each label is tiles or font text is settled in phase 8 by a VRAM dump of the row.
 | # | warp row | Japanese on screen |
 |---|---|---|
-| W1 | `hub`, `hub_dungeon`, `hub_save` | 寄り道/封陰窟, 符咒編集, 記録, 設定, 先に進む (menu tiles, S13/S16 candidates); 記録しますか？ はい いいえ (font) |
+| W1 | `hub`, `hub_dungeon`, `hub_save` | 寄り道/封陰窟, 符咒編集, 記録, 設定, 先に進む: **English** (group menu_labels, sprites 0xB43A38-0xB44637); 記録しますか？ はい いいえ (font) |
 | W2 | `detour_map` | 寄り道 banner; map labels 光明院, 句会, 骨董品店, 封陰窟 (map art) |
-| W3 | `dungeon` | 封陰窟 一階 vertical banner (S15); 地下へ降りる, 最初から降りる, 戻る |
-| W4 | `shop`, `trade_room` | 骨董品店 / 符咒交換之間 banners (S15); 買う 売る 店を出る |
-| W5 | `link_battle`, `title_link_battle` | 通信対戦之間 banner; 戦闘開始, 符咒編集, 終了する; 使用符咒 |
+| W3 | `dungeon` | menu 符咒編集 記録 設定 地下へ降りる 最初から降りる 戻る: **English** (group dungeon_menu, BG2 screen 0xC24E08); 封陰窟 一階 vertical banner (S15) pending |
+| W4 | `shop`, `trade_room` | 売る 買う 店を出る, 通信交換 符咒編集 終了する: **English** (menu_labels); 骨董品店 店内 / 呪符交換之間 banners (S15) pending |
+| W5 | `link_battle`, `title_link_battle` | 戦闘開始, 符咒編集, 終了する: **English** (menu_labels); 通信対戦之間 banner, 使用符咒 label pending |
+
+Shots: `work/qa/gfx_menus/sheet.png`, `link_zoom.png`. Menu labels are 64x16 sprites, 8x2 tiles row-major (0x200 B),
+indices 0 transparent, 1 rim, 2-5 grey to white (OBJ bank 1); 符咒編集 has three copies (B43E38, BFC1B8, C0EF38).
+
+### Screen table 0xD7DCC0-0xD81ED8 (`tools/gfx_screens.py` renders each into `work/gfx/screens/`)
+u32 pointer runs; a BG screen is a (tiles, palette, map) triple: palette right before the tiles, a 30x20 u16 map
+right after them (tile count = (map - tiles) / 32; entries = bank << 12 | tile from the block's first tile; the
+game adds its own VRAM base). Dungeon menu: entry 0xD81C3C (0xC24E08 tiles, 0xC24DE8 palette, 0xC25DC8 map; VRAM
+base 0x90, bank 11, written by BIOS CpuSet at the scene load). Sources found with `tools/debug/vramsrc.lua`
+(non-zero writes into a VRAM range, with registers: r0 of a BIOS copy is the ROM source).
+Other triples that render as menus: 0xC36408 商品選択 (shop list), 0xC6D898 deck-name entry (符咒名は？ 進む 戻る 終了
+かな カナ 漢字, G6).
 | W6 | `title_save`, `title_link_*` | 続きから, 通信, 通信対戦, 通信交換 (G4) |
 | W7 | `settings`, `title_settings` | 設定 banner; 文字表示 エフェクト セリフ ボイス 設定終了; values 普通 有り (S21) |
 | W8 | `sound_test` | サウンドテスト, BGM, SE, セリフ, ボイス + song/line names (S22) |
