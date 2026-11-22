@@ -7,38 +7,38 @@ D168AC	str	35	風流人として{rt}これを進呈しよう。{wk}	As a person 
 D168D0	str	31	まあまあと{rt}いったところか。{wk}	Not bad,{rt}I'd say.{wk}	
 D168F0	str	35	土産をやるから{rt}出直すんだな。{wk}	Take this souvenir{rt}and try again.{wk}	
 D16914	str	43	その句はすでに詠んで{rt}もらったはずだが…{wk}	I believe I've already{rt}heard that haiku...{wk}	
-D16A40	str	43	どうらんの　じだいをかけた　りゅうのわざ	troubled times　raced through　by the dragon's art	
-D16A6C	str	43	わかものの　なやみそうだん　うけましょう	young worries?　I'll hear them out　come talk to me	
-D16A98	str	43	ひほうより　おもしろいこと　ないのかなあ	is anything　more fun than treasure?　I wonder	
-D16AC4	str	39	せいとかい　さかさによむと　いかといせ	"council" read　backwards is just　"licnuoc"	
-D16AEC	str	39	ああねむい　ねればねるとき　ねちまおう	so sleepy　when it's bedtime　I'll just sleep	
-D16B14	str	39	あのひとに　なにかざわめく　このきもち	for that one　something stirs in me　this feeling	
-D16B3C	str	39	かくされた　ひほうもとめて　あばれたび	hidden treasure　I seek it as I　rampage on	
-D16B64	str	39	つきのよは　あつくうずくの　このからだ	moonlit nights　it burns and aches　this body	
-D16B8C	str	39	どうしんの　こころいきだよ　ぼんさいは	a child's heart　is the spirit　of bonsai	
-D16BB4	str	43	このきもの　むねのあたりが　くるしいです	this kimono　so tight at the chest　it hurts	
-D16BE0	str	39	やわはだに　しのぶおんなの　こいごころ	tender skin　a woman's hidden　longing heart	
-D16C08	str	43	あかてんぐ　まけるなもんちゃん　ここにあり	Red Tengu!　don't lose, Mon-chan　I'm right here	
-D16C34	str	39	いつのひか　わかものたちが　よをすくう	some day　the young here　will save the world	
-D16C5C	str	47	おにいさん　あちきといっしょに　あそびましょ	hey, mister　come and play with me　let's have fun	
-D16C8C	str	39	こんなひは　とおいきおくが　よみがえる	on days like this　far-off memories　come back	
-D16CB4	str	39	うつしよの　ふはいをうれい　おにとなる	grieving　this rotten world　I became oni	
-D16CDC	str	43	じつはぼく　だんごがいちばん　すきなんだ	truth is, I　love dumplings　most of all	
-D16D08	str	43	ともという　なかまがいるから　おれがある	I have friends　comrades with me　so I am me	
-D16D34	str	39	ほうかごに　らーめんくいに　いきたいぜ	after school　I want to go　eat ramen	
-D16D5C	str	43	ごめんなさい　あなたのことは　すきだけど	I'm so sorry　I do like you　but still...	
-D16D88	str	39	いたずらな　だんしをまとに　ためしうち	naughty boys　make good targets　for test shots	
-D16DB0	str	43	おまえにも　きあいちゅうにゅう　してやろう	you too need　some fighting spirit　here you go!	
-D16DDC	str	39	きわめれど　はてはみえない　けんのみち	I train on　yet see no end　to the sword path	
-D16E04	str	39	なつのひに　ぷーるさいどに　さくあおい	summer day　by the poolside　a hollyhock	
-D16E2C	str	39	こみっくも　かっこいいだろ　おれのわざ	in comics too　my moves would look cool　right?	
-D16E54	str	43	いはんしゃだ　みんなあつまれ　ふけいさん	a lawbreaker!　gather round, all　Officer, here!	
-D16E80	str	39	じけんには　かげにかならず　わけがある	in every case　in the shadows　there's a reason	
-D16EA8	str	43	くろーるで　あのみさきまで　きょうそうよ	front crawl race　out to that cape　let's go!	
-D16ED4	str	47	さつえいかい　おれにもひしゃたい　えらばせろ	photo shoot　let me pick a model　too!	
-D16F04	str	39	ようかいに　しのぶだんしの　こいごころ	for a yokai　a boy's hidden　longing heart	
-D16F2C	str	39	おとこなら　こぶしであつく　かたりあえ	if you're a man　talk it out hotly　with your fists	
-D16F54	str	39	あやかしよ　れくいえむを　きくがいい	spirits　hear now　this requiem	
+D16A40	grid	43	どうらんの　じだいをかけた　りゅうのわざ		haiku password (kana typed in the haiku club, never shown); meaning: troubled times　raced through　by the dragon's art
+D16A6C	grid	43	わかものの　なやみそうだん　うけましょう		haiku password (kana typed in the haiku club, never shown); meaning: young worries?　I'll hear them out　come talk to me
+D16A98	grid	43	ひほうより　おもしろいこと　ないのかなあ		haiku password (kana typed in the haiku club, never shown); meaning: is anything　more fun than treasure?　I wonder
+D16AC4	grid	39	せいとかい　さかさによむと　いかといせ		haiku password (kana typed in the haiku club, never shown); meaning: "council" read　backwards is just　"licnuoc"
+D16AEC	grid	39	ああねむい　ねればねるとき　ねちまおう		haiku password (kana typed in the haiku club, never shown); meaning: so sleepy　when it's bedtime　I'll just sleep
+D16B14	grid	39	あのひとに　なにかざわめく　このきもち		haiku password (kana typed in the haiku club, never shown); meaning: for that one　something stirs in me　this feeling
+D16B3C	grid	39	かくされた　ひほうもとめて　あばれたび		haiku password (kana typed in the haiku club, never shown); meaning: hidden treasure　I seek it as I　rampage on
+D16B64	grid	39	つきのよは　あつくうずくの　このからだ		haiku password (kana typed in the haiku club, never shown); meaning: moonlit nights　it burns and aches　this body
+D16B8C	grid	39	どうしんの　こころいきだよ　ぼんさいは		haiku password (kana typed in the haiku club, never shown); meaning: a child's heart　is the spirit　of bonsai
+D16BB4	grid	43	このきもの　むねのあたりが　くるしいです		haiku password (kana typed in the haiku club, never shown); meaning: this kimono　so tight at the chest　it hurts
+D16BE0	grid	39	やわはだに　しのぶおんなの　こいごころ		haiku password (kana typed in the haiku club, never shown); meaning: tender skin　a woman's hidden　longing heart
+D16C08	grid	43	あかてんぐ　まけるなもんちゃん　ここにあり		haiku password (kana typed in the haiku club, never shown); meaning: Red Tengu!　don't lose, Mon-chan　I'm right here
+D16C34	grid	39	いつのひか　わかものたちが　よをすくう		haiku password (kana typed in the haiku club, never shown); meaning: some day　the young here　will save the world
+D16C5C	grid	47	おにいさん　あちきといっしょに　あそびましょ		haiku password (kana typed in the haiku club, never shown); meaning: hey, mister　come and play with me　let's have fun
+D16C8C	grid	39	こんなひは　とおいきおくが　よみがえる		haiku password (kana typed in the haiku club, never shown); meaning: on days like this　far-off memories　come back
+D16CB4	grid	39	うつしよの　ふはいをうれい　おにとなる		haiku password (kana typed in the haiku club, never shown); meaning: grieving　this rotten world　I became oni
+D16CDC	grid	43	じつはぼく　だんごがいちばん　すきなんだ		haiku password (kana typed in the haiku club, never shown); meaning: truth is, I　love dumplings　most of all
+D16D08	grid	43	ともという　なかまがいるから　おれがある		haiku password (kana typed in the haiku club, never shown); meaning: I have friends　comrades with me　so I am me
+D16D34	grid	39	ほうかごに　らーめんくいに　いきたいぜ		haiku password (kana typed in the haiku club, never shown); meaning: after school　I want to go　eat ramen
+D16D5C	grid	43	ごめんなさい　あなたのことは　すきだけど		haiku password (kana typed in the haiku club, never shown); meaning: I'm so sorry　I do like you　but still...
+D16D88	grid	39	いたずらな　だんしをまとに　ためしうち		haiku password (kana typed in the haiku club, never shown); meaning: naughty boys　make good targets　for test shots
+D16DB0	grid	43	おまえにも　きあいちゅうにゅう　してやろう		haiku password (kana typed in the haiku club, never shown); meaning: you too need　some fighting spirit　here you go!
+D16DDC	grid	39	きわめれど　はてはみえない　けんのみち		haiku password (kana typed in the haiku club, never shown); meaning: I train on　yet see no end　to the sword path
+D16E04	grid	39	なつのひに　ぷーるさいどに　さくあおい		haiku password (kana typed in the haiku club, never shown); meaning: summer day　by the poolside　a hollyhock
+D16E2C	grid	39	こみっくも　かっこいいだろ　おれのわざ		haiku password (kana typed in the haiku club, never shown); meaning: in comics too　my moves would look cool　right?
+D16E54	grid	43	いはんしゃだ　みんなあつまれ　ふけいさん		haiku password (kana typed in the haiku club, never shown); meaning: a lawbreaker!　gather round, all　Officer, here!
+D16E80	grid	39	じけんには　かげにかならず　わけがある		haiku password (kana typed in the haiku club, never shown); meaning: in every case　in the shadows　there's a reason
+D16EA8	grid	43	くろーるで　あのみさきまで　きょうそうよ		haiku password (kana typed in the haiku club, never shown); meaning: front crawl race　out to that cape　let's go!
+D16ED4	grid	47	さつえいかい　おれにもひしゃたい　えらばせろ		haiku password (kana typed in the haiku club, never shown); meaning: photo shoot　let me pick a model　too!
+D16F04	grid	39	ようかいに　しのぶだんしの　こいごころ		haiku password (kana typed in the haiku club, never shown); meaning: for a yokai　a boy's hidden　longing heart
+D16F2C	grid	39	おとこなら　こぶしであつく　かたりあえ		haiku password (kana typed in the haiku club, never shown); meaning: if you're a man　talk it out hotly　with your fists
+D16F54	grid	39	あやかしよ　れくいえむを　きくがいい		haiku password (kana typed in the haiku club, never shown); meaning: spirits　hear now　this requiem
 D1BD60	str	103	　ＢＧＭ　　　／１５{rt}{rt}　ＳＥ　　　　／２８{rt}{rt}　セリフ　　　　／２８２{rt}{rt}　ボイス　　　／３９{rt}{wc}	[81][40][82][61][82][66][82][6C][81][40][81][40][81][40][81][5E][82][50][82][54]{rt}{rt}[81][40][82][72][82][64][81][40][81][40][81][40][81][40][81][5E][82][51][82][57]{rt}{rt}[81][40][82][63][82][6B][82][66][81][40][81][40][81][40][81][40][81][5E][82][51][82][57][82][51]{rt}{rt}[81][40][82][75][82][6E][82][77][81][40][81][40][81][40][81][5E][82][52][82][58]{rt}{wc}	raw full-width bytes keep the cell layout (labels in cells 1-4, counters drawn from x=80)
 D1BDC8	grid	23	０１２３４５６７８９{wc}		
 D1BDE0	str	19	サウンド　テスト{wc}	Sound Test{wc}	

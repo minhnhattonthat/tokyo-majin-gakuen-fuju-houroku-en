@@ -395,10 +395,30 @@ def edit_canvas(canvas, edits, rom, pal, white):
                   else [[0] * w for _ in range(h)])   # empty en: texture only (a label the English drops)
             for yy in range(h):
                 canvas[y + yy][x:x + w] = [p or s for p, s in zip(px[yy], src[yy])]
-        elif r['kind'] == 'label':   # transparent backdrop: clear the rect, then left-aligned text with a rim
-            px = letter_levels(r['en'], w, h, int(r['sy'] or 11), list(white), int(r['sx']))
+        elif r['kind'] in ('label', 'clabel'):   # transparent backdrop: clear the rect, then text with a rim
+            px = letter_levels(r['en'], w, h, int(r['sy'] or 11), list(white), int(r['sx']),
+                               align='center' if r['kind'] == 'clabel' else 'left')
             for yy in range(h):
                 canvas[y + yy][x:x + w] = px[yy]
+        elif r['kind'] == 'clear':   # clear the rect to the transparent backdrop
+            for yy in range(h):
+                canvas[y + yy][x:x + w] = [0] * w
+        elif r['kind'] == 'pix':     # 3x5 pixel capitals (gfx_minilabels.FONT), lines split on '/', centred in
+            import gfx_minilabels   # the rect, ink white[-1] with a 1 px drop shadow of index sx down-right
+            lines = r['en'].split('/')
+            ty = y + (h - (6 * len(lines) - 1)) // 2
+            for k, ln in enumerate(lines):
+                tx = x + (w - gfx_minilabels.width(ln)) // 2
+                for c in ln:
+                    g = gfx_minilabels.FONT[c]
+                    for gy, grow in enumerate(g):
+                        for gx, ch in enumerate(grow):
+                            if ch == '#':
+                                py, pxx = ty + 6 * k + gy, tx + gx
+                                canvas[py][pxx] = white[-1]
+                                if not canvas[py + 1][pxx + 1]:
+                                    canvas[py + 1][pxx + 1] = int(r['sx'])
+                    tx += len(g[0]) + 1
         elif r['kind'] == 'shadow':  # transparent backdrop: centred text (size sy), drop shadow index sx down-right
             canvas_shadow(canvas, x, y, w, h, r['en'], int(r['sy']), list(white), int(r['sx']))
 
@@ -429,6 +449,47 @@ def canvas_shadow(canvas, x, y, w, h, text, size, levels, shade, depth=3):
                 out[yy][xx] = shade + 1
     for yy in range(h):
         canvas[y + yy][x:x + w] = out[yy]
+
+
+def bg4_inplace(rom, ptrs, edits, white, max_tiles, spare=None, pal_at=-8):
+    """like bg4_edit, but keep every tile index: each 8x8 cell the edits changed is re-encoded into the tile its map
+    entry already names (for sets the game also indexes directly, e.g. the haiku grid, whose tiles double as the
+    entered-kana sprites). A changed cell whose tile other cells share gets a new tile appended after the set (max_tiles caps the
+    set: VRAM room below the next block); the grown set moves to `spare` with the tiles pointer and the byte count
+    at ptrs + 4 (the loader's copy size) updated, and the map is rewritten in place"""
+    pal, t0, m0 = (struct.unpack_from('<I', rom, ptrs + k)[0] & 0x1FFFFFF for k in (pal_at, 0, 8))
+    size = struct.unpack_from('<I', rom, ptrs + 4)[0]
+    ents = list(struct.unpack_from('<600H', rom, m0))
+    canvas = screen_canvas(rom[t0:t0 + size], ents)
+    old = [row[:] for row in canvas]
+    edit_canvas(canvas, edits, rom, pal, white)
+    cell = lambda c, i: [c[i // 30 * 8 + y][i % 30 * 8:i % 30 * 8 + 8] for y in range(8)]  # noqa: E731
+    changed = [i for i in range(600) if cell(canvas, i) != cell(old, i)]
+    users = {}
+    for i, e in enumerate(ents):
+        users.setdefault(e & 0x3FF, []).append(i)
+    tiles = bytearray(rom[t0:t0 + size])
+    enc = lambda px: bytes((px[y][x] & 15) | (px[y][x + 1] & 15) << 4  # noqa: E731
+                           for y in range(8) for x in range(0, 8, 2))
+    for i in changed:
+        n = ents[i] & 0x3FF
+        if all(j in changed and cell(canvas, j) == cell(canvas, i) for j in users[n]):
+            assert not ents[i] & 0xC00, f'cell {i} uses a flipped tile'
+            tiles[32 * n:32 * n + 32] = enc(cell(canvas, i))
+        else:                                    # shared with cells that keep their look: a tile of its own
+            assert len(tiles) // 32 < max_tiles, 'no VRAM room for another tile'
+            ents[i] = (ents[i] & 0xF000) | len(tiles) // 32
+            tiles += enc(cell(canvas, i))
+    struct.pack_into('<600H', rom, m0, *ents)
+    out = [(m0, m0 + 1200)]
+    if len(tiles) == size:
+        rom[t0:t0 + size] = tiles
+        return out + [(t0, t0 + size)]
+    a = spare
+    assert all(b == 0xFF for b in rom[a:a + len(tiles)]), f'{a:06X} is not free space'
+    rom[a:a + len(tiles)] = tiles
+    struct.pack_into('<II', rom, ptrs, 0x08000000 + a, len(tiles))
+    return out + [(a, a + len(tiles)), (ptrs, ptrs + 8)]
 
 
 def lz_screen_edit(rom, entry, bank, edits, white, max_tiles=0):
@@ -475,6 +536,25 @@ HAIKU_PTRS = 0xD16F9C   # haiku club BG2 (W9): palette 0xD0E300, tiles 0xD0E320,
 
 def haiku_screen(rom):
     return bg4_edit(rom, HAIKU_PTRS, 9, rows('haiku'))
+
+
+def haiku_input(rom):
+    """haiku club input screen (table 0xD16F7C, 0x18-byte entries: palette, size, bank, tiles, size, map, size):
+    BG1 header 一句どうぞ (0xD16FAC, bank 10, white ramp 12-15 with a dark rim 1) and the BG0 kana grid's buttons
+    改行 / 戻る / 終る (0xD16FDC, bank 11, grey ramp 1-7; three 16x16 cursor cells at screen x 120/136/152). The
+    kana grid stays: the haiku passwords are kana (tools/extract.py GRIDS). Both are edited in place, tile indices
+    kept: the grid's tiles double as the entered-kana sprites (a retiled set garbles them), and the loader copies
+    the fixed byte count in the table entry"""
+    out = []
+    # VRAM room: BG1 tiles 0x06004000 up to BG2's 0x06008000; BG0 tiles 0x06000000 up to its map at 0x06003800
+    for ptrs, white, cap, spare in ((0xD16FB4, (12, 13, 14, 15), 512, HAIKU_SPARE),
+                                    (0xD16FE4, (4, 5, 6, 7), 448, HAIKU_SPARE + 0x2000)):
+        edits = [r for r in rows('haiku_input') if int(r['ptrs'], 16) == ptrs]
+        out += bg4_inplace(rom, ptrs, edits, white, cap, spare)
+    return out
+
+
+HAIKU_SPARE = 0xF80000   # free 0xFF run 0xF20000-0xFBFFFF (BG4_SPARE is full)
 
 
 # screen-table entries (tiles, palette, map; bank 13): deck-name entry (G6) and the shop's item list (商品選択)
@@ -604,7 +684,8 @@ def sutra_board(rom):
 
 GROUPS = {'attack_types': attack_types, 'icons': icons, 'mini_labels': mini_labels, 'frames': frames, 'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': dungeon_menu,
           'room_banners': room_banners, 'floor_numerals': floor_numerals, 'signs': signs,
-          'settings_screen': settings_screen, 'haiku_screen': haiku_screen, 'deck_name_screen': deck_name_screen,
+          'settings_screen': settings_screen, 'haiku_screen': haiku_screen, 'haiku_input': haiku_input,
+          'deck_name_screen': deck_name_screen,
           'name_entry_screen': name_entry_screen, 'shop_list_screen': shop_list_screen, 'deck_edit': deck_edit, 'plaques': plaques,
           'banners': banners, 'battle_ui': battle_ui, 'captions': captions,
           'end_card': end_card, 'chapter_cards': chapter_cards,

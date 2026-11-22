@@ -1,0 +1,6 @@
+ptrs	kind	x	y	w	h	sx	sy	jp	en
+D16FB4	clabel	70	4	104	24	1	13	一句どうぞ	A haiku, please
+D16FE4	clear	104	94	64	18			改行 戻る 終る
+D16FE4	pix	112	96	16	16	8		改行	NEXT/LINE
+D16FE4	pix	128	96	16	16	8		戻る	DEL
+D16FE4	pix	144	96	16	16	8		終る	END
