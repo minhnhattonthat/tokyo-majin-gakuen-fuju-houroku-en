@@ -33,11 +33,11 @@ D645F4	str	7	阿門	Amon
 D645FC	str	7	皆守	Minakami	
 D64604	str	7	白岐	Shiraki	
 D6460C	str	11	九龍主人公	Kowloon Hero	
-D64618	str	11	婦人警官		
+D64618	str	11	婦人警官	Policewoman	
 D64624	str	7	鬼兵隊	Kiheitai	
 D6462C	str	7	静姫	Shizuhime	
 D64634	str	11	九角　鬼修	Kishu Kokonosumi	
-D64640	str	7	警官		
+D64640	str	7	警官	Police Officer	
 D64648	str	7	御厨	Mikuriya	
 D64650	str	11	乃木坂　恵	Megumi Nogizaka	
 D6465C	str	7	鴉室	Karasumuro	
@@ -48,7 +48,7 @@ D64678	str	15	変生ルーニィ	Morphed Rooney
 D64688	str	11	ルーニィ	Rooney	
 D64694	str	11	御厨（父）	Mikuriya Sr.	
 D646A0	str	7	大家	Landlord	
-D646A8	str	7	黄龍		
+D646A8	str	7	黄龍	Gold	
 D646B0	str	7	豪商	Rich Merchant	
 D646B8	str	7	役人	Official	
 D646C0	str	23	白虎（変生醍醐雄慶）	Byakko (Daigo)	
@@ -65,7 +65,7 @@ D6475C	str	7	ガルム	Garm
 D64764	str	7	スルト	Surt	
 D6476C	str	7	ロキ	Loki	
 D64774	str	7	新撰組	Shinsengumi	
-D6477C	str	7	大百足		
+D6477C	str	7	大百足	Giant Centipede	
 D64784	str	19	サマエル・ケムエル	Samael & Kemuel	
 D64798	str	3	猫	Cat	
 D6479C	str	7	邪龍	Evil Dragon	
@@ -82,7 +82,7 @@ D64808	str	7	金剛	Kongo
 D64810	str	7	崑崙	Konron	
 D64818	str	15	お政・又一郎	Omasa & Mataichiro	
 D64828	str	7	お葉	Oyo	
-D64830	str	7	蝿の王		
+D64830	str	7	蝿の王	Lord of Flies	
 D64838	str	7	黒蝿翁	Old Black Fly	
 D64840	str	7	お凛	Orin	
 D64848	str	15	榊　茂保衛門	Mohoemon Sakaki	
@@ -161,10 +161,10 @@ D64B34	str	7	閻婆	Enba
 D64B3C	str	15	懸衣嫗・懸衣翁	Datsueba & Ken'eo	
 D64B4C	str	11	喰らい女	Devouring Woman	
 D64B58	str	11	コスモロボ	Cosmo Robo	
-D64B64	str	7	朱雀		
-D64B6C	str	7	青龍		
-D64B74	str	7	玄武		
-D64B7C	str	7	白虎		
+D64B64	str	7	朱雀	Suzaku	
+D64B6C	str	7	青龍	Seiryu	
+D64B74	str	7	玄武	Genbu	
+D64B7C	str	7	白虎	Byakko	
 D64B84	str	11	メフィスト	Mephisto	
 D64B90	str	15	萱野　あずさ	Azusa Kayano	
 D64BA0	str	11	瀬能　迅	Jin Seno	
@@ -190,15 +190,15 @@ D64C80	str	11	莎草　覚	Satoru Hamasuge
 D64C8C	str	11	鳴瀧　冬吾	Togo Narutaki	
 D64C98	str	15	青葉　さとみ	Satomi Aoba	
 D64CA8	str	11	比嘉　焚実	Takumi Higa	
-D64CB4	str	7	暗殺者		
+D64CB4	str	7	暗殺者	Assassin	
 D64CBC	str	11	田中　一郎	Ichiro Tanaka	
 D64CC8	str	7	邪霊	Evil Spirit	
-D64CD0	str	7	剣鬼		
+D64CD0	str	7	剣鬼	Sword Demon	
 D64CD8	str	11	チンピラ	Thug	
 D64CE4	str	11	チーマー	Street Punk	
 D64CF0	str	7	人形	Doll	
 D64CF8	str	3	鬼	Oni	
-D64CFC	str	7	下忍		
+D64CFC	str	7	下忍	Genin	
 D64D04	str	7	魚人	Fishman	
 D64D0C	str	7	亡者	Lost Soul	
 D64D14	str	7	死神	Reaper	
