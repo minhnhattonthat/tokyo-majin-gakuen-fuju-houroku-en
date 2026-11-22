@@ -51,7 +51,7 @@ B12.0048	line		【矢村】{rt}どうすべきなのですか！？	【Yamura】
 B12.0049	choice		符を渡す{rt}符を渡さない{wc}	Hand it over{rt}Keep it{wc}	
 B12.0050	line		【矢村】{rt}{name1}殿―――。	【Yamura】{rt}{name1}-dono--	
 B12.0051	line		【アカガネ】{rt}{name1}とか言ったか？	【Akagane】{rt}{name1}, was it?	
-B12.0052	line		【アカガネ】{rt}お前の判断は正しい。	【Akagane】{rt}Your judgement is right.	
+B12.0052	line		【アカガネ】{rt}お前の判断は正しい。	【Akagane】{rt}Your judgment is right.	
 B12.0053	line		【アカガネ】{rt}さあ、早くそれを―――。	【Akagane】{rt}Now, quickly, give it--	
 B12.0054	line		【犬】{rt}ＧＡＵッ！！	【Dog】{rt}GRAWR!!	
 B12.0055	line		【矢村】{rt}うッ―――！？	【Yamura】{rt}Ugh--!?	

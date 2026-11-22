@@ -718,14 +718,14 @@ B18.0715	choice		知っている{rt}知らない{wc}	I know{rt}I don't{wc}
 B18.0716	line		【伊涼】{rt}{name2}ちゃんは、{rt}《蝦夷》の事、知ってる？	【Isuzu】{rt}{name2}-chan, do you know about{rt}the Emishi?	
 B18.0717	choice		知っている{rt}知らない{wc}	I know{rt}I don't{wc}	
 B18.0718	line		【伊涼】{rt}《蝦夷》は、	【Isuzu】{rt}The Emishi	
-B18.0719	line		【伊涼】{rt}今の東北地方を中心に、国を{rt}作っていた人々の事なの。	【Isuzu】{rt}were people who built a nation centred{rt}on what's now Tohoku.	
+B18.0719	line		【伊涼】{rt}今の東北地方を中心に、国を{rt}作っていた人々の事なの。	【Isuzu】{rt}were people who built a nation centerd{rt}on what's now Tohoku.	
 B18.0720	line		【伊涼】{rt}今、私たちが住んでいる{rt}関東から―――	【Isuzu】{rt}From Kanto, where we live now--	
 B18.0721	line		【伊涼】{rt}奥羽、北海道も、	【Isuzu】{rt}to Ou and Hokkaido,	
 B18.0722	line		【伊涼】{rt}もとは彼らの領域だったと{rt}この本は書いている…。	【Isuzu】{rt}it was all their land originally, this book{rt}says...	
 B18.0723	line		【伊涼】{rt}北海道が《エゾ》って呼ばれる{rt}のも、その名残なんだって。	【Isuzu】{rt}They say that's why Hokkaido was{rt}called Ezo.	
 B18.0724	line		【伊涼】{rt}そうだね。	【Isuzu】{rt}Yeah.	
 B18.0725	line		【伊涼】{rt}日本史にもこの名前は{rt}何度も出てくるからね。	【Isuzu】{rt}The name comes up again and again in{rt}Japanese history, after all.	
-B18.0726	line		【伊涼】{rt}《蝦夷》の場合は{rt}東北を中心にしてだけど、	【Isuzu】{rt}The Emishi were centred on Tohoku,{rt}but	
+B18.0726	line		【伊涼】{rt}《蝦夷》の場合は{rt}東北を中心にしてだけど、	【Isuzu】{rt}The Emishi were centerd on Tohoku,{rt}but	
 B18.0727	line		【伊涼】{rt}朝廷の手の届かない地方に	【Isuzu】{rt}in regions out of the Court's reach,	
 B18.0728	line		【伊涼】{rt}彼らは独自の社会を持ち、	【Isuzu】{rt}they had their own society,	
 B18.0729	line		【伊涼】{rt}王を信じて、	【Isuzu】{rt}believed in their kings,	
@@ -773,15 +773,15 @@ B18.0770	line		【伊涼】{rt}でも、戦争は終わったとしても	【Isu
 B18.0771	line		【伊涼】{rt}《陽（ひかり）》と{rt}《陰（かげ）》の	【Isuzu】{rt}the conflict between Light	
 B18.0772	line		【伊涼】{rt}対立が解決したわけじゃない。	【Isuzu】{rt}and Shade wasn't resolved.	
 B18.0773	line		【伊涼】{rt}高丸のいったとおり、	【Isuzu】{rt}Like Takamaru said,	
-B18.0774	line		【伊涼】{rt}闘いの火は、まだくすぶって{rt}いるのかもしれない…。	【Isuzu】{rt}the fires of that war might still be{rt}smouldering...	
+B18.0774	line		【伊涼】{rt}闘いの火は、まだくすぶって{rt}いるのかもしれない…。	【Isuzu】{rt}the fires of that war might still be{rt}smoldering...	
 B18.0775	line		【伊涼】{rt}…少なくとも、	【Isuzu】{rt}...At least,	
 B18.0776	line		【伊涼】{rt}私にはそう思えるの。	【Isuzu】{rt}that's how it seems to me.	
 B18.0777	line		【伊涼】{rt}《陽（ひかり）》と{rt}《陰（かげ）》の対立は	【Isuzu】{rt}The conflict between Light and{rt}Shade	
 B18.0778	line		【伊涼】{rt}現実にあった。	【Isuzu】{rt}really happened.	
-B18.0779	line		【伊涼】{rt}そしてそれがまだくすぶって{rt}いるのかもしれない、と…。	【Isuzu】{rt}And it might still be smouldering...	
-B18.0780	line		【伊涼】{rt}{name1}くんて、現実的な{rt}ものの見方をするんだね。	【Isuzu】{rt}You see things realistically,{rt}{name1}-kun.	
+B18.0779	line		【伊涼】{rt}そしてそれがまだくすぶって{rt}いるのかもしれない、と…。	【Isuzu】{rt}And it might still be smoldering...	
+B18.0780	line		【伊涼】{rt}{name1}くんて、現実的な{rt}ものの見方をするんだね。	【Isuzu】{rt}You see things realiztically,{rt}{name1}-kun.	
 B18.0781	line		【伊涼】{rt}でも、確かに{name1}くんの{rt}意見も一理あるよ。	【Isuzu】{rt}But you're right, {name1}-kun, you{rt}have a point.	
-B18.0782	line		【伊涼】{rt}{name2}ちゃんて、現実的な{rt}ものの見方をするんだね。	【Isuzu】{rt}You see things realistically,{rt}{name2}-chan.	
+B18.0782	line		【伊涼】{rt}{name2}ちゃんて、現実的な{rt}ものの見方をするんだね。	【Isuzu】{rt}You see things realiztically,{rt}{name2}-chan.	
 B18.0783	line		【伊涼】{rt}でも、確かに{name2}ちゃんの{rt}意見も一理あるよ。	【Isuzu】{rt}But you're right, {name2}-chan,{rt}you have a point.	
 B18.0784	line		【伊涼】{rt}もちろん、これだけじゃあ、	【Isuzu】{rt}Of course, with only this,	
 B18.0785	line		【伊涼】{rt}高丸の正体を《悪路王》だと{rt}決め付ける事はできない…。	【Isuzu】{rt}we can't decide that Takamaru is really{rt}Akuro-o...	

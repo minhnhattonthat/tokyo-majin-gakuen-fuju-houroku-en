@@ -1595,7 +1595,7 @@ D78C54	str	55	ブースターパック{rt}朧綺譚を価値３０{rt}で購入�
 D78C8C	str	55	ブースターパック{rt}剣風帖を価値３０{rt}で購入します。{wc}	Buy the Kenpucho{rt}booster pack for{rt}30 value.{wc}	
 D78E04	str	64	封陰窟データが{rt}初期化されます{rt}よろしいですか{rt}　はい　いいえ{wc}	Fuin Cave data{rt}will be reset.{rt}Are you sure?{rt}[81][40]Yes[81][40]No{wc}	
 D78E7C	str	31	交換できる符が{rt}ありません{wc}	There are no cards{rt}you can trade{wc}	
-D78E9C	str	31	相手の中止を{rt}受け付けました	The other player{rt}cancelled	
+D78E9C	str	31	相手の中止を{rt}受け付けました	The other player{rt}canceled	
 D78EBC	str	19	交換を開始します	Starting the trade	
 D78ED0	str	23	相手の状態が{rt}違います	The other player is{rt}in a different state	
 D78EE8	str	31	相手の準備が{rt}出来ていません	The other player{rt}isn't ready	
