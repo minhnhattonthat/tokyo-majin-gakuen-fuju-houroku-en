@@ -682,6 +682,12 @@ def sutra_board(rom):
     return gfx_board.apply(rom)
 
 
+def tutorial(rom):
+    """battle-tutorial card panel picture + callout overlays (S29 / S26 0xD35868, tools/gfx_tutorial.py)"""
+    import gfx_tutorial
+    return gfx_tutorial.tutorial(rom)
+
+
 GROUPS = {'attack_types': attack_types, 'icons': icons, 'mini_labels': mini_labels, 'frames': frames, 'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': dungeon_menu,
           'room_banners': room_banners, 'floor_numerals': floor_numerals, 'signs': signs,
           'settings_screen': settings_screen, 'haiku_screen': haiku_screen, 'haiku_input': haiku_input,
@@ -690,7 +696,7 @@ GROUPS = {'attack_types': attack_types, 'icons': icons, 'mini_labels': mini_labe
           'banners': banners, 'battle_ui': battle_ui, 'captions': captions,
           'end_card': end_card, 'chapter_cards': chapter_cards,
           'profile_screens': profile_screens, 'card_classes': card_classes, 'link_error': link_error,
-          'shop_plaques': shop_plaques, 'sutra_board': sutra_board}
+          'shop_plaques': shop_plaques, 'sutra_board': sutra_board, 'tutorial': tutorial}
 
 
 def apply(rom):

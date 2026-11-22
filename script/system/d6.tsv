@@ -20,7 +20,7 @@ D640F0	str	131	{I020}拳　{I021}武　{I022}飛{rt}{I023}術　{I024}氣{rt}の
 D64174	str	79	攻撃種、陰陽属性は{rt}「必殺」や「再生」{rt}などの能力に深く{rt}関わってきます。{wc}	Attack types and{rt}Yin/Yang matter{rt}to abilities such{rt}as Bane and Renew.{wc}	
 D641C4	str	79	{I000}人物符が始めから{rt}使うことができる{rt}基本能力で、２つまで{rt}持っています。{wc}	Basic abilities a{rt}{I000}Character can use{rt}from the start; it{rt}has up to two.{wc}	
 D64214	str	75	摩尼ＬＶによって{rt}得られる能力です。{rt}摩尼能力は３つまで{rt}持っています。{wc}	Abilities gained by{rt}Mani LV. A card has{rt}up to three Mani{rt}abilities.{wc}	
-D64260	str	75	{I000}人物符が必ず持つ{rt}特殊能力です。{rt}背景と人物の能力で{rt}決定されます。{wc}	A special ability{rt}all {I000}Characters{rt}have, set by their{rt}background and person.{wc}	
+D64260	str	75	{I000}人物符が必ず持つ{rt}特殊能力です。{rt}背景と人物の能力で{rt}決定されます。{wc}	A special ability{rt}all {I000}Characters{rt}have, set by their{rt}origin and person.{wc}	背景 = the panel plate under BATTLE (Leaf, Eden, Kami): "origin", matching the tutorial callout "Origin" (gfx/tutorial/D63420.png)
 D642AC	str	107	◆摩尼について{rt}　最後に摩尼について{rt}　説明します。{pp}{rt}{rt}{rt}{rt}{rt}場の中央に表示されて{rt}いるのが摩尼です。{wc}	[81][9F]About Mani{rt}  Finally, about{rt}  the Mani.{pp}{rt}{rt}{rt}{rt}{rt}The Mani is shown{rt}in the field's center.{wc}	
 D64318	str	123	{I005}{I006}{I007}{I008}{I009}の５属性は{rt}{I004}土地符を使用すること{rt}によって{pp}{rt}{rt}{rt}{rt}{rt}それぞれの摩尼ＬＶが{rt}変化していきます。{wc}	Playing {I004}Land{rt}talismans changes{rt}the Mani LV{pp}{rt}{rt}{rt}{rt}{rt}of each of the five{rt}elements {I005}{I006}{I007}{I008}{I009}.{wc}	
 D64394	str	107	{I000}人物符は同じ属性{rt}の摩尼ＬＶに応じて{rt}地形効果を得ます。{pp}{rt}{rt}{rt}{rt}摩尼ＬＶｘ１０の{rt}ダメージを軽減。{wk}	A {I000}Character gets{rt}terrain effects by its{rt}element's Mani LV.{pp}{rt}{rt}{rt}{rt}Damage taken is cut{rt}by Mani LV x 10.{wk}	
