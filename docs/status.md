@@ -369,9 +369,30 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   System unshown now 136, 32 of them haiku rows D168-D16F (list `work/qa/p8s29/unshown.py`): CF64E8-CF7340 land/spell names + short labels, D652xx
   (value points gained, link error), D678D4/D6790C (Truce destroyed), D16 haiku rows, and link-cable / link-trade
   texts (D6E3xx, D72490, D726E8, D72B20-D72BF8, D78E04-D79138: waive, need a partner).
-- **Next (phase 8):** (session 31 leads) D652C0/D652E4 "Gained 15/30 value points" + D652AC "obtained!" (post-battle
-  reward? find the caller with `disasm.py xref`), D678D4/D6790C/D67964 (Truce spell destroyed: battle), CF6xxx land /
-  spell names (card panel of those cards: View All tabs Land / Spell list them?), CF7240-CF7340 short labels.
+  Session 32 (2026-11-23, no rebuild): **system unshown 136 -> 89, all shown fit** (shots under `work/qa/cover/p8s32_*`).
+  Post-battle reward machine 0x08011BB8 (state u16 +0x38 of [0x030035B8], table 0x08011BDC, 18 states; strings via
+  0x08E5FBA0 = E5F71C idx 289..): state 2 "Gained 30/15 value points!" when 0x08000418(0xA0000000) != 0 (value =
+  15 + 15 * (1 - byte [0x0300756C]+0x7F3)); state 4/5/6 Fuin Cave card reward on floors 5, 10, .. ([card] " was" /
+  "obtained!"). Forced on a real victory (board_turn.mss + rand.txt + enemy life poke f1200, `--mash 20` through
+  the pack screen): `setregs.lua` `[0x08011D8E]={0,1}` (+ `[0x08011DA8]={0,1}` for 15) and `[0x08011EAC]={0,1},
+  [0x08011EBE]={0,4}` (obtained, f5220). Truce destroyed D6790C / D678D4: task 0x080235F4 (created by 0x080235B4),
+  forced with `[0x0802368A]={0,1},[0x0802369A]={0,1},[0x08023710]={5,0},[0x08023712]={3,0|1}` (f1260). " was
+  canceled." (D67978 + D67964, task 0x08031610, creators 0x0803676A / 0x0803B590 / 0x0803EA54 not reached in random
+  play) shown in the same box by swapping the obtained flow's pointers (`[0x08011FAA]={0,0x08E63B50},
+  [0x08011FB2]={0,0x08D67964}`; same printer 0x08018B4C and x/y). Slay / Remove D65910 / D658F8: `popcycle.lua`
+  (list `work/qa/p8s32/slay_list.txt`, HOLD 20 for Remove). **Card names:** the View All browse routes stepped too
+  fast and skipped cards: slow routes `tools/routes/allcards_{land,spell,barrier,possession,chars}_slow.txt` (right every
+  60 f) showed the 16 missing land / spell / barrier / possession names + 2 land effect lines. **Character symbol
+  tags** (CF7240-CF7350, table 0x08D7D72C, index = byte `b` of the owned-card record; allcards.sav gives every card
+  b=16 "Kami"): `work/saves/symbols_en.sav` (character id b with b = 0..35) showed all 36 (widest "Cloud" fits).
+  **Found:** "character records" 282+ of 0xD7ADE8 are the ability-label table 0xD7CCC0 (101 labels), not cards: a
+  save owning ids 282-296 shows junk in JP too (`work/qa/p8s32/enemy_cmp.png`; run deleted). Ability labels 97-100
+  (W{I007} W{I008} W{I009} Awkn) not seen; which card has them is unknown (ability ids are not plain record bytes).
+- **Next (phase 8):** (session 32 leads) system unshown left besides haiku (32) and link texts: CF64E8-CF6500
+  (abilities 97-100: find the per-card ability source, e.g. log the panel's label reads with textcover while
+  browsing, or a possession that grants 【耐X】), D65318 / D65308 (table 0x08E5FBB8, code 0x0800F60C / 0x0800FAA0 /
+  0x0800FDB0 / 0x08010130: probably link battle), D6526C / D65278 / D6E408 / D6E42C (link), D78850 Theft (sutra
+  board label path). Then the waiver file `docs/text_unshown.tsv` for link-only rows.
   Earlier: (A) text coverage: the branch pass was resumed again in session 22 (`--jobs 4`, log
   `work/qa/cover_branches.log`; resumed again in sessions 23 and 24: branch0-2 done, branch3+ (A scenes only) running
   when session 24 ended). A rebuild moves 12 207 string addresses (scenes re-pack), so after the rebuild the whole
