@@ -2,6 +2,7 @@
 
     python -X utf8 tools/debug/save.py info SAV
     python -X utf8 tools/debug/save.py set SAV OUT [--chapter N] [--surname 緋勇] [--name 龍麻]
+        [--surname-units "Şhi Şhi Şhi Şhi"] [--name-units "Ţşu Ţşu Ţşu Ţşu"]   # English build: name-grid units
     python -X utf8 tools/debug/save.py make [--rom rom/base.gba]       # game-written base save -> work/saves/hub_ch05.sav
     python -X utf8 tools/debug/save.py test SAV [--rom ...]            # boot SAV, 続きから, assert the loaded chapter
 
@@ -68,7 +69,25 @@ def put_name(d, off, s):
     d[off:off + NAME_LEN] = b.ljust(NAME_LEN, b'\x00')
 
 
-CARDS = 0x6DC          # owned-card list: 4-byte records (u16 id, u8 a, u8 b), FF FF FF FF = unused (save_layout.md)
+def unit_bytes(cells):
+    """English build: name cells as the name-entry grid writes them, one VWF unit (2 bytes) per cell, through the
+    encoder build.py makes from the current script/ (so only valid for a build made from the same script)."""
+    import extract
+    import vwf
+    rom = open(os.path.join(ROOT, 'rom', 'base.gba'), 'rb').read()
+    script = extract.load()
+    enc = vwf.Encoder(vwf.load_font(rom), [r['en'] for r in script.values() if r['en'] and r['kind'] != 'pref'])
+    return b''.join(enc.encode(c) for c in cells.split())
+
+
+def put_units(d, off, cells):
+    b = unit_bytes(cells)
+    if len(b) > NAME_LEN:
+        sys.exit('name %r is %d units; the field holds %d' % (cells, len(b) // 2, NAME_LEN // 2))
+    d[off:off + NAME_LEN] = b.ljust(NAME_LEN, b'\x00')
+
+
+CARDS = 0x6DC        # owned-card list: 4-byte records (u16 id, u8 a, u8 b), FF FF FF FF = unused (save_layout.md)
 CARDS_MAX = 0x4E80 // 4
 
 
@@ -99,6 +118,10 @@ def edit(d, a):
         put_name(d, SLOT + SURNAME, a.surname)
     if a.name is not None:
         put_name(d, SLOT + NAME, a.name)
+    if getattr(a, 'surname_units', None):
+        put_units(d, SLOT + SURNAME, a.surname_units)
+    if getattr(a, 'name_units', None):
+        put_units(d, SLOT + NAME, a.name_units)
     for spec in getattr(a, 'add_cards', None) or []:
         add_cards(d, spec)
     struct.pack_into('<I', d, SLOT + CKS, checksum(d))
@@ -151,6 +174,9 @@ def main():
     p = sub.add_parser('info'); p.add_argument('sav')
     p = sub.add_parser('set'); p.add_argument('sav'); p.add_argument('out')
     p.add_argument('--chapter', type=int); p.add_argument('--surname'); p.add_argument('--name')
+    for f in ('--surname-units', '--name-units'):
+        p.add_argument(f, metavar='"Şhi Şhi Şhi Şhi"', help='English build: up to 4 name-grid cells (space-separated '
+                       'unit texts, tools/name_grid.py), encoded as the current script\'s build does')
     p.add_argument('--money', type=int, help='value (shop currency) 0..9999')
     p.add_argument('--add-cards', action='append', metavar='A:FIRST-LAST[:B]',
                    help='append owned-card records (id, A, B); A 16..19 = non-character kinds, B 0')

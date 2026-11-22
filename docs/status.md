@@ -413,6 +413,14 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   COMMIT`** carries an old build's coverage to a rebuild for rows whose jp/en are unchanged (dry run on build 19:
   15 650 of 15 666 carry over; the 16 changed rows are session 22-31 edits, each listed with the old runs that showed
   them). New probe `tools/debug/valwrite.lua`. State `work/states/name_entry_ne.mss` (side build, name entry).
+  Session 35 (2026-11-23, no rebuild; branch pass still running): `save.py set --surname-units / --name-units "Şhi
+  Şhi Şhi Şhi"` writes name-grid units (encoder from the current script, so only for a build made from it;
+  `work/saves/longname_en.sav`, loads ok on the side build). Old `hub_ch05_en.sav` names are stale codes (made by an
+  older build): remake with `--*-units`. **Longest names in dialogue: ok** (side build, B18 with the names poked into
+  RAM 0x03003830 / 0x03005A70 via poke.lua, `work/qa/p8s35/ln18/sheet*.png`: "ShiShiShiShi" lines and wraps fit).
+  **VS (対) sprite seen in game** for the first time (hub -> Move On, `tools/routes/hub_move_on.txt`,
+  `work/qa/p8s35/vs_cmp.png`), but that path from hub_ch05.sav hangs into garbage in the JP original too, so its
+  left portrait garbage there is not ours. VS plate / profile with long names still to check in a real battle.
 - **Next (phase 8):** (1) wait for the branch pass (PID 37736, branch8 when session 34 ended; it runs on
   `build/tmgfh_en.gba`, so do not rebuild before it ends), then `cover.py gaps --jobs 2` + `report --by-scene` to
   find unreachable scene lines (scene unshown 1461 before branch7/8). (2) Rebuild (everything since session 19 incl.

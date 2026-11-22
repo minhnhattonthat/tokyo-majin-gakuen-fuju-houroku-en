@@ -1,0 +1,17 @@
+# title with a save (--sav) -> 続きから -> hub -> 先へ進む (Move On, 5th item): the next story scene
+1400 -
+4 start
+200 -
+6 a
+400 -
+6 down
+20 -
+6 down
+20 -
+6 down
+20 -
+6 down
+20 -
+6 a
+300 -
+6000 -
