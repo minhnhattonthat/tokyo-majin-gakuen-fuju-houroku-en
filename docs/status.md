@@ -173,7 +173,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `work/qa/p8s17/tabs_fix.png`). Help rows D72434-D724BC got a fourth blank unit (the count digit covered "cards").
   Story gate 0 open (`zz_recheck17_20261122.tsv`, also covers sessions 13-14's label edits). Sort popup not re-seen
   after the allocator change (routes tried did not open it; it is fixed at 640-703, above the block).
-- **Next (phase 8):** (1) see an element text icon ({I006}-{I015}) in game (card text popup of a Ward/Slay/Bane card)
+- **Next (phase 8):** (0) graphics rows in `docs/re/graphics.md` with no group yet: S14 emblem kanji (0xBEF3A8,
+  0xBF07C8), S23 Tokyo map place names (0xD1EC50, BG tileset: find the map screen), S25 brush titles (0xD280D0,
+  0xD2F0D8, 0xD30448), S26 0xD2A248 (8bpp, 1998 6.18 + kanji); S8 0xB1AC8C; S16 strips 0xC03F88-0xC05A28,
+  0xC1ADF8-0xC1B6F8, 0xC37968/0xC37D88 (C37968 = sprite icons, C37D88 = frame pieces: likely no text, confirm);
+  trade / discard plaques (S17) in game (trade room -> Trade, needs cards). (1) see an element text icon ({I006}-{I015}) in game (card text popup of a Ward/Slay/Bane card)
   and a large frame (39-43). (2) a land / spell mini label in game (thumbnail of a non-character card on the
   panel). (3) S29 tutorial
   overlays + tutorial panel 0xD35868/0xD333B8 (match the English panel). Remaining graphics
