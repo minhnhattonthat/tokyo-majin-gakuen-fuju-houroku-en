@@ -496,7 +496,7 @@ CF5CE4	str	11	妖刀使い	Cursed Blade
 CF5CF0	str	7	抜け忍	Rogue Ninja	
 CF5CF8	str	11	面打ち師	Mask Carver	
 CF5D04	str	15	背徳の殉教者	Fallen Martyr	
-CF5D14	str	11	小さき拳士	Little Fighter	
+CF5D14	str	11	小さき拳士	Little Fist	
 CF5D20	str	7	破戒僧	Corrupt Monk	
 CF5D28	str	11	狐火の遊女	Foxfire Belle	
 CF5D34	str	15	鬼を率いる者	Oni Leader	
@@ -505,7 +505,7 @@ CF5D4C	str	15	眠れし戦乙女	Dozing Valkyrie
 CF5D5C	str	15	悩める女剣士	Troubled Blade	
 CF5D6C	str	7	槍御前	Spear Lady	
 CF5D74	str	11	からくり師	Clockmaker	
-CF5D80	str	11	洗礼の処女	Baptized Virgin	
+CF5D80	str	11	洗礼の処女	Baptized Maiden	
 CF5D8C	str	7	風流人	Aesthete	
 CF5D94	str	7	猫娘	Cat Girl	
 CF5D9C	str	11	桃色の影	Pink Shadow	
@@ -552,7 +552,7 @@ CF5F70	str	11	黒衣の狩人	Black Hunter
 CF5F7C	str	7	妖猫	Spirit Cat	
 CF5F84	str	15	若き妖怪絵師	Yokai Painter	
 CF5F94	str	11	拳をもつ者	The Fist	
-CF5FA0	str	15	狡猾な渡り手	Sly Drifter	
+CF5FA0	str	15	狡猾な渡り手	Cunning Drifter	
 CF5FB0	str	15	龍を産みし者	Dragon Bearer	
 CF5FC0	str	11	陽の武道家	Yang Fighter	
 CF5FCC	str	15	神槍の使い手	Divine Spear	
@@ -560,22 +560,22 @@ CF5FDC	str	15	忠実なる番犬	Loyal Watchdog
 CF5FEC	str	7	銀狼	Silver Wolf	
 CF5FF4	str	15	昔日の癒し手	Healer of Old	
 CF6004	str	15	狂気の密教僧	Mad Mystic	
-CF6014	str	11	刻を渡る者	Time Crosser	
-CF6020	str	11	信じる者	The Believer	
+CF6014	str	11	刻を渡る者	Walker of Time	
+CF6020	str	11	信じる者	Believer	
 CF602C	str	11	狐面の巫女	Fox-Mask Miko	
-CF6038	str	7	審判者	The Judge	
+CF6038	str	7	審判者	Judge	
 CF6040	str	15	外法の探求者	Heresy Seeker	
-CF6050	str	11	朱の淫婦	Scarlet Harlot	
+CF6050	str	11	朱の淫婦	Vermilion Harlot	
 CF605C	str	7	女剣士	Swordswoman	
-CF6064	str	15	静謐なる拳士	Serene Fighter	
-CF6074	str	15	勇猛たる拳士	Valiant Fighter	
+CF6064	str	15	静謐なる拳士	Serene Fist	
+CF6074	str	15	勇猛たる拳士	Valiant Fist	
 CF6084	str	11	流浪の剣士	Wandering Blade	
 CF6090	str	11	闇を狩る者	Dark Hunter	
-CF609C	str	11	厳格な才女	Stern Prodigy	
+CF609C	str	11	厳格な才女	Strict Prodigy	
 CF60A8	str	7	傀儡師	Puppeteer	
 CF60B0	str	11	陰の武道家	Yin Fighter	
 CF60BC	str	11	薫風の乙女	Breeze Maiden	
-CF60C8	str	15	巡り逢えし友	Friend Reunited	
+CF60C8	str	15	巡り逢えし友	Destined Friend	
 CF60D8	str	11	闇に潜む者	Lurker in Dark	
 CF60E4	str	15	彷徨えし悪霊	Lost Wraith	
 CF60F4	str	7	魍魎	Moryo	
@@ -592,47 +592,47 @@ CF6160	str	11	人喰い鴉	Man-Eater Crow
 CF616C	str	7	狂犬	Mad Dog	
 CF6174	str	7	大蝙蝠	Giant Bat	
 CF617C	str	11	群をなす者	Swarming One	
-CF6188	str	11	混沌の王	Chaos King	
+CF6188	str	11	混沌の王	King of Chaos	
 CF6194	str	11	不死の剣士	Deathless Blade	
 CF61A0	str	11	封印する者	The Sealer	
 CF61AC	str	11	朱の陰陽師	Scarlet Onmyoji	
-CF61B8	str	11	怨恨の法師	Grudge Monk	
-CF61C4	str	11	下劣な巨漢	Base Brute	
+CF61B8	str	11	怨恨の法師	Vengeful Priest	
+CF61C4	str	11	下劣な巨漢	Vile Brute	
 CF61D0	str	7	邪剣士	Evil Swordsman	
 CF61D8	str	7	憑依師	Possessor	
 CF61E0	str	11	嫉妬の大蛇	Jealous Serpent	
-CF61EC	str	11	蛇の宿主	Snake Host	
+CF61EC	str	11	蛇の宿主	Serpent's Host	
 CF61F8	str	11	最後の侠客	Last Gallant	
 CF6204	str	11	復讐の朱鬼	Red Avenger	
 CF6210	str	11	外法の剣士	Heresy Blade	
-CF621C	str	7	先読み	Foreseer	
-CF6224	str	7	念動者	Telekinetic	
+CF621C	str	7	先読み	Seer	
+CF6224	str	7	念動者	Psychokinetic	
 CF622C	str	11	透視する者	Clairvoyant	
 CF6238	str	15	残虐なる妖鬼	Cruel Fiend	
 CF6248	str	7	狂信者	Zealot	
 CF6250	str	11	破壊の魔牛	Ruin Bull	
-CF625C	str	11	土の従者	Earth Servant	
+CF625C	str	11	土の従者	Earth Retainer	
 CF6268	str	11	疾風の巨鳥	Gale Roc	
-CF6274	str	11	風の従者	Wind Servant	
+CF6274	str	11	風の従者	Wind Retainer	
 CF6280	str	11	雷撃の獣	Thunder Beast	
-CF628C	str	11	雷の従者	Storm Servant	
+CF628C	str	11	雷の従者	Bolt Retainer	
 CF6298	str	11	激流の蜘蛛	Torrent Spider	
-CF62A4	str	11	水の従者	Water Servant	
+CF62A4	str	11	水の従者	Water Retainer	
 CF62B0	str	11	灼熱の邪竜	Blazing Wyrm	
-CF62BC	str	11	炎の従者	Fire Servant	
+CF62BC	str	11	炎の従者	Flame Retainer	
 CF62C8	str	11	盲目の邪神	Blind Evil God	
 CF62D4	str	11	邪神の使徒	Dark Apostle	
 CF62E0	str	11	退廃の詩人	Decadent Poet	
 CF62EC	str	11	死人使い	Necromancer	
 CF62F8	str	11	腐肉の巨人	Carrion Giant	
-CF6304	str	11	邪手使い	Evil Hand	
-CF6310	str	11	夢の支配者	Dream Lord	
+CF6304	str	11	邪手使い	Wicked Hand	
+CF6310	str	11	夢の支配者	Lord of Dreams	
 CF631C	str	7	鴉の王	Crow King	
 CF6324	str	11	怨恨の邪鬼	Grudge Fiend	
 CF6330	str	15	歪んだ格闘家	Twisted Fighter	
 CF6340	str	11	勇敢なる魂	Brave Soul	
-CF634C	str	15	魂を導く少女	Soul Guide	
-CF635C	str	15	運命を描く者	Fate Painter	
+CF634C	str	15	魂を導く少女	Soul-Guiding Girl	
+CF635C	str	15	運命を描く者	Painter of Fate	
 CF636C	str	7	風水師	Geomancer	
 CF6374	str	7	筮法師	Diviner	
 CF637C	str	11	霊的治療師	Spirit Healer	
@@ -648,13 +648,13 @@ CF63E4	str	7	暗殺者	Assassin
 CF63EC	str	7	符術士	Talisman Mage	
 CF63F4	str	7	唄姫	Songstress	
 CF63FC	str	7	騎士	Knight	
-CF6404	str	11	愛の戦士	Love Warrior	
+CF6404	str	11	愛の戦士	Warrior of Love	
 CF6410	str	11	桃園の乙女	Peach Maiden	
 CF641C	str	11	友情の戦士	Bond Warrior	
 CF6428	str	11	黒き疾風	Black Gale	
 CF6434	str	11	勇気の戦士	Brave Warrior	
 CF6440	str	11	紅の熱血漢	Red Hothead	
-CF644C	str	7	火走り	Fire Runner	
+CF644C	str	7	火走り	Firerunner	
 CF6454	str	15	慎ましき巫女	Modest Miko	
 CF6464	str	11	猛き巫女	Fierce Miko	
 CF6470	str	11	霊銃使い	Spirit Gunner	
@@ -663,9 +663,9 @@ CF6484	str	7	二重身	Doppelganger
 CF648C	str	7	魔女	Witch	
 CF6494	str	11	薔薇の妖女	Rose Siren	
 CF64A0	str	15	癒しの霊媒師	Healing Medium	
-CF64B0	str	7	槍使い	Spearman	
+CF64B0	str	7	槍使い	Spear Wielder	
 CF64B8	str	7	弓使い	Archer	
-CF64C0	str	7	格闘家	Brawler	
+CF64C0	str	7	格闘家	Fighter	
 CF64C8	str	7	聖女	Saint	
 CF64D0	str	11	神速の剣士	Swift Blade	
 CF64DC	str	11	龍の伝承者	Dragon Heir	

@@ -330,7 +330,11 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   大百足 Giant Centipede, 夜の召使い Night Servant, 野良猫 Stray Cat, 魍魎 Moryo, 威嚇する者 Intimidator, 異形のもの
   Misshapen One, 深きもの Deep One, 甦りし者 Risen One, 人喰い鴉 Man-Eater Crow, 狂犬 Mad Dog, 大蝙蝠 Giant Bat,
   群れをなす者 Swarming One, 盲目の邪神 Blind Evil God. Card names (cf CF5930-CF6540) are short epithets:
-  伝説の X Legend X, 〜の従者 X Servant, 朱雀/青龍/玄武/白虎 Suzaku/Seiryu/Genbu/Byakko.
+  伝説の X Legend X, 〜の従者 X Retainer, 朱雀/青龍/玄武/白虎 Suzaku/Seiryu/Genbu/Byakko. A card whose JP is also a
+  story speaker tag uses the tag's EN when it fits 94 px; otherwise a short card form (the tag stays long in the
+  story): 妖刀使い Cursed Blade, 狐火の遊女 Foxfire Belle, からくり師 Clockmaker, 陰/陽の武道家 Yin/Yang Fighter,
+  流浪の剣士 Wandering Blade, 薫風の乙女 Breeze Maiden, 桃園の乙女 Peach Maiden, 常世の唄姫 Tokoyo Diva, 紅の熱血漢
+  Red Hothead, 巫女 cards X Miko, 符術士 Talisman Mage, 神速の剣士 Swift Blade (tools/fit.py card_name).
   Yes/no option line: `[81][40]Yes[81][40]No` (raw glyph pairs pass the batch check as text).
 - A12.4.0038/0043 and A12.9.0057 start `【【` (a JP typo); merge tags them normally.
 - The only row whose JP holds two boxes (`...{rt}{rt}【X】{rt}...`) is B11.0121:
