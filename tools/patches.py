@@ -59,6 +59,11 @@ PATCHES = [
     (TABS_FN, TABS_ORIG, TABS_NEW, 'deck-editor tabs: own right halves (see TABS_FN)'),
     (0x0449F0, bytes.fromhex('05a90b88'), bytes.fromhex('079bdb19'), 'tabs 0-6: right tile = [sp+0x1c] + r7'),
     (0x044A16, bytes.fromhex('0b990b88'), bytes.fromhex('089bc046'), 'sort keys 7-12: right tile = [sp+0x20]'),
+    # link-error screen (mode 21, setup 0x0805AA20) copies its screens with fixed sizes (0x08000884 r0 src, r1 dst,
+    # r2 bytes): the English needs more tiles (tools/gfx_linkerr.py, room_banners C11C58). VRAM: BG3 chars 0x0000,
+    # BG0 chars 0x4000, screens 0xF000 / 0xF800, so both still fit.
+    (0x05AAA0, bytes.fromhex('8022'), bytes.fromhex('a422'), 'link-error wallpaper copy 0x2000 -> 0x2900 (328 tiles)'),
+    (0x05AAC4, bytes.fromhex('8a22'), bytes.fromhex('9022'), 'link-error overlay copy 0x4500 -> 0x4800 (288 tiles)'),
 ]
 NAME_PTRS = (0xE6163C, 0xE61640, 0xE61644)   # surname, given name, deck name (u32 ROM pointers)
 NAME_CODES = 3

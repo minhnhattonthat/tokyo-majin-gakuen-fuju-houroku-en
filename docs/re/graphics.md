@@ -75,7 +75,7 @@ Seen in warp shots; whether each label is tiles or font text is settled in phase
 | W2 | `detour_map` | 寄り道 banner; signs 光明院, 句会, 骨董品店, 封陰窟: **English** (group signs: OBJ sprites 0xD09A98 + 0xD0A8B8 (two palettes, same tiles), banner 0xD0B6D8) |
 | W3 | `dungeon` | menu: **English** (group dungeon_menu, BG2 screen 0xC24E08); 封陰窟 階 plaque: **English** (room_banners, 8bpp BG3 screen 0xC1B8F8); floor numeral sprites 0xC273A8 drawn by 0x080597D0 (floor = [0x03003810] + 1): **Arabic digits** via hook (floor_numerals) |
 | W4 | `shop`, `trade_room` | menus **English** (menu_labels); 骨董品店 店内 (8bpp 0xC27A28) / 呪符交換之間 (0xBF2628) plaques **English** (room_banners); item list 商品選択 (0xC36408) **English** (shop_list_screen) |
-| W5 | `link_battle`, `title_link_battle` | menus **English**; 通信対戦之間 + 使用符咒 (8bpp 0xC05B28) **English** (room_banners); link-error screen 0xC11C58 (通信エラーです…) **English**, block moved to free space |
+| W5 | `link_battle`, `title_link_battle` | menus **English**; 通信対戦之間 + 使用符咒 (8bpp 0xC05B28) **English** (room_banners); link-error screen 0xC11C58 (通信エラーです…) **English**, block moved to free space; its wallpaper 0xC0F358 (通信エラー x16, 4bpp 32x32 map) **English** LINK ERROR (group link_error, `tools/gfx_linkerr.py`). The mode-21 setup copies both with fixed sizes, raised in `tools/patches.py` (0x0805AAA0, 0x0805AAC4). Seen in game: `warp.py MODE21` (`work/qa/p8s17/mode21_cmp3.png`) |
 
 Shots: `work/qa/gfx_menus/sheet.png`, `link_zoom.png`. Menu labels are 64x16 sprites, 8x2 tiles row-major (0x200 B),
 indices 0 transparent, 1 rim, 2-5 grey to white (OBJ bank 1); 符咒編集 has three copies (B43E38, BFC1B8, C0EF38).

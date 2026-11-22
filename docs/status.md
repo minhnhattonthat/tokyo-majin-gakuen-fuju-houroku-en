@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 16),
-  sha1 c9e04c1af2a0..; check.py 37 passed.
+- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 17),
+  sha1 52127869a2f2..; check.py 37 passed.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -158,6 +158,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `tools/gfx_attack.py`, `gfx/attack_types.tsv`, `work/qa/s28/a.png`): rendered only, the screen that loads it is
   not found (not in 8000 frames of battle_tutorial.mss). Checked, no work: sound test title is font text and
   English (S22 unused there); S19 leftover 0xC6A2D8 is frame line art. check.py 37 passed, build sha1 c9e04c1af2a0..
+  Session 17 (2026-11-22): **link-error screen fully English, seen in game** (`warp.py MODE21`,
+  `work/qa/p8s17/mode21_cmp3.png`): the overlay's "Link error." was cut to "Link err" (mode-21 setup copies a fixed
+  0x4500 B = 276 tiles; the English overlay has 287) and the wallpaper 0xC0F358 still said 通信エラー x16. Fixes:
+  `tools/patches.py` raises the copies (wallpaper 0x2000 -> 0x2900, overlay 0x4500 -> 0x4800), group link_error
+  (`tools/gfx_linkerr.py`, `gfx/link_error.tsv`) reletters the 256x256 wallpaper LINK ERROR. Unhandled screen-table
+  entries reviewed in one sheet (`work/qa/p8s17/unhandled_screens.png`): no other text left except the sutra board
+  C165E8/C26298 (W13, art).
 - **Next (phase 8):** (1) see an element text icon ({I006}-{I015}) in game (card text popup of a Ward/Slay/Bane card)
   and a large frame (39-43). (2) a land / spell mini label in game (thumbnail of a non-character card on the
   panel). (3) S29 tutorial
