@@ -66,6 +66,24 @@ def put_name(d, off, s):
     d[off:off + NAME_LEN] = b.ljust(NAME_LEN, b'\x00')
 
 
+CARDS = 0x6DC          # owned-card list: 4-byte records (u16 id, u8 a, u8 b), FF FF FF FF = unused (save_layout.md)
+CARDS_MAX = 0x4E80 // 4
+
+
+def add_cards(d, spec):
+    """spec 'A:FIRST-LAST[:B]' appends records (id, A, B) for id FIRST..LAST after the last used record"""
+    parts = spec.split(':')
+    kind, (lo, hi), b = int(parts[0]), map(int, parts[1].split('-')), int(parts[2]) if len(parts) > 2 else 0
+    n = 0
+    while n < CARDS_MAX and d[SLOT + CARDS + 4 * n:SLOT + CARDS + 4 * n + 4] != b'\xff' * 4:
+        n += 1
+    if n + hi - lo + 1 > CARDS_MAX:
+        sys.exit('add-cards %s: list full' % spec)
+    for i in range(lo, hi + 1):
+        struct.pack_into('<HBB', d, SLOT + CARDS + 4 * n, i, kind, b)
+        n += 1
+
+
 def edit(d, a):
     if a.chapter is not None:
         if not 0 <= a.chapter <= 39:
@@ -75,6 +93,8 @@ def edit(d, a):
         put_name(d, SLOT + SURNAME, a.surname)
     if a.name is not None:
         put_name(d, SLOT + NAME, a.name)
+    for spec in getattr(a, 'add_cards', None) or []:
+        add_cards(d, spec)
     struct.pack_into('<I', d, SLOT + CKS, checksum(d))
     d[COPY:COPY + 0x6DC] = d[SLOT:SLOT + 0x6DC]
 
@@ -125,6 +145,8 @@ def main():
     p = sub.add_parser('info'); p.add_argument('sav')
     p = sub.add_parser('set'); p.add_argument('sav'); p.add_argument('out')
     p.add_argument('--chapter', type=int); p.add_argument('--surname'); p.add_argument('--name')
+    p.add_argument('--add-cards', action='append', metavar='A:FIRST-LAST[:B]',
+                   help='append owned-card records (id, A, B); A 16..19 = non-character kinds, B 0')
     p = sub.add_parser('make'); p.add_argument('--rom', default=os.path.join(ROOT, 'rom', 'base.gba'))
     p = sub.add_parser('test'); p.add_argument('sav'); p.add_argument('--rom', default=os.path.join(ROOT, 'rom', 'base.gba'))
     a = ap.parse_args()

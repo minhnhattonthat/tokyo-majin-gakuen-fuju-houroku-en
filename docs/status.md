@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 19, unchanged bytes),
+- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 19; session 20 did not rebuild),
   sha1 82aef7599a18..; check.py 37 passed.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
@@ -194,14 +194,30 @@ Updated at the end of every session. Keep it to what the next session needs; his
   scenes ~75% unshown = the 9-way emotion branches; B chapters stop where the chapter battle is, e.g. B18 after
   line 460). The `--branches` pass (10 jobs) was **stopped by Claude Code for low system memory** after branch0 and
   part of branch1: re-run with `--jobs 4` at most. B18 from label 70 was proven to read 461-853.
-- **Next (phase 8):** (A) text coverage: `python -X utf8 tools/cover.py scenes --branches --jobs 4` (finishes
-  branch1-8; delete `work/qa/cover/branch1` first, it is partial), then `tools/cover.py gaps --jobs 4`, then
-  `report --by-scene`. Scenes should reach ~0 unshown; system strings need `rows` plus new routes (card text needs
-  owned cards: map the card fields in `tools/debug/save_layout.md`, also needed for stress saves); waive only what is
-  shown unreachable in `docs/text_unshown.tsv`. Do not rebuild between coverage runs (cover.py refuses when
-  strings.tsv changed; move `work/qa/cover` away and re-run all after a rebuild). (B) choice boxes are fixed x=48-192,
-  text left-aligned from x=64 like the JP (`tools/windows.tsv`): confirm with inkbox on a JP shot that they are not
-  centred, then record. (0) graphics left: S16 0xC03F88 link-room badges (look like 待機中 / 通信中; loaded only in
+  Session 20 (2026-11-22): `cover.py scenes` now **resumes** (skips scenes whose run dir has final.png). The
+  `--branches --jobs 4` pass was started in the background (log `work/qa/cover_branches.log`; branch0 done, branch1
+  ~half when this session ended; it is slow: ~150 runs per branch). **Card collection mapped** (`tools/debug/
+  save_layout.md`: 4-byte records at save 0x06DC, kind byte decoded from 0x08052F28); `save.py set --add-cards`
+  (tested) builds `work/saves/allcards.sav` (every card owned, deck editor counts 282/52/83/30/27). **Card text
+  coverage:** routes `tools/routes/allcards_browse.txt` (characters: Deck Edit -> View All -> card view, RIGHT steps
+  a card, down does not) and `allcards_{land,spell,barrier,possession}.txt` (tab = down xk), run with emu.py `--sav
+  work/saves/allcards.sav --script textcover.lua --var RANGES=...` into `work/qa/cover/cards_*`; **sound test**
+  route `tools/routes/sound_test_cover.txt` (`warp.py MODE20 --route ...`, a raw spec so --frames applies) into
+  `work/qa/cover/sound`: all track names shown. System unshown 2532 -> 1888. What is left in system (by prefix):
+  D645E4-D650xx person-name lists (xn/yn, 白岐, 九龍主人公 ..: where shown is unknown, maybe link/free-battle
+  opponent lists), D6E8-D6EA long ability labels 【変生】.., CF72 short element-ish words, battle quotes D67C/D6D3/
+  D6D6.. (enemy taunts: need battle runs), D725/D72A deck/discard prompts, D78F link-cable. **Choice boxes checked
+  (B):** JP and EN both left-align options at x~66 (`work/qa/choice_cmp.png`, new probe `tools/debug/
+  choiceshot.lua` screenshots while the 0F choice helper waits): not centred, inkbox not applicable (windows.tsv).
+  Polish note: card view count line D72810 reads "1 cards, # 1" (slots are N then index); reword when rebuilding.
+- **Next (phase 8):** (A) text coverage: if no Mesen process is running, resume the branch pass with `python -X utf8
+  tools/cover.py scenes --branches --jobs 4` (it skips finished scenes; delete any run dir without final.png
+  first), then `tools/cover.py gaps --jobs 4`, then `report --by-scene`. Scenes should reach ~0 unshown; system
+  strings: battle runs for enemy quotes (board_turn.mss / defeat_quote.mss under textcover), find where the
+  person-name lists D645E4.. show; waive only what is shown unreachable in `docs/text_unshown.tsv` (link-cable
+  D78E04-D79138 needs a second GBA). Do not rebuild between coverage runs (cover.py refuses when strings.tsv
+  changed; move `work/qa/cover` away and re-run all after a rebuild). Stress saves: `allcards.sav` is the
+  full-list one; long names via `save.py set --surname/--name`; money/deck not mapped yet. (0) graphics left: S16 0xC03F88 link-room badges (look like 待機中 / 通信中; loaded only in
   link-room sub-state 2, 0x0805BFE8: force the sub-state or poke it to see them, then redraw); 0xD280D0 (title
   set, table 0xD289A0) unidentified; trade / discard plaques (S17) in game (trade room -> Trade, needs cards). (1) see an element text icon ({I006}-{I015}) in game (card text popup of a Ward/Slay/Bane card)
   and a large frame (39-43). (2) a land / spell mini label in game (thumbnail of a non-character card on the

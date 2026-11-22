@@ -59,3 +59,14 @@ def test_edit_chapter_and_names():
     assert save.sjis_field(d, 0x0C) == "山田" and save.sjis_field(d, 0x14) == "太郎"
     assert struct.unpack_from("<I", d, save.CKS)[0] == save.checksum(d)
     assert d[save.COPY:save.COPY + 0x6DC] == d[0:0x6DC]
+
+
+def test_add_cards_appends_after_last_record():
+    d = _fake_save()
+    d[save.CARDS:save.CARDS + 0x4E80] = b"\xff" * 0x4E80
+    struct.pack_into("<HBB", d, save.CARDS, 5, 7, 16)  # one owned character card
+    save.edit(d, SimpleNamespace(chapter=None, surname=None, name=None, add_cards=["19:0-82", "16:3-4"]))
+    recs = [struct.unpack_from("<HBB", d, save.CARDS + 4 * i) for i in range(87)]
+    assert recs[0] == (5, 7, 16) and recs[1] == (0, 19, 0) and recs[83] == (82, 19, 0)
+    assert recs[84:86] == [(3, 16, 0), (4, 16, 0)] and recs[86] == (0xFFFF, 0xFF, 0xFF)
+    assert struct.unpack_from("<I", d, save.CKS)[0] == save.checksum(d)

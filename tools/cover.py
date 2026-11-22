@@ -184,6 +184,9 @@ def main():
             runs = [(k, [n for n in names if ways[n] > 1 and (k < ways[n])]) for k in range(9)]
         rc = 0
         for k, todo in runs:
+            # resume: a scene whose run dir already has final.png finished in an earlier (interrupted) pass
+            sub = OUT / ('scenes' if k is None else 'branch%d' % k)
+            todo = [n for n in todo if not (sub / n.replace('.', '_') / 'final.png').exists()]
             lo = 0
             need = {n: WARP_AT + 600 + PER_LINE * lines[n] for n in todo}
             extra = ['--route', str(ROOT / 'tools' / 'routes' / 'newgame_fast.txt'), '--mash', '4', '--mash-hold', '2']
