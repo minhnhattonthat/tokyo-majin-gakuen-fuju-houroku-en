@@ -1,0 +1,17 @@
+sheet	ok	all inside the box (session 39, build 2e4ada7f; shots = best of hold 30/40/60, 17 unchanged strings from the build-19 set: old_used.txt)
+sheet_2	ok	all inside the box
+sheet_3	ok	all inside the box
+sheet_4	ok	all inside the box
+sheet_5	ok	all inside the box
+sheet_6	ok	all inside the box
+sheet_7	ok	4-line possession texts (CF2584.., CF274C, CF27F8, CF2F34) spill this 3-line box only because popcycle forces them in; their real window is the 5-line View All / battle card panel, where every one fits (work/qa/possession_panel/sheet*.png, session 39); rest fit
+sheet_8	ok	all inside the box
+sheet_9	ok	all inside the box
+sheet_10	ok	all inside the box
+sheet_11	ok	all inside the box
+sheet_12	ok	all inside the box
+sheet_13	ok	all inside the box
+sheet_14	ok	D7AD38/D7AD78 rows are runtime templates (args unfilled here, so "re:" / garbage args are expected, same as build 19); summon rows fit
+sheet_15	ok	4-line possession text (When the possessed .. discard draw-pile ..) spills only in this forced popup; fits the card panel (Buried Treasure, work/qa/possession_panel/sheet_2.png); rest fit
+sheet_16	ok	CF44CC / CF4558 / CF4608 now 3 lines and inside the box; all fit
+sheet_17	ok	all inside the box

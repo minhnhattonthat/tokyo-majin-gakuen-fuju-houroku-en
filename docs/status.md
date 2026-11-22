@@ -2,13 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator (started 2026-11-22; session 38: rebuilt, coverage gate 0 failing, English tour + visual-QA
-  verdicts done, emotion dials redrawn; session 37: gap pass brought scene coverage to 6 unshown
-  (B18 L110 / L119), then stopped for low memory caused by another project's emulators). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 19; sessions 20-29 did not
-  rebuild it, because the coverage runs use it; unbuilt there: session 22's 4 text edits, session 23's haiku fix,
-  session 24's tab-sprite fix + 2 text edits, sessions 26-29's graphics + D64260, session 30's D72710, session 31's
-  D72824/D72830/D728A8/D728D8/D728EC/D72958/D72A84/D72A94, session 33's warn_box), sha1 82aef7599a18..; side
-  build with everything: `build.py --out work/next/tmgfh_en.gba` (sha1 36135f37..); check.py 38 passed.
+- **Phase:** 9. Release (phase 8 done 2026-11-23, session 39: every phase-8 gate passes on build 2e4ada7f). Last build:
+  `build/tmgfh_en.gba` 2026-11-23 10:30, sha1 2e4ada7f7fea..; check.py 38 passed, smoke ok, fit 0 problems.
+  Phase 9 first: the independent story re-run (Gap / Important 1 below; codex after 2026-11-26, or a fresh read-only
+  pass), then `tools/release.py` (not written yet).
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -469,9 +466,33 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   too (`work/qa/p8s38/lit/z.png`). `work/states/*` were made by the e462aaab build (before these gfx), so they
   carry old VRAM: regenerate a row with `warp.py ROW --states` before judging graphics from a state (event_00_1 done). Build after these: sha1 73fbb66e.. (gfx only: strings.tsv and
   the coverage are unchanged). check.py 38 passed.
-- **Next (phase 8):** items (1) and (2) below are done (session 38), and (3)'s tour + verdicts. Left: the event rows' middle frames; `inkbox.py` on choice /
-  centred boxes; stress-save sheets (longest names); the independent story re-run (codex after 2026-11-26); then
-  phase 9 (release). Older list: (1) `cover.py gaps --jobs 2` when memory allows (check `Get-Process Mesen` first: other
+  Session 39 (2026-11-23): **phase 8 closed.** Stress saves: `work/saves/stress_en.sav` (every card, 9999, widest
+  4+4 names "Şhi" x4; remake with `save.py set work/saves/allcards_en.sav work/saves/stress_en.sav --surname-units
+  "Şhi Şhi Şhi Şhi" --name-units "Şhi Şhi Şhi Şhi" --money 9999` after any encoder change: codes move) and warp rows
+  `stress_viewall` / `stress_shop` / `stress_moveon` (routes `tools/routes/stress_*.txt`). **Bug fixed (seen):** the
+  card-list header (deck edit / sell / trade / discard: category + count + "cards", 9 cells from x=96) cut "cards" at
+  the screen edge for 4-unit categories: D723B8 "All Trd.", D723E8 "All Barr", and "cards" moved to line 2 of
+  D72434/D72460/D72490/D724BC; `fit.py` DECK_CATS rule (categories exactly 3 units, piece line 1 the rest). Turn
+  banner with long names not reached in a real battle (tutorial and board_turn runs never drew it); dialogue, VS plate,
+  name entry already checked (session 35). **inkbox:** `tools/debug/inkbars.py` + `docs/qa/inkbox.tsv` (title, hub,
+  shop menus, route `tools/routes/inkbox_menus.txt`): 12/12 centred; text boxes are left-aligned (windows.tsv).
+  **Tour** on 2e4ada7f (`work/qa/tour_en`, 211/212, story_27 = the game's fade; old tour `tour_en_e462`), every changed
+  frame read at 1x (`work/qa/vqa39/p000-p081.png`, events' middle frames included): `qa_gate.py check
+  work/qa/manifest.tsv work/qa/verdicts` exits 0 (243 sheets; verdicts `docs/qa/vqa_s39_tour.tsv`). **Popups** re-shot
+  on this build (`work/qa/popups_qa3`, best of hold 30/40/60 with the box required; 17 unchanged strings keep their
+  build-19 shot, `old_used.txt`): `qa_gate.py check work/qa/popups_qa3/manifest.tsv work/qa/popups_qa3/verdicts` exits
+  0; the 4-line possession texts' real window is the 5-line card panel, all fit there (`work/qa/possession_panel`).
+  Old set moved to `work/qa/popups_qa_b19`. **Coverage** carried by `remap work/qa/cover_b38 --base 02db491` + runs
+  `p8s39_disc6`, rows stress_*: `cover.py report` 17073/17119 shown, 46 waived, 0 failing.
+- **Next (phase 9, release):** (a) independent story re-run: `qa_gate.py todo work/qa/story/manifest.tsv
+  work/qa/story/verdicts --size 1` (re-run `tools/story.py` + `qa_gate.py init` first: B18 typo, D723B8/D723E8 and
+  the D724xx headers changed since), one fresh read-only reviewer per chapter (`codex exec -s read-only` after
+  2026-11-26, or a fresh pass that did not translate), new verdict files; (b) write `tools/release.py` (patch +
+  re-apply + verify; runs `qa_gate.py check` on work/qa/manifest.tsv, work/qa/popups_qa3/manifest.tsv and the story
+  manifest, `cover.py report`, `jp_left.py --sjis --gba-ptrs`; debug tool off in the release build), README with base
+  ROM hashes and the 32 haiku (`docs/haiku.md`, D14); (c) `docs/polish.md` all ticked. Any rebuild makes the tour and
+  popup gates STALE: re-run `warp.py --all --states --jobs 2 --out work/qa/tour_en` (~1 h) and re-init, or
+  `qa_gate.py waive` for a text-only hotfix whose screens were re-checked. Phase 8 history (done): (1) `cover.py gaps --jobs 2` when memory allows (check `Get-Process Mesen` first: other
   projects' runs eat memory); it runs only B18 L110 and L119. Lines still unshown after it need a look at their
   scene's branch / flag or a waiver in `docs/text_unshown.tsv` naming why unreachable. (2) Rebuild (everything since session 19 incl.
   warn_box, name grids, deck-name fix), then `mv work/qa/cover work/qa/cover_b19`, `cover.py remap
