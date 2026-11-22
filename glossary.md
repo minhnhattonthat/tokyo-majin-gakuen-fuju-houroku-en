@@ -295,6 +295,28 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   up there" (no asterisks: the font has none). 千頭の矢 -> the thousand arrows; 観世音 -> Kannon. 院長先生 -> the
   director. Staff roll (B38.0139, B39.0000-0064): names in Western order, readings unverified; section heads as
   "-- X --" (the 對 ornament has no glyph); B39.0020's 﨤町 孝 is a guess, "Takashi Hazamachi".
+- Card game (system text cf/d6, from b090). Not in the enforced tables: 符咒 (deck) is inside 符咒士 (Talismancer).
+  Card types follow their icon: {I000}人物符 -> "{I000}Character", {I001}憑依式神符 -> "{I001}Possession Shikigami",
+  {I002}結界式神符 -> "{I002}Barrier Shikigami", {I003}法術符 -> "{I003}Spell", {I004}土地符 -> "{I004}Land"; a bare
+  {I000} as a noun -> "{I000}Character" or "{I000}" where the icon alone reads well. 符 alone -> talisman. 符咒 -> deck;
+  符咒編集 -> Deck Edit; 山札 -> draw pile; 手札 -> hand; 墓地 -> graveyard; 場 -> field; 属性 -> element ({I009}属性の
+  -> "{I009}-element" or "{I009}"); ＡＰ / ＨＰ / ＭＡＸＡＰ -> AP / HP / Max AP (the game's own abbreviations, kept);
+  ライフ -> Life; ターン -> turn; 記録 -> save; 複写 -> copy; 捨てる -> discard; 引きなおし -> redraw; 打ち消す -> cancel.
+  Ability tags 【X】 (the popup's tag line is 64 px / 4 units, so names are short; an element or attack-type icon
+  goes after the bracket: 【Ward】{I009}): 召喚 Summon, 連続 Combo, 速攻 Haste, 狙い Aim, 吹飛 Blast, 見切 Dodge
+  (見{Innn} 【Dodge】{Innn}), 麻痺 Stun, 魅了 Charm, 風水 Earth, 霊媒 Medium, 鎮守 Guardian, 透視 Scry, 送還 Banish,
+  迷宮 Maze, 輪廻 Samsara, 跳躍 Leap, 賭け Gamble, 貫通 Pierce, 調査 Probe, 覚醒 Awaken, 血気 Vigor, 蘇生 Revive,
+  葉隠 Stealth, 結界 Barrier, 範囲 Area, 祝福 Blessing, 知識 Lore, 睡眠 Sleep, 盗み Steal, 発火 Ignite, 生贄
+  Sacrifice, 熱血 Fervor, 災厄 Calamity, 治療 Heal, 毒 Poison, 模写 Mimic, 悟り Insight, 恩恵 Boon, 復活 Return,
+  式神 Dispel, 庇う Cover, 崩し Break, 居合 Iai, 外法 Heresy, 変生 Morph, 変化 Change, 呪詛 Curse, 吸血 Drain,
+  友情 Bond, 博愛 Charity, 加速 Boost, 加護 Aegis, 創造 Create, 分身 Clone, 再生 Renew, 共鳴 Echo, 傀儡 Puppet,
+  耐{Innn} Ward, 即{Innn} Slay, 必{Innn} Bane. Icons: {I012} AT, {I013} HP, {I014} SP, {I016} paralysis, {I017}
+  poison, {I018} sleep, {I020}-{I024} attack types, {I005}-{I011} elements. 摩尼 -> Mani. 敵 -> foe. 術 (attack
+  type) -> Art. Summoned characters: 病んだ狼 Sick Wolf, 警官 Police Officer, 悪代官 Evil Magistrate, 強欲な商人
+  Greedy Merchant, 御用提灯 Official Lantern, 浪士 Ronin, 大百足 Giant Centipede, 夜の召使い Night Servant, 野良猫
+  Stray Cat, 魍魎 Moryo, 威嚇する者 Intimidator, 異形のもの Misshapen One, 深きもの Deep One, 甦りし者 Risen One,
+  人喰い鴉 Man-Eating Crow, 狂犬 Mad Dog, 大蝙蝠 Giant Bat, 群れをなす者 Swarming One, 盲目の邪神 Blind Evil God.
+  Yes/no option line: `[81][40]Yes[81][40]No` (raw glyph pairs pass the batch check as text).
 - A12.4.0038/0043 and A12.9.0057 start `【【` (a JP typo); merge tags them normally.
 - The only row whose JP holds two boxes (`...{rt}{rt}【X】{rt}...`) is B11.0121:
   the batch check wants the repeated speaker name in the English, so put `【X】` in the body to pass, then after

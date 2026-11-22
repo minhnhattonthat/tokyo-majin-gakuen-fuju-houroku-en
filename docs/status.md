@@ -17,8 +17,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `tools/windows.tsv`, run by `tests/test_fit.py`); dialogue bodies are wrapped by merge (2 rows, 232/218 px,
   about 65 chars). Phase 6 done-when: batch check 0 errors everywhere, glossary current, a review pass with no
   Critical/Important (do it as a fresh read-only pass per chapter; codex once its limit resets).
-- **Next:** d1 is done (b089). System batches `split --only CF` (991 rows), then `--only D6` (1 556) (ids are
-  hex addresses: the --only prefix is upper case), a few batches per context;
+- **Next:** d1 is done (b089). CF is split into b090-b096 (b090 merged: prompts, ability tags, possession
+  effects); translate b091-b096 with the card-game terms in the glossary notes ("Card game"), then
+  `split --only D6` (1 556) (ids are hex addresses: the --only prefix is upper case), a few batches per context;
   budgets come from `tools/windows.tsv`. Then the per-chapter review pass. The fit
   lint's unit budgets depend on the encoder built from all text, so new merges can push an old row over (B04.0181
   after b050): run `tools/check.py` after each merge and reword the row it names. Rows of kind `grid` are not translated. Notes for translators: system strings are often pieces joined
@@ -30,7 +31,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   outgrow their slot now move to SPILL after the packed scenes (`strslots.write`, only when every pointer site is
   trusted and no alias points mid-string; the copy ends in a zero u16 because the printers stop on `ldrh` == 0).
   Sound test checked after it: `work/qa/warp/sound_test/final.png`. The haiku list (D16A40-D16F54) may be drawn
-  vertically on the haiku screen's right strip: not yet seen in game; check in phase 8.
+  vertically on the haiku screen's right strip: not yet seen in game; check in phase 8. tools/fit.py now gives
+  CF24B0-CF2A00 (possession effects, 4-5 JP lines) the card_spell_text budget instead of the 3-line popup: inferred
+  from the JP line counts, check in game.
 - **Done:** Phase 5 engine spike and marker build (2026-11-22). VWF engine proven in game (`tools/vwf.py`,
   `fonts/vwf.txt`, D8; `docs/re/text.md` §Font) for both text routines (BG glyph routine 0x08003B84 and printer B
   0x0800455C, sprite text). Marker build `build.py --marker` boots and shows ids; probe tour 194/194

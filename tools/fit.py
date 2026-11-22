@@ -37,6 +37,8 @@ RANGES = [
     (0xCF1318, 0xCF1568, 'yesno', 3, 128, None, 8),
     (0xD67B00, 0xD6DC00, 'enemy_quote', 3, 128, None, 8),
     (0xCF2A00, 0xCF5600, 'card_spell_text', 5, 124, None, 8),
+    # possession effects 憑依された{I000}.. (4-5 JP lines: panel text, not the 3-line popup; inferred, check in game)
+    (0xCF24B0, 0xCF2A00, 'card_spell_text', 5, 124, None, 8),
     (0xCF5800, 0xCF6540, 'card_name', 1, 94, None, 6),
     (0xCF6800, 0xCF6B00, 'card_name', 1, 94, None, 6),
     (0xCF6D00, 0xCF71C8, 'card_name', 1, 94, None, 6),

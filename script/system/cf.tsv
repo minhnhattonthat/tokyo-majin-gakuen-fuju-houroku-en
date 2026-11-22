@@ -1,154 +1,154 @@
 id	kind	max	jp	en	notes
-CF12F0	str	39	敵符咒士が{I000}人物{rt}符を使用しました		
-CF1318	str	35	よろしいですか？{rt}　はい　いいえ		
-CF133C	str	31	手札に{I000}人物符が{rt}ありません		
-CF135C	str	35	複写する{I000}人物符{rt}を選んで下さい		
-CF1380	str	31	捨てさせる符を{rt}選んで下さい		
-CF13A0	str	51	この符を複写して{rt}よろしいですか？{rt}　はい　いいえ		
-CF13D4	str	43	エラーが発生しま{rt}した{rt}やり直して下さい		
-CF1400	str	23	記録が{rt}終わりました		
-CF1418	str	39	記録中です{rt}電源を切らないで{rt}下さい		
-CF1440	str	43	データを上書き{rt}しますか？{rt}　はい　いいえ		
-CF146C	str	31	記録しますか？{rt}　はい　いいえ		
-CF148C	str	35	打ち消しますか？{rt}　はい　いいえ		
-CF14B0	str	35	　終了しますか？{rt}　はい　いいえ		
-CF14D4	str	31	使用しますか？{rt}　はい　いいえ		
-CF14F4	str	51	この符を捨てて{rt}よろしいですか？{rt}　はい　いいえ		
-CF1528	str	27	捨てる符を{rt}選んでください		
-CF1544	str	39	引きなおし{rt}しますか？{rt}　はい　いいえ		
-CF156C	str	27	【覚醒】{rt}別人格が目覚める		
-CF1588	str	47	【耐{I009}】{rt}{I009}属性の{I000}の{rt}ダメージを半減		
-CF15B8	str	47	【耐{I008}】{rt}{I008}属性の{I000}の{rt}ダメージを半減		
-CF15E8	str	47	【耐{I007}】{rt}{I007}属性の{I000}の{rt}ダメージを半減		
-CF1618	str	47	【耐{I006}】{rt}{I006}属性の{I000}の{rt}ダメージを半減		
-CF1648	str	47	【耐{I005}】{rt}{I005}属性の{I000}の{rt}ダメージを半減		
-CF1678	str	47	【耐{I011}】{rt}{I011}属性の{I000}の{rt}ダメージを半減		
-CF16A8	str	47	【耐{I010}】{rt}{I010}属性の{I000}の{rt}ダメージを半減		
-CF16D8	str	27	【加速】{rt}ＭＡＸＡＰ＋１		
-CF16F4	str	47	【霊媒】{rt}墓地の一番上の{I000}{rt}と同じ能力を得る		
-CF1724	str	35	【鎮守】{rt}同じ属性の{I004}{rt}使用不可		
-CF1748	str	47	【魅了】{rt}自分よりＡＰの{rt}低い{I000}は攻撃不可		
-CF1778	str	35	【召喚】{rt}{I000}病んだ狼を{rt}召喚する		
-CF179C	str	31	【召喚】{rt}{I000}警官を{rt}召喚する		
-CF17BC	str	35	【召喚】{rt}{I000}悪代官を{rt}召喚する		
-CF17E0	str	39	【召喚】{rt}{I000}強欲な商人を{rt}召喚する		
-CF1808	str	35	【召喚】{rt}{I000}御用提灯を{rt}召喚する		
-CF182C	str	31	【召喚】{rt}{I000}浪士を{rt}召喚する		
-CF184C	str	35	【召喚】{rt}{I000}大百足を{rt}召喚する		
-CF1870	str	39	【召喚】{rt}{I000}夜の召使いを{rt}召喚する		
-CF1898	str	35	【召喚】{rt}{I000}野良猫を{rt}召喚する		
-CF18BC	str	31	【召喚】{rt}{I000}魍魎を{rt}召喚する		
-CF18DC	str	39	【召喚】{rt}{I000}威嚇する者を{rt}召喚する		
-CF1904	str	39	【召喚】{rt}{I000}異形のものを{rt}召喚する		
-CF192C	str	35	【召喚】{rt}{I000}深きものを{rt}召喚する		
-CF1950	str	35	【召喚】{rt}{I000}甦りし者を{rt}召喚する		
-CF1974	str	35	【召喚】{rt}{I000}人喰い鴉を{rt}召喚する		
-CF1998	str	31	【召喚】{rt}{I000}狂犬を{rt}召喚する		
-CF19B8	str	35	【召喚】{rt}{I000}大蝙蝠を{rt}召喚する		
-CF19DC	str	39	【召喚】{rt}{I000}群れをなす者を{rt}召喚する		
-CF1A04	str	39	【召喚】{rt}{I000}盲目の邪神を{rt}召喚する		
-CF1A2C	str	47	【外法】{rt}変生を持つ味方{I000}{rt}を強制変生させる		
-CF1A5C	str	39	【変生】{rt}より強力な{I000}に{rt}変化する		
-CF1A84	str	35	【創造】{rt}味方の{I000}を{rt}２枚にする		
-CF1AA8	str	43	【賭け】{rt}両符咒士の手札を{rt}全て取り直す		
-CF1AD4	str	43	【模写】{rt}正面の{I000}と{rt}同じ能力値を得る		
-CF1B00	str	39	【博愛】{rt}場の{I000}の{I012}ＡＴを{rt}１０に		
-CF1B28	str	43	【発火】{rt}敵符咒士の手札を{rt}ランダムに除去		
-CF1B54	str	47	【透視】{rt}敵符咒士の手札を{rt}見ることができる		
-CF1B84	str	27	【知識】{rt}カード３枚引く		
-CF1BA0	str	47	【送還】{rt}ダメージを与えた{rt}敵{I000}を手札へ戻す		
-CF1BD0	str	35	【復活】{rt}破壊されると{rt}手札へ戻る		
-CF1BF4	str	39	【貫通】{rt}地形効果を無視{rt}してダメージ		
-CF1C1C	str	39	【風水】{rt}全能力が{rt}摩尼総数×１０に		
-CF1C44	str	35	【輪廻】{rt}山札を初期状態に{rt}戻す		
-CF1C68	str	47	【悟り】{rt}場で最速の{I000}と{rt}同じ{I014}ＳＰを得る		
-CF1C98	str	39	【庇う】{rt}隣の{I000}を庇い{rt}攻撃から護る		
-CF1CC0	str	39	【生贄】{rt}味方を破壊し{rt}能力値を吸収		
-CF1CE8	str	39	【変化】{rt}{I012}ＡＴが手札{rt}枚数×１０に		
-CF1D10	str	43	【盗み】{rt}敵符咒士の手札を{rt}ランダムに奪う		
-CF1D3C	str	43	【迷宮】{rt}敵{I000}の配置を時計{rt}回りに回転		
-CF1D68	str	43	【熱血】{rt}{I012}ＡＴ＋２０{rt}{I013}ＨＰ－２０		
-CF1D94	str	43	【式神】{rt}敵符咒士の式神を{rt}ランダムに破壊		
-CF1DC0	str	19	【居合】{rt}先制攻撃		
-CF1DD4	str	35	【速攻】{rt}配置した時点で{rt}オープン		
-CF1DF8	str	43	【調査】{rt}伏せられた{I000}を{rt}強制オープン		
-CF1E24	str	47	【災厄】{rt}自分以外の全ての{rt}{I000}に２０ダメージ		
-CF1E54	str	43	【結界】{rt}自分と正面の敵を{rt}行動不能にする		
-CF1E80	str	31	【共鳴】{rt}同じ属性の{rt}摩尼＋１		
-CF1EA0	str	31	【友情】{rt}配置すると{rt}ＡＰ＋４		
-CF1EC0	str	35	【崩し】{rt}敵{I000}の{I014}ＳＰを{rt}半減		
-CF1EE4	str	35	【分身】{rt}空きがあれば{rt}２枚に分身		
-CF1F08	str	39	【再生】{rt}{I010}の{I000}に倒され{rt}たら復活		
-CF1F30	str	47	【吸血】{rt}与えたダメージを{rt}自分のＨＰに加算		
-CF1F60	str	35	【睡眠】{rt}敵{I000}を{I018}状態に{rt}する		
-CF1F84	str	35	【呪詛】{rt}{I000}を{I000}狂犬に{rt}変える		
-CF1FA8	str	39	【傀儡】{rt}{I000}を自分の{rt}手札に加える		
-CF1FD0	str	43	【葉隠】{rt}{I013}を１０にし{rt}{I012}{I014}に加算		
-CF1FFC	str	19	【連続】{rt}２回攻撃		
-CF2010	str	47	【恩恵】{rt}使役者ターン終了{rt}時、ライフ＋１０		
-CF2040	str	31	【麻痺】{rt}敵{I000}を{I016}状態に		
-CF2060	str	27	【毒】{rt}敵{I000}を{I017}状態に		
-CF207C	str	43	【治療】{rt}味方の状態異常を{rt}治療及び防止		
-CF20A8	str	43	【蘇生】{rt}ターン中、破壊{rt}された味方を復活		
-CF20D4	str	27	【祝福】{rt}{I013}ＨＰを回復		
-CF20F0	str	35	【加護】{rt}味方の{I013}ＨＰを{rt}＋１０		
-CF2114	str	35	【血気】{rt}味方の{I012}ＡＴを{rt}＋１０		
-CF2138	str	35	【範囲】{rt}敵{I000}全体を{rt}攻撃する		
-CF215C	str	35	【跳躍】{rt}敵符咒士ターンを{rt}飛ばす		
-CF2180	str	35	【即{I009}】{rt}{I009}属性の{I000}を即死		
-CF21A4	str	35	【即{I008}】{rt}{I008}属性の{I000}を即死		
-CF21C8	str	35	【即{I007}】{rt}{I007}属性の{I000}を即死		
-CF21EC	str	35	【即{I006}】{rt}{I006}属性の{I000}を即死		
-CF2210	str	35	【即{I005}】{rt}{I005}属性の{I000}を即死		
-CF2234	str	35	【即{I011}】{rt}{I011}属性の{I000}を即死		
-CF2258	str	35	【即{I010}】{rt}{I010}属性の{I000}を即死		
-CF227C	str	27	【見{I024}】{rt}{I024}攻撃を回避		
-CF2298	str	27	【見{I023}】{rt}{I023}攻撃を回避		
-CF22B4	str	27	【見{I022}】{rt}{I022}攻撃を回避		
-CF22D0	str	27	【見{I021}】{rt}{I021}攻撃を回避		
-CF22EC	str	27	【見{I020}】{rt}{I020}攻撃を回避		
-CF2308	str	47	【必{I009}】{rt}{I009}属性の{I000}に{rt}１．５倍ダメージ		
-CF2338	str	47	【必{I008}】{rt}{I008}属性の{I000}に{rt}１．５倍ダメージ		
-CF2368	str	47	【必{I007}】{rt}{I007}属性の{I000}に{rt}１．５倍ダメージ		
-CF2398	str	47	【必{I006}】{rt}{I006}属性の{I000}に{rt}１．５倍ダメージ		
-CF23C8	str	47	【必{I005}】{rt}{I005}属性の{I000}に{rt}１．５倍ダメージ		
-CF23F8	str	47	【必{I011}】{rt}{I011}属性の{I000}に{rt}１．５倍ダメージ		
-CF2428	str	47	【必{I010}】{rt}{I010}属性の{I000}に{rt}１．５倍ダメージ		
-CF2458	str	43	【狙い】{rt}攻撃対象を選択{rt}後列からの攻撃可		
-CF2484	str	43	【吹飛】{rt}敵を吹き飛ばし{rt}後列にもダメージ		
-CF24B0	str	67	憑依された{I000}の{rt}所有者はターン終{rt}了時に１０ダメー{rt}ジを受けます		
-CF24F4	str	47	憑依された{I000}の{rt}属性を{I009}に変化{rt}させます		
-CF2524	str	47	憑依された{I000}の{rt}属性を{I008}に変化{rt}させます		
-CF2554	str	47	憑依された{I000}の{rt}属性を{I006}に変化{rt}させます		
-CF2584	str	47	憑依された{I000}の{rt}属性を{I005}に変化{rt}させます		
-CF25B4	str	51	憑依された{I000}は{rt}【連続】を得る{rt}ことができます		
-CF25E8	str	75	憑依された{I000}が{rt}破壊された時{rt}その{I000}のＡＰの{rt}半分の山札を{rt}捨てます		
-CF2634	str	75	憑依された{I000}が{rt}{I010}の{I000}にダメージ{rt}を与えるとその{I000}{rt}を除去します		
-CF2680	str	75	憑依された{I000}が{rt}{I011}の{I000}にダメージ{rt}を与えるとその{I000}{rt}を即死させます		
-CF26CC	str	63	憑依された{I000}は{rt}{I012}が３０以下の{rt}{I000}の攻撃を{rt}無効化します		
-CF270C	str	63	憑依された{I000}は{rt}{I012}が５０以上の{rt}{I000}の攻撃を{rt}無効化します		
-CF274C	str	67	憑依された{I000}は{rt}{I000}から攻撃を受け{rt}ると攻撃{I000}と{rt}自爆します		
-CF2790	str	51	憑依された{I000}は{rt}【狙い】を得る{rt}ことができます		
-CF27C4	str	51	憑依された{I000}は{rt}【吹飛】を得る{rt}ことができます		
-CF27F8	str	83	憑依された{I000}は{rt}術以外の攻撃を{rt}反射します{rt}自分から攻撃する{rt}ことはできません		
-CF284C	str	87	憑依された{I000}は{rt}摩尼能力が使えな{rt}くなり、地形効果{rt}を受けることが{rt}できなくなります		
-CF28A4	str	47	憑依された{I000}は{rt}一切能力が{rt}使えなくなります		
-CF28D4	str	67	憑依された{I000}は{rt}与えたり受けたり{rt}する戦闘ダメージ{rt}を０にします		
-CF2918	str	59	憑依された{I000}が{rt}受けたダメージを{rt}符咒士本体に{rt}移します		
-CF2954	str	51	憑依された{I000}は{rt}法術符の効果の{rt}対象になりません		
-CF2988	str	67	憑依された{I000}は{rt}他の式神による{rt}能力や憑依の{rt}対象になりません		
-CF29CC	str	47	憑依された{I000}は{rt}状態不能を無効化{rt}できます		
-CF29FC	str	51	憑依された{I000}は{rt}墓地に送られた時{rt}場に戻ります		
-CF2A30	str	43	攻撃する{I000}の{rt}【見切】を無効化{rt}します		
-CF2A5C	str	83	憑依された{I000}が{rt}次ターン終了時に{rt}場に残っていると{rt}全ての{I000}が破壊さ{rt}れます		
-CF2AB0	str	63	符咒士の{I000}全てが{rt}憑依された{I000}と{rt}同じ{I014}に変化しま{rt}す		
-CF2AF0	str	51	憑依された{I000}が{rt}墓地に送られた時{rt}手札に戻ります		
-CF2B24	str	67	自分のターンの{rt}終了時にもう一度{rt}攻撃フェイズを{rt}行う事ができます		
-CF2B68	str	55	場から自分の墓地{rt}に行った{I000}を伏せ{rt}て場に戻します		
-CF2BA0	str	51	自分のターンの{rt}ドローフェイズに{rt}２枚ドローします		
-CF2BD4	str	75	毎ターンの終了時{rt}場にいる{I001}がつい{rt}ている{I000}に１０ダ{rt}メージを与えます		
-CF2C20	str	47	敵符咒士の墓地に{rt}行った全ての符を{rt}除去します		
-CF2C50	str	43	全ての{I000}の消費{rt}ＡＰが２倍になり{rt}ます		
+CF12F0	str	39	敵符咒士が{I000}人物{rt}符を使用しました	The foe played a{rt}{I000}Character.	
+CF1318	str	35	よろしいですか？{rt}　はい　いいえ	Is this OK?{rt}[81][40]Yes[81][40]No	
+CF133C	str	31	手札に{I000}人物符が{rt}ありません	No {I000}Character{rt}in your hand.	
+CF135C	str	35	複写する{I000}人物符{rt}を選んで下さい	Choose a{rt}{I000}Character to copy.	
+CF1380	str	31	捨てさせる符を{rt}選んで下さい	Choose a talisman{rt}to discard.	
+CF13A0	str	51	この符を複写して{rt}よろしいですか？{rt}　はい　いいえ	Copy this{rt}talisman?{rt}[81][40]Yes[81][40]No	
+CF13D4	str	43	エラーが発生しま{rt}した{rt}やり直して下さい	An error{rt}occurred.{rt}Please try again.	
+CF1400	str	23	記録が{rt}終わりました	Saving{rt}complete.	
+CF1418	str	39	記録中です{rt}電源を切らないで{rt}下さい	Saving...{rt}Do not turn off{rt}the power.	
+CF1440	str	43	データを上書き{rt}しますか？{rt}　はい　いいえ	Overwrite the{rt}data?{rt}[81][40]Yes[81][40]No	
+CF146C	str	31	記録しますか？{rt}　はい　いいえ	Save?{rt}[81][40]Yes[81][40]No	
+CF148C	str	35	打ち消しますか？{rt}　はい　いいえ	Cancel it?{rt}[81][40]Yes[81][40]No	
+CF14B0	str	35	　終了しますか？{rt}　はい　いいえ	Quit?{rt}[81][40]Yes[81][40]No	
+CF14D4	str	31	使用しますか？{rt}　はい　いいえ	Use it?{rt}[81][40]Yes[81][40]No	
+CF14F4	str	51	この符を捨てて{rt}よろしいですか？{rt}　はい　いいえ	Discard this{rt}talisman?{rt}[81][40]Yes[81][40]No	
+CF1528	str	27	捨てる符を{rt}選んでください	Choose a talisman{rt}to discard.	
+CF1544	str	39	引きなおし{rt}しますか？{rt}　はい　いいえ	Redraw your{rt}hand?{rt}[81][40]Yes[81][40]No	
+CF156C	str	27	【覚醒】{rt}別人格が目覚める	【Awaken】{rt}Another self wakes	
+CF1588	str	47	【耐{I009}】{rt}{I009}属性の{I000}の{rt}ダメージを半減	【Ward】{I009}{rt}{I009}{I000} damage{rt}is halved	
+CF15B8	str	47	【耐{I008}】{rt}{I008}属性の{I000}の{rt}ダメージを半減	【Ward】{I008}{rt}{I008}{I000} damage{rt}is halved	
+CF15E8	str	47	【耐{I007}】{rt}{I007}属性の{I000}の{rt}ダメージを半減	【Ward】{I007}{rt}{I007}{I000} damage{rt}is halved	
+CF1618	str	47	【耐{I006}】{rt}{I006}属性の{I000}の{rt}ダメージを半減	【Ward】{I006}{rt}{I006}{I000} damage{rt}is halved	
+CF1648	str	47	【耐{I005}】{rt}{I005}属性の{I000}の{rt}ダメージを半減	【Ward】{I005}{rt}{I005}{I000} damage{rt}is halved	
+CF1678	str	47	【耐{I011}】{rt}{I011}属性の{I000}の{rt}ダメージを半減	【Ward】{I011}{rt}{I011}{I000} damage{rt}is halved	
+CF16A8	str	47	【耐{I010}】{rt}{I010}属性の{I000}の{rt}ダメージを半減	【Ward】{I010}{rt}{I010}{I000} damage{rt}is halved	
+CF16D8	str	27	【加速】{rt}ＭＡＸＡＰ＋１	【Boost】{rt}Max AP +1	
+CF16F4	str	47	【霊媒】{rt}墓地の一番上の{I000}{rt}と同じ能力を得る	【Medium】{rt}Gets the ability of{rt}the top graveyard {I000}	
+CF1724	str	35	【鎮守】{rt}同じ属性の{I004}{rt}使用不可	【Guardian】{rt}Same-element {I004}{rt}can't be used	
+CF1748	str	47	【魅了】{rt}自分よりＡＰの{rt}低い{I000}は攻撃不可	【Charm】{rt}{I000} with less AP{rt}can't attack	
+CF1778	str	35	【召喚】{rt}{I000}病んだ狼を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Sick Wolf	
+CF179C	str	31	【召喚】{rt}{I000}警官を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Police Officer	
+CF17BC	str	35	【召喚】{rt}{I000}悪代官を{rt}召喚する	【Summon】{rt}Summons an{rt}{I000}Evil Magistrate	
+CF17E0	str	39	【召喚】{rt}{I000}強欲な商人を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Greedy Merchant	
+CF1808	str	35	【召喚】{rt}{I000}御用提灯を{rt}召喚する	【Summon】{rt}Summons an{rt}{I000}Official Lantern	
+CF182C	str	31	【召喚】{rt}{I000}浪士を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Ronin	
+CF184C	str	35	【召喚】{rt}{I000}大百足を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Giant Centipede	
+CF1870	str	39	【召喚】{rt}{I000}夜の召使いを{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Night Servant	
+CF1898	str	35	【召喚】{rt}{I000}野良猫を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Stray Cat	
+CF18BC	str	31	【召喚】{rt}{I000}魍魎を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Moryo	
+CF18DC	str	39	【召喚】{rt}{I000}威嚇する者を{rt}召喚する	【Summon】{rt}Summons an{rt}{I000}Intimidator	
+CF1904	str	39	【召喚】{rt}{I000}異形のものを{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Misshapen One	
+CF192C	str	35	【召喚】{rt}{I000}深きものを{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Deep One	
+CF1950	str	35	【召喚】{rt}{I000}甦りし者を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Risen One	
+CF1974	str	35	【召喚】{rt}{I000}人喰い鴉を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Man-Eating Crow	
+CF1998	str	31	【召喚】{rt}{I000}狂犬を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Mad Dog	
+CF19B8	str	35	【召喚】{rt}{I000}大蝙蝠を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Giant Bat	
+CF19DC	str	39	【召喚】{rt}{I000}群れをなす者を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Swarming One	
+CF1A04	str	39	【召喚】{rt}{I000}盲目の邪神を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Blind Evil God	
+CF1A2C	str	47	【外法】{rt}変生を持つ味方{I000}{rt}を強制変生させる	【Heresy】{rt}Forces allied {I000}{rt}to Morph	
+CF1A5C	str	39	【変生】{rt}より強力な{I000}に{rt}変化する	【Morph】{rt}Becomes a{rt}stronger {I000}	
+CF1A84	str	35	【創造】{rt}味方の{I000}を{rt}２枚にする	【Create】{rt}Turns an allied{rt}{I000} into two	
+CF1AA8	str	43	【賭け】{rt}両符咒士の手札を{rt}全て取り直す	【Gamble】{rt}Both players{rt}redraw their hands	
+CF1AD4	str	43	【模写】{rt}正面の{I000}と{rt}同じ能力値を得る	【Mimic】{rt}Gets the stats of{rt}the {I000} opposite	
+CF1B00	str	39	【博愛】{rt}場の{I000}の{I012}ＡＴを{rt}１０に	【Charity】{rt}Field {I000}'s {I012}AT{rt}becomes 10	
+CF1B28	str	43	【発火】{rt}敵符咒士の手札を{rt}ランダムに除去	【Ignite】{rt}Removes a random{rt}card in foe's hand	
+CF1B54	str	47	【透視】{rt}敵符咒士の手札を{rt}見ることができる	【Scry】{rt}Lets you see{rt}the foe's hand	
+CF1B84	str	27	【知識】{rt}カード３枚引く	【Lore】{rt}Draw 3 cards	
+CF1BA0	str	47	【送還】{rt}ダメージを与えた{rt}敵{I000}を手札へ戻す	【Banish】{rt}A foe {I000} it hurts{rt}returns to the hand	
+CF1BD0	str	35	【復活】{rt}破壊されると{rt}手札へ戻る	【Return】{rt}When destroyed,{rt}returns to the hand	
+CF1BF4	str	39	【貫通】{rt}地形効果を無視{rt}してダメージ	【Pierce】{rt}Damage ignores{rt}terrain effects	
+CF1C1C	str	39	【風水】{rt}全能力が{rt}摩尼総数×１０に	【Earth】{rt}All stats become{rt}total Mani x 10	
+CF1C44	str	35	【輪廻】{rt}山札を初期状態に{rt}戻す	【Samsara】{rt}Resets the draw{rt}pile to the start	
+CF1C68	str	47	【悟り】{rt}場で最速の{I000}と{rt}同じ{I014}ＳＰを得る	【Insight】{rt}Gets the {I014}SP of{rt}the fastest {I000}	
+CF1C98	str	39	【庇う】{rt}隣の{I000}を庇い{rt}攻撃から護る	【Cover】{rt}Shields the next{rt}{I000} from attacks	
+CF1CC0	str	39	【生贄】{rt}味方を破壊し{rt}能力値を吸収	【Sacrifice】{rt}Destroys an ally,{rt}absorbs its stats	
+CF1CE8	str	39	【変化】{rt}{I012}ＡＴが手札{rt}枚数×１０に	【Change】{rt}{I012}AT becomes{rt}hand size x 10	
+CF1D10	str	43	【盗み】{rt}敵符咒士の手札を{rt}ランダムに奪う	【Steal】{rt}Takes a random{rt}card of foe's hand	
+CF1D3C	str	43	【迷宮】{rt}敵{I000}の配置を時計{rt}回りに回転	【Maze】{rt}Turns foe {I000}{rt}places clockwise	
+CF1D68	str	43	【熱血】{rt}{I012}ＡＴ＋２０{rt}{I013}ＨＰ－２０	【Fervor】{rt}{I012}AT +20{rt}{I013}HP -20	
+CF1D94	str	43	【式神】{rt}敵符咒士の式神を{rt}ランダムに破壊	【Dispel】{rt}Destroys a random{rt}foe Shikigami	
+CF1DC0	str	19	【居合】{rt}先制攻撃	【Iai】{rt}Strikes first	
+CF1DD4	str	35	【速攻】{rt}配置した時点で{rt}オープン	【Haste】{rt}Turns face up{rt}when placed	
+CF1DF8	str	43	【調査】{rt}伏せられた{I000}を{rt}強制オープン	【Probe】{rt}Turns a face-down{rt}{I000} face up	
+CF1E24	str	47	【災厄】{rt}自分以外の全ての{rt}{I000}に２０ダメージ	【Calamity】{rt}20 damage to every{rt}other {I000}	
+CF1E54	str	43	【結界】{rt}自分と正面の敵を{rt}行動不能にする	【Barrier】{rt}It and the foe{rt}opposite can't act	
+CF1E80	str	31	【共鳴】{rt}同じ属性の{rt}摩尼＋１	【Echo】{rt}Same-element{rt}Mani +1	
+CF1EA0	str	31	【友情】{rt}配置すると{rt}ＡＰ＋４	【Bond】{rt}AP +4{rt}when placed	
+CF1EC0	str	35	【崩し】{rt}敵{I000}の{I014}ＳＰを{rt}半減	【Break】{rt}Halves a foe{rt}{I000}'s {I014}SP	
+CF1EE4	str	35	【分身】{rt}空きがあれば{rt}２枚に分身	【Clone】{rt}Splits in two{rt}if there's room	
+CF1F08	str	39	【再生】{rt}{I010}の{I000}に倒され{rt}たら復活	【Renew】{rt}Revives if beaten{rt}by a {I010}{I000}	
+CF1F30	str	47	【吸血】{rt}与えたダメージを{rt}自分のＨＰに加算	【Drain】{rt}Adds damage dealt{rt}to its own HP	
+CF1F60	str	35	【睡眠】{rt}敵{I000}を{I018}状態に{rt}する	【Sleep】{rt}Puts a foe {I000}{rt}into {I018}	
+CF1F84	str	35	【呪詛】{rt}{I000}を{I000}狂犬に{rt}変える	【Curse】{rt}Turns a {I000} into{rt}a {I000}Mad Dog	
+CF1FA8	str	39	【傀儡】{rt}{I000}を自分の{rt}手札に加える	【Puppet】{rt}Adds a {I000} to{rt}your hand	
+CF1FD0	str	43	【葉隠】{rt}{I013}を１０にし{rt}{I012}{I014}に加算	【Stealth】{rt}Sets {I013} to 10,{rt}adds it to {I012}{I014}	
+CF1FFC	str	19	【連続】{rt}２回攻撃	【Combo】{rt}Attacks twice	
+CF2010	str	47	【恩恵】{rt}使役者ターン終了{rt}時、ライフ＋１０	【Boon】{rt}Owner's turn end:{rt}Life +10	
+CF2040	str	31	【麻痺】{rt}敵{I000}を{I016}状態に	【Stun】{rt}Foe {I000} gets {I016}	
+CF2060	str	27	【毒】{rt}敵{I000}を{I017}状態に	【Poison】{rt}Foe {I000} gets {I017}	
+CF207C	str	43	【治療】{rt}味方の状態異常を{rt}治療及び防止	【Heal】{rt}Cures and prevents{rt}ally ailments	
+CF20A8	str	43	【蘇生】{rt}ターン中、破壊{rt}された味方を復活	【Revive】{rt}Revives allies lost{rt}this turn	
+CF20D4	str	27	【祝福】{rt}{I013}ＨＰを回復	【Blessing】{rt}Restores {I013}HP	
+CF20F0	str	35	【加護】{rt}味方の{I013}ＨＰを{rt}＋１０	【Aegis】{rt}Allies' {I013}HP{rt}+10	
+CF2114	str	35	【血気】{rt}味方の{I012}ＡＴを{rt}＋１０	【Vigor】{rt}Allies' {I012}AT{rt}+10	
+CF2138	str	35	【範囲】{rt}敵{I000}全体を{rt}攻撃する	【Area】{rt}Attacks every{rt}foe {I000}	
+CF215C	str	35	【跳躍】{rt}敵符咒士ターンを{rt}飛ばす	【Leap】{rt}Skips the foe{rt}player's turn	
+CF2180	str	35	【即{I009}】{rt}{I009}属性の{I000}を即死	【Slay】{I009}{rt}Kills {I009}{I000} at once	
+CF21A4	str	35	【即{I008}】{rt}{I008}属性の{I000}を即死	【Slay】{I008}{rt}Kills {I008}{I000} at once	
+CF21C8	str	35	【即{I007}】{rt}{I007}属性の{I000}を即死	【Slay】{I007}{rt}Kills {I007}{I000} at once	
+CF21EC	str	35	【即{I006}】{rt}{I006}属性の{I000}を即死	【Slay】{I006}{rt}Kills {I006}{I000} at once	
+CF2210	str	35	【即{I005}】{rt}{I005}属性の{I000}を即死	【Slay】{I005}{rt}Kills {I005}{I000} at once	
+CF2234	str	35	【即{I011}】{rt}{I011}属性の{I000}を即死	【Slay】{I011}{rt}Kills {I011}{I000} at once	
+CF2258	str	35	【即{I010}】{rt}{I010}属性の{I000}を即死	【Slay】{I010}{rt}Kills {I010}{I000} at once	
+CF227C	str	27	【見{I024}】{rt}{I024}攻撃を回避	【Dodge】{I024}{rt}Dodges {I024} attacks	
+CF2298	str	27	【見{I023}】{rt}{I023}攻撃を回避	【Dodge】{I023}{rt}Dodges {I023} attacks	
+CF22B4	str	27	【見{I022}】{rt}{I022}攻撃を回避	【Dodge】{I022}{rt}Dodges {I022} attacks	
+CF22D0	str	27	【見{I021}】{rt}{I021}攻撃を回避	【Dodge】{I021}{rt}Dodges {I021} attacks	
+CF22EC	str	27	【見{I020}】{rt}{I020}攻撃を回避	【Dodge】{I020}{rt}Dodges {I020} attacks	
+CF2308	str	47	【必{I009}】{rt}{I009}属性の{I000}に{rt}１．５倍ダメージ	【Bane】{I009}{rt}1.5x damage to{rt}{I009}-element {I000}	
+CF2338	str	47	【必{I008}】{rt}{I008}属性の{I000}に{rt}１．５倍ダメージ	【Bane】{I008}{rt}1.5x damage to{rt}{I008}-element {I000}	
+CF2368	str	47	【必{I007}】{rt}{I007}属性の{I000}に{rt}１．５倍ダメージ	【Bane】{I007}{rt}1.5x damage to{rt}{I007}-element {I000}	
+CF2398	str	47	【必{I006}】{rt}{I006}属性の{I000}に{rt}１．５倍ダメージ	【Bane】{I006}{rt}1.5x damage to{rt}{I006}-element {I000}	
+CF23C8	str	47	【必{I005}】{rt}{I005}属性の{I000}に{rt}１．５倍ダメージ	【Bane】{I005}{rt}1.5x damage to{rt}{I005}-element {I000}	
+CF23F8	str	47	【必{I011}】{rt}{I011}属性の{I000}に{rt}１．５倍ダメージ	【Bane】{I011}{rt}1.5x damage to{rt}{I011}-element {I000}	
+CF2428	str	47	【必{I010}】{rt}{I010}属性の{I000}に{rt}１．５倍ダメージ	【Bane】{I010}{rt}1.5x damage to{rt}{I010}-element {I000}	
+CF2458	str	43	【狙い】{rt}攻撃対象を選択{rt}後列からの攻撃可	【Aim】{rt}Picks its target;{rt}hits from back row	
+CF2484	str	43	【吹飛】{rt}敵を吹き飛ばし{rt}後列にもダメージ	【Blast】{rt}Blows foes back,{rt}hits the back row	
+CF24B0	str	67	憑依された{I000}の{rt}所有者はターン終{rt}了時に１０ダメー{rt}ジを受けます	The possessed {I000}'s{rt}owner takes 10{rt}damage at the end{rt}of each turn.	
+CF24F4	str	47	憑依された{I000}の{rt}属性を{I009}に変化{rt}させます	The possessed{rt}{I000}'s element{rt}becomes {I009}.	
+CF2524	str	47	憑依された{I000}の{rt}属性を{I008}に変化{rt}させます	The possessed{rt}{I000}'s element{rt}becomes {I008}.	
+CF2554	str	47	憑依された{I000}の{rt}属性を{I006}に変化{rt}させます	The possessed{rt}{I000}'s element{rt}becomes {I006}.	
+CF2584	str	47	憑依された{I000}の{rt}属性を{I005}に変化{rt}させます	The possessed{rt}{I000}'s element{rt}becomes {I005}.	
+CF25B4	str	51	憑依された{I000}は{rt}【連続】を得る{rt}ことができます	The possessed {I000}{rt}gains 【Combo】.	
+CF25E8	str	75	憑依された{I000}が{rt}破壊された時{rt}その{I000}のＡＰの{rt}半分の山札を{rt}捨てます	When the possessed{rt}{I000} is destroyed,{rt}discard draw-pile{rt}cards equal to half{rt}that {I000}'s AP.	
+CF2634	str	75	憑依された{I000}が{rt}{I010}の{I000}にダメージ{rt}を与えるとその{I000}{rt}を除去します	When the possessed{rt}{I000} damages a{rt}{I010}{I000}, that {I000}{rt}is removed.	
+CF2680	str	75	憑依された{I000}が{rt}{I011}の{I000}にダメージ{rt}を与えるとその{I000}{rt}を即死させます	When the possessed{rt}{I000} damages a{rt}{I011}{I000}, that {I000}{rt}dies at once.	
+CF26CC	str	63	憑依された{I000}は{rt}{I012}が３０以下の{rt}{I000}の攻撃を{rt}無効化します	The possessed {I000}{rt}nullifies attacks{rt}by {I000} with{rt}{I012} 30 or less.	
+CF270C	str	63	憑依された{I000}は{rt}{I012}が５０以上の{rt}{I000}の攻撃を{rt}無効化します	The possessed {I000}{rt}nullifies attacks{rt}by {I000} with{rt}{I012} 50 or more.	
+CF274C	str	67	憑依された{I000}は{rt}{I000}から攻撃を受け{rt}ると攻撃{I000}と{rt}自爆します	If the possessed{rt}{I000} is attacked by{rt}a {I000}, it blows up{rt}with that {I000}.	
+CF2790	str	51	憑依された{I000}は{rt}【狙い】を得る{rt}ことができます	The possessed {I000}{rt}gains 【Aim】.	
+CF27C4	str	51	憑依された{I000}は{rt}【吹飛】を得る{rt}ことができます	The possessed {I000}{rt}gains 【Blast】.	
+CF27F8	str	83	憑依された{I000}は{rt}術以外の攻撃を{rt}反射します{rt}自分から攻撃する{rt}ことはできません	The possessed {I000}{rt}reflects all but{rt}Art attacks, and{rt}can't attack on{rt}its own.	
+CF284C	str	87	憑依された{I000}は{rt}摩尼能力が使えな{rt}くなり、地形効果{rt}を受けることが{rt}できなくなります	The possessed {I000}{rt}can't use Mani{rt}abilities or get{rt}terrain effects.	
+CF28A4	str	47	憑依された{I000}は{rt}一切能力が{rt}使えなくなります	The possessed {I000}{rt}can't use any{rt}abilities.	
+CF28D4	str	67	憑依された{I000}は{rt}与えたり受けたり{rt}する戦闘ダメージ{rt}を０にします	The possessed {I000}{rt}deals and takes{rt}no battle{rt}damage.	
+CF2918	str	59	憑依された{I000}が{rt}受けたダメージを{rt}符咒士本体に{rt}移します	Damage to the{rt}possessed {I000}{rt}goes to its{rt}Talismancer.	
+CF2954	str	51	憑依された{I000}は{rt}法術符の効果の{rt}対象になりません	The possessed {I000}{rt}can't be targeted{rt}by Spell effects.	
+CF2988	str	67	憑依された{I000}は{rt}他の式神による{rt}能力や憑依の{rt}対象になりません	The possessed {I000}{rt}can't be targeted{rt}by other Shikigami{rt}abilities or{rt}possession.	
+CF29CC	str	47	憑依された{I000}は{rt}状態不能を無効化{rt}できます	The possessed {I000}{rt}is immune to{rt}disabling ailments.	
+CF29FC	str	51	憑依された{I000}は{rt}墓地に送られた時{rt}場に戻ります	When the possessed{rt}{I000} goes to the{rt}graveyard, it{rt}returns to the field.	
+CF2A30	str	43	攻撃する{I000}の{rt}【見切】を無効化{rt}します	Nullifies the{rt}attacking {I000}'s{rt}【Dodge】.	
+CF2A5C	str	83	憑依された{I000}が{rt}次ターン終了時に{rt}場に残っていると{rt}全ての{I000}が破壊さ{rt}れます	If the possessed{rt}{I000} is on the{rt}field at the end of{rt}next turn, every{rt}{I000} is destroyed.	
+CF2AB0	str	63	符咒士の{I000}全てが{rt}憑依された{I000}と{rt}同じ{I014}に変化しま{rt}す	The Talismancer's{rt}{I000} all take the{rt}same {I014} as the{rt}possessed {I000}.	
+CF2AF0	str	51	憑依された{I000}が{rt}墓地に送られた時{rt}手札に戻ります	When the possessed{rt}{I000} goes to the{rt}graveyard, it{rt}returns to the hand.	
+CF2B24	str	67	自分のターンの{rt}終了時にもう一度{rt}攻撃フェイズを{rt}行う事ができます	At the end of your{rt}turn, you get{rt}another attack{rt}phase.	
+CF2B68	str	55	場から自分の墓地{rt}に行った{I000}を伏せ{rt}て場に戻します	A {I000} sent from{rt}the field to your{rt}graveyard returns{rt}face down.	
+CF2BA0	str	51	自分のターンの{rt}ドローフェイズに{rt}２枚ドローします	Draw 2 cards in{rt}your draw phase.	
+CF2BD4	str	75	毎ターンの終了時{rt}場にいる{I001}がつい{rt}ている{I000}に１０ダ{rt}メージを与えます	At each turn's end,{rt}the {I000} that a{rt}{I001} is on takes{rt}10 damage.	
+CF2C20	str	47	敵符咒士の墓地に{rt}行った全ての符を{rt}除去します	Removes every{rt}talisman in the{rt}foe's graveyard.	
+CF2C50	str	43	全ての{I000}の消費{rt}ＡＰが２倍になり{rt}ます	Every {I000}'s AP{rt}cost is{rt}doubled.	
 CF2C7C	str	31	{I000}の交換ができな{rt}くなります		
 CF2C9C	str	95	{I000}がターン始めに{rt}オープンしません{rt}全{I000}が伏せてある{rt}時と場に無い時に{rt}休戦は破壊される		
 CF2CFC	str	31	味方{I000}が【速攻】{rt}を得ます		

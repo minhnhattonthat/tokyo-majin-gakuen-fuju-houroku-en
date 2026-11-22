@@ -31,6 +31,8 @@ HDR = ['id', 'kind', 'max', 'jp', 'en', 'notes']
 # ---- ADAPTER ----
 TOKEN = re.compile(r'\{[^{}]+\}|\[[0-9A-F]{2}\]')
 FREE = {'{rt}', '{nl}'}         # line breaks: the English places them (system rows) or merge does (dialogue)
+# a raw Shift-JIS glyph written as bytes ([81][40] full-width space, [82][61] Ｂ ..): text in a fixed cell, not a code
+RAW_GLYPH = re.compile(r'\[(?:8[1-9A-F]|9[0-9A-F]|E[0-9A-F]|F[0-9A-C])\]\[[0-9A-F]{2}\]')
 VARIABLE = r'\{(?:name[12]|&[^}]*)\}'
 # honorific after a name (kanji / katakana run, or a name code) -> EN form; kinship words are not honorifics
 HONORIFICS = {'さん': '-san', 'くん': '-kun', 'ちゃん': '-chan', '先輩': '-senpai', '様': '-sama'}
@@ -141,8 +143,8 @@ def problems(row, en, terms, enc=None):
         out.append('escape sequence or tab in the English')
     if dlg and '{rt}' in en:
         out.append('dialogue body has {rt}: merge wraps it')
-    want = Counter(t for t in TOKEN.findall(src) if t not in FREE)
-    have = Counter(t for t in TOKEN.findall(en) if t not in FREE)
+    want = Counter(t for t in TOKEN.findall(RAW_GLYPH.sub('', src)) if t not in FREE)
+    have = Counter(t for t in TOKEN.findall(RAW_GLYPH.sub('', en)) if t not in FREE)
     if want != have:
         out.append(f'control codes differ: JP {dict(want)} EN {dict(have)}')
     if re.search(VARIABLE + r'(st|nd|rd|th)\b', en):
