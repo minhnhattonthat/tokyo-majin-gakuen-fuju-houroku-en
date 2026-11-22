@@ -12,6 +12,7 @@ Groups (docs/re/graphics.md rows):
 - dungeon_menu (W3): the dungeon menu's BG2 screen (tiles 0xC24E08, map 0xC25DC8) rebuilt from gfx/dungeon_menu.tsv.
 """
 import csv
+import struct
 import sys
 from pathlib import Path
 
@@ -258,8 +259,100 @@ def floor_numerals(rom):
     return out
 
 
+def signs(rom):
+    """4bpp sign boards with their own palette (gfx/signs.tsv; detour map W2: tools/gfx_signs.py)"""
+    import gfx_signs
+    out = []
+    for r in rows('signs'):
+        a, cols, nrows = int(r['offset'], 16), int(r['cols']), int(r['rows'])
+        n = cols * nrows
+        px = decode(rom[a:a + 32 * n], cols, n)
+        gfx_signs.reletter(px, gfx_signs.pal_rgb(rom, int(r['pal'], 16)), r['en'], r['dir'] == 'v', int(r['size']),
+                           FONT, light_ink=r['ink'] == 'light')
+        rom[a:a + 32 * n] = encode(px, cols)
+        out.append((a, a + 32 * n))
+    return out
+
+
+def letter_levels(text, w, h, size, levels, rim, align='left'):
+    """like letter(), but ink alpha picks from `levels` (palette indices dark to bright, need not be contiguous)
+    and text sits 1 px from the left edge (align='left') or centred"""
+    px = letter(text, w, h, size, ramp=(1, len(levels), 0)) if align == 'center' else None
+    if px is None:
+        font = ImageFont.truetype(str(FONT), size)
+        img = Image.new('L', (w, h), 0)
+        d = ImageDraw.Draw(img)
+        l, t, r, b = d.textbbox((0, 0), text, font=font)
+        while r - l > w - 2 and size > 8:
+            size -= 1
+            font = ImageFont.truetype(str(FONT), size)
+            l, t, r, b = d.textbbox((0, 0), text, font=font)
+        d.text((1 - l, (h - (b - t)) // 2 - t), text, font=font, fill=255)
+        a = img.load()
+        px = [[0 if a[x, y] < 40 else 1 + round((a[x, y] - 40) / 215 * (len(levels) - 1)) for x in range(w)]
+              for y in range(h)]
+    out = [[levels[v - 1] if v else 0 for v in row] for row in px]
+    for y in range(h):
+        for x in range(w):
+            if not out[y][x] and any(0 <= y + j < h and 0 <= x + i < w and px[y + j][x + i]
+                                     for j in (-1, 0, 1) for i in (-1, 0, 1)):
+                out[y][x] = rim
+    return out
+
+
+# Settings screen (W7, S21/S22): BG2 screen (palette 0xD19814, 105 tiles 0xD19834, 30x20 map 0xD1A554, pointers at
+# 0xD1BB5C/64/6C) holds the 設定 banner and the five labels in white; the selected label is a yellow 64x16 sprite
+# pair over it and each value a 32x16 sprite, all at 0xD1AA24 (k * 0x100, 4x2 tiles; palette 0xD1AA04: 1-3 shadow,
+# 12-15 yellow, 5-7 green, 8-11 blue). BG labels sit at the sprites' screen positions (x 56, map = screen).
+SET_TILES, SET_MAP, SET_PTRS, SET_NTILES = 0xD19834, 0xD1A554, 0xD1BB64, 105
+SET_SPR = 0xD1AA24
+SET_RAMPS = {'yellow': [12, 13, 14, 15], 'green': [4, 5, 6, 7], 'blue': [8, 9, 10, 11], 'white': [10, 12, 14, 15]}
+
+
+def settings_screen(rom):
+    import gfx_signs
+    out = []
+    labels = rows('settings')
+    for r in labels:
+        if r['kind'] == 'sprite':
+            k, w = int(r['slot']), int(r['w'])
+            px = letter_levels(r['en'], w, 16, 12, SET_RAMPS[r['ramp']], 1)
+            data = b''.join(encode([row[x:x + 32] for row in px], 4) for x in range(0, w, 32))
+            a = SET_SPR + k * 0x100
+            rom[a:a + len(data)] = data
+            out.append((a, a + len(data)))
+    ents = struct.unpack_from('<600H', rom, SET_MAP)
+    canvas = [[0] * 240 for _ in range(160)]
+    for i, e in enumerate(ents):
+        n = e & 0x3FF
+        t = decode(rom[SET_TILES + 32 * n:SET_TILES + 32 * n + 32], 1, 1)
+        for y in range(8):
+            for x in range(8):
+                canvas[i // 30 * 8 + y][i % 30 * 8 + x] = t[7 - y if e & 0x800 else y][7 - x if e & 0x400 else x]
+    for r in labels:
+        if r['kind'] == 'sprite':
+            continue
+        x, y, w, h = int(r['x']), int(r['y']), int(r['w']), int(r['h'])
+        if r['kind'] == 'bg':
+            px = letter_levels(r['en'], w, h, 12, SET_RAMPS['white'], 1)
+            for yy in range(h):
+                canvas[y + yy][x:x + w] = px[yy]
+        elif r['kind'] == 'board':
+            sub = [row[x:x + w] for row in canvas[y:y + h]]
+            gfx_signs.reletter(sub, gfx_signs.pal_rgb(rom, SET_TILES - 32), r['en'], False, 13, FONT, light_ink=True,
+                               inset=2)
+            for yy in range(h):
+                canvas[y + yy][x:x + w] = sub[yy]
+    tiles, mp = tile_bg(canvas, 30, 20, SET_NTILES, bank=0x1000)
+    rom[SET_TILES:SET_TILES + len(tiles)] = tiles
+    rom[SET_MAP:SET_MAP + len(mp)] = mp
+    out += [(SET_TILES, SET_TILES + len(tiles)), (SET_MAP, SET_MAP + len(mp))]
+    return out
+
+
 GROUPS = {'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': dungeon_menu,
-          'room_banners': room_banners, 'floor_numerals': floor_numerals}
+          'room_banners': room_banners, 'floor_numerals': floor_numerals, 'signs': signs,
+          'settings_screen': settings_screen}
 
 
 def apply(rom):

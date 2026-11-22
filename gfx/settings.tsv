@@ -1,0 +1,18 @@
+kind	slot	ramp	x	y	w	h	jp	en
+board			84	8	72	32	設定	Settings
+bg			56	48	64	16	文字表示	Text Speed
+bg			56	64	64	16	エフェクト	Effects
+bg			56	80	64	16	セリフ	Dialogue
+bg			56	96	64	16	ボイス	Voices
+bg			56	128	64	16	設定終了	Exit
+sprite	0	yellow			64	16	文字表示	Text Speed
+sprite	2	yellow			64	16	エフェクト	Effects
+sprite	4	yellow			64	16	セリフ	Dialogue
+sprite	6	yellow			64	16	ボイス	Voices
+sprite	8	yellow			64	16	設定終了	Exit
+sprite	10	blue			32	16	遅い	Slow
+sprite	11	green			32	16	普通	Mid
+sprite	12	blue			32	16	速い	Fast
+sprite	13	green			32	16	有り	On
+sprite	14	blue			32	16	無し	Off
+sprite	15	yellow			64	16	サウンドテスト	Sound Test

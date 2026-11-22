@@ -1,0 +1,28 @@
+# title (no save): 設定 -> settings, then cycle the values: text speed left twice (slow) and right (fast),
+# effects right (off); one shot per state with --shot-every
+1400 -
+4 start
+200 -
+6 right
+40 -
+6 a
+400 -
+6 left
+60 -
+6 down
+60 -
+6 right
+60 -
+6 up
+60 -
+6 right
+60 -
+6 right
+60 -
+6 down
+6 down
+6 down
+6 down
+60 -
+6 down
+60 -
