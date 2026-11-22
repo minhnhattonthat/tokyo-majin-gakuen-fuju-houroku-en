@@ -4,19 +4,27 @@ Sheets (sprite table 0xD81CC0 / 0xD81CCC, entries tiles, palette, 0):
 - buttons 0xC66C18, OBJ bank 3 (grey ramp 1 dark .. 15 white, background 6): 32x16 halves (4x2 tiles, 0x100 B),
   a button is `halves` consecutive halves. Frame: row 0 and col 0 light, row 15 and the right columns dark.
 - category tabs 0xC67D38, OBJ bank 13 (amber ramp, background 7): 13 entries of 0x200 B, each a 32x16 left half and
-  a 32x16 right half (diagonal stripes from x ~45). In OBJ VRAM the left halves sit at tiles 494 + 8k and ONE right
-  half at 598, which every tab's OAM uses (tried: making the right halves differ in ROM changes nothing, the game
-  still shows tab 0's). Tabs 0-3 carry a 16x16 全 badge at x 48-63 (separate OBJ). Rows of kind tab_todo wait for
-  that loader/OAM code to be found.
+  a 32x16 right half (diagonal stripes from x ~45): tabs 0-6, then sort keys かな AP AT SP HP 価値. The game shared
+  one right half across tabs; tools/patches.py (TABS_FN) loads the block TAB_RIGHTS written here (tab k's redrawn
+  right half at k * 0x100, then entry 7's blank one), so each tab draws its own 48 px (tabs 0-3: the 16x16 全 badge
+  covers x 48-63) or 62 px (tabs 4-6). Sort keys show x 0-31 only (order badge on the right half).
+- order badges 正順 逆順 降順 昇順 and kana-row badges あ行..わ行 0xC6B118 (kinds plate / plate_hi, bank 5).
+- 全 badge 0xC6BF18 (kind badge: one 16x16 OBJ, bank 5) beside tabs 0-3.
 
 Each row: clear the interior x0..x1, rows 1..14, to the background colour (tabs keep the stripe run at the right
 end of each row), then letter `en` centred in it with gfx.letter (Liberation Sans Bold, dark rim).
 """
 import gfx
+import patches
 
 SIZE = 12
+TAB_SHEET = 0xC67D38
 BTN = dict(bg=6, ramp=(11, 15, 1))
 TAB = dict(bg=7, ramp=(12, 15, 1))
+BADGE = (12, 15, 1)   # 全 badge 0xC6BF18, OBJ bank 5: rim 1, fill 5-7, ink c-f
+# badges 0xC6B118 (bank 5, 0x100 each): plate = brown fill 5, light ink, dark shadow; plate_hi = the selected
+# variant (light fill 14, dark ink; the shadow index equals the fill, so none shows)
+PLATE = {'plate': (5, (12, 15, 1)), 'plate_hi': (14, (2, 1, 14))}
 
 
 def halves_px(rom, a, n):
@@ -81,11 +89,59 @@ def deck_edit(rom):
             px = redraw(halves_px(rom, a, n), x0, x1, r['en'], **BTN)
         elif r['kind'] == 'tab':
             px = redraw(halves_px(rom, a, n), x0, x1, r['en'], keep_stripes=True, **TAB)
-        else:   # tab_todo: the game draws every tab's right half from one shared block (OBJ tile 598), not yet
-            continue   # per tab; see docs/status.md
+        elif r['kind'] == 'badge':   # one 16x16 OBJ (2x2 tiles)
+            px = gfx.decode(rom[a:a + 0x80], 2, 4)
+            for y in range(2, 13):
+                for x in range(x0, x1 + 1):
+                    px[y][x] = 7
+            lab = shadowed(r['en'], x1 - x0 + 1, 11, 9, BADGE)
+            for y in range(11):
+                for x in range(x1 - x0 + 1):
+                    if lab[y][x]:
+                        px[2 + y][x0 + x] = lab[y][x]
+            rom[a:a + 0x80] = gfx.encode(px, 2)
+            out.append((a, a + 0x80))
+            continue
+        elif r['kind'] == 'popup':   # 128x32 = two 64x32 OBJs (8x4 tiles, 0x400 each); en lines split by '|'
+            px = [a_ + b_ for a_, b_ in zip(gfx.decode(rom[a:a + 0x400], 8, 32), gfx.decode(rom[a + 0x400:a + 0x800], 8, 32))]
+            lines = r['en'].split('|')
+            h = (30 - 2) // len(lines)
+            for y in range(2, 30):
+                for x in range(x0, x1 + 1):
+                    px[y][x] = 4
+            for i, line in enumerate(lines):
+                lab = shadowed(line, x1 - x0 + 1, h, 11, (12, 15, 1))
+                for y in range(h):
+                    for x in range(x1 - x0 + 1):
+                        if lab[y][x]:
+                            px[2 + i * h + y][x0 + x] = lab[y][x]
+            data = gfx.encode([row[:64] for row in px], 8) + gfx.encode([row[64:] for row in px], 8)
+            rom[a:a + 0x800] = data
+            out.append((a, a + 0x800))
+            continue
+        elif r['kind'] in PLATE:   # order / kana-row badges 0xC6B118: one 32x16 half, interior rows 3-11
+            bg, ramp = PLATE[r['kind']]
+            px = halves_px(rom, a, 1)
+            for y in range(3, 12):
+                for x in range(x0, x1 + 1):
+                    px[y][x] = bg
+            lab = shadowed(r['en'], x1 - x0 + 1, 9, 10, ramp)
+            for y in range(9):
+                for x in range(x1 - x0 + 1):
+                    if lab[y][x]:
+                        px[3 + y][x0 + x] = lab[y][x]
+        else:
+            raise ValueError('gfx/deck_edit.tsv: unknown kind %r' % r['kind'])
         data = px_halves(px, n)
         rom[a:a + len(data)] = data
         out.append((a, a + len(data)))
+    # the tabs' own right halves, contiguous, for the loader patch in tools/patches.py (TABS_FN)
+    blk = b''.join(rom[TAB_SHEET + k * 0x200 + 0x100:TAB_SHEET + k * 0x200 + 0x200] for k in (0, 1, 2, 3, 4, 5, 6, 7))
+    end = patches.TAB_RIGHTS + len(blk)
+    if rom[patches.TAB_RIGHTS:end] not in (b'\xff' * len(blk), blk):
+        raise ValueError('TAB_RIGHTS %X-%X is not free' % (patches.TAB_RIGHTS, end))
+    rom[patches.TAB_RIGHTS:end] = blk
+    out.append((patches.TAB_RIGHTS, end))
     return out
 
 
@@ -108,7 +164,7 @@ def preview(out, pal_bin=None, zoom=3):
     img = Image.new('RGB', (2 * 100, 18 * len(rws)), (0, 0, 0))
     for i, r in enumerate(rws):
         a, n = int(r['offset'], 16), int(r['halves'])
-        cols = rgb(3 if r['kind'] == 'btn' else 13)
+        cols = rgb({'btn': 3, 'tab': 13}.get(r['kind'], 5))
         for j, src in enumerate((orig, new)):
             px = halves_px(src, a, n)
             for y in range(16):
