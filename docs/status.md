@@ -17,8 +17,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `tools/windows.tsv`, run by `tests/test_fit.py`); dialogue bodies are wrapped by merge (2 rows, 232/218 px,
   about 65 chars). Phase 6 done-when: batch check 0 errors everywhere, glossary current, a review pass with no
   Critical/Important (do it as a fresh read-only pass per chapter; codex once its limit resets).
-- **Next:** d1 is done (b089). CF is split into b090-b096 (b090 merged: prompts, ability tags, possession
-  effects); translate b091-b096 with the card-game terms in the glossary notes ("Card game"), then
+- **Next:** d1 is done (b089). CF is split into b090-b096 (b090-b091 merged: prompts, ability tags, possession
+  effects, spell text); translate b092-b096 with the card-game terms in the glossary notes ("Card game"), then
   `split --only D6` (1 556) (ids are hex addresses: the --only prefix is upper case), a few batches per context;
   budgets come from `tools/windows.tsv`. Then the per-chapter review pass. The fit
   lint's unit budgets depend on the encoder built from all text, so new merges can push an old row over (B04.0181
