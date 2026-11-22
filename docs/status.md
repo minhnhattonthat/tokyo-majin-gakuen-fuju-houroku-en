@@ -28,8 +28,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (G4) is English in game (`work/qa/gfx_title/menu_zoom.png`, selected item keeps its yellow palette). Full warp
   tour of the English build into `work/qa/tour_en/` (`--states` regenerated `work/states/`); visual-QA brief with
   this game's standing non-bugs in `docs/visual-qa-brief.md`.
-- **Next (phase 8):** `qa_gate.py init work/qa/manifest.tsv work/qa/tour_en --build build/tmgfh_en.gba` (a tour run
-  partly before the title-menu rebuild: text identical, re-run `title*` rows), the same tour on `rom/base.gba` into
+  Tour result: 193/194 ok; `story_27` FAIL "blank final" (check whether the JP ROM does the same, else extend its
+  hold). `work/qa/manifest.tsv` initialised: 217 sheets, 0 verdicts yet (tour ran partly before the title-menu
+  rebuild: text identical, re-run the `title*` rows).
+- **Next (phase 8):** the same tour on `rom/base.gba` into
   `work/qa/tour_jp`, then visual-QA verdicts per chunk (`qa_gate.py todo ... --size 30`; read-only reviewer per
   chunk, or `codex exec -s read-only` after 2026-11-26; in an Orca worker read the sheets in a fresh pass and keep
   each chunk's verdicts in its own file); graphics-text redraws, next PUSH START (0xD25B30), then the other
