@@ -51,7 +51,10 @@ NCODES = len(LEADS) * 255      # trail byte 01-FF (never 00: the game ends strin
 PAL = 0xC000                   # palette 12, as the original sets for Shift-JIS glyphs
 SPACE_ADV = 4
 FROM_ROM = '【】「」『』'        # brackets cropped from the game's own font (speaker tags, quotes)
-EXTRA = '…—“”‘’♪é' + FROM_ROM    # non-ASCII characters, char bytes 0x80 + index
+TIGHT = {'ţ': ('t', 5), 'ş': ('s', 5), 'Ţ': ('T', 5), 'Ş': ('S', 6), 'Ç': ('C', 6)}   # (letter, advance): the
+#                                  letter set closer to the next, so name-entry syllables tsu / Tsu / Shi / Chi fit
+#                                  one 16 px cell (script/system/d6.tsv name grids; docs/re/text.md §Name entry)
+EXTRA = '…—“”‘’♪é' + FROM_ROM + ''.join(TIGHT)    # non-ASCII characters, char bytes 0x80 + index
 CHAR_BYTE = {chr(c): c for c in range(0x20, 0x7F) if chr(c) not in '\\^`{|}'}   # {} [] are script notation
 CHAR_BYTE.update({ch: 0x80 + i for i, ch in enumerate(EXTRA)})
 NORMALIZE = {'　': ' ', '！': '!', '？': '?', '～': '~', '・': '·'}
@@ -126,6 +129,8 @@ def load_font(rom):
         x0, x1 = cols[0], cols[-1]
         px = [[g[y][x + x0] if x + x0 <= x1 else 0 for x in range(16)] for y in range(16)]
         out[ch] = (px, x1 - x0 + 1, x1 - x0 + 2)
+    for ch, (base, a) in TIGHT.items():
+        out[ch] = (out[base][0], out[base][1], a)
     missing = set(CHAR_BYTE) - set(out)
     if missing:
         raise ValueError('font lacks %s' % ''.join(sorted(missing)))

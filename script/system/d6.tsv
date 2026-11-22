@@ -1101,42 +1101,42 @@ D6E3D4	str	15	同期テスト中	Sync test
 D6E3E4	str	35	相手の行動中です{rt}お待ちください{wc}	Opponent is moving.{rt}Please wait.{wc}	
 D6E408	str	35	相手選択中です{rt}お待ちください{wc}	Foe is choosing.{rt}Please wait.{wc}	
 D6E42C	str	31	相手の決定を{rt}待っています{wc}	Waiting for{rt}the foe.{wc}	
-D6E56C	grid	11	ー　　　　		
-D6E578	grid	11	ぱぴぷぺぽ		
-D6E584	grid	11	ゃゅょっ　		
-D6E590	grid	11	ぁぃぅぇぉ		
-D6E59C	grid	11	ばびぶべぼ		
-D6E5A8	grid	11	だぢづでど		
-D6E5B4	grid	11	ざじずぜぞ		
-D6E5C0	grid	11	がぎぐげご		
-D6E5CC	grid	11	わ　を　ん		
-D6E5D8	grid	11	らりるれろ		
-D6E5E4	grid	11	や　ゆ　よ		
-D6E5F0	grid	11	まみむめも		
-D6E5FC	grid	11	はひふへほ		
-D6E608	grid	11	なにぬねの		
-D6E614	grid	11	たちつてと		
-D6E620	grid	11	さしすせそ		
-D6E62C	grid	11	かきくけこ		
-D6E638	grid	11	あいうえお		
-D6E644	grid	11	パピプペポ		
-D6E650	grid	11	ャュョッヴ		
-D6E65C	grid	11	ァィゥェォ		
-D6E668	grid	11	バビブベボ		
-D6E674	grid	11	ダヂヅデド		
-D6E680	grid	11	ザジズゼゾ		
-D6E68C	grid	11	ガギグゲゴ		
-D6E698	grid	11	ワ　ヲ　ン		
-D6E6A4	grid	11	ラリルレロ		
-D6E6B0	grid	11	ヤ　ユ　ヨ		
-D6E6BC	grid	11	マミムメモ		
-D6E6C8	grid	11	ハヒフヘホ		
-D6E6D4	grid	11	ナニヌネノ		
-D6E6E0	grid	11	タチツテト		
-D6E6EC	grid	11	サシスセソ		
-D6E6F8	grid	11	カキクケコ		
-D6E704	grid	11	アイウエオ		
-D6E710	grid	11	わ　　　　		
+D6E56C	grid	11	ー　　　　	-¦[81][40]¦[81][40]¦[81][40]¦[81][40]	
+D6E578	grid	11	ぱぴぷぺぽ	pa¦pi¦pu¦pe¦po	
+D6E584	grid	11	ゃゅょっ　	t¦p¦s¦g¦[81][40]	
+D6E590	grid	11	ぁぃぅぇぉ	k¦sh¦ch¦j¦r	
+D6E59C	grid	11	ばびぶべぼ	ba¦bi¦bu¦be¦bo	
+D6E5A8	grid	11	だぢづでど	da¦ji¦zu¦de¦do	
+D6E5B4	grid	11	ざじずぜぞ	za¦ji¦zu¦ze¦zo	
+D6E5C0	grid	11	がぎぐげご	ga¦gi¦gu¦ge¦go	
+D6E5CC	grid	11	わ　を　ん	wa¦[81][40]¦wo¦[81][40]¦n	
+D6E5D8	grid	11	らりるれろ	ra¦ri¦ru¦re¦ro	
+D6E5E4	grid	11	や　ゆ　よ	ya¦[81][40]¦yu¦[81][40]¦yo	
+D6E5F0	grid	11	まみむめも	ma¦mi¦mu¦me¦mo	
+D6E5FC	grid	11	はひふへほ	ha¦hi¦fu¦he¦ho	
+D6E608	grid	11	なにぬねの	na¦ni¦nu¦ne¦no	
+D6E614	grid	11	たちつてと	ta¦chi¦ţşu¦te¦to	
+D6E620	grid	11	さしすせそ	sa¦shi¦su¦se¦so	
+D6E62C	grid	11	かきくけこ	ka¦ki¦ku¦ke¦ko	
+D6E638	grid	11	あいうえお	a¦i¦u¦e¦o	
+D6E644	grid	11	パピプペポ	Pa¦Pi¦Pu¦Pe¦Po	
+D6E650	grid	11	ャュョッヴ	T¦P¦S¦G¦V	
+D6E65C	grid	11	ァィゥェォ	K¦Sh¦Ch¦J¦R	
+D6E668	grid	11	バビブベボ	Ba¦Bi¦Bu¦Be¦Bo	
+D6E674	grid	11	ダヂヅデド	Da¦Ji¦Zu¦De¦Do	
+D6E680	grid	11	ザジズゼゾ	Za¦Ji¦Zu¦Ze¦Zo	
+D6E68C	grid	11	ガギグゲゴ	Ga¦Gi¦Gu¦Ge¦Go	
+D6E698	grid	11	ワ　ヲ　ン	Wa¦[81][40]¦Wo¦[81][40]¦N	
+D6E6A4	grid	11	ラリルレロ	Ra¦Ri¦Ru¦Re¦Ro	
+D6E6B0	grid	11	ヤ　ユ　ヨ	Ya¦[81][40]¦Yu¦[81][40]¦Yo	
+D6E6BC	grid	11	マミムメモ	Ma¦Mi¦Mu¦Me¦Mo	
+D6E6C8	grid	11	ハヒフヘホ	Ha¦Hi¦Fu¦He¦Ho	
+D6E6D4	grid	11	ナニヌネノ	Na¦Ni¦Nu¦Ne¦No	
+D6E6E0	grid	11	タチツテト	Ta¦Çhi¦Ţşu¦Te¦To	
+D6E6EC	grid	11	サシスセソ	Sa¦Şhi¦Su¦Se¦So	
+D6E6F8	grid	11	カキクケコ	Ka¦Ki¦Ku¦Ke¦Ko	
+D6E704	grid	11	アイウエオ	A¦I¦U¦E¦O	
+D6E710	grid	11	わ　　　　	wa¦[81][40]¦[81][40]¦[81][40]¦[81][40]	
 D6E71C	str	19	【能力】　　　　	【Abilities】	
 D6E730	str	19	【アイコン】　　	【Icons】	
 D6E744	str	19	【攻撃】　　　　	【Attack】	
@@ -1528,42 +1528,42 @@ D72C98	str	27	選択した符を{rt}捨てました。	Discarded the{rt}chosen c
 D72CB4	str	15	現在の持ち符は	Cards you now own:	
 D72CC4	str	11	人物符総数	Characters	
 D72CD0	str	11	土地符総数	Lands	
-D72F00	grid	11	ー　　　　		
-D72F0C	grid	11	ぱぴぷぺぽ		
-D72F18	grid	11	ゃゅょっ　		
-D72F24	grid	11	ぁぃぅぇぉ		
-D72F30	grid	11	ばびぶべぼ		
-D72F3C	grid	11	だぢづでど		
-D72F48	grid	11	ざじずぜぞ		
-D72F54	grid	11	がぎぐげご		
-D72F60	grid	11	わ　を　ん		
-D72F6C	grid	11	らりるれろ		
-D72F78	grid	11	や　ゆ　よ		
-D72F84	grid	11	まみむめも		
-D72F90	grid	11	はひふへほ		
-D72F9C	grid	11	なにぬねの		
-D72FA8	grid	11	たちつてと		
-D72FB4	grid	11	さしすせそ		
-D72FC0	grid	11	かきくけこ		
-D72FCC	grid	11	あいうえお		
-D72FD8	grid	11	パピプペポ		
-D72FE4	grid	11	ャュョッヴ		
-D72FF0	grid	11	ァィゥェォ		
-D72FFC	grid	11	バビブベボ		
-D73008	grid	11	ダヂヅデド		
-D73014	grid	11	ザジズゼゾ		
-D73020	grid	11	ガギグゲゴ		
-D7302C	grid	11	ワ　ヲ　ン		
-D73038	grid	11	ラリルレロ		
-D73044	grid	11	ヤ　ユ　ヨ		
-D73050	grid	11	マミムメモ		
-D7305C	grid	11	ハヒフヘホ		
-D73068	grid	11	ナニヌネノ		
-D73074	grid	11	タチツテト		
-D73080	grid	11	サシスセソ		
-D7308C	grid	11	カキクケコ		
-D73098	grid	11	アイウエオ		
-D730A4	grid	11	わ　　　　		
+D72F00	grid	11	ー　　　　	-¦[81][40]¦[81][40]¦[81][40]¦[81][40]	
+D72F0C	grid	11	ぱぴぷぺぽ	pa¦pi¦pu¦pe¦po	
+D72F18	grid	11	ゃゅょっ　	t¦p¦s¦g¦[81][40]	
+D72F24	grid	11	ぁぃぅぇぉ	k¦sh¦ch¦j¦r	
+D72F30	grid	11	ばびぶべぼ	ba¦bi¦bu¦be¦bo	
+D72F3C	grid	11	だぢづでど	da¦ji¦zu¦de¦do	
+D72F48	grid	11	ざじずぜぞ	za¦ji¦zu¦ze¦zo	
+D72F54	grid	11	がぎぐげご	ga¦gi¦gu¦ge¦go	
+D72F60	grid	11	わ　を　ん	wa¦[81][40]¦wo¦[81][40]¦n	
+D72F6C	grid	11	らりるれろ	ra¦ri¦ru¦re¦ro	
+D72F78	grid	11	や　ゆ　よ	ya¦[81][40]¦yu¦[81][40]¦yo	
+D72F84	grid	11	まみむめも	ma¦mi¦mu¦me¦mo	
+D72F90	grid	11	はひふへほ	ha¦hi¦fu¦he¦ho	
+D72F9C	grid	11	なにぬねの	na¦ni¦nu¦ne¦no	
+D72FA8	grid	11	たちつてと	ta¦chi¦ţşu¦te¦to	
+D72FB4	grid	11	さしすせそ	sa¦shi¦su¦se¦so	
+D72FC0	grid	11	かきくけこ	ka¦ki¦ku¦ke¦ko	
+D72FCC	grid	11	あいうえお	a¦i¦u¦e¦o	
+D72FD8	grid	11	パピプペポ	Pa¦Pi¦Pu¦Pe¦Po	
+D72FE4	grid	11	ャュョッヴ	T¦P¦S¦G¦V	
+D72FF0	grid	11	ァィゥェォ	K¦Sh¦Ch¦J¦R	
+D72FFC	grid	11	バビブベボ	Ba¦Bi¦Bu¦Be¦Bo	
+D73008	grid	11	ダヂヅデド	Da¦Ji¦Zu¦De¦Do	
+D73014	grid	11	ザジズゼゾ	Za¦Ji¦Zu¦Ze¦Zo	
+D73020	grid	11	ガギグゲゴ	Ga¦Gi¦Gu¦Ge¦Go	
+D7302C	grid	11	ワ　ヲ　ン	Wa¦[81][40]¦Wo¦[81][40]¦N	
+D73038	grid	11	ラリルレロ	Ra¦Ri¦Ru¦Re¦Ro	
+D73044	grid	11	ヤ　ユ　ヨ	Ya¦[81][40]¦Yu¦[81][40]¦Yo	
+D73050	grid	11	マミムメモ	Ma¦Mi¦Mu¦Me¦Mo	
+D7305C	grid	11	ハヒフヘホ	Ha¦Hi¦Fu¦He¦Ho	
+D73068	grid	11	ナニヌネノ	Na¦Ni¦Nu¦Ne¦No	
+D73074	grid	11	タチツテト	Ta¦Çhi¦Ţşu¦Te¦To	
+D73080	grid	11	サシスセソ	Sa¦Şhi¦Su¦Se¦So	
+D7308C	grid	11	カキクケコ	Ka¦Ki¦Ku¦Ke¦Ko	
+D73098	grid	11	アイウエオ	A¦I¦U¦E¦O	
+D730A4	grid	11	わ　　　　	wa¦[81][40]¦[81][40]¦[81][40]¦[81][40]	
 D7874C	str	47	この十罪は{rt}すでに入っている{rt}ので入れません	This Sin is{rt}already in, so it{rt}can't go in.	
 D7877C	str	15	入る　やめる	Add[81][40]Cancel	
 D7878C	str	51	邪見／じゃけん{rt}因果の理を無視し{rt}た考え、行いの罪	False View{rt}Thoughts and deeds{rt}that defy karma	

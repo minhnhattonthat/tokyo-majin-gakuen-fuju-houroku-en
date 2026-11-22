@@ -132,6 +132,18 @@ Argument counts are the digits shown; prove each with the marker build before th
   story_05): every glyph draws, widths and spacing as encoded, no clipping (`work/qa/torture/boxes.png`,
   `brackets.png`).
 
+## Name entry (phase 8, 2026-11-23; `tools/name_grid.py`, D15)
+- The player-name grid D6E56C-D6E710 and the deck-name grid D72F00-D730A4 are 12-byte rows of 5 u16 cells (the
+  screen shows them 32 px apart, 3 rows at a time; hiragana page D6E638 あ row first up to D6E56C ー, katakana
+  page D6E704 ア first, then the shared ー row; D6E710 / D730A4 わ is never shown). A on a cell copies its u16 into
+  the name at the cursor (player names 4 units, deck names 3) and the cursor moves to Done when the name is full.
+  漢字 mode shows the hiragana grid and converts nothing for romaji: harmless.
+- English: each cell is one VWF unit (a romaji syllable, `¦`-separated in the row's `en`; blanks stay `[81][40]`
+  so the cursor behaves as in JP). The 32 px spacing breaks the strip, so each cell draws alone; in the name field
+  the cells are adjacent and the units pack ("Ta" "tsu" "ma"). The hook clears each new cell, so a unit's ink must
+  stay inside 16 px: tsu / Tsu / Shi / Chi use tight letters (`vwf.TIGHT`, advance 1 px less). `tools/fit.py`
+  checks one unit per cell, <= 16 px.
+
 ## Code-area strings (phase 8, 2026-11-22; `tools/codestr.py`, `script/system/code.tsv`)
 - 0x06485C-0x064A34: 8-byte NUL-ended Shift-JIS slots the pointer-range scan never saw (their pointer tables sit at
   0xD7A614-0xD7A6FF, outside the strslots ranges). `tools/debug/codesweep.py` over 0x0-0xC0000 finds nothing else

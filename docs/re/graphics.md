@@ -11,7 +11,7 @@ Tour: `tools/routes/tour1.txt` (cold boot -> opening) and `tools/routes/mash_a.t
 | G4 | title | 始めから / 続きから / 通信 / 設定 / 通信対戦 / 通信交換; PUSH START | **verified in sweep**: 0xD25E50 (0xC00, 4bpp, 4 cols), PUSH START 0xD25B30 | **English (phase 8 pilot)**: `tools/gfx.py` group title_menu, `gfx/title_menu.tsv`; shot `work/qa/gfx_title/menu_zoom.png` |
 | G5 | story | vertical scene captions (暗黒の渦――, etc.) | sweep candidates S9/S10 below | tour f008880 |
 | G6 | name entry | 名前は？, 苗字, 名前, 進む 戻る 終了, かな カナ 漢字 | BG2 screen, screen-table entry 0xD7DF1C: LZ77 tiles 0xBEAC20 (234 tiles, bank 10, VRAM 0x0600C000), palette 0xE51FDA, raw 30x20 map 0xE577AA; loader 0x08003268 sizes the buffer and the VRAM copy from the LZ77 header | **English** (group name_entry_screen, `gfx.lz_screen_edit`; `work/qa/ne_en.png`) |
-| G7 | name entry | kana grid | text table 0xD72FCC (font) | needs an English layout |
+| G7 | name entry | kana grid | text table 0xD72FCC (font) | **English** (session 34): romaji syllable grids, `tools/name_grid.py`, D15; page buttons かな / カナ -> abc / Abc (`work/qa/p8s34/`). Deck-name screen (0xD81D68) now `gfx.bg4_refit`: build 19's retiled 240-tile set ran past tile 222 into tiles the game draws at run time and garbled the grid frame's bottom row |
 | G8 | title | ©2000 Asmik Ace / ©2004 Marvelous / SHOUT! DESIGNWORKS | 0xD270B0 (already English) | no work |
 
 ## Static sweep (`tools/gfx_sweep.py rom/base.gba work/sweep/z1 --zoom 1`)

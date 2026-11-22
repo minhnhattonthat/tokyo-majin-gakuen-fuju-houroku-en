@@ -233,7 +233,21 @@ def variant(row):
 def problems(row, en, enc):
     out = []
     if row['kind'] == 'grid':
-        return ['grid rows are not translated'] if en else []
+        import name_grid
+        if not en:
+            return []
+        if not any(a <= int(row['id'], 16) < b for a, b in name_grid.GRIDS):
+            return ['grid rows are not translated (only the name grids, tools/name_grid.py)']
+        parts = en.split('¦')
+        if len(parts) != len(row['jp']):
+            return ['name grid: %d cells for %d kana' % (len(parts), len(row['jp']))]
+        for c, k in zip(parts, row['jp']):
+            if (k == '　') != (c == name_grid.BLANK):
+                out.append('name grid: blank cells must stay [81][40] (%r for %r)' % (c, k))
+            elif c != name_grid.BLANK and (len(enc.chunks(c)) != 1 or enc.width(c) > 16 or
+                                           sum(enc.font[ch][2] for ch in c) > 17):
+                out.append('name grid: %r is not one unit within 16 px' % c)
+        return out
     if row['kind'] in ('piece', 'pref'):
         import codestr
         try:

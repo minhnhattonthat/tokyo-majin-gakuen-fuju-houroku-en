@@ -451,6 +451,45 @@ def canvas_shadow(canvas, x, y, w, h, text, size, levels, shade, depth=3):
         canvas[y + yy][x:x + w] = out[yy]
 
 
+def bg4_refit(rom, ptrs, edits, white):
+    """screen-table entry (tiles, palette, map; the tiles end where the map starts) edited without growing its tile
+    set, for screens whose VRAM right after the set is the game's (deck-name entry: tiles from 223 up are drawn at
+    run time, so build 19's retiled 240-tile set garbled the frame). Unchanged cells keep their map entries; each
+    changed cell reuses a tile already showing its pixels (flips allowed) or takes a tile index no unchanged cell
+    uses; fails if those run out. Tiles and map are rewritten in place."""
+    t0, pal, m0 = (struct.unpack_from('<I', rom, ptrs + k)[0] & 0x1FFFFFF for k in (0, 4, 8))
+    ntiles = (m0 - t0) // 32
+    ents = list(struct.unpack_from('<600H', rom, m0))
+    canvas = screen_canvas(rom[t0:m0], ents)
+    old = [row[:] for row in canvas]
+    edit_canvas(canvas, edits, rom, pal, white)
+    cell = lambda c, i: tuple(tuple(c[i // 30 * 8 + y][i % 30 * 8:i % 30 * 8 + 8]) for y in range(8))  # noqa: E731
+    changed = [i for i in range(600) if cell(canvas, i) != cell(old, i)]
+    keep = set(range(600)) - set(changed)
+    have = {}                                     # pixels -> map entry bits (tile | flips) showing them
+
+    def add(px, e):
+        h = tuple(r[::-1] for r in px)
+        for f, v in ((0, px), (0x400, h), (0x800, px[::-1]), (0xC00, h[::-1])):
+            have.setdefault(v, (e & 0x3FF) | (e & 0xC00) ^ f)
+    for i in sorted(keep):
+        add(cell(old, i), ents[i])
+    free = [n for n in range(1, ntiles) if n not in {ents[i] & 0x3FF for i in keep}]
+    tiles = bytearray(rom[t0:m0])
+    for i in changed:
+        px = cell(canvas, i)
+        if px not in have:
+            assert free, 'deck-name screen: no free tile left for the edits'
+            n = free.pop(0)
+            tiles[32 * n:32 * n + 32] = bytes((px[y][x] & 15) | (px[y][x + 1] & 15) << 4
+                                              for y in range(8) for x in range(0, 8, 2))
+            add(px, n)
+        ents[i] = (ents[i] & 0xF000) | have[px]
+    rom[t0:m0] = tiles
+    struct.pack_into('<600H', rom, m0, *ents)
+    return [(t0, m0), (m0, m0 + 1200)]
+
+
 def bg4_inplace(rom, ptrs, edits, white, max_tiles, spare=None, pal_at=-8):
     """like bg4_edit, but keep every tile index: each 8x8 cell the edits changed is re-encoded into the tile its map
     entry already names (for sets the game also indexes directly, e.g. the haiku grid, whose tiles double as the
@@ -559,7 +598,7 @@ HAIKU_SPARE = 0xF80000   # free 0xFF run 0xF20000-0xFBFFFF (BG4_SPARE is full)
 
 # screen-table entries (tiles, palette, map; bank 13): deck-name entry (G6) and the shop's item list (商品選択)
 def deck_name_screen(rom):
-    return bg4_edit(rom, 0xD81D68, 13, rows('deck_name'), white=(11, 13, 14, 15), pal_at=4)
+    return bg4_refit(rom, 0xD81D68, rows('deck_name'), (11, 13, 14, 15))
 
 
 def name_entry_screen(rom):
