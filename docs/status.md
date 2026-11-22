@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 9),
-  sha1 fb150f4b913c..; check.py 37 passed.
+- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 10),
+  sha1 891e08a2c0ab..; check.py 37 passed, smoke ok.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -101,15 +101,22 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `SEEK=<u16>`), **profile screens** Birthplace? / Birthday? (月 -> "/", fields read MM/DD) / Blood type? / Gender?
   Male Female (`work/qa/prof_en/z.png`; gender screen not seen in game). Details: `docs/re/graphics.md` §Phase 8
   findings. check.py 37 passed. Last build sha1 fb150f4b913c..
-  **Found, not fixed (Important):** a code-area string table the extractor never saw, 0x06485C-0x064A2A, 8-byte
-  slots, NUL-ended SJIS: the 47 prefectures (和歌山県 .. 愛知県, reverse gojuon order) shown **vertically** in the
-  Birthplace? box (still Japanese in the English build, `work/qa/prof_en/z.png` left), then 両者 相手 自分 左 右 除去
-  破壊 ＋ － 全ての and ０１２３４５６７８９ (card-effect pieces joined at run time? check card text that names targets).
-  Needs: find the pointers to these slots (likely a pointer table near 0x0648xx/0x064Axx or literals), extract them
-  as a system file, and for the prefectures either romanize short names in a horizontal list (printer change) or
-  find the vertical draw routine; then sweep the code area 0x000000-0x0C0000 for other SJIS runs (`jp_left.py` with
-  `--sjis` but no `--gba-ptrs` filter) since `--gba-ptrs` missed these.
-- **Next (phase 8):** the code-area strings above first. Remaining graphics text: S19 leftovers 0xC6A2D8 (deck-editor window frame sheet:
+  Session 10 (2026-11-22): **code-area strings English** (`tools/codestr.py`, new extract unit
+  `script/system/code.tsv`, notes in `docs/re/text.md` §Code-area strings). Birthplace? picker: 47 prefectures as
+  rotated English columns (VWF font, read top to bottom; ARM hook 0xFE4000 replaces 0x080041B8, packed tiles), all
+  windows seen in game (`work/qa/bp4/sheet.png`, `zoom.png`; state `work/states/birthplace.mss`, cold boot:
+  `emu.py build/tmgfh_en.gba --route tools/routes/newgame.txt --frames 10260 --mash 20 --script
+  tools/debug/onmode.lua --var "ON_ROUTES={[4]='300 -;6 right;40 -;6 right;40 -;6 a;200 -;6 a;200 -;6 down;60 -;6
+  a;200 -;6 a;200 -;6 a;200 -;6 a;200 -'}"`). Card-effect pieces You/Foe/Both, right/left, destroy/remove, All, + -
+  and digits 0-9 now VWF units with exact unit counts; type 5 redirected to 2 units and type 11 raised to 4 in all
+  three printers; templates CF57E4-CF5914 reworded ("{&x06}: Life {&Sy0}"); fit.py counts piece cells. Seen in
+  game: "You: Life +10", "Both: Life -20" (`work/qa/pc_board/pick.png`), "Mani levels turn / right", "Took 10 dmg",
+  "+0 / +20 / +10" (`work/qa/pc2/z3.png`). **Not yet seen:** destroy/remove (type 11, 4 units) and All (type 4
+  arg 5): no random battle drew them (`tools/debug/readframes.lua` WATCH_LO=0x08D7A6E4 logs when one does).
+  Code area 0x0-0xC0000 swept (`tools/debug/codesweep.py`): nothing else. The 47 SJIS prefecture strings stay in
+  ROM unread: list them as known in the release's `jp_left.py` run. Story gate 0 open (verdict file
+  `zz_recheck10_20261122.tsv`). Second picker caller 0x080543xx (another screen) not seen.
+- **Next (phase 8):** Remaining graphics text: S19 leftovers 0xC6A2D8 (deck-editor window frame sheet:
   check for labels); find where VS / CLASH / Attack-Wait show (srclog.lua with SRC_LO=0x08ACCCCC over a longer or
   link battle); S7 large numeral cards 0xAE5FDC..; the name entry's kana grid (G7, English layout with the u16 grids below);
   card class labels (S1), card/skill name art (S5), 邪気封印 card art,

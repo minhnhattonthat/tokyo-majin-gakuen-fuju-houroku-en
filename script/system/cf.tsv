@@ -402,16 +402,16 @@ CF574C	str	39	全ての{I000}{I012}{&Sx0}{rt}{I013}{&Sy0}{I014}{&Sz0}	All {I000}
 CF5774	str	35	敵全{I000}{I012}{&Sx0}{rt}{I013}{&Sy0}{I014}{&Sz0}	Foe {I000}{I012}{&Sx0}{rt}{I013}{&Sy0}{I014}{&Sz0}	
 CF5798	str	39	味方全{I000}{I012}{&Sx0}{rt}{I013}{&Sy0}{I014}{&Sz0}	Ally {I000}{I012}{&Sx0}{rt}{I013}{&Sy0}{I014}{&Sz0}	
 CF57C0	str	35	{I000}の{I012}{&Sx0}{rt}{I013}{&Sy0}{I014}{&Sz0}	{I000}{I012}{&Sx0}{rt}{I013}{&Sy0}{I014}{&Sz0}	
-CF57E4	str	39	{&x02}の手札{&y03}１枚{rt}ランダムに捨てる	{&x02} discards{&y03} 1{rt}card at random	
-CF580C	str	39	{&x02}の手札{&Ny0}枚を{rt}ランダムに捨てる	{&x02} discards{rt}{&Ny0} at random	
-CF5834	str	27	{&x06}のライフを{rt}{&Sy0}する	{&x06} Life{rt}{&Sy0}	
-CF5850	str	23	{&x06}のＡＰを{rt}{&Sy0}する	{&x06} AP{rt}{&Sy0}	
-CF5868	str	35	{&x06}のＭＡＸＡＰ{rt}{&Sy0}ライフ{&Sz0}	{&x06} Max AP {&Sy0}{rt}Life {&Sz0}	
-CF588C	str	31	{&x06}のＭＡＸＡＰ{rt}を{&Sy0}する	{&x06} Max AP{rt}{&Sy0}	
-CF58AC	str	35	{&x04}摩尼{&Sy0}レベル{rt}ライフを{&Sz0}	{&x04}Mani {&Sy0} lv{rt}Life {&Sz0}	
+CF57E4	str	39	{&x02}の手札{&y03}１枚{rt}ランダムに捨てる	{&x02}: discard 1{&y03}{rt}card at random	
+CF580C	str	39	{&x02}の手札{&Ny0}枚を{rt}ランダムに捨てる	{&x02}: discard {&Ny0}{rt}cards at random	
+CF5834	str	27	{&x06}のライフを{rt}{&Sy0}する	{&x06}: Life {&Sy0}	
+CF5850	str	23	{&x06}のＡＰを{rt}{&Sy0}する	{&x06}: AP {&Sy0}	
+CF5868	str	35	{&x06}のＭＡＸＡＰ{rt}{&Sy0}ライフ{&Sz0}	{&x06}: Max AP {&Sy0}{rt}Life {&Sz0}	
+CF588C	str	31	{&x06}のＭＡＸＡＰ{rt}を{&Sy0}する	{&x06}: Max AP {&Sy0}	
+CF58AC	str	35	{&x04}摩尼{&Sy0}レベル{rt}ライフを{&Sz0}	{&x04} Mani {&Sy0}{rt}level, Life {&Sz0}	
 CF58D0	str	35	摩尼レベルが{rt}{&x05}方向に回転する	Mani levels turn{rt}{&x05}	
-CF58F4	str	31	{&x04}摩尼が{rt}{&Ny0}レベルになる	{&x04}Mani goes{rt}to level {&Ny0}	
-CF5914	str	27	{&x04}摩尼を{&Sy0}{rt}レベルする	{&x04}Mani {&Sy0}{rt}level	
+CF58F4	str	31	{&x04}摩尼が{rt}{&Ny0}レベルになる	{&x04} Mani goes{rt}to level {&Ny0}	
+CF5914	str	27	{&x04}摩尼を{&Sy0}{rt}レベルする	{&x04} Mani {&Sy0}{rt}level	
 CF5930	str	7	心理士	Psychologist	
 CF5938	str	11	夢見る少女	Dreaming Girl	
 CF5944	str	7	墓守	Gravekeeper	

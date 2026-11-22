@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / 'tools'))
 
 import check_rom  # noqa: E402
+import codestr  # noqa: E402
 import extract  # noqa: E402
 import scenes  # noqa: E402
 import marker  # noqa: E402
@@ -47,7 +48,7 @@ def build(orig, script=None, mark=False, qa=None):
         script = dict(script)
         for rid, en in qa.items():
             script[rid] = dict(script[rid], en=en)
-    enc = vwf.Encoder(font, [r['en'] for r in script.values() if r['en']]) if any(
+    enc = vwf.Encoder(font, [r['en'] for r in script.values() if r['en'] and r['kind'] != 'pref']) if any(
         r['en'] for r in script.values()) else None
     if mark:
         marker.refit(script, enc)
@@ -69,6 +70,7 @@ def build(orig, script=None, mark=False, qa=None):
     for s in strslots.scan(orig):
         strslots.write(rom, s, text_for(script['%06X' % s.addr]), spill)
     if enc:
+        codestr.apply(rom, enc, script)  # code-area strings: effect pieces + loop patches, prefecture picker
         vwf.install(rom, enc, font)
         patches.apply(rom, check=not mark)  # code patches (tools/patches.py): default-name copy length
         if not mark:

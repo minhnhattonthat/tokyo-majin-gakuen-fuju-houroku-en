@@ -27,6 +27,9 @@ SCRIPT = ROOT / 'script'
 ROM = ROOT / 'rom' / 'base.gba'
 NAME_PX = 64
 NUM_PX = 48
+# {&<v>NN} card-effect pieces (tools/codestr.py): cells drawn by type NN; other types are one icon cell
+PIECE_CELLS_JP = {2: 2, 6: 2, 5: 1, 11: 2, 4: 3}
+PIECE_CELLS_EN = {2: 2, 6: 2, 5: 2, 11: 4, 4: 3}
 TOKEN = re.compile(r'\{([^{}]+)\}|\[([0-9A-F]{2})\]')
 BREAK = {'rt', 'nl'}
 WAIT = {'wc', 'wk', 'wd'}
@@ -160,6 +163,9 @@ def measure(line, enc):
             elif v.startswith(('&S', '&N')):
                 units += NUM_PX // 16
                 e = max(e, 16 * units)
+            elif v.startswith('&'):
+                units += PIECE_CELLS_EN.get(int(v[2:4]), 1)
+                e = max(e, 16 * units)
     return e, units
 
 
@@ -180,6 +186,8 @@ def cells(line):
             n += 1
         elif v.startswith(('&S', '&N')):
             n += 3
+        elif v.startswith('&'):
+            n += PIECE_CELLS_JP.get(int(v[2:4]), 1)
     return n
 
 
@@ -207,6 +215,18 @@ def problems(row, en, enc):
     out = []
     if row['kind'] == 'grid':
         return ['grid rows are not translated'] if en else []
+    if row['kind'] in ('piece', 'pref'):
+        import codestr
+        try:
+            if row['kind'] == 'piece':
+                digits = row['notes'].startswith('card-effect digits')
+                n = int(row['max'])
+                enc.encode_units(en, n, 0 if n == 1 or digits else codestr.MARGIN)
+            else:
+                codestr.column(vwf._read_font_txt(), en)
+        except ValueError as e:
+            return [str(e)]
+        return []
     lit = ''.join(v for pg in pages(en) for ln in pg for k, v in ln if k == 'lit')
     bad = sorted(set(vwf.normalize(lit)) - set(vwf.CHAR_BYTE))
     if bad:

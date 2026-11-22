@@ -16,6 +16,9 @@ Files (UTF-8, tab-separated, header `id kind max jp en notes`, text in tools/tex
                                 read with the u16 input grid at 0xD16740) and the deck-name entry's (D72F00-D730A4):
                                 not dialogue, left out of the marker build
                                 and translator batches; they change with the English name entry (engine work).
+    script/system/code.tsv      the code-area strings 0x06485C-0x064A34 (tools/codestr.py): kind `pref` (the 47
+                                Birthplace? prefectures, drawn as rotated graphics; max = px) and kind `piece`
+                                (card-effect pieces the printers substitute for {&..} codes; max = units drawn).
 An empty `en` means "keep the Japanese": build.py inserts `en` where present, else `jp`.
 """
 import argparse
@@ -25,6 +28,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
 
+import codestr  # noqa: E402
 import scenes  # noqa: E402
 import strslots  # noqa: E402
 import textcodec  # noqa: E402
@@ -66,6 +70,7 @@ def extract(d):
             {'id': '%06X' % s.addr, 'kind': 'grid' if any(a <= s.addr < b for a, b in GRIDS) else 'str',
              'max': str(s.cap - 1), 'jp': textcodec.decode(s.text),
              'en': '', 'notes': note})
+    out['system/code.tsv'] = codestr.rows(d)
     return out
 
 
@@ -75,6 +80,8 @@ def covered(d):
     cov[scenes.TABLE_B:scenes.REGION[1]] = b'\1' * (scenes.REGION[1] - scenes.TABLE_B)
     for s in strslots.scan(d):
         cov[s.addr:s.addr + len(s.text) + 1] = b'\1' * (len(s.text) + 1)
+    for a, b in codestr.covered(d):
+        cov[a:b] = b'\1' * (b - a)
     return cov
 
 

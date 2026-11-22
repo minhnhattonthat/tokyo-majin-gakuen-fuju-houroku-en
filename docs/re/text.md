@@ -123,6 +123,31 @@ Argument counts are the digits shown; prove each with the marker build before th
   story_05): every glyph draws, widths and spacing as encoded, no clipping (`work/qa/torture/boxes.png`,
   `brackets.png`).
 
+## Code-area strings (phase 8, 2026-11-22; `tools/codestr.py`, `script/system/code.tsv`)
+- 0x06485C-0x064A34: 8-byte NUL-ended Shift-JIS slots the pointer-range scan never saw (their pointer tables sit at
+  0xD7A614-0xD7A6FF, outside the strslots ranges). `tools/debug/codesweep.py` over 0x0-0xC0000 finds nothing else
+  (two 3-char hits at 0x02C02C / 0x046318 are code).
+- **Prefectures** (D7A614, 47 pointers, gojuon order): only the Birthplace? picker 0x080041B8 reads them (callers
+  0x08041Exx and 0x080543xx). It draws 10 names per window as vertical columns, one cell down per kanji (map
+  +0x80), names one cell apart (map +0x24A + 4i), tiles packed from 0x11 (palette 12, BG0); the window scrolls one
+  name at a time (first index 0..37). Tiles past ~0x95 belong to something else (4 cells for all 10 names showed
+  garbage in column 10), so the English hook packs tiles too: per name only the cells its column needs (the JP
+  windows use <= 32 cells, the English <= 33, window 37, seen clean). Map entries of unused cells are written 0
+  (the blank entry around the picker). Hook: ARM at 0xFE4000, cell counts at +0x100, 47 + 1 blank columns of
+  0x200 bytes at +0x140; the old routine's first 8 bytes jump there. The SJIS strings stay in ROM, unread.
+- **Card-effect pieces** (D7A6D0-D7A6FC), substituted for `{&<v>NN}` by the code dispatchers of all three printers
+  (BG 0x08003C64.., printer B 0x080046xx.., printer C 0x08051Axx..). NN = type: 0 / 3 / 14 icon; 2 and 6
+  D7A6D0[arg] (自分 相手 両者) 2 units; 4 arg 5 全ての 3 units (else element icon); 5 D7A6DC[arg] (右 左) 1 unit;
+  others D7A6E4[arg] (-, 破壊, 除去) 2 units. {&S..}/{&N..}: sign from D7A6F0 (－ ＋) if S, tens digit if not 0,
+  ones digit, units from the digit row D7A6FC. Every piece is a FIXED unit count (no NUL check), each unit a cell
+  through the same unit routine, so English VWF units continue the strip. Patches: type 5 redirected into the
+  type 2/6 loop with its own table (2 units: "right"/"left"), type 11's loop raised to 4 units
+  ("destroy"/"remove"). Gotcha: the number formatter's ones digit jumps into the type-5 block's tail (0x3F22,
+  0x4848, 0x51C8C), so the redirect writes only the block's first 12 bytes. English pieces are padded to their
+  count with the empty MTE chunk (`Encoder.encode_units`): it clears its cell and advances 0 px.
+- Seen in game (`work/qa/pc2`, board_turn.mss + `work/qa/bd/rand.txt`): numbers "Took 10 dmg", "+0", "+20" in
+  VWF digits (f1530), "Mani levels turn / right" (f9420).
+
 ## Prior work
 - An AI-assisted English patch is listed on RetroGameTalk (thread 74417) with graphics text left in Japanese.
   Unverified and not downloaded. If it is ever used, diff it only as a map.

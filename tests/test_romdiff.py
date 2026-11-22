@@ -29,6 +29,8 @@ def allowed_ranges(orig, size):
     rs += [range(a, b) for a, b in gfx.apply(bytearray(orig))]   # graphics-text redraws
     import patches
     rs += [range(a, b) for a, b in patches.apply(bytearray(orig), check=False)]   # code patches
+    import codestr
+    rs += [range(a, b) for a, b in codestr.ranges(orig)]   # code-area strings, piece loops, prefecture picker
     for s in strslots.scan(orig):
         rs.append(range(s.addr, s.addr + s.cap))
         rs += [range(r, r + 4) for r in s.refs]

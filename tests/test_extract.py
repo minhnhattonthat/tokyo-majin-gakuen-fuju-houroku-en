@@ -68,7 +68,8 @@ def test_every_unit_has_a_row(orig):
     script = extract.load()
     n_scene = sum(t.kind != 'op' for sc in scenes.parse_all(orig) for t in sc.toks)
     slots = strslots.scan(orig)
-    assert len(script) == n_scene + len(slots)
+    import codestr
+    assert len(script) == n_scene + len(slots) + len(codestr.rows(orig))
     assert all('%06X' % s.addr in script for s in slots)
 
 

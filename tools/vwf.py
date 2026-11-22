@@ -257,6 +257,20 @@ class Encoder:
             raise ValueError('odd byte length for %r: every unit is 2 bytes' % s)
         return bytes(out)
 
+    def encode_units(self, s, n, margin=0):
+        """plain text s (no codes) as exactly n units, for printers that draw a fixed unit count (tools/codestr.py):
+        the fewest chunks, longer chunks split while short of n, then the empty chunk (draws and advances nothing)
+        as padding. margin: px the ink must leave free in the last unit."""
+        s = normalize(s)
+        ch = list(self.chunks(s))
+        while len(ch) < n and any(len(c) > 1 for c in ch):
+            i = max(range(len(ch)), key=lambda j: len(ch[j]))
+            ch[i:i + 1] = [ch[i][0], ch[i][1:]]
+        if len(ch) > n or self.ext(s)[-1] > 16 * n - margin:
+            raise ValueError('%r needs %d units / %d px, the printer draws %d units' % (
+                s, len(ch), self.ext(s)[-1], n))
+        return b''.join(self.unit(c) for c in ch + [''] * (n - len(ch)))
+
     def mte_table(self):
         t = bytearray(4 * NCODES)
         for g, i in self.codes.items():

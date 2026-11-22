@@ -80,6 +80,11 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | 焔羅様 | Enra-sama | | Yamura and Isuzu's form of address; -sama kept per D1 (also 若日子様 = Wakahiko-sama, 天若日子様 = Amewakahiko-sama) | |
 | 鬼道衆 | Kidoshu | | the oni clan the five Retainers belong to | |
 | 龍脈 | Dragon Vein | | the earth's flow of power under Tokyo | ley line |
+| 自分 / 相手 / 両者 | You / Foe / Both | 2 units | card-effect pieces for {&x02} / {&x06} (script/system/code.tsv); templates read "{&x06}: Life +3" | |
+| 右 / 左 | right / left | 2 units | {&x05}: "Mani levels turn right" | |
+| 破壊 / 除去 | destroy / remove | 4 units | {&y11} / {&z11}: "...on field: destroy" | |
+| 全ての | All | 3 units | {&x04} with arg 5 (else an element icon); templates put a space before Mani | |
+| 都道府県 (出身地) | prefecture names without -ken/-fu/-to | | Birthplace? picker: Tokyo, Osaka, Kyoto, Hokkaido, Aichi..; no macrons (the font has none) | Tokyo-to, Ōsaka |
 
 ## Speaker tags
 | JP | EN |

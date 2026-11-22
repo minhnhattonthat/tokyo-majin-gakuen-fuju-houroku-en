@@ -1,0 +1,59 @@
+id	kind	max	jp	en	notes
+06485C	pref	64	和歌山県	Wakayama	Birthplace? picker, gojuon index 46
+064868	pref	64	山梨県	Yamanashi	Birthplace? picker, gojuon index 45
+064870	pref	64	山口県	Yamaguchi	Birthplace? picker, gojuon index 44
+064878	pref	64	山形県	Yamagata	Birthplace? picker, gojuon index 43
+064880	pref	64	宮崎県	Miyazaki	Birthplace? picker, gojuon index 42
+064888	pref	64	宮城県	Miyagi	Birthplace? picker, gojuon index 41
+064890	pref	64	三重県	Mie	Birthplace? picker, gojuon index 40
+064898	pref	64	北海道	Hokkaido	Birthplace? picker, gojuon index 39
+0648A0	pref	64	福島県	Fukushima	Birthplace? picker, gojuon index 38
+0648A8	pref	64	福岡県	Fukuoka	Birthplace? picker, gojuon index 37
+0648B0	pref	64	福井県	Fukui	Birthplace? picker, gojuon index 36
+0648B8	pref	64	広島県	Hiroshima	Birthplace? picker, gojuon index 35
+0648C0	pref	64	兵庫県	Hyogo	Birthplace? picker, gojuon index 34
+0648C8	pref	64	新潟県	Niigata	Birthplace? picker, gojuon index 33
+0648D0	pref	64	奈良県	Nara	Birthplace? picker, gojuon index 32
+0648D8	pref	64	長野県	Nagano	Birthplace? picker, gojuon index 31
+0648E0	pref	64	長崎県	Nagasaki	Birthplace? picker, gojuon index 30
+0648E8	pref	64	富山県	Toyama	Birthplace? picker, gojuon index 29
+0648F0	pref	64	鳥取県	Tottori	Birthplace? picker, gojuon index 28
+0648F8	pref	64	栃木県	Tochigi	Birthplace? picker, gojuon index 27
+064900	pref	64	徳島県	Tokushima	Birthplace? picker, gojuon index 26
+064908	pref	64	東京都	Tokyo	Birthplace? picker, gojuon index 25
+064910	pref	64	千葉県	Chiba	Birthplace? picker, gojuon index 24
+064918	pref	64	島根県	Shimane	Birthplace? picker, gojuon index 23
+064920	pref	64	静岡県	Shizuoka	Birthplace? picker, gojuon index 22
+064928	pref	64	滋賀県	Shiga	Birthplace? picker, gojuon index 21
+064930	pref	64	佐賀県	Saga	Birthplace? picker, gojuon index 20
+064938	pref	64	埼玉県	Saitama	Birthplace? picker, gojuon index 19
+064940	pref	64	高知県	Kochi	Birthplace? picker, gojuon index 18
+064948	pref	64	群馬県	Gunma	Birthplace? picker, gojuon index 17
+064950	pref	64	熊本県	Kumamoto	Birthplace? picker, gojuon index 16
+064958	pref	64	京都府	Kyoto	Birthplace? picker, gojuon index 15
+064960	pref	64	岐阜県	Gifu	Birthplace? picker, gojuon index 14
+064968	pref	64	神奈川県	Kanagawa	Birthplace? picker, gojuon index 13
+064974	pref	64	鹿児島県	Kagoshima	Birthplace? picker, gojuon index 12
+064980	pref	64	香川県	Kagawa	Birthplace? picker, gojuon index 11
+064988	pref	64	沖縄県	Okinawa	Birthplace? picker, gojuon index 10
+064990	pref	64	岡山県	Okayama	Birthplace? picker, gojuon index 9
+064998	pref	64	大阪府	Osaka	Birthplace? picker, gojuon index 8
+0649A0	pref	64	大分県	Oita	Birthplace? picker, gojuon index 7
+0649A8	pref	64	愛媛県	Ehime	Birthplace? picker, gojuon index 6
+0649B0	pref	64	岩手県	Iwate	Birthplace? picker, gojuon index 5
+0649B8	pref	64	茨城県	Ibaraki	Birthplace? picker, gojuon index 4
+0649C0	pref	64	石川県	Ishikawa	Birthplace? picker, gojuon index 3
+0649C8	pref	64	秋田県	Akita	Birthplace? picker, gojuon index 2
+0649D0	pref	64	青森県	Aomori	Birthplace? picker, gojuon index 1
+0649D8	pref	64	愛知県	Aichi	Birthplace? picker, gojuon index 0
+0649E0	piece	2	両者	Both	card-effect piece, 2 units (pointer D7A6D8)
+0649E8	piece	2	相手	Foe	card-effect piece, 2 units (pointer D7A6D4)
+0649F0	piece	2	自分	You	card-effect piece, 2 units (pointer D7A6D0)
+0649F8	piece	2	左	left	card-effect piece, 2 units (pointer D7A6E0)
+0649FC	piece	2	右	right	card-effect piece, 2 units (pointer D7A6DC)
+064A00	piece	4	除去	remove	card-effect piece, 4 units (pointer D7A6EC)
+064A08	piece	4	破壊	destroy	card-effect piece, 4 units (pointer D7A6E8)
+064A10	piece	1	＋	+	card-effect piece, 1 units (pointer D7A6F4)
+064A14	piece	1	－	-	card-effect piece, 1 units (pointer D7A6F0)
+064A18	piece	3	全ての	All	card-effect piece, 3 units (pointer D7A6F8)
+064A20	piece	10	０１２３４５６７８９	0123456789	card-effect digits: one unit per digit (pointer D7A6FC)
