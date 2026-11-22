@@ -1427,16 +1427,16 @@ D72358	str	35	よろしいですか？{rt}　はい　いいえ	Is this OK?{rt}[
 D7237C	str	39	装備している符咒は{rt}削除できません。	The equipped deck{rt}can't be deleted.	
 D723A4	str	7	価値＝	Value=	
 D723AC	str	11	全持ち符	All Held	
-D723B8	str	11	全売買符	All Trade	
+D723B8	str	11	全売買符	All Trd.	
 D723C4	str	11	全人物符	All Char.	
 D723D0	str	11	全土地符	All Land	
 D723DC	str	11	全法術符	All Spell	
-D723E8	str	11	全結界符	All Barr.	
+D723E8	str	11	全結界符	All Barr	
 D723F4	str	11	全憑依符	All Poss.	
-D72434	str	43	の　　枚を{rt}確認しながら{rt}編集を行います。	[81][40][81][40][81][40][81][40] cards{rt}are shown while{rt}you edit.	
-D72460	str	47	の　　枚を{rt}確認しながら{rt}売る符を選びます。	[81][40][81][40][81][40][81][40] cards{rt}are shown while{rt}you pick what to sell.	
-D72490	str	43	の　　枚を{rt}確認しながら{rt}交換を行います。	[81][40][81][40][81][40][81][40] cards{rt}are shown while{rt}you trade.	
-D724BC	str	47	の　　枚を{rt}確認しながら捨てる{rt}符を選びます。	[81][40][81][40][81][40][81][40] cards{rt}are shown while you{rt}pick what to discard.	
+D72434	str	43	の　　枚を{rt}確認しながら{rt}編集を行います。	[81][40][81][40][81][40][81][40]{rt}cards are shown{rt}while you edit.	
+D72460	str	47	の　　枚を{rt}確認しながら{rt}売る符を選びます。	[81][40][81][40][81][40][81][40]{rt}cards shown while{rt}you pick what to sell.	
+D72490	str	43	の　　枚を{rt}確認しながら{rt}交換を行います。	[81][40][81][40][81][40][81][40]{rt}cards are shown{rt}while you trade.	
+D724BC	str	47	の　　枚を{rt}確認しながら捨てる{rt}符を選びます。	[81][40][81][40][81][40][81][40]{rt}cards shown while{rt}you pick discards.	
 D724EC	str	59	売買用に登録されて{rt}いる　　枚の符を{rt}まとめて売ります。	Sell all trade-listed{rt}[81][40][81][40][81][40][81][40] cards{rt}at once.	
 D72528	str	31	所持符が　　枚{rt}になりました。	[81][40][81][40][81][40][81][40][81][40][81][40]{rt}cards now held.	
 D72548	str	19	枚を捨てて下さい。	 cards to discard.	

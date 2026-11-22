@@ -77,6 +77,13 @@ SINGLE = {0xD726B0: ('deck_help', 3, 144, None, 9), 0xD678D4: ('popup', 3, 128, 
           # default surname / given name / deck name copied into the name buffers at New Game (name entry: phase 8)
           0xD79188: ('default_name', 1, 64, None, 4), 0xD79190: ('default_name', 1, 64, None, 4),
           0xD79198: ('default_name', 1, 64, None, 4)}
+# Card-list header (deck edit / sell / trade / discard, top right from x=96, 9 cells to the screen edge): category
+# name D723AC-D723F4 (全結界符..) + the piece's first line (の　　枚を: the count is drawn into cells 5-6). Each piece
+# starts on a whole unit, so every category must take exactly DECK_CAT_UNITS units and the piece's line 1 the rest
+# (seen in game: a 4-unit "All Barr." pushed "cards" off the screen, work/qa/stress/stress_viewall).
+DECK_CATS = (0xD723AC, 0xD72400)
+DECK_CAT_UNITS = 3
+DECK_HEAD_PIECES = {0xD72434, 0xD72460, 0xD72490, 0xD724BC}
 # card_tag (CF13C0-CF2A00): line 1 is the 【tag】 shown at 64 px; the popup shows all three lines at 128
 TAG_FIRST_PX = 64
 # ability labels on the battle card panel (【Aim】【--】): pointers 0xD7CCC0 + 4 * (id + 1), all in CF64E8-CF6800.
@@ -284,6 +291,13 @@ def problems(row, en, enc):
             p = px or 16 * jp_cells
             if name == 'popup' and row['jp'].startswith('【') and li == 0:
                 p = TAG_FIRST_PX
+            rid = int(row['id'], 16) if re.fullmatch(r'[0-9A-F]+', row['id']) else -1
+            if rid in DECK_HEAD_PIECES and pi == li == 0:
+                p = 16 * (9 - DECK_CAT_UNITS)     # joined after a category name (see DECK_CATS)
+            if DECK_CATS[0] <= rid < DECK_CATS[1]:
+                p = 16 * DECK_CAT_UNITS
+                if u != DECK_CAT_UNITS:
+                    out.append('%d units, the card-list header needs exactly %d' % (u, DECK_CAT_UNITS))
             if li == len(pg) - 1 and pi == len(en_pages) - 1:
                 if last:
                     p = min(p, last)

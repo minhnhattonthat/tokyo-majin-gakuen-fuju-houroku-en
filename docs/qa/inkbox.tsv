@@ -1,0 +1,13 @@
+shot	bar	ink	outline	rect	what
+work/qa/inkbox/menus/f001960.png		236,227,115		39,106,65,18	title: New Game (frame x 38-104)
+work/qa/inkbox/menus/f002040.png		236,227,115		135,106,65,18	title: Continue (frame x 134-200)
+work/qa/inkbox/menus/f001860.png		236,227,115		39,130,65,18	title: Link
+work/qa/inkbox/menus/f001780.png		236,227,115		135,130,65,18	title: Settings
+work/qa/inkbox/menus/f003440.png	201,47,98				hub: Detour
+work/qa/inkbox/menus/f003340.png	201,47,98				hub: Deck Edit
+work/qa/inkbox/menus/f003260.png	201,47,98				hub: Save
+work/qa/inkbox/menus/f003180.png	201,47,98				hub: Settings
+work/qa/inkbox/menus/f003100.png	201,47,98				hub: Move On
+work/qa/inkbox/menus/f005400.png	201,47,98				shop: Sell
+work/qa/inkbox/menus/f005140.png	201,47,98				shop: Buy
+work/qa/inkbox/menus/f005060.png	201,47,98				shop: Leave

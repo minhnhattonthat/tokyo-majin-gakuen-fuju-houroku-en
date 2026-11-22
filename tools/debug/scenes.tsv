@@ -208,3 +208,6 @@ card_11	B32	1950				SEEK=0x2602	chapter card 第拾壱話 覚醒 (B32 jumped to 
 card_12	B35	1950				SEEK=0x2702	chapter card 第拾弐話 叛逆者 (B35 jumped to its `02 27` show-BG command)
 card_13	B37	1950				SEEK=0x2802	chapter card 第拾参話 宿星 (B37 jumped to its `02 28` show-BG command)
 card_end	B39	1950				SEEK=0x2902	ending card 完 (B39 jumped to its `02 29` command; the logo stays, D5)
+stress_viewall	WAIT6	9000		tools/routes/stress_viewall.txt	work/saves/stress_en.sav		stress: every card owned, 9999, widest 4+4 names: Deck Edit -> View All list scrolled
+stress_shop	WAIT6	6000		tools/routes/stress_shop.txt	work/saves/stress_en.sav		stress: detour map -> Curio Shop with 9999 money -> Sell: the full card list scrolled
+stress_moveon	WAIT6	9000	40	tools/routes/hub_move_on.txt	work/saves/stress_en.sav		stress: widest 4+4 names in the next story scene (dialogue, VS plate)

@@ -38,3 +38,7 @@ Standing non-bugs, `ok`:
 - the staff roll keeps 﨤 in B39.0020 on purpose.
 - the VS name plate (surname + given name, no space) overflows both plate ends with 4+4-unit names: the original does
   the same with 4+4 kana (`work/qa/p8s35/vs_jplong.png`).
+- the `stress_moveon` row stops on the battle START screen: the hub -> Move On path from a chapter-5 save hangs there in
+  the original too.
+- the deck / sell list header caught as two overlapping texts (e.g. "All Hel'd 47d"): the game's crossfade into the
+  "Cards held" panel; the settled frame is clean (`stress_viewall`, checked at 10-frame steps in session 39).
