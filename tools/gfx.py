@@ -321,43 +321,75 @@ def settings_screen(rom):
             a = SET_SPR + k * 0x100
             rom[a:a + len(data)] = data
             out.append((a, a + len(data)))
-    ents = struct.unpack_from('<600H', rom, SET_MAP)
+    edits = [r for r in labels if r['kind'] != 'sprite']
+    return out + bg4_edit(rom, SET_PTRS, 1, edits, SET_RAMPS['white'])
+
+
+def bg4_edit(rom, ptrs, bank, edits, white=(10, 12, 14, 15)):
+    """4bpp 30x20 BG screen whose (palette, tiles, map) pointers sit at ptrs - 8, ptrs, ptrs + 8: decode it, apply
+    edits (rows with kind bg = white label on a clear rect, board = reletter a light-ink board, gfx_signs), retile
+    (identical tiles shared, no flips) and write it back in place, or into free space at ROOM_SPARE-managed
+    BG4_SPARE with the pointers moved when it needs more tiles than the original block holds"""
+    import gfx_signs
+    pal, t0, m0 = (struct.unpack_from('<I', rom, ptrs + k)[0] & 0x1FFFFFF for k in (-8, 0, 8))
+    ntiles = (m0 - t0) // 32
+    ents = struct.unpack_from('<600H', rom, m0)
     canvas = [[0] * 240 for _ in range(160)]
     for i, e in enumerate(ents):
         n = e & 0x3FF
-        t = decode(rom[SET_TILES + 32 * n:SET_TILES + 32 * n + 32], 1, 1)
+        t = decode(rom[t0 + 32 * n:t0 + 32 * n + 32], 1, 1)
         for y in range(8):
             for x in range(8):
                 canvas[i // 30 * 8 + y][i % 30 * 8 + x] = t[7 - y if e & 0x800 else y][7 - x if e & 0x400 else x]
-    for r in labels:
-        if r['kind'] == 'sprite':
-            continue
+    palrgb = gfx_signs.pal_rgb(rom, pal)
+    for r in edits:
         x, y, w, h = int(r['x']), int(r['y']), int(r['w']), int(r['h'])
         if r['kind'] == 'bg':
-            px = letter_levels(r['en'], w, h, 12, SET_RAMPS['white'], 1)
+            px = letter_levels(r['en'], w, h, 12, list(white), 1)
             for yy in range(h):
                 canvas[y + yy][x:x + w] = px[yy]
         elif r['kind'] == 'board':
             sub = [row[x:x + w] for row in canvas[y:y + h]]
-            gfx_signs.reletter(sub, gfx_signs.pal_rgb(rom, SET_TILES - 32), r['en'], False, 13, FONT, light_ink=True,
-                               inset=2)
+            gfx_signs.reletter(sub, palrgb, r['en'], False, 13, FONT, light_ink=True, inset=2)
             for yy in range(h):
                 canvas[y + yy][x:x + w] = sub[yy]
-    tiles, mp = tile_bg(canvas, 30, 20, SET_NTILES, bank=0x1000)
-    rom[SET_TILES:SET_TILES + len(tiles)] = tiles
-    rom[SET_MAP:SET_MAP + len(mp)] = mp
-    out += [(SET_TILES, SET_TILES + len(tiles)), (SET_MAP, SET_MAP + len(mp))]
-    return out
+    tiles, mp = tile_bg(canvas, 30, 20, 1024, bank=bank << 12)
+    tiles = tiles.rstrip(b'\0')
+    tiles += bytes(-len(tiles) % 32)
+    if len(tiles) <= ntiles * 32:
+        tiles = tiles.ljust(ntiles * 32, b'\0')
+        rom[t0:t0 + len(tiles)] = tiles
+        rom[m0:m0 + len(mp)] = mp
+        return [(t0, t0 + len(tiles)), (m0, m0 + len(mp))]
+    a = BG4_SPARE[0]
+    assert all(b == 0xFF for b in rom[a:a + len(tiles) + len(mp)]), f'{a:06X} is not free space'
+    rom[a:a + len(tiles)] = tiles
+    rom[a + len(tiles):a + len(tiles) + len(mp)] = mp
+    struct.pack_into('<I', rom, ptrs, 0x08000000 + a)
+    struct.pack_into('<I', rom, ptrs + 8, 0x08000000 + a + len(tiles))
+    BG4_SPARE[0] = (a + len(tiles) + len(mp) + 0xFF) & ~0xFF
+    return [(a, a + len(tiles) + len(mp)), (ptrs, ptrs + 4), (ptrs + 8, ptrs + 12)]
+
+
+BG4_SPARE = [0xFD8000]   # reset by apply(): free space for 4bpp screens that outgrow their block
+
+
+HAIKU_PTRS = 0xD16F9C   # haiku club BG2 (W9): palette 0xD0E300, tiles 0xD0E320, map 0xD0F8C0, bank 9
+
+
+def haiku_screen(rom):
+    return bg4_edit(rom, HAIKU_PTRS, 9, rows('haiku'))
 
 
 GROUPS = {'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': dungeon_menu,
           'room_banners': room_banners, 'floor_numerals': floor_numerals, 'signs': signs,
-          'settings_screen': settings_screen}
+          'settings_screen': settings_screen, 'haiku_screen': haiku_screen}
 
 
 def apply(rom):
     """write every group into rom (bytearray); return the written (start, end) ranges"""
     out = []
+    BG4_SPARE[0] = 0xFD8000
     for fn in GROUPS.values():
         out += fn(rom)
     return out
