@@ -688,6 +688,12 @@ def tutorial(rom):
     return gfx_tutorial.tutorial(rom)
 
 
+def fieldcards(rom):
+    """battle-tutorial field cards: 64x64 8bpp OBJs with name strip + emblem (tools/gfx_fieldcards.py)"""
+    import gfx_fieldcards
+    return gfx_fieldcards.fieldcards(rom)
+
+
 GROUPS = {'attack_types': attack_types, 'icons': icons, 'mini_labels': mini_labels, 'frames': frames, 'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': dungeon_menu,
           'room_banners': room_banners, 'floor_numerals': floor_numerals, 'signs': signs,
           'settings_screen': settings_screen, 'haiku_screen': haiku_screen, 'haiku_input': haiku_input,
@@ -696,7 +702,8 @@ GROUPS = {'attack_types': attack_types, 'icons': icons, 'mini_labels': mini_labe
           'banners': banners, 'battle_ui': battle_ui, 'captions': captions,
           'end_card': end_card, 'chapter_cards': chapter_cards,
           'profile_screens': profile_screens, 'card_classes': card_classes, 'link_error': link_error,
-          'shop_plaques': shop_plaques, 'sutra_board': sutra_board, 'tutorial': tutorial}
+          'shop_plaques': shop_plaques, 'sutra_board': sutra_board, 'tutorial': tutorial,
+          'fieldcards': fieldcards}
 
 
 def apply(rom):
