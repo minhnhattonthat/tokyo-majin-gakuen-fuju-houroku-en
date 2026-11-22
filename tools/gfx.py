@@ -325,13 +325,14 @@ def settings_screen(rom):
     return out + bg4_edit(rom, SET_PTRS, 1, edits, SET_RAMPS['white'])
 
 
-def bg4_edit(rom, ptrs, bank, edits, white=(10, 12, 14, 15)):
-    """4bpp 30x20 BG screen whose (palette, tiles, map) pointers sit at ptrs - 8, ptrs, ptrs + 8: decode it, apply
+def bg4_edit(rom, ptrs, bank, edits, white=(10, 12, 14, 15), pal_at=-8):
+    """4bpp 30x20 BG screen whose (palette, tiles, map) pointers sit at ptrs + pal_at, ptrs, ptrs + 8 (pal_at 4 for
+    the screen table 0xD7DCC0, whose entries are tiles, palette, map): decode it, apply
     edits (rows with kind bg = white label on a clear rect, board = reletter a light-ink board, gfx_signs), retile
     (identical tiles shared, no flips) and write it back in place, or into free space at ROOM_SPARE-managed
     BG4_SPARE with the pointers moved when it needs more tiles than the original block holds"""
     import gfx_signs
-    pal, t0, m0 = (struct.unpack_from('<I', rom, ptrs + k)[0] & 0x1FFFFFF for k in (-8, 0, 8))
+    pal, t0, m0 = (struct.unpack_from('<I', rom, ptrs + k)[0] & 0x1FFFFFF for k in (pal_at, 0, 8))
     ntiles = (m0 - t0) // 32
     ents = struct.unpack_from('<600H', rom, m0)
     canvas = [[0] * 240 for _ in range(160)]
@@ -353,6 +354,12 @@ def bg4_edit(rom, ptrs, bank, edits, white=(10, 12, 14, 15)):
             gfx_signs.reletter(sub, palrgb, r['en'], False, 13, FONT, light_ink=True, inset=2)
             for yy in range(h):
                 canvas[y + yy][x:x + w] = sub[yy]
+        elif r['kind'] == 'patch':   # cover with a blank stretch of the same texture (sx, sy), then white text
+            sx, sy = int(r['sx']), int(r['sy'])
+            src = [row[sx:sx + w] for row in canvas[sy:sy + h]]
+            px = letter_levels(r['en'], w, h, 12, list(white), 1, align='center')
+            for yy in range(h):
+                canvas[y + yy][x:x + w] = [p or s for p, s in zip(px[yy], src[yy])]
     tiles, mp = tile_bg(canvas, 30, 20, 1024, bank=bank << 12)
     tiles = tiles.rstrip(b'\0')
     tiles += bytes(-len(tiles) % 32)
@@ -381,9 +388,19 @@ def haiku_screen(rom):
     return bg4_edit(rom, HAIKU_PTRS, 9, rows('haiku'))
 
 
+# screen-table entries (tiles, palette, map; bank 13): deck-name entry (G6) and the shop's item list (商品選択)
+def deck_name_screen(rom):
+    return bg4_edit(rom, 0xD81D68, 13, rows('deck_name'), white=(11, 13, 14, 15), pal_at=4)
+
+
+def shop_list_screen(rom):
+    return bg4_edit(rom, 0xD81DBC, 13, rows('shop_list'), white=(10, 13, 14, 15), pal_at=4)
+
+
 GROUPS = {'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': dungeon_menu,
           'room_banners': room_banners, 'floor_numerals': floor_numerals, 'signs': signs,
-          'settings_screen': settings_screen, 'haiku_screen': haiku_screen}
+          'settings_screen': settings_screen, 'haiku_screen': haiku_screen, 'deck_name_screen': deck_name_screen,
+          'shop_list_screen': shop_list_screen}
 
 
 def apply(rom):

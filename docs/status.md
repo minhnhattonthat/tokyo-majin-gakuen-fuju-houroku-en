@@ -3,7 +3,7 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22, full English,
-  sha1 5c6e281ffc8d..; smoke ok (`work/qa/smoke`), B07 warp shows English dialogue (`work/qa/warp/B07/sheet.png`).
+  sha1 cd31a5defe11..; smoke ok (`work/qa/smoke`), check.py 37 passed.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -39,11 +39,22 @@ Updated at the end of every session. Keep it to what the next session needs; his
   Visual-QA verdicts not started on purpose: redraws change most sheets, so tour + verdicts go last. Review
   sheets at full scale: `sheet.py DIR --div 1 --changed 0.02` (~86k image tokens for the whole tour; split it
   across sessions by chunk). Tour sheets are half-scale and too small to judge text.
-- **Next (phase 8):** remaining graphics text, in order of screen time: vertical room banners (S15: 封陰窟 一階 with
-  floor numerals, 骨董品店 店内, 呪符交換之間, 通信対戦之間, 寄り道, 句会, 設定) and 使用符咒; settings labels (BG,
-  D1AA24-D1BB43, S21/S22: 文字表示 エフェクト セリフ ボイス 設定終了, 普通 有り); detour map names; 商品選択 (screen
-  0xC36408); deck-name entry screen 0xC6D898 (G6); battle UI (S6/S9/S10); chapter cards, place-name strips, 邪気封印
-  card art, emblems, rarity legend, game over, credits/end card. Then a full English tour, verdicts per chunk
+  Session 3 (2026-11-22): English in game, each checked in a warp shot: room plaques (group room_banners,
+  `tools/gfx_rooms.py`, 8bpp room screens: Fuin Cave + floor, Trading Hall, Link Battle Hall + "Deck in Use", Curio
+  Shop; link-error screen C11C58 moved to free space for extra tiles: relocation proven on the dungeon screen, the
+  error screen itself not reached), Fuin Cave floor number (group floor_numerals: hook 0xFD0000 for 0x080597D0,
+  rotated Arabic digits 1-100, tested by poking 0x03003810), detour-map signs + 寄り道 banner (group signs,
+  `tools/gfx_signs.py`), settings screen (banner, labels, every value: `tools/routes/settings_values.txt`), haiku
+  banner, shop item list "Select Item" (`tools/routes/shop_buy.txt` from `work/states/shop.mss`). Deck-name entry
+  screen (G6, group deck_name_screen) redrawn but **not yet seen in game** (no warp row: reach it via hub -> Deck Edit;
+  add a scenes.tsv row). Tools: `tools/debug/bglayers.py` (each BG layer + OAM of a PPU dump),
+  `tools/debug/gfx_preview_rooms.py`, `tools/debug/gfx_preview_bg4.py`; `gfx.bg4_edit` reletters any 4bpp 30x20
+  screen (kinds bg / board / patch). Free space used: 0xFD0000 hook, 0xFD1000+ room screens, 0xFD8000+ 4bpp screens.
+- **Next (phase 8):** remaining graphics text: deck-name entry check in game; booster-pack select header (screen
+  0xC5F760, map looks non-standard); deck edit / help UI (S19); battle UI (S6/S9/S10, sprites/screens 0xB4xxxx);
+  vertical scene captions (W12/G5, S11/S12); card class labels (S1), card/skill name art (S5), 邪気封印 card art,
+  emblems (S20), rarity legend (S27), card type icons (S28), info-screen labels (S29), sound test labels (S22),
+  defeat/rematch (S9, 0xD65298), credits role captions + end card (W10/W11). Then a full English tour, verdicts per chunk
   (in an Orca worker: read the sheets yourself in a fresh pass, one verdict file per chunk; `codex exec -s
   read-only` after 2026-11-26); `inkbox.py` on choice/centred boxes; stress saves (needs save fields mapped);
   English name entry (u16 kana grids 0xD16740 / D6E56C / D72F00). Checks carried from phase 6: card-panel range

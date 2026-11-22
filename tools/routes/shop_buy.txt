@@ -1,0 +1,6 @@
+# from work/states/shop.mss (shop menu 売る 買う 店を出る): cursor down to Buy, A -> item list (商品選択)
+30 -
+6 down
+30 -
+6 a
+240 -

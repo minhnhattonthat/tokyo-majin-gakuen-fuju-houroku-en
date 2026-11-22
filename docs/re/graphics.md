@@ -72,15 +72,17 @@ Seen in warp shots; whether each label is tiles or font text is settled in phase
 | # | warp row | Japanese on screen |
 |---|---|---|
 | W1 | `hub`, `hub_dungeon`, `hub_save` | 寄り道/封陰窟, 符咒編集, 記録, 設定, 先に進む: **English** (group menu_labels, sprites 0xB43A38-0xB44637); 記録しますか？ はい いいえ (font) |
-| W2 | `detour_map` | 寄り道 banner; map labels 光明院, 句会, 骨董品店, 封陰窟 (map art) |
-| W3 | `dungeon` | menu 符咒編集 記録 設定 地下へ降りる 最初から降りる 戻る: **English** (group dungeon_menu, BG2 screen 0xC24E08); 封陰窟 一階 vertical banner (S15) pending |
-| W4 | `shop`, `trade_room` | 売る 買う 店を出る, 通信交換 符咒編集 終了する: **English** (menu_labels); 骨董品店 店内 / 呪符交換之間 banners (S15) pending |
-| W5 | `link_battle`, `title_link_battle` | 戦闘開始, 符咒編集, 終了する: **English** (menu_labels); 通信対戦之間 banner, 使用符咒 label pending |
+| W2 | `detour_map` | 寄り道 banner; signs 光明院, 句会, 骨董品店, 封陰窟: **English** (group signs: OBJ sprites 0xD09A98 + 0xD0A8B8 (two palettes, same tiles), banner 0xD0B6D8) |
+| W3 | `dungeon` | menu: **English** (group dungeon_menu, BG2 screen 0xC24E08); 封陰窟 階 plaque: **English** (room_banners, 8bpp BG3 screen 0xC1B8F8); floor numeral sprites 0xC273A8 drawn by 0x080597D0 (floor = [0x03003810] + 1): **Arabic digits** via hook (floor_numerals) |
+| W4 | `shop`, `trade_room` | menus **English** (menu_labels); 骨董品店 店内 (8bpp 0xC27A28) / 呪符交換之間 (0xBF2628) plaques **English** (room_banners); item list 商品選択 (0xC36408) **English** (shop_list_screen) |
+| W5 | `link_battle`, `title_link_battle` | menus **English**; 通信対戦之間 + 使用符咒 (8bpp 0xC05B28) **English** (room_banners); link-error screen 0xC11C58 (通信エラーです…) **English**, block moved to free space |
 
 Shots: `work/qa/gfx_menus/sheet.png`, `link_zoom.png`. Menu labels are 64x16 sprites, 8x2 tiles row-major (0x200 B),
 indices 0 transparent, 1 rim, 2-5 grey to white (OBJ bank 1); 符咒編集 has three copies (B43E38, BFC1B8, C0EF38).
 
 ### Screen table 0xD7DCC0-0xD81ED8 (`tools/gfx_screens.py` renders each into `work/gfx/screens/`)
+8bpp room backgrounds have a 0x100-byte (128-colour) palette (`gfx_screens.py` renders them; the game takes the
+block size from the map pointer, so a block moved to free space with its two pointers updated loads fine: tested).
 u32 pointer runs; a BG screen is a (tiles, palette, map) triple: palette right before the tiles, a 30x20 u16 map
 right after them (tile count = (map - tiles) / 32; entries = bank << 12 | tile from the block's first tile; the
 game adds its own VRAM base). Dungeon menu: entry 0xD81C3C (0xC24E08 tiles, 0xC24DE8 palette, 0xC25DC8 map; VRAM
@@ -89,9 +91,9 @@ base 0x90, bank 11, written by BIOS CpuSet at the scene load). Sources found wit
 Other triples that render as menus: 0xC36408 商品選択 (shop list), 0xC6D898 deck-name entry (符咒名は？ 進む 戻る 終了
 かな カナ 漢字, G6).
 | W6 | `title_save`, `title_link_*` | 続きから, 通信, 通信対戦, 通信交換 (G4) |
-| W7 | `settings`, `title_settings` | 設定 banner; 文字表示 エフェクト セリフ ボイス 設定終了; values 普通 有り (S21) |
+| W7 | `settings`, `title_settings` | **English** (settings_screen): BG2 screen 0xD19834/map 0xD1A554 (pointers 0xD1BB5C..) banner + white labels; yellow selected-label and value sprites 0xD1AA24 (k * 0x100) |
 | W8 | `sound_test` | サウンドテスト, BGM, SE, セリフ, ボイス + song/line names (S22) |
-| W9 | `haiku` | 句会 banner, 蛍火の句会 |
+| W9 | `haiku` | 句会 banner **English** (haiku_screen, BG2 0xD0E320, pointers 0xD16F94..), 蛍火の句会 (font) |
 | W10 | `ending_38`, `ending_39` | staff roll: role captions ◎グラフィック◎, ◎企画・開発◎, ◎プロデューサー◎, ◎監督◎, names (D3: English) |
 | W11 | `ending_39` | 東京魔人學園 符咒封録 完 end card (tiles) |
 | W12 | `story_00`, `story_NN` | vertical scene captions (暗黒の渦――: G5) at the top right of story scenes |
