@@ -63,7 +63,7 @@ its usage limit); `tools/gfx_zoom.py` re-renders any asset at chosen widths. Wid
 | S24 | 0xD23140 | title logo plus furigana とうきょうまじんがくえん ふじゅほうろく (with G3) |
 | S25 | 0xD280D0 (8 wide); 0xD2F0D8, 0xD30448 (shredded) | brush-lettered titles (need the tilemap or an in-game shot) |
 | S26 | 0xD2A248 (8bpp, 1998 6.18 date + kanji); 0xD35868 (8bpp UI with kana/kanji) | full-screen BG tilesets, deduped: read in game |
-| S27 | 0xD3C1F8 | rarity legend 高:紫色 ↕:金色 低:銀色 |
+| S27 | 0xD3C1F8 | rarity legend 高:紫色 ↕:金色 低:銀色: 64x64 4bpp OBJ (8x8 tiles in row order, palette 0xD3C1D8, size 0x800 in the (ptr, size) table at 0xD63960 next to 0xD48F78 and 0xD451F8 S28). **English** "Hi:Violet / ↕:Gold / Lo:Silver" (kind `legend` in battle_ui; rendered only, screen not yet found in game) |
 | S28 | 0xD451F8 (16x16 icon + kanji pairs) | card type icons 術 武 ... |
 | S29 | 0xD53CD8, 0xD57D48, 0xD59218, 0xD5A748, 0xD5E538, 0xD5F1A8 | window frames with label tiles (シンボル, 背景, 属性, ジャンル ...): card/deck info screens, read in game |
 

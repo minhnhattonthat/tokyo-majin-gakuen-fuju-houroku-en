@@ -118,7 +118,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `zz_recheck10_20261122.tsv`). Second picker caller 0x080543xx (another screen) not seen.
   Session 11 (2026-11-22): **S7 large turn-order cards English** (10 cards, kind `bigcard` in `gfx/battle_ui.tsv`,
   `tools/gfx_battle.py`: old numeral + rim inpainted, Arabic digit in the same ink; "2" seen in game at the
-  turn-order draw from board_turn.mss + `work/qa/bd/rand.txt`, `work/qa/bigcard/zoom.png`). check.py 37 passed.
+  turn-order draw from board_turn.mss + `work/qa/bd/rand.txt`, `work/qa/bigcard/zoom.png`). **S27 rarity legend** English "Hi:Violet / ↕:Gold / Lo:Silver" (kind `legend`;
+  64x64 OBJ, table 0xD63960 of (ptr, size) pairs): rendered only, the screen that shows it is not yet found (likely a
+  card list/info screen; use srclog.lua with SRC_LO=0x08D3C1F8). check.py 37 passed.
 - **Next (phase 8):** Remaining graphics text: S19 leftovers 0xC6A2D8 (deck-editor window frame sheet:
   check for labels); find where VS / CLASH / Attack-Wait show (srclog.lua with SRC_LO=0x08ACCCCC over a longer or
   link battle); the name entry's kana grid (G7, English layout with the u16 grids below);

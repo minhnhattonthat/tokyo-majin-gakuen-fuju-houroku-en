@@ -253,6 +253,41 @@ BIG_PAL = {0xAE5FDC: 80, 0xAEA8AC: 80, 0xAEF17C: 80, 0xAF3A4C: 80, 0xAF831C: 80,
            0xACF24C: 160, 0xAD3BBC: 160, 0xAD852C: 160, 0xADCE9C: 160, 0xAE180C: 160}
 
 
+def legend(rom, off, text):
+    """rarity legend 0xD3C1F8 (64x64 4bpp OBJ, 8x8 tiles in row order, palette 0xD3C1D8; table 0xD63960):
+    three lines 高:紫色 / ↕:金色 / 低:銀色 on red marble (1-4). text = 'Hi|Purple/|Gold/Lo|Silver': per line the
+    label (empty = keep the original, the arrow) and the colour word. Colons are kept; replaced areas are
+    inpainted from the marble, then lettered in the line's original fill with a right/down shadow of 8"""
+    px = gfx.decode(rom[off:off + 0x800], 8, 64)
+    lines = [(9, 23), (24, 39), (40, 55)]
+    fills = [9, 11, 10]
+    for (y0, y1), fill, part in zip(lines, fills, text.split('/')):
+        lab, word = part.split('|')
+        boxes = [(20, 47, word, fill)] + ([(3, 16, lab, 14)] if lab else [])
+        for x0, x1, s, ink in boxes:
+            hole = {(x, y) for y in range(y0, y1) for x in range(x0, x1) if px[y][x] > 4}
+            while hole:
+                fill_ = {}
+                for x, y in hole:
+                    nb = [px[y + dy][x + dx] for dx, dy in ((-1, 0), (1, 0), (0, -1), (0, 1))
+                          if (x + dx, y + dy) not in hole and 1 <= px[y + dy][x + dx] <= 4]
+                    if nb:
+                        fill_[x, y] = max(set(nb), key=nb.count)
+                for (x, y), v in fill_.items():
+                    px[y][x] = v
+                hole -= set(fill_)
+            m = mask(s, x1 - x0 - 1, y1 - y0 - 3, maxsize=14)
+            a = m.load()
+            mx, my = x0 + (x1 - x0 - 1 - m.width) // 2, y0 + 1
+            g = {(mx + x, my + y) for y in range(m.height) for x in range(m.width) if a[x, y] >= 110}
+            for x, y in g:
+                if (x + 1, y + 1) not in g:
+                    px[y + 1][x + 1] = 8
+            for x, y in g:
+                px[y][x] = ink
+    return gfx.encode(px, 8)
+
+
 def panel(rom, off, text):
     """48x48 stone panel 攻撃 / 待機 (0xB54068: 36 tiles, map 0xB544E8 = 6x6 in order, palette 0xB54048 as bank
     13): white (15) glyphs straight on the stone. Each glyph pixel is replaced by the stone pixel 3 to its left
@@ -293,6 +328,8 @@ def battle_ui(rom):
             data = phase(rom, off, r['en'], r['kind'][6:])
         elif r['kind'] == 'cardnum':
             data = cardnum(rom, off, r['en'])
+        elif r['kind'] == 'legend':
+            data = legend(rom, off, r['en'])
         elif r['kind'] == 'bigcard':
             data = bigcard(rom, off, r['en'])
         elif r['kind'] == 'vs':
