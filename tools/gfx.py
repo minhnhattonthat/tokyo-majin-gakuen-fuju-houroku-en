@@ -578,7 +578,13 @@ def mini_labels(rom):
     return gfx_minilabels.mini_labels(rom)
 
 
-GROUPS = {'icons': icons, 'mini_labels': mini_labels, 'frames': frames, 'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': dungeon_menu,
+def attack_types(rom):
+    """attack-type badges 拳武飛術氣 (S28, tools/gfx_attack.py)"""
+    import gfx_attack
+    return gfx_attack.attack_types(rom)
+
+
+GROUPS = {'attack_types': attack_types, 'icons': icons, 'mini_labels': mini_labels, 'frames': frames, 'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': dungeon_menu,
           'room_banners': room_banners, 'floor_numerals': floor_numerals, 'signs': signs,
           'settings_screen': settings_screen, 'haiku_screen': haiku_screen, 'deck_name_screen': deck_name_screen,
           'name_entry_screen': name_entry_screen, 'shop_list_screen': shop_list_screen, 'deck_edit': deck_edit, 'plaques': plaques,
