@@ -48,7 +48,7 @@ D64678	str	15	変生ルーニィ	Morphed Rooney
 D64688	str	11	ルーニィ	Rooney	
 D64694	str	11	御厨（父）	Mikuriya Sr.	
 D646A0	str	7	大家	Landlord	
-D646A8	str	7	黄龍	Gold	
+D646A8	str	7	黄龍	Kouryu	
 D646B0	str	7	豪商	Rich Merchant	
 D646B8	str	7	役人	Official	
 D646C0	str	23	白虎（変生醍醐雄慶）	Byakko (Daigo)	
@@ -307,9 +307,9 @@ D679AC	str	35	我が怨念の{rt}ざわめき、{rt}聞けい！！	Hear the{rt}
 D679D0	str	15	見ておれェ…。	Just you wait...	
 D679E0	str	31	おまえッ！！{rt}我に手を貸せッ。	You!!{rt}Lend me a hand!	
 D67A00	str	27	降参しろォ、{rt}人間ッ！！	Surrender,{rt}human!!	
-D67A1C	str	27	奴をここから{rt}出すなッ！！	Don't let him{rt}out of here!!	
+D67A1C	str	27	奴をここから{rt}出すなッ！！	Don't let 'em{rt}out of here!!	
 D67A38	str	47	こら、待てッ！！{rt}そいつは我の{rt}獲物だァ！！	Hey, wait!!{rt}That one is{rt}my prey!!	
-D67A68	str	47	あひいッ！！{rt}わ、私が悪う{rt}御座いましたッ。	Eeek!!{rt}I-I was in the{rt}wrong, sir!	
+D67A68	str	47	あひいッ！！{rt}わ、私が悪う{rt}御座いましたッ。	Eeek!!{rt}I-I was in the{rt}wrong! Mercy!	
 D67A98	str	27	こ、殺さないで{rt}くれェ。	D-don't kill{rt}meee.	
 D67AB4	str	31	おまえの身体{rt}…いただくぞ。	Your body...{rt}is mine now.	
 D67AD4	str	47	ぐふふふ…。{rt}君も、今日からは{rt}我らの仲間…。	Heh heh heh...{rt}From today on, you{rt}are one of us...	
@@ -374,14 +374,14 @@ D6811C	str	15	ＧＡＵッ！！	GAU!!
 D6812C	str	39	儂らより先に{rt}三途の河を{rt}渡れィッ！！	Cross the Sanzu{rt}River before{rt}we do!!	
 D68154	str	35	我らの《力》から{rt}は逃れられん！！	You can't escape{rt}our Power!!	
 D68178	str	39	もう家には{rt}帰れんぞ、{rt}餓鬼どもッ。	You'll never go{rt}home again,{rt}brats.	
-D681A0	str	47	「苦労は買って{rt}でもしろ」じゃ、{rt}若造ッ！！	"Hardship builds{rt}character," boy!!	
+D681A0	str	47	「苦労は買って{rt}でもしろ」じゃ、{rt}若造ッ！！	"Hardship builds{rt}character," kid!!	
 D681D0	str	47	人生の先輩に{rt}頭を下げさせて{rt}やるわいッ！！	I'll make you bow{rt}to your elders!!	
 D68200	str	39	あまり年寄りと{rt}舐めん方が{rt}いいぞッ。	Don't take us{rt}lightly for being{rt}old.	
 D68228	str	39	泣いても{rt}知らんぞ、{rt}餓鬼どもッ！！	Don't come crying{rt}to me later,{rt}brats!!	
 D68250	str	35	ひゃあああッ！！{rt}お、お助けッ！！	Hyaaah!!{rt}H-help!!	
 D68274	str	31	口惜しい…。{rt}おまえなどにッ。	How galling...{rt}Beaten by you.	
 D68294	str	51	こんな傷…梅干し{rt}を貼りつければ{rt}すぐに治るわ。	A scratch like{rt}this? Slap a pickled{rt}plum on it. Done.	
-D682C8	str	47	いいか、若造。{rt}これからは{rt}高齢化社会じゃよ	Listen, boy.{rt}The future belongs{rt}to the elderly.	
+D682C8	str	47	いいか、若造。{rt}これからは{rt}高齢化社会じゃよ	Listen, kid.{rt}The future belongs{rt}to the elderly.	
 D682F8	str	39	ぬううッ…。{rt}どうせお先短い{rt}身よ…。	Nnngh...{rt}Well, I haven't{rt}long left anyway...	
 D68320	str	31	手強い奴…。{rt}だが、負けぬわ。	A tough one...{rt}But I won't lose.	
 D68340	str	43	お前も我らが{rt}孤独、味わうが{rt}いいさッ。	You can taste{rt}our loneliness{rt}too!	
@@ -1077,7 +1077,7 @@ D6DE80	str	47	かけがいのない{rt}友の為にその拳を{rt}振るえッ�
 D6DEB0	str	15	耐えてみろ！！	Endure this!!	
 D6DEC0	str	11	ふんッ！	Hmph!	
 D6DECC	str	27	まだまだ{rt}これからだ！！	We're just{rt}getting started!!	
-D6DEE8	str	47	怨敵調伏ッ！！{rt}血は凍り、{rt}肉は燃えよッ！！	Subdue my foe!!{rt}Freeze his blood,{rt}burn his flesh!!	
+D6DEE8	str	47	怨敵調伏ッ！！{rt}血は凍り、{rt}肉は燃えよッ！！	Subdue my foe!!{rt}Let blood freeze,{rt}let flesh burn!!	
 D6DF18	str	47	行け、咒よ！！{rt}我が怨敵に{rt}血華を咲かせよ！	Go, curse!!{rt}Make blood bloom{rt}on my enemy!	
 D6DF48	str	35	我が呪詛（すそ）、{rt}結願せりッ！！	My curse{rt}is fulfilled!!	
 D6DF6C	str	35	行け、我が呪詛の{rt}申し子たちッ！！	Go, children{rt}of my curse!!	
@@ -1256,7 +1256,7 @@ D6F390	str	47	場に出ている{nl}{I000}人物符の能力を{nl}引き出し�
 D6F3C0	str	39	摩尼は{nl}ＡＰの最大値を{nl}上昇させたり	The Mani can{nl}raise your{nl}max AP,	
 D6F3E8	str	43	{I004}土地符は{nl}場の摩尼を{nl}変化させる符です	{I004}Land talismans{nl}change the{nl}field's Mani.	
 D6F414	str	55	相剋の対象は時計回りに{nl}２つ先の属性となっています{wc}	and Counter targets two{nl}steps clockwise.{wc}	
-D6F44C	str	55	中央の摩尼表示で相生の対象は{nl}半時計回りに１つ隣の属性	In the central Mani display, Feed{nl}targets one step anticlockwise,	
+D6F44C	str	55	中央の摩尼表示で相生の対象は{nl}半時計回りに１つ隣の属性	On the central Mani display, Feed{nl}targets one step counterclockwise,	
 D6F484	str	67	{I009}の{I004}土地符{nl}相生：{I008}の摩尼を吸収{nl}相剋：{I006}の摩尼を破壊	{I009} {I004}Land{nl}Feed: absorbs {I008} Mani{nl}Counter: destroys {I006} Mani	
 D6F4C8	str	67	{I008}の{I004}土地符{nl}相生：{I007}の摩尼を吸収{nl}相剋：{I005}の摩尼を破壊	{I008} {I004}Land{nl}Feed: absorbs {I007} Mani{nl}Counter: destroys {I005} Mani	
 D6F50C	str	67	{I007}の{I004}土地符{nl}相生：{I006}の摩尼を吸収{nl}相剋：{I009}の摩尼を破壊	{I007} {I004}Land{nl}Feed: absorbs {I006} Mani{nl}Counter: destroys {I009} Mani	

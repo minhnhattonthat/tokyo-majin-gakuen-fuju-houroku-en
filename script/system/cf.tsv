@@ -205,7 +205,7 @@ CF37E4	str	39	場にある{I000}×２０{rt}のライフを得ます	Gain 20 Lif
 CF380C	str	83	敵符咒士の伏せら{rt}れた{I000}を全て{rt}オープンします{rt}オープン時の能力{rt}は無効化します	Opens every face-{rt}down {I000} of the{rt}foe Talismancer.{rt}Open abilities{rt}don't trigger.	
 CF3860	str	87	場の味方{I000}を{rt}選択し、その{I000}を{rt}破壊します、{rt}その{I000}の属性の{rt}摩尼を＋１します	Choose an allied{rt}{I000} and destroy{rt}that {I000}; Mani of{rt}that {I000}'s{rt}element +1.	
 CF38B8	str	39	敵符咒士の式神{rt}法術を打ち消しま{rt}す	Cancels the foe{rt}Talismancer's{rt}Shikigami or Spell.	
-CF38E0	str	79	選択した摩尼を０{rt}にし、そのターン{rt}の間、摩尼×２{rt}ＭＡＸＡＰが{rt}上昇します	Sets chosen Mani to{rt}0; this turn, Max{rt}AP rises by Mani{rt}x 2.{rt}	
+CF38E0	str	79	選択した摩尼を０{rt}にし、そのターン{rt}の間、摩尼×２{rt}ＭＡＸＡＰが{rt}上昇します	Sets chosen Mani to{rt}0; this turn, Max{rt}AP rises by Mani{rt}x 2.	
 CF3930	str	47	このターン、{rt}全ての{I000}を無に{rt}変化させます	This turn, every{rt}{I000} loses{rt}its element.	
 CF3960	str	47	このターン、{rt}全ての{I000}を{I009}に{rt}変化させます	This turn, every{rt}{I000} becomes{rt}{I009}.	
 CF3990	str	47	このターン、{rt}全ての{I000}を{I008}に{rt}変化させます	This turn, every{rt}{I000} becomes{rt}{I008}.	
@@ -221,7 +221,7 @@ CF3B70	str	35	場にある全ての{rt}{I002}を破壊します	Destroys every{r
 CF3B94	str	35	場にある全ての{rt}{I001}を破壊します	Destroys every{rt}{I001} on the field.	
 CF3BB8	str	79	選択した式神を{rt}破壊します{rt}使役者は消費ＡＰ{rt}の半分×１０の{rt}ライフを失います	Destroys a chosen{rt}Shikigami. Its{rt}owner loses half{rt}its AP cost x 10{rt}in Life.	
 CF3C08	str	55	場に出ている{rt}全ての敵{I000}の{rt}能力を使えなくし{rt}ます	Every foe {I000} on{rt}the field loses{rt}the use of its{rt}abilities.	
-CF3C40	str	51	{I000}１枚を選択し、{rt}その{I000}を手札に{rt}戻させます	Choose a {I000} and{rt}return that {I000}{rt}to its hand.	
+CF3C40	str	51	{I000}１枚を選択し、{rt}その{I000}を手札に{rt}戻させます	Choose a {I000} and{rt}return it to its{rt}owner's hand.	
 CF3C74	str	27	対象の{I000}を{I019}に{rt}します	Puts the target{rt}{I000} into {I019}.	
 CF3C90	str	27	対象の{I000}を{I017}に{rt}します	Puts the target{rt}{I000} into {I017}.	
 CF3CAC	str	75	次のターン終了{rt}まで符咒士が{rt}攻撃を受ける度に{rt}同じ分ライフを{rt}回復します	Until the end of{rt}next turn, the{rt}Talismancer heals{rt}Life equal to each{rt}attack taken.	
@@ -349,7 +349,7 @@ CF5050	str	39	このターン、{rt}全ての{I000}を{rt}{I005}に変化	This t
 CF5078	str	51	対象の{I000}を除去{rt}{I000}の所有者は{rt}ＭＡＸＡＰ＋１	Removes target{rt}{I000}; the {I000}'s{rt}owner: Max AP +1	
 CF50AC	str	31	次の敵符咒士の{rt}ターンをとばす	Skips the foe{rt}Talismancer's{rt}next turn	
 CF50CC	str	23	山札を初期状態に{rt}戻す	Resets the draw pile{rt}to its start	
-CF50E4	str	27	変生能力のある{rt}{I000}を変生	Makes a {I000} that{rt}can Morph Morph	
+CF50E4	str	27	変生能力のある{rt}{I000}を変生	Morphs a {I000}{rt}that can Morph	
 CF5100	str	39	選択した{I001}を{rt}別の{I000}に{rt}移し変える	Moves a chosen{rt}{I001} to{rt}another {I000}	
 CF5128	str	27	場にある全ての{rt}{I002}を破壊	Destroys every{rt}{I002} on the field	
 CF5144	str	27	場にある全ての{rt}{I001}を破壊	Destroys every{rt}{I001} on the field	
