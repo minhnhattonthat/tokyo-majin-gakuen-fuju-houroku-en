@@ -2,8 +2,9 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 19; sessions 20-22 did not
-  rebuild; session 22 has 4 unbuilt text edits), sha1 82aef7599a18..; check.py 38 passed.
+- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 19; sessions 20-23 did not
+  rebuild it, because the coverage runs use it; session 22 has 4 unbuilt text edits, session 23 the haiku fix), sha1
+  82aef7599a18..; side build with everything: `build.py --out work/next/tmgfh_en.gba` (sha1 280ca2d0895b..); check.py 38 passed.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -241,16 +242,39 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   The VS plate shows the player name 緋勇龍麻 from the save: check a cold new game on the English build shows the
   English default. New probe `tools/debug/popuplog.lua` (logs popup calls). Rules help 【Abilities】 = last topic
   (down x17), its A pages are D6E8xx text, not the popup table.
+  Session 23 (2026-11-22): **bug fixed: haiku rewards were unobtainable.** The haiku list D16A40-D16F54 is never
+  shown: the haiku club (mode 16) strcmps the kana typed on its hiragana grid against it (table 0xD16940 = haiku ptr,
+  reward card u16, 2 bytes; strcmp 0x08064098 called at 0x08009DA6, its only caller), so the English text matched
+  nothing. The 32 rows are kind `grid` now (`tools/extract.py` GRIDS; meaning kept in notes), D14. Haiku input screen
+  English: header 一句どうぞ -> "A haiku, please", buttons 改行 / 戻る / 終る -> NEXT LINE / DEL / END (group
+  `haiku_input`, `gfx/haiku_input.tsv`, new `gfx.bg4_inplace`: keeps tile indices, because the grid's tiles double as
+  the entered-kana sprites: a retiled set garbled them; grown sets go to 0xF80000 with the table's byte count
+  raised). Proven in game on the side build: `tools/debug/haiku_route.py "ああねむい ねればねるとき ねちまおう"` from
+  `work/states/haiku.mss` gives "Oh. A fine haiku..." + card "Drowsy Boy", same as the JP ROM
+  (`work/qa/haiku_t_en/cmp.png`, `z.png`). New tools: `tools/debug/covrun.py` (one coverage run of a menu route into
+  work/qa/cover/NAME, prints the system strings it newly showed), `tools/debug/screen_png.py` (render a 4bpp screen).
+  `cover.py rows` (every scenes.tsv row with textcover) was run for the first time (`work/qa/cover/rows`). Deck
+  submenu covered (`deck_sub2`, `deck_sub3` from new state `work/states/deck_edit_all.mss` = allcards.sav, English
+  build, deck edit screen): help texts Edit/Copy/Delete/Name/Equip/Add, Are you sure?, Is this OK?, equipped deck
+  can't be deleted. Shop booster buying needs value: "Not enough value" (money field not mapped: map it, then
+  covrun the buy flow from shop.mss: D78A3C-D78C8C). **allcards.sav was made from the JP ROM** (deck named 真神,
+  JP default names): after the rows run, remake it (`save.py make --rom build/tmgfh_en.gba`, then `set
+  --add-cards`) so menu shots show the English defaults.
 - **Next (phase 8):** (A) text coverage: the branch pass was resumed again in session 22 (`--jobs 4`, log
-  `work/qa/cover_branches.log`; branch0 + branch1 done, branch2 94/165 when it ended, branches up to 9 follow for the
-  A scenes). If no Mesen process of this
+  `work/qa/cover_branches.log`; resumed again in session 23: branch0-2 done, branch3+ (A scenes only) running when it
+  ended). If no Mesen process of this
   repo is running (other projects' Mesen may be), resume it with `python -X utf8 tools/cover.py scenes --branches
   --jobs 4` (it skips finished scenes; delete any run dir without final.png first), then `tools/cover.py gaps --jobs
-  4`, then `report --by-scene`. Scenes should reach ~0 unshown. Then rebuild (session 22 text edits), move
-  `work/qa/cover` away and re-run the coverage (or waive with a note that only 4 strings changed). System strings
-  left (262): CF64E8-CF7340 short labels and land/spell names,
-  D1685C/D16820 haiku-hall lines + haiku list D16A40-D16F54, D720A0-D72C98 deck/sell/trade prompts, D7878C-D78C8C
-  shop, D6526C link error / D6E3D4 sync test / D78E04-D79138 link cable (waive: needs a second GBA). Waive only what
+  4`, then `report --by-scene`. Scenes should reach ~0 unshown. Then rebuild (session 22 text edits + session 23
+  haiku fix: the haiku rows leave strings.tsv as kind grid), move `work/qa/cover` away and re-run the coverage (or
+  waive with a note naming the changed rows). System strings left (~230 after session 23; list them with
+  `cover.shown_ids()` against `work/qa/cover/strings.tsv`): CF64E8-CF7340 short labels and land/spell names,
+  D720A0-D72C98 sell / trade-registration / discard prompts, sort badges AP-/AP+.. (sort popup), kana-row badges
+  (scroll a name-sorted list), D7878C-D7890C sutra board sin descriptions (mode 7: move the cursor over each label),
+  D78990-D78C8C shop booster purchase (needs value), D6526C link error / D6E3D4 sync test / D78E04-D79138 link cable
+  (waive: needs a second GBA). For each menu: `tools/debug/covrun.py NAME --state-in S --route-str ".."`.
+  Release README: list the 32 haiku (kana, romaji, meaning from the d1.tsv notes) so English players can enter them
+  (D14). Waive only what
   is shown unreachable in `docs/text_unshown.tsv`. Do not rebuild between coverage runs (cover.py refuses when strings.tsv
   changed; move `work/qa/cover` away and re-run all after a rebuild). Stress saves: `allcards.sav` is the
   full-list one; long names via `save.py set --surname/--name`; money/deck not mapped yet. (0) graphics left: S16 0xC03F88 link-room badges (look like 待機中 / 通信中; loaded only in
