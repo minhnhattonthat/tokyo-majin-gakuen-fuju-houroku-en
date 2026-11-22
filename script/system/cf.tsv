@@ -31,7 +31,7 @@ CF1748	str	47	【魅了】{rt}自分よりＡＰの{rt}低い{I000}は攻撃不�
 CF1778	str	35	【召喚】{rt}{I000}病んだ狼を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Sick Wolf	
 CF179C	str	31	【召喚】{rt}{I000}警官を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Police Officer	
 CF17BC	str	35	【召喚】{rt}{I000}悪代官を{rt}召喚する	【Summon】{rt}Summons an{rt}{I000}Evil Magistrate	
-CF17E0	str	39	【召喚】{rt}{I000}強欲な商人を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Greedy Merchant	
+CF17E0	str	39	【召喚】{rt}{I000}強欲な商人を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Greedy Trader	
 CF1808	str	35	【召喚】{rt}{I000}御用提灯を{rt}召喚する	【Summon】{rt}Summons an{rt}{I000}Official Lantern	
 CF182C	str	31	【召喚】{rt}{I000}浪士を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Ronin	
 CF184C	str	35	【召喚】{rt}{I000}大百足を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Giant Centipede	
@@ -42,7 +42,7 @@ CF18DC	str	39	【召喚】{rt}{I000}威嚇する者を{rt}召喚する	【Summon
 CF1904	str	39	【召喚】{rt}{I000}異形のものを{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Misshapen One	
 CF192C	str	35	【召喚】{rt}{I000}深きものを{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Deep One	
 CF1950	str	35	【召喚】{rt}{I000}甦りし者を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Risen One	
-CF1974	str	35	【召喚】{rt}{I000}人喰い鴉を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Man-Eating Crow	
+CF1974	str	35	【召喚】{rt}{I000}人喰い鴉を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Man-Eater Crow	
 CF1998	str	31	【召喚】{rt}{I000}狂犬を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Mad Dog	
 CF19B8	str	35	【召喚】{rt}{I000}大蝙蝠を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Giant Bat	
 CF19DC	str	39	【召喚】{rt}{I000}群れをなす者を{rt}召喚する	【Summon】{rt}Summons a{rt}{I000}Swarming One	
@@ -452,7 +452,7 @@ CF5ACC	str	7	野良猫	Stray Cat
 CF5AD4	str	11	螺旋の龍	Spiral Dragon	
 CF5AE0	str	11	無限の王	Endless King	
 CF5AEC	str	11	始まりの龍	First Dragon	
-CF5AF8	str	11	御用提灯	Police Lantern	
+CF5AF8	str	11	御用提灯	Official Lantern	
 CF5B04	str	11	剣聖の魂	Sword Saint	
 CF5B10	str	15	無愛想な老臣	Gruff Retainer	
 CF5B20	str	15	武骨なる忠臣	Stout Retainer	
@@ -581,17 +581,17 @@ CF60E4	str	15	彷徨えし悪霊	Lost Wraith
 CF60F4	str	7	魍魎	Moryo	
 CF60FC	str	7	剣鬼	Sword Demon	
 CF6104	str	11	外道剣士	Heretic Blade	
-CF6110	str	11	威嚇する者	The Menacing	
+CF6110	str	11	威嚇する者	Intimidator	
 CF611C	str	11	呪いの人形	Cursed Doll	
-CF6128	str	11	異形の者	The Misshapen	
+CF6128	str	11	異形の者	Misshapen One	
 CF6134	str	7	下忍	Genin	
 CF613C	str	11	深きもの	Deep One	
-CF6148	str	11	甦りし者	The Revived	
+CF6148	str	11	甦りし者	Risen One	
 CF6154	str	11	常世の使者	Tokoyo Envoy	
 CF6160	str	11	人喰い鴉	Man-Eater Crow	
 CF616C	str	7	狂犬	Mad Dog	
 CF6174	str	7	大蝙蝠	Giant Bat	
-CF617C	str	11	群をなす者	The Swarm	
+CF617C	str	11	群をなす者	Swarming One	
 CF6188	str	11	混沌の王	Chaos King	
 CF6194	str	11	不死の剣士	Deathless Blade	
 CF61A0	str	11	封印する者	The Sealer	
@@ -599,156 +599,156 @@ CF61AC	str	11	朱の陰陽師	Scarlet Onmyoji
 CF61B8	str	11	怨恨の法師	Grudge Monk	
 CF61C4	str	11	下劣な巨漢	Base Brute	
 CF61D0	str	7	邪剣士	Evil Swordsman	
-CF61D8	str	7	憑依師		
-CF61E0	str	11	嫉妬の大蛇		
-CF61EC	str	11	蛇の宿主		
-CF61F8	str	11	最後の侠客		
-CF6204	str	11	復讐の朱鬼		
-CF6210	str	11	外法の剣士		
-CF621C	str	7	先読み		
-CF6224	str	7	念動者		
-CF622C	str	11	透視する者		
-CF6238	str	15	残虐なる妖鬼		
-CF6248	str	7	狂信者		
-CF6250	str	11	破壊の魔牛		
-CF625C	str	11	土の従者		
-CF6268	str	11	疾風の巨鳥		
-CF6274	str	11	風の従者		
-CF6280	str	11	雷撃の獣		
-CF628C	str	11	雷の従者		
-CF6298	str	11	激流の蜘蛛		
-CF62A4	str	11	水の従者		
-CF62B0	str	11	灼熱の邪竜		
-CF62BC	str	11	炎の従者		
-CF62C8	str	11	盲目の邪神		
-CF62D4	str	11	邪神の使徒		
-CF62E0	str	11	退廃の詩人		
-CF62EC	str	11	死人使い		
-CF62F8	str	11	腐肉の巨人		
-CF6304	str	11	邪手使い		
-CF6310	str	11	夢の支配者		
-CF631C	str	7	鴉の王		
-CF6324	str	11	怨恨の邪鬼		
-CF6330	str	15	歪んだ格闘家		
-CF6340	str	11	勇敢なる魂		
-CF634C	str	15	魂を導く少女		
-CF635C	str	15	運命を描く者		
-CF636C	str	7	風水師		
-CF6374	str	7	筮法師		
-CF637C	str	11	霊的治療師		
-CF6388	str	15	真実を記す者		
-CF6398	str	7	護人		
-CF63A0	str	11	鮮血の妖婦		
-CF63AC	str	15	災厄の運び手		
-CF63BC	str	11	常世の唄姫		
-CF63C8	str	7	舞い手		
-CF63D0	str	7	陰陽師		
-CF63D8	str	11	博徒の王		
-CF63E4	str	7	暗殺者		
-CF63EC	str	7	符術士		
-CF63F4	str	7	唄姫		
-CF63FC	str	7	騎士		
-CF6404	str	11	愛の戦士		
-CF6410	str	11	桃園の乙女		
-CF641C	str	11	友情の戦士		
-CF6428	str	11	黒き疾風		
-CF6434	str	11	勇気の戦士		
-CF6440	str	11	紅の熱血漢		
-CF644C	str	7	火走り		
-CF6454	str	15	慎ましき巫女		
-CF6464	str	11	猛き巫女		
-CF6470	str	11	霊銃使い		
-CF647C	str	7	忍者		
-CF6484	str	7	二重身		
-CF648C	str	7	魔女		
-CF6494	str	11	薔薇の妖女		
-CF64A0	str	15	癒しの霊媒師		
-CF64B0	str	7	槍使い		
-CF64B8	str	7	弓使い		
-CF64C0	str	7	格闘家		
-CF64C8	str	7	聖女		
-CF64D0	str	11	神速の剣士		
-CF64DC	str	11	龍の伝承者		
-CF64E8	str	7	覚醒		
-CF64F0	str	7	耐{I009}		
-CF64F8	str	7	耐{I008}		
-CF6500	str	7	耐{I007}		
-CF6508	str	7	耐{I006}		
-CF6510	str	7	耐{I005}		
-CF6518	str	7	耐{I011}		
-CF6520	str	7	耐{I010}		
-CF6528	str	7	加速		
-CF6530	str	7	霊媒		
-CF6538	str	7	鎮守		
-CF6540	str	7	魅了		
-CF6548	str	7	召喚		
-CF6550	str	7	外法		
-CF6558	str	7	変生		
-CF6560	str	7	創造		
-CF6568	str	7	賭け		
-CF6570	str	7	模写		
-CF6578	str	7	博愛		
-CF6580	str	7	発火		
-CF6588	str	7	透視		
-CF6590	str	7	知識		
-CF6598	str	7	送還		
-CF65A0	str	7	復活		
-CF65A8	str	7	貫通		
-CF65B0	str	7	風水		
-CF65B8	str	7	輪廻		
-CF65C0	str	7	悟り		
-CF65C8	str	7	庇う		
-CF65D0	str	7	生贄		
-CF65D8	str	7	変化		
-CF65E0	str	7	盗み		
-CF65E8	str	7	迷宮		
-CF65F0	str	7	熱血		
-CF65F8	str	7	式神		
-CF6600	str	7	居合		
-CF6608	str	7	速攻		
-CF6610	str	7	調査		
-CF6618	str	7	災厄		
-CF6620	str	7	結界		
-CF6628	str	7	共鳴		
-CF6630	str	7	友情		
-CF6638	str	7	崩し		
-CF6640	str	7	分身		
-CF6648	str	7	再生		
-CF6650	str	7	吸血		
-CF6658	str	7	睡眠		
-CF6660	str	7	呪詛		
-CF6668	str	7	傀儡		
-CF6670	str	7	葉隠		
-CF6678	str	7	連続		
-CF6680	str	7	恩恵		
-CF6688	str	7	麻痺		
-CF6690	str	7	毒　		
-CF6698	str	7	治療		
-CF66A0	str	7	蘇生		
-CF66A8	str	7	祝福		
-CF66B0	str	7	加護		
-CF66B8	str	7	血気		
-CF66C0	str	7	範囲		
-CF66C8	str	7	跳躍		
-CF66D0	str	7	即{I009}		
-CF66D8	str	7	即{I008}		
-CF66E0	str	7	即{I007}		
-CF66E8	str	7	即{I006}		
-CF66F0	str	7	即{I005}		
-CF66F8	str	7	即{I011}		
-CF6700	str	7	即{I010}		
-CF6708	str	7	見{I024}		
-CF6710	str	7	見{I023}		
-CF6718	str	7	見{I022}		
-CF6720	str	7	見{I021}		
-CF6728	str	7	見{I020}		
-CF6730	str	7	必{I009}		
-CF6738	str	7	必{I008}		
-CF6740	str	7	必{I007}		
-CF6748	str	7	必{I006}		
-CF6750	str	7	必{I005}		
-CF6758	str	7	必{I011}		
-CF6760	str	7	必{I010}		
+CF61D8	str	7	憑依師	Possessor	
+CF61E0	str	11	嫉妬の大蛇	Jealous Serpent	
+CF61EC	str	11	蛇の宿主	Snake Host	
+CF61F8	str	11	最後の侠客	Last Gallant	
+CF6204	str	11	復讐の朱鬼	Red Avenger	
+CF6210	str	11	外法の剣士	Heresy Blade	
+CF621C	str	7	先読み	Foreseer	
+CF6224	str	7	念動者	Telekinetic	
+CF622C	str	11	透視する者	Clairvoyant	
+CF6238	str	15	残虐なる妖鬼	Cruel Fiend	
+CF6248	str	7	狂信者	Zealot	
+CF6250	str	11	破壊の魔牛	Ruin Bull	
+CF625C	str	11	土の従者	Earth Servant	
+CF6268	str	11	疾風の巨鳥	Gale Roc	
+CF6274	str	11	風の従者	Wind Servant	
+CF6280	str	11	雷撃の獣	Thunder Beast	
+CF628C	str	11	雷の従者	Storm Servant	
+CF6298	str	11	激流の蜘蛛	Torrent Spider	
+CF62A4	str	11	水の従者	Water Servant	
+CF62B0	str	11	灼熱の邪竜	Blazing Wyrm	
+CF62BC	str	11	炎の従者	Fire Servant	
+CF62C8	str	11	盲目の邪神	Blind Evil God	
+CF62D4	str	11	邪神の使徒	Dark Apostle	
+CF62E0	str	11	退廃の詩人	Decadent Poet	
+CF62EC	str	11	死人使い	Necromancer	
+CF62F8	str	11	腐肉の巨人	Carrion Giant	
+CF6304	str	11	邪手使い	Evil Hand	
+CF6310	str	11	夢の支配者	Dream Lord	
+CF631C	str	7	鴉の王	Crow King	
+CF6324	str	11	怨恨の邪鬼	Grudge Fiend	
+CF6330	str	15	歪んだ格闘家	Twisted Fighter	
+CF6340	str	11	勇敢なる魂	Brave Soul	
+CF634C	str	15	魂を導く少女	Soul Guide	
+CF635C	str	15	運命を描く者	Fate Painter	
+CF636C	str	7	風水師	Geomancer	
+CF6374	str	7	筮法師	Diviner	
+CF637C	str	11	霊的治療師	Spirit Healer	
+CF6388	str	15	真実を記す者	Truth Scribe	
+CF6398	str	7	護人	Guardian	
+CF63A0	str	11	鮮血の妖婦	Bloody Siren	
+CF63AC	str	15	災厄の運び手	Doom Bearer	
+CF63BC	str	11	常世の唄姫	Tokoyo Diva	
+CF63C8	str	7	舞い手	Dancer	
+CF63D0	str	7	陰陽師	Onmyoji	
+CF63D8	str	11	博徒の王	Gambler King	
+CF63E4	str	7	暗殺者	Assassin	
+CF63EC	str	7	符術士	Talisman Mage	
+CF63F4	str	7	唄姫	Songstress	
+CF63FC	str	7	騎士	Knight	
+CF6404	str	11	愛の戦士	Love Warrior	
+CF6410	str	11	桃園の乙女	Peach Maiden	
+CF641C	str	11	友情の戦士	Bond Warrior	
+CF6428	str	11	黒き疾風	Black Gale	
+CF6434	str	11	勇気の戦士	Brave Warrior	
+CF6440	str	11	紅の熱血漢	Red Hothead	
+CF644C	str	7	火走り	Fire Runner	
+CF6454	str	15	慎ましき巫女	Modest Miko	
+CF6464	str	11	猛き巫女	Fierce Miko	
+CF6470	str	11	霊銃使い	Spirit Gunner	
+CF647C	str	7	忍者	Ninja	
+CF6484	str	7	二重身	Doppelganger	
+CF648C	str	7	魔女	Witch	
+CF6494	str	11	薔薇の妖女	Rose Siren	
+CF64A0	str	15	癒しの霊媒師	Healing Medium	
+CF64B0	str	7	槍使い	Spearman	
+CF64B8	str	7	弓使い	Archer	
+CF64C0	str	7	格闘家	Brawler	
+CF64C8	str	7	聖女	Saint	
+CF64D0	str	11	神速の剣士	Swift Blade	
+CF64DC	str	11	龍の伝承者	Dragon Heir	
+CF64E8	str	7	覚醒	Awaken	
+CF64F0	str	7	耐{I009}	Ward{I009}	
+CF64F8	str	7	耐{I008}	Ward{I008}	
+CF6500	str	7	耐{I007}	Ward{I007}	
+CF6508	str	7	耐{I006}	Ward{I006}	
+CF6510	str	7	耐{I005}	Ward{I005}	
+CF6518	str	7	耐{I011}	Ward{I011}	
+CF6520	str	7	耐{I010}	Ward{I010}	
+CF6528	str	7	加速	Boost	
+CF6530	str	7	霊媒	Medium	
+CF6538	str	7	鎮守	Guardian	
+CF6540	str	7	魅了	Chrm	
+CF6548	str	7	召喚	Smn	
+CF6550	str	7	外法	Hers	
+CF6558	str	7	変生	Mrph	
+CF6560	str	7	創造	Crea	
+CF6568	str	7	賭け	Gmbl	
+CF6570	str	7	模写	Mim	
+CF6578	str	7	博愛	Chty	
+CF6580	str	7	発火	Ign	
+CF6588	str	7	透視	Scry	
+CF6590	str	7	知識	Lore	
+CF6598	str	7	送還	Bani	
+CF65A0	str	7	復活	Rtn	
+CF65A8	str	7	貫通	Prce	
+CF65B0	str	7	風水	Erth	
+CF65B8	str	7	輪廻	Sams	
+CF65C0	str	7	悟り	Ins	
+CF65C8	str	7	庇う	Cov	
+CF65D0	str	7	生贄	Sacr	
+CF65D8	str	7	変化	Chng	
+CF65E0	str	7	盗み	Stl	
+CF65E8	str	7	迷宮	Maze	
+CF65F0	str	7	熱血	Fvor	
+CF65F8	str	7	式神	Disp	
+CF6600	str	7	居合	Iai	
+CF6608	str	7	速攻	Hste	
+CF6610	str	7	調査	Prob	
+CF6618	str	7	災厄	Clmy	
+CF6620	str	7	結界	Barr	
+CF6628	str	7	共鳴	Echo	
+CF6630	str	7	友情	Bond	
+CF6638	str	7	崩し	Brk	
+CF6640	str	7	分身	Clon	
+CF6648	str	7	再生	Rnew	
+CF6650	str	7	吸血	Drn	
+CF6658	str	7	睡眠	Slp	
+CF6660	str	7	呪詛	Crse	
+CF6668	str	7	傀儡	Ppt	
+CF6670	str	7	葉隠	Sth	
+CF6678	str	7	連続	Cmbo	
+CF6680	str	7	恩恵	Boon	
+CF6688	str	7	麻痺	Stun	
+CF6690	str	7	毒　	Psn	
+CF6698	str	7	治療	Heal	
+CF66A0	str	7	蘇生	Rviv	
+CF66A8	str	7	祝福	Bles	
+CF66B0	str	7	加護	Aegs	
+CF66B8	str	7	血気	Vgr	
+CF66C0	str	7	範囲	Area	
+CF66C8	str	7	跳躍	Leap	
+CF66D0	str	7	即{I009}	{I009}S	
+CF66D8	str	7	即{I008}	{I008}S	
+CF66E0	str	7	即{I007}	{I007}S	
+CF66E8	str	7	即{I006}	{I006}S	
+CF66F0	str	7	即{I005}	{I005}S	
+CF66F8	str	7	即{I011}	{I011}S	
+CF6700	str	7	即{I010}	{I010}S	
+CF6708	str	7	見{I024}	{I024}D	
+CF6710	str	7	見{I023}	{I023}D	
+CF6718	str	7	見{I022}	{I022}D	
+CF6720	str	7	見{I021}	{I021}D	
+CF6728	str	7	見{I020}	{I020}D	
+CF6730	str	7	必{I009}	{I009}B	
+CF6738	str	7	必{I008}	{I008}B	
+CF6740	str	7	必{I007}	{I007}B	
+CF6748	str	7	必{I006}	{I006}B	
+CF6750	str	7	必{I005}	{I005}B	
+CF6758	str	7	必{I011}	{I011}B	
+CF6760	str	7	必{I010}	{I010}B	
 CF6768	str	7	狙い		
 CF6770	str	7	吹飛		
 CF6778	str	6	－－		

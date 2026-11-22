@@ -312,10 +312,12 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   友情 Bond, 博愛 Charity, 加速 Boost, 加護 Aegis, 創造 Create, 分身 Clone, 再生 Renew, 共鳴 Echo, 傀儡 Puppet,
   耐{Innn} Ward, 即{Innn} Slay, 必{Innn} Bane. Icons: {I012} AT, {I013} HP, {I014} SP, {I016} paralysis, {I017}
   poison, {I018} sleep, {I020}-{I024} attack types, {I005}-{I011} elements. 摩尼 -> Mani. 敵 -> foe. 術 (attack
-  type) -> Art. Summoned characters: 病んだ狼 Sick Wolf, 警官 Police Officer, 悪代官 Evil Magistrate, 強欲な商人
-  Greedy Merchant, 御用提灯 Official Lantern, 浪士 Ronin, 大百足 Giant Centipede, 夜の召使い Night Servant, 野良猫
-  Stray Cat, 魍魎 Moryo, 威嚇する者 Intimidator, 異形のもの Misshapen One, 深きもの Deep One, 甦りし者 Risen One,
-  人喰い鴉 Man-Eating Crow, 狂犬 Mad Dog, 大蝙蝠 Giant Bat, 群れをなす者 Swarming One, 盲目の邪神 Blind Evil God.
+  type) -> Art. Summoned characters (same as their card names, which must fit 94 px / 6 units): 病んだ狼 Sick Wolf,
+  警官 Police Officer, 悪代官 Evil Magistrate, 強欲な商人 Greedy Trader, 御用提灯 Official Lantern, 浪士 Ronin,
+  大百足 Giant Centipede, 夜の召使い Night Servant, 野良猫 Stray Cat, 魍魎 Moryo, 威嚇する者 Intimidator, 異形のもの
+  Misshapen One, 深きもの Deep One, 甦りし者 Risen One, 人喰い鴉 Man-Eater Crow, 狂犬 Mad Dog, 大蝙蝠 Giant Bat,
+  群れをなす者 Swarming One, 盲目の邪神 Blind Evil God. Card names (cf CF5930-CF6540) are short epithets:
+  伝説の X Legend X, 〜の従者 X Servant, 朱雀/青龍/玄武/白虎 Suzaku/Seiryu/Genbu/Byakko.
   Yes/no option line: `[81][40]Yes[81][40]No` (raw glyph pairs pass the batch check as text).
 - A12.4.0038/0043 and A12.9.0057 start `【【` (a JP typo); merge tags them normally.
 - The only row whose JP holds two boxes (`...{rt}{rt}【X】{rt}...`) is B11.0121:
