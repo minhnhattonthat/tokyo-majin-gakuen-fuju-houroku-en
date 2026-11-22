@@ -308,7 +308,9 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   probe `tools/debug/setreg.lua` forces it: `warp.py MODE11 --script tools/debug/setreg.lua --var AT=0x0805AEBC
   --var REG=0 --var VAL=1`). BG plaques 交換符 -> Trade (room_banners rows; `gfx_rooms` takes a palette base and band
   colour per screen), badges 待機中 / 選択中 / 確認中 -> Waiting / Choosing / Checking and buttons 登録 / 終了 -> Add /
-  Quit (group link_trade, `tools/gfx_linktrade.py`); Waiting / Checking rendered only. Side build sha1 7b51c7e5..,
+  Quit (group link_trade, `tools/gfx_linktrade.py`); Waiting / Checking rendered only. State `work/states/MODE11.mss`
+  (side build): cursor moves to Add / Erase / Quit but A does nothing without a partner, so the S17 "Trade a Card"
+  plaque stays rendered only (waive with the link-cable texts). Side build sha1 7b51c7e5..,
   check.py 38 passed, smoke ok. Branch pass still running (PID 37736, branch5).
 - **Next (phase 8):** (A) text coverage: the branch pass was resumed again in session 22 (`--jobs 4`, log
   `work/qa/cover_branches.log`; resumed again in sessions 23 and 24: branch0-2 done, branch3+ (A scenes only) running
