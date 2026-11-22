@@ -147,3 +147,21 @@ The shredded strips (S2, S3, S11, S12, S16, S25) get their real layout from in-g
 - Sweep for the same miss: the 20 small 4bpp screen-table blocks whose ROM map does not match the screen were
   rendered as raw tile sets (`work/qa/p8s33/rawtiles.png`): only 0xB54068 攻撃/待機 and 0xC5F760 ブースターパック選択
   carry text, both already English (battle_ui, plaques).
+
+### Session 34 (2026-11-23): rendered-only rows chased (side build, board_turn.mss + `work/qa/bd/rand.txt`)
+- **CLASH seen in game** (`work/qa/p8s34/clash_sheet.png`): banner loader 0x0801AA40(k): k 0-3 a 0x1000 block from
+  [0x08D7DD18+0x3900] + k*0x1000, k 4/5 = DEPLOY / CLASH = [0x08D7DD18+0x390C] + (k-4)*0x600 to OBJ 0x06017000
+  (queued: copies run from the VBlank queue, lr 0x0800085B). Real callers pass 5 at 0x080328AE / 0x08032924; forced
+  with `setregs.lua SETS={[0x0801AA40]={0,5}}`.
+- **START seen in game** (`work/qa/p8s34/start3_sheet.png`): panel plate = [0x08D7DD18+0x3744] (0xB0A2AC) + 0x800
+  BATTLE / + 0xC00 START (byte [ctx+0x7F6] == 0x0A, 0x0803BC40) / + 0xA00, + 0xE00 (pink copies, 0x0803BD22
+  path). Forced with `SETS={[0x0803BC40]={0,10}}`. The first frames after a load show 戦闘: the savestate's stale
+  OBJ VRAM, not the build.
+- S28 attack badges: sprite entry 0xD63970 (tutorial table 0xD63850.., 0x18-byte entries (list, 1)(tiles,
+  size)(palette, size)) has no reference: the tutorial code loads each entry by its own literal (`ldr r1,=entry;
+  bl 0x08007528`) or literal + 0x18, and none of those reaches it: **unused asset** (English anyway).
+- Attack / Wait panel (sprite entry 0xD8163C = [0x08D7DD18+0x3924], index 0x4C3): no literal 0x3924-0x392C and
+  no index literal 0x4C3 in code: not reached; rendered only.
+- Tutorial opponent field cards (0xD3DAF8 / 0xD40BF8, entries 0xD63A48 / 0xD63A78): not shown in a 9000-frame
+  mashed tutorial on JP or English (both go black after ~f3800: the game's own end, `work/qa/p8s34/tutm_cmp.png`).
+- New probe `tools/debug/valwrite.lua` (who writes a value, e.g. a graphic's ROM pointer into the copy queue).
