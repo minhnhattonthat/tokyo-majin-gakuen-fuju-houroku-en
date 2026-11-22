@@ -155,7 +155,111 @@ def dungeon_menu(rom):
     return [(DUNGEON_TILES, DUNGEON_TILES + len(tiles)), (DUNGEON_MAP, DUNGEON_MAP + len(mp))]
 
 
-GROUPS = {'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': dungeon_menu}
+def room_banners(rom):
+    """8bpp room backgrounds (S15, W3-W5): tools/gfx_rooms.py"""
+    import gfx_rooms
+    by_screen = {}
+    for r in rows('room_banners'):
+        by_screen.setdefault(int(r['screen'], 16), []).append(
+            (int(r['x']), int(r['y']), int(r['w']), int(r['h']), r['dir'] == 'v', r['en'], int(r['size'])))
+    out, spare = [], [ROOM_SPARE]
+    for tiles, labels in by_screen.items():
+        out += gfx_rooms.redraw(rom, tiles, labels, FONT, spare)
+    return out
+
+
+ROOM_SPARE = 0xFD1000   # free 0xFF space for room screens that need tiles of their own (after FLOOR_HOOK)
+
+
+# Fuin Cave floor number (W3): 0x080597D0 put the floor ([0x03003810] + 1, 1-100) on the plaque as kanji numeral
+# sprites (二十三: units obj63 y 93, 十 obj64 y 80, tens obj65 y 67; 百 alone). Sprite slots at 0xC273A8 (11 x 16x16,
+# 2x2 tiles, OBJ tiles 0x58 + 4k, bank 12) become the digits 0-9, lettered rotated 90 degrees clockwise like the
+# plaque's English, and the routine jumps to FLOOR_HOOK, which stacks the Arabic digits top to bottom (units at y 93,
+# tens 85, hundreds 77) and hides the sprites it does not use.
+FLOOR_FN, FLOOR_DIGITS, FLOOR_HOOK = 0x0597D0, 0xC273A8, 0xFD0000
+FLOOR_ASM = '''
+    push {r4, r5, r6, r7, lr}
+    ldr r0, =0x03003810
+    ldrb r0, [r0]
+    adds r0, #1
+    movs r5, #0
+    movs r6, #0
+hund:
+    cmp r0, #100
+    blt tens
+    subs r0, #100
+    adds r5, #1
+    b hund
+tens:
+    cmp r0, #10
+    blt units
+    subs r0, #10
+    adds r6, #1
+    b tens
+units:
+    ldr r4, =0x03005868
+    movs r1, #93
+    bl put
+    adds r4, #8
+    movs r0, r6
+    movs r1, #85
+    movs r2, r5
+    orrs r2, r6
+    bl put_if
+    adds r4, #8
+    movs r0, r5
+    movs r1, #77
+    movs r2, r5
+    bl put_if
+    ldr r0, =0x030035A0
+    ldr r1, [r0]
+    movs r2, #1
+    orrs r1, r2
+    str r1, [r0]
+    pop {r4, r5, r6, r7}
+    pop {r0}
+    bx r0
+put_if:
+    cmp r2, #0
+    bne put
+    movs r1, #0x80
+    lsls r1, r1, #2
+    strh r1, [r4]
+    bx lr
+put:
+    strh r1, [r4]
+    ldr r1, =0x40D5
+    strh r1, [r4, #2]
+    lsls r0, r0, #2
+    ldr r1, =0xC458
+    adds r0, r0, r1
+    strh r0, [r4, #4]
+    bx lr
+'''
+
+
+def floor_numerals(rom):
+    import vwf
+    out = []
+    for d in range(10):
+        px = letter(str(d), 16, 16, 12, ramp=MENU_RAMP)
+        rot = [[px[15 - x][y] for x in range(16)] for y in range(16)]   # 90 degrees clockwise
+        a = FLOOR_DIGITS + d * 0x80
+        rom[a:a + 0x80] = encode(rot, 2)
+    out.append((FLOOR_DIGITS, FLOOR_DIGITS + 10 * 0x80))
+    code = vwf.assemble(FLOOR_ASM, 0x08000000 + FLOOR_HOOK, thumb=True)
+    assert all(b == 0xFF for b in rom[FLOOR_HOOK:FLOOR_HOOK + len(code)]), 'FLOOR_HOOK is not free space'
+    rom[FLOOR_HOOK:FLOOR_HOOK + len(code)] = code
+    out.append((FLOOR_HOOK, FLOOR_HOOK + len(code)))
+    stub = vwf.assemble('ldr r3, [pc, #0]\nbx r3', 0x08000000 + FLOOR_FN, thumb=True) + \
+        (0x08000000 + FLOOR_HOOK + 1).to_bytes(4, 'little')
+    rom[FLOOR_FN:FLOOR_FN + len(stub)] = stub
+    out.append((FLOOR_FN, FLOOR_FN + len(stub)))
+    return out
+
+
+GROUPS = {'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': dungeon_menu,
+          'room_banners': room_banners, 'floor_numerals': floor_numerals}
 
 
 def apply(rom):

@@ -31,7 +31,29 @@ def tile_px(d, off):
     return [[(d[off + y * 4 + x // 2] >> (4 * (x & 1))) & 15 for x in range(8)] for y in range(8)]
 
 
+def render8(d, t, p, m, ntiles):
+    """8bpp screen (a 128-colour palette): full-screen room backgrounds such as the dungeon (0xC1B8F8)"""
+    cs = struct.unpack_from('<128H', d, p)
+    pal = [((c & 31) * 8, (c >> 5 & 31) * 8, (c >> 10 & 31) * 8) for c in cs]
+    img = Image.new('RGB', (MAP_W * 8, MAP_H * 8), (40, 40, 90))
+    px = img.load()
+    for r in range(MAP_H):
+        for c in range(MAP_W):
+            e = struct.unpack_from('<H', d, m + 2 * (r * MAP_W + c))[0]
+            n = e & 0x3FF
+            if n >= ntiles // 2:
+                continue
+            for y in range(8):
+                for x in range(8):
+                    v = d[t + 64 * n + (7 - y if e & 0x800 else y) * 8 + (7 - x if e & 0x400 else x)]
+                    if v:
+                        px[c * 8 + x, r * 8 + y] = pal[v & 127]
+    return img
+
+
 def render(d, t, p, m, ntiles, npal):
+    if npal == 8:
+        return render8(d, t, p, m, ntiles)
     pals = []
     for k in range(npal):
         cs = struct.unpack_from('<16H', d, p + 32 * k)
