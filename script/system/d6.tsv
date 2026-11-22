@@ -1061,46 +1061,46 @@ D6DC68	str	31	いってェーなッ{rt}この野郎ッ！！	That hurt,{rt}you b
 D6DC88	str	31	まだ、{rt}負ける訳には{rt}いかぬ	I can't{rt}lose{rt}yet	
 D6DCA8	str	23	これが{rt}人の力だッ！！	This is{rt}human power!!	
 D6DCC0	str	23	龍の力を{rt}信じろ！！	Believe in the{rt}dragon's power!!	
-D6DCD8	str	43	お前の大切な{rt}ものを護る為に{rt}強くなれ……		
-D6DD04	str	43	冥土への道行{rt}共に歩むとしよう{rt}…………		
-D6DD30	str	27	宿星の力を{rt}見せてみろッ		
-D6DD4C	str	19	さあ{rt}行くぞッ！！		
-D6DD60	str	51	お前の成長見届け{rt}られない不甲斐{rt}ない父を許せ……		
-D6DD94	str	51	強く生きろ……{rt}誰よりも強く……{rt}誰よりもやさしく		
-D6DDC8	str	15	さらばだ………		
-D6DDD8	str	39	叶うなら{rt}平凡な一生を{rt}送ってくれ……		
-D6DE00	str	15	さすがだな…		
-D6DE10	str	47	さあ、お前の{rt}力の全てを私に{rt}ぶつけてみろッ		
-D6DE40	str	15	ゆくぞ………		
-D6DE50	str	47	忘れるな、何かを{rt}護ろうとする心が{rt}力になる		
-D6DE80	str	47	かけがいのない{rt}友の為にその拳を{rt}振るえッ！！		
-D6DEB0	str	15	耐えてみろ！！		
-D6DEC0	str	11	ふんッ！		
-D6DECC	str	27	まだまだ{rt}これからだ！！		
-D6DEE8	str	47	怨敵調伏ッ！！{rt}血は凍り、{rt}肉は燃えよッ！！		
-D6DF18	str	47	行け、咒よ！！{rt}我が怨敵に{rt}血華を咲かせよ！		
-D6DF48	str	35	我が呪詛（すそ）、{rt}結願せりッ！！		
-D6DF6C	str	35	行け、我が呪詛の{rt}申し子たちッ！！		
-D6DF90	str	39	まだだ！！{rt}もってくれ…{rt}私の命よ！！		
-D6DFB8	str	27	下僕たち、{rt}私を護れ！！		
-D6DFD4	str	31	食らいつけッ{rt}死の淵までッ！！		
-D6DFF4	str	27	さ、寒い{rt}すごく、寒いよ…		
-D6E010	str	23	し、死にたく{rt}な…い…		
-D6E028	str	27	くくッ…{rt}良い死に顔だな		
-D6E044	str	31	これでおまえも{rt}我らの仲間だ…		
-D6E064	str	31	おのれ、逃がす{rt}ものかッ！！		
-D6E084	str	31	私の手―――{rt}冷たいだろう？		
-D6E0A4	str	31	我が苦しみを{rt}知るがいいッ！！		
-D6E0C4	str	35	私の代わりに{rt}死んでくれる{rt}のか？		
-D6E0E8	str	27	…さ、寒い{rt}すごく寒いよ…		
-D6E104	str	31	おまえも道連れ{rt}だぁぁッ！！		
-D6E124	str	23	私に触る{rt}なァッ！！		
-D6E13C	str	35	まだ死ぬ訳には{rt}行かぬのだッ！！		
-D6E160	str	27	ぐううッ{rt}おのれェッ！！		
-D6E3D4	str	15	同期テスト中		
-D6E3E4	str	35	相手の行動中です{rt}お待ちください{wc}		
-D6E408	str	35	相手選択中です{rt}お待ちください{wc}		
-D6E42C	str	31	相手の決定を{rt}待っています{wc}		
+D6DCD8	str	43	お前の大切な{rt}ものを護る為に{rt}強くなれ……	Grow strong to{rt}protect what's{rt}precious to you......	
+D6DD04	str	43	冥土への道行{rt}共に歩むとしよう{rt}…………	Let us walk the{rt}road to the under-{rt}world together......	
+D6DD30	str	27	宿星の力を{rt}見せてみろッ	Show me the power{rt}of your destiny star	
+D6DD4C	str	19	さあ{rt}行くぞッ！！	Now{rt}here I come!!	
+D6DD60	str	51	お前の成長見届け{rt}られない不甲斐{rt}ない父を許せ……	Forgive your father,{rt}who can't watch{rt}you grow up......	
+D6DD94	str	51	強く生きろ……{rt}誰よりも強く……{rt}誰よりもやさしく	Live strong......{rt}stronger, kinder{rt}than anyone......	
+D6DDC8	str	15	さらばだ………	Farewell.........	
+D6DDD8	str	39	叶うなら{rt}平凡な一生を{rt}送ってくれ……	If you can,{rt}live an ordinary{rt}life......	
+D6DE00	str	15	さすがだな…	As expected...	
+D6DE10	str	47	さあ、お前の{rt}力の全てを私に{rt}ぶつけてみろッ	Now, hit me{rt}with all your{rt}strength	
+D6DE40	str	15	ゆくぞ………	Here I come.........	
+D6DE50	str	47	忘れるな、何かを{rt}護ろうとする心が{rt}力になる	Remember: the will{rt}to protect something{rt}becomes power	
+D6DE80	str	47	かけがいのない{rt}友の為にその拳を{rt}振るえッ！！	Swing that fist{rt}for your{rt}irreplaceable friends!!	
+D6DEB0	str	15	耐えてみろ！！	Endure this!!	
+D6DEC0	str	11	ふんッ！	Hmph!	
+D6DECC	str	27	まだまだ{rt}これからだ！！	We're just{rt}getting started!!	
+D6DEE8	str	47	怨敵調伏ッ！！{rt}血は凍り、{rt}肉は燃えよッ！！	Subdue my foe!!{rt}Freeze his blood,{rt}burn his flesh!!	
+D6DF18	str	47	行け、咒よ！！{rt}我が怨敵に{rt}血華を咲かせよ！	Go, curse!!{rt}Make blood bloom{rt}on my enemy!	
+D6DF48	str	35	我が呪詛（すそ）、{rt}結願せりッ！！	My curse{rt}is fulfilled!!	
+D6DF6C	str	35	行け、我が呪詛の{rt}申し子たちッ！！	Go, children{rt}of my curse!!	
+D6DF90	str	39	まだだ！！{rt}もってくれ…{rt}私の命よ！！	Not yet!!{rt}Hold out...{rt}my life!!	
+D6DFB8	str	27	下僕たち、{rt}私を護れ！！	Servants,{rt}protect me!!	
+D6DFD4	str	31	食らいつけッ{rt}死の淵までッ！！	Bite down{rt}to death's edge!!	
+D6DFF4	str	27	さ、寒い{rt}すごく、寒いよ…	S-so cold{rt}so very cold...	
+D6E010	str	23	し、死にたく{rt}な…い…	I-I don't{rt}want to die...	
+D6E028	str	27	くくッ…{rt}良い死に顔だな	Heh heh...{rt}A fine death face	
+D6E044	str	31	これでおまえも{rt}我らの仲間だ…	Now you too{rt}are one of us...	
+D6E064	str	31	おのれ、逃がす{rt}ものかッ！！	Curse you, I{rt}won't let you go!!	
+D6E084	str	31	私の手―――{rt}冷たいだろう？	My hand--{rt}it's cold, isn't it?	
+D6E0A4	str	31	我が苦しみを{rt}知るがいいッ！！	Know my{rt}suffering!!	
+D6E0C4	str	35	私の代わりに{rt}死んでくれる{rt}のか？	Will you die{rt}in my{rt}place?	
+D6E0E8	str	27	…さ、寒い{rt}すごく寒いよ…	...S-so cold{rt}so very cold...	
+D6E104	str	31	おまえも道連れ{rt}だぁぁッ！！	You're coming{rt}with meee!!	
+D6E124	str	23	私に触る{rt}なァッ！！	Don't{rt}touch me!!	
+D6E13C	str	35	まだ死ぬ訳には{rt}行かぬのだッ！！	I can't die{rt}yet!!	
+D6E160	str	27	ぐううッ{rt}おのれェッ！！	Grrr{rt}curse you!!	
+D6E3D4	str	15	同期テスト中	Sync test	
+D6E3E4	str	35	相手の行動中です{rt}お待ちください{wc}	Opponent is moving.{rt}Please wait.{wc}	
+D6E408	str	35	相手選択中です{rt}お待ちください{wc}	Foe is choosing.{rt}Please wait.{wc}	
+D6E42C	str	31	相手の決定を{rt}待っています{wc}	Waiting for{rt}the foe.{wc}	
 D6E56C	grid	11	ー　　　　		
 D6E578	grid	11	ぱぴぷぺぽ		
 D6E584	grid	11	ゃゅょっ　		
@@ -1137,116 +1137,116 @@ D6E6EC	grid	11	サシスセソ
 D6E6F8	grid	11	カキクケコ		
 D6E704	grid	11	アイウエオ		
 D6E710	grid	11	わ　　　　		
-D6E71C	str	19	【能力】　　　　		
-D6E730	str	19	【アイコン】　　		
-D6E744	str	19	【攻撃】　　　　		
-D6E758	str	19	【人物符の配置】		
-D6E76C	str	19	【墓地】　　　　		
-D6E780	str	19	【地形効果】　　		
-D6E794	str	19	【摩尼の昇華】　		
-D6E7A8	str	19	【摩尼】　　　　		
-D6E7BC	str	19	【相生・相剋】　		
-D6E7D0	str	19	【土地符】　　　		
-D6E7E4	str	19	【法術符】　　　		
-D6E7F8	str	19	【結界式神符】　		
-D6E80C	str	19	【憑依式神符】　		
-D6E820	str	19	【人物符の詳細】		
-D6E834	str	19	【人物符】　　　		
-D6E848	str	19	【符の使い方】　		
-D6E85C	str	19	【勝利条件】　　		
-D6E870	str	19	【基本ルール】　		
-D6E884	str	11	　【耐性】		
-D6E890	str	11	　【霊媒】		
-D6E89C	str	11	　【鎮守】		
-D6E8A8	str	11	　【魅了】		
-D6E8B4	str	11	　【盗み】		
-D6E8C0	str	11	　【居合】		
-D6E8CC	str	11	　【共鳴】		
-D6E8D8	str	11	　【崩し】		
-D6E8E4	str	11	　【葉隠】		
-D6E8F0	str	11	　【恩恵】		
-D6E8FC	str	11	　【外法】		
-D6E908	str	11	　【変生】		
-D6E914	str	11	　【創造】		
-D6E920	str	11	　【賭け】		
-D6E92C	str	11	　【模写】		
-D6E938	str	11	　【博愛】		
-D6E944	str	11	　【発火】		
-D6E950	str	11	　【透視】		
-D6E95C	str	11	　【知識】		
-D6E968	str	11	　【送還】		
-D6E974	str	11	　【復活】		
-D6E980	str	11	　【貫通】		
-D6E98C	str	11	　【風水】		
-D6E998	str	11	　【輪廻】		
-D6E9A4	str	11	　【悟り】		
-D6E9B0	str	11	　【庇う】		
-D6E9BC	str	11	　【生贄】		
-D6E9C8	str	11	　【変化】		
-D6E9D4	str	11	　【迷宮】		
-D6E9E0	str	11	　【熱血】		
-D6E9EC	str	11	　【式神】		
-D6E9F8	str	11	　【速攻】		
-D6EA04	str	11	　【調査】		
-D6EA10	str	11	　【災厄】		
-D6EA1C	str	11	　【結界】		
-D6EA28	str	11	　【友情】		
-D6EA34	str	11	　【召喚】		
-D6EA40	str	11	　【分身】		
-D6EA4C	str	11	　【再生】		
-D6EA58	str	11	　【吸血】		
-D6EA64	str	11	　【睡眠】		
-D6EA70	str	11	　【呪詛】		
-D6EA7C	str	11	　【傀儡】		
-D6EA88	str	11	　【連続】		
-D6EA94	str	11	　【麻痺】		
-D6EAA0	str	11	　【毒　】		
-D6EAAC	str	11	　【治療】		
-D6EAB8	str	11	　【蘇生】		
-D6EAC4	str	11	　【祝福】		
-D6EAD0	str	11	　【加護】		
-D6EADC	str	11	　【血気】		
-D6EAE8	str	11	　【範囲】		
-D6EAF4	str	11	　【跳躍】		
-D6EB00	str	11	　【即死】		
-D6EB0C	str	11	　【見切】		
-D6EB18	str	11	　【必殺】		
-D6EB24	str	11	　【狙い】		
-D6EB30	str	11	　【吹飛】		
-D6EB3C	str	47	敵符咒士の山札を空にすると{nl}勝利となります{wc}		
-D6EB6C	str	35	敵符咒士の{I013}ライフを{nl}０にするか		
-D6EB90	str	71	ＡＰは毎ターン{nl}最大値が１ずつ上昇し、{nl}その時最大値まで回復します{wc}		
-D6EBD8	str	67	{I004}土地符はＡＰを{nl}必要としませんが{nl}毎ターン１枚しか{nl}出せません		
-D6EC1C	str	51	必要なＡＰの値は{nl}使用する符によって{nl}異なります		
-D6EC50	str	35	符を使うにはＡＰが{nl}必要となります		
-D6EC74	str	55	敵符咒士に{nl}直接ダメージを{nl}与える事が{nl}できる符です{wc}		
-D6ECAC	str	47	場に配置して{nl}敵の{I000}人物符を{nl}攻撃をしたり		
-D6ECDC	str	23	戦闘の中核をなす符で		
-D6ECF4	str	51	「特殊能力」{nl}{I000}人物符が{nl}必ず１つ持つ能力です{wc}		
-D6ED28	str	47	個々の能力の詳細は{nl}【能力】で確認して下さい		
-D6ED58	str	63	摩尼ＬＶによって得られる{nl}摩尼能力を最大３つまで{nl}持っています		
-D6ED98	str	47	「能力」{nl}{I000}人物符は{nl}基本能力を最大２つと		
-D6EDC8	str	47	「必殺」や「再生」の能力に{nl}深く関わってきます		
-D6EDF8	str	51	「陰陽属性」{nl}{I010}陰　{I011}陽の{nl}２種類があります		
-D6EE2C	str	51	戦闘時の「見切」などの{nl}能力に深く関わってきます		
-D6EE60	str	79	「攻撃種」{nl}{I020}拳　{I021}武　{I022}飛{nl}{I023}術　{I024}氣{nl}の５種類の攻撃種があります		
-D6EEB0	str	59	同じ{I014}ＳＰだった{nl}場合は攻撃側が{nl}先にダメージを与えます		
-D6EEEC	str	71	この値が高い{nl}{I000}人物符の方が{nl}先にダメージを{nl}与えることが{nl}できます		
-D6EF34	str	27	攻撃した時や攻撃された時に		
-D6EF50	str	67	{I014}「ＳＰ」{nl}この数値が{nl}高いキャラほど{nl}優先的に行動ができます		
-D6EF94	str	71	{I013}「ＨＰ」{nl}このＨＰが０に{nl}なると場から消え{nl}「墓地」へ送られます		
-D6EFDC	str	51	{I012}「ＡＴ」{nl}攻撃時に{nl}相手に与えるダメージです		
-D6F010	str	55	「五行属性」{nl}{I005}{I006}{I007}{I008}{I009}の{nl}５属性があります		
-D6F048	str	67	{I000}人物符１枚に付けられる{nl}{I001}憑依式神符は{nl}最大３つまでです{wc}		
-D6F08C	str	39	この符の効果が{nl}消える事はありません		
-D6F0B4	str	43	{I001}憑依式神符が破壊されたり{nl}しない限り		
-D6F0E0	str	39	憑依させた{nl}{I000}人物符が場から消えたり		
-D6F108	str	59	指定した{nl}{I000}人物符単体を{nl}強化したり弱体化{nl}させる符です		
-D6F144	str	75	場に出せる{nl}{I002}結界式神符の数{nl}は自分と相手で{nl}それぞれ{nl}３つまでです{wc}		
-D6F190	str	79	この{I002}結界式神符が場から{nl}離れない限り、この符の{nl}効果は消える事はありません		
-D6F1E0	str	59	場にいる全ての{I000}人物符や{nl}符咒士に様々な{nl}影響を与えます		
-D6F21C	str	75	符によって効果は大きく{nl}異なりますので{nl}使うタイミングが{nl}重要となります{wc}		
-D6F268	str	43	場や符咒士に{nl}様々な効果を{nl}与える符です		
+D6E71C	str	19	【能力】　　　　	【Abilities】	
+D6E730	str	19	【アイコン】　　	【Icons】	
+D6E744	str	19	【攻撃】　　　　	【Attack】	
+D6E758	str	19	【人物符の配置】	【Placement】	
+D6E76C	str	19	【墓地】　　　　	【Graveyard】	
+D6E780	str	19	【地形効果】　　	【Terrain】	
+D6E794	str	19	【摩尼の昇華】　	【Mani Rise】	
+D6E7A8	str	19	【摩尼】　　　　	【Mani】	
+D6E7BC	str	19	【相生・相剋】　	【Feed/Counter】	
+D6E7D0	str	19	【土地符】　　　	【Land】	
+D6E7E4	str	19	【法術符】　　　	【Spell】	
+D6E7F8	str	19	【結界式神符】　	【Barrier Shiki】	
+D6E80C	str	19	【憑依式神符】　	【Possess Shiki】	
+D6E820	str	19	【人物符の詳細】	【Card Details】	
+D6E834	str	19	【人物符】　　　	【Character】	
+D6E848	str	19	【符の使い方】　	【Using Cards】	
+D6E85C	str	19	【勝利条件】　　	【Victory】	
+D6E870	str	19	【基本ルール】　	【Basic Rules】	
+D6E884	str	11	　【耐性】	【Ward】	
+D6E890	str	11	　【霊媒】	【Medium】	
+D6E89C	str	11	　【鎮守】	【Guardian】	
+D6E8A8	str	11	　【魅了】	【Charm】	
+D6E8B4	str	11	　【盗み】	【Steal】	
+D6E8C0	str	11	　【居合】	【Iai】	
+D6E8CC	str	11	　【共鳴】	【Echo】	
+D6E8D8	str	11	　【崩し】	【Break】	
+D6E8E4	str	11	　【葉隠】	【Stealth】	
+D6E8F0	str	11	　【恩恵】	【Boon】	
+D6E8FC	str	11	　【外法】	【Heresy】	
+D6E908	str	11	　【変生】	【Morph】	
+D6E914	str	11	　【創造】	【Create】	
+D6E920	str	11	　【賭け】	【Gamble】	
+D6E92C	str	11	　【模写】	【Mimic】	
+D6E938	str	11	　【博愛】	【Charity】	
+D6E944	str	11	　【発火】	【Ignite】	
+D6E950	str	11	　【透視】	【Scry】	
+D6E95C	str	11	　【知識】	【Lore】	
+D6E968	str	11	　【送還】	【Banish】	
+D6E974	str	11	　【復活】	【Return】	
+D6E980	str	11	　【貫通】	【Pierce】	
+D6E98C	str	11	　【風水】	【Earth】	
+D6E998	str	11	　【輪廻】	【Samsara】	
+D6E9A4	str	11	　【悟り】	【Insight】	
+D6E9B0	str	11	　【庇う】	【Cover】	
+D6E9BC	str	11	　【生贄】	【Sacrifice】	
+D6E9C8	str	11	　【変化】	【Change】	
+D6E9D4	str	11	　【迷宮】	【Maze】	
+D6E9E0	str	11	　【熱血】	【Fervor】	
+D6E9EC	str	11	　【式神】	【Dispel】	
+D6E9F8	str	11	　【速攻】	【Haste】	
+D6EA04	str	11	　【調査】	【Probe】	
+D6EA10	str	11	　【災厄】	【Calamity】	
+D6EA1C	str	11	　【結界】	【Barrier】	
+D6EA28	str	11	　【友情】	【Bond】	
+D6EA34	str	11	　【召喚】	【Summon】	
+D6EA40	str	11	　【分身】	【Clone】	
+D6EA4C	str	11	　【再生】	【Renew】	
+D6EA58	str	11	　【吸血】	【Drain】	
+D6EA64	str	11	　【睡眠】	【Sleep】	
+D6EA70	str	11	　【呪詛】	【Curse】	
+D6EA7C	str	11	　【傀儡】	【Puppet】	
+D6EA88	str	11	　【連続】	【Combo】	
+D6EA94	str	11	　【麻痺】	【Stun】	
+D6EAA0	str	11	　【毒　】	【Poison】	
+D6EAAC	str	11	　【治療】	【Heal】	
+D6EAB8	str	11	　【蘇生】	【Revive】	
+D6EAC4	str	11	　【祝福】	【Blessing】	
+D6EAD0	str	11	　【加護】	【Aegis】	
+D6EADC	str	11	　【血気】	【Vigor】	
+D6EAE8	str	11	　【範囲】	【Area】	
+D6EAF4	str	11	　【跳躍】	【Leap】	
+D6EB00	str	11	　【即死】	【Slay】	
+D6EB0C	str	11	　【見切】	【Dodge】	
+D6EB18	str	11	　【必殺】	【Bane】	
+D6EB24	str	11	　【狙い】	【Aim】	
+D6EB30	str	11	　【吹飛】	【Blast】	
+D6EB3C	str	47	敵符咒士の山札を空にすると{nl}勝利となります{wc}	or empty the foe Talismancer's{nl}draw pile to win.{wc}	
+D6EB6C	str	35	敵符咒士の{I013}ライフを{nl}０にするか	Bring the foe Talismancer's{nl}{I013}Life to 0,	
+D6EB90	str	71	ＡＰは毎ターン{nl}最大値が１ずつ上昇し、{nl}その時最大値まで回復します{wc}	Each turn, max AP{nl}rises by 1, and AP{nl}refills to the max.{wc}	
+D6EBD8	str	67	{I004}土地符はＡＰを{nl}必要としませんが{nl}毎ターン１枚しか{nl}出せません	{I004}Land talismans{nl}need no AP, but only{nl}one can be played{nl}each turn.	
+D6EC1C	str	51	必要なＡＰの値は{nl}使用する符によって{nl}異なります	The AP needed{nl}depends on the{nl}talisman used.	
+D6EC50	str	35	符を使うにはＡＰが{nl}必要となります	Using a talisman{nl}takes AP.	
+D6EC74	str	55	敵符咒士に{nl}直接ダメージを{nl}与える事が{nl}できる符です{wc}	They can also{nl}deal damage{nl}directly to the foe{nl}Talismancer.{wc}	
+D6ECAC	str	47	場に配置して{nl}敵の{I000}人物符を{nl}攻撃をしたり	Placed on the field,{nl}they attack foe{nl}{I000}Characters,	
+D6ECDC	str	23	戦闘の中核をなす符で	The core of battle.	
+D6ECF4	str	51	「特殊能力」{nl}{I000}人物符が{nl}必ず１つ持つ能力です{wc}	"Special ability"{nl}Every {I000}Character{nl}has exactly one.{wc}	
+D6ED28	str	47	個々の能力の詳細は{nl}【能力】で確認して下さい	See 【Abilities】 for{nl}details of each ability.	
+D6ED58	str	63	摩尼ＬＶによって得られる{nl}摩尼能力を最大３つまで{nl}持っています	and up to three Mani{nl}abilities gained{nl}by Mani LV.	
+D6ED98	str	47	「能力」{nl}{I000}人物符は{nl}基本能力を最大２つと	"Abilities"{nl}A {I000}Character has{nl}up to two basic abilities	
+D6EDC8	str	47	「必殺」や「再生」の能力に{nl}深く関わってきます	They matter a lot for{nl}abilities like Bane and Renew.	
+D6EDF8	str	51	「陰陽属性」{nl}{I010}陰　{I011}陽の{nl}２種類があります	"Alignment"{nl}There are two:{nl}{I010}Yin and {I011}Yang.	
+D6EE2C	str	51	戦闘時の「見切」などの{nl}能力に深く関わってきます	They matter a lot for{nl}abilities like Dodge in battle.	
+D6EE60	str	79	「攻撃種」{nl}{I020}拳　{I021}武　{I022}飛{nl}{I023}術　{I024}氣{nl}の５種類の攻撃種があります	"Attack type"{nl}{I020}Fist {I021}Arms {I022}Ranged{nl}{I023}Art {I024}Ki{nl}are the five attack types.	
+D6EEB0	str	59	同じ{I014}ＳＰだった{nl}場合は攻撃側が{nl}先にダメージを与えます	On equal {I014}SP,{nl}the attacker deals{nl}damage first.	
+D6EEEC	str	71	この値が高い{nl}{I000}人物符の方が{nl}先にダメージを{nl}与えることが{nl}できます	The {I000}Character{nl}with the higher{nl}value deals{nl}damage{nl}first.	
+D6EF34	str	27	攻撃した時や攻撃された時に	When it attacks or is attacked,	
+D6EF50	str	67	{I014}「ＳＰ」{nl}この数値が{nl}高いキャラほど{nl}優先的に行動ができます	{I014}"SP"{nl}The higher a card's{nl}SP, the sooner{nl}it gets to act.	
+D6EF94	str	71	{I013}「ＨＰ」{nl}このＨＰが０に{nl}なると場から消え{nl}「墓地」へ送られます	{I013}"HP"{nl}At 0 HP, the card{nl}leaves the field{nl}for the graveyard.	
+D6EFDC	str	51	{I012}「ＡＴ」{nl}攻撃時に{nl}相手に与えるダメージです	{I012}"AT"{nl}The damage dealt{nl}when attacking.	
+D6F010	str	55	「五行属性」{nl}{I005}{I006}{I007}{I008}{I009}の{nl}５属性があります	"Five elements"{nl}{I005}{I006}{I007}{I008}{I009}: there{nl}are five elements.	
+D6F048	str	67	{I000}人物符１枚に付けられる{nl}{I001}憑依式神符は{nl}最大３つまでです{wc}	A {I000}Character can hold{nl}up to three {I001}Possession{nl}Shikigami.{wc}	
+D6F08C	str	39	この符の効果が{nl}消える事はありません	this talisman's{nl}effect never ends.	
+D6F0B4	str	43	{I001}憑依式神符が破壊されたり{nl}しない限り	or the {I001}Possession Shikigami{nl}is destroyed,	
+D6F0E0	str	39	憑依させた{nl}{I000}人物符が場から消えたり	Unless the possessed{nl}{I000}Character leaves the field	
+D6F108	str	59	指定した{nl}{I000}人物符単体を{nl}強化したり弱体化{nl}させる符です	Talismans that{nl}buff or weaken{nl}one chosen{nl}{I000}Character.	
+D6F144	str	75	場に出せる{nl}{I002}結界式神符の数{nl}は自分と相手で{nl}それぞれ{nl}３つまでです{wc}	Each side may{nl}have up to three{nl}{I002}Barrier Shikigami{nl}on the{nl}field.{wc}	
+D6F190	str	79	この{I002}結界式神符が場から{nl}離れない限り、この符の{nl}効果は消える事はありません	While this {I002}Barrier Shikigami{nl}stays on the field, its effect{nl}never ends.	
+D6F1E0	str	59	場にいる全ての{I000}人物符や{nl}符咒士に様々な{nl}影響を与えます	They affect every {I000}Character{nl}on the field and{nl}the Talismancers.	
+D6F21C	str	75	符によって効果は大きく{nl}異なりますので{nl}使うタイミングが{nl}重要となります{wc}	Effects vary widely{nl}between talismans,{nl}so timing is{nl}crucial.{wc}	
+D6F268	str	43	場や符咒士に{nl}様々な効果を{nl}与える符です	Varied effects{nl}on field and{nl}Talismancers.	
 D6F294	str	55	使用時に{I013}ライフを必要と{nl}する{I004}土地符もあります{wc}		
 D6F2CC	str	35	１ターンに１枚しか{nl}使用できません		
 D6F2F0	str	63	{I004}土地符は使用時に{nl}他の符と違い{nl}ＡＰを必要と{nl}しませんが		
