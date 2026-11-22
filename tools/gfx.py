@@ -712,6 +712,12 @@ def thumb_frames(rom):
     return gfx_thumbframes.thumb_frames(rom)
 
 
+def warn_box(rom):
+    """warning window header ⚠警告⚠ -> Warning (BG0 tiles 0xC26298, tools/gfx_warnbox.py)"""
+    import gfx_warnbox
+    return gfx_warnbox.warn_box(rom)
+
+
 GROUPS = {'attack_types': attack_types, 'icons': icons, 'mini_labels': mini_labels, 'frames': frames, 'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': dungeon_menu,
           'room_banners': room_banners, 'floor_numerals': floor_numerals, 'signs': signs,
           'settings_screen': settings_screen, 'haiku_screen': haiku_screen, 'haiku_input': haiku_input,
@@ -722,7 +728,7 @@ GROUPS = {'attack_types': attack_types, 'icons': icons, 'mini_labels': mini_labe
           'profile_screens': profile_screens, 'card_classes': card_classes, 'link_error': link_error,
           'shop_plaques': shop_plaques, 'sutra_board': sutra_board, 'tutorial': tutorial,
           'fieldcards': fieldcards, 'link_trade': link_trade, 'pack_open': pack_open,
-          'thumb_frames': thumb_frames}
+          'thumb_frames': thumb_frames, 'warn_box': warn_box}
 
 
 def apply(rom):

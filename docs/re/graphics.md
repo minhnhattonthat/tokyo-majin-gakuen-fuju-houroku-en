@@ -134,3 +134,16 @@ The shredded strips (S2, S3, S11, S12, S16, S25) get their real layout from in-g
   `tools/gfx_thumbframes.py`); "Ea" seen in game on the pack screen (`work/qa/p8s29/thumb_cmp.png`). These are
   the kanji emblems earlier sessions saw on the battle-panel thumbnails (not stale VRAM).
 - The 16x16 card-stack icon at 0xC69ED8 (top left of the pack screen) is a picture, not text.
+
+## Phase 8 findings, session 33 (2026-11-23): warning box
+
+- The warning window (detour menu, item 4 最初から降りる "From Floor 1" -> D78E04 "Fuin Cave data will be reset",
+  code 0x080594A6) is BG0 built at run time from screen-table entry 0xD81690 (tiles 0xC26298 = 122 raw 4bpp
+  tiles at VRAM 0x06000000, palette 0xC26278, bank 13). Its ROM map 0xC271D8 is not the screen layout, so the
+  session 17 render of it looked like noise and the header ⚠警告⚠ was missed (S16 had filed 0xC26298 with the sutra
+  board). English "Warning" (group warn_box, `tools/gfx_warnbox.py`; tiles edited in place, texture repeats every
+  8 tiles so the glyphs are erased from 64 px away; the ⚠ icons are dropped because only strip x 32-103 of map row 5
+  is header-only), seen in game on the side build (`work/qa/p8s33/warn_en`).
+- Sweep for the same miss: the 20 small 4bpp screen-table blocks whose ROM map does not match the screen were
+  rendered as raw tile sets (`work/qa/p8s33/rawtiles.png`): only 0xB54068 攻撃/待機 and 0xC5F760 ブースターパック選択
+  carry text, both already English (battle_ui, plaques).

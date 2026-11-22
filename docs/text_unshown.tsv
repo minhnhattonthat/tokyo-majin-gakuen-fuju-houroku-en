@@ -1,0 +1,46 @@
+id	reason (textcover.py --waive): strings shown unreachable without a second GBA (link cable); phase 8 session 33
+D6526C	link battle: link error string of table 0xE5FB9C (link-only post-battle states); needs a second GBA
+D65278	link battle: retry prompt of table 0xE5FB9C (link-only post-battle states); needs a second GBA
+D65318	link battle setup: 0x0800F5E2 / 0x0800FD98 print it while syncing the two players' link records (0x03001F00 + 72 * player, 0x080015C0); needs a second GBA
+D65308	link battle setup: 0x0800FA86 prints it after comparing both players' card counts in the link records; needs a second GBA
+D6E3D4	link sync-test debug text (同期テスト中); needs a second GBA
+D6E3E4	link battle: waiting for the other player's move; needs a second GBA
+D6E408	link battle: waiting for the other player's choice; needs a second GBA
+D6E42C	link battle: waiting for the other player; needs a second GBA
+D72490	link trade (deck sub-mode 3, 0x0804D41D, bounces without a partner): trade-card rules; needs a second GBA
+D726E8	link trade (deck sub-mode 3): trade-card rules, second line; needs a second GBA
+D72B20	link trade (deck sub-mode 3): registration rules; needs a second GBA
+D72B70	link trade (deck sub-mode 3): count piece of the registration rules; needs a second GBA
+D72B94	link trade (deck sub-mode 3): register-as-trade-card prompt; needs a second GBA
+D72BD0	link trade (deck sub-mode 3): count piece; needs a second GBA
+D72BD4	link trade (deck sub-mode 3): card can't be traded; needs a second GBA
+D72BF8	link trade (deck sub-mode 3): registered count; needs a second GBA
+D78E9C	link cable message (table 0xE615BC.., title -> 通信 rooms): trade / battle handshake; needs a second GBA
+D78EBC	link cable message: trade handshake; needs a second GBA
+D78ED0	link cable message: partner in another state; needs a second GBA
+D78EE8	link cable message: partner not ready; needs a second GBA
+D78F08	link cable message: battle start; needs a second GBA
+D78F1C	link cable message: checking the link; needs a second GBA
+D78F44	link cable message: keep the power on; needs a second GBA
+D78F60	link cable countdown digit; needs a second GBA
+D78F64	link cable countdown digit; needs a second GBA
+D78F68	link cable countdown digit; needs a second GBA
+D78F6C	link cable countdown digit; needs a second GBA
+D78F70	link trade message: trade recorded; needs a second GBA
+D78F8C	link trade message: recording the trade; needs a second GBA
+D78FA8	link trade message: trade complete; needs a second GBA
+D78FC0	link trade message: starting the trade; needs a second GBA
+D78FD8	link trade message: trade refused; needs a second GBA
+D78FF0	link trade message: you refused; needs a second GBA
+D79004	link trade message: partner confirming; needs a second GBA
+D79024	link trade message: trade? yes / no; needs a second GBA
+D79044	link trade message: please choose Yes; needs a second GBA
+D7905C	link trade message; needs a second GBA
+D79078	link trade message: check the cards; needs a second GBA
+D79098	link trade message: partner registering; needs a second GBA
+D790B8	link trade message: finish? yes / no; needs a second GBA
+D790D8	link trade message: cards set to trade; needs a second GBA
+D790F8	link trade message: not registered here; needs a second GBA
+D79118	link trade message: delete? yes / no; needs a second GBA
+D79138	link trade message: already registered; needs a second GBA
+D79154	link trade message: register? yes / no; needs a second GBA

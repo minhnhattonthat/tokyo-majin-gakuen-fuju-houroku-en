@@ -5,8 +5,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 19; sessions 20-29 did not
   rebuild it, because the coverage runs use it; unbuilt there: session 22's 4 text edits, session 23's haiku fix,
   session 24's tab-sprite fix + 2 text edits, sessions 26-29's graphics + D64260, session 30's D72710, session 31's
-  D72824/D72830/D728A8/D728D8/D728EC/D72958/D72A84/D72A94), sha1 82aef7599a18..; side
-  build with everything: `build.py --out work/next/tmgfh_en.gba` (sha1 6719c493..); check.py 38 passed.
+  D72824/D72830/D728A8/D728D8/D728EC/D72958/D72A84/D72A94, session 33's warn_box), sha1 82aef7599a18..; side
+  build with everything: `build.py --out work/next/tmgfh_en.gba` (sha1 36135f37..); check.py 38 passed.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -388,11 +388,27 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   **Found:** "character records" 282+ of 0xD7ADE8 are the ability-label table 0xD7CCC0 (101 labels), not cards: a
   save owning ids 282-296 shows junk in JP too (`work/qa/p8s32/enemy_cmp.png`; run deleted). Ability labels 97-100
   (W{I007} W{I008} W{I009} Awkn) not seen; which card has them is unknown (ability ids are not plain record bytes).
-- **Next (phase 8):** (session 32 leads) system unshown left besides haiku (32) and link texts: CF64E8-CF6500
-  (abilities 97-100: find the per-card ability source, e.g. log the panel's label reads with textcover while
-  browsing, or a possession that grants 【耐X】), D65318 / D65308 (table 0x08E5FBB8, code 0x0800F60C / 0x0800FAA0 /
-  0x0800FDB0 / 0x08010130: probably link battle), D6526C / D65278 / D6E408 / D6E42C (link), D78850 Theft (sutra
-  board label path). Then the waiver file `docs/text_unshown.tsv` for link-only rows.
+  Session 33 (2026-11-23, no rebuild; side build 36135f37..): **system strings done except link + haiku replies.**
+  Theft D78850 shown (board.mss: `right;right;up;up;a`, `cover/p8s33_theft`, fits). D78E04 "Fuin Cave data will be
+  reset" = detour menu (hub item 0 寄り道) item 4 最初から降りる (`cover/p8s33_cavereset`, hub_dungeon.mss + `30 -;6
+  a;200 -;4 x (6 down;30 -);6 a`; fits). **Bug fixed (side build, seen):** that box's header ⚠警告⚠ was baked
+  Japanese BG0 tiles (0xC26298): now "Warning" (group warn_box, `tools/gfx_warnbox.py`, `work/qa/p8s33/warn_en`;
+  graphics.md §session 33; raw-tile sweep of the other suspect screen blocks found nothing new). Ability labels
+  97-100 (CF64E8-CF6500): no card record carries ids 96-99 (byte 0xD7ADF2 + 28 * card + slot, read at 0x08021446);
+  shown in the real card panel by forcing `setregs.lua SETS={[0x0802144C]={0,96..99}}` (`cover/p8s33_abil96..99`,
+  board_turn.mss + bd/rand.txt, f1600; 【W Ea】 etc. fit). D65308 / D65318 are link-battle setup (compare the two
+  players' records 0x03001F00 + 72 * player): **waiver file `docs/text_unshown.tsv`** written (45 link-only rows).
+  System unshown now 83 = 45 waived + 38 D16 rows: 32 haiku (leave strings.tsv at the rebuild, kind grid) and **6
+  haiku-judge replies D1685C-D16914** (only seen on the side build: after the rebuild cover them with
+  `tools/debug/haiku_route.py` from haiku.mss: a right haiku, a wrong one, the same one twice).
+- **Next (phase 8):** (1) wait for the branch pass (PID 37736, branch7 when session 33 ended; it runs on
+  `build/tmgfh_en.gba`, so do not rebuild before it ends), then `cover.py gaps --jobs 2` + `report --by-scene` to
+  find unreachable scene lines (scene unshown 1461 now). (2) Rebuild (everything since session 19 incl. warn_box),
+  then re-run the coverage on the new build: a rebuild moves string addresses, so move `work/qa/cover` to
+  `work/qa/cover_b19` and re-run scenes / branches / gaps / rows plus the menu runs listed in sessions 20-33
+  (states made on older builds carry old text pointers: remake the ones covrun warns about), or remap: an id shown
+  on build 19 whose `en` is unchanged needs no re-run (write that tool if the re-run is too slow). (3) Full
+  English tour + visual-QA verdicts per chunk, inkbox on choice / centred boxes, stress-save sheets.
   Earlier: (A) text coverage: the branch pass was resumed again in session 22 (`--jobs 4`, log
   `work/qa/cover_branches.log`; resumed again in sessions 23 and 24: branch0-2 done, branch3+ (A scenes only) running
   when session 24 ended). A rebuild moves 12 207 string addresses (scenes re-pack), so after the rebuild the whole
