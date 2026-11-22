@@ -79,6 +79,33 @@ L.on_frame(function(n)
   end
 end)
 
+-- SEEK=<u16>: start the scene at the first 2-aligned u16 of that value in its script (a command, e.g. a chapter
+-- card: 0x1C02 = `02 1C`, show BG 28; scenes move in the English build, so this beats a byte offset): once the
+-- story loader 0x0803F3B4 has stored the script base in 0x030012CC, move the interpreter's read pointer there
+-- (searching 0x8000 bytes from the base). The live pointer is word 0 of the struct at [0x03007570] (0x0803FCEC);
+-- 0x030012D0 is only a per-step copy (0x0803F46E).
+local SCRIPT_BASE, SCRIPT_CTX, seek_done = 0x030012CC, 0x03007570, not SEEK
+if SEEK then
+  L.on_frame(function(n)
+    if seek_done or not done then return end
+    local p = r32(SCRIPT_BASE)
+    local ctx = r32(SCRIPT_CTX)
+    if ctx < 0x02000000 or ctx >= 0x03008000 then return end
+    local cur = r32(ctx)
+    if p >= 0x08D80000 and p < 0x0A000000 and cur > p and cur <= p + 0x10 then
+      seek_done = true
+      for q = p - p % 2, p + 0x8000, 2 do
+        if emu.read(q, M) | emu.read(q + 1, M) << 8 == SEEK then
+          w32(ctx, q)
+          L.log(string.format("f%d WARP SEEK %04X %08X -> %08X", n, SEEK, p, q))
+          return
+        end
+      end
+      L.log(string.format("f%d WARP SEEK %04X not found after %08X", n, SEEK, p))
+    end
+  end)
+end
+
 if want_tab then
   local base = want_tab == "B" and 0x08D82078 or 0x08D8211C
   local hi = want_tab == "B" and 0x08D82117 or 0x08D82323

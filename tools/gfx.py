@@ -405,8 +405,16 @@ def edit_canvas(canvas, edits, rom, pal, white):
 def canvas_shadow(canvas, x, y, w, h, text, size, levels, shade, depth=3):
     """clear the rect, letter `text` centred in `levels`, then a `depth` px drop shadow (index `shade`) to the
     lower right with a 1 px fringe of index shade + 1 (end card 完: ink 11-15, shadow 9, fringe 10)"""
-    px = letter(text, w, h, size, ramp=(1, len(levels), 0))
-    ink = [[levels[v - 1] if v else 0 for v in row] for row in px]
+    font = ImageFont.truetype(str(FONT), size)
+    img = Image.new('L', (w, h), 0)
+    d = ImageDraw.Draw(img)
+    l, _, r, _ = d.textbbox((0, 0), text, font=font)
+    _, ct, _, cb = d.textbbox((0, 0), 'H', font=font)   # centre the cap height, so descenders don't lift a line
+    d.text(((w - (r - l)) // 2 - l, (h - (cb - ct)) // 2 - ct - depth // 2), text, font=font, fill=255)
+    a = img.load()
+    n = len(levels)
+    ink = [[0 if a[xx, yy] < 40 else levels[round((a[xx, yy] - 40) / 215 * (n - 1))] for xx in range(w)]
+           for yy in range(h)]
     out = [row[:] for row in ink]
     for yy in range(h):
         for xx in range(w):
@@ -486,6 +494,18 @@ def end_card(rom):
     return lz_screen_edit(rom, 0xD7DF04, 14, rows('end_card'), white=(11, 12, 13, 14, 15), max_tiles=320)
 
 
+def chapter_cards(rom):
+    """the 13 chapter title cards 第壱話 .. 第拾参話 (LZ77 screen-table entries 0xD7DE68 + 12k, same layout and
+    palette ramp as the end card): "Chapter N" over the 第N話 band (y 19-52), the title over the furigana and
+    kanji (y 60-143)"""
+    out = []
+    for r in rows('chapter_cards'):
+        edits = [{'kind': 'shadow', 'x': 0, 'y': 16, 'w': 240, 'h': 40, 'sx': 9, 'sy': 20, 'en': r['chapter']},
+                 {'kind': 'shadow', 'x': 0, 'y': 58, 'w': 240, 'h': 90, 'sx': 9, 'sy': 34, 'en': r['title']}]
+        out += lz_screen_edit(rom, int(r['entry'], 16), 14, edits, white=(11, 12, 13, 14, 15), max_tiles=320)
+    return out
+
+
 def shop_list_screen(rom):
     return bg4_edit(rom, 0xD81DBC, 13, rows('shop_list'), white=(10, 13, 14, 15), pal_at=4)
 
@@ -525,7 +545,7 @@ GROUPS = {'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': 
           'settings_screen': settings_screen, 'haiku_screen': haiku_screen, 'deck_name_screen': deck_name_screen,
           'name_entry_screen': name_entry_screen, 'shop_list_screen': shop_list_screen, 'deck_edit': deck_edit, 'plaques': plaques,
           'banners': banners, 'battle_ui': battle_ui, 'captions': captions,
-          'end_card': end_card}
+          'end_card': end_card, 'chapter_cards': chapter_cards}
 
 
 def apply(rom):
