@@ -2,10 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 19; sessions 20-24 did not
+- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 19; sessions 20-29 did not
   rebuild it, because the coverage runs use it; unbuilt there: session 22's 4 text edits, session 23's haiku fix,
-  session 24's tab-sprite fix + 2 text edits, sessions 26-28's graphics + D64260), sha1 82aef7599a18..; side
-  build with everything: `build.py --out work/next/tmgfh_en.gba` (sha1 7b51c7e5..); check.py 38 passed.
+  session 24's tab-sprite fix + 2 text edits, sessions 26-29's graphics + D64260), sha1 82aef7599a18..; side
+  build with everything: `build.py --out work/next/tmgfh_en.gba` (sha1 cb3b225f..); check.py 38 passed.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -312,7 +312,31 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   (side build): cursor moves to Add / Erase / Quit but A does nothing without a partner, so the S17 "Trade a Card"
   plaque stays rendered only (waive with the link-cable texts). Side build sha1 7b51c7e5..,
   check.py 38 passed, smoke ok. Branch pass still running (PID 37736, branch5).
-- **Next (phase 8):** (A) text coverage: the branch pass was resumed again in session 22 (`--jobs 4`, log
+  Session 29 (2026-11-22): **save value (money) mapped**: u16 at save 0x06CC (RAM 0x03002EE0, max 9999),
+  `save.py set --money N`, `info` prints it; neighbouring fields listed in `tools/debug/save_layout.md`. New saves
+  `work/saves/hub_ch05_en.sav` (English build), `allcards_en.sav` (every card + 9999), `rich_ch38.sav`, `rich_few.sav`
+  (starting cards + 9999: pack screen shows NEW), `cards999.sav`; states `work/states/shop_rich.mss`,
+  `shop_rich38.mss`, `shop_999.mss`, `trade_room_all.mss`, `shop_after_pack.mss` (pack screen, mid-registration).
+  **Shop booster purchase covered** (D78990-D78C8C, all 13): Kenpucho / Oboro Kitan bought for real; the 3 packs not on
+  sale (Kouryu, Keppuroku, Gehocho: not unlocked by chapter 38 either) + "can't buy any more cards" shown in the real
+  shop box by `popcycle.lua` (new vars `CALL_AT=0x08003AA0 LR=0x08057E2F`: the shop dialogue printer and its one
+  call site), shots `work/qa/p8s29/buy_pop.png`: all fit. **Trade registration is on the pack-opening screen** (A on
+  a card: "Register it as a trade card?" / "Remove its trade entry?"); the Trading Hall's Deck Edit is the normal
+  deck editor. **Graphics found and fixed** (side build): pack-opening 次へ button -> "Next" and 新 burst -> "NEW"
+  (group pack_open, `tools/gfx_packopen.py`), card **thumbnail** emblems 木火土金水 -> Wd Fi Ea Mt Wa (frame table
+  entries 44-87, group thumb_frames, `tools/gfx_thumbframes.py`; these were the "kanji emblems on panel thumbnails"
+  noted in session 26, not stale VRAM). All three seen in game (`work/qa/p8s29/pack_en_z.png`, `thumb_cmp.png`);
+  details `docs/re/graphics.md` §session 29. Side build sha1 cb3b225f..; check.py 38 passed. System unshown now 202
+  (list: `python -X utf8 work/qa/p8s29/unshown.py` -> `work/qa/p8s29/unshown_sys.txt`; 32 of them are the haiku
+  rows D168-D16F that leave strings.tsv at the rebuild). Branch pass still running (PID 37736, branch5 at A2).
+- **Next (phase 8):** (session 29 leads) from `work/states/shop_after_pack.mss` find how to leave the pack screen
+  (A toggles register/remove; try B then the Next button), then Sell -> Trade tab for the sell-all-trade texts
+  D724EC / D72710-D727A0; discard texts (D72548, D726FC, D72C1C-D72C98) did not trigger at 999+8 cards: find the
+  collection cap (try ~5000 records with `save.py set --add-cards`); D728xx-D72Cxx registration rules are printed
+  by code 0x0804AF4E-0x0804B0xx (0x08018B4C at x 0x70 y 0x50, when a state value == 6) that no route reached yet
+  (not the Trading Hall deck edit, not View All -> Trade): breakpoint 0x0804AFCE never hit. Sort badges AP-/AP+..
+  and kana-row badges still unshown.
+  Earlier: (A) text coverage: the branch pass was resumed again in session 22 (`--jobs 4`, log
   `work/qa/cover_branches.log`; resumed again in sessions 23 and 24: branch0-2 done, branch3+ (A scenes only) running
   when session 24 ended). A rebuild moves 12 207 string addresses (scenes re-pack), so after the rebuild the whole
   coverage must be re-run: finish this pass first only to find unreachable strings. If no Mesen process of this
@@ -327,13 +351,13 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   of trade cards D724EC/D72710-D727A0, D728xx-D72Cxx registration rules), sort badges AP-/AP+.. (sort popup), kana-row badges
   (scroll a name-sorted list), sutra board sin descriptions: 8 of 9 shown (`cover/board_sins`: board.mss, cursor
   move + A on each label); Theft D78850 not yet (find its label's cursor path),
-  D78990-D78C8C shop booster purchase (needs value), D6526C link error / D6E3D4 sync test / D78E04-D79138 link cable
+  (D78990-D78C8C shop booster purchase: done in session 29), D6526C link error / D6E3D4 sync test / D78E04-D79138 link cable
   (waive: needs a second GBA). For each menu: `tools/debug/covrun.py NAME --state-in S --route-str ".."`.
   Release README: list the 32 haiku (kana, romaji, meaning from the d1.tsv notes) so English players can enter them
   (D14). Waive only what
   is shown unreachable in `docs/text_unshown.tsv`. Do not rebuild between coverage runs (cover.py refuses when strings.tsv
   changed; move `work/qa/cover` away and re-run all after a rebuild). Stress saves: `allcards.sav` is the
-  full-list one; long names via `save.py set --surname/--name`; money/deck not mapped yet. (0) graphics left: (S16 link-trade badges done in session 28); 0xD280D0 (title
+  full-list one; long names via `save.py set --surname/--name`; max value via `--money 9999` (`allcards_en.sav`); deck not mapped yet. (0) graphics left: (S16 link-trade badges done in session 28); 0xD280D0 (title
   set, table 0xD289A0) unidentified; trade / discard plaques (S17) in game (trade room -> Trade, needs cards). (1) see an element text icon ({I006}-{I015}) in game (card text popup of a Ward/Slay/Bane card)
   and a large frame (39-43). (2) a land / spell mini label in game (thumbnail of a non-character card on the
   panel). (3) done in session 27. Remaining graphics
