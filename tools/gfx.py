@@ -398,6 +398,28 @@ def edit_canvas(canvas, edits, rom, pal, white):
             px = letter_levels(r['en'], w, h, int(r['sy'] or 11), list(white), int(r['sx']))
             for yy in range(h):
                 canvas[y + yy][x:x + w] = px[yy]
+        elif r['kind'] == 'shadow':  # transparent backdrop: centred text (size sy), drop shadow index sx down-right
+            canvas_shadow(canvas, x, y, w, h, r['en'], int(r['sy']), list(white), int(r['sx']))
+
+
+def canvas_shadow(canvas, x, y, w, h, text, size, levels, shade, depth=3):
+    """clear the rect, letter `text` centred in `levels`, then a `depth` px drop shadow (index `shade`) to the
+    lower right with a 1 px fringe of index shade + 1 (end card 完: ink 11-15, shadow 9, fringe 10)"""
+    px = letter(text, w, h, size, ramp=(1, len(levels), 0))
+    ink = [[levels[v - 1] if v else 0 for v in row] for row in px]
+    out = [row[:] for row in ink]
+    for yy in range(h):
+        for xx in range(w):
+            if not out[yy][xx] and any(0 <= yy - k < h and 0 <= xx - k < w and ink[yy - k][xx - k]
+                                       for k in range(1, depth + 1)):
+                out[yy][xx] = shade
+    for yy in range(h):
+        for xx in range(w):
+            if not out[yy][xx] and any(0 <= yy + j < h and 0 <= xx + i < w and out[yy + j][xx + i] == shade
+                                       for j in (-1, 0, 1) for i in (-1, 0, 1)):
+                out[yy][xx] = shade + 1
+    for yy in range(h):
+        canvas[y + yy][x:x + w] = out[yy]
 
 
 def lz_screen_edit(rom, entry, bank, edits, white, max_tiles=0):
@@ -458,6 +480,12 @@ def name_entry_screen(rom):
     return lz_screen_edit(rom, 0xD7DF1C, 10, rows('name_entry'), white=(11, 13, 14, 15), max_tiles=320)
 
 
+def end_card(rom):
+    """ending 完 card (W11): LZ77 screen-table entry 0xD7DF04 (tiles 0xBE6738, palette 0xE2BEBA, map 0xE5D0BA),
+    BG2 bank 14, char base 0x0600C000, screen base 0xE800; the title logo above stays (D5), 完 -> The End"""
+    return lz_screen_edit(rom, 0xD7DF04, 14, rows('end_card'), white=(11, 12, 13, 14, 15), max_tiles=320)
+
+
 def shop_list_screen(rom):
     return bg4_edit(rom, 0xD81DBC, 13, rows('shop_list'), white=(10, 13, 14, 15), pal_at=4)
 
@@ -496,7 +524,8 @@ GROUPS = {'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': 
           'room_banners': room_banners, 'floor_numerals': floor_numerals, 'signs': signs,
           'settings_screen': settings_screen, 'haiku_screen': haiku_screen, 'deck_name_screen': deck_name_screen,
           'name_entry_screen': name_entry_screen, 'shop_list_screen': shop_list_screen, 'deck_edit': deck_edit, 'plaques': plaques,
-          'banners': banners, 'battle_ui': battle_ui, 'captions': captions}
+          'banners': banners, 'battle_ui': battle_ui, 'captions': captions,
+          'end_card': end_card}
 
 
 def apply(rom):
