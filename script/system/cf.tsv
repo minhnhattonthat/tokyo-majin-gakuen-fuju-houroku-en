@@ -144,7 +144,7 @@ CF2A5C	str	83	憑依された{I000}が{rt}次ターン終了時に{rt}場に残�
 CF2AB0	str	63	符咒士の{I000}全てが{rt}憑依された{I000}と{rt}同じ{I014}に変化しま{rt}す	The Talismancer's{rt}{I000} all take the{rt}same {I014} as the{rt}possessed {I000}.	
 CF2AF0	str	51	憑依された{I000}が{rt}墓地に送られた時{rt}手札に戻ります	When the possessed{rt}{I000} goes to the{rt}graveyard, it{rt}returns to the hand.	
 CF2B24	str	67	自分のターンの{rt}終了時にもう一度{rt}攻撃フェイズを{rt}行う事ができます	At the end of your{rt}turn, you get{rt}another attack{rt}phase.	
-CF2B68	str	55	場から自分の墓地{rt}に行った{I000}を伏せ{rt}て場に戻します	A {I000} sent from{rt}the field to your{rt}graveyard returns{rt}face down.	
+CF2B68	str	55	場から自分の墓地{rt}に行った{I000}を伏せ{rt}て場に戻します	Your {I000} sent to{rt}the graveyard comes{rt}back face-down.	
 CF2BA0	str	51	自分のターンの{rt}ドローフェイズに{rt}２枚ドローします	Draw 2 cards in{rt}your draw phase.	
 CF2BD4	str	75	毎ターンの終了時{rt}場にいる{I001}がつい{rt}ている{I000}に１０ダ{rt}メージを与えます	At each turn's end,{rt}the {I000} that a{rt}{I001} is on takes{rt}10 damage.	
 CF2C20	str	47	敵符咒士の墓地に{rt}行った全ての符を{rt}除去します	Removes every{rt}talisman in the{rt}foe's graveyard.	
@@ -270,18 +270,18 @@ CF4440	str	23	全ての能力を{rt}無効化	Nullifies all{rt}abilities
 CF4458	str	47	与えたり受けたり{rt}する戦闘ダメージ{rt}を０にする	Deals and takes{rt}no battle{rt}damage	
 CF4488	str	35	受けたダメージを{rt}符咒士本体に移す	Damage taken goes{rt}to the Talismancer	
 CF44AC	str	31	{I003}の効果の{rt}対象になりません	Not targeted by{rt}{I003} effects.	
-CF44CC	str	47	他の式神による{rt}能力や憑依の{rt}対象にならない	Not targeted by{rt}other Shikigami's{rt}abilities or{rt}possession	
+CF44CC	str	47	他の式神による{rt}能力や憑依の{rt}対象にならない	Other Shikigami's{rt}abilities and{rt}possession miss it	
 CF44FC	str	19	状態不能を無効化	Immune to disabling	
 CF4510	str	23	{I000}がその場で{rt}復活	The {I000} revives{rt}on the spot	
 CF4528	str	27	【見切】を{rt}無視して攻撃	Attacks ignoring{rt}【Dodge】	
 CF4544	str	19	全ての{I000}を破壊	Destroys every {I000}	
-CF4558	str	55	符咒士の{I000}全てが{rt}憑依された{I000}と{rt}同じ{I014}に変化	The Talismancer's{rt}{I000} take the same{rt}{I014} as the{rt}possessed {I000}	
+CF4558	str	55	符咒士の{I000}全てが{rt}憑依された{I000}と{rt}同じ{I014}に変化	Your {I000} all take{rt}the {I014} of the{rt}possessed {I000}	
 CF4590	str	19	{I000}が{rt}手札に戻る	The {I000} returns{rt}to hand	
 CF45A4	str	23	もう一度{rt}攻撃を行う	Attacks{rt}once more	
 CF45BC	str	23	{I000}を伏せて{rt}場に戻す	Returns the {I000}{rt}face down	
 CF45D4	str	11	２枚ドロー	Draw 2	
 CF45E0	str	39	{I001}が憑いている{rt}{I000}に１０ダメージ	10 damage to the{rt}{I000} a {I001} is on	
-CF4608	str	55	敵符咒士の墓地に{rt}行く{I000}{I001}{I002}{I003}{I004}を{rt}除去する	Removes{rt}{I000}{I001}{I002}{I003}{I004}{rt}going to the foe{rt}Talismancer's{rt}graveyard	
+CF4608	str	55	敵符咒士の墓地に{rt}行く{I000}{I001}{I002}{I003}{I004}を{rt}除去する	Removes foe's{rt}{I000}{I001}{I002}{I003}{I004} going{rt}to the graveyard	
 CF4640	str	23	{I000}の消費ＡＰを{rt}２倍	{I000} AP cost{rt}doubled	
 CF4658	str	19	{I000}の交換を禁止	{I000} can't be swapped	
 CF466C	str	23	{I000}のオープンを{rt}妨害	Stops {I000} from{rt}opening	

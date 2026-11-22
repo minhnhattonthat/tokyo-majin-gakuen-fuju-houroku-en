@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 19; session 20 did not rebuild),
-  sha1 82aef7599a18..; check.py 37 passed.
+- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 19; sessions 20-22 did not
+  rebuild; session 22 has 4 unbuilt text edits), sha1 82aef7599a18..; check.py 38 passed.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -226,14 +226,29 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   the person-name table 0xE5F71C) -> `work/qa/cover/sound_dlg`. **Rules help** (Start in the hand phase) route
   `tools/routes/rules_help.txt` from `work/states/hand_panel.mss` (A on Basic Rules replays the tutorial, so it starts
   one down; A/down pairs walk every topic) -> `work/qa/cover/rules_help`: D6E71C-D717D4 all shown.
-- **Next (phase 8):** (A) text coverage: the branch pass was resumed in session 21 (`--jobs 4`, log
-  `work/qa/cover_branches.log`; branch0 + branch1 done, branch2.. running when it ended). If no Mesen process of this
+  Session 22 (2026-11-22, no rebuild yet): system unshown 532 -> 262. **Battle message table** 0xD7A700 mapped
+  (`docs/re/text.md` §Battle message table and popups): all 270 of its unshown strings (prompts, 100 character
+  ability descriptions, possession / barrier / spell / land effect texts) shown in the real type-10 popup by new
+  probe `tools/debug/popcycle.lua` (state at a popup call, then load + swap r0 per string; run
+  `work/qa/cover/popups`), QA shots `work/qa/popups_qa/` (best of 4 hold timings; sheets + manifest + verdicts
+  `self_20261122.tsv`: 4-line possession texts spill in this 3-line box but JP has 4 lines too, so their real window
+  is another one, not found). **Text edits (not yet built):** CF2B68, CF44CC, CF4558, CF4608 were 4-5 lines vs JP 3:
+  reworded to 3 lines (fit 0 problems, check 38 passed); after the rebuild re-run popcycle on those 4 and re-init
+  the popups manifest. Element text icons now seen in game (Ea Fi Wd Mt moon in the Ward/Slay/Bane popups). **VS
+  screen seen in game** (rematch from defeat_quote.mss, `work/qa/p8s22/vs_seen.png`, f3400 of `60 -`..mash 30).
+  **Stale state:** board_turn.mss carries an old build's RAM copy of the opponent name (turn banner shows 常世の使者;
+  a rematch on this build shows "Tokoyo Envoy"): not a bug, but make a fresh battle state before final battle QA.
+  The VS plate shows the player name 緋勇龍麻 from the save: check a cold new game on the English build shows the
+  English default. New probe `tools/debug/popuplog.lua` (logs popup calls). Rules help 【Abilities】 = last topic
+  (down x17), its A pages are D6E8xx text, not the popup table.
+- **Next (phase 8):** (A) text coverage: the branch pass was resumed again in session 22 (`--jobs 4`, log
+  `work/qa/cover_branches.log`; branch0 + branch1 done, branch2 94/165 when it ended, branches up to 9 follow for the
+  A scenes). If no Mesen process of this
   repo is running (other projects' Mesen may be), resume it with `python -X utf8 tools/cover.py scenes --branches
   --jobs 4` (it skips finished scenes; delete any run dir without final.png first), then `tools/cover.py gaps --jobs
-  4`, then `report --by-scene`. Scenes should reach ~0 unshown. System strings left (532): ~250 card ability /
-  spell / possession texts CF17E0-CF5914 (【Summon】.., "Element turns {I009}", short spell effects: the battle card
-  panel / spell popups, not the deck-editor card view, which was browsed; idea: poke hand card ids like
-  quotecycle.lua does quotes), CF12F0-CF1588 battle prompts, CF64E8-CF7340 short labels and land/spell names,
+  4`, then `report --by-scene`. Scenes should reach ~0 unshown. Then rebuild (session 22 text edits), move
+  `work/qa/cover` away and re-run the coverage (or waive with a note that only 4 strings changed). System strings
+  left (262): CF64E8-CF7340 short labels and land/spell names,
   D1685C/D16820 haiku-hall lines + haiku list D16A40-D16F54, D720A0-D72C98 deck/sell/trade prompts, D7878C-D78C8C
   shop, D6526C link error / D6E3D4 sync test / D78E04-D79138 link cable (waive: needs a second GBA). Waive only what
   is shown unreachable in `docs/text_unshown.tsv`. Do not rebuild between coverage runs (cover.py refuses when strings.tsv

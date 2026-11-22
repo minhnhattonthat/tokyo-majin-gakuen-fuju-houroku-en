@@ -172,6 +172,20 @@ Argument counts are the digits shown; prove each with the marker build before th
   `tools/debug/dstlog.lua` (BIOS copies and CPU writes into a range) found the writer: the BG0 map is copied each
   frame from RAM 0x02002000.
 
+## Battle message table and popups (phase 8, 2026-11-22)
+- Table 0x08D7A700 (u32 string pointers, 27 code literals, e.g. 0x0800F21A, 0x0803E946 `ldr r0,[table,#0x44]`) with
+  sub-table bases loaded by code: 0xD7A748 character ability descriptions (100, index = task [0x030035B8] +0x14,
+  shown at 0x080232BE when A is pressed in state 4 of task 0x08022FE4, created by 0x08022F80 from five battle
+  callers), 0xD7A8D8 possession / 0xD7A944 barrier / 0xD7A9BC spell effect texts (card kind 0x11/0x12/0x13 at
+  0x08020FEA.., paired with name lists 0xD7D4FC / 0xD7D568 / 0xD7D5E0), 0xD7AB08, 0xD7AB74, 0xD7ABEC (land / spell
+  effect lines), 0xD7AD38, 0xD7AD78, 0xD7ADE8 (character records).
+- Popup printer 0x08018AB0 (r0 string, r1 x, r2 y, r3 flag; push at +0, r0 kept until 0x08018ABC), box drawn first by
+  0x0801A8DC / 0x0801B044. The turn banner (0x080100B6) prints the popup string, then the name lines from RAM with
+  0x08018B4C: the opponent name is a RAM copy at [0x0300756C]+0x694, made at battle setup, so a savestate made on an
+  older build shows that build's name (board_turn.mss: 常世の使者; a rematch on the English build shows Tokoyo Envoy).
+- Coverage: `tools/debug/popcycle.lua` loops any address list through the real popup (`tools/debug/popuplog.lua`
+  logs the game's own calls).
+
 ## Prior work
 - An AI-assisted English patch is listed on RetroGameTalk (thread 74417) with graphics text left in Japanese.
   Unverified and not downloaded. If it is ever used, diff it only as a map.
