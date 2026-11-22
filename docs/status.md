@@ -401,14 +401,26 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   System unshown now 83 = 45 waived + 38 D16 rows: 32 haiku (leave strings.tsv at the rebuild, kind grid) and **6
   haiku-judge replies D1685C-D16914** (only seen on the side build: after the rebuild cover them with
   `tools/debug/haiku_route.py` from haiku.mss: a right haiku, a wrong one, the same one twice).
-- **Next (phase 8):** (1) wait for the branch pass (PID 37736, branch7 when session 33 ended; it runs on
+  Session 34 (2026-11-23, no rebuild of build/; side build `work/next/tmgfh_en.gba` c4ab6971..): **English name
+  entry (G7, D15)**: romaji syllable grids (`tools/name_grid.py` writes the d6.tsv grid rows; lowercase on the かな
+  page, capitalised on カナ, small-kana rows = consonants k sh ch j r t p s g; buttons relabelled abc / Abc), tight
+  letters `vwf.TIGHT` so tsu / Tsu / Shi / Chi fit one 16 px cell, `fit.py` checks one unit per cell. Seen in game:
+  both pages, typing ("Tatstsu", deck "sakaa"), `work/qa/p8s34/`. **Bug fixed (side build, seen):** the deck-name
+  screen's frame bottom was garbled since the session 3 redraw (retiled set 240 tiles ran into run-time tiles 223+):
+  new `gfx.bg4_refit` keeps the 222-tile set (`work/qa/p8s34/dn_fix_cmp.png`). **CLASH and START plates seen in
+  game** (forced; graphics.md §Session 34); S28 badges are an unused asset; Attack/Wait panel and the tutorial's
+  opponent cards not reached (no reference found / not in a 9000-frame tutorial). **`cover.py remap OLD --base
+  COMMIT`** carries an old build's coverage to a rebuild for rows whose jp/en are unchanged (dry run on build 19:
+  15 650 of 15 666 carry over; the 16 changed rows are session 22-31 edits, each listed with the old runs that showed
+  them). New probe `tools/debug/valwrite.lua`. State `work/states/name_entry_ne.mss` (side build, name entry).
+- **Next (phase 8):** (1) wait for the branch pass (PID 37736, branch8 when session 34 ended; it runs on
   `build/tmgfh_en.gba`, so do not rebuild before it ends), then `cover.py gaps --jobs 2` + `report --by-scene` to
-  find unreachable scene lines (scene unshown 1461 now). (2) Rebuild (everything since session 19 incl. warn_box),
-  then re-run the coverage on the new build: a rebuild moves string addresses, so move `work/qa/cover` to
-  `work/qa/cover_b19` and re-run scenes / branches / gaps / rows plus the menu runs listed in sessions 20-33
-  (states made on older builds carry old text pointers: remake the ones covrun warns about), or remap: an id shown
-  on build 19 whose `en` is unchanged needs no re-run (write that tool if the re-run is too slow). (3) Full
-  English tour + visual-QA verdicts per chunk, inkbox on choice / centred boxes, stress-save sheets.
+  find unreachable scene lines (scene unshown 1461 before branch7/8). (2) Rebuild (everything since session 19 incl.
+  warn_box, name grids, deck-name fix), then `mv work/qa/cover work/qa/cover_b19`, `cover.py remap
+  work/qa/cover_b19 --base b359d4e` (build 19 was made from b359d4e), re-run only what it lists as changed (popcycle
+  for CF2B68/CF44CC/CF4558/CF4608; the menu routes for the D72xxx rows: sessions 24-31) and the name-grid rows are
+  kind grid (not in strings.tsv). Then `cover.py report` must exit 0 with `docs/text_unshown.tsv`. (3) Full English
+  tour + visual-QA verdicts per chunk, inkbox on choice / centred boxes, stress-save sheets.
   Earlier: (A) text coverage: the branch pass was resumed again in session 22 (`--jobs 4`, log
   `work/qa/cover_branches.log`; resumed again in sessions 23 and 24: branch0-2 done, branch3+ (A scenes only) running
   when session 24 ended). A rebuild moves 12 207 string addresses (scenes re-pack), so after the rebuild the whole
