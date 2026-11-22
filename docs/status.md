@@ -213,12 +213,30 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   (B):** JP and EN both left-align options at x~66 (`work/qa/choice_cmp.png`, new probe `tools/debug/
   choiceshot.lua` screenshots while the 0F choice helper waits): not centred, inkbox not applicable (windows.tsv).
   Polish note: card view count line D72810 reads "1 cards, # 1" (slots are N then index); reword when rebuilding.
-- **Next (phase 8):** (A) text coverage: if no Mesen process is running, resume the branch pass with `python -X utf8
-  tools/cover.py scenes --branches --jobs 4` (it skips finished scenes; delete any run dir without final.png
-  first), then `tools/cover.py gaps --jobs 4`, then `report --by-scene`. Scenes should reach ~0 unshown; system
-  strings: battle runs for enemy quotes (board_turn.mss / defeat_quote.mss under textcover), find where the
-  person-name lists D645E4.. show; waive only what is shown unreachable in `docs/text_unshown.tsv` (link-cable
-  D78E04-D79138 needs a second GBA). Do not rebuild between coverage runs (cover.py refuses when strings.tsv
+  Session 21 (2026-11-22): system unshown 1843 -> 532 (no rebuild). **Enemy quotes all shown** (820 = 41 quote
+  lists x 20): opponent records 0xD6E17C (12 B: u32 quote list, u16 char, u16 life, u32 level; getter 0x0803D7AC;
+  index = byte [0x0300756C]+0x7F1; 43 records, 40-42 share a list), quote task [0x030035B8] (`docs/re/game.md`
+  §Opponents and enemy quotes). New probes
+  `tools/debug/forceopp.lua` (any opponent in a battle/rematch) and `quotecycle.lua` (loops the quote box through
+  every quote of OPPS, shot `q<opp>_<idx>.png` each): runs `work/qa/cover/quotes_{a..e}` (board_turn.mss +
+  bd/rand.txt, ~155 frames a quote). Quote box checked: sheets `work/qa/quotes/sheet_00..17.png`, rightmost text
+  pixel <= x 142 in the box (frame at 144), 3 lines max; q26_02 is an empty string in the original too. Verdict
+  (self, fresh pass over sheets 00 + 10 + the 8 tightest): ok. **Sound test DLG/VOX** route
+  `tools/routes/sound_test_dlg.txt` (steps all 282 DLG + 39 VOX entries: the DLG row shows each speaker's name, i.e.
+  the person-name table 0xE5F71C) -> `work/qa/cover/sound_dlg`. **Rules help** (Start in the hand phase) route
+  `tools/routes/rules_help.txt` from `work/states/hand_panel.mss` (A on Basic Rules replays the tutorial, so it starts
+  one down; A/down pairs walk every topic) -> `work/qa/cover/rules_help`: D6E71C-D717D4 all shown.
+- **Next (phase 8):** (A) text coverage: the branch pass was resumed in session 21 (`--jobs 4`, log
+  `work/qa/cover_branches.log`; branch0 + branch1 done, branch2.. running when it ended). If no Mesen process of this
+  repo is running (other projects' Mesen may be), resume it with `python -X utf8 tools/cover.py scenes --branches
+  --jobs 4` (it skips finished scenes; delete any run dir without final.png first), then `tools/cover.py gaps --jobs
+  4`, then `report --by-scene`. Scenes should reach ~0 unshown. System strings left (532): ~250 card ability /
+  spell / possession texts CF17E0-CF5914 (【Summon】.., "Element turns {I009}", short spell effects: the battle card
+  panel / spell popups, not the deck-editor card view, which was browsed; idea: poke hand card ids like
+  quotecycle.lua does quotes), CF12F0-CF1588 battle prompts, CF64E8-CF7340 short labels and land/spell names,
+  D1685C/D16820 haiku-hall lines + haiku list D16A40-D16F54, D720A0-D72C98 deck/sell/trade prompts, D7878C-D78C8C
+  shop, D6526C link error / D6E3D4 sync test / D78E04-D79138 link cable (waive: needs a second GBA). Waive only what
+  is shown unreachable in `docs/text_unshown.tsv`. Do not rebuild between coverage runs (cover.py refuses when strings.tsv
   changed; move `work/qa/cover` away and re-run all after a rebuild). Stress saves: `allcards.sav` is the
   full-list one; long names via `save.py set --surname/--name`; money/deck not mapped yet. (0) graphics left: S16 0xC03F88 link-room badges (look like 待機中 / 通信中; loaded only in
   link-room sub-state 2, 0x0805BFE8: force the sub-state or poke it to see them, then redraw); 0xD280D0 (title

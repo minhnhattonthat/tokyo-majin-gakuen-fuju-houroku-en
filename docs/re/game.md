@@ -75,5 +75,17 @@ No save: 始めから | 設定 (left/right). With a save: 2x2 始めから 続�
   hub after the chapter-1 battle, copied to `work/states/hub_real.mss`). 新規 opens the deck-name entry 符咒名は？
   (kana grid D72F00-D730A4, kind grid).
 
+## Opponents and enemy quotes
+- Opponent records at 0xD6E17C, 12 bytes each, 43 of them (0-42): u32 quote list (20 u32 string pointers), u16
+  character id, u16 starting life (record 0: 80), u32 level. Getter 0x0803D7AC (r0 = index -> 0xD6E17C + 12 * index).
+  The battle's index is the byte at [0x0300756C] + 0x7F1 (chapter 1 = 0); mode-1 setup 0x0800E7A4.. reads life etc.
+  through the getter. Records 40-42 share one quote list. Quote 2 of opponent 26 is an empty string in the original.
+- Quote box: a task with struct [0x030035B8]: u16 +0x34 quote index, u16 +0x38 state (jump table 0x0801C59C: 0 init,
+  1 portrait, 2 slide in, 3 alloc at 0x0801C6C0, 4 print a char a frame, 5 print the rest, 6 wait A or 0x12B frames,
+  7 slide out, 8 free, 9 end -> 0x0800E4BC next battle phase). Text by printer B (sprites), 3 lines.
+  `tools/debug/forceopp.lua` forces an opponent; `tools/debug/quotecycle.lua` loops the box through every quote.
+- Person-name table 0xE5F71C (300 u32 pointers: 0-5 misc, 6/7 the player's name, 8.. speaker names, ~290.. battle
+  messages): the sound test's DLG row shows one name per entry (282 entries).
+
 ## Not reached yet
 - The normal path to the sound test (mode 20).
