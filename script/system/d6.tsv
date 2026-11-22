@@ -1073,7 +1073,7 @@ D6DE00	str	15	さすがだな…	As expected...
 D6DE10	str	47	さあ、お前の{rt}力の全てを私に{rt}ぶつけてみろッ	Now, hit me{rt}with all your{rt}strength	
 D6DE40	str	15	ゆくぞ………	Here I come.........	
 D6DE50	str	47	忘れるな、何かを{rt}護ろうとする心が{rt}力になる	Remember: the will{rt}to protect something{rt}becomes power	
-D6DE80	str	47	かけがいのない{rt}友の為にその拳を{rt}振るえッ！！	Swing that fist{rt}for your{rt}irreplaceable friends!!	
+D6DE80	str	47	かけがいのない{rt}友の為にその拳を{rt}振るえッ！！	Swing that fist{rt}for your dearest{rt}friends!!	
 D6DEB0	str	15	耐えてみろ！！	Endure this!!	
 D6DEC0	str	11	ふんッ！	Hmph!	
 D6DECC	str	27	まだまだ{rt}これからだ！！	We're just{rt}getting started!!	
@@ -1247,69 +1247,69 @@ D6F190	str	79	この{I002}結界式神符が場から{nl}離れない限り、�
 D6F1E0	str	59	場にいる全ての{I000}人物符や{nl}符咒士に様々な{nl}影響を与えます	They affect every {I000}Character{nl}on the field and{nl}the Talismancers.	
 D6F21C	str	75	符によって効果は大きく{nl}異なりますので{nl}使うタイミングが{nl}重要となります{wc}	Effects vary widely{nl}between talismans,{nl}so timing is{nl}crucial.{wc}	
 D6F268	str	43	場や符咒士に{nl}様々な効果を{nl}与える符です	Varied effects{nl}on field and{nl}Talismancers.	
-D6F294	str	55	使用時に{I013}ライフを必要と{nl}する{I004}土地符もあります{wc}		
-D6F2CC	str	35	１ターンに１枚しか{nl}使用できません		
-D6F2F0	str	63	{I004}土地符は使用時に{nl}他の符と違い{nl}ＡＰを必要と{nl}しませんが		
-D6F330	str	43	{I004}土地符は{nl}勝敗の鍵を握る{nl}符といえます		
-D6F35C	str	51	{I000}人物符に{nl}地形効果を与える{nl}ことができるので		
-D6F390	str	47	場に出ている{nl}{I000}人物符の能力を{nl}引き出したり		
-D6F3C0	str	39	摩尼は{nl}ＡＰの最大値を{nl}上昇させたり		
-D6F3E8	str	43	{I004}土地符は{nl}場の摩尼を{nl}変化させる符です		
-D6F414	str	55	相剋の対象は時計回りに{nl}２つ先の属性となっています{wc}		
-D6F44C	str	55	中央の摩尼表示で相生の対象は{nl}半時計回りに１つ隣の属性		
-D6F484	str	67	{I009}の{I004}土地符{nl}相生：{I008}の摩尼を吸収{nl}相剋：{I006}の摩尼を破壊		
-D6F4C8	str	67	{I008}の{I004}土地符{nl}相生：{I007}の摩尼を吸収{nl}相剋：{I005}の摩尼を破壊		
-D6F50C	str	67	{I007}の{I004}土地符{nl}相生：{I006}の摩尼を吸収{nl}相剋：{I009}の摩尼を破壊		
-D6F550	str	67	{I006}の{I004}土地符{nl}相生：{I005}の摩尼を吸収{nl}相剋：{I008}の摩尼を破壊		
-D6F594	str	67	{I005}の{I004}土地符{nl}相生：{I009}の摩尼を吸収{nl}相剋：{I007}の摩尼を破壊		
-D6F5D8	str	59	それぞれの{I004}土地符の対象の{nl}属性は次のようになっています		
-D6F614	str	27	相剋（そうこく）といいます		
-D6F630	str	67	{I004}土地符の使用時に{nl}対象となる属性の{nl}摩尼を１つ破壊することを		
-D6F674	str	27	相生（そうじょう）といい、		
-D6F690	str	67	{I004}土地符の使用時に{nl}対象となる属性の{nl}摩尼を１つ吸収することを		
-D6F6D4	str	63	{I004}土地符の使用時{nl}場の属性によって{nl}干渉し合う事があります		
-D6F714	str	87	場の{I000}人物符と{nl}同じ属性の摩尼の{nl}ＬＶを上げること{nl}が戦闘を有利に{nl}進めるコツです{wc}		
-D6F76C	str	75	摩尼能力が使用{nl}できるようになり{nl}更に、地形効果も{nl}得ることが{nl}できます		
-D6F7B8	str	55	場に出ている{I000}人物符は{nl}同じ属性の摩尼ＬＶによって		
-D6F7F0	str	79	{I004}土地符を使用{nl}することによって{nl}それぞれの{nl}摩尼ＬＶが{nl}変化していきます		
-D6F840	str	35	{I005}{I006}{I007}{I008}{I009}の５属性があり		
-D6F864	str	39	場の中央に表示されているのが{nl}摩尼です		
-D6F88C	str	47	その後の戦闘を有利に{nl}進めることができます{wc}		
-D6F8BC	str	47	摩尼を昇華させた符咒士は{nl}ＭＡＸＡＰが２上昇し		
-D6F8EC	str	27	これを摩尼の昇華といいます		
-D6F908	str	47	摩尼ＬＶを４にすると{nl}摩尼ＬＶは０になります		
-D6F938	str	27	これを地形効果と呼びます{wc}		
-D6F954	str	67	相手から受けるダメージを{nl}同じ属性の摩尼ＬＶ×１０{nl}軽減できます		
-D6F998	str	63	場に出ている{I000}人物符は{nl}敵の{I000}人物符から{nl}攻撃を受けた時		
-D6F9D8	str	63	「墓地」から復活できず{nl}勝負終了まで使用できなく{nl}なります{wc}		
-D6FA18	str	43	「除去」を宣告されてしまった{nl}{I000}人物符は		
-D6FA44	str	39	ただし、{I003}法術符などの{nl}効果により		
-D6FA6C	str	83	「墓地」にある符は、{nl}{I003}法術符や特殊能力によって{nl}再び手札に戻すことができます		
-D6FAC0	str	51	破壊されたり使用された符は{nl}「墓地」に送られます		
-D6FAF4	str	51	攻撃をしてきた{I000}人物符に{nl}対して反撃をします{wc}		
-D6FB28	str	35	攻撃で破壊されない限り{nl}オープンし		
-D6FB4C	str	67	しかし裏側で配置された{nl}{I000}人物符が敵の{I000}人物符に{nl}攻撃されると		
-D6FB90	str	83	裏側で配置された{I000}人物符は、{nl}次の自分のターンにオープン{nl}するまで行動できません		
-D6FBE4	str	67	{I000}人物符が場に配置される時{nl}その{I000}人物符は裏側で{nl}配置されます		
-D6FC28	str	71	前列に２枚後列に１枚です{nl}前列に２枚無い場合は{nl}後列に配置できません		
-D6FC70	str	55	場には最大３枚の{I000}人物符を{nl}配置させる事が可能です		
-D6FCA8	str	67	先に攻撃を受けた{I000}人物符は{nl}破壊されなければ反撃を{nl}行います{wc}		
-D6FCEC	str	59	同じ{I014}ＳＰだった場合は{nl}攻撃側が先にダメージを{nl}与えます		
-D6FD28	str	75	{I014}ＳＰが高い方が相手の{nl}{I000}人物符に先にダメージを{nl}与えることができます		
-D6FD74	str	83	目の前に{I000}人物符がある場合、{nl}その{I000}人物符に対して{nl}攻撃を行うことになります		
-D6FDC8	str	47	敵符咒士に直接ダメージを{nl}与えることができます		
-D6FDF8	str	59	配置した{I000}人物符の目の前に{nl}敵の{I000}人物符がいない場合は		
-D6FE34	str	39	{I016}麻痺{nl}{I017}毒{nl}{I018}睡眠{nl}{I019}呪詛{wc}		
-D6FE5C	str	43	状態不能を表すアイコンは{nl}次の４種類です		
-D6FE88	str	39	{I020}拳{nl}{I021}武{nl}{I022}飛{nl}{I023}術{nl}{I024}氣		
-D6FEB0	str	39	攻撃種を表すアイコンは{nl}次の５種類です		
-D6FED8	str	31	{I012}ＡＴ{nl}{I013}ＨＰ{nl}{I014}ＳＰ		
-D6FEF8	str	51	{I000}人物符の強さを表す{nl}アイコンは次の３種類です		
-D6FF2C	str	23	{I010}陰属性{nl}{I011}陽属性		
-D6FF44	str	39	陰陽属性のアイコンは{nl}次の２種類です		
-D6FF6C	str	59	{I005}木属性{nl}{I006}火属性{nl}{I007}土属性{nl}{I008}金属性{nl}{I009}水属性		
-D6FFA8	str	39	摩尼の属性アイコンは{nl}次の５種類です		
-D6FFD0	str	67	{I000}人物符{nl}{I001}憑依式神符{nl}{I002}結界式神符{nl}{I003}法術符{nl}{I004}土地符		
+D6F294	str	55	使用時に{I013}ライフを必要と{nl}する{I004}土地符もあります{wc}	Some {I004}Land talismans{nl}cost {I013}Life to play.{wc}	
+D6F2CC	str	35	１ターンに１枚しか{nl}使用できません	only one can be{nl}played per turn.	
+D6F2F0	str	63	{I004}土地符は使用時に{nl}他の符と違い{nl}ＡＰを必要と{nl}しませんが	Unlike other cards,{nl}{I004}Land talismans{nl}need no AP,{nl}but	
+D6F330	str	43	{I004}土地符は{nl}勝敗の鍵を握る{nl}符といえます	{I004}Land talismans{nl}can decide{nl}the battle.	
+D6F35C	str	51	{I000}人物符に{nl}地形効果を与える{nl}ことができるので	and give terrain{nl}effects to{nl}{I000}Characters,	
+D6F390	str	47	場に出ている{nl}{I000}人物符の能力を{nl}引き出したり	It draws out{nl}the abilities of{nl}{I000}Characters in play	
+D6F3C0	str	39	摩尼は{nl}ＡＰの最大値を{nl}上昇させたり	The Mani can{nl}raise your{nl}max AP,	
+D6F3E8	str	43	{I004}土地符は{nl}場の摩尼を{nl}変化させる符です	{I004}Land talismans{nl}change the{nl}field's Mani.	
+D6F414	str	55	相剋の対象は時計回りに{nl}２つ先の属性となっています{wc}	and Counter targets two{nl}steps clockwise.{wc}	
+D6F44C	str	55	中央の摩尼表示で相生の対象は{nl}半時計回りに１つ隣の属性	In the central Mani display, Feed{nl}targets one step anticlockwise,	
+D6F484	str	67	{I009}の{I004}土地符{nl}相生：{I008}の摩尼を吸収{nl}相剋：{I006}の摩尼を破壊	{I009} {I004}Land{nl}Feed: absorbs {I008} Mani{nl}Counter: destroys {I006} Mani	
+D6F4C8	str	67	{I008}の{I004}土地符{nl}相生：{I007}の摩尼を吸収{nl}相剋：{I005}の摩尼を破壊	{I008} {I004}Land{nl}Feed: absorbs {I007} Mani{nl}Counter: destroys {I005} Mani	
+D6F50C	str	67	{I007}の{I004}土地符{nl}相生：{I006}の摩尼を吸収{nl}相剋：{I009}の摩尼を破壊	{I007} {I004}Land{nl}Feed: absorbs {I006} Mani{nl}Counter: destroys {I009} Mani	
+D6F550	str	67	{I006}の{I004}土地符{nl}相生：{I005}の摩尼を吸収{nl}相剋：{I008}の摩尼を破壊	{I006} {I004}Land{nl}Feed: absorbs {I005} Mani{nl}Counter: destroys {I008} Mani	
+D6F594	str	67	{I005}の{I004}土地符{nl}相生：{I009}の摩尼を吸収{nl}相剋：{I007}の摩尼を破壊	{I005} {I004}Land{nl}Feed: absorbs {I009} Mani{nl}Counter: destroys {I007} Mani	
+D6F5D8	str	59	それぞれの{I004}土地符の対象の{nl}属性は次のようになっています	Each {I004}Land talisman's{nl}target elements are:	
+D6F614	str	27	相剋（そうこく）といいます	is called Counter.	
+D6F630	str	67	{I004}土地符の使用時に{nl}対象となる属性の{nl}摩尼を１つ破壊することを	When a {I004}Land talisman is{nl}played, destroying one Mani{nl}of the target element	
+D6F674	str	27	相生（そうじょう）といい、	is called Feed, and	
+D6F690	str	67	{I004}土地符の使用時に{nl}対象となる属性の{nl}摩尼を１つ吸収することを	When a {I004}Land talisman is{nl}played, absorbing one Mani{nl}of the target element	
+D6F6D4	str	63	{I004}土地符の使用時{nl}場の属性によって{nl}干渉し合う事があります	When a {I004}Land talisman{nl}is played, elements{nl}may interact.	
+D6F714	str	87	場の{I000}人物符と{nl}同じ属性の摩尼の{nl}ＬＶを上げること{nl}が戦闘を有利に{nl}進めるコツです{wc}	Raising the{nl}Mani LV of your{nl}{I000}Characters'{nl}elements is the{nl}key to winning.{wc}	
+D6F76C	str	75	摩尼能力が使用{nl}できるようになり{nl}更に、地形効果も{nl}得ることが{nl}できます	they can use{nl}Mani abilities{nl}and also gain{nl}terrain{nl}effects.	
+D6F7B8	str	55	場に出ている{I000}人物符は{nl}同じ属性の摩尼ＬＶによって	By the Mani LV of their element,{nl}{I000}Characters in play	
+D6F7F0	str	79	{I004}土地符を使用{nl}することによって{nl}それぞれの{nl}摩尼ＬＶが{nl}変化していきます	Playing {I004}Land{nl}talismans{nl}changes each{nl}element's{nl}Mani LV.	
+D6F840	str	35	{I005}{I006}{I007}{I008}{I009}の５属性があり	Five elements: {I005}{I006}{I007}{I008}{I009},	
+D6F864	str	39	場の中央に表示されているのが{nl}摩尼です	The Mani is shown in the{nl}center of the field.	
+D6F88C	str	47	その後の戦闘を有利に{nl}進めることができます{wc}	and gains the upper hand{nl}in the battle that follows.{wc}	
+D6F8BC	str	47	摩尼を昇華させた符咒士は{nl}ＭＡＸＡＰが２上昇し	A Talismancer who does this{nl}gets max AP +2	
+D6F8EC	str	27	これを摩尼の昇華といいます	This is called Mani Rise.	
+D6F908	str	47	摩尼ＬＶを４にすると{nl}摩尼ＬＶは０になります	At Mani LV 4,{nl}the Mani LV goes to 0.	
+D6F938	str	27	これを地形効果と呼びます{wc}	These are terrain effects.{wc}	
+D6F954	str	67	相手から受けるダメージを{nl}同じ属性の摩尼ＬＶ×１０{nl}軽減できます	damage taken is cut by{nl}Mani LV of its element x 10.	
+D6F998	str	63	場に出ている{I000}人物符は{nl}敵の{I000}人物符から{nl}攻撃を受けた時	When a {I000}Character in play{nl}is attacked by a{nl}foe {I000}Character,	
+D6F9D8	str	63	「墓地」から復活できず{nl}勝負終了まで使用できなく{nl}なります{wc}	can't return from the graveyard{nl}and can't be used until the{nl}battle ends.{wc}	
+D6FA18	str	43	「除去」を宣告されてしまった{nl}{I000}人物符は	A {I000}Character declared{nl}"removed"	
+D6FA44	str	39	ただし、{I003}法術符などの{nl}効果により	However, through effects{nl}such as {I003}Spells,	
+D6FA6C	str	83	「墓地」にある符は、{nl}{I003}法術符や特殊能力によって{nl}再び手札に戻すことができます	Cards in the graveyard can{nl}return to the hand through{nl}{I003}Spells or special abilities.	
+D6FAC0	str	51	破壊されたり使用された符は{nl}「墓地」に送られます	Destroyed or used cards{nl}go to the graveyard.	
+D6FAF4	str	51	攻撃をしてきた{I000}人物符に{nl}対して反撃をします{wc}	and strikes back at the{nl}attacking {I000}Character.{wc}	
+D6FB28	str	35	攻撃で破壊されない限り{nl}オープンし	it opens, unless destroyed{nl}by the attack,	
+D6FB4C	str	67	しかし裏側で配置された{nl}{I000}人物符が敵の{I000}人物符に{nl}攻撃されると	But when a face-down{nl}{I000}Character is attacked{nl}by a foe {I000}Character,	
+D6FB90	str	83	裏側で配置された{I000}人物符は、{nl}次の自分のターンにオープン{nl}するまで行動できません	A face-down {I000}Character{nl}can't act until it opens{nl}on your next turn.	
+D6FBE4	str	67	{I000}人物符が場に配置される時{nl}その{I000}人物符は裏側で{nl}配置されます	When a {I000}Character is{nl}placed, that {I000}Character{nl}goes face down.	
+D6FC28	str	71	前列に２枚後列に１枚です{nl}前列に２枚無い場合は{nl}後列に配置できません	Two in front, one behind.{nl}Without two in front, you{nl}can't place one behind.	
+D6FC70	str	55	場には最大３枚の{I000}人物符を{nl}配置させる事が可能です	Up to three {I000}Characters{nl}can be on the field:	
+D6FCA8	str	67	先に攻撃を受けた{I000}人物符は{nl}破壊されなければ反撃を{nl}行います{wc}	If not destroyed, a {I000}Character{nl}attacked first strikes{nl}back.{wc}	
+D6FCEC	str	59	同じ{I014}ＳＰだった場合は{nl}攻撃側が先にダメージを{nl}与えます	On equal {I014}SP, the{nl}attacker deals damage{nl}first.	
+D6FD28	str	75	{I014}ＳＰが高い方が相手の{nl}{I000}人物符に先にダメージを{nl}与えることができます	The one with higher {I014}SP{nl}damages the foe's{nl}{I000}Character first.	
+D6FD74	str	83	目の前に{I000}人物符がある場合、{nl}その{I000}人物符に対して{nl}攻撃を行うことになります	With a {I000}Character in front,{nl}it attacks that{nl}{I000}Character instead.	
+D6FDC8	str	47	敵符咒士に直接ダメージを{nl}与えることができます	it can damage the foe{nl}Talismancer directly.	
+D6FDF8	str	59	配置した{I000}人物符の目の前に{nl}敵の{I000}人物符がいない場合は	If no foe {I000}Character faces{nl}your placed {I000}Character,	
+D6FE34	str	39	{I016}麻痺{nl}{I017}毒{nl}{I018}睡眠{nl}{I019}呪詛{wc}	{I016}Stun{nl}{I017}Poison{nl}{I018}Sleep{nl}{I019}Curse{wc}	
+D6FE5C	str	43	状態不能を表すアイコンは{nl}次の４種類です	The four status icons{nl}are:	
+D6FE88	str	39	{I020}拳{nl}{I021}武{nl}{I022}飛{nl}{I023}術{nl}{I024}氣	{I020}Fist{nl}{I021}Arms{nl}{I022}Ranged{nl}{I023}Art{nl}{I024}Ki	
+D6FEB0	str	39	攻撃種を表すアイコンは{nl}次の５種類です	The five attack type{nl}icons are:	
+D6FED8	str	31	{I012}ＡＴ{nl}{I013}ＨＰ{nl}{I014}ＳＰ	{I012}AT{nl}{I013}HP{nl}{I014}SP	
+D6FEF8	str	51	{I000}人物符の強さを表す{nl}アイコンは次の３種類です	The three icons for a{nl}{I000}Character's strength:	
+D6FF2C	str	23	{I010}陰属性{nl}{I011}陽属性	{I010}Yin{nl}{I011}Yang	
+D6FF44	str	39	陰陽属性のアイコンは{nl}次の２種類です	The two alignment icons{nl}are:	
+D6FF6C	str	59	{I005}木属性{nl}{I006}火属性{nl}{I007}土属性{nl}{I008}金属性{nl}{I009}水属性	{I005}Wood{nl}{I006}Fire{nl}{I007}Earth{nl}{I008}Metal{nl}{I009}Water	
+D6FFA8	str	39	摩尼の属性アイコンは{nl}次の５種類です	The five Mani element{nl}icons are:	
+D6FFD0	str	67	{I000}人物符{nl}{I001}憑依式神符{nl}{I002}結界式神符{nl}{I003}法術符{nl}{I004}土地符	{I000}Character{nl}{I001}Possession{nl}{I002}Barrier{nl}{I003}Spell{nl}{I004}Land	
 D70014	str	39	符の種類のアイコンは{nl}次の５種類です		
 D7003C	str	103	【吹飛】{nl}攻撃した{I000}人物符を吹き飛ばし{nl}後ろの{I000}人物符や{nl}符咒士本体へ{nl}ダメージの半分を与えます{wc}		
 D700A4	str	59	正面以外の{I000}人物符を{nl}攻撃した場合、反撃を{nl}受けません{wc}		

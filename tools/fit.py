@@ -64,7 +64,9 @@ SINGLE = {0xD726B0: ('deck_help', 3, 144, None, 9), 0xD678D4: ('popup', 3, 128, 
           0xD6790C: ('popup', 3, 128, None, 8),
           # pieces joined with a name or count at run time (ターン, の, 符咒士, は); inferred, check in game
           0xD65330: ('fragment', 1, 128, None, 8), 0xD65338: ('fragment', 1, 128, None, 8),
-          0xD6533C: ('fragment', 1, 128, None, 8), 0xD67978: ('fragment', 1, 128, None, 8)}
+          0xD6533C: ('fragment', 1, 128, None, 8), 0xD67978: ('fragment', 1, 128, None, 8),
+          # help-page icon legends (one icon + label per line); JP labels are 1-2 kanji; inferred, check in game
+          0xD6FE34: ('icon_legend', 4, 96, None, 6), 0xD6FE88: ('icon_legend', 5, 96, None, 6)}
 # card_tag (CF13C0-CF2A00): line 1 is the 【tag】 shown at 64 px; the popup shows all three lines at 128
 TAG_FIRST_PX = 64
 
