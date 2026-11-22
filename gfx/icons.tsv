@@ -1,0 +1,13 @@
+kind	index	jp	en	inner	shape
+box	6	木	Wd	1,1,15,15	rect
+box	7	火	Fi	1,1,15,15	rect
+box	8	土	Ea	1,1,15,15	rect
+box	9	金	Mt	1,1,15,15	rect
+box	10	水	Wa	1,1,15,15	rect
+ball	11	木	Wd	2,2,14,14	disc
+ball	12	火	Fi	2,2,14,14	disc
+ball	13	土	Ea	2,2,14,14	disc
+ball	14	金	Mt	2,2,14,14	disc
+ball	15	水	Wa	2,2,14,14	disc
+seal	24	陰	@moon	2,3,14,13	rect
+seal	25	陽	@sun	2,3,14,13	rect

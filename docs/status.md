@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 13),
-  sha1 c4b081c5be0c..; check.py 37 passed, smoke ok.
+- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 14),
+  sha1 49394591c614..; check.py 37 passed.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -141,15 +141,22 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (matches the story tag; glossary). **Found:** the 陰/陽 badge on the panel is text icon 24/25 of the icon sheet
   0xACA06C (16x16, tiles TL TR BL BR, BG bank 15; `tools/debug/icons.py`), next to white 木火土金水 (6-10) and round
   element icons (11-15): these are the {Innn} icons used inline in text too.
-- **Next (phase 8):** (1) icons: decide 陰/陽 and element kanji icons (decisions: English redraws by default; 16x16
-  is too small for words: pictograms or 1-2 letters, check every text use of {I005}-{I011}). (2) S3 mini labels
+  Session 14 (2026-11-22): **icons English** (D12): text icons 6-10 / 11-15 木火土金水 -> 5x7 pixel labels Wd Fi Ea Mt
+  Wa, 24 陰 -> crescent moon, 25 陽 -> sun (`tools/gfx_icons.py`, `gfx/icons.tsv`; sheet `work/qa/icons_en.png`); the
+  moon badge seen in game on the card panel (`work/qa/icons_g2/z.png`, board_turn.mss + bd/rand.txt, 1602 frames;
+  hand_panel.mss keeps the old VRAM, use board_turn for panel checks); element text icons rendered only. **Card-frame
+  emblems S20 English** (`tools/gfx_frames.py`, `gfx/frames.tsv`: 36 small 3x5 labels, 5 large 5x7; emblem found
+  from its white kanji pixels; `work/qa/emb_en_small.png`, `emb_en_large.png`): "Fi" seen in game in the large card
+  view (`work/qa/icons_g3/z.png`). check.py 37 passed, build sha1 49394591c614..
+- **Next (phase 8):** (1) see an element text icon ({I006}-{I015}) in game (card text popup of a Ward/Slay/Bane card)
+  and a large frame (39-43). (2) S3 mini labels
   (40x8, 0xA0 B a card, needs a tiny pixel font or abbreviations; same tables as gfx_cards). (3) S29 tutorial
   overlays + tutorial panel 0xD35868/0xD333B8 (match the English panel). Remaining graphics
   text: S19 leftovers 0xC6A2D8 (deck-editor window frame sheet:
   check for labels); find where VS / CLASH / Attack-Wait show (srclog.lua with SRC_LO=0x08ACCCCC over a longer or
   link battle); the name entry's kana grid (G7, English layout with the u16 grids below);
   邪気封印 card art,
-  emblems (S20), card type icons (S28), sound test labels (S22),
+  card type icons (S28), sound test labels (S22),
   rematch menu graphics 0xD65298 if any (the menu seen was font text). Then a full English tour, verdicts per chunk
   (in an Orca worker: read the sheets yourself in a fresh pass, one verdict file per chunk; `codex exec -s
   read-only` after 2026-11-26); `inkbox.py` on choice/centred boxes; stress saves (needs save fields mapped);
