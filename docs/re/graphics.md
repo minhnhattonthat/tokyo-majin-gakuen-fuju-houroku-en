@@ -54,17 +54,17 @@ its usage limit); `tools/gfx_zoom.py` re-renders any asset at chosen widths. Wid
 | S16 | 0xC11C58, 0xC165E8, 0xC1ADF8-0xC1B6F8, 0xC03F88-0xC05A28, 0xC24E08, 0xC26298, 0xC36408, 0xC37968, 0xC37D88 | menu/label strips (wrong width) |
 | S17 | 0xC381A8 売り符選択 / 交換符選択 / 捨て符選択 | shop/trade menu |
 | S18 | 0xC532C8, 0xC557E0, 0xC57CF8, 0xC5A210, 0xC5C728 東京魔人學園 符咒封録 booster packs; 0xC5F760 ブースターパック選択 | pack art = title logo (G3, kept); header: entry 0xD81E04, 46 tiles + a 19x4 map 0xC5FD20 at BG2 row 1, tile 45 = the layer's blank: **English** "Pick a Booster Pack" (group plaques, `tools/gfx_plaques.py`; `work/qa/pack3/hdr.png`) |
-| S19 | 0xC66C18, 0xC67D38, 0xC6B118 (正順 逆順 降順 昇順 あ行..わ行), 0xC6C078 符咒編集, 0xC6D078 (sorting popup), 0xC6A2D8 | deck edit: **English** (group deck_edit, `tools/gfx_deck.py`; tab loader patch TABS_FN in `tools/patches.py`) except 0xC6A2D8 (unchecked) |
+| S19 | 0xC66C18, 0xC67D38, 0xC6B118 (正順 逆順 降順 昇順 あ行..わ行), 0xC6C078 符咒編集, 0xC6D078 (sorting popup), 0xC6A2D8 | deck edit: **English** (group deck_edit, `tools/gfx_deck.py`; tab loader patch TABS_FN in `tools/patches.py`) ; 0xC6A2D8 checked 2026-11-22: frame line art only, no text (its tail runs into the English 0xC6B118 badges) |
 
 | S20 | card frames 0x7ED50C.. (table 0xD80BD4) | five-element emblems 木 火 土 金 水 (small circle, bottom left; large in frames 39-43). **English** Wd Fi Ea Mt Wa (`tools/gfx_frames.py`, D12; "Fi" seen in game) |
 | S21 | 0xD1B1A8 (2 tiles wide, 16x16) | settings values: 遅い? 普通 速い 有り 無し ... (message speed / on-off) |
-| S22 | 0xD1B944 (4 tiles wide) | サウンドテスト (sound test label: a hidden or settings menu; find it in phase 2) ; 0xD1B0A8 2-wide unclear kana |
+| S22 | 0xD1B944 (4 tiles wide) | サウンドテスト: the sound test screen draws its title in font text (English, `work/qa/warp/sound_test/final.png`), this graphic is not shown there ; 0xD1B0A8 2-wide unclear kana |
 | S23 | 0xD1EC50 (0x4020, BG tileset) | Tokyo map: place names in tiles (新宿, 中央, 桜ヶ丘...; deduped, read in game) |
 | S24 | 0xD23140 | title logo plus furigana とうきょうまじんがくえん ふじゅほうろく (with G3) |
 | S25 | 0xD280D0 (8 wide); 0xD2F0D8, 0xD30448 (shredded) | brush-lettered titles (need the tilemap or an in-game shot) |
 | S26 | 0xD2A248 (8bpp, 1998 6.18 date + kanji); 0xD35868 (8bpp UI with kana/kanji) | full-screen BG tilesets, deduped: read in game |
 | S27 | 0xD3C1F8 | rarity legend 高:紫色 ↕:金色 低:銀色: 64x64 4bpp OBJ (8x8 tiles in row order, palette 0xD3C1D8, size 0x800 in the (ptr, size) table at 0xD63960 next to 0xD48F78 and 0xD451F8 S28). **English** "Hi:Violet / ↕:Gold / Lo:Silver" (kind `legend` in battle_ui; **seen in game** in the battle tutorial's card page, `work/qa/tut1` f2000) |
-| S28 | 0xD451F8 (16x16 icon + kanji pairs) | card type icons 術 武 ... |
+| S28 | 0xD451F8 (five 32x16 OBJs: icon + kanji, palette 0xD451D8, entry 0xD63978 of the (ptr, size) table) | attack types 拳 武 飛 術 氣: **English** FIST ARMS RNGD ART KI (group attack_types, `tools/gfx_attack.py`, `work/qa/s28/a.png`); rendered only: not loaded in 8000 frames of battle_tutorial.mss (srclog), no direct pointer to the table entry |
 | S29 | 0xD53CD8, 0xD57D48, 0xD59218, 0xD5A748, 0xD5E538, 0xD5F1A8 | **battle tutorial overlays**: screen table of (palette, size)(tiles, size)(map, 0xA000F0 = 240x160) pair triples 0xD63288-0xD635F8 (`work/gfx/d63/sheet.png`); callouts シンボル / 背景 / 五行属性, highlight copies of panel pieces 青葉, 格闘家, 【吹飛】【庇う】, 1貫通2必殺3変生, 40D受けた時 + stat line, and small captions (50で攻撃, でダメージを30軽減, 人物符は 魑尼で1貫通 能力を得る). The tutorial's card panel under them is the 8bpp screen 0xD35868 (S26, 806 tiles, entry 0xD635E8) plus 0xD333B8 (0xD635D0): all Japanese, seen in `work/qa/tut1` f2000-f2450. Not redrawn yet: must match the English panel's wording (class / land names and the 4-letter ability abbreviations of cf.tsv, "Took 40 dmg") |
 
 ### Screens reached with the debug tool (phase 2; `python -X utf8 tools/debug/warp.py <row>`)
