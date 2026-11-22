@@ -133,7 +133,17 @@ def warp(names, frames, extra, a, sub):
     cmd = [sys.executable, '-X', 'utf8', str(ROOT / 'tools' / 'debug' / 'warp.py'), *names, '--rom', str(ROM),
            '--out', str(OUT / sub), '--frames', str(frames), '--every', str(max(600, frames // 8)),
            '--jobs', str(a.jobs), '--timeout', str(a.timeout), '--script', PROBE, '--var', RANGES, *extra]
-    return subprocess.run(cmd, cwd=ROOT).returncode
+    rc = subprocess.run(cmd, cwd=ROOT).returncode
+    drop_runtimes(OUT / sub)
+    return rc
+
+
+def drop_runtimes(root):
+    """delete each finished run's private emulator dir (emu.py mesen_run): its files are hard links to tools/mesen,
+    but NTFS allows 1024 links per file, after which every run copies ~107 MB (that filled C: in session 35)"""
+    for d in Path(root).rglob('_mesen'):
+        if (d.parent / 'final.png').exists():
+            shutil.rmtree(d, ignore_errors=True)
 
 
 def script_rows(rev=None):

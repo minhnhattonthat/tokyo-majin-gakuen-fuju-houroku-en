@@ -423,7 +423,15 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   left portrait garbage there is not ours. VS name plate with 4+4-unit names overflows both plate ends
   (`work/qa/p8s35/vs_plate_cmp.png`), **as the JP original does with 4+4 kana** (`work/qa/p8s35/vs_jplong.png`):
   standing non-bug, add to `docs/visual-qa-brief.md`. Profile with long names not checked yet.
-- **Next (phase 8):** (1) wait for the branch pass (PID 37736, branch8 when session 34 ended; it runs on
+  Session 36 (2026-11-23): **disk-full cause found and fixed.** Every emulator run makes `<run>/_mesen` of hard links
+  to `tools/mesen`; Mesen.exe hit NTFS's 1024-link limit, so every later run copied ~107 MB (3 303 copies, ~277 GB).
+  Deleted all `_mesen` dirs under `work/` (logs and shots kept; C: 343 GB free); `cover.py` now drops each finished
+  run's `_mesen` after every warp call (`drop_runtimes`). Other warp/emu runs still leave theirs: `find work -type d
+  -name _mesen -prune -exec rm -rf {} +` when no Mesen of this repo runs. Branch pass resumed (`--jobs 4`, log
+  `work/qa/cover_branches.log`). Long names: Continue from `longname_en.sav` lands straight on the hub
+  (`work/qa/p8s36/cont_long/sheet.png`); no profile screen shows the names, so dialogue + VS plate + name entry
+  (all checked) are the places they appear: long-name check done.
+- **Next (phase 8):** (1) wait for the branch pass (resumed in session 36; it runs on
   `build/tmgfh_en.gba`, so do not rebuild before it ends), then `cover.py gaps --jobs 2` + `report --by-scene` to
   find unreachable scene lines (scene unshown 1461 before branch7/8). (2) Rebuild (everything since session 19 incl.
   warn_box, name grids, deck-name fix), then `mv work/qa/cover work/qa/cover_b19`, `cover.py remap
@@ -501,12 +509,7 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
 - **Gaps in the debug tool (non-blocking, close before phase 8):** no normal path to the sound test (`sound_test`
   warps to mode 20). Save fields beyond names and chapter (cards, deck, money) unmapped; needed for stress saves.
 - **Open bugs:** none.
-- **Waiting on the user:** BLOCKING (2026-11-23, session 35): drive C: is full (928 GB, ~1 MB free). The branch8
-  coverage pass died with "No space left on device" after 36 of 156 scenes (`work/qa/cover_branches.log`); every
-  emulator run, rebuild and coverage pass needs disk. Free space on C: (each coverage run dir under `work/qa/cover`
-  holds PNG shots; nothing was deleted by the agent), then resume with `tools/cover.py scenes --branches --jobs 2`
-  (delete branch8 run dirs without final.png first) and continue Next (1).
-  Non-blocking: staff-roll name readings (B39.0001-0064) are romanized from the kanji
+- **Waiting on the user:** Non-blocking: staff-roll name readings (B39.0001-0064) are romanized from the kanji
   without a source; B39.0020's 﨤町 孝 ("Takashi Hazamachi") is a guess. Corrections welcome. Non-blocking: B04 shows a girl-player branch ({name2}-chan rows, B04.0174 老爺と少女), so
   the player's gender may be selectable; the glossary note "player is male" was softened to "neutral where the JP
   is"; confirm from the name-entry flow when QA reaches it. Keyboard input in the Mesen window not checked by hand (headless worker); scripted input
