@@ -3,7 +3,7 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22, full English,
-  sha1 e9e189e56d89..; smoke ok (`work/qa/smoke`), check.py 37 passed.
+  sha1 a9491f68798d..; smoke ok (`work/qa/smoke`), check.py 37 passed.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -86,10 +86,18 @@ Updated at the end of every session. Keep it to what the next session needs; his
   Battle states (English build): `work/states/pack_select_pre.mss` (victory banner; `4 a;300 -` -> pack select),
   `defeat_quote.mss` (`60 -;4 a;400 -` -> YOU LOSE; ~f3200 of that run = Rematch / Quit, font text, English).
   Note: `work/states/defeat.mss` is NOT the defeat; it is a battle with tutorial popups.
+  Session 8 (2026-11-22): **battle HUD English** (group battle_ui, `tools/gfx_battle.py`, `gfx/battle_ui.tsv`;
+  sprite table 0xD814C8): FIRST / SECOND plates, 32x32 numerals 1-5 (blue/red), the ten turn-order cards' corner
+  badges 1-5 (8bpp), AP UP (4 variants), vertical phase banners DEPLOY / CLASH (32x96 each at 0xB4F808 /
+  0xB4FE08; 0xB50000 lies inside, not a separate asset), VS, Attack / Wait panel. Seen in game from board_turn.mss
+  + `work/qa/bd/rand.txt` (`work/qa/s6/`): numerals + badges f90, FIRST/SECOND f360, LET'S DUEL! f480, CASTER SWAP
+  f1020, AP UP f1260, DEPLOY f1350. **Rendered only** (never loaded in 12 000 battle frames): VS, CLASH, Attack /
+  Wait. New tools: `tools/debug/romblock.py` (block with its ROM palette, original | English; `--obj WxH`),
+  `tools/debug/cardnums.py`, `tools/debug/srclog.lua` (BIOS copies whose source is in a ROM range = when a
+  graphic loads). check.py 37 passed, smoke ok.
 - **Next (phase 8):** remaining graphics text: S19 leftovers 0xC6A2D8 (deck-editor window frame sheet:
-  check for labels); battle UI (S6 対 / 壱弐参四伍 / 先手 後手 at 0xACCCCC-0xACE90C, S10 AP上昇 / 攻撃 待機;
-  S9 配置之間 0xB4F808, 0xB50000; see LET'S DUEL! / CASTER SWAP in game; turn-order pick is in the board_turn
-  route from battle1_select); the name entry's kana grid (G7, English layout with the u16 grids below);
+  check for labels); find where VS / CLASH / Attack-Wait show (srclog.lua with SRC_LO=0x08ACCCCC over a longer or
+  link battle); S7 large numeral cards 0xAE5FDC..; the name entry's kana grid (G7, English layout with the u16 grids below);
   vertical scene captions (W12/G5, S11/S12); card class labels (S1), card/skill name art (S5), 邪気封印 card art,
   emblems (S20), rarity legend (S27), card type icons (S28), info-screen labels (S29), sound test labels (S22),
   rematch menu graphics 0xD65298 if any (the menu seen was font text), credits role captions + end card (W10/W11). Then a full English tour, verdicts per chunk
