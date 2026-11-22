@@ -154,163 +154,163 @@ D64AE8	str	7	優鉢羅	Uhatsura
 D64AF0	str	15	変生牛頭・馬頭	Morphed Gozu & Mezu	
 D64B00	str	11	牛頭・馬頭	Gozu & Mezu	
 D64B0C	str	7	高丸	Takamaru	
-D64B14	str	7	赤銅犬		
-D64B1C	str	11	アカガネ		
-D64B28	str	11	変生閻婆		
-D64B34	str	7	閻婆		
-D64B3C	str	15	懸衣嫗・懸衣翁		
-D64B4C	str	11	喰らい女		
-D64B58	str	11	コスモロボ		
+D64B14	str	7	赤銅犬	Akagane Hound	
+D64B1C	str	11	アカガネ	Akagane	
+D64B28	str	11	変生閻婆	Morphed Enba	
+D64B34	str	7	閻婆	Enba	
+D64B3C	str	15	懸衣嫗・懸衣翁	Datsueba & Ken'eo	
+D64B4C	str	11	喰らい女	Devouring Woman	
+D64B58	str	11	コスモロボ	Cosmo Robo	
 D64B64	str	7	朱雀		
 D64B6C	str	7	青龍		
 D64B74	str	7	玄武		
 D64B7C	str	7	白虎		
-D64B84	str	11	メフィスト		
-D64B90	str	15	萱野　あずさ		
-D64BA0	str	11	瀬能　迅		
-D64BAC	str	7	情報屋		
-D64BB4	str	11	{xn}　迦代		
-D64BC0	str	11	{xn}　弦麻		
-D64BCC	str	15	龍蔵院　鉄洲		
-D64BDC	str	7	エル		
-D64BE4	str	7	月照		
-D64BEC	str	7	璃空		
-D64BF4	str	11	遠野　柊		
-D64C00	str	15	狐森　かごめ		
-D64C10	str	11	九桐　出雲		
-D64C1C	str	11	那智　雫馬		
-D64C28	str	11	那智　静瑠		
-D64C34	str	11	桧神　神楽		
-D64C40	str	11	風祭　龍弥		
-D64C4C	str	11	風祭　龍紀		
-D64C58	str	15	神夷　京士浪		
-D64C68	str	11	来須　狩夜		
-D64C74	str	11	橘　朱日		
-D64C80	str	11	莎草　覚		
-D64C8C	str	11	鳴瀧　冬吾		
-D64C98	str	15	青葉　さとみ		
-D64CA8	str	11	比嘉　焚実		
+D64B84	str	11	メフィスト	Mephisto	
+D64B90	str	15	萱野　あずさ	Azusa Kayano	
+D64BA0	str	11	瀬能　迅	Jin Seno	
+D64BAC	str	7	情報屋	Informant	
+D64BB4	str	11	{xn}　迦代	Kayo {xn}	
+D64BC0	str	11	{xn}　弦麻	Genma {xn}	
+D64BCC	str	15	龍蔵院　鉄洲	Tesshu Ryuzoin	
+D64BDC	str	7	エル	El	
+D64BE4	str	7	月照	Gessho	
+D64BEC	str	7	璃空	Riku	
+D64BF4	str	11	遠野　柊	Hiiragi Tono	
+D64C00	str	15	狐森　かごめ	Kagome Kitsunemori	
+D64C10	str	11	九桐　出雲	Izumo Kugiri	
+D64C1C	str	11	那智　雫馬	Shizuma Nachi	
+D64C28	str	11	那智　静瑠	Shizuru Nachi	
+D64C34	str	11	桧神　神楽	Kagura Hinokami	
+D64C40	str	11	風祭　龍弥	Tatsuya Kazamatsuri	
+D64C4C	str	11	風祭　龍紀	Tatsuki Kazamatsuri	
+D64C58	str	15	神夷　京士浪	Kyoshiro Kamui	
+D64C68	str	11	来須　狩夜	Kariya Kurusu	
+D64C74	str	11	橘　朱日	Akebi Tachibana	
+D64C80	str	11	莎草　覚	Satoru Hamasuge	
+D64C8C	str	11	鳴瀧　冬吾	Togo Narutaki	
+D64C98	str	15	青葉　さとみ	Satomi Aoba	
+D64CA8	str	11	比嘉　焚実	Takumi Higa	
 D64CB4	str	7	暗殺者		
-D64CBC	str	11	田中　一郎		
-D64CC8	str	7	邪霊		
+D64CBC	str	11	田中　一郎	Ichiro Tanaka	
+D64CC8	str	7	邪霊	Evil Spirit	
 D64CD0	str	7	剣鬼		
-D64CD8	str	11	チンピラ		
-D64CE4	str	11	チーマー		
-D64CF0	str	7	人形		
-D64CF8	str	3	鬼		
+D64CD8	str	11	チンピラ	Thug	
+D64CE4	str	11	チーマー	Street Punk	
+D64CF0	str	7	人形	Doll	
+D64CF8	str	3	鬼	Oni	
 D64CFC	str	7	下忍		
-D64D04	str	7	魚人		
-D64D0C	str	7	亡者		
-D64D14	str	7	死神		
-D64D1C	str	3	鴉		
-D64D20	str	7	野犬		
-D64D28	str	7	蝙蝠		
-D64D30	str	11	不良学生		
-D64D3C	str	7	渦王須		
-D64D44	str	11	柳生　宗崇		
-D64D50	str	11	六道　世羅		
-D64D5C	str	15	阿師谷　伊周		
-D64D6C	str	15	阿師谷　導摩		
-D64D7C	str	15	武蔵山　太一		
-D64D8C	str	11	八剣　右近		
-D64D98	str	15	火怒呂　丑光		
-D64DA8	str	15	変生帯脇斬己		
-D64DB8	str	11	帯脇　斬己		
-D64DC4	str	7	若頭		
-D64DCC	str	15	変生九角天童		
-D64DDC	str	11	九角　天童		
-D64DE8	str	19	イワン・ニコラス		
-D64DFC	str	19	トニー・ワシントン		
-D64E10	str	15	サラ・トート		
-D64E20	str	19	変生ジル・ローゼス		
-D64E34	str	15	ジル・ローゼス		
-D64E44	str	11	変生岩角		
-D64E50	str	7	岩角		
-D64E58	str	11	変生風角		
-D64E64	str	7	風角		
-D64E6C	str	11	変生雷角		
-D64E78	str	7	雷角		
-D64E80	str	11	変生水角		
-D64E8C	str	7	水角		
-D64E94	str	11	変生炎角		
-D64EA0	str	7	炎角		
-D64EA8	str	11	盲目の者		
-D64EB4	str	11	変生水岐涼		
-D64EC0	str	11	水岐　涼		
-D64ECC	str	11	死蝋　影司		
-D64ED8	str	7	腐童		
-D64EE0	str	11	凶津　煉児		
-D64EEC	str	15	嵯峨野　麗司		
-D64EFC	str	11	唐栖　亮一		
-D64F08	str	15	変生佐久間猪三		
-D64F18	str	15	佐久間　猪三		
-D64F28	str	11	那雲　明		
-D64F34	str	11	那雲　摩紀		
-D64F40	str	15	秋月　マサキ		
-D64F50	str	11	楢崎　道心		
-D64F5C	str	11	新井　龍山		
-D64F68	str	15	岩山　たか子		
-D64F78	str	11	天野　絵莉		
-D64F84	str	11	犬神　杜人		
-D64F90	str	19	マリア・アルカード		
-D64FA4	str	11	遠野　杏子		
-D64FB0	str	15	比良坂　紗夜		
-D64FC0	str	7	芙蓉		
-D64FC8	str	11	御門　晴明		
-D64FD4	str	11	村雨　祇孔		
-D64FE0	str	11	壬生　紅葉		
-D64FEC	str	11	劉　弦月		
-D64FF8	str	15	舞園　さやか		
-D65008	str	11	霧島　諸羽		
-D65014	str	15	コスモピンク		
-D65024	str	11	本郷　桃香		
-D65030	str	15	コスモブラック		
-D65040	str	11	黒崎　隼人		
-D6504C	str	15	コスモレッド		
-D6505C	str	11	紅井　猛		
-D65068	str	15	マリィ・クレア		
-D65078	str	11	織部　雛乃		
-D65084	str	11	織部　雪乃		
-D65090	str	15	アラン　蔵人		
-D650A0	str	11	如月　翡翠		
-D650AC	str	11	紫暮　兵庫		
-D650B8	str	11	裏密　ミサ		
-D650C4	str	15	藤咲　亜里沙		
-D650D4	str	15	高見沢　舞子		
-D650E4	str	11	雨紋　雷人		
-D650F0	str	11	桜井　小蒔		
-D650FC	str	11	醍醐　雄矢		
-D65108	str	11	美里　葵		
-D65114	str	15	蓬莱寺　京一		
-D65124	str	7	{xn}　{yn}		
-D6526C	str	11	通信エラー		
-D65278	str	31	よろしいですか{rt}　はい　いいえ		
-D65298	str	19	再戦する{rt}終了する		
-D652AC	str	15	入手しました{wc}		
-D652BC	str	3	を		
-D652C0	str	35	価値１５ポイント{rt}取得しました{wc}		
-D652E4	str	35	価値３０ポイント{rt}取得しました{wc}		
-D65308	str	15	同数札改め{wc}		
-D65318	str	23	先手・後手を決めます{wc}		
-D65330	str	7	ターン		
-D65338	str	3	の		
-D6533C	str	7	符咒士		
-D654D0	str	7	【】		
-D658F8	str	23	{I011}属性の{I000}を除去		
-D65910	str	21	{I010}属性の{I000}を即死		
-D678D4	str	55	場に伏せられた{I000}{rt}しか無いため{I002}{rt}休戦を破壊します		
-D6790C	str	51	場に{I000}が一枚も{rt}無いため{I002}休戦を{rt}破壊します		
-D67964	str	19	打ち消されました		
-D67978	str	3	は		
-D67990	str	27	とり憑かせろ{rt}ォォッ！！		
-D679AC	str	35	我が怨念の{rt}ざわめき、{rt}聞けい！！		
-D679D0	str	15	見ておれェ…。		
-D679E0	str	31	おまえッ！！{rt}我に手を貸せッ。		
-D67A00	str	27	降参しろォ、{rt}人間ッ！！		
-D67A1C	str	27	奴をここから{rt}出すなッ！！		
-D67A38	str	47	こら、待てッ！！{rt}そいつは我の{rt}獲物だァ！！		
-D67A68	str	47	あひいッ！！{rt}わ、私が悪う{rt}御座いましたッ。		
-D67A98	str	27	こ、殺さないで{rt}くれェ。		
+D64D04	str	7	魚人	Fishman	
+D64D0C	str	7	亡者	Lost Soul	
+D64D14	str	7	死神	Reaper	
+D64D1C	str	3	鴉	Crow	
+D64D20	str	7	野犬	Wild Dog	
+D64D28	str	7	蝙蝠	Bat	
+D64D30	str	11	不良学生	Delinquent	
+D64D3C	str	7	渦王須	Chaos	
+D64D44	str	11	柳生　宗崇	Munetaka Yagyu	
+D64D50	str	11	六道　世羅	Sera Rikudo	
+D64D5C	str	15	阿師谷　伊周	Korechika Ashiya	
+D64D6C	str	15	阿師谷　導摩	Doma Ashiya	
+D64D7C	str	15	武蔵山　太一	Taichi Musashiyama	
+D64D8C	str	11	八剣　右近	Ukon Yatsurugi	
+D64D98	str	15	火怒呂　丑光	Ushimitsu Hidoro	
+D64DA8	str	15	変生帯脇斬己	Morphed Obiwaki	
+D64DB8	str	11	帯脇　斬己	Zanki Obiwaki	
+D64DC4	str	7	若頭	Young Boss	
+D64DCC	str	15	変生九角天童	Morphed Tendo	
+D64DDC	str	11	九角　天童	Tendo Kokonosumi	
+D64DE8	str	19	イワン・ニコラス	Ivan Nicholas	
+D64DFC	str	19	トニー・ワシントン	Tony Washington	
+D64E10	str	15	サラ・トート	Sarah Thoth	
+D64E20	str	19	変生ジル・ローゼス	Morphed Gilles	
+D64E34	str	15	ジル・ローゼス	Gilles Roses	
+D64E44	str	11	変生岩角	Morphed Gankaku	
+D64E50	str	7	岩角	Gankaku	
+D64E58	str	11	変生風角	Morphed Fukaku	
+D64E64	str	7	風角	Fukaku	
+D64E6C	str	11	変生雷角	Morphed Raikaku	
+D64E78	str	7	雷角	Raikaku	
+D64E80	str	11	変生水角	Morphed Suikaku	
+D64E8C	str	7	水角	Suikaku	
+D64E94	str	11	変生炎角	Morphed Enkaku	
+D64EA0	str	7	炎角	Enkaku	
+D64EA8	str	11	盲目の者	Blind One	
+D64EB4	str	11	変生水岐涼	Morphed Mizuki	
+D64EC0	str	11	水岐　涼	Ryo Mizuki	
+D64ECC	str	11	死蝋　影司	Eiji Shiro	
+D64ED8	str	7	腐童	Fudo	
+D64EE0	str	11	凶津　煉児	Renji Magatsu	
+D64EEC	str	15	嵯峨野　麗司	Reiji Sagano	
+D64EFC	str	11	唐栖　亮一	Ryoichi Karasu	
+D64F08	str	15	変生佐久間猪三	Morphed Sakuma	
+D64F18	str	15	佐久間　猪三	Inozo Sakuma	
+D64F28	str	11	那雲　明	Akira Nagumo	
+D64F34	str	11	那雲　摩紀	Maki Nagumo	
+D64F40	str	15	秋月　マサキ	Masaki Akizuki	
+D64F50	str	11	楢崎　道心	Doshin Narasaki	
+D64F5C	str	11	新井　龍山	Ryuzan Arai	
+D64F68	str	15	岩山　たか子	Takako Iwayama	
+D64F78	str	11	天野　絵莉	Eri Amano	
+D64F84	str	11	犬神　杜人	Morihito Inugami	
+D64F90	str	19	マリア・アルカード	Maria Alucard	
+D64FA4	str	11	遠野　杏子	Kyoko Tono	
+D64FB0	str	15	比良坂　紗夜	Saya Hirasaka	
+D64FC0	str	7	芙蓉	Fuyo	
+D64FC8	str	11	御門　晴明	Haruaki Mikado	
+D64FD4	str	11	村雨　祇孔	Giko Murasame	
+D64FE0	str	11	壬生　紅葉	Kureha Mibu	
+D64FEC	str	11	劉　弦月	Ryu Gengetsu	
+D64FF8	str	15	舞園　さやか	Sayaka Maizono	
+D65008	str	11	霧島　諸羽	Moroha Kirishima	
+D65014	str	15	コスモピンク	Cosmo Pink	
+D65024	str	11	本郷　桃香	Momoka Hongo	
+D65030	str	15	コスモブラック	Cosmo Black	
+D65040	str	11	黒崎　隼人	Hayato Kurosaki	
+D6504C	str	15	コスモレッド	Cosmo Red	
+D6505C	str	11	紅井　猛	Takeru Kurenai	
+D65068	str	15	マリィ・クレア	Marie Claire	
+D65078	str	11	織部　雛乃	Hinano Oribe	
+D65084	str	11	織部　雪乃	Yukino Oribe	
+D65090	str	15	アラン　蔵人	Alan Kurodo	
+D650A0	str	11	如月　翡翠	Hisui Kisaragi	
+D650AC	str	11	紫暮　兵庫	Hyogo Shigure	
+D650B8	str	11	裏密　ミサ	Misa Uramitsu	
+D650C4	str	15	藤咲　亜里沙	Arisa Fujisaki	
+D650D4	str	15	高見沢　舞子	Maiko Takamizawa	
+D650E4	str	11	雨紋　雷人	Raito Amon	
+D650F0	str	11	桜井　小蒔	Komaki Sakurai	
+D650FC	str	11	醍醐　雄矢	Yuya Daigo	
+D65108	str	11	美里　葵	Aoi Misato	
+D65114	str	15	蓬莱寺　京一	Kyoichi Horaiji	
+D65124	str	7	{xn}　{yn}	{yn} {xn}	
+D6526C	str	11	通信エラー	Link error	
+D65278	str	31	よろしいですか{rt}　はい　いいえ	Are you sure?{rt}[81][40]Yes[81][40]No	
+D65298	str	19	再戦する{rt}終了する	Rematch{rt}Quit	
+D652AC	str	15	入手しました{wc}	 obtained!{wc}	
+D652BC	str	3	を	 was	
+D652C0	str	35	価値１５ポイント{rt}取得しました{wc}	Gained 15{rt}value points!{wc}	
+D652E4	str	35	価値３０ポイント{rt}取得しました{wc}	Gained 30{rt}value points!{wc}	
+D65308	str	15	同数札改め{wc}	Card count check{wc}	
+D65318	str	23	先手・後手を決めます{wc}	Deciding who goes first.{wc}	
+D65330	str	7	ターン	Turn	
+D65338	str	3	の	's 	
+D6533C	str	7	符咒士	Talismancer	
+D654D0	str	7	【】	【】	
+D658F8	str	23	{I011}属性の{I000}を除去	Remove {I011}{I000}	
+D65910	str	21	{I010}属性の{I000}を即死	Slay {I010}{I000}	
+D678D4	str	55	場に伏せられた{I000}{rt}しか無いため{I002}{rt}休戦を破壊します	Only face-down {I000}{rt}on the field, so{rt}{I002}Truce is destroyed	
+D6790C	str	51	場に{I000}が一枚も{rt}無いため{I002}休戦を{rt}破壊します	No {I000} on the{rt}field, so {I002}Truce{rt}is destroyed	
+D67964	str	19	打ち消されました	 canceled.	
+D67978	str	3	は	 was	
+D67990	str	27	とり憑かせろ{rt}ォォッ！！	Let me possess{rt}youuu!!	
+D679AC	str	35	我が怨念の{rt}ざわめき、{rt}聞けい！！	Hear the{rt}stirring of{rt}my grudge!!	
+D679D0	str	15	見ておれェ…。	Just you wait...	
+D679E0	str	31	おまえッ！！{rt}我に手を貸せッ。	You!!{rt}Lend me a hand!	
+D67A00	str	27	降参しろォ、{rt}人間ッ！！	Surrender,{rt}human!!	
+D67A1C	str	27	奴をここから{rt}出すなッ！！	Don't let him{rt}out of here!!	
+D67A38	str	47	こら、待てッ！！{rt}そいつは我の{rt}獲物だァ！！	Hey, wait!!{rt}That one is{rt}my prey!!	
+D67A68	str	47	あひいッ！！{rt}わ、私が悪う{rt}御座いましたッ。	Eeek!!{rt}I-I was in the{rt}wrong, sir!	
+D67A98	str	27	こ、殺さないで{rt}くれェ。	D-don't kill{rt}meee.	
 D67AB4	str	31	おまえの身体{rt}…いただくぞ。		
 D67AD4	str	47	ぐふふふ…。{rt}君も、今日からは{rt}我らの仲間…。		
 D67B04	str	43	いいのか？{rt}こんなに長く{rt}ここにいて…。		

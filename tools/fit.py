@@ -61,7 +61,10 @@ RANGES = [
     (0xD65298, 0xD652AC, 'rematch_menu', 2, 112, None, 7),
 ]
 SINGLE = {0xD726B0: ('deck_help', 3, 144, None, 9), 0xD678D4: ('popup', 3, 128, None, 8),
-          0xD6790C: ('popup', 3, 128, None, 8)}
+          0xD6790C: ('popup', 3, 128, None, 8),
+          # pieces joined with a name or count at run time (ターン, の, 符咒士, は); inferred, check in game
+          0xD65330: ('fragment', 1, 128, None, 8), 0xD65338: ('fragment', 1, 128, None, 8),
+          0xD6533C: ('fragment', 1, 128, None, 8), 0xD67978: ('fragment', 1, 128, None, 8)}
 # card_tag (CF13C0-CF2A00): line 1 is the 【tag】 shown at 64 px; the popup shows all three lines at 128
 TAG_FIRST_PX = 64
 
