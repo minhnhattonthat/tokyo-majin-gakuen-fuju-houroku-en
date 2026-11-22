@@ -501,7 +501,12 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
 - **Gaps in the debug tool (non-blocking, close before phase 8):** no normal path to the sound test (`sound_test`
   warps to mode 20). Save fields beyond names and chapter (cards, deck, money) unmapped; needed for stress saves.
 - **Open bugs:** none.
-- **Waiting on the user:** Non-blocking: staff-roll name readings (B39.0001-0064) are romanized from the kanji
+- **Waiting on the user:** BLOCKING (2026-11-23, session 35): drive C: is full (928 GB, ~1 MB free). The branch8
+  coverage pass died with "No space left on device" after 36 of 156 scenes (`work/qa/cover_branches.log`); every
+  emulator run, rebuild and coverage pass needs disk. Free space on C: (each coverage run dir under `work/qa/cover`
+  holds PNG shots; nothing was deleted by the agent), then resume with `tools/cover.py scenes --branches --jobs 2`
+  (delete branch8 run dirs without final.png first) and continue Next (1).
+  Non-blocking: staff-roll name readings (B39.0001-0064) are romanized from the kanji
   without a source; B39.0020's 﨤町 孝 ("Takashi Hazamachi") is a guess. Corrections welcome. Non-blocking: B04 shows a girl-player branch ({name2}-chan rows, B04.0174 老爺と少女), so
   the player's gender may be selectable; the glossary note "player is male" was softened to "neutral where the JP
   is"; confirm from the name-entry flow when QA reaches it. Keyboard input in the Mesen window not checked by hand (headless worker); scripted input
