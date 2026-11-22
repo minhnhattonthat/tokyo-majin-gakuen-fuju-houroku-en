@@ -5,6 +5,7 @@
     python -X utf8 tools/cover.py gaps [--rounds 8]                  # restart scenes at the label of each unread line
     python -X utf8 tools/cover.py rows [NAME ..]                   # the tools/debug/scenes.tsv rows (menus, battles)
     python -X utf8 tools/cover.py report [--by-scene]                # textcover.py over work/qa/cover
+    python -X utf8 tools/cover.py remap work/qa/cover_b19 --base b359d4e  # carry an old build's coverage over
 
 Each run is a cold boot of build/tmgfh_en.gba through tools/debug/warp.py with $SKILL lua/probes/textcover.lua on
 every text range (system strings, scenes, SPILL), so its log.txt lists the addresses the game read. `scenes` uses
@@ -135,6 +136,62 @@ def warp(names, frames, extra, a, sub):
     return subprocess.run(cmd, cwd=ROOT).returncode
 
 
+def script_rows(rev=None):
+    """{id: (jp, en)} of every script/ TSV, from the working tree or from git revision rev"""
+    out = {}
+    for p in sorted((ROOT / 'script').rglob('*.tsv')):
+        rel = p.relative_to(ROOT).as_posix()
+        if rev:
+            r = subprocess.run(['git', 'show', '%s:%s' % (rev, rel)], cwd=ROOT, capture_output=True)
+            if r.returncode:
+                continue
+            text = r.stdout.decode('utf-8')
+        else:
+            text = p.read_text(encoding='utf-8')
+        for ln in text.splitlines():
+            c = ln.split('\t')
+            if len(c) >= 5 and c[0] != 'id':
+                out[c[0]] = (c[3], c[4])
+    return out
+
+
+def remap(a):
+    """carry an older build's coverage over to this build: every id shown there whose jp/en are unchanged since
+    --base (the commit that build was made from) is written as a TEXT line at its address in this build into
+    work/qa/cover/remap_<old dir name>/log.txt. A string's reachability does not depend on its wording; the rows
+    whose text changed are printed with the old runs that showed them, to re-run (or check) on this build."""
+    old = Path(a.names[0]).resolve()
+    if not (old / 'strings.tsv').exists():
+        sys.exit('%s has no strings.tsv' % old)
+    ids = {}
+    for ln in open(old / 'strings.tsv', encoding='utf-8'):
+        k, v = ln.split()
+        ids[int(v, 16)] = k
+    seen, runs = set(), {}
+    for log in old.rglob('log.txt'):
+        for ln in open(log, encoding='utf-8', errors='replace'):
+            if ln.startswith('TEXT '):
+                k = ids.get(int(ln.split()[1], 16))
+                if k:
+                    seen.add(k)
+                    runs.setdefault(k, set()).add(log.parent.relative_to(old).as_posix())
+    then, now = script_rows(a.base), script_rows()
+    new = dict(ln.split() for ln in open(STRINGS, encoding='utf-8'))
+    keep = sorted(k for k in seen if k in new and k in then and then[k] == now.get(k))
+    changed = sorted(k for k in seen if k in new and then.get(k) != now.get(k))
+    dst = OUT / ('remap_' + old.name)
+    dst.mkdir(parents=True, exist_ok=True)
+    with open(dst / 'log.txt', 'w', encoding='utf-8') as f:
+        f.write('# remapped from %s (base %s) by tools/cover.py remap\n' % (old, a.base))
+        for k in keep:
+            f.write('TEXT %s\n' % new[k])
+    print('%d shown in %s, %d carried over, %d changed since %s:' % (len(seen), old.name, len(keep), len(changed),
+                                                                     a.base))
+    for k in changed:
+        print('  %-10s %s' % (k, ' '.join(sorted(runs[k])[:4])))
+    return 0
+
+
 def keep_strings():
     OUT.mkdir(parents=True, exist_ok=True)
     kept = OUT / 'strings.tsv'
@@ -146,7 +203,8 @@ def keep_strings():
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('what', choices=('scenes', 'gaps', 'rows', 'report'))
+    ap.add_argument('what', choices=('scenes', 'gaps', 'rows', 'report', 'remap'))
+    ap.add_argument('--base', help='remap: git commit the old coverage build was made from')
     ap.add_argument('--rounds', type=int, default=8, help='gaps: most rounds')
     ap.add_argument('names', nargs='*')
     ap.add_argument('--jobs', type=int, default=3)
@@ -172,6 +230,10 @@ def main():
         print('total %d unshown of %d' % (len(miss), sum(total.values())))
         return p.returncode
     keep_strings()
+    if a.what == 'remap':
+        if len(a.names) != 1 or not a.base:
+            sys.exit('remap OLD_COVER_DIR --base COMMIT')
+        return remap(a)
     if a.what == 'gaps':
         return gap_rounds(a)
     if a.what == 'scenes':
