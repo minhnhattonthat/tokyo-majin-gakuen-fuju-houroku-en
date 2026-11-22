@@ -85,7 +85,7 @@ def main():
         sys.exit('expected 32 haiku, found %d' % n)
     if '--check' in sys.argv:
         return 0 if OUT.exists() and OUT.read_text(encoding='utf-8') == text else 1
-    OUT.write_text(text, encoding='utf-8')
+    OUT.write_text(text, encoding='utf-8', newline='\n')
     print('wrote %s (%d haiku)' % (OUT.relative_to(ROOT), n))
     return 0
 

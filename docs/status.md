@@ -2,7 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 19; sessions 20-29 did not
+- **Phase:** 8. QA in the emulator (started 2026-11-22; session 36: disk blocker cleared, branch pass done, gap
+  pass stopped for low memory). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 19; sessions 20-29 did not
   rebuild it, because the coverage runs use it; unbuilt there: session 22's 4 text edits, session 23's haiku fix,
   session 24's tab-sprite fix + 2 text edits, sessions 26-29's graphics + D64260, session 30's D72710, session 31's
   D72824/D72830/D728A8/D728D8/D728EC/D72958/D72A84/D72A94, session 33's warn_box), sha1 82aef7599a18..; side
@@ -431,9 +432,16 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   `work/qa/cover_branches.log`). Long names: Continue from `longname_en.sav` lands straight on the hub
   (`work/qa/p8s36/cont_long/sheet.png`); no profile screen shows the names, so dialogue + VS plate + name entry
   (all checked) are the places they appear: long-name check done.
-- **Next (phase 8):** (1) wait for the branch pass (resumed in session 36; it runs on
-  `build/tmgfh_en.gba`, so do not rebuild before it ends), then `cover.py gaps --jobs 2` + `report --by-scene` to
-  find unreachable scene lines (scene unshown 1461 before branch7/8). (2) Rebuild (everything since session 19 incl.
+  **Branch pass finished** (branch0-8 all ok; branch8 156/156). `report --by-scene` after it: 571 unshown. Gap pass
+  (`cover.py gaps --jobs 4`, log `work/qa/cover_gaps.log`) was **killed by Claude Code for low system memory** in
+  round 1 (not a bug in the run; 8 label runs finished in `work/qa/cover/label_r1`, unfinished dirs deleted). Now
+  **499 unshown**: B00 58 (92-149), B08 18, B09 4, B10 2, B17 30, B18 307 (many runs 114-171, 476-614, ..), B24 2,
+  B34 5, B39 35 (69-87, 99-114), system 38 = the 32 haiku (leave strings.tsv at the rebuild, kind grid) + the 6
+  haiku-club replies D1685C-D16914 (cover with `tools/debug/haiku_route.py` after the rebuild: good / so-so / bad /
+  already-read verdicts). `docs/haiku.md` (`tools/haiku_list.py`): the 32 passwords for the release README (D14).
+- **Next (phase 8):** (1) re-run `cover.py gaps --jobs 2` (fewer jobs: memory) when memory allows; it restarts at
+  round 1 and redoes the 8 finished label runs. Then `report --by-scene`; lines still unshown need a look at their
+  scene's branch / flag (B18 307 is the big one) or a waiver in `docs/text_unshown.tsv` naming why unreachable. (2) Rebuild (everything since session 19 incl.
   warn_box, name grids, deck-name fix), then `mv work/qa/cover work/qa/cover_b19`, `cover.py remap
   work/qa/cover_b19 --base b359d4e` (build 19 was made from b359d4e), re-run only what it lists as changed (popcycle
   for CF2B68/CF44CC/CF4558/CF4608; the menu routes for the D72xxx rows: sessions 24-31) and the name-grid rows are
