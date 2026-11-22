@@ -140,7 +140,7 @@ B02.0137	line		【少年】{rt}ついては―――	【Boy】{rt}If I may--
 B02.0138	line		【少年】{rt}御名（みな）を伺いたく{rt}存じます。	【Boy】{rt}I humbly ask to know your name.	
 B02.0139	choice		名乗る{rt}名乗らない{wc}	Give name{rt}Stay silent{wc}	
 B02.0140	line		【少女】{rt}{name1}{name2}―――様？	【Girl】{rt}{name2} {name1}--sama?	
-B02.0141	line		【少女】{rt}あ、あのう、焔羅様とは{rt}どういう御関係です？	【Girl】{rt}U-um, how are you related to Lord{rt}Enra?	
+B02.0141	line		【少女】{rt}あ、あのう、焔羅様とは{rt}どういう御関係です？	【Girl】{rt}U-um, how are you related to{rt}Enra-sama?	
 B02.0142	line		【少女】{rt}お孫さんかなにか？	【Girl】{rt}Are you his grandchild or something?	
 B02.0143	line		【少年】{rt}動揺するな、伊涼（いすず）。	【Boy】{rt}Don't get flustered, Isuzu.	
 B02.0144	line		【少年】{rt}そんな事を聞いている{rt}場合じゃない！！	【Boy】{rt}This is no time to be asking that!!	
@@ -165,7 +165,7 @@ B02.0162	line		【少年】{rt}それに対する者を導くと伝えら{rt}れ
 B02.0163	line		【少年】{rt}あなたが氏神様だという事を{rt}示してくれました。	【Boy】{rt}has shown us that you are our{rt}Ujigami.	
 B02.0164	line		【少年】{rt}しかし―――	【Boy】{rt}However--	
 B02.0165	line		【少年】{rt}そのように闘いを{rt}好まれるとは、	【Boy】{rt}to be so eager for battle...	
-B02.0166	line		【少年】{rt}焔羅様とはまた違った性格で{rt}いらっしゃるようですね。	【Boy】{rt}Your nature seems rather different{rt}from Lord Enra's.	
+B02.0166	line		【少年】{rt}焔羅様とはまた違った性格で{rt}いらっしゃるようですね。	【Boy】{rt}Your nature seems rather different{rt}from Enra-sama's.	
 B02.0167	line		【少女】{rt}この神鈴（しんれい）は、{rt}古くから《邪氣》に	【Girl】{rt}This Divine Bell guides those who stand{rt}against Miasma--	
 B02.0168	line		【少女】{rt}対する者を導くと{rt}伝えられるもの。	【Girl】{rt}so it has been said since ancient{rt}times.	
 B02.0169	line		【少女】{rt}鈴の音はあなたが{rt}氏神様の《力》を	【Girl】{rt}Its ringing shows that you possess	

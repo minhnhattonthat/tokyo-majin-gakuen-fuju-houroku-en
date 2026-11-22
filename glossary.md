@@ -12,6 +12,8 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 - Abbreviations: none; full names and terms, engine work before cuts. (D4)
 - The player: {name1} = surname, {name2} = given name (default 緋勇 / 龍麻 = Hiyuu / Tatsuma). Full name in English
   order: `{name2} {name1}`. Never add a suffix glued to a name code except honorifics (`{name1}-kun`).
+- 様 after a name is -sama for gods too (焔羅様 = Enra-sama, D1; enforced by `tools/batches.py` KANJI_SAMA). 先生 is
+  translated, not kept (院長先生 = the director; a teacher = "Mr./Ms. X" or "teacher"), so the lint does not check it.
 
 ## Style rules
 - Punctuation map: 「」 -> "...", 『』 -> "..." (or italics-free quotes), ・・・ / … / …… -> ..., ―――/―― -> --
@@ -26,6 +28,8 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 ## Characters
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
+| 緋勇 | Hiyuu | | default player surname (name entry D79188; {name1} elsewhere) | Hiyu |
+| 龍麻 | Tatsuma | | default player given name (name entry D79190; {name2} elsewhere) | |
 | 矢村 / 矢村俊 | Yamura | | Shun Yamura (矢村俊), a summoner (勧請師) of the Yamura family; called Yamura | |
 | 伊涼 / 水兼伊涼 | Isuzu | | Isuzu Mizukane, the sealing shrine maiden (封印の巫女) | |
 | 焔羅 | Enra | | | |
@@ -73,7 +77,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | 現世 | the mortal world | | うつしよ | |
 | 神鈴 | Divine Bell | | Isuzu's bell; rings near Miasma | |
 | 巫女 | shrine maiden / Miko | | Miko only where the 94 px card-name slot has no room | |
-| 焔羅様 | Lord Enra | | Yamura and Isuzu's form of address | |
+| 焔羅様 | Enra-sama | | Yamura and Isuzu's form of address; -sama kept per D1 (also 若日子様 = Wakahiko-sama, 天若日子様 = Amewakahiko-sama) | |
 | 鬼道衆 | Kidoshu | | the oni clan the five Retainers belong to | |
 | 龍脈 | Dragon Vein | | the earth's flow of power under Tokyo | ley line |
 
@@ -255,9 +259,9 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 - b001-b004 《X》 terms (not enforced: single kanji): 《力》 -> Power, 《氣》 -> Ki, 《念》 -> Thought, 《定め》 -> Destiny,
   《因果》 -> Causality, 《生》 -> Life, 《奴》 -> HE (the unseen enemy, capitals). Capitalised, no brackets.
 - b003 address: Yamura calls the player {name1}-sama / {name1}-dono / Great Deity; Isuzu tries {name1}-kun,
-  {name2}-chan. Enra calls the player "lad". The player is male (school uniform) by
-  default, but B04 has a girl-player branch ({name2}-chan rows, 老爺と少女): keep player references neutral where
-  the JP is, and follow the JP where a branch row names a gender.
+  {name2}-chan. Player address and the girl-player branch (B02.0126 / B03.0101-0106) follow D10 in
+  `docs/decisions.md`: keep player references neutral on shared rows (no "lad"), and follow the JP where a branch
+  row names a gender.
 - b005-b013 《X》 terms: 《罪》 -> Sin, 《欲望》 -> Desire, 《心》 -> Heart, 《覚悟》 -> Resolve, 《愛》 -> Love, 《友》 ->
   Friends, 《理性》 -> Reason, 《事実》 -> Fact, 《彼ら》 -> THEM, 《討ツ》 / 《壊した》 / 《死んだ》 -> capitals (SLAY,
   BROKEN, DEAD). 神隠し -> "spirited away". 氏神勧請 -> Ujigami Summoning. 地蔵様 -> Jizo-sama. マリィ -> Marie.

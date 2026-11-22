@@ -170,9 +170,9 @@ B23.0167	line		【優鉢羅】{rt}伊涼ではないなッ！？	【Uhatsura】{
 B23.0168	line		【優鉢羅】{rt}か、かくなる上はッ！！	【Uhatsura】{rt}Th-then I have no choice!!	
 B23.0169	line		【優鉢羅】{rt}―――！？	【Uhatsura】{rt}--!?	
 B23.0170	line		【焔羅】{rt}…………。	【Enra】{rt}............	
-B23.0171	line		【優鉢羅】{rt}え、焔羅様ッ！？	【Uhatsura】{rt}L-Lord Enra!?	
+B23.0171	line		【優鉢羅】{rt}え、焔羅様ッ！？	【Uhatsura】{rt}E-Enra-sama!?	
 B23.0172	line		【矢村】{rt}―――？	【Yamura】{rt}--?	
-B23.0173	line		【優鉢羅】{rt}え、焔羅様ッ！？	【Uhatsura】{rt}L-Lord Enra!?	
+B23.0173	line		【優鉢羅】{rt}え、焔羅様ッ！？	【Uhatsura】{rt}E-Enra-sama!?	
 B23.0174	line		【優鉢羅】{rt}ご、ご無事で―――	【Uhatsura】{rt}Y-you're safe--	
 B23.0175	line		【焔羅】{rt}クククク…。	【Enra】{rt}Ku ku ku ku...	
 B23.0176	line		【優鉢羅】{rt}―――！？	【Uhatsura】{rt}--!?	
@@ -181,12 +181,12 @@ B23.0178	line		【優鉢羅】{rt}―――ッ！！	【Uhatsura】{rt}--!!
 B23.0179	line		【優鉢羅】{rt}ぐはァッ！！	【Uhatsura】{rt}Gwahh!!	
 B23.0180	line		【焔羅】{rt}ククク…。	【Enra】{rt}Ku ku ku...	
 B23.0181	line		【焔羅】{rt}はーッはッはッはッ！！	【Enra】{rt}Ha-ha-ha-ha-ha!!	
-B23.0182	line		【優鉢羅】{rt}え、焔羅様ッ―――？	【Uhatsura】{rt}L-Lord Enra--?	
+B23.0182	line		【優鉢羅】{rt}え、焔羅様ッ―――？	【Uhatsura】{rt}E-Enra-sama--?	
 B23.0183	line		【優鉢羅】{rt}な、なぜッ―――。	【Uhatsura】{rt}Wh-why--	
-B23.0184	line		【矢村】{rt}焔羅様ッ！！	【Yamura】{rt}Lord Enra!!	
+B23.0184	line		【矢村】{rt}焔羅様ッ！！	【Yamura】{rt}Enra-sama!!	
 B23.0185	line		【焔羅】{rt}…………。	【Enra】{rt}............	
 B23.0186	line		【矢村】{rt}うッ…！？	【Yamura】{rt}Ugh...!?	
-B23.0187	line		【矢村】{rt}（焔羅様…じゃない！？）	【Yamura】{rt}(That's not... Lord Enra!?)	
+B23.0187	line		【矢村】{rt}（焔羅様…じゃない！？）	【Yamura】{rt}(That's not... Enra-sama!?)	
 B23.0188	line		【伊涼】{rt}邪氣封印―――ッ！！	【Isuzu】{rt}Miasma, be sealed--!!	
 B23.0189	line		【優鉢羅】{rt}―――！！	【Uhatsura】{rt}--!!	
 B23.0190	line		【優鉢羅】{rt}ギャアアァァッ―――！！	【Uhatsura】{rt}Gyaaaaaah--!!	
@@ -305,20 +305,20 @@ B23.0302	line		【伊涼】{rt}俊―――。	【Isuzu】{rt}Shun--
 B23.0303	line		【伊涼】{rt}俊は、優鉢羅の言った事を{rt}信じるの？	【Isuzu】{rt}Shun, do you believe what Uhatsura{rt}said?	
 B23.0304	line		【矢村】{rt}いや…。	【Yamura】{rt}No...	
 B23.0305	line		【矢村】{rt}だが、俺には、奴が嘘を言って{rt}いるようにも思えないんだ。	【Yamura】{rt}But I can't help feeling he wasn't{rt}lying.	
-B23.0306	line		【矢村】{rt}そして、焔羅様…。	【Yamura】{rt}And Lord Enra...	
-B23.0307	line		【矢村の声】{rt}あの時の焔羅様は、	【Yamura's Voice】{rt}Lord Enra back then	
-B23.0308	line		【矢村の声】{rt}俺の知っている{rt}焔羅様じゃなかった。	【Yamura's Voice】{rt}wasn't the Lord Enra I know.	
-B23.0309	line		【矢村】{rt}焔羅様は、俺たちの前から	【Yamura】{rt}When Lord Enra vanished from our{rt}sight,	
+B23.0306	line		【矢村】{rt}そして、焔羅様…。	【Yamura】{rt}And Enra-sama...	
+B23.0307	line		【矢村の声】{rt}あの時の焔羅様は、	【Yamura's Voice】{rt}Enra-sama back then	
+B23.0308	line		【矢村の声】{rt}俺の知っている{rt}焔羅様じゃなかった。	【Yamura's Voice】{rt}wasn't the Enra-sama I know.	
+B23.0309	line		【矢村】{rt}焔羅様は、俺たちの前から	【Yamura】{rt}When Enra-sama vanished from our{rt}sight,	
 B23.0310	line		【矢村】{rt}姿を消す時に{rt}{name1}に言ったという…。	【Yamura】{rt}he told {name1}, I hear...	
 B23.0311	line		【矢村】{rt}これから、{rt}自分の役割というものを	【Yamura】{rt}that he was setting out	
 B23.0312	line		【矢村】{rt}果たしに出かけてくる	【Yamura】{rt}to fulfill his own role	
 B23.0313	line		【矢村】{rt}―――と。	【Yamura】{rt}--he said.	
-B23.0314	line		【矢村】{rt}―――焔羅様の信条も、	【Yamura】{rt}--Lord Enra's creed, too,	
+B23.0314	line		【矢村】{rt}―――焔羅様の信条も、	【Yamura】{rt}--Enra-sama's creed, too,	
 B23.0315	line		【矢村】{rt}《大罪》を止めるという事に{rt}間違いはなかったはずだ。	【Yamura】{rt}surely was to stop the Great Sin.	
-B23.0316	line		【矢村】{rt}焔羅様が果たすべき{rt}役割とは―――	【Yamura】{rt}The role Lord Enra had to fulfill--	
+B23.0316	line		【矢村】{rt}焔羅様が果たすべき{rt}役割とは―――	【Yamura】{rt}The role Enra-sama had to fulfill--	
 B23.0317	line		【矢村】{rt}《大罪》に関わる何かを止める{rt}事だったんじゃないか？	【Yamura】{rt}wasn't it to stop something to do with{rt}the Great Sin?	
 B23.0318	line		【伊涼】{rt}という事は―――	【Isuzu】{rt}Which means--	
-B23.0319	line		【伊涼】{rt}焔羅様はその道を歩んだ{rt}ために、あんな事に…？	【Isuzu】{rt}Lord Enra walked that road, and that's{rt}why he ended up like that...?	
+B23.0319	line		【伊涼】{rt}焔羅様はその道を歩んだ{rt}ために、あんな事に…？	【Isuzu】{rt}Enra-sama walked that road, and{rt}that's why he ended up like that...?	
 B23.0320	line		【矢村】{rt}おそらく…。	【Yamura】{rt}Probably...	
 B23.0321	line		【矢村】{rt}…………。	【Yamura】{rt}............	
 B23.0322	line		【矢村】{rt}俺たちは―――{rt}闘う事によって	【Yamura】{rt}By fighting, we--	

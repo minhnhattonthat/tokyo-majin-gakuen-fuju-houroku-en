@@ -37,6 +37,8 @@ VARIABLE = r'\{(?:name[12]|&[^}]*)\}'
 # honorific after a name (kanji / katakana run, or a name code) -> EN form; kinship words are not honorifics
 HONORIFICS = {'さん': '-san', 'くん': '-kun', 'ちゃん': '-chan', '先輩': '-senpai', '様': '-sama'}
 NOT_HONORIFIC = re.compile(r'(?:お?[母父兄姉婆爺孫娘]|皆|奥|嬢|叔[父母]|伯[父母]|王|神|仏|殿|お客|患者|お前|坊|子|赤|親御|オレ|俺|オネー|オネエ)$')
+# kanji names whose 様 is kept as -sama (D1; glossary 焔羅様 row): other kanji + 様 is mostly 皆様 / 王様 style
+KANJI_SAMA = re.compile(r'(?:焔羅|若日子)$')
 VERB_SAN = set('許帰逃渡離返殺放貸残消落通起回外戻')  # stems of す-verbs whose negation 〜さん looks like -san
 SPEAKER = re.compile(r'^【([^】]*)】\{rt\}')
 
@@ -119,7 +121,7 @@ def honorifics(jp):
             code = re.search(r'\{name[12]\}$', before)
             if not (kind(prev) in ('kanji', 'katakana') or code):
                 continue
-            if jpf == '様' and kind(prev) != 'katakana' and not code:
+            if jpf == '様' and kind(prev) != 'katakana' and not code and not KANJI_SAMA.search(before):
                 continue
             if NOT_HONORIFIC.search(before):
                 continue

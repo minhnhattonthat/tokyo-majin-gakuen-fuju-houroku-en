@@ -3,14 +3,22 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22, full English,
-  sha1 7c3a27bc3949..; smoke ok (`work/qa/smoke`), B07 warp shows English dialogue (`work/qa/warp/B07/sheet.png`).
+  sha1 5c6e281ffc8d..; smoke ok (`work/qa/smoke`), B07 warp shows English dialogue (`work/qa/warp/B07/sheet.png`).
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
   --gba-ptrs` on the build: only the kana name-entry grids D6E5xx/D72Fxx (kind `grid`, until English name entry)
-  and a graphics false hit at 0x803B27. Phase 6 done 2026-11-22: every row translated, batch check 0 errors,
-  glossary current, story pass B00-B39 / A0-A12 / sys sheets with fixes (`qa_gate.py check work/qa/story/...`
-  exits 0), `docs/polish.md` all ticked.
+  and a graphics false hit at 0x803B27. Phase 6 done pending independent review (2026-11-22): every row
+  translated, batch check 0 errors, glossary current, story pass B00-B39 / A0-A12 / sys sheets with fixes
+  (`qa_gate.py check work/qa/story/...` exits 0), `docs/polish.md` all ticked. The phase 6 review
+  (`../.harness/reviews/...-phase6.md`) found no Critical; its Important 2/3 are fixed (D11: 焔羅様 = Enra-sama, 80
+  rows; default surname Hiyuu; lint now checks kanji name + 様 and the glossary Avoid "Hiyu"), and its minors
+  (glossary b003 note, style-reference voice rows, polish ids, B28.0015/16, A11.9.0051/52, B39 notes, 先生 rule).
+  **Gap (Important 1):** the story-pass verdicts were written by the translating session, not an independent
+  reviewer; codex is rate-limited until 2026-11-26 and Orca workers have no subagents. Before release, re-run the
+  story pass with an independent reviewer (`qa_gate.py todo work/qa/story/manifest.tsv work/qa/story/verdicts
+  --size 1`, a `translate-retro-game:reviewer` per chapter or `codex exec -s read-only`, reports in
+  `work/qa/story/reports/`, new verdict files). `tools/set_en.py` sets or rewraps rows keeping every TSV column.
 - **How:** fit lint `tools/fit.py` (budgets from `tools/windows.tsv`); after any `en` edit run `tools/check.py`,
   then `tools/story.py` + `qa_gate.py init` on the story manifest and add a verdict line for each changed sheet.
   No subagents in Orca workers; codex rate-limited until 2026-11-26.
