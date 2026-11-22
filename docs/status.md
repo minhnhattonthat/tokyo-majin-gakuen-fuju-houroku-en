@@ -3,7 +3,7 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22, full English,
-  sha1 babc3d32534d..; smoke ok (`work/qa/smoke`), check.py 37 passed.
+  sha1 e9e189e56d89..; smoke ok (`work/qa/smoke`), check.py 37 passed.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -75,13 +75,24 @@ Updated at the end of every session. Keep it to what the next session needs; his
   and sort key are overlaid at fixed x). Kana-row badges not yet seen in game (where do they show? scroll the
   name-sorted list). Route: deck_edit state + `6 a` (tabs), `6 a;90 -;6 a;90 -;6 r` (sort keys), `select` then `a`
   (sort popup). New probe `tools/debug/ppuat.lua` (PPU dump at frame AT into the run dir).
-  Name entry (`name_entry` row) is all Japanese graphics (名前は？ 苗字 名前 進む 戻る 終了 かな カナ 漢字 + kana grid).
-- **Next (phase 8):** remaining graphics text: name entry screen (G6/G7); booster-pack
-  select header (screen 0xC5F760, map looks non-standard); S19 leftovers 0xC6A2D8 (deck-editor window frame sheet:
-  check for labels); battle UI (S6/S9/S10, sprites/screens 0xB4xxxx);
+  Session 7 (2026-11-22): **player name entry English** (G6: "Your name?", Surname / Given name captions, Next /
+  Back / Done, Hiragana / Katakana / Kanji; `work/qa/ne_en.png`): LZ77 screen, new `gfx.lz_screen_edit` (decode,
+  edit, retile, recompress; the loader sizes everything from the LZ77 header, so the set may grow to 251 tiles
+  below the BG2 screen base) and row kind `label` (text on the clear backdrop). Katakana rect widened on the
+  deck-name screen too. **Pack select header** "Pick a Booster Pack" (`tools/gfx_plaques.py`: 19x4 plaque map,
+  interior rebuilt from an 8 px period of its own texture, flip-sharing retile into 45 tiles + reserved blank).
+  **Battle banners** S9 English (`tools/gfx_banners.py`, YOU/WIN! seen in game at the victory, YOU/LOSE at the
+  defeat; LET'S/DUEL! and CASTER/SWAP rendered only (`work/qa/winb/blocks_en.png`), not yet seen in game).
+  Battle states (English build): `work/states/pack_select_pre.mss` (victory banner; `4 a;300 -` -> pack select),
+  `defeat_quote.mss` (`60 -;4 a;400 -` -> YOU LOSE; ~f3200 of that run = Rematch / Quit, font text, English).
+  Note: `work/states/defeat.mss` is NOT the defeat; it is a battle with tutorial popups.
+- **Next (phase 8):** remaining graphics text: S19 leftovers 0xC6A2D8 (deck-editor window frame sheet:
+  check for labels); battle UI (S6 対 / 壱弐参四伍 / 先手 後手 at 0xACCCCC-0xACE90C, S10 AP上昇 / 攻撃 待機;
+  S9 配置之間 0xB4F808, 0xB50000; see LET'S DUEL! / CASTER SWAP in game; turn-order pick is in the board_turn
+  route from battle1_select); the name entry's kana grid (G7, English layout with the u16 grids below);
   vertical scene captions (W12/G5, S11/S12); card class labels (S1), card/skill name art (S5), 邪気封印 card art,
   emblems (S20), rarity legend (S27), card type icons (S28), info-screen labels (S29), sound test labels (S22),
-  defeat/rematch (S9, 0xD65298), credits role captions + end card (W10/W11). Then a full English tour, verdicts per chunk
+  rematch menu graphics 0xD65298 if any (the menu seen was font text), credits role captions + end card (W10/W11). Then a full English tour, verdicts per chunk
   (in an Orca worker: read the sheets yourself in a fresh pass, one verdict file per chunk; `codex exec -s
   read-only` after 2026-11-26); `inkbox.py` on choice/centred boxes; stress saves (needs save fields mapped);
   English name entry (u16 kana grids 0xD16740 / D6E56C / D72F00). Checks carried from phase 6: card-panel range

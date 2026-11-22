@@ -10,7 +10,7 @@ Tour: `tools/routes/tour1.txt` (cold boot -> opening) and `tools/routes/mash_a.t
 | G3 | title | 東京魔人學園 符咒封録 logo | raw 4bpp 0xD1BF50-0xD2DA47 (vramfind, `work/qa/ppu_title`) | keep JP unless an official EN logo exists (D5) |
 | G4 | title | 始めから / 続きから / 通信 / 設定 / 通信対戦 / 通信交換; PUSH START | **verified in sweep**: 0xD25E50 (0xC00, 4bpp, 4 cols), PUSH START 0xD25B30 | **English (phase 8 pilot)**: `tools/gfx.py` group title_menu, `gfx/title_menu.tsv`; shot `work/qa/gfx_title/menu_zoom.png` |
 | G5 | story | vertical scene captions (暗黒の渦――, etc.) | sweep candidates S9/S10 below | tour f008880 |
-| G6 | name entry | 名前は？, 苗字, 名前, 進む 戻る 終了, かな カナ 漢字 | tiles (苗字/漢字 absent from text); sweep S19 likely | `docs/screenshots/name_entry_jp.png` |
+| G6 | name entry | 名前は？, 苗字, 名前, 進む 戻る 終了, かな カナ 漢字 | BG2 screen, screen-table entry 0xD7DF1C: LZ77 tiles 0xBEAC20 (234 tiles, bank 10, VRAM 0x0600C000), palette 0xE51FDA, raw 30x20 map 0xE577AA; loader 0x08003268 sizes the buffer and the VRAM copy from the LZ77 header | **English** (group name_entry_screen, `gfx.lz_screen_edit`; `work/qa/ne_en.png`) |
 | G7 | name entry | kana grid | text table 0xD72FCC (font) | needs an English layout |
 | G8 | title | ©2000 Asmik Ace / ©2004 Marvelous / SHOUT! DESIGNWORKS | 0xD270B0 (already English) | no work |
 
@@ -44,7 +44,7 @@ its usage limit); `tools/gfx_zoom.py` re-renders any asset at chosen widths. Wid
 | S6 | 0xACCCCC 対; 0xACD4EC 壱弐参四伍 (2 styles); 0xACE90C 先手/後手 | battle UI |
 | S7 | 0xAE5FDC, 0xAEA8AC, 0xAEF17C, 0xAF3A4C, 0xAF831C; small 0xB021EC-0xB0646C | cards with 壱-伍 numerals |
 | S8 | 0xB0AAAC, 0xB1AC8C, 0xB43A38 | small labels (zoom to read) |
-| S9 | 0xB4B7E8 勝負/術者交代/勝利/敗北; 0xB4F808 配置之間 剣..; 0xB50000 | battle banners (vertical) |
+| S9 | 0xB4B7E8 勝負/術者交代/勝利/敗北; 0xB4F808 配置之間 剣..; 0xB50000 | battle banners: eight 64x64 OBJ blocks (0x800 each, two stacked per banner, OBJ bank 10) **English** (group banners, `tools/gfx_banners.py`: LET'S/DUEL!, CASTER/SWAP, YOU/WIN!, YOU/LOSE; shots `work/qa/winb2`, `work/qa/def_en2`); 配置之間 and 0xB50000 not yet checked |
 | S10 | 0xB52048 AP上昇; 0xB54068 攻撃/待機 | battle UI |
 | S11 | 0xBD515C-0xBD935C (strips of ~0x30 B steps) | place/scene names, wrong width (G5 candidates) |
 | S12 | 0xBDCDA4-0xBE6738 | brush-style captions, wrong width (chapter/scene titles?) |
@@ -53,7 +53,7 @@ its usage limit); `tools/gfx_zoom.py` re-renders any asset at chosen widths. Wid
 | S15 | 0xBF2628 呪符交換之間; 0xC1B8E8 封陰窟 階; 0xC27A28 骨董品店 店内 | room/scene title art |
 | S16 | 0xC11C58, 0xC165E8, 0xC1ADF8-0xC1B6F8, 0xC03F88-0xC05A28, 0xC24E08, 0xC26298, 0xC36408, 0xC37968, 0xC37D88 | menu/label strips (wrong width) |
 | S17 | 0xC381A8 売り符選択 / 交換符選択 / 捨て符選択 | shop/trade menu |
-| S18 | 0xC532C8, 0xC557E0, 0xC57CF8, 0xC5A210, 0xC5C728 東京魔人學園 符咒封録 booster packs; 0xC5F760 ブースターパック選択 | |
+| S18 | 0xC532C8, 0xC557E0, 0xC57CF8, 0xC5A210, 0xC5C728 東京魔人學園 符咒封録 booster packs; 0xC5F760 ブースターパック選択 | pack art = title logo (G3, kept); header: entry 0xD81E04, 46 tiles + a 19x4 map 0xC5FD20 at BG2 row 1, tile 45 = the layer's blank: **English** "Pick a Booster Pack" (group plaques, `tools/gfx_plaques.py`; `work/qa/pack3/hdr.png`) |
 | S19 | 0xC66C18, 0xC67D38, 0xC6B118 (正順 逆順 降順 昇順 あ行..わ行), 0xC6C078 符咒編集, 0xC6D078 (sorting popup), 0xC6A2D8 | deck edit: **English** (group deck_edit, `tools/gfx_deck.py`; tab loader patch TABS_FN in `tools/patches.py`) except 0xC6A2D8 (unchecked) |
 
 | S20 | card frames 0x7ED50C.. (table 0xD80BD4) | five-element emblems 木 火 土 金 水 (small circle, bottom left; large in frames 39-43) |
