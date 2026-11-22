@@ -3,7 +3,7 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22, full English,
-  sha1 cd31a5defe11..; smoke ok (`work/qa/smoke`), check.py 37 passed.
+  sha1 f29d33d734e0..; smoke ok (`work/qa/smoke`), check.py 37 passed.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -50,8 +50,24 @@ Updated at the end of every session. Keep it to what the next session needs; his
   add a scenes.tsv row). Tools: `tools/debug/bglayers.py` (each BG layer + OAM of a PPU dump),
   `tools/debug/gfx_preview_rooms.py`, `tools/debug/gfx_preview_bg4.py`; `gfx.bg4_edit` reletters any 4bpp 30x20
   screen (kinds bg / board / patch). Free space used: 0xFD0000 hook, 0xFD1000+ room screens, 0xFD8000+ 4bpp screens.
-- **Next (phase 8):** remaining graphics text: deck-name entry check in game; booster-pack select header (screen
-  0xC5F760, map looks non-standard); deck edit / help UI (S19); battle UI (S6/S9/S10, sprites/screens 0xB4xxxx);
+  Session 4 (2026-11-22): new warp row `deck_edit` (hub -> 符咒編集, `tools/routes/deck_edit.txt`; state
+  `work/states/deck_edit.mss`). Deck-name entry redraw **seen in game** (deck_edit state + `6 down;30 -;6 down;30 -;6
+  a`). Fixed: (1) default names were cut to 2 u16 codes at New Game ("Ma" for Magami, "Tatsu" for Tatsuma):
+  `tools/patches.py` raises both copy loops (0x0805DF86, 0x0805DFCC) to 3 codes and the build fails if a default
+  name needs more; (2) a third text printer **printer C** (0x080519A0, one unit per call, glyph into OBJ VRAM
+  0x06010000 + sb; the deck submenu's deck name) drew VWF codes as kanji: new `hookc` entry in `tools/vwf.py`
+  (stub at 0x08051DB8, same shape as printer B). Both checked in game (`work/qa/deck_x1`, `work/qa/warp/name_entry`).
+  Tools: `tools/debug/callregs.lua` (registers at a function entry; CALL_AT=0x00000008 = every BIOS SWI, lr = caller),
+  `tools/debug/sprblock.py` (render a ROM sprite block with a dumped OBJ palette).
+  **Deck editor graphics found, not redrawn yet (S19):** header 符咒編集 = OBJ 128x32 (two 64x32, 0x800 B) at 0xC6C078
+  (OBJ bank 10); button sheet 0xC66C18 = 32x16 OBJ halves (0x100 B each, OBJ bank 3): row 1 全体|確認 呪符|登録
+  呪符|削除, row 2 a second 全体確認 + 登録|枚数, row 3 装備 編集 複写 削除 名前 (deck submenu, each one 32x16 button)
+  then category tabs with icons 持ち符 売買符 人物符 土地符 法術符 結界符 憑依符 + 全 (shown by 全体確認,
+  route `6 a` from deck_edit). Render: `sprblock.py rom/base.gba C66C18 32 16 36 <ppu .pal.bin> 3 out.png`. The
+  labels have a textured box: re-letter on a cleared copy of the box (like bg4_edit's `patch`). Also 登録枚数 label.
+  Name entry (`name_entry` row) is all Japanese graphics (名前は？ 苗字 名前 進む 戻る 終了 かな カナ 漢字 + kana grid).
+- **Next (phase 8):** remaining graphics text: deck editor (S19, see above); name entry screen (G6/G7); booster-pack
+  select header (screen 0xC5F760, map looks non-standard); help UI (S19 0xC6B118 両隣 左行 右行); battle UI (S6/S9/S10, sprites/screens 0xB4xxxx);
   vertical scene captions (W12/G5, S11/S12); card class labels (S1), card/skill name art (S5), 邪気封印 card art,
   emblems (S20), rarity legend (S27), card type icons (S28), info-screen labels (S29), sound test labels (S22),
   defeat/rematch (S9, 0xD65298), credits role captions + end card (W10/W11). Then a full English tour, verdicts per chunk

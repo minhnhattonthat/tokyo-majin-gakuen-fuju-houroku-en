@@ -193,3 +193,4 @@ event_12_8	A12.8	3000	40				event scene group 12 slot 8 (table A[128])
 event_12_9	A12.9	3000	40				event scene group 12 slot 9 (table A[129])
 ending_38	B38	24000	30				chapter 38 story -> staff roll (mode 19)
 ending_39	B39	24000	30				final chapter 39 -> staff roll -> 完 card -> clear prompt
+deck_edit	MODE6.1	3200		tools/routes/deck_edit.txt		CH=5	detour hub -> 符咒編集 (deck edit screen)

@@ -78,13 +78,14 @@ def test_install_patches_only_the_stub_and_the_vwf_area(orig, font, enc):
     rom = bytearray(orig)
     end = vwf.install(rom, enc, font)
     diff = [i for i in range(len(orig)) if rom[i] != orig[i]]
-    assert all(vwf.GLYPH_FN <= i < vwf.GLYPH_FN + 12 or vwf.B_FN <= i < vwf.B_FN + 12 or vwf.HOOK <= i < end
-               for i in diff)
+    assert all(vwf.GLYPH_FN <= i < vwf.GLYPH_FN + 12 or vwf.B_FN <= i < vwf.B_FN + 12 or
+               vwf.C_FN <= i < vwf.C_FN + 12 or vwf.HOOK <= i < end for i in diff)
     assert struct.unpack_from('<I', rom, vwf.GLYPH_FN + 8)[0] == 0x08000000 + vwf.HOOK
-    # printer B's stub jumps to hookb, whose first instruction is mov r12, r4, lsr #8
-    hb = struct.unpack_from('<I', rom, vwf.B_FN + 8)[0]
-    assert vwf.HOOK < hb - 0x08000000 < end and hb & 3 == 0
-    assert struct.unpack_from('<I', rom, hb - 0x08000000)[0] == 0xE1A0C424
+    # printer B's stub jumps to hookb (first instruction mov r12, r4, lsr #8), printer C's to hookc (r3, lsr #8)
+    for fn, first in ((vwf.B_FN, 0xE1A0C424), (vwf.C_FN, 0xE1A0C423)):
+        hb = struct.unpack_from('<I', rom, fn + 8)[0]
+        assert vwf.HOOK < hb - 0x08000000 < end and hb & 3 == 0
+        assert struct.unpack_from('<I', rom, hb - 0x08000000)[0] == first
     assert vwf.layout(0x1C0)[0] > vwf.HOOK
 
 

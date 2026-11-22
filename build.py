@@ -23,6 +23,7 @@ import extract  # noqa: E402
 import scenes  # noqa: E402
 import marker  # noqa: E402
 import gfx  # noqa: E402
+import patches  # noqa: E402
 import strslots  # noqa: E402
 import vwf  # noqa: E402
 
@@ -69,6 +70,7 @@ def build(orig, script=None, mark=False, qa=None):
         strslots.write(rom, s, text_for(script['%06X' % s.addr]), spill)
     if enc:
         vwf.install(rom, enc, font)
+        patches.apply(rom, check=not mark)  # code patches (tools/patches.py): default-name copy length
         if not mark:
             gfx.apply(rom)  # graphics-text redraws (tools/gfx.py, gfx/*.tsv)
     return bytes(rom)

@@ -101,6 +101,14 @@ Argument counts are the digits shown; prove each with the marker build before th
   y [sp+0x28]). The loop moves the cell +0x80 and x +16 per unit, y +16 per `rt`. The prompt's cursor cells are
   fixed (cells 0 and 3 of the option line, whatever the text). VWF entry `hookb` (tools/vwf.py) at its Shift-JIS
   branch 0x0800497C. Found by watching ROM reads of CF146C (its marker drew blank).
+- **Printer C 0x080519A0** (args r0 string, r1 OBJ VRAM byte offset -> sb, r2, r3 colour): one unit per call, same
+  Shift-JIS branch shape as printer B (unit in r3, string in r4; 0x8140 returns 3; > 0x9872 through the kanji list
+  0xD7A47C), glyph copied to 0x06010000 + sb by 0x08004184; returns r7. Draws the deck submenu's deck name (buffers
+  0x03005040, six decks x 4 u16). VWF entry `hookc` at 0x08051DB8 (r2 = cell >> 5 | 1, so consecutive cells
+  continue one strip). Found by hooking the BIOS SWI vector (tools/debug/callregs.lua CALL_AT=0x00000008).
+- Default names (New Game, 0x0805DF72..): surname 0x03003830, given name 0x03005A70, deck names 0x03005040, each
+  4 u16, cleared then filled from the pointers at 0xE6163C/40/44; the copy loops are patched to 3 u16
+  (`tools/patches.py`).
 - Log printer 0x0803F5D6: copies lines into 16-unit slots (at most 15 units a line, longer lines continue in the
   next slot) and draws 10 lines.
 - **English: VWF hook** (`tools/vwf.py`, decision in docs/decisions.md D8). The stub at 0x08003B84 jumps to ARM code
