@@ -3,19 +3,19 @@ B07.0000	line		【矢村】{rt}頼むぞ、伊涼ッ！！	【Yamura】{rt}I'm c
 B07.0001	line		【伊涼】{rt}はいッ！！	【Isuzu】{rt}Right!!	
 B07.0002	line		【伊涼】{rt}邪氣封印ッ！！	【Isuzu】{rt}Miasma, be sealed!!	
 B07.0003	line		【老人たち】{rt}ひ、ひいいッ！！	【Old Folks】{rt}Hi-hiieee!!	
-B07.0004	line		【老人たち】{rt}うう―――。	【Old Folks】{rt}Uuugh--.	
+B07.0004	line		【老人たち】{rt}うう―――。	【Old Folks】{rt}Uuugh--	
 B07.0005	line		【矢村】{rt}…気分はどうだ、{rt}爺さん、婆さん？	【Yamura】{rt}...How are you feeling, old-timers?	
 B07.0006	line		【老爺】{rt}や、やめてくれぇッ。	【Elder】{rt}S-stop it, please.	
-B07.0007	line		【老婆】{rt}もうしないッ、もうこんな事は{rt}二度とせんからッ――。	【Old Woman】{rt}We won't do it again, we'll never do{rt}anything like this again--.	
+B07.0007	line		【老婆】{rt}もうしないッ、もうこんな事は{rt}二度とせんからッ――。	【Old Woman】{rt}We won't do it again, we'll never do{rt}anything like this again--	
 B07.0008	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
 B07.0009	line		【伊涼】{rt}大丈夫だよ、	【Isuzu】{rt}It's all right,	
 B07.0010	line		【伊涼】{rt}お爺さん、お婆さん。	【Isuzu】{rt}Grandpa, Grandma.	
 B07.0011	line		【矢村】{rt}はははッ。	【Yamura】{rt}Ha ha ha!	
-B07.0012	line		【矢村】{rt}病が抜けた―――。	【Yamura】{rt}The sickness is gone--.	
+B07.0012	line		【矢村】{rt}病が抜けた―――。	【Yamura】{rt}The sickness is gone--	
 B07.0013	line		【矢村】{rt}ま、そんなもんだよ。	【Yamura】{rt}Well, that's how it goes.	
 B07.0014	line		【老爺】{rt}…………。	【Elder】{rt}..........	
 B07.0015	line		【伊涼】{rt}話して。	【Isuzu】{rt}Tell us.	
-B07.0016	line		【伊涼】{rt}一体何があったのかを―――。	【Isuzu】{rt}What on earth happened--.	
+B07.0016	line		【伊涼】{rt}一体何があったのかを―――。	【Isuzu】{rt}What on earth happened--	
 B07.0017	line		【老婆】{rt}若い皆さん。	【Old Woman】{rt}You young people.	
 B07.0018	line		【老婆】{rt}どうか怒らんで下さい。	【Old Woman】{rt}Please don't be angry.	
 B07.0019	line		【老婆】{rt}儂らは寂しかったんじゃ…。	【Old Woman】{rt}We were lonely...	
@@ -79,17 +79,17 @@ B07.0076	line		【老爺】{rt}儂らはその恐怖に負けていた。	【Eld
 B07.0077	line		【老婆】{rt}儂らに必要だった《力》とは、	【Old Woman】{rt}The Power we needed	
 B07.0078	line		【老婆】{rt}他者を押しのけるような{rt}仮初めの《力》ではなく、	【Old Woman】{rt}wasn't some false Power to shove{rt}others aside,	
 B07.0079	line		【老婆】{rt}今の世を生きぬいてゆく―――	【Old Woman】{rt}but the strength of heart to live{rt}through these times--	
-B07.0080	line		【老婆】{rt}変えてゆけるだけの、心の強さ{rt}だったんじゃな―――。	【Old Woman】{rt}and to change them, wasn't it--.	
+B07.0080	line		【老婆】{rt}変えてゆけるだけの、心の強さ{rt}だったんじゃな―――。	【Old Woman】{rt}and to change them, wasn't it--	
 B07.0081	line		【矢村】{rt}今日もお疲れ様でした。	【Yamura】{rt}Thank you for your hard work today.	
 B07.0082	line		【矢村】{rt}{name1}殿のお陰で	【Yamura】{rt}Thanks to you, {name1}-dono,	
 B07.0083	line		【矢村】{rt}またひとつ《邪氣》を{rt}封印する事ができました。	【Yamura】{rt}we were able to seal away another{rt}Miasma.	
-B07.0084	line		【矢村】{rt}老人たち―――。	【Yamura】{rt}The old folks--.	
+B07.0084	line		【矢村】{rt}老人たち―――。	【Yamura】{rt}The old folks--	
 B07.0085	line		【矢村】{rt}正直自分も、彼らのような{rt}人間が《邪氣》をまとい、	【Yamura】{rt}Honestly, I never imagined people like{rt}them would be clad in Miasma	
 B07.0086	line		【矢村】{rt}悪事を働いていようとは{rt}思っていませんでした。	【Yamura】{rt}and doing evil.	
 B07.0087	line		【伊涼】{rt}《邪氣》が狙う人の心―――	【Isuzu】{rt}The human hearts the Miasma{rt}targets--	
 B07.0088	line		【伊涼】{rt}それは何も特別なものでは{rt}ないのね…。	【Isuzu】{rt}aren't anything special, are they...	
 B07.0089	line		【矢村】{rt}そう…。	【Yamura】{rt}Right...	
-B07.0090	line		【矢村】{rt}この社会の矛盾、{rt}日陰になった部分―――。	【Yamura】{rt}This society's contradictions, the parts{rt}left in the shade--.	
+B07.0090	line		【矢村】{rt}この社会の矛盾、{rt}日陰になった部分―――。	【Yamura】{rt}This society's contradictions, the parts{rt}left in the shade--	
 B07.0091	line		【矢村】{rt}思ったより俺たちの死角は{rt}多い。	【Yamura】{rt}We have more blind spots than I{rt}thought.	
 B07.0092	line		【矢村】{rt}《邪氣》はまさにそこを{rt}狙っている…。	【Yamura】{rt}And that's exactly what the Miasma{rt}targets...	
 B07.0093	line		【矢村】{rt}これから現れる全ての《邪氣》{rt}を封印するには、	【Yamura】{rt}To seal away every Miasma that{rt}appears from now on,	
@@ -152,7 +152,7 @@ B07.0149	line		【矢村】{rt}そろそろ、時間だ。	【Yamura】{rt}It's 
 B07.0150	line		【伊涼】{rt}えッ…。	【Isuzu】{rt}Huh...	
 B07.0151	line		【矢村】{rt}すいません、{name1}殿。	【Yamura】{rt}I'm sorry, {name1}-dono.	
 B07.0152	line		【矢村】{rt}自分の勧請師としての{rt}《力》がもっと大きければ、	【Yamura】{rt}If my power as a Summoner were{rt}greater,	
-B07.0153	line		【矢村】{rt}{name1}殿とも、もっと長い時間{rt}を過ごせるのですが―――。	【Yamura】{rt}we could spend more time with you,{rt}{name1}-dono--.	
+B07.0153	line		【矢村】{rt}{name1}殿とも、もっと長い時間{rt}を過ごせるのですが―――。	【Yamura】{rt}we could spend more time with you,{rt}{name1}-dono--	
 B07.0154	line		【矢村】{rt}残念ながら、今日はここまでが{rt}精一杯のようです…。	【Yamura】{rt}Sadly, it seems this is the best I can{rt}manage today...	
 B07.0155	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
 B07.0156	line		【矢村】{rt}（伊涼…。）	【Yamura】{rt}(Isuzu...)	

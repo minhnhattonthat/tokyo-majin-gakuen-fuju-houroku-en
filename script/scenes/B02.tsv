@@ -8,8 +8,8 @@ B02.0005	line		【声】{rt}おおッ。	【Voice】{rt}Ohh!
 B02.0006	line		【老人】{rt}ようやく目が覚めたか。	【Old Man】{rt}So you've finally woken up.	
 B02.0007	line		【老人】{rt}{name1}{name2}よ。	【Old Man】{rt}{name2} {name1}.	
 B02.0008	line		【老人】{rt}儂の名は、焔羅（えんら）。	【Old Man】{rt}My name is Enra.	
-B02.0009	line		【焔羅】{rt}訳あって、闇の中を{rt}彷徨（さまよ）っていた	【Enra】{rt}For reasons of my own, I'm the one{rt}who pulled you	
-B02.0010	line		【焔羅】{rt}おぬしを引き揚げた者じゃ。	【Enra】{rt}out of the darkness you were{rt}wandering in.	
+B02.0009	line		【焔羅】{rt}訳あって、闇の中を{rt}彷徨（さまよ）っていた	【Enra】{rt}I'm the one who pulled you out of the{rt}darkness	
+B02.0010	line		【焔羅】{rt}おぬしを引き揚げた者じゃ。	【Enra】{rt}where, for some reason, you were{rt}wandering.	
 B02.0011	line		【焔羅】{rt}ともかくは歓迎するぞ。	【Enra】{rt}At any rate, welcome.	
 B02.0012	line		【焔羅】{rt}よくぞ戻ってきたな。	【Enra】{rt}You've done well to come back.	
 B02.0013	line		【焔羅】{rt}この東京に―――。	【Enra】{rt}To this Tokyo--	
@@ -79,7 +79,7 @@ B02.0076	line		【焔羅】{rt}なぜ、今そんな話をするか。	【Enra�
 B02.0077	line		【焔羅】{rt}他でもない。	【Enra】{rt}For no other reason than this.	
 B02.0078	line		【焔羅】{rt}あ奴らにもその《氏神》が{rt}存在するのだ。	【Enra】{rt}Those two have an Ujigami of their{rt}own.	
 B02.0079	line		【焔羅】{rt}そして、あ奴らにとっては{rt}今こそがまさに危機。	【Enra】{rt}And for them, right now is exactly such{rt}a danger.	
-B02.0080	line		【焔羅】{rt}猫の手―――もとい、	【Enra】{rt}They'd take any help they could get--I{rt}mean,	
+B02.0080	line		【焔羅】{rt}猫の手―――もとい、	【Enra】{rt}They'd take help even from a cat--I{rt}mean,	
 B02.0081	line		【焔羅】{rt}《氏神》の手を借りたい。	【Enra】{rt}they need the help of their Ujigami.	
 B02.0082	line		【焔羅】{rt}借りねば危険だ。	【Enra】{rt}Without it, they're in danger.	
 B02.0083	line		【焔羅】{rt}ならば、{rt}《氏神》はどこにいるか？	【Enra】{rt}So, where is this Ujigami?	

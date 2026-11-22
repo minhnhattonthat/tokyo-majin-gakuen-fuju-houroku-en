@@ -323,12 +323,12 @@ D67BE8	str	31	欲しいなァ、{rt}生身の身体…。	I want it...{rt}a livi
 D67C08	str	15	あがあッ！！	Agaah!!	
 D67C18	str	23	なんだァ？{rt}それはァ？	Whaaat?{rt}What's thaaat?	
 D67C30	str	15	ＡＨＨッ！！	AHH!!	
-D67C40	str	19	ＧＡゥッ―――。	GAU--.	
+D67C40	str	19	ＧＡゥッ―――。	GAU--	
 D67C54	str	15	ＧＹＡッ！！	GYA!!	
 D67C64	str	15	ＳＹＡＡッ！！	SYAA!!	
 D67C74	str	15	ＧＹＡＵッ！！	GYAU!!	
 D67C84	str	15	ＡＡＡＡッ！！	AAAA!!	
-D67C94	str	15	…ＡＨ―――。	...AH--.	
+D67C94	str	15	…ＡＨ―――。	...AH--	
 D67CA4	str	11	………。	.........	
 D67CB0	str	19	ＧＹＡ―――！！	GYA--!!	
 D67CC4	str	19	ＡＡＡＡＡッ！！	AAAAA!!	
@@ -632,7 +632,7 @@ D6A60C	str	15	式神よッ！！	Shikigami!!
 D6A61C	str	47	《定め》を避ける{rt}道は…これしか{rt}ないのだ！！	This is the only{rt}way... to escape{rt}Destiny!!	
 D6A64C	str	23	氏神の力{rt}…侮れんな。	An Ujigami's power{rt}...not to be scorned.	
 D6A664	str	27	儂が憎いか…{rt}俊よ―――。	Do you hate me...{rt}Shun--?	
-D6A680	str	31	強くなったな、{rt}俊よ―――。	You've grown{rt}strong, Shun--.	
+D6A680	str	31	強くなったな、{rt}俊よ―――。	You've grown{rt}strong, Shun--	
 D6A6A0	str	35	止められぬのか？{rt}この儂でも…。	Can't it be{rt}stopped? Not even{rt}by me...?	
 D6A6C4	str	47	多くの犠牲が出る{rt}…これも《大罪》{rt}ゆえか。	So many sacrifices{rt}...is this too{rt}Great Sin's doing?	
 D6A6F4	str	31	これほど虚しい{rt}勝利もない…。	No victory{rt}is emptier...	
