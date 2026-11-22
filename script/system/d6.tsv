@@ -311,156 +311,156 @@ D67A1C	str	27	奴をここから{rt}出すなッ！！	Don't let him{rt}out of h
 D67A38	str	47	こら、待てッ！！{rt}そいつは我の{rt}獲物だァ！！	Hey, wait!!{rt}That one is{rt}my prey!!	
 D67A68	str	47	あひいッ！！{rt}わ、私が悪う{rt}御座いましたッ。	Eeek!!{rt}I-I was in the{rt}wrong, sir!	
 D67A98	str	27	こ、殺さないで{rt}くれェ。	D-don't kill{rt}meee.	
-D67AB4	str	31	おまえの身体{rt}…いただくぞ。		
-D67AD4	str	47	ぐふふふ…。{rt}君も、今日からは{rt}我らの仲間…。		
-D67B04	str	43	いいのか？{rt}こんなに長く{rt}ここにいて…。		
-D67B30	str	35	おのれェ、{rt}それでも{rt}人間か！？		
-D67B54	str	31	我らを{rt}見捨てるな{rt}―――！！		
-D67B74	str	39	もう少しで…{rt}我は{rt}解放されるッ！！		
-D67B9C	str	35	また…また、{rt}取り残される{rt}のか？		
-D67BC0	str	39	痛いか？{rt}いいなァ。{rt}羨ましいなあ。		
-D67BE8	str	31	欲しいなァ、{rt}生身の身体…。		
-D67C08	str	15	あがあッ！！		
-D67C18	str	23	なんだァ？{rt}それはァ？		
-D67C30	str	15	ＡＨＨッ！！		
-D67C40	str	19	ＧＡゥッ―――。		
-D67C54	str	15	ＧＹＡッ！！		
-D67C64	str	15	ＳＹＡＡッ！！		
-D67C74	str	15	ＧＹＡＵッ！！		
-D67C84	str	15	ＡＡＡＡッ！！		
-D67C94	str	15	…ＡＨ―――。		
-D67CA4	str	11	………。		
-D67CB0	str	19	ＧＹＡ―――！！		
-D67CC4	str	19	ＡＡＡＡＡッ！！		
-D67CD8	str	15	ＧＹＯＯッ！！		
-D67CE8	str	15	ｃｃｃｃ…。		
-D67CF8	str	11	ＡＨＯ！！		
-D67D04	str	11	…ＡＨＨ。		
-D67D10	str	19	ＧＹＡＡＡッ！！		
-D67D24	str	19	ＡＨＨＨＨッ！！		
-D67D38	str	15	…ＡＡＡＡＡ。		
-D67D48	str	11	ＡＡッ！！		
-D67D54	str	51	私をこんな風に{rt}したおまえたち{rt}…許せないッ！！		
-D67D88	str	39	わ、私を{rt}そんな目で{rt}見るなあッ！！		
-D67DB0	str	27	私を怒らせる{rt}からッ！！		
-D67DCC	str	39	うううッ！！{rt}大人しく{rt}なさいなッ！！		
-D67DF4	str	51	手を貸しなさい。{rt}あの子は私の{rt}ものだけどねッ。		
-D67E28	str	47	可愛い子…。{rt}食べてしまいたい{rt}くらいにッ！！		
-D67E58	str	43	行きなさい！！{rt}あとで分けて{rt}あげるから。		
-D67E84	str	39	わ、私…{rt}何て事を…。{rt}嫌ァァッ！！		
-D67EAC	str	47	やっぱり違う！！{rt}私の赤ちゃん{rt}じゃないッ！！		
-D67EDC	str	51	やっぱりあなた…{rt}とっても―――{rt}おいしそうッ！！		
-D67F10	str	31	―――活きが{rt}いい証拠よね。		
-D67F30	str	27	もうじき…{rt}もうじきね…。		
-D67F4C	str	47	聞こえる？{rt}おこぼれをねだる{rt}鴉たちの声が…。		
-D67F7C	str	35	喰う！！{rt}みんな、{rt}喰ってやる！！		
-D67FA0	str	43	どこから食べて{rt}ほしい？{rt}目？耳？軟骨？		
-D67FCC	str	43	な、なぜ？{rt}あなた、なぜ私に{rt}反抗するの？		
-D67FF8	str	39	ふふふ。{rt}あなたの血、{rt}いい色ねえ。		
-D68020	str	27	こっちへ{rt}いらっしゃい…。		
-D6803C	str	23	や、{rt}やめてえッ！！		
-D68054	str	11	あうッ…。		
-D68060	str	27	ＧＲＲＵＵ{rt}ＵＵｕッ！！		
-D6807C	str	15	ＵＲＲＲＲ…。		
-D6808C	str	11	ＵＵＵ…。		
-D68098	str	15	Ｃｕｕｕｎ…。		
-D680A8	str	15	ＧＹＡＵＵッ。		
-D680B8	str	15	ｕＵｕｕｕ！！		
-D680C8	str	19	ＨＡッＨＡッ…。		
-D680DC	str	27	ＧＡＲＲＵＵ{rt}ＵＵｕッ！！		
-D680F8	str	19	ＡＯＯＯＮッ！！		
-D6810C	str	15	ＣＹＡＮッ！！		
-D6811C	str	15	ＧＡＵッ！！		
-D6812C	str	39	儂らより先に{rt}三途の河を{rt}渡れィッ！！		
-D68154	str	35	我らの《力》から{rt}は逃れられん！！		
-D68178	str	39	もう家には{rt}帰れんぞ、{rt}餓鬼どもッ。		
-D681A0	str	47	「苦労は買って{rt}でもしろ」じゃ、{rt}若造ッ！！		
-D681D0	str	47	人生の先輩に{rt}頭を下げさせて{rt}やるわいッ！！		
-D68200	str	39	あまり年寄りと{rt}舐めん方が{rt}いいぞッ。		
-D68228	str	39	泣いても{rt}知らんぞ、{rt}餓鬼どもッ！！		
-D68250	str	35	ひゃあああッ！！{rt}お、お助けッ！！		
-D68274	str	31	口惜しい…。{rt}おまえなどにッ。		
-D68294	str	51	こんな傷…梅干し{rt}を貼りつければ{rt}すぐに治るわ。		
-D682C8	str	47	いいか、若造。{rt}これからは{rt}高齢化社会じゃよ		
-D682F8	str	39	ぬううッ…。{rt}どうせお先短い{rt}身よ…。		
-D68320	str	31	手強い奴…。{rt}だが、負けぬわ。		
-D68340	str	43	お前も我らが{rt}孤独、味わうが{rt}いいさッ。		
-D6836C	str	35	儂らを年寄りだと{rt}侮った罰じゃ！！		
-D68390	str	51	年長者にこんな{rt}事をしていいと{rt}思っておるのかッ		
-D683C4	str	47	どうじゃな！？{rt}「若さ」は盾に{rt}なったかの？		
-D683F4	str	19	ひゃっひゃッ！！		
-D68408	str	39	と、年寄りに{rt}なんちゅう{rt}事をッ！！		
-D68430	str	31	若造がッ！！{rt}舐めおってッ。		
-D68450	str	35	ボクにその{rt}《力》を{rt}渡せよッ！！		
-D68474	str	47	ソレのためなら{rt}ボクは手段を{rt}選ばないッ！！		
-D684A4	str	31	遠慮無くやらせて{rt}もらうよ！！		
-D684C4	str	27	素直じゃない{rt}キミに…。		
-D684E0	str	43	一秒の油断が{rt}キミの命とり{rt}になるよッ！！		
-D6850C	str	27	あいつを抑え{rt}つけろッ！！		
-D68528	str	11	行けッ！！		
-D68534	str	43	（ちッ、{rt}　やっぱりまだ{rt}　足りない――）		
-D68560	str	27	まだだッ。{rt}諦めないぞッ。		
-D6857C	str	51	ほーら、見なよ。{rt}《力》はキミの{rt}味方じゃない。		
-D685B0	str	47	渡さないから奪う{rt}―――キミが{rt}悪いんだぜ？		
-D685E0	str	51	しつこい奴だ！！{rt}ボクの一番嫌いな{rt}タイプだッ！！		
-D68614	str	35	ボクを甘く見ない{rt}ほうがいいな…。		
-D68638	str	47	その《力》はキミ{rt}が持つべきもの{rt}じゃない…。		
-D68668	str	43	諦めなよ。{rt}でないと、死ぬ{rt}事になるぜ？		
-D68694	str	51	くくッ。ボクが{rt}諦めると思ったら{rt}大間違いだッ。		
-D686C8	str	43	どうだい？{rt}ボクの《力》の{rt}強さはッ！？		
-D686F4	str	39	これくらい{rt}慣れっこ…って{rt}感じだね？		
-D6871C	str	39	ますます欲しく{rt}なったよ、{rt}その力ッ。		
-D68744	str	35	こんなんじゃ、{rt}話にならないねッ		
-D68768	str	19	ＳＹＡＡＡッ！！		
-D6877C	str	51	（この翼が生む{rt}　魔風ッ―――{rt}　受けてみろッ）		
-D687B0	str	31	（だめだね。{rt}　手遅れだ。）		
-D687D0	str	47	（キミが人間で{rt}　ある以上、{rt}　勝てないよ…）		
-D68800	str	43	（さあッ、{rt}　逃げ回って{rt}　みせろよッ。）		
-D6882C	str	35	（ボクのために{rt}　戦ってこいッ）		
-D68850	str	11	…………。		
-D6885C	str	47	（勝てない…。{rt}　なぜだ？{rt}　教えてくれッ）		
-D6888C	str	51	（いよいよだ！！{rt}　その《力》が{rt}　ボクのに！！）		
-D688C0	str	19	ＧＩＩＩＩッ！！		
-D688D4	str	47	（なぜだッ！？{rt}　なぜ倒れ{rt}　ないんだッ？）		
-D68904	str	47	（ボクの視界から{rt}　キミは{rt}　逃げられない）		
-D68934	str	15	ＧＲＲＲＲ…。		
-D68944	str	51	（ボクから見たら{rt}　君なんて小動物{rt}　同然さ。）		
-D68978	str	15	ＧＵＵＵＵ…。		
-D68988	str	51	（ひゃははッ！！{rt}　もろいねぇ…{rt}　人間って！！）		
-D689BC	str	31	（なあに、{rt}　小手調べさ。）		
-D689DC	str	15	ＧＵＵッ…。		
-D689EC	str	31	（かすった…{rt}　だとッ！？）		
-D68A0C	str	27	朽ち果てるが{rt}いいッ！！		
-D68A28	str	27	腐れて土へ{rt}返れェッ！！		
-D68A44	str	47	死者を粗末にする{rt}事こそ《罪》{rt}じゃないの？		
-D68A74	str	27	あんた、準備は{rt}いいかい？		
-D68A90	str	47	今度はどんな{rt}ふうに殺して{rt}やろうかねッ！！		
-D68AC0	str	47	死ぬ時の事を{rt}考えてたら何も{rt}できないよッ。		
-D68AF0	str	23	梓を{rt}出せェェッ！！		
-D68B08	str	15	梓ァァァァ！！		
-D68B18	str	35	俺たちは…{rt}悪くない{rt}のにッ！！		
-D68B3C	str	43	さァて、次は…{rt}アカガネ、{rt}おまえだァ！！		
-D68B68	str	39	あァ、{rt}すっきりしたッ。{rt}ひひひひ…。		
-D68B90	str	51	俺たちはもう死ん{rt}でるんだ。何も{rt}恐くはない！！		
-D68BC4	str	27	あんた、大丈夫{rt}かいッ？		
-D68BE0	str	39	咒符などで{rt}やられて{rt}たまるかァ！！		
-D68C08	str	51	死人を裁ける法{rt}なんてどこにも{rt}ありはしないよ。		
-D68C3C	str	43	親子関係に{rt}口出しせんで{rt}もらおうかッ！！		
-D68C68	str	43	おまえたちも{rt}仲間にして{rt}やろうかいッ？		
-D68C94	str	35	あッ…あんた、{rt}目玉が落ちたよ。		
-D68CB8	str	35	ぎゃあああッ！！{rt}ど、胴がああ！！		
-D68CDC	str	27	…ウウウ。{rt}…腕がァ！！		
-D68CF8	str	35	（おまえたち、{rt}　弱すぎるぞッ）		
-D68D1C	str	47	（《大罪》の焔で{rt}　燃えぬものは{rt}　無い！！）		
-D68D4C	str	15	ＧＡＯＯＮ！！		
-D68D5C	str	19	ＧＲＯＯＮッ！！		
-D68D70	str	19	ＧＯＯＯＵッ！！		
-D68D84	str	15	ＧＡＵＵッ！！		
-D68D94	str	27	（良かったな、{rt}　梓…。）		
-D68DB0	str	31	（これで―――{rt}　いいんだ。）		
-D68DD0	str	35	（勝てるまで来る{rt}　がいい…。）		
-D68DF4	str	15	ＯＯＯＮッ！！		
-D68E04	str	19	（迷うなッ！！）		
+D67AB4	str	31	おまえの身体{rt}…いただくぞ。	Your body...{rt}is mine now.	
+D67AD4	str	47	ぐふふふ…。{rt}君も、今日からは{rt}我らの仲間…。	Heh heh heh...{rt}From today on, you{rt}are one of us...	
+D67B04	str	43	いいのか？{rt}こんなに長く{rt}ここにいて…。	Are you sure?{rt}Staying here{rt}so long...	
+D67B30	str	35	おのれェ、{rt}それでも{rt}人間か！？	Curse you!{rt}Are you even{rt}human!?	
+D67B54	str	31	我らを{rt}見捨てるな{rt}―――！！	Don't abandon{rt}us--!!	
+D67B74	str	39	もう少しで…{rt}我は{rt}解放されるッ！！	Just a little{rt}more... and I{rt}will be free!!	
+D67B9C	str	35	また…また、{rt}取り残される{rt}のか？	Again... am I{rt}to be left{rt}behind again?	
+D67BC0	str	39	痛いか？{rt}いいなァ。{rt}羨ましいなあ。	Does it hurt?{rt}How nice.{rt}I'm so jealous.	
+D67BE8	str	31	欲しいなァ、{rt}生身の身体…。	I want it...{rt}a living body...	
+D67C08	str	15	あがあッ！！	Agaah!!	
+D67C18	str	23	なんだァ？{rt}それはァ？	Whaaat?{rt}What's thaaat?	
+D67C30	str	15	ＡＨＨッ！！	AHH!!	
+D67C40	str	19	ＧＡゥッ―――。	GAU--.	
+D67C54	str	15	ＧＹＡッ！！	GYA!!	
+D67C64	str	15	ＳＹＡＡッ！！	SYAA!!	
+D67C74	str	15	ＧＹＡＵッ！！	GYAU!!	
+D67C84	str	15	ＡＡＡＡッ！！	AAAA!!	
+D67C94	str	15	…ＡＨ―――。	...AH--.	
+D67CA4	str	11	………。	.........	
+D67CB0	str	19	ＧＹＡ―――！！	GYA--!!	
+D67CC4	str	19	ＡＡＡＡＡッ！！	AAAAA!!	
+D67CD8	str	15	ＧＹＯＯッ！！	GYOO!!	
+D67CE8	str	15	ｃｃｃｃ…。	cccc...	
+D67CF8	str	11	ＡＨＯ！！	AHO!!	
+D67D04	str	11	…ＡＨＨ。	...AHH.	
+D67D10	str	19	ＧＹＡＡＡッ！！	GYAAA!!	
+D67D24	str	19	ＡＨＨＨＨッ！！	AHHHH!!	
+D67D38	str	15	…ＡＡＡＡＡ。	...AAAAA.	
+D67D48	str	11	ＡＡッ！！	AA!!	
+D67D54	str	51	私をこんな風に{rt}したおまえたち{rt}…許せないッ！！	You made me{rt}like this...{rt}I won't forgive it!!	
+D67D88	str	39	わ、私を{rt}そんな目で{rt}見るなあッ！！	D-don't look{rt}at me like{rt}that!!	
+D67DB0	str	27	私を怒らせる{rt}からッ！！	Because you{rt}make me angry!!	
+D67DCC	str	39	うううッ！！{rt}大人しく{rt}なさいなッ！！	Urrgh!!{rt}Just behave{rt}yourself!!	
+D67DF4	str	51	手を貸しなさい。{rt}あの子は私の{rt}ものだけどねッ。	Lend me a hand.{rt}Though that child{rt}is mine, mind you.	
+D67E28	str	47	可愛い子…。{rt}食べてしまいたい{rt}くらいにッ！！	Such a sweet{rt}child... I could{rt}just eat you up!!	
+D67E58	str	43	行きなさい！！{rt}あとで分けて{rt}あげるから。	Go!!{rt}I'll share it{rt}with you later.	
+D67E84	str	39	わ、私…{rt}何て事を…。{rt}嫌ァァッ！！	I... what have{rt}I done...?{rt}Nooo!!	
+D67EAC	str	47	やっぱり違う！！{rt}私の赤ちゃん{rt}じゃないッ！！	It's not right!!{rt}That's not{rt}my baby!!	
+D67EDC	str	51	やっぱりあなた…{rt}とっても―――{rt}おいしそうッ！！	You really do...{rt}look so--{rt}delicious!!	
+D67F10	str	31	―――活きが{rt}いい証拠よね。	--That just{rt}shows you're fresh.	
+D67F30	str	27	もうじき…{rt}もうじきね…。	Soon now...{rt}very soon...	
+D67F4C	str	47	聞こえる？{rt}おこぼれをねだる{rt}鴉たちの声が…。	Do you hear it?{rt}The crows begging{rt}for scraps...	
+D67F7C	str	35	喰う！！{rt}みんな、{rt}喰ってやる！！	I'll eat!!{rt}I'll eat{rt}every one of you!!	
+D67FA0	str	43	どこから食べて{rt}ほしい？{rt}目？耳？軟骨？	Where shall I{rt}start eating?{rt}Eyes? Ears? Gristle?	
+D67FCC	str	43	な、なぜ？{rt}あなた、なぜ私に{rt}反抗するの？	W-why?{rt}Why do you{rt}defy me?	
+D67FF8	str	39	ふふふ。{rt}あなたの血、{rt}いい色ねえ。	Heh heh.{rt}Your blood is{rt}such a nice color.	
+D68020	str	27	こっちへ{rt}いらっしゃい…。	Come over{rt}here...	
+D6803C	str	23	や、{rt}やめてえッ！！	S-{rt}stop it!!	
+D68054	str	11	あうッ…。	Augh...	
+D68060	str	27	ＧＲＲＵＵ{rt}ＵＵｕッ！！	GRRUU{rt}UUuu!!	
+D6807C	str	15	ＵＲＲＲＲ…。	URRRR...	
+D6808C	str	11	ＵＵＵ…。	UUU...	
+D68098	str	15	Ｃｕｕｕｎ…。	Cuuun...	
+D680A8	str	15	ＧＹＡＵＵッ。	GYAUU.	
+D680B8	str	15	ｕＵｕｕｕ！！	uUuuu!!	
+D680C8	str	19	ＨＡッＨＡッ…。	HAH HAH...	
+D680DC	str	27	ＧＡＲＲＵＵ{rt}ＵＵｕッ！！	GARRUU{rt}UUuu!!	
+D680F8	str	19	ＡＯＯＯＮッ！！	AOOON!!	
+D6810C	str	15	ＣＹＡＮッ！！	CYAN!!	
+D6811C	str	15	ＧＡＵッ！！	GAU!!	
+D6812C	str	39	儂らより先に{rt}三途の河を{rt}渡れィッ！！	Cross the Sanzu{rt}River before{rt}we do!!	
+D68154	str	35	我らの《力》から{rt}は逃れられん！！	You can't escape{rt}our Power!!	
+D68178	str	39	もう家には{rt}帰れんぞ、{rt}餓鬼どもッ。	You'll never go{rt}home again,{rt}brats.	
+D681A0	str	47	「苦労は買って{rt}でもしろ」じゃ、{rt}若造ッ！！	"Hardship builds{rt}character," boy!!	
+D681D0	str	47	人生の先輩に{rt}頭を下げさせて{rt}やるわいッ！！	I'll make you bow{rt}to your elders!!	
+D68200	str	39	あまり年寄りと{rt}舐めん方が{rt}いいぞッ。	Don't take us{rt}lightly for being{rt}old.	
+D68228	str	39	泣いても{rt}知らんぞ、{rt}餓鬼どもッ！！	Don't come crying{rt}to me later,{rt}brats!!	
+D68250	str	35	ひゃあああッ！！{rt}お、お助けッ！！	Hyaaah!!{rt}H-help!!	
+D68274	str	31	口惜しい…。{rt}おまえなどにッ。	How galling...{rt}Beaten by you.	
+D68294	str	51	こんな傷…梅干し{rt}を貼りつければ{rt}すぐに治るわ。	A scratch like{rt}this? Slap a pickled{rt}plum on it. Done.	
+D682C8	str	47	いいか、若造。{rt}これからは{rt}高齢化社会じゃよ	Listen, boy.{rt}The future belongs{rt}to the elderly.	
+D682F8	str	39	ぬううッ…。{rt}どうせお先短い{rt}身よ…。	Nnngh...{rt}Well, I haven't{rt}long left anyway...	
+D68320	str	31	手強い奴…。{rt}だが、負けぬわ。	A tough one...{rt}But I won't lose.	
+D68340	str	43	お前も我らが{rt}孤独、味わうが{rt}いいさッ。	You can taste{rt}our loneliness{rt}too!	
+D6836C	str	35	儂らを年寄りだと{rt}侮った罰じゃ！！	That's for{rt}scorning us oldies!!	
+D68390	str	51	年長者にこんな{rt}事をしていいと{rt}思っておるのかッ	You think it's{rt}fine to treat{rt}your elders so!?	
+D683C4	str	47	どうじゃな！？{rt}「若さ」は盾に{rt}なったかの？	Well!?{rt}Did "youth"{rt}shield you?	
+D683F4	str	19	ひゃっひゃッ！！	Hya hya!!	
+D68408	str	39	と、年寄りに{rt}なんちゅう{rt}事をッ！！	Wh-what a thing{rt}to do to an{rt}old man!!	
+D68430	str	31	若造がッ！！{rt}舐めおってッ。	Whelp!!{rt}Mocking me!	
+D68450	str	35	ボクにその{rt}《力》を{rt}渡せよッ！！	Give me{rt}that Power!!	
+D68474	str	47	ソレのためなら{rt}ボクは手段を{rt}選ばないッ！！	For that, I'll{rt}stop at{rt}nothing!!	
+D684A4	str	31	遠慮無くやらせて{rt}もらうよ！！	I won't hold{rt}back!!	
+D684C4	str	27	素直じゃない{rt}キミに…。	For someone as{rt}stubborn as you...	
+D684E0	str	43	一秒の油断が{rt}キミの命とり{rt}になるよッ！！	One second off{rt}guard will{rt}cost you your life!!	
+D6850C	str	27	あいつを抑え{rt}つけろッ！！	Hold that one{rt}down!!	
+D68528	str	11	行けッ！！	Go!!	
+D68534	str	43	（ちッ、{rt}　やっぱりまだ{rt}　足りない――）	(Tch, still{rt} not{rt} enough--)	
+D68560	str	27	まだだッ。{rt}諦めないぞッ。	Not yet.{rt}I won't give up.	
+D6857C	str	51	ほーら、見なよ。{rt}《力》はキミの{rt}味方じゃない。	See? Look.{rt}That Power isn't{rt}on your side.	
+D685B0	str	47	渡さないから奪う{rt}―――キミが{rt}悪いんだぜ？	You won't give it,{rt}so I'll take it--{rt}your own fault.	
+D685E0	str	51	しつこい奴だ！！{rt}ボクの一番嫌いな{rt}タイプだッ！！	So persistent!!{rt}The type I hate{rt}most!!	
+D68614	str	35	ボクを甘く見ない{rt}ほうがいいな…。	You'd better not{rt}underestimate me...	
+D68638	str	47	その《力》はキミ{rt}が持つべきもの{rt}じゃない…。	That Power isn't{rt}something you{rt}should have...	
+D68668	str	43	諦めなよ。{rt}でないと、死ぬ{rt}事になるぜ？	Give up.{rt}Or else you'll{rt}end up dead.	
+D68694	str	51	くくッ。ボクが{rt}諦めると思ったら{rt}大間違いだッ。	Heh. If you think{rt}I'll give up,{rt}you're dead wrong.	
+D686C8	str	43	どうだい？{rt}ボクの《力》の{rt}強さはッ！？	Well?{rt}How strong{rt}is my Power!?	
+D686F4	str	39	これくらい{rt}慣れっこ…って{rt}感じだね？	Looks like you're{rt}used to this{rt}sort of thing.	
+D6871C	str	39	ますます欲しく{rt}なったよ、{rt}その力ッ。	Now I want that{rt}Power even{rt}more!	
+D68744	str	35	こんなんじゃ、{rt}話にならないねッ	This is{rt}pathetic!	
+D68768	str	19	ＳＹＡＡＡッ！！	SYAAA!!	
+D6877C	str	51	（この翼が生む{rt}　魔風ッ―――{rt}　受けてみろッ）	(Feel the demon{rt} wind these{rt} wings stir up--)	
+D687B0	str	31	（だめだね。{rt}　手遅れだ。）	(No good.{rt} Too late.)	
+D687D0	str	47	（キミが人間で{rt}　ある以上、{rt}　勝てないよ…）	(As long as{rt} you're human,{rt} you can't win...)	
+D68800	str	43	（さあッ、{rt}　逃げ回って{rt}　みせろよッ。）	(Go on,{rt} run around{rt} for me!)	
+D6882C	str	35	（ボクのために{rt}　戦ってこいッ）	(Go and fight{rt} for me!)	
+D68850	str	11	…………。	............	
+D6885C	str	47	（勝てない…。{rt}　なぜだ？{rt}　教えてくれッ）	(I can't win...{rt} Why?{rt} Tell me!)	
+D6888C	str	51	（いよいよだ！！{rt}　その《力》が{rt}　ボクのに！！）	(At last!!{rt} That Power{rt} will be mine!!)	
+D688C0	str	19	ＧＩＩＩＩッ！！	GIIII!!	
+D688D4	str	47	（なぜだッ！？{rt}　なぜ倒れ{rt}　ないんだッ？）	(Why!?{rt} Why won't{rt} you fall?)	
+D68904	str	47	（ボクの視界から{rt}　キミは{rt}　逃げられない）	(You can't{rt} escape my{rt} sight)	
+D68934	str	15	ＧＲＲＲＲ…。	GRRRR...	
+D68944	str	51	（ボクから見たら{rt}　君なんて小動物{rt}　同然さ。）	(To me, you're{rt} no better than{rt} a small animal.)	
+D68978	str	15	ＧＵＵＵＵ…。	GUUUU...	
+D68988	str	51	（ひゃははッ！！{rt}　もろいねぇ…{rt}　人間って！！）	(Hya ha ha!!{rt} So fragile...{rt} humans!!)	
+D689BC	str	31	（なあに、{rt}　小手調べさ。）	(Relax,{rt} just a warm-up.)	
+D689DC	str	15	ＧＵＵッ…。	GUU...	
+D689EC	str	31	（かすった…{rt}　だとッ！？）	(It grazed{rt} me!?)	
+D68A0C	str	27	朽ち果てるが{rt}いいッ！！	Rot away{rt}to nothing!!	
+D68A28	str	27	腐れて土へ{rt}返れェッ！！	Rot and return{rt}to the earth!!	
+D68A44	str	47	死者を粗末にする{rt}事こそ《罪》{rt}じゃないの？	Isn't disrespect{rt}for the dead the{rt}real Sin?	
+D68A74	str	27	あんた、準備は{rt}いいかい？	You ready,{rt}dear?	
+D68A90	str	47	今度はどんな{rt}ふうに殺して{rt}やろうかねッ！！	How shall I kill{rt}you this time,{rt}I wonder!!	
+D68AC0	str	47	死ぬ時の事を{rt}考えてたら何も{rt}できないよッ。	If you think about{rt}dying, you can't{rt}do anything.	
+D68AF0	str	23	梓を{rt}出せェェッ！！	Hand over{rt}Azusaaa!!	
+D68B08	str	15	梓ァァァァ！！	Azusaaaa!!	
+D68B18	str	35	俺たちは…{rt}悪くない{rt}のにッ！！	We did{rt}nothing{rt}wrong!!	
+D68B3C	str	43	さァて、次は…{rt}アカガネ、{rt}おまえだァ！！	Now then, next...{rt}Akagane,{rt}it's you!!	
+D68B68	str	39	あァ、{rt}すっきりしたッ。{rt}ひひひひ…。	Aah,{rt}that felt good.{rt}Hee hee hee...	
+D68B90	str	51	俺たちはもう死ん{rt}でるんだ。何も{rt}恐くはない！！	We're already{rt}dead. Nothing{rt}scares us!!	
+D68BC4	str	27	あんた、大丈夫{rt}かいッ？	You all right,{rt}dear?	
+D68BE0	str	39	咒符などで{rt}やられて{rt}たまるかァ！！	As if a talisman{rt}could finish{rt}me off!!	
+D68C08	str	51	死人を裁ける法{rt}なんてどこにも{rt}ありはしないよ。	No law anywhere{rt}can judge{rt}the dead.	
+D68C3C	str	43	親子関係に{rt}口出しせんで{rt}もらおうかッ！！	Keep your nose{rt}out of family{rt}business!!	
+D68C68	str	43	おまえたちも{rt}仲間にして{rt}やろうかいッ？	Shall we make{rt}you one of us{rt}too?	
+D68C94	str	35	あッ…あんた、{rt}目玉が落ちたよ。	Oh... dear,{rt}your eyeball fell out.	
+D68CB8	str	35	ぎゃあああッ！！{rt}ど、胴がああ！！	Gyaaah!!{rt}M-my torso!!	
+D68CDC	str	27	…ウウウ。{rt}…腕がァ！！	...Uuugh.{rt}...My arm!!	
+D68CF8	str	35	（おまえたち、{rt}　弱すぎるぞッ）	(You lot{rt} are too weak!)	
+D68D1C	str	47	（《大罪》の焔で{rt}　燃えぬものは{rt}　無い！！）	(Nothing escapes{rt} the flames of{rt} Great Sin!!)	
+D68D4C	str	15	ＧＡＯＯＮ！！	GAOON!!	
+D68D5C	str	19	ＧＲＯＯＮッ！！	GROON!!	
+D68D70	str	19	ＧＯＯＯＵッ！！	GOOOU!!	
+D68D84	str	15	ＧＡＵＵッ！！	GAUU!!	
+D68D94	str	27	（良かったな、{rt}　梓…。）	(I'm glad{rt} for you, Azusa...)	
+D68DB0	str	31	（これで―――{rt}　いいんだ。）	(This is--{rt} how it should be.)	
+D68DD0	str	35	（勝てるまで来る{rt}　がいい…。）	(Come back till{rt} you can win...)	
+D68DF4	str	15	ＯＯＯＮッ！！	OOON!!	
+D68E04	str	19	（迷うなッ！！）	(Don't hesitate!!)	
 D68E18	str	35	（手加減するな。{rt}　全力で来い。）		
 D68E3C	str	43	（かかって来い。{rt}　そして俺を{rt}　倒せ。）		
 D68E68	str	55	（それしきの力で{rt}　《大罪》を封印{rt}　できるのか？）		
