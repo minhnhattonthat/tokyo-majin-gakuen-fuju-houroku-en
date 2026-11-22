@@ -36,11 +36,11 @@ its usage limit); `tools/gfx_zoom.py` re-renders any asset at chosen widths. Wid
 ### Japanese elements found (rows to redraw; widths in parentheses are the sweep's guess)
 | # | Offset | Element |
 |---|---|---|
-| S1 | 0xA4DACC | card class labels (魔の使い, 神速の剣士, 聖女, 弓使い, 忍者...) |
-| S2 | 0xA50CA4 | large prerendered text block (card descriptions?) - wrong width, find real one |
-| S3 | 0xA8B5CC, 0xAA1C0C, 0xAB5F0C, 0xABF16C, 0xAC6B4C | small prerendered text (wrong width) |
-| S4 | 0xA9660C | location names (寛永寺, 江戸川大橋, 新宿中央公園, 如月骨董品店...) |
-| S5 | 0xAA3C8C, 0xAB92EC, 0xAC024C | card/skill names (気脈の流れ, 一刀両断, 影武者...) |
+| S1 | 0xA4DACC | card name labels of the **large card view** (L on a hand card): 112x16 4bpp, 14x2 tiles row-major, 0x380 B, palette 0xB08C6C (12 black, 13/14 greys, no rim). Character card i (records 0xD7ADE8, 0x1C B, word 0 = class string in cf.tsv) has label i, 282 labels; S2 0xA50CA4 lies inside this block. **English** (group card_classes, `tools/gfx_cards.py`, text = the cf.tsv `en` of the same string; "Giant Bat" seen in game, `work/qa/cls5`) |
+| S2 | 0xA50CA4 | part of S1 (not a separate block) |
+| S3 | 0xA8B5CC, 0xAA1C0C, 0xAB5F0C, 0xABF16C, 0xAC6B4C | **40x8 mini name labels**, 0xA0 B (5 tiles) a card, one block right after each S1/S4/S5 block in the same order; shown on the card thumbnail at the top of the battle panel (大蝙蝠 above the art). Not redrawn yet (needs a tiny pixel font) |
+| S4 | 0xA9660C | land card labels (52, list 0xD7D2D0), S1 format: **English** (card_classes) |
+| S5 | 0xAA3C8C spells (83, list 0xD7D5E0), 0xAB92EC possessions (27, 0xD7D4FC), 0xAC024C barriers (30, 0xD7D568) | S1 format, zero list entries have blank labels: **English** (card_classes; 再生 / 外法 entries point at the 4-letter ability abbreviations, the label gets Renew / Heresy). Rendered only: no non-character card was opened large in game |
 | S6 | 0xACCCCC 対 (64x64); 0xACD4EC 壱弐参四伍 (ten 32x32 OBJs, blue then red); 0xACE90C 先手/後手 (64x32 plates) | battle UI, sprite table 0xD814C8 (12 B entries: tiles, palette, map/anim): **English** (group battle_ui, `tools/gfx_battle.py`): FIRST / SECOND and the numerals 1-5 seen in game (turn-order pick from `board_turn.mss`); VS rendered only (not loaded in a 12 000-frame battle: link battle?) |
 | S7 | 0xAE5FDC, 0xAEA8AC, 0xAEF17C, 0xAF3A4C, 0xAF831C; small 0xB021EC-0xB0646C | cards with 壱-伍 numerals. The ten 8bpp 64x64 turn-order cards (blue 0xB021EC.., red 0xAFCC4C..; palette = 0xA0 B before the tiles) have the badge redrawn as 1-5 (`cardnum`, seen in game; `tools/debug/cardnums.py`). The ten large cards (8bpp 112x160 = 14x20 tiles in row order, screen-table entries 0xD815A0..; blue 0xAE5FDC 0xAEA8AC 0xAEF17C 0xAF3A4C 0xAF831C with 80-colour palettes, red 0xACF24C 0xAD3BBC 0xAD852C 0xADCE9C 0xAE180C with 160; palette right before the tiles, indexed directly) have the numeral painted on the art: **English** (`bigcard`, glyph area inpainted, digit in the same ink with a white rim; seen in game at the turn-order draw, `work/qa/bigcard/zoom.png`) |
 | S8 | 0xB0AAAC, 0xB1AC8C, 0xB43A38 | small labels (zoom to read) |
@@ -63,9 +63,9 @@ its usage limit); `tools/gfx_zoom.py` re-renders any asset at chosen widths. Wid
 | S24 | 0xD23140 | title logo plus furigana とうきょうまじんがくえん ふじゅほうろく (with G3) |
 | S25 | 0xD280D0 (8 wide); 0xD2F0D8, 0xD30448 (shredded) | brush-lettered titles (need the tilemap or an in-game shot) |
 | S26 | 0xD2A248 (8bpp, 1998 6.18 date + kanji); 0xD35868 (8bpp UI with kana/kanji) | full-screen BG tilesets, deduped: read in game |
-| S27 | 0xD3C1F8 | rarity legend 高:紫色 ↕:金色 低:銀色: 64x64 4bpp OBJ (8x8 tiles in row order, palette 0xD3C1D8, size 0x800 in the (ptr, size) table at 0xD63960 next to 0xD48F78 and 0xD451F8 S28). **English** "Hi:Violet / ↕:Gold / Lo:Silver" (kind `legend` in battle_ui; rendered only, screen not yet found in game) |
+| S27 | 0xD3C1F8 | rarity legend 高:紫色 ↕:金色 低:銀色: 64x64 4bpp OBJ (8x8 tiles in row order, palette 0xD3C1D8, size 0x800 in the (ptr, size) table at 0xD63960 next to 0xD48F78 and 0xD451F8 S28). **English** "Hi:Violet / ↕:Gold / Lo:Silver" (kind `legend` in battle_ui; **seen in game** in the battle tutorial's card page, `work/qa/tut1` f2000) |
 | S28 | 0xD451F8 (16x16 icon + kanji pairs) | card type icons 術 武 ... |
-| S29 | 0xD53CD8, 0xD57D48, 0xD59218, 0xD5A748, 0xD5E538, 0xD5F1A8 | window frames with label tiles (シンボル, 背景, 属性, ジャンル ...): card/deck info screens, read in game |
+| S29 | 0xD53CD8, 0xD57D48, 0xD59218, 0xD5A748, 0xD5E538, 0xD5F1A8 | **battle tutorial overlays**: screen table of (palette, size)(tiles, size)(map, 0xA000F0 = 240x160) pair triples 0xD63288-0xD635F8 (`work/gfx/d63/sheet.png`); callouts シンボル / 背景 / 五行属性, highlight copies of panel pieces 青葉, 格闘家, 【吹飛】【庇う】, 1貫通2必殺3変生, 40D受けた時 + stat line, and small captions (50で攻撃, でダメージを30軽減, 人物符は 魑尼で1貫通 能力を得る). The tutorial's card panel under them is the 8bpp screen 0xD35868 (S26, 806 tiles, entry 0xD635E8) plus 0xD333B8 (0xD635D0): all Japanese, seen in `work/qa/tut1` f2000-f2450. Not redrawn yet: must match the English panel's wording (class / land names and the 4-letter ability abbreviations of cf.tsv, "Took 40 dmg") |
 
 ### Screens reached with the debug tool (phase 2; `python -X utf8 tools/debug/warp.py <row>`)
 Seen in warp shots; whether each label is tiles or font text is settled in phase 8 by a VRAM dump of the row.

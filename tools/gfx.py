@@ -554,13 +554,19 @@ def captions(rom):
     return gfx_captions.captions(rom)
 
 
+def card_classes(rom):
+    """card class labels of the large card view (S1): tools/gfx_cards.py"""
+    import gfx_cards
+    return gfx_cards.card_classes(rom)
+
+
 GROUPS = {'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': dungeon_menu,
           'room_banners': room_banners, 'floor_numerals': floor_numerals, 'signs': signs,
           'settings_screen': settings_screen, 'haiku_screen': haiku_screen, 'deck_name_screen': deck_name_screen,
           'name_entry_screen': name_entry_screen, 'shop_list_screen': shop_list_screen, 'deck_edit': deck_edit, 'plaques': plaques,
           'banners': banners, 'battle_ui': battle_ui, 'captions': captions,
           'end_card': end_card, 'chapter_cards': chapter_cards,
-          'profile_screens': profile_screens}
+          'profile_screens': profile_screens, 'card_classes': card_classes}
 
 
 def apply(rom):
