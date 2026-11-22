@@ -346,7 +346,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   story speaker tag uses the tag's EN when it fits 94 px; otherwise a short card form (the tag stays long in the
   story): 妖刀使い Cursed Blade, 狐火の遊女 Foxfire Belle, からくり師 Clockmaker, 陰/陽の武道家 Yin/Yang Fighter,
   流浪の剣士 Wandering Blade, 薫風の乙女 Breeze Maiden, 桃園の乙女 Peach Maiden, 常世の唄姫 Tokoyo Diva, 紅の熱血漢
-  Red Hothead, 巫女 cards X Miko, 符術士 Talisman Mage, 神速の剣士 Swift Blade (tools/fit.py card_name).
+  Red Hothead, 巫女 cards X Miko, 符術士 Talisman Mage, 神速の剣士 Lightning Blade (keeps the tag's "Lightning"; tools/fit.py card_name).
   Yes/no option line: `[81][40]Yes[81][40]No` (raw glyph pairs pass the batch check as text).
 - D6/D7 system text (b097-b107): attack types 拳 Fist, 武 Arms, 飛 Ranged, 術 Art, 氣 Ki; 陰陽属性 alignment, 陰 Yin, 陽
   Yang; elements 木 Wood, 火 Fire, 土 Earth, 金 Metal, 水 Water; statuses 麻痺 Stun, 毒 Poison, 睡眠 Sleep, 呪詛 Curse.

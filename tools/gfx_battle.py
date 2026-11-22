@@ -314,6 +314,28 @@ def panel(rom, off, text):
     return gfx.encode(px, 6)
 
 
+def phaseplate(rom, off, text):
+    """64x32 block (S8) holding two 45x14 plaques at y 0 and 16: the battle panel's phase plaque 戦闘 (0xB0AAAC) /
+    開始 (0xB0AEAC), red (interior 3) and pink (9) copies, OBJ bank 13. White ink 15, anti-alias 11, dark 8 for
+    the lower-right shadow, like the JP glyphs. The interior (x 1-43, y 1-12) is refilled, the text centred."""
+    px = gfx.decode(rom[off:off + 0x400], 8, 32)
+    m = mask(text, 38, 9, maxsize=13)
+    for y0 in (0, 16):
+        bg = px[y0 + 1][1]
+        for y in range(y0 + 1, y0 + 13):
+            for x in range(1, 44):
+                px[y][x] = bg
+        x0, ty = 22 - m.width // 2, y0 + 3
+        a = m.load()
+        ink = {(x0 + x, ty + y): a[x, y] for y in range(m.height) for x in range(m.width) if a[x, y] >= 90}
+        for (x, y) in ink:
+            if (x + 1, y + 1) not in ink and x + 1 < 44 and y + 1 < y0 + 13:
+                px[y + 1][x + 1] = 8
+        for (x, y), c in ink.items():
+            px[y][x] = 15 if c >= 170 else 11
+    return gfx.encode(px, 8)
+
+
 def battle_ui(rom):
     out = []
     for r in gfx.rows('battle_ui'):
@@ -336,6 +358,8 @@ def battle_ui(rom):
             data = vs(rom, off, r['en'])
         elif r['kind'] == 'panel':
             data = panel(rom, off, r['en'])
+        elif r['kind'] == 'phaseplate':
+            data = phaseplate(rom, off, r['en'])
         else:
             raise ValueError(r['kind'])
         rom[off:off + len(data)] = data

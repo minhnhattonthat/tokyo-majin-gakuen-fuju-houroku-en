@@ -3,7 +3,7 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 13),
-  sha1 e5d5613af5fd..; check.py 37 passed, smoke ok.
+  sha1 c4b081c5be0c..; check.py 37 passed, smoke ok.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -135,12 +135,16 @@ Updated at the end of every session. Keep it to what the next session needs; his
   into stale tiles, and its open bracket uses the 【 glyph's right half. New `¦` unit break in script text (vwf.py
   UNIT_BREAK), D654D0 = `  【¦】`, 32 label rows reworded to one unit + icon / two units (fit.py `label_problems`;
   `docs/re/text.md` §Battle card panel ability labels; glossary updated). New probe `tools/debug/dstlog.lua`.
-- **Next (phase 8):** (2) S3 mini labels (40x8, 0xA0 B a card,
-  needs a tiny pixel font or abbreviations; same tables as gfx_cards). (3) S29 tutorial overlays + tutorial panel
-  0xD35868/0xD333B8 (match the English panel). (4) the red 戦闘 phase plaque top right of the battle panel (and its
-  other phases) and the 陰/陽 badge on the panel: find with objsrc.py on `work/qa/ghost/ppu`. (5) Consistency:
-  class names differ between cards and story speaker tags (神速の剣士 = cf "Swift Blade" vs A2.0 "Lightning
-  Swordsman"; 歪んだ格闘家 matches): pick one per glossary. Remaining graphics
+  **Phase plaques** 戦闘 -> BATTLE, 開始 -> START (S8, kind `phaseplate` in `gfx/battle_ui.tsv`, 0xB0AAAC /
+  0xB0AEAC, red + pink copy each; the only two in that sprite area): BATTLE seen in game
+  (`work/qa/plaque_en/z.png`), START rendered only (`work/qa/plaque/en.png`). Card 神速の剣士 -> "Lightning Blade"
+  (matches the story tag; glossary). **Found:** the 陰/陽 badge on the panel is text icon 24/25 of the icon sheet
+  0xACA06C (16x16, tiles TL TR BL BR, BG bank 15; `tools/debug/icons.py`), next to white 木火土金水 (6-10) and round
+  element icons (11-15): these are the {Innn} icons used inline in text too.
+- **Next (phase 8):** (1) icons: decide 陰/陽 and element kanji icons (decisions: English redraws by default; 16x16
+  is too small for words: pictograms or 1-2 letters, check every text use of {I005}-{I011}). (2) S3 mini labels
+  (40x8, 0xA0 B a card, needs a tiny pixel font or abbreviations; same tables as gfx_cards). (3) S29 tutorial
+  overlays + tutorial panel 0xD35868/0xD333B8 (match the English panel). Remaining graphics
   text: S19 leftovers 0xC6A2D8 (deck-editor window frame sheet:
   check for labels); find where VS / CLASH / Attack-Wait show (srclog.lua with SRC_LO=0x08ACCCCC over a longer or
   link battle); the name entry's kana grid (G7, English layout with the u16 grids below);
