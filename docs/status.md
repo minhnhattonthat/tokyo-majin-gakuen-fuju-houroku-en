@@ -4,8 +4,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 19; sessions 20-29 did not
   rebuild it, because the coverage runs use it; unbuilt there: session 22's 4 text edits, session 23's haiku fix,
-  session 24's tab-sprite fix + 2 text edits, sessions 26-29's graphics + D64260, session 30's D72710), sha1 82aef7599a18..; side
-  build with everything: `build.py --out work/next/tmgfh_en.gba` (sha1 cb3b225f..); check.py 38 passed.
+  session 24's tab-sprite fix + 2 text edits, sessions 26-29's graphics + D64260, session 30's D72710, session 31's
+  D72824/D72830/D728A8/D728D8/D728EC/D72958/D72A84/D72A94), sha1 82aef7599a18..; side
+  build with everything: `build.py --out work/next/tmgfh_en.gba` (sha1 6719c493..); check.py 38 passed.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -345,11 +346,32 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   there did not reach Next (cursor index differs), nor did 8 x (A, right, A) then 8 x left: find the Next focus
   on that screen (shot every 20 frames while pressing left), with count poked >= 5000 at frame 10
   (`pokeat.lua --var "POKES={[0x03003818]=5000}"`). Poking +0x38 = 7 on either pack screen did nothing.
-- **Next (phase 8):** (session 30 leads) the discard flow above (D72548, D726FC, D72C1C-D72C98, D72CB4+); then
-  D728xx-D72Cxx registration rules are printed
-  by code 0x0804AF4E-0x0804B0xx (0x08018B4C at x 0x70 y 0x50, when a state value == 6) that no route reached yet
-  (not the Trading Hall deck edit, not View All -> Trade): breakpoint 0x0804AFCE never hit. Sort badges AP-/AP+..
-  and kana-row badges still unshown.
+  Session 31 (2026-11-22, no rebuild; side build 6719c493..): **discard flow shown, all fit** (D724BC, D726FC,
+  D72528 + D72548 "5010 / cards now held. / 10 cards to discard.", D72C1C, D72C40, D72C70, D72C98, D72CB4, D72914).
+  The discard screen is the shop's Sell list with sub-mode 4: the switch at 0x08043272 on [0x030035B8]+0x34 (0 deck
+  edit 0x080464C9, 1 sell 0x08047D35, 2 0x0804808D, 3 link trade 0x0804D41D (bounces without a partner), 4 discard
+  0x08048375); the cap re-prompt runs when you press B with count > 5000 (state 6 handler 0x08048D70). Route
+  (`cover/p8s31_disc6`): shop_all.mss + `poke.lua POKES={[0x03003818]=5010} POKE_FROM=10 POKE_TO=12` + new
+  `tools/debug/setregs.lua SETS={[0x08043272]={0,4}}`, then the sell route; D72C40 (Dragon Heir) by also forcing
+  `[0x0804D912]={0,0},[0x0804D958]={0,-1}`. **Deck editor strings shown, all fit:** D721A8 (exit with 61),
+  D721E4, D722F4 (equip a copy), D7231C (7th copy), D72868 / D728BC (forced at 0x0804A788 r5=4 / 0x0804A77E r0=-1:
+  allcards has one of each card), D72AE8, sort badges AP-..Val+ (D7256C-D725B4) and kana-row badges Ha..Wa
+  (graphics too) in the Add Card sort list (`cover/p8s31_sort1`, `sort2`). **View All slot strip** (task
+  0x0804AD61): A on a card in View All -> slot cursor (left/right, wraps; slot 6 = trade list): D72984, D729A8/C0
+  (rare, forced 0x0804AFDA r4=-1), D729E8-D72A28 (in a deck), D72A84/A94 register, D72AA4/AB0 unregister, D72958,
+  D72A4C (forced 0x0804B15E r4=0; the count sprite "60" overlaps line 2 in JP too: original). States
+  `work/states/deck_add_view.mss` (per-deck Add Card, Two Swords view), `viewall_card.mss` (View All slot mode).
+  **Bug fixed (side build, seen):** the add/remove prompt joins D72824 + deck name + D72830/D728A8; VWF units take
+  16 px cells and the name starts after them, so "This card -> " pushed the name off the box. Now "Deck [name] /
+  gets this card." / "loses this card."; results D728D8/D728EC "got / lost this card." (`work/qa/p8s31_deckfix/z.png`).
+  Also reworded D72A84/94 "Register it as / a trade card.", D72958 "Will be unlisted." (story gate verdicts
+  zz_recheck31*, gate 0 open). New `tools/debug/covframes.py RUN ID..` (first frame + shot of each id in a cover run).
+  System unshown now 136, 32 of them haiku rows D168-D16F (list `work/qa/p8s29/unshown.py`): CF64E8-CF7340 land/spell names + short labels, D652xx
+  (value points gained, link error), D678D4/D6790C (Truce destroyed), D16 haiku rows, and link-cable / link-trade
+  texts (D6E3xx, D72490, D726E8, D72B20-D72BF8, D78E04-D79138: waive, need a partner).
+- **Next (phase 8):** (session 31 leads) D652C0/D652E4 "Gained 15/30 value points" + D652AC "obtained!" (post-battle
+  reward? find the caller with `disasm.py xref`), D678D4/D6790C/D67964 (Truce spell destroyed: battle), CF6xxx land /
+  spell names (card panel of those cards: View All tabs Land / Spell list them?), CF7240-CF7340 short labels.
   Earlier: (A) text coverage: the branch pass was resumed again in session 22 (`--jobs 4`, log
   `work/qa/cover_branches.log`; resumed again in sessions 23 and 24: branch0-2 done, branch3+ (A scenes only) running
   when session 24 ended). A rebuild moves 12 207 string addresses (scenes re-pack), so after the rebuild the whole
@@ -361,9 +383,8 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   waive with a note naming the changed rows). System strings left (228 after session 23, total 4 781 of 17 151; list them with
   `cover.shown_ids()` against `work/qa/cover/strings.tsv`): CF64E8-CF7340 short labels and land/spell names,
   D720A0-D72C98 sell / trade-registration / discard prompts (sell: from `work/states/shop_all.mss`, flow in session
-  24; trade registration = pack-opening screen; discard = count > 5000 after a battle reward (session 30); still
-  unshown: D728xx-D72Cxx registration rules; sell-all of trade cards shown in session 30), sort badges AP-/AP+.. (sort popup), kana-row badges
-  (scroll a name-sorted list), sutra board sin descriptions: 8 of 9 shown (`cover/board_sins`: board.mss, cursor
+  24; trade registration = pack-opening screen and View All slot 6; discard, registration rules, sort and kana-row
+  badges all shown in session 31; left: link-trade only), sutra board sin descriptions: 8 of 9 shown (`cover/board_sins`: board.mss, cursor
   move + A on each label); Theft D78850 not yet (find its label's cursor path),
   (D78990-D78C8C shop booster purchase: done in session 29), D6526C link error / D6E3D4 sync test / D78E04-D79138 link cable
   (waive: needs a second GBA). For each menu: `tools/debug/covrun.py NAME --state-in S --route-str ".."`.

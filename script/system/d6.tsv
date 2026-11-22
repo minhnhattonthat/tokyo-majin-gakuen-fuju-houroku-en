@@ -1477,21 +1477,21 @@ D727EC	str	11	所持枚数	Owned
 D727F8	str	19	　　　　　　　　	[81][40][81][40][81][40][81][40][81][40][81][40][81][40][81][40]	
 D7280C	str	3	～	-	
 D72810	str	19	　　枚中　　枚目	[81][40][81][40] held, #[81][40][81][40]	counts drawn at fixed units 0-1 / 4-5 (JP n枚中 m枚目); ' held, #' keeps the 4-unit filler
-D72824	str	11	この符を	This card -> 	
-D72830	str	19	に{rt}登録します。	{rt}will be added.	
+D72824	str	11	この符を	Deck 	joined: this + deck name (4 u16, full-width cells) + D72830/D728A8; the name starts after this row's units (16 px each), so keep it <= 2 units (session 31: 'This card -> ' pushed the name off the box)
+D72830	str	19	に{rt}登録します。	{rt}gets this card.	
 D72844	str	19	よろしいですか？	Are you sure?	
 D72858	str	7	はい	Yes	
 D72860	str	7	いいえ	No	
 D72868	str	63	一つの符咒には、{rt}同名の符を{rt}４枚までしか{rt}登録できません。	A deck can hold{rt}at most four{rt}cards of the{rt}same name.	
-D728A8	str	19	{rt}から削除します。	{rt}will be removed.	
+D728A8	str	19	{rt}から削除します。	{rt}loses this card.	
 D728BC	str	27	これ以上{rt}登録できません。	No more can{rt}be added.	
-D728D8	str	19	に{rt}登録しました。	{rt}was added.	
-D728EC	str	23	から{rt}削除しました。	{rt}was removed.	
+D728D8	str	19	に{rt}登録しました。	{rt}got this card.	
+D728EC	str	23	から{rt}削除しました。	{rt}lost this card.	
 D72904	str	15	現在の登録数は	Registered now:	
 D72914	str	11	枚です。	 cards.	
 D72920	str	19	を選択中{rt}登録枚数	 selected{rt}Registered	
 D72934	str	35	Ａボタンで登録を{rt}削除できます。	A Button removes{rt}the entry.	
-D72958	str	15	登録を削除して	Remove the entry,	
+D72958	str	15	登録を削除して	Will be unlisted.	after the trade-card icon, above D72968 'A Button adds it.' (deck slot help when the card is listed for trade; adding it to a deck drops the listing, seen session 31)
 D72968	str	27	Ａボタンで{rt}登録できます。	A Button{rt}adds it.	
 D72984	str	35	売買用の符を設定{rt}する場所です。	Set cards for{rt}trading here.	
 D729A8	str	23	この符は{rt}稀少符です。	This card{rt}is rare.	
@@ -1504,8 +1504,8 @@ D72A28	str	15	して下さい。	for trade.
 D72A38	str	19	よろしいですか？。	Are you sure?	
 D72A4C	str	35	この符はすでに{rt}登録されています	This card is{rt}already registered	
 D72A70	str	19	から{rt}削除します。	{rt}will be removed.	
-D72A84	str	15	売買符として	As a trade card,	
-D72A94	str	15	登録します。	register it.	
+D72A84	str	15	売買符として	Register it as	
+D72A94	str	15	登録します。	a trade card.	
 D72AA4	str	11	売買登録を	Its trade entry	
 D72AB0	str	15	削除します。	will be removed.	
 D72AC0	str	11	＜登録＞{rt}	<Add>{rt}	
