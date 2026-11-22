@@ -8,7 +8,7 @@ Tour: `tools/routes/tour1.txt` (cold boot -> opening) and `tools/routes/mash_a.t
 | G1 | boot | シャウトデザインワークス logo | raw tiles, region 0xD23000.. | tour f000900 |
 | G2 | boot | マーベラスインタラクティブ logo | raw tiles, 0xD23000.. | tour |
 | G3 | title | 東京魔人學園 符咒封録 logo | raw 4bpp 0xD1BF50-0xD2DA47 (vramfind, `work/qa/ppu_title`) | keep JP unless an official EN logo exists (D5) |
-| G4 | title | 始めから / 続きから / 通信 / 設定 / 通信対戦 / 通信交換; PUSH START | **verified in sweep**: 0xD25E50 (0xC00, 4bpp, 4 cols), PUSH START 0xD25B30 | |
+| G4 | title | 始めから / 続きから / 通信 / 設定 / 通信対戦 / 通信交換; PUSH START | **verified in sweep**: 0xD25E50 (0xC00, 4bpp, 4 cols), PUSH START 0xD25B30 | **English (phase 8 pilot)**: `tools/gfx.py` group title_menu, `gfx/title_menu.tsv`; shot `work/qa/gfx_title/menu_zoom.png` |
 | G5 | story | vertical scene captions (暗黒の渦――, etc.) | sweep candidates S9/S10 below | tour f008880 |
 | G6 | name entry | 名前は？, 苗字, 名前, 進む 戻る 終了, かな カナ 漢字 | tiles (苗字/漢字 absent from text); sweep S19 likely | `docs/screenshots/name_entry_jp.png` |
 | G7 | name entry | kana grid | text table 0xD72FCC (font) | needs an English layout |

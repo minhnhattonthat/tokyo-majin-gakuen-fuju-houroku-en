@@ -24,6 +24,8 @@ def allowed_ranges(orig, size):
           range(build.SPILL[0], size),                       # SPILL, then the hook code, width table and font
           range(vwf.GLYPH_FN, vwf.GLYPH_FN + 12),
           range(vwf.B_FN, vwf.B_FN + 12)]
+    import gfx
+    rs += [range(a, b) for a, b in gfx.apply(bytearray(orig))]   # graphics-text redraws
     for s in strslots.scan(orig):
         rs.append(range(s.addr, s.addr + s.cap))
         rs += [range(r, r + 4) for r in s.refs]

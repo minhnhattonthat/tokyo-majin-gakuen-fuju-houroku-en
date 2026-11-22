@@ -22,10 +22,19 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **How:** fit lint `tools/fit.py` (budgets from `tools/windows.tsv`); after any `en` edit run `tools/check.py`,
   then `tools/story.py` + `qa_gate.py init` on the story manifest and add a verdict line for each changed sheet.
   No subagents in Orca workers; codex rate-limited until 2026-11-26.
-- **Next (phase 8):** the screen tour per `references/emulator-qa.md`: warp every `tools/debug/scenes.tsv` row on the
-  English build, contact sheets through `qa_gate.py` (visual QA needs read-only subagents, so a non-Orca session or
-  the coordinator's agents); graphics-text redraws (chapter cards, place-name strips, 邪気封印 card art, emblems,
-  rarity legend, game over, credits); `inkbox.py` on choice/centred boxes; stress saves (needs save fields mapped);
+- **Phase 8 so far (2026-11-22):** graphics pipeline built: `tools/gfx.py` (groups read `gfx/<group>.tsv`, letter
+  with Liberation Sans Bold, `fonts/liberation`, OFL, onto the game's 16-step grey ramp with a dark rim; `build.py`
+  calls `gfx.apply` on the English build only; `tests/test_romdiff.py` allows its ranges). Pilot group title_menu
+  (G4) is English in game (`work/qa/gfx_title/menu_zoom.png`, selected item keeps its yellow palette). Full warp
+  tour of the English build into `work/qa/tour_en/` (`--states` regenerated `work/states/`); visual-QA brief with
+  this game's standing non-bugs in `docs/visual-qa-brief.md`.
+- **Next (phase 8):** `qa_gate.py init work/qa/manifest.tsv work/qa/tour_en --build build/tmgfh_en.gba` (a tour run
+  partly before the title-menu rebuild: text identical, re-run `title*` rows), the same tour on `rom/base.gba` into
+  `work/qa/tour_jp`, then visual-QA verdicts per chunk (`qa_gate.py todo ... --size 30`; read-only reviewer per
+  chunk, or `codex exec -s read-only` after 2026-11-26; in an Orca worker read the sheets in a fresh pass and keep
+  each chunk's verdicts in its own file); graphics-text redraws, next PUSH START (0xD25B30), then the other
+  `docs/re/graphics.md` rows (chapter cards, place-name strips, 邪気封印 card art, emblems, rarity legend, game
+  over, credits) as new `tools/gfx.py` groups; `inkbox.py` on choice/centred boxes; stress saves (needs save fields mapped);
   English name entry (u16 kana grids 0xD16740 / D6E56C / D72F00). Checks carried from phase 6: card-panel range
   CF24B0-CF2A00, battle-opponent name width (160 px), haiku list layout, sound test layout. The fit
   lint's unit budgets depend on the encoder built from all text, so an edit can push an old row over: run
