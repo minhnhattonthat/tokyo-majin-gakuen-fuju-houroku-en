@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 12),
-  sha1 adcea1280faf..; check.py 37 passed.
+- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 13),
+  sha1 e5d5613af5fd..; check.py 37 passed, smoke ok.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -130,7 +130,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
   S3 = 40x8 mini name labels (thumbnail on the battle panel), S29 = battle-tutorial overlays + its 8bpp card panel
   (details in `docs/re/graphics.md`). New state `work/states/hand_panel.mss` (hand phase, card panel up). check.py
   37 passed, smoke ok, build sha1 adcea1280faf..
-- **Next (phase 8):** (1) the open bug below (card panel ability row). (2) S3 mini labels (40x8, 0xA0 B a card,
+  Session 13 (2026-11-22): **card panel ability row fixed** (was "Aim 】 -- ▇ 】"; now "【Aim 】【 - - 】",
+  `work/qa/ghostfix/panel.png`): the panel draws exactly two cells per label, so 1-unit labels drew a NUL glyph
+  into stale tiles, and its open bracket uses the 【 glyph's right half. New `¦` unit break in script text (vwf.py
+  UNIT_BREAK), D654D0 = `  【¦】`, 32 label rows reworded to one unit + icon / two units (fit.py `label_problems`;
+  `docs/re/text.md` §Battle card panel ability labels; glossary updated). New probe `tools/debug/dstlog.lua`.
+- **Next (phase 8):** (2) S3 mini labels (40x8, 0xA0 B a card,
   needs a tiny pixel font or abbreviations; same tables as gfx_cards). (3) S29 tutorial overlays + tutorial panel
   0xD35868/0xD333B8 (match the English panel). (4) the red 戦闘 phase plaque top right of the battle panel (and its
   other phases) and the 陰/陽 badge on the panel: find with objsrc.py on `work/qa/ghost/ppu`. (5) Consistency:
@@ -181,14 +186,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   engine widening if the tour shows clipping.
 - **Gaps in the debug tool (non-blocking, close before phase 8):** no normal path to the sound test (`sound_test`
   warps to mode 20). Save fields beyond names and chapter (cards, deck, money) unmapped; needed for stress saves.
-- **Open bugs:** **card panel ability row** (battle, English build only): JP 【狙い】【－－】 reads "Aim 】 -- ▇ 】":
-  the 【 halves are blank and the second slot's trailing cell shows a dark stale glyph, with a second ghost under
-  it on the 1Drn row. BG0 map (screen 0xF800) rows 10-11, cols 23-24 hold tiles 0x39-0x3C with **palette bank 0**
-  (the VWF hook always writes bank 12, so another writer sets them); English allocates tiles from 0x2D where JP
-  starts at 0x29 (4 more tiles used earlier), so those tiles hold stale pixels. Repro: `emu.py build/tmgfh_en.gba
-  --state-in work/states/board_turn.mss --route work/qa/bd/rand.txt --frames 1602 --script tools/debug/ppuat.lua
-  --var AT=1600` (JP: same on rom/base.gba; dumps in `work/qa/ghost_base`, `work/qa/ghost_tmgfh_en`, shot
-  `work/qa/cls6jp/sheet.png`). Next step: watch writes to VRAM 0x0600F800 + 2*(10*32+23) to find the writer.
+- **Open bugs:** none.
 - **Waiting on the user:** Non-blocking: staff-roll name readings (B39.0001-0064) are romanized from the kanji
   without a source; B39.0020's 﨤町 孝 ("Takashi Hazamachi") is a guess. Corrections welcome. Non-blocking: B04 shows a girl-player branch ({name2}-chan rows, B04.0174 老爺と少女), so
   the player's gender may be selectable; the glossary note "player is male" was softened to "neutral where the JP

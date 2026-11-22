@@ -57,6 +57,8 @@ CHAR_BYTE.update({ch: 0x80 + i for i, ch in enumerate(EXTRA)})
 NORMALIZE = {'　': ' ', '！': '!', '？': '?', '～': '~', '・': '·'}
 
 _TOKEN = re.compile(r'\{([^{}]+)\}|\[([0-9A-F]{2})\]')
+UNIT_BREAK = '¦'               # script text: ends a unit here; a 1-4 char segment between breaks is one unit
+                               # (forced into the dictionary), e.g. D654D0 '  【¦】' puts 【 in the right half
 
 
 # ---------------------------------------------------------------- font
@@ -154,14 +156,24 @@ def split(s):
     """script text -> list of ('lit', str) / ('raw', bytes): codes {..} and [XX] become raw bytes"""
     import textcodec
     out, pos = [], 0
+
+    def lit(t):
+        out.extend(('lit', normalize(p)) for p in t.split(UNIT_BREAK) if p)
     for m in _TOKEN.finditer(s):
         if m.start() > pos:
-            out.append(('lit', normalize(s[pos:m.start()])))
+            lit(s[pos:m.start()])
         out.append(('raw', textcodec.encode(m.group(0))))
         pos = m.end()
     if pos < len(s):
-        out.append(('lit', normalize(s[pos:])))
+        lit(s[pos:])
     return out
+
+
+def forced_units(s):
+    """segments of s set off by UNIT_BREAK that must each be one unit (2-4 characters)"""
+    if UNIT_BREAK not in s:
+        return []
+    return [normalize(p) for p in _TOKEN.sub(UNIT_BREAK, s).split(UNIT_BREAK) if 1 < len(p) <= 4]
 
 
 def has_vwf(s):
@@ -199,7 +211,8 @@ class Encoder:
                     g = r[i:i + n]
                     count[g] = count.get(g, 0) + 1
         ranked = sorted(count, key=lambda g: (-count[g] * (len(g) - 1), g))
-        self.dict = set(singles) | set(ranked[:NCODES - len(singles)])
+        forced = sorted({g for t in texts for g in forced_units(t)})
+        self.dict = set(singles) | set(forced) | set(ranked[:NCODES - len(singles) - len(forced)])
         self._cache = {}
         used = set(singles)
         for r in sorted(set(runs)):

@@ -141,7 +141,7 @@ def problems(row, en, terms, enc=None):
     out = []
     dlg = is_dialogue(row)
     src = body(jp)[1] if dlg else jp
-    plain = TOKEN.sub('', en)
+    plain = TOKEN.sub('', en).replace('¦', '')     # vwf.UNIT_BREAK: a unit boundary, not a character
     if bad := sorted({c for c in plain if not encodable(c)}):
         out.append(f'unencodable characters {bad}')
     if re.search(r'\\u[0-9a-fA-F]{4}', en) or '\t' in en:

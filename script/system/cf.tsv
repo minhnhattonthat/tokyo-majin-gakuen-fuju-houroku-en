@@ -669,17 +669,17 @@ CF64C0	str	7	格闘家	Fighter
 CF64C8	str	7	聖女	Saint	
 CF64D0	str	11	神速の剣士	Swift Blade	
 CF64DC	str	11	龍の伝承者	Dragon Heir	
-CF64E8	str	7	覚醒	Awaken	
-CF64F0	str	7	耐{I009}	Ward{I009}	
-CF64F8	str	7	耐{I008}	Ward{I008}	
-CF6500	str	7	耐{I007}	Ward{I007}	
-CF6508	str	7	耐{I006}	Ward{I006}	
-CF6510	str	7	耐{I005}	Ward{I005}	
-CF6518	str	7	耐{I011}	Ward{I011}	
-CF6520	str	7	耐{I010}	Ward{I010}	
-CF6528	str	7	加速	Boost	
-CF6530	str	7	霊媒	Medium	
-CF6538	str	7	鎮守	Guardian	
+CF64E8	str	7	覚醒	Awkn	
+CF64F0	str	7	耐{I009}	W{I009}	
+CF64F8	str	7	耐{I008}	W{I008}	
+CF6500	str	7	耐{I007}	W{I007}	
+CF6508	str	7	耐{I006}	W{I006}	
+CF6510	str	7	耐{I005}	W{I005}	
+CF6518	str	7	耐{I011}	W{I011}	
+CF6520	str	7	耐{I010}	W{I010}	
+CF6528	str	7	加速	Bst	
+CF6530	str	7	霊媒	Mdm	
+CF6538	str	7	鎮守	Grdn	
 CF6540	str	7	魅了	Chrm	
 CF6548	str	7	召喚	Smn	
 CF6550	str	7	外法	Hers	
@@ -704,7 +704,7 @@ CF65E0	str	7	盗み	Stl
 CF65E8	str	7	迷宮	Maze	
 CF65F0	str	7	熱血	Fvor	
 CF65F8	str	7	式神	Disp	
-CF6600	str	7	居合	Iai	
+CF6600	str	7	居合	Iai¦ 	
 CF6608	str	7	速攻	Hste	
 CF6610	str	7	調査	Prob	
 CF6618	str	7	災厄	Clmy	
@@ -730,28 +730,28 @@ CF66B0	str	7	加護	Aegs
 CF66B8	str	7	血気	Vgr	
 CF66C0	str	7	範囲	Area	
 CF66C8	str	7	跳躍	Leap	
-CF66D0	str	7	即{I009}	{I009}S	
-CF66D8	str	7	即{I008}	{I008}S	
-CF66E0	str	7	即{I007}	{I007}S	
-CF66E8	str	7	即{I006}	{I006}S	
-CF66F0	str	7	即{I005}	{I005}S	
-CF66F8	str	7	即{I011}	{I011}S	
-CF6700	str	7	即{I010}	{I010}S	
-CF6708	str	7	見{I024}	{I024}D	
-CF6710	str	7	見{I023}	{I023}D	
-CF6718	str	7	見{I022}	{I022}D	
-CF6720	str	7	見{I021}	{I021}D	
-CF6728	str	7	見{I020}	{I020}D	
-CF6730	str	7	必{I009}	{I009}B	
-CF6738	str	7	必{I008}	{I008}B	
-CF6740	str	7	必{I007}	{I007}B	
-CF6748	str	7	必{I006}	{I006}B	
-CF6750	str	7	必{I005}	{I005}B	
-CF6758	str	7	必{I011}	{I011}B	
-CF6760	str	7	必{I010}	{I010}B	
+CF66D0	str	7	即{I009}	S{I009}	
+CF66D8	str	7	即{I008}	S{I008}	
+CF66E0	str	7	即{I007}	S{I007}	
+CF66E8	str	7	即{I006}	S{I006}	
+CF66F0	str	7	即{I005}	S{I005}	
+CF66F8	str	7	即{I011}	S{I011}	
+CF6700	str	7	即{I010}	S{I010}	
+CF6708	str	7	見{I024}	D{I024}	
+CF6710	str	7	見{I023}	D{I023}	
+CF6718	str	7	見{I022}	D{I022}	
+CF6720	str	7	見{I021}	D{I021}	
+CF6728	str	7	見{I020}	D{I020}	
+CF6730	str	7	必{I009}	B{I009}	
+CF6738	str	7	必{I008}	B{I008}	
+CF6740	str	7	必{I007}	B{I007}	
+CF6748	str	7	必{I006}	B{I006}	
+CF6750	str	7	必{I005}	B{I005}	
+CF6758	str	7	必{I011}	B{I011}	
+CF6760	str	7	必{I010}	B{I010}	
 CF6768	str	7	狙い	Aim	
 CF6770	str	7	吹飛	Blst	
-CF6778	str	6	－－	--	
+CF6778	str	6	－－	 -¦ -	
 CF6898	str	11	鳳銘高校	Homei High	
 CF68A4	str	11	ゆきみヶ原	Yukimigahara	
 CF68B0	str	15	王蘭学院高校	Ouran Academy	

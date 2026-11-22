@@ -352,7 +352,8 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   Yang; elements 木 Wood, 火 Fire, 土 Earth, 金 Metal, 水 Water; statuses 麻痺 Stun, 毒 Poison, 睡眠 Sleep, 呪詛 Curse.
   相生 Feed, 相剋 Counter; 摩尼の昇華 Mani Rise; 地形効果 terrain effect; 価値 value; 売買符 trade card; 稀少符 rare card;
   符咒 (a deck) deck. ◆ -> `[81][9F]`. Card-skill labels on the card face (30 px): 4-letter abbreviations (Chrm, Smn,
-  ...), 即/見/必{Innn} -> {Innn}S / {Innn}D / {Innn}B, 耐{Innn} -> Ward{Innn}. Opponent names: given name first
+  ...), 即/見/必/耐{Innn} -> S{Innn} / D{Innn} / B{Innn} / W{Innn} (the battle panel draws exactly one unit then
+  the icon, as JP 必{I010}; fit.py label_problems), Guardian Grdn, Medium Mdm, Awaken Awkn, 加速 Bst, －－ ` -¦ -`. Opponent names: given name first
   (Kyoichi Horaiji), historical figures in Japanese order (Miyamoto Musashi, Abe no Seimei); 変生X -> Morphed X;
   渦王須 -> Chaos; 熊襲魁帥 -> Kumaso Takeru. Booster packs: 黄龍 Kouryu, 血風録 Keppuroku, 外法帖 Gehocho, 朧綺譚
   Oboro Kitan, 剣風帖 Kenpucho. 封陰窟 -> Fuin Cave. Number slots drawn over full-width spaces keep `[81][40]` cells.

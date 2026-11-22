@@ -42,10 +42,11 @@ RANGES = [
     (0xCF2A00, 0xCF5600, 'card_spell_text', 5, 124, None, 8),
     # possession effects 憑依された{I000}.. (4-5 JP lines: panel text, not the 3-line popup; inferred, check in game)
     (0xCF24B0, 0xCF2A00, 'card_spell_text', 5, 124, None, 8),
-    (0xCF5930, 0xCF6540, 'card_name', 1, 94, None, 6),
+    (0xCF5930, 0xCF64E8, 'card_name', 1, 94, None, 6),
     (0xCF6800, 0xCF6AFC, 'card_name', 1, 94, None, 6),
     (0xCF6D00, 0xCF7240, 'card_name', 1, 94, None, 6),
-    (0xCF6540, 0xCF6800, 'card_skill', 1, 30, None, 2),
+    # ability labels, table LABEL_TABLE: exactly two cells (see label_problems)
+    (0xCF64E8, 0xCF6800, 'card_skill', 1, 30, None, 2),
     # ability triggers and effect lines (CF580C-CF5914 are two-line effects, not names); 128 px because the
     # untranslatable JP line {I013}{&Sy0}{I014}{&Sz0} is itself 128 px
     (0xCF5600, 0xCF5930, 'card_ability', 2, 128, None, 8),
@@ -78,6 +79,23 @@ SINGLE = {0xD726B0: ('deck_help', 3, 144, None, 9), 0xD678D4: ('popup', 3, 128, 
           0xD79198: ('default_name', 1, 64, None, 4)}
 # card_tag (CF13C0-CF2A00): line 1 is the 【tag】 shown at 64 px; the popup shows all three lines at 128
 TAG_FIRST_PX = 64
+# ability labels on the battle card panel (【Aim】【--】): pointers 0xD7CCC0 + 4 * (id + 1), all in CF64E8-CF6800.
+# The panel (0x08021438) calls the glyph routine exactly twice per label, 2 bytes apart and with no NUL check, one
+# cell each: the text must be one unit, then one unit or one icon {Innn} (JP 必{I010} = char + icon).
+LABEL_LO, LABEL_HI = 0xCF64E8, 0xCF6800
+
+
+def label_problems(en, enc):
+    b = enc.encode(en)
+    items, i = [], 0
+    while i < len(b):
+        n = 4 if b[i] == 0x49 else 2      # 'I' + 3 digits: an icon, one cell
+        items.append(b[i:i + n])
+        i += n
+    if len(items) != 2 or len(items[0]) != 2:
+        return ['ability label: %d cells (%s), the panel draws exactly two: a unit, then a unit or an icon; use '
+                '%r to end a unit' % (len(items), b.hex(), vwf.UNIT_BREAK)]
+    return []
 
 
 def read_script():
@@ -124,7 +142,8 @@ def measure(line, enc):
     """(px, units) of one line's tokens as drawn"""
     units = e = 0
     raw = []
-    for k, v in line + [('end', None)]:
+    toks = [(k, p) for k, v in line for p in (v.split(vwf.UNIT_BREAK) if k == 'lit' else [v])]  # break = new unit
+    for k, v in toks + [('end', None)]:
         if k == 'raw':
             raw.append(v)
             if len(raw) == 2:
@@ -228,10 +247,14 @@ def problems(row, en, enc):
             return [str(e)]
         return []
     lit = ''.join(v for pg in pages(en) for ln in pg for k, v in ln if k == 'lit')
-    bad = sorted(set(vwf.normalize(lit)) - set(vwf.CHAR_BYTE))
+    bad = sorted(set(vwf.normalize(lit)) - set(vwf.CHAR_BYTE) - {vwf.UNIT_BREAK})
     if bad:
         return ['no glyph for %r' % ''.join(bad)]
     name, lines, px, last, units = variant(row)
+    if name == 'card_skill' and LABEL_LO <= int(row['id'], 16) < LABEL_HI:
+        out += label_problems(en, enc)
+        if re.search(r'\{I\d\d\d\}$', en):
+            px = 32         # the icon fills the second cell, as in the JP (必{I010})
     jp_pages, en_pages = pages(row['jp']), pages(en)
     if len(en_pages) != len(jp_pages) and name not in ('dialogue',):
         out.append('%d pages, JP has %d' % (len(en_pages), len(jp_pages)))

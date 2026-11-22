@@ -148,6 +148,21 @@ Argument counts are the digits shown; prove each with the marker build before th
 - Seen in game (`work/qa/pc2`, board_turn.mss + `work/qa/bd/rand.txt`): numbers "Took 10 dmg", "+0", "+20" in
   VWF digits (f1530), "Mani levels turn / right" (f9420).
 
+## Battle card panel ability labels (phase 8, 2026-11-22)
+- Row 10 of the panel: 【label】【label】. 0x08021438 loops twice per label (pointers 0xD7CCC0 + 4 * (id + 1), rows
+  CF64E8-CF6778), calling the glyph routine 0x08003B84 at string + 0 and + 2 with no NUL check, one 16 px cell each
+  at a fixed tile (0x102 + 4 * call). A 1-unit English label made the 2nd call draw the NUL through the original
+  path (tiles 0x39-0x3C, palette 0, stale pixels: the "ghost"). Rule (fit.py `label_problems`): one unit, then one
+  unit or one icon; JP 必{I010} = char then icon, so English is `B{I010}`, never `{I010}B`.
+- Brackets: 0x080210D6 draws D654D0 【】 into tiles 1-8 and points the label's open bracket cell at the 【 glyph's
+  RIGHT half (map C001 + 1) and the close bracket at 】's left half. VWF draws left-aligned, so D654D0 is
+  `  【¦】`: two spaces put 【 in the right half of unit 1.
+- `¦` (vwf.UNIT_BREAK) in script text ends a unit; a 2-4 character segment between breaks is forced into the MTE
+  dictionary as one unit. Used for `  【¦】`, ` -¦ -` (－－), `Iai¦ ` (second cell blank).
+- Repro / check: board_turn.mss + `work/qa/bd/rand.txt`, frame 1600 (`work/qa/ghostfix/panel.png`). Probe
+  `tools/debug/dstlog.lua` (BIOS copies and CPU writes into a range) found the writer: the BG0 map is copied each
+  frame from RAM 0x02002000.
+
 ## Prior work
 - An AI-assisted English patch is listed on RetroGameTalk (thread 74417) with graphics text left in Japanese.
   Unverified and not downloaded. If it is ever used, diff it only as a map.

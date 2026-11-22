@@ -295,7 +295,7 @@ D65318	str	23	先手・後手を決めます{wc}	Deciding who goes first.{wc}
 D65330	str	7	ターン	Turn	
 D65338	str	3	の	's 	
 D6533C	str	7	符咒士	Talismancer	
-D654D0	str	7	【】	【】	
+D654D0	str	7	【】	  【¦】	
 D658F8	str	23	{I011}属性の{I000}を除去	Remove {I011}{I000}	
 D65910	str	21	{I010}属性の{I000}を即死	Slay {I010}{I000}	
 D678D4	str	55	場に伏せられた{I000}{rt}しか無いため{I002}{rt}休戦を破壊します	Only face-down {I000}{rt}on the field, so{rt}{I002}Truce is destroyed	
