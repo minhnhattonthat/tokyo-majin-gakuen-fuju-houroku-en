@@ -51,7 +51,7 @@ its usage limit); `tools/gfx_zoom.py` re-renders any asset at chosen widths. Wid
 | S13 | 0xBEAC20, 0xBEBF00, 0xBECB2C, 0xBEDF7C, 0xBEEA4C, 0xC6D898 | menu windows with labels (終了, 戻る...) |
 | S14 | 0xBEF3A8, 0xBF07C8 | emblem kanji (闇/悲/怒/喜/愛/哀?) |
 | S15 | 0xBF2628 呪符交換之間; 0xC1B8E8 封陰窟 階; 0xC27A28 骨董品店 店内 | room/scene title art |
-| S16 | 0xC11C58, 0xC165E8, 0xC1ADF8-0xC1B6F8, 0xC03F88-0xC05A28, 0xC24E08, 0xC26298, 0xC36408, 0xC37968, 0xC37D88 | menu/label strips (wrong width) |
+| S16 | 0xC11C58, 0xC165E8, 0xC1ADF8-0xC1B6F8, 0xC03F88-0xC05A28, 0xC24E08, 0xC26298, 0xC36408, 0xC37968, 0xC37D88 | menu/label strips (wrong width). 0xC165E8 = sutra board BG, 0xC1ADF8-0xC1B6F8 = its ten red highlight sprites: **English** (W13, group sutra_board) |
 | S17 | 0xC381A8 売り符選択 / 交換符選択 / 捨て符選択 | card-pick plaques (sprite entry 0xD81DF8; each two 64x32 OBJs, 0x800 B): **English** Sell a Card / Trade a Card / Discard a Card (group shop_plaques, `tools/gfx_shopplaques.py`); "Sell a Card" seen in game (shop.mss + `30 -;6 a;240 -`). Same module: the sell screen's pink 早 badge 0xC6FAC8 (Trade tab = sell all at once) -> fast-forward mark; text icon 1 売 (trade-card counter) -> "Tr" (group icons). All seen in game (`work/qa/p8s17/sell4z.png`, `help2.png`) |
 | S18 | 0xC532C8, 0xC557E0, 0xC57CF8, 0xC5A210, 0xC5C728 東京魔人學園 符咒封録 booster packs; 0xC5F760 ブースターパック選択 | pack art = title logo (G3, kept); header: entry 0xD81E04, 46 tiles + a 19x4 map 0xC5FD20 at BG2 row 1, tile 45 = the layer's blank: **English** "Pick a Booster Pack" (group plaques, `tools/gfx_plaques.py`; `work/qa/pack3/hdr.png`) |
 | S19 | 0xC66C18, 0xC67D38, 0xC6B118 (正順 逆順 降順 昇順 あ行..わ行), 0xC6C078 符咒編集, 0xC6D078 (sorting popup), 0xC6A2D8 | deck edit: **English** (group deck_edit, `tools/gfx_deck.py`; tab loader patch TABS_FN in `tools/patches.py`) ; 0xC6A2D8 checked 2026-11-22: frame line art only, no text (its tail runs into the English 0xC6B118 badges) |
@@ -97,7 +97,7 @@ Other triples that render as menus: 0xC36408 商品選択 (shop list), 0xC6D898 
 | W10 | `ending_38`, `ending_39` | staff roll: role captions ◎グラフィック◎, ◎企画・開発◎, ◎プロデューサー◎, ◎監督◎, names (D3: English) |
 | W11 | `ending_39` | 東京魔人學園 符咒封録 完 end card (tiles) |
 | W12 | `story_00`, `story_NN` | vertical scene captions (暗黒の渦――: G5) at the top right of story scenes |
-| W13 | `board` | sutra board: 悪口 貪欲 妄語 好色 綺語 両舌 邪見 殺生 偸盗 瞋恚... (art: keep or redraw, phase 8) |
+| W13 | `board` | sutra board (mode 7): the ten sin labels 悪口 貪欲 妄語 好色 綺語 両舌 邪見 殺生 偸盗 瞋恚 are the zones the player picks (Add / Cancel menu, font text explains each): **English** Abuse, Greed, Lies, Lust, Flattery, Double Tongue, False View, Killing, Theft, Malice (glossary b072-b074; group sutra_board, `tools/gfx_board.py`): BG3 entry 0xD81B7C retiled into 0xFC0000 (the setup's fixed copy size literal 0x080567E4 raised), side labels rotated; red highlight sprites 0xC1ADF8 + k * 0x100 redrawn to match. Seen in game, cursor moved over each (`work/qa/p8s18/bm_z.png`). The other board text (神, 真, 太極, 宿星, talismans) is art |
 | W14 | `battle_tutorial` | battle HUD; これから戦闘の基本的なルールを説明します (font) |
 | W15 | `name_entry` | G6/G7 |
 Not reached: the defeat / rematch screen (敗北 S9, 再戦する 終了する at 0xD65298); see `docs/re/game.md`.

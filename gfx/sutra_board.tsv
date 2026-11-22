@@ -1,0 +1,11 @@
+spr	jp	en	x	y	w	h	orient
+0	悪口	Abuse	64	4	32	16	h
+1	綺語	Flattery	144	4	32	16	h
+2	両舌	Double/Tongue	64	140	32	16	h
+3	邪見	False/View	144	140	32	16	h
+4	貪欲	Greed	4	4	16	32	v
+5	瞋恚	Malice	220	4	16	32	v
+6	妄語	Lies	4	64	16	32	v
+7	偸盗	Theft	220	64	16	32	v
+8	好色	Lust	4	124	16	32	v
+9	殺生	Killing	220	124	16	32	v
