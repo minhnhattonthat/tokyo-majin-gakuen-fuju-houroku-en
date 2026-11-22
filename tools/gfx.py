@@ -685,6 +685,12 @@ def icons(rom):
     return gfx_icons.icons(rom)
 
 
+def emotion_dial(rom):
+    """emotion-choice dials 悩悲冷怒 / 愛友同喜 of the story scenes (tools/gfx_emotion.py)"""
+    import gfx_emotion
+    return gfx_emotion.apply(rom)
+
+
 def frames(rom):
     """element emblems 木火土金水 on the 8bpp card frames (S20, tools/gfx_frames.py)"""
     import gfx_frames
@@ -767,7 +773,7 @@ GROUPS = {'attack_types': attack_types, 'icons': icons, 'mini_labels': mini_labe
           'profile_screens': profile_screens, 'card_classes': card_classes, 'link_error': link_error,
           'shop_plaques': shop_plaques, 'sutra_board': sutra_board, 'tutorial': tutorial,
           'fieldcards': fieldcards, 'link_trade': link_trade, 'pack_open': pack_open,
-          'thumb_frames': thumb_frames, 'warn_box': warn_box}
+          'thumb_frames': thumb_frames, 'warn_box': warn_box, 'emotion_dial': emotion_dial}
 
 
 def apply(rom):

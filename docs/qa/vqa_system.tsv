@@ -1,0 +1,40 @@
+id	verdict	note
+battle_tutorial	ok
+board	ok	sutra board kanji = art (W13, decisions)
+card_01	ok
+card_02	ok
+card_03	ok
+card_04	ok
+card_05	ok
+card_06	ok
+card_07	ok
+card_08	ok
+card_09	ok
+card_10	ok
+card_11	ok
+card_12	ok
+card_13	ok
+card_end	ok	title logo gfx-pending (kept as logo)
+deck_edit	ok
+detour_map	ok
+dungeon	ok
+ending_38	ok	text typing out
+ending_39	ok
+haiku	ok
+hub	ok
+hub_dungeon	ok
+hub_save	ok
+link_battle	ok	fixed: "Deck in Use" plaque was overwritten by the deck name (drawn at fixed x); gfx/room_banners.tsv en -> "Deck:", seen in game (work/qa/p8s38/fix1.png)
+link_error	ok
+logos	ok	anniversary / company logos = brand art, gfx-pending (kept)
+name_entry	ok	logos as above; text typing out
+settings	ok
+shop	ok
+sound_test	ok
+title	ok	title logo gfx-pending (kept)
+title_continue	ok
+title_link_battle	ok	same plaque as link_battle, fixed with it; deck name 真神 comes from the warp's Shift-JIS save, not ROM text
+title_link_trade	ok
+title_save	ok
+title_settings	ok
+trade_room	ok

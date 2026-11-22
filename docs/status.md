@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator (started 2026-11-22; session 38: rebuilt, coverage gate 0 failing, full English tour for
-  visual QA next; session 37: gap pass brought scene coverage to 6 unshown
+- **Phase:** 8. QA in the emulator (started 2026-11-22; session 38: rebuilt, coverage gate 0 failing, English tour + visual-QA
+  verdicts done, emotion dials redrawn; session 37: gap pass brought scene coverage to 6 unshown
   (B18 L110 / L119), then stopped for low memory caused by another project's emulators). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 19; sessions 20-29 did not
   rebuild it, because the coverage runs use it; unbuilt there: session 22's 4 text edits, session 23's haiku fix,
   session 24's tab-sprite fix + 2 text edits, sessions 26-29's graphics + D64260, session 30's D72710, session 31's
@@ -459,8 +459,19 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   --var AT=800 --var TO=9`), haiku replies by `haiku_good` / `haiku_twice` / `haiku_short` runs, B18 by `gaps`:
   **`cover.py report`: 17073/17119 shown, 46 waived, 0 failing** (D16914 "already heard" waived: scripted
   re-entry types into a half-filled grid). Full English tour `warp.py --all --states --jobs 2` into
-  `work/qa/tour_en` (old one in `tour_en_b19`) started for the visual-QA verdicts.
-- **Next (phase 8):** items (1) and (2) below are done (session 38); continue at (3). (1) `cover.py gaps --jobs 2` when memory allows (check `Get-Process Mesen` first: other
+  `work/qa/tour_en` (old one in `tour_en_b19`): 208/209 ok. **Visual-QA verdicts written** (`docs/qa/vqa_system.tsv`,
+  `vqa_story.tsv`, `vqa_event.tsv`; copies in `work/qa/verdicts/`; full-scale sheets `work/qa/vqa/<id>/`): system and
+  story_00-39 read on every changed frame; the 130 event rows only on their final frames (`work/qa/vqa/ev_NN.png`).
+  Two issues found and fixed, both seen in game: (1) link-battle plaque "Deck in Use" was overwritten by the deck
+  name: now "Deck:" (`gfx/room_banners.tsv`); (2) **emotion-choice dials** (script op 0A, 179 choices) still showed
+  kanji 悩悲冷怒 / 愛友同喜: new group `emotion_dial` (`tools/gfx_emotion.py`, `gfx/emotion_dial.tsv`, D16): table
+  0xD8172C, two LZ77 dial blocks (4 frames of 64x64) + 2x9 raw 16x16 icons (normal / lit / blank). Lit icons seen in game
+  too (`work/qa/p8s38/lit/z.png`). `work/states/*` were made by the e462aaab build (before these gfx), so they
+  carry old VRAM: regenerate a row with `warp.py ROW --states` before judging graphics from a state (event_00_1 done). Build after these: sha1 73fbb66e.. (gfx only: strings.tsv and
+  the coverage are unchanged). check.py 38 passed.
+- **Next (phase 8):** items (1) and (2) below are done (session 38), and (3)'s tour + verdicts. Left: the event rows' middle frames; `inkbox.py` on choice /
+  centred boxes; stress-save sheets (longest names); the independent story re-run (codex after 2026-11-26); then
+  phase 9 (release). Older list: (1) `cover.py gaps --jobs 2` when memory allows (check `Get-Process Mesen` first: other
   projects' runs eat memory); it runs only B18 L110 and L119. Lines still unshown after it need a look at their
   scene's branch / flag or a waiver in `docs/text_unshown.tsv` naming why unreachable. (2) Rebuild (everything since session 19 incl.
   warn_box, name grids, deck-name fix), then `mv work/qa/cover work/qa/cover_b19`, `cover.py remap

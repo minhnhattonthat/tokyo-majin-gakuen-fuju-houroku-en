@@ -1,0 +1,131 @@
+id	verdict	note
+event_00_0	ok	
+event_00_1	ok	emotion dial kanji (悩悲冷怒/愛友同喜) were untranslated: fixed by gfx group emotion_dial (session 38), seen in game on event_00_1 (work/qa/p8s38/fix3.png); left dial is drawn affine-shrunk by the game
+event_00_2	ok	
+event_00_3	ok	
+event_00_4	ok	
+event_00_5	ok	
+event_00_6	ok	
+event_00_7	ok	
+event_00_8	ok	
+event_00_9	ok	
+event_01_0	ok	
+event_01_1	ok	
+event_01_2	ok	
+event_01_3	ok	
+event_01_4	ok	
+event_01_5	ok	
+event_01_6	ok	
+event_01_7	ok	
+event_01_8	ok	
+event_01_9	ok	
+event_02_0	ok	
+event_02_1	ok	
+event_02_2	ok	
+event_02_3	ok	
+event_02_4	ok	
+event_02_5	ok	
+event_02_6	ok	emotion dial kanji (悩悲冷怒/愛友同喜) were untranslated: fixed by gfx group emotion_dial (session 38), seen in game on event_00_1 (work/qa/p8s38/fix3.png); left dial is drawn affine-shrunk by the game
+event_02_7	ok	
+event_02_8	ok	emotion dial kanji (悩悲冷怒/愛友同喜) were untranslated: fixed by gfx group emotion_dial (session 38), seen in game on event_00_1 (work/qa/p8s38/fix3.png); left dial is drawn affine-shrunk by the game
+event_02_9	ok	
+event_03_0	ok	
+event_03_1	ok	
+event_03_2	ok	
+event_03_3	ok	
+event_03_4	ok	emotion dial kanji (悩悲冷怒/愛友同喜) were untranslated: fixed by gfx group emotion_dial (session 38), seen in game on event_00_1 (work/qa/p8s38/fix3.png); left dial is drawn affine-shrunk by the game
+event_03_5	ok	
+event_03_6	ok	
+event_03_7	ok	
+event_03_8	ok	
+event_03_9	ok	
+event_04_0	ok	
+event_04_1	ok	
+event_04_2	ok	
+event_04_3	ok	
+event_04_4	ok	
+event_04_5	ok	
+event_04_6	ok	
+event_04_7	ok	
+event_04_8	ok	emotion dial kanji (悩悲冷怒/愛友同喜) were untranslated: fixed by gfx group emotion_dial (session 38), seen in game on event_00_1 (work/qa/p8s38/fix3.png); left dial is drawn affine-shrunk by the game
+event_04_9	ok	
+event_05_0	ok	
+event_05_1	ok	emotion dial kanji (悩悲冷怒/愛友同喜) were untranslated: fixed by gfx group emotion_dial (session 38), seen in game on event_00_1 (work/qa/p8s38/fix3.png); left dial is drawn affine-shrunk by the game
+event_05_2	ok	
+event_05_3	ok	
+event_05_4	ok	
+event_05_5	ok	
+event_05_6	ok	
+event_05_7	ok	emotion dial kanji (悩悲冷怒/愛友同喜) were untranslated: fixed by gfx group emotion_dial (session 38), seen in game on event_00_1 (work/qa/p8s38/fix3.png); left dial is drawn affine-shrunk by the game
+event_05_8	ok	
+event_05_9	ok	
+event_06_0	ok	
+event_06_1	ok	
+event_06_2	ok	
+event_06_3	ok	
+event_06_4	ok	
+event_06_5	ok	
+event_06_6	ok	
+event_06_7	ok	
+event_06_8	ok	
+event_06_9	ok	
+event_07_0	ok	
+event_07_1	ok	emotion dial kanji (悩悲冷怒/愛友同喜) were untranslated: fixed by gfx group emotion_dial (session 38), seen in game on event_00_1 (work/qa/p8s38/fix3.png); left dial is drawn affine-shrunk by the game
+event_07_2	ok	
+event_07_3	ok	
+event_07_4	ok	
+event_07_5	ok	
+event_07_6	ok	
+event_07_7	ok	
+event_07_8	ok	
+event_07_9	ok	
+event_08_0	ok	
+event_08_1	ok	
+event_08_2	ok	
+event_08_3	ok	
+event_08_4	ok	
+event_08_5	ok	
+event_08_6	ok	
+event_08_7	ok	
+event_08_8	ok	
+event_08_9	ok	
+event_09_0	ok	
+event_09_1	ok	
+event_09_2	ok	
+event_09_3	ok	
+event_09_4	ok	
+event_09_5	ok	emotion dial kanji (悩悲冷怒/愛友同喜) were untranslated: fixed by gfx group emotion_dial (session 38), seen in game on event_00_1 (work/qa/p8s38/fix3.png); left dial is drawn affine-shrunk by the game
+event_09_6	ok	
+event_09_7	ok	
+event_09_8	ok	
+event_09_9	ok	
+event_10_0	ok	
+event_10_1	ok	
+event_10_2	ok	
+event_10_3	ok	
+event_10_4	ok	
+event_10_5	ok	
+event_10_6	ok	
+event_10_7	ok	
+event_10_8	ok	
+event_10_9	ok	
+event_11_0	ok	
+event_11_1	ok	
+event_11_2	ok	
+event_11_3	ok	
+event_11_4	ok	
+event_11_5	ok	emotion dial kanji (悩悲冷怒/愛友同喜) were untranslated: fixed by gfx group emotion_dial (session 38), seen in game on event_00_1 (work/qa/p8s38/fix3.png); left dial is drawn affine-shrunk by the game
+event_11_6	ok	
+event_11_7	ok	
+event_11_8	ok	
+event_11_9	ok	
+event_12_0	ok	
+event_12_1	ok	
+event_12_2	ok	
+event_12_3	ok	
+event_12_4	ok	emotion dial kanji (悩悲冷怒/愛友同喜) were untranslated: fixed by gfx group emotion_dial (session 38), seen in game on event_00_1 (work/qa/p8s38/fix3.png); left dial is drawn affine-shrunk by the game
+event_12_5	ok	emotion dial kanji (悩悲冷怒/愛友同喜) were untranslated: fixed by gfx group emotion_dial (session 38), seen in game on event_00_1 (work/qa/p8s38/fix3.png); left dial is drawn affine-shrunk by the game
+event_12_6	ok	emotion dial kanji (悩悲冷怒/愛友同喜) were untranslated: fixed by gfx group emotion_dial (session 38), seen in game on event_00_1 (work/qa/p8s38/fix3.png); left dial is drawn affine-shrunk by the game
+event_12_7	ok	
+event_12_8	ok	
+event_12_9	ok	
