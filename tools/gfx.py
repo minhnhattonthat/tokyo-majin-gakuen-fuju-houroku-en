@@ -486,11 +486,17 @@ def deck_edit(rom):
     return gfx_deck.deck_edit(rom)
 
 
+def captions(rom):
+    """story-scene location captions (G5/W12, S11): tools/gfx_captions.py"""
+    import gfx_captions
+    return gfx_captions.captions(rom)
+
+
 GROUPS = {'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': dungeon_menu,
           'room_banners': room_banners, 'floor_numerals': floor_numerals, 'signs': signs,
           'settings_screen': settings_screen, 'haiku_screen': haiku_screen, 'deck_name_screen': deck_name_screen,
           'name_entry_screen': name_entry_screen, 'shop_list_screen': shop_list_screen, 'deck_edit': deck_edit, 'plaques': plaques,
-          'banners': banners, 'battle_ui': battle_ui}
+          'banners': banners, 'battle_ui': battle_ui, 'captions': captions}
 
 
 def apply(rom):
