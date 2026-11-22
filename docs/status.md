@@ -3,7 +3,7 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22, full English,
-  sha1 f29d33d734e0..; smoke ok (`work/qa/smoke`), check.py 37 passed.
+  sha1 65d020e827e1..; smoke ok (`work/qa/smoke`), check.py 37 passed.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -59,14 +59,24 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (stub at 0x08051DB8, same shape as printer B). Both checked in game (`work/qa/deck_x1`, `work/qa/warp/name_entry`).
   Tools: `tools/debug/callregs.lua` (registers at a function entry; CALL_AT=0x00000008 = every BIOS SWI, lr = caller),
   `tools/debug/sprblock.py` (render a ROM sprite block with a dumped OBJ palette).
-  **Deck editor graphics found, not redrawn yet (S19):** header 符咒編集 = OBJ 128x32 (two 64x32, 0x800 B) at 0xC6C078
-  (OBJ bank 10); button sheet 0xC66C18 = 32x16 OBJ halves (0x100 B each, OBJ bank 3): row 1 全体|確認 呪符|登録
-  呪符|削除, row 2 a second 全体確認 + 登録|枚数, row 3 装備 編集 複写 削除 名前 (deck submenu, each one 32x16 button)
-  then category tabs with icons 持ち符 売買符 人物符 土地符 法術符 結界符 憑依符 + 全 (shown by 全体確認,
-  route `6 a` from deck_edit). Render: `sprblock.py rom/base.gba C66C18 32 16 36 <ppu .pal.bin> 3 out.png`. The
-  labels have a textured box: re-letter on a cleared copy of the box (like bg4_edit's `patch`). Also 登録枚数 label.
+  Session 5 (2026-11-22): deck editor buttons English in game (group `deck_edit`, `tools/gfx_deck.py`,
+  `gfx/deck_edit.tsv`; `work/qa/deck_gfx/en_cmp2.png`): View All, Add Card, Remove, In Deck, submenu Edit / Copy /
+  Erase / Name / Equip (32x16 halves at 0xC66C18, OBJ bank 3; interior cleared to colour 6, Liberation Bold with a
+  right/down shadow like the JP glyphs). New `tools/debug/objsrc.py` (each OBJ's tiles -> ROM offsets from a ppu dump).
+  **Still Japanese in the deck editor:** (1) category tabs 持ち符 .. 憑依符 (rows `tab_todo` in the tsv, wording and
+  layout ready): sheet 0xC67D38 (sprite table 0xD81CCC, palette 0xC67D18, OBJ bank 13), 13 entries x 0x200 B = left
+  32x16 + right 32x16; OBJ VRAM holds the 13 left halves at tiles 494 + 8k but ONE right half (tile 598) that all
+  tabs' OAM use, so 32 px + a shared 16 px is all a tab gets (the 全 badge, a separate 16x16 OBJ, covers x 48-63 on
+  tabs 0-3). Tried: making the ROM right halves differ shows tab 0's right half on every tab. Next: find the code
+  that loads the sheet (BIOS CpuSet from 0x080635E2 copies all 0x1A00 B to a RAM buffer 0x0202B800 / 0x02029E00 each
+  frame, then something splits it into the OBJ shadow at 0x02029320 = tile 0) and the OAM writer (OAM shadow
+  0x030058F0.., copied to 0x03005310..), and give each tab its own right block (tiles 598 + 8k are free up to 630?
+  check), or else fit labels in 32 px (Owned / Trade / Land / Spell / Barrier fit at 9 px; Character, Possession
+  don't). (2) header plaque 符咒編集 (OBJ 128x32 = two 64x32 at 0xC6C078, OBJ bank 10, marbled red texture with no
+  blank stretch: needs an inpaint or a redrawn plaque). Route to the tabs: deck_edit state + `6 a`; submenu:
+  `6 down;30 -;6 a`.
   Name entry (`name_entry` row) is all Japanese graphics (名前は？ 苗字 名前 進む 戻る 終了 かな カナ 漢字 + kana grid).
-- **Next (phase 8):** remaining graphics text: deck editor (S19, see above); name entry screen (G6/G7); booster-pack
+- **Next (phase 8):** remaining graphics text: deck editor tabs + header (S19, see above); name entry screen (G6/G7); booster-pack
   select header (screen 0xC5F760, map looks non-standard); help UI (S19 0xC6B118 両隣 左行 右行); battle UI (S6/S9/S10, sprites/screens 0xB4xxxx);
   vertical scene captions (W12/G5, S11/S12); card class labels (S1), card/skill name art (S5), 邪気封印 card art,
   emblems (S20), rarity legend (S27), card type icons (S28), info-screen labels (S29), sound test labels (S22),

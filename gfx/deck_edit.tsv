@@ -1,0 +1,18 @@
+kind	offset	halves	x0	x1	jp	en
+btn	C66C18	2	1	60	全体確認	View All
+btn	C66E18	2	1	60	呪符登録	Add Card
+btn	C67018	2	1	60	呪符削除	Remove
+btn	C67218	3	1	67	全体確認	View All
+btn	C67518	3	1	66	登録枚数	In Deck
+btn	C67818	1	1	29	装備	Equip
+btn	C67918	1	1	29	編集	Edit
+btn	C67A18	1	1	29	複写	Copy
+btn	C67B18	1	1	29	削除	Erase
+btn	C67C18	1	1	29	名前	Name
+tab_todo	C67D38	2	1	47	持ち符	Owned
+tab_todo	C67F38	2	1	47	売買符	Trade
+tab_todo	C68138	2	1	47	人物符	Character
+tab_todo	C68338	2	1	47	土地符	Land
+tab_todo	C68538	2	1	61	法術符	Spell
+tab_todo	C68738	2	1	61	結界符	Barrier
+tab_todo	C68938	2	1	61	憑依符	Possession
