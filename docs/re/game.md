@@ -18,7 +18,7 @@ Main loop 0x08000262 calls `handler[mode]` every frame; handler table 0x08D7A424
 | 8 | 0x08059209 | 封陰窟 dungeon menu |
 | 9 | 0x08056A59 | 骨董品店 antique shop |
 | 10 | 0x08059A59 | 符咒交換之間 trade room (title 通信 -> 通信交換) |
-| 11 | 0x0805AB95 | blank when entered directly |
+| 11 | 0x0805AB95 | link trade screen (blank when entered directly: task state 1 waits for the link at 0x0805AEBC; force with `tools/debug/setreg.lua --var AT=0x0805AEBC --var REG=0 --var VAL=1`) |
 | 12 | 0x0805D72D | 通信対戦之間 link battle room (title 通信 -> 通信対戦) |
 | 13 | 0x080083DD | boot logos |
 | 14 | 0x080087F1 | title |

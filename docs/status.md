@@ -4,8 +4,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 19; sessions 20-24 did not
   rebuild it, because the coverage runs use it; unbuilt there: session 22's 4 text edits, session 23's haiku fix,
-  session 24's tab-sprite fix + 2 text edits, session 26's tutorial art + D64260), sha1 82aef7599a18..; side
-  build with everything: `build.py --out work/next/tmgfh_en.gba` (sha1 f5bdeb92..); check.py 38 passed.
+  session 24's tab-sprite fix + 2 text edits, sessions 26-28's graphics + D64260), sha1 82aef7599a18..; side
+  build with everything: `build.py --out work/next/tmgfh_en.gba` (sha1 7b51c7e5..); check.py 38 passed.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -303,6 +303,13 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   `fc2`; the callout highlight of the 木 disc on D63558 relettered Wd too); upside-down opponent cards (BLADE, Fi /
   Mt) rendered only. Side build sha1 ad9d2c3e..; check.py 38 passed. Branch pass still running (cover.py PID 37736,
   `--jobs 2`): branch4 done, branch5 started (A scenes).
+  Session 28 (2026-11-22): **link-trade screen (mode 11) English, seen in game** (`work/qa/p8s28/m11en_z.png`): the
+  S16 "link-room badges" 0xC03F88.. are mode 11, the link trade (warp blank because state 1 waits for the link; new
+  probe `tools/debug/setreg.lua` forces it: `warp.py MODE11 --script tools/debug/setreg.lua --var AT=0x0805AEBC
+  --var REG=0 --var VAL=1`). BG plaques 交換符 -> Trade (room_banners rows; `gfx_rooms` takes a palette base and band
+  colour per screen), badges 待機中 / 選択中 / 確認中 -> Waiting / Choosing / Checking and buttons 登録 / 終了 -> Add /
+  Quit (group link_trade, `tools/gfx_linktrade.py`); Waiting / Checking rendered only. Side build sha1 7b51c7e5..,
+  check.py 38 passed, smoke ok. Branch pass still running (PID 37736, branch5).
 - **Next (phase 8):** (A) text coverage: the branch pass was resumed again in session 22 (`--jobs 4`, log
   `work/qa/cover_branches.log`; resumed again in sessions 23 and 24: branch0-2 done, branch3+ (A scenes only) running
   when session 24 ended). A rebuild moves 12 207 string addresses (scenes re-pack), so after the rebuild the whole
@@ -324,8 +331,7 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   (D14). Waive only what
   is shown unreachable in `docs/text_unshown.tsv`. Do not rebuild between coverage runs (cover.py refuses when strings.tsv
   changed; move `work/qa/cover` away and re-run all after a rebuild). Stress saves: `allcards.sav` is the
-  full-list one; long names via `save.py set --surname/--name`; money/deck not mapped yet. (0) graphics left: S16 0xC03F88 link-room badges (look like 待機中 / 通信中; loaded only in
-  link-room sub-state 2, 0x0805BFE8: force the sub-state or poke it to see them, then redraw); 0xD280D0 (title
+  full-list one; long names via `save.py set --surname/--name`; money/deck not mapped yet. (0) graphics left: (S16 link-trade badges done in session 28); 0xD280D0 (title
   set, table 0xD289A0) unidentified; trade / discard plaques (S17) in game (trade room -> Trade, needs cards). (1) see an element text icon ({I006}-{I015}) in game (card text popup of a Ward/Slay/Bane card)
   and a large frame (39-43). (2) a land / spell mini label in game (thumbnail of a non-character card on the
   panel). (3) done in session 27. Remaining graphics

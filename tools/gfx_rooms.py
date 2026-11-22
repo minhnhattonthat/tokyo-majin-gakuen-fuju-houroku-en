@@ -15,18 +15,30 @@ from PIL import Image, ImageDraw, ImageFont
 W, H = 30, 20
 
 
+# 8bpp screens whose palette entry is not 128 colours at BG palette 0: tiles -> (colours, first BG palette index).
+# Mode 11 (link trade) loads its 32 colours to BG palette 208 (0x0805BEF6: 0x03005C50 = palette buffer + 0x1A0).
+PALS = {0xBFC5F8: (32, 208)}
+
+
 def screen_entry(rom, tiles):
-    """tiles offset -> (palette, map, ntiles) from the screen table (8bpp: 128-colour palette)"""
+    """tiles offset -> (palette, map, ntiles, (ncolours, base)) from the screen table (8bpp tiles)"""
     from gfx_screens import screens
     for _, t, p, m, nt, npal in screens(rom):
         if t == tiles:
-            assert npal == 8, f'{tiles:06X} is not an 8bpp screen'
-            return p, m, nt // 2
+            ncol, base = PALS.get(tiles, (128, 0))
+            assert npal * 16 == ncol, f'{tiles:06X} palette has {npal * 16} colours, expected {ncol}'
+            return p, m, nt // 2, (ncol, base)
     raise KeyError(f'{tiles:06X} not in the screen table')
 
 
-def palette(rom, p):
-    return [((c & 31) * 8, (c >> 5 & 31) * 8, (c >> 10 & 31) * 8) for c in struct.unpack_from('<128H', rom, p)]
+def palette(rom, p, ncol=(128, 0)):
+    """BG palette index -> RGB; indices the screen's palette does not load are None"""
+    n, base = ncol
+    cs = struct.unpack_from(f'<{n}H', rom, p)
+    pal = [None] * 256
+    for i, c in enumerate(cs):
+        pal[base + i] = ((c & 31) * 8, (c >> 5 & 31) * 8, (c >> 10 & 31) * 8)
+    return pal
 
 
 def entries(rom, m):
@@ -50,7 +62,7 @@ def lum(c):
 
 def nearest(pal, rgb, cache):
     if rgb not in cache:
-        cache[rgb] = min(range(1, 128), key=lambda i: sum((a - b) ** 2 for a, b in zip(pal[i], rgb)))
+        cache[rgb] = min((i for i in range(1, len(pal)) if pal[i] is not None), key=lambda i: sum((a - b) ** 2 for a, b in zip(pal[i], rgb)))
     return cache[rgb]
 
 
@@ -75,14 +87,19 @@ def text_alpha(text, w, h, size, font_path):
     return img, rim
 
 
-def wipe(px, pal, x, y, w, h, vertical):
+# plaque colour luminance range per screen (default: the brown wood plaques); the link-trade 交換符 band is green
+WOOD = {0xBFC5F8: (100, 160)}
+
+
+def wipe(px, pal, x, y, w, h, vertical, wood_lum=(30, 120)):
     """fill the rect with its wood: per column (vertical) or row, the most common non-ink, non-outline colour"""
     from collections import Counter
     lines = range(x, x + w) if vertical else range(y, y + h)
+    lo, hi = wood_lum
     for k in lines:
         cells = [(x2, k) for x2 in range(y, y + h)] if vertical else [(x2, k) for x2 in range(x, x + w)]
         vals = [px[b][a] if not vertical else px[a][b] for a, b in cells]
-        wood = [v for v in vals if 30 <= lum(pal[v]) < 120] or vals
+        wood = [v for v in vals if lo <= lum(pal[v]) < hi] or vals
         fill = Counter(wood).most_common(1)[0][0]
         for a, b in cells:
             if vertical:
@@ -115,12 +132,12 @@ def redraw(rom, tiles, labels, font_path, spare):
     spare[0] (advanced past it), with the screen table's tiles and map pointers updated."""
     from gfx_screens import screens
     entry = next(e for e, t, *_ in screens(rom) if t == tiles)
-    p, m, nt = screen_entry(rom, tiles)
-    pal, ents = palette(rom, p), entries(rom, m)
+    p, m, nt, ncol = screen_entry(rom, tiles)
+    pal, ents = palette(rom, p, ncol), entries(rom, m)
     px = decode(rom, tiles, ents)
     cells = set()
     for x, y, w, h, vertical, text, size in labels:
-        wipe(px, pal, x, y, w, h, vertical)
+        wipe(px, pal, x, y, w, h, vertical, WOOD.get(tiles, (30, 120)))
         letter(px, pal, x, y, w, h, vertical, text, size, font_path)
         cells |= {(r, c) for r in range(y // 8, (y + h - 1) // 8 + 1) for c in range(x // 8, (x + w - 1) // 8 + 1)}
     uses = {}

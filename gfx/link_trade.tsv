@@ -1,0 +1,9 @@
+offset	halves	x0	x1	y0	y1	fill	ink	lo	hi	rim	size	jp	en
+C047A8	2	3	42	3	11	5		c	f	2	9	待機中	Waiting
+C049A8	2	3	42	3	11	3		9	b	1	9	待機中	Waiting
+C04BC8	2	3	42	3	11	6		c	f	2	9	選択中	Choosing
+C04DC8	2	3	42	3	11	3		9	b	1	9	選択中	Choosing
+C05208	2	3	42	3	11	d		f	f	3	9	確認中	Checking
+C05408	2	3	42	3	11	7		8	8	3	9	確認中	Checking
+C04FE8	1	1	29	1	14		9	c	f	1	11	登録	Add
+C050E8	1	1	29	1	14		9	c	f	1	11	終了	Quit

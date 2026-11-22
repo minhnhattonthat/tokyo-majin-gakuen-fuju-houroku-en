@@ -694,6 +694,12 @@ def fieldcards(rom):
     return gfx_fieldcards.fieldcards(rom)
 
 
+def link_trade(rom):
+    """link-trade screen (mode 11) badges 待機中 選択中 確認中 + buttons 登録 終了 (S16, tools/gfx_linktrade.py)"""
+    import gfx_linktrade
+    return gfx_linktrade.apply(rom)
+
+
 GROUPS = {'attack_types': attack_types, 'icons': icons, 'mini_labels': mini_labels, 'frames': frames, 'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': dungeon_menu,
           'room_banners': room_banners, 'floor_numerals': floor_numerals, 'signs': signs,
           'settings_screen': settings_screen, 'haiku_screen': haiku_screen, 'haiku_input': haiku_input,
@@ -703,7 +709,7 @@ GROUPS = {'attack_types': attack_types, 'icons': icons, 'mini_labels': mini_labe
           'end_card': end_card, 'chapter_cards': chapter_cards,
           'profile_screens': profile_screens, 'card_classes': card_classes, 'link_error': link_error,
           'shop_plaques': shop_plaques, 'sutra_board': sutra_board, 'tutorial': tutorial,
-          'fieldcards': fieldcards}
+          'fieldcards': fieldcards, 'link_trade': link_trade}
 
 
 def apply(rom):
