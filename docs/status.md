@@ -2,9 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 19; sessions 20-23 did not
-  rebuild it, because the coverage runs use it; session 22 has 4 unbuilt text edits, session 23 the haiku fix), sha1
-  82aef7599a18..; side build with everything: `build.py --out work/next/tmgfh_en.gba` (sha1 280ca2d0895b..); check.py 38 passed.
+- **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 19; sessions 20-24 did not
+  rebuild it, because the coverage runs use it; unbuilt there: session 22's 4 text edits, session 23's haiku fix,
+  session 24's tab-sprite fix + 2 text edits), sha1 82aef7599a18..; side build with everything: `build.py --out
+  work/next/tmgfh_en.gba` (sha1 73c332260804..); check.py 38 passed.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -260,16 +261,35 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   covrun the buy flow from shop.mss: D78A3C-D78C8C). **allcards.sav was made from the JP ROM** (deck named 真神,
   JP default names): after the rows run, remake it (`save.py make --rom build/tmgfh_en.gba`, then `set
   --add-cards`) so menu shots show the English defaults.
+  Session 24 (2026-11-22): **bug fixed: sell-screen tab sprites garbled** (Trade badge and the Barrier/Possession
+  tabs showed popup / card-name pixels after the sort popup or a card view; JP clean). The 64-tile English tab
+  block went through the bump allocator to OBJ tiles 598-661, over the game's fixed 640+ users (sort popup 640-703,
+  card view text 640-683). JP dumps (new `tools/debug/objtiles.py` = tiles the visible OBJs use; `dstlog.lua` +
+  new `dstranges.py` = every OBJ VRAM write by writer) show only 716-767 is never written there, so
+  `tools/patches.py` now splits the block: tabs 0-5 at fixed 716-763, tab 6 + blank through the allocator at
+  598-613 (JP footprint, still 2 loader calls), via a hook at 0xFDF800 (own tiny Thumb assembler `patches.thumb`,
+  trampolines in the old TABS_FN bytes). Checked on the side build: sell screen after popup + card view
+  (`work/qa/p8s24/fix2500c.png`), deck editor walk (`deck_cmp.png`), dstlog shows no other writer of 716-767.
+  New probe `tools/debug/modeswap.lua` (FROM/TO: swap a mode entry, e.g. the hub of a loaded save -> shop 9):
+  `work/states/shop_all.mss` = shop with allcards.sav (current build), `shop_all_jp.mss` (JP). Sell flow:
+  Sell -> A picks the tab -> A picks the sort key -> card grid (right steps) -> A card view -> A sell prompt.
+  **Text:** D72B34 "Sell card for [n] P." (the value is drawn at unit 6 of line 1; the old slot sat on line 2),
+  D72810 "[n] held, # [m]" (was "1 cards, # 1"); both seen in game (`work/qa/p8s24/sellfix.png`, `sellfix2.png`);
+  story gate 0 open (`zz_recheck24_20261122.tsv`). Coverage runs `cover/sell1..3` (+6 system strings). Branch
+  pass resumed in the background (branch3 ~125 of ~165 when the session ended).
 - **Next (phase 8):** (A) text coverage: the branch pass was resumed again in session 22 (`--jobs 4`, log
-  `work/qa/cover_branches.log`; resumed again in session 23: branch0-2 done, branch3+ (A scenes only) running when it
-  ended). If no Mesen process of this
+  `work/qa/cover_branches.log`; resumed again in sessions 23 and 24: branch0-2 done, branch3+ (A scenes only) running
+  when session 24 ended). A rebuild moves 12 207 string addresses (scenes re-pack), so after the rebuild the whole
+  coverage must be re-run: finish this pass first only to find unreachable strings. If no Mesen process of this
   repo is running (other projects' Mesen may be), resume it with `python -X utf8 tools/cover.py scenes --branches
   --jobs 4` (it skips finished scenes; delete any run dir without final.png first), then `tools/cover.py gaps --jobs
   4`, then `report --by-scene`. Scenes should reach ~0 unshown. Then rebuild (session 22 text edits + session 23
   haiku fix: the haiku rows leave strings.tsv as kind grid), move `work/qa/cover` away and re-run the coverage (or
   waive with a note naming the changed rows). System strings left (228 after session 23, total 4 781 of 17 151; list them with
   `cover.shown_ids()` against `work/qa/cover/strings.tsv`): CF64E8-CF7340 short labels and land/spell names,
-  D720A0-D72C98 sell / trade-registration / discard prompts, sort badges AP-/AP+.. (sort popup), kana-row badges
+  D720A0-D72C98 sell / trade-registration / discard prompts (sell: from `work/states/shop_all.mss`, flow in session
+  24; trade registration = deck editor Trade tab; discard = when the collection overflows?; still unshown: sell-all
+  of trade cards D724EC/D72710-D727A0, D728xx-D72Cxx registration rules), sort badges AP-/AP+.. (sort popup), kana-row badges
   (scroll a name-sorted list), sutra board sin descriptions: 8 of 9 shown (`cover/board_sins`: board.mss, cursor
   move + A on each label); Theft D78850 not yet (find its label's cursor path),
   D78990-D78C8C shop booster purchase (needs value), D6526C link error / D6E3D4 sync test / D78E04-D79138 link cable
