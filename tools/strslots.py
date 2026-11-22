@@ -5,8 +5,9 @@
 The system string ranges (docs/re/text.md) mix NUL-terminated Shift-JIS strings with byte tables and graphics, so
 a string is only taken where an aligned u32 0x08xxxxxx word points at it, it starts a string (the byte before is
 00 or the range start) and it decodes as text. Its slot runs from the pointer target through the NUL and the zero
-padding up to the next 4-byte boundary. Strings that don't fit their slot are relocated in phase 7 (pointer sites
-must be verified first: graphics bytes can look like pointers), so `write` raises for now.
+padding up to the next 4-byte boundary. A string that doesn't fit its slot moves to spill space (build.py: after the
+packed scenes in SPILL) and its pointer sites are repointed, but only when every site lies in TRUSTED and nothing
+points mid-string (graphics bytes can look like pointers); otherwise `write` raises.
 """
 import struct
 import sys
@@ -94,12 +95,31 @@ def scan(d):
     return slots
 
 
-def write(rom, slot, text):
-    """write text (bytes, no NUL) into its slot, zero-filling the rest"""
-    if len(text) + 1 > slot.cap:
-        raise ValueError('string at %x: %d bytes, slot holds %d (relocation is phase 7)' % (
-            slot.addr, len(text) + 1, slot.cap))
-    rom[slot.addr:slot.addr + slot.cap] = text + b'\0' * (slot.cap - len(text))
+def trusted(site):
+    return any(a <= site < b for a, b in TRUSTED)
+
+
+def write(rom, slot, text, spill=None):
+    """write text (bytes, no NUL) into its slot, zero-filling the rest. A text that outgrows the slot moves to
+    spill ([next free offset, end], advanced in place) and every pointer site is repointed; that needs a spill and
+    a slot whose sites are all trusted and none pointing mid-string (an alias), else it raises."""
+    if len(text) + 1 <= slot.cap:
+        rom[slot.addr:slot.addr + slot.cap] = text + b'\0' * (slot.cap - len(text))
+        return slot.addr
+    why = ('no spill space' if spill is None else 'an alias points into it' if slot.aliases else
+           'an untrusted pointer site' if not all(trusted(s) for s in slot.refs) else
+           'spill full' if spill[0] + len(text) + 5 > spill[1] else None)
+    if why:
+        raise ValueError('string at %x: %d bytes, slot holds %d; cannot relocate: %s' % (
+            slot.addr, len(text) + 1, slot.cap, why))
+    new = spill[0]
+    size = (len(text) + 2 + 3) & ~3      # the printers stop at a zero u16 (ldrh): zero-fill through a 4-byte boundary
+    rom[new:new + size] = text + b'\0' * (size - len(text))
+    spill[0] = new + size
+    for s in slot.refs:
+        struct.pack_into('<I', rom, s, 0x08000000 + new)
+    rom[slot.addr:slot.addr + slot.cap] = b'\0' * slot.cap
+    return new
 
 
 if __name__ == '__main__':

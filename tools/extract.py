@@ -33,7 +33,8 @@ SCRIPT = ROOT / 'script'
 COLS = ['id', 'kind', 'max', 'jp', 'en', 'notes']
 RANGE_NAMES = {0xCF12F0: 'cf', 0xD16800: 'd1', 0xD63000: 'd6'}
 GRIDS = ((0xD6E56C, 0xD6E71C),   # name-entry grid rows, 12-byte slots
-         (0xD72F00, 0xD730B0))   # deck-name entry grid rows (符咒編集 -> 新規 -> 符咒名は？), same layout
+         (0xD72F00, 0xD730B0),   # deck-name entry grid rows (符咒編集 -> 新規 -> 符咒名は？), same layout
+         (0xD1BDC8, 0xD1BDE0))   # sound-test digit glyph table ０..９ (counters index it by cell)
 
 
 def scene_names(d):

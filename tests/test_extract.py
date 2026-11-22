@@ -96,10 +96,26 @@ def test_build_inserts_en(orig):
     assert text == row['en'] and not jp
 
 
-def test_slot_overflow_raises(orig):
+def test_slot_overflow_relocates(orig):
+    import struct
     import build
     script = extract.load()
-    k = '%06X' % strslots.scan(orig)[0].addr
+    s = strslots.scan(orig)[0]
+    k = '%06X' % s.addr
     script[k] = dict(script[k], en='M' * (int(script[k]['max']) + 1))   # one 'M' a unit: 2 bytes each
+    out = build.build(orig, script)
+    new = struct.unpack_from('<I', out, s.refs[0])[0] - 0x08000000
+    assert build.SPILL[0] <= new < build.SPILL[1]
+    assert all(struct.unpack_from('<I', out, r)[0] == 0x08000000 + new for r in s.refs)
+    assert out.index(b'\0', new) - new + 1 > s.cap             # the whole longer text sits at the new address
+    assert out[s.addr:s.addr + s.cap] == b'\0' * s.cap          # the old slot is cleared
+    i = new                                                      # the printers read u16s up to a zero one
+    while struct.unpack_from('<H', out, i)[0]:
+        i += 2
+    assert i <= out.index(b'\0', new) + 1
+
+
+def test_slot_overflow_raises_without_spill(orig):
+    s = strslots.scan(orig)[0]
     with pytest.raises(ValueError):
-        build.build(orig, script)
+        strslots.write(bytearray(orig), s, b'x' * s.cap)

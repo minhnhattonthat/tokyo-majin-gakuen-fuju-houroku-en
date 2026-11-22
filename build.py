@@ -62,9 +62,10 @@ def build(orig, script=None, mark=False, qa=None):
             if t.kind != 'op':
                 t.text = text_for(script['%s.%04d' % (names[sc.addr], n)])
                 n += 1
-    scenes.pack(rom, scs, regions=(scenes.REGION, SPILL))
+    end = scenes.pack(rom, scs, regions=(scenes.REGION, SPILL))
+    spill = [(end + 3) & ~3 if SPILL[0] <= end <= SPILL[1] else SPILL[0], SPILL[1]]
     for s in strslots.scan(orig):
-        strslots.write(rom, s, text_for(script['%06X' % s.addr]))
+        strslots.write(rom, s, text_for(script['%06X' % s.addr]), spill)
     if enc:
         vwf.install(rom, enc, font)
     return bytes(rom)

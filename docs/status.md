@@ -5,9 +5,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 6. Translate in progress (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 with B00-B03
   English, sha1 6e2fcc5dfb56.. (story_00 warp checked: `work/qa/pilot_zoom.png`). Marker build
   `build/tmgfh_marker.gba` sha1 91c3d9342694...
-- **Progress:** batches b001-b088 merged: every story row (B00-B39, A0.x-A12.x) has English (2026-11-22),
+- **Progress:** batches b001-b089 merged (b089 = d1: haiku club, haiku list, sound test): every story row (B00-B39, A0.x-A12.x) has English (2026-11-22),
   including the staff roll (B38.0139, B39.0000-0064, by hand; readings unverified). B11.0121 holds two boxes
-  (fixed by hand after merge; see the glossary note). Remaining: system cf/d1/d6 (2 605 rows), then the review
+  (fixed by hand after merge; see the glossary note). Remaining: system cf/d6 (2 547 rows), then the review
   pass. `batches.py`: 赤ちゃん is not an honorific (added to NOT_HONORIFIC).
 - **How (each session):** read `docs/translator-brief.md`, `docs/style-reference.md`, `docs/synopsis.md` and the
   glossary (in parts). `python -X utf8 tools/batches.py split --only B05.,B06.` (chapter order: B then that
@@ -17,15 +17,20 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `tools/windows.tsv`, run by `tests/test_fit.py`); dialogue bodies are wrapped by merge (2 rows, 232/218 px,
   about 65 chars). Phase 6 done-when: batch check 0 errors everywhere, glossary current, a review pass with no
   Critical/Important (do it as a fresh read-only pass per chapter; codex once its limit resets).
-- **Next:** system batches: `split --only d1` (58 rows), then cf (991) and d6 (1 556), a few batches per context;
+- **Next:** d1 is done (b089). System batches `split --only CF` (991 rows), then `--only D6` (1 556) (ids are
+  hex addresses: the --only prefix is upper case), a few batches per context;
   budgets come from `tools/windows.tsv`. Then the per-chapter review pass. The fit
   lint's unit budgets depend on the encoder built from all text, so new merges can push an old row over (B04.0181
   after b050): run `tools/check.py` after each merge and reword the row it names. Rows of kind `grid` are not translated. Notes for translators: system strings are often pieces joined
   at run time (turn banner 符咒士 / name + の / ターン; deck-editor prompts with 真神 and counts; deck help line 1;
-  `　　枚` slots that receive numbers): check the joined line. The sound test body D1BD60 keeps its full-width cell
-  layout (label <= 64 px in cells 1-4, then the JP spaces and ／). Yes/no option lines are fixed:
-  `[81][40]Yes[81][40]No`. 3 040 rows repeat an earlier `jp`: reuse translations by id. Slots that grow past `max`
-  need relocation (phase 7; build raises today), so a batch check against `max` is informational until then.
+  `　　枚` slots that receive numbers): check the joined line. The sound test body D1BD60 is written straight
+  into d1.tsv as raw full-width bytes (ＢＧＭ / ＳＥ / ＤＬＧ / ＶＯＸ, 3 cells each: the counters draw from cell 5);
+  the digit table D1BDC8 is kind `grid` (tools/extract.py GRIDS). Yes/no option lines are fixed:
+  `[81][40]Yes[81][40]No`. 3 040 rows repeat an earlier `jp`: reuse translations by id. System strings that
+  outgrow their slot now move to SPILL after the packed scenes (`strslots.write`, only when every pointer site is
+  trusted and no alias points mid-string; the copy ends in a zero u16 because the printers stop on `ldrh` == 0).
+  Sound test checked after it: `work/qa/warp/sound_test/final.png`. The haiku list (D16A40-D16F54) may be drawn
+  vertically on the haiku screen's right strip: not yet seen in game; check in phase 8.
 - **Done:** Phase 5 engine spike and marker build (2026-11-22). VWF engine proven in game (`tools/vwf.py`,
   `fonts/vwf.txt`, D8; `docs/re/text.md` §Font) for both text routines (BG glyph routine 0x08003B84 and printer B
   0x0800455C, sprite text). Marker build `build.py --marker` boots and shows ids; probe tour 194/194
