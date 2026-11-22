@@ -11,8 +11,8 @@ B27.0008	line		【矢村】{rt}伊涼、{name1}…。	【Yamura】{rt}Isuzu, {na
 B27.0009	line		【矢村】{rt}無事かッ？	【Yamura】{rt}Are you all right?	
 B27.0010	line		【伊涼】{rt}うん…。でも…。	【Isuzu】{rt}Yeah... but...	
 B27.0011	line		【妙な男たち】{rt}…………。	【Strange Men】{rt}......	
-B27.0012	line		【矢村】{rt}あんたたちか？	【Yamura】{rt}Was it you?	
-B27.0013	line		【矢村】{rt}俺たちをこんな妙なところへ{rt}連れてきたのは？	【Yamura】{rt}Who brought us to this strange{rt}place?	
+B27.0012	line		【矢村】{rt}あんたたちか？	【Yamura】{rt}Was it you...	
+B27.0013	line		【矢村】{rt}俺たちをこんな妙なところへ{rt}連れてきたのは？	【Yamura】{rt}who brought us to this strange{rt}place?	
 B27.0014	line		【右の男】{rt}…………。	【Man on the Right】{rt}......	
 B27.0015	line		【右の男】{rt}言ったろうが。	【Man on the Right】{rt}We told you.	
 B27.0016	line		【右の男】{rt}無間空間と―――。	【Man on the Right】{rt}The Endless Space--	
@@ -76,8 +76,8 @@ B27.0073	line		【矢村】{rt}あの符は{name1}が持っていた{rt}はず�
 B27.0074	line		【矢村】{rt}{name1}の目を欺いたのか！？	【Yamura】{rt}You fooled {name1}'s eyes!?	
 B27.0075	line		【司命】{rt}符そのものを{rt}盗み取った訳ではない。	【Shimei】{rt}We didn't steal the talismans{rt}themselves.	
 B27.0076	line		【司命】{rt}符に封じられた{rt}《大罪》の―――	【Shimei】{rt}Of the Great Sin sealed in them--	
-B27.0077	line		【司命】{rt}いわば複製を創り出した、	【Shimei】{rt}we created a copy, as it were,	
-B27.0078	line		【司命】{rt}とでもいっておこうか。	【Shimei】{rt}let's say.	
+B27.0077	line		【司命】{rt}いわば複製を創り出した、	【Shimei】{rt}we created a copy,	
+B27.0078	line		【司命】{rt}とでもいっておこうか。	【Shimei】{rt}so to speak.	
 B27.0079	line		【伊涼】{rt}複製ッ…？	【Isuzu】{rt}A copy...?	
 B27.0080	line		【司録】{rt}そう…。	【Shiroku】{rt}Yes...	
 B27.0081	line		【司録】{rt}氏神の手から符を奪うと{rt}すれば、	【Shiroku】{rt}Taking the talismans from the Ujigami's{rt}hands	
@@ -101,8 +101,8 @@ B27.0098	line		【司命】{rt}　封じられし魂に再び命{rt}　（いの
 B27.0099	line		【矢村】{rt}なッ―――	【Yamura】{rt}Wh--	
 B27.0100	line		【クマソ】{rt}う―――。	【Kumaso】{rt}Ugh--	
 B27.0101	line		【矢村】{rt}―――！！	【Yamura】{rt}--!!	
-B27.0102	line		【クマソ】{rt}恨めしいィ――。	【Kumaso】{rt}Hateful--	
-B27.0103	line		【クマソ】{rt}おれを斬った者が{rt}恨めしいィ――。	【Kumaso】{rt}The one who cut me down is{rt}hateful--	
+B27.0102	line		【クマソ】{rt}恨めしいィ――。	【Kumaso】{rt}I hate them--	
+B27.0103	line		【クマソ】{rt}おれを斬った者が{rt}恨めしいィ――。	【Kumaso】{rt}I hate the one who cut me down--	
 B27.0104	line		【伊涼】{rt}そんな―――！！	【Isuzu】{rt}No--!!	
 B27.0105	line		【伊涼】{rt}封印を解いてしまうなんて…。	【Isuzu】{rt}Breaking the seal...	
 B27.0106	line		【司命】{rt}くくく。驚いたか？{rt}貴様らを恨み、	【Shimei】{rt}Heh heh heh. Surprised? The Thought{rt}of those sealed away	

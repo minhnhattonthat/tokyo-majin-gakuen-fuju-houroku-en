@@ -92,10 +92,10 @@ B24.0089	line		【伊涼】{rt}俊―――。	【Isuzu】{rt}Shun--
 B24.0090	line		【伊涼】{rt}分かった。	【Isuzu】{rt}Fine.	
 B24.0091	line		【伊涼】{rt}俊が元気を取り戻すまで、	【Isuzu】{rt}Until you're back on your feet, Shun,	
 B24.0092	line		【伊涼】{rt}私と{name1}くんで、{rt}調べを進めておくよ。	【Isuzu】{rt}{name1}-kun and I will carry on{rt}investigating.	
-B24.0093	line		【伊涼】{rt}だから、{name1}くんを	【Isuzu】{rt}So, {name1}-kun,	
+B24.0093	line		【伊涼】{rt}だから、{name1}くんを	【Isuzu】{rt}So summon {name1}-kun	
 B24.0094	line		【伊涼】{rt}私と{name2}ちゃん、{rt}調べを進めておくよ。	【Isuzu】{rt}{name2}-chan and I will carry on{rt}investigating.	
-B24.0095	line		【伊涼】{rt}だから、{name2}ちゃんを	【Isuzu】{rt}So, {name2}-chan,	
-B24.0096	line		【伊涼】{rt}勧請して―――	【Isuzu】{rt}summon--	
+B24.0095	line		【伊涼】{rt}だから、{name2}ちゃんを	【Isuzu】{rt}So summon {name2}-chan	
+B24.0096	line		【伊涼】{rt}勧請して―――	【Isuzu】{rt}for us--	
 B24.0097	line		【矢村】{rt}だめだッ。	【Yamura】{rt}No!	
 B24.0098	line		【伊涼】{rt}―――えッ？	【Isuzu】{rt}--Huh?	
 B24.0099	line		【矢村】{rt}できないッ。	【Yamura】{rt}I can't.	
@@ -175,9 +175,9 @@ B24.0172	line		【伊涼】{rt}魂―――！？	【Isuzu】{rt}Our souls--!?
 B24.0173	line		【伊涼】{rt}（血のついた太刀―――。）	【Isuzu】{rt}(A bloodied longsword--)	
 B24.0174	line		【伊涼】{rt}間違いない。	【Isuzu】{rt}No doubt about it.	
 B24.0175	line		【伊涼】{rt}彼らが、あの事件の{rt}犯人だよッ。	【Isuzu】{rt}They're the ones behind those{rt}killings.	
-B24.0176	line		【伊涼】{rt}俊ッ。{name1}くんをッ。	【Isuzu】{rt}Shun. {name1}-kun.	
+B24.0176	line		【伊涼】{rt}俊ッ。{name1}くんをッ。	【Isuzu】{rt}Shun! Summon {name1}-kun!	
 B24.0177	line		【伊涼】{rt}俊ッ。	【Isuzu】{rt}Shun!	
-B24.0178	line		【伊涼】{rt}{name2}ちゃんをッ。	【Isuzu】{rt}{name2}-chan.	
+B24.0178	line		【伊涼】{rt}{name2}ちゃんをッ。	【Isuzu】{rt}Summon {name2}-chan!	
 B24.0179	line		【矢村】{rt}（…やむを得ない、か。）	【Yamura】{rt}(...No choice, then.)	
 B24.0180	line		【矢村】{rt}分かった。	【Yamura】{rt}All right.	
 B24.0181	line		【矢村】{rt}氏神勧請・{name1}大明神！！	【Yamura】{rt}Ujigami Summoning: Great Deity{rt}{name1}!!	
@@ -188,7 +188,7 @@ B24.0185	line		【クマソ】{rt}素晴らしい！！	【Kumaso】{rt}Splendid
 B24.0186	line		【クマソ】{rt}この時代にも、	【Kumaso】{rt}To think that even in this age,	
 B24.0187	line		【クマソ】{rt}このような魂を持つ者が{rt}存在したとはッ！！	【Kumaso】{rt}there's someone with a soul like this!!	
 B24.0188	line		【クマソ】{rt}行け、ヤマトッ！！	【Kumaso】{rt}Go, Yamato!!	
-B24.0189	line		【クマソ】{rt}奴の魂を召し取れッ！！	【Kumaso】{rt}Take its soul!!	
+B24.0189	line		【クマソ】{rt}奴の魂を召し取れッ！！	【Kumaso】{rt}Take that soul!!	
 B24.0190	line		【ヤマト】{rt}ウ―――ウウッ！！	【Yamato】{rt}U--uugh!!	
 B24.0191	line		【ヤマト】{rt}ウオオオオッ！！	【Yamato】{rt}UOOOOOH!!	
 B24.0192	line		【伊涼】{rt}きゃッ！！	【Isuzu】{rt}Eek!!	
@@ -278,9 +278,9 @@ B24.0275	line		【矢村】{rt}立ち向かうのは、	【Yamura】{rt}makes me
 B24.0276	line		【矢村】{rt}あの高丸と変わらないッ。	【Yamura】{rt}no different from Takamaru.	
 B24.0277	line		【高丸】{rt}決して《陰》に交わらぬ―――	【Takamaru】{rt}Never mingling with the Shade--	
 B24.0278	line		【高丸】{rt}それが貴様ら、《陽の者》だ。	【Takamaru】{rt}that's what you Light folk are.	
-B24.0279	line		【高丸】{rt}己が大願を成すためには{rt}貴様らを斃さねばならない。	【Takamaru】{rt}To fulfil my great wish, I must bring{rt}you down.	
+B24.0279	line		【高丸】{rt}己が大願を成すためには{rt}貴様らを斃さねばならない。	【Takamaru】{rt}To fulfill my great wish, I must bring{rt}you down.	
 B24.0280	line		【高丸】{rt}死んでいった{rt}《陰の者》たち―――	【Takamaru】{rt}For the Shade folk who died--	
-B24.0281	line		【高丸】{rt}そして、{rt}己の娘の魂のためにも…	【Takamaru】{rt}And for my daughter's soul...	
+B24.0281	line		【高丸】{rt}そして、{rt}己の娘の魂のためにも…	【Takamaru】{rt}and for my daughter's soul...	
 B24.0282	line		【高丸】{rt}俊宗―――	【Takamaru】{rt}Toshimune--	
 B24.0283	line		【高丸】{rt}己は貴様を{rt}許しはしないぞッ！！	【Takamaru】{rt}I will never forgive you!!	
 B24.0284	line		【高丸】{rt}絶対になあッ！！	【Takamaru】{rt}Never!!	
@@ -296,7 +296,7 @@ B24.0293	line		【伊涼】{rt}私や{name1}くんと	【Isuzu】{rt}the Great S
 B24.0294	line		【伊涼】{rt}私や{name2}ちゃんと	【Isuzu】{rt}the Great Sin with me and{rt}{name2}-chan,	
 B24.0295	line		【伊涼】{rt}一緒に立ち向かうための{rt}《力》じゃないの？	【Isuzu】{rt}together?	
 B24.0296	line		【矢村】{rt}…………。	【Yamura】{rt}............	
-B24.0297	line		【伊涼】{rt}誰が正しいのかなんて、{rt}私にも分からない。	【Isuzu】{rt}Who's right, I don't know either.	
+B24.0297	line		【伊涼】{rt}誰が正しいのかなんて、{rt}私にも分からない。	【Isuzu】{rt}I don't know who's right either.	
 B24.0298	line		【伊涼】{rt}だけど―――	【Isuzu】{rt}But--	
 B24.0299	line		【伊涼】{rt}私、この東京が好きだから…。	【Isuzu】{rt}I love this Tokyo...	
 B24.0300	line		【伊涼】{rt}《大罪》が現れる前の生活を{rt}壊されたくないから、	【Isuzu】{rt}I don't want the life we had before the{rt}Great Sin appeared destroyed,	
@@ -351,7 +351,7 @@ B24.0348	line		【矢村】{rt}真っ直ぐな先が見えている{rt}のかと
 B24.0349	line		【伊涼】{rt}{name1}くん…。	【Isuzu】{rt}{name1}-kun...	
 B24.0350	line		【伊涼】{rt}{name2}ちゃん…。	【Isuzu】{rt}{name2}-chan...	
 B24.0351	line		【矢村】{rt}…すまない。	【Yamura】{rt}...I'm sorry.	
-B24.0352	line		【矢村】{rt}闘う理由というものを何かしら{rt}つかんでいるお前には、	【Yamura】{rt}You've grasped some kind of reason to{rt}fight,	
+B24.0352	line		【矢村】{rt}闘う理由というものを何かしら{rt}つかんでいるお前には、	【Yamura】{rt}Since you've grasped some kind of{rt}reason to fight,	
 B24.0353	line		【矢村】{rt}俺の迷いなんてのは{rt}じれったいだけだよな。	【Yamura】{rt}my doubts must just be frustrating to{rt}you.	
 B24.0354	line		【伊涼】{rt}…………。	【Isuzu】{rt}............	
 B24.0355	line		【矢村】{rt}…………。	【Yamura】{rt}............	
@@ -526,10 +526,10 @@ B24.0523	line		【少年の声】{rt}俺たちも、お前も、{rt}そういう
 B24.0524	line		【矢村】{rt}この感じは―――。	【Yamura】{rt}This feeling--	
 B24.0525	line		【矢村】{rt}{name1}―――。	【Yamura】{rt}{name1}--	
 B24.0526	line		【矢村】{rt}これは、お前の―――	【Yamura】{rt}Is this your--	
-B24.0527	line		【矢村】{rt}《念》が発する声なのか！？	【Yamura】{rt}the voice your Thought gives off!?	
+B24.0527	line		【矢村】{rt}《念》が発する声なのか！？	【Yamura】{rt}Thought speaking!?	
 B24.0528	line		【少女の声】{rt}あいつらは、	【Girl's Voice】{rt}Those guys	
 B24.0529	line		【少女の声】{rt}この東京を護るために{rt}命を賭けてる。	【Girl's Voice】{rt}are risking their lives to protect this{rt}Tokyo.	
-B24.0530	line		【少女の声】{rt}現に今もひとり入院してて、{rt}意識がない――。	【Girl's Voice】{rt}Right now one of them is in hospital,{rt}unconscious--	
+B24.0530	line		【少女の声】{rt}現に今もひとり入院してて、{rt}意識がない――。	【Girl's Voice】{rt}Right now one of them is in the{rt}hospital, unconscious--	
 B24.0531	line		【少年の声】{rt}もう―――こんな風に{rt}誰かが斃れるのは	【Boy's Voice】{rt}I swore I'd had enough--	
 B24.0532	line		【少年の声】{rt}ゴメンだと思っていた{rt}はずなのにッ！！	【Boy's Voice】{rt}of people falling like this!!	
 B24.0533	line		【女の声】{rt}死なせやするもんか。{rt}絶対にねェ。	【Woman's Voice】{rt}I won't let 'em die. No way.	
@@ -563,14 +563,14 @@ B24.0560	line		【矢村】{rt}こんな呪縛ごときに、{rt}屈しはしな
 B24.0561	line		【矢村】{rt}{name1}。	【Yamura】{rt}{name1}.	
 B24.0562	line		【矢村】{rt}心から礼をいうよ。	【Yamura】{rt}I thank you from the bottom of my{rt}heart.	
 B24.0563	line		【矢村】{rt}ありがとう。	【Yamura】{rt}Thank you.	
-B24.0564	line		【矢村】{rt}お前は俺に{rt}気付かせてくれた。	【Yamura】{rt}You made me realise.	
+B24.0564	line		【矢村】{rt}お前は俺に{rt}気付かせてくれた。	【Yamura】{rt}You made me realize.	
 B24.0565	line		【矢村】{rt}俺は闘えるッ。	【Yamura】{rt}I can fight.	
 B24.0566	line		【矢村】{rt}《大罪》には絶対に―――	【Yamura】{rt}I will never--	
 B24.0567	line		【矢村】{rt}負けやしない！！	【Yamura】{rt}lose to the Great Sin!!	
 B24.0568	line		【矢村】{rt}俺だって、心の底では{rt}分かってたんだ。	【Yamura】{rt}Deep down, I knew it too.	
 B24.0569	line		【矢村】{rt}ただ、俺にはそれを信じる{rt}勇気がなかった…。	【Yamura】{rt}I just didn't have the courage to{rt}believe it...	
 B24.0570	line		【矢村】{rt}{name1}、	【Yamura】{rt}{name1},	
-B24.0571	line		【矢村】{rt}お前は俺に{rt}勇気をくれた。	【Yamura】{rt}You gave me courage.	
+B24.0571	line		【矢村】{rt}お前は俺に{rt}勇気をくれた。	【Yamura】{rt}you gave me courage.	
 B24.0572	line		【矢村】{rt}だからあとは、{rt}俺のすべき事だ。	【Yamura】{rt}So the rest is up to me.	
 B24.0573	line		【矢村】{rt}見ていてくれ、{name1}。	【Yamura】{rt}Watch me, {name1}.	
 B24.0574	line		【矢村】{rt}俺自身で{rt}踏み出して見せるッ。	【Yamura】{rt}I'll take the step myself.	
