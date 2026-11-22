@@ -899,94 +899,94 @@ CF6FE0	str	7	旋風	Whirlwind
 CF6FE8	str	11	悪霊憑き	Possessed	
 CF6FF4	str	15	継がれる遺志	Inherited Will	
 CF7004	str	11	荒地の檻	Wasteland Cage	
-CF7010	str	11	儚い栄光		
-CF701C	str	11	混沌の渦		
-CF7028	str	7	枯渇		
-CF7030	str	11	血肉の供物		
-CF703C	str	11	見えざる手		
-CF7048	str	7	祈り		
-CF7050	str	7	暴露		
-CF7058	str	7	昇華		
-CF7060	str	7	禁呪		
-CF7068	str	11	霊力還元		
-CF7074	str	11	浄化する光		
-CF7080	str	11	濁流たる水		
-CF708C	str	11	堅牢たる金		
-CF7098	str	11	肥沃たる土		
-CF70A4	str	11	燃え盛る火		
-CF70B0	str	11	繁茂する木		
-CF70BC	str	7	神隠し		
-CF70C4	str	7	刻の道		
-CF70CC	str	15	巡り来る因果		
-CF70DC	str	7	転移		
-CF70E4	str	11	荒れ狂う嵐		
-CF70F0	str	11	失意の風		
-CF70FC	str	11	式神返し		
-CF7108	str	7	無力化		
-CF7110	str	11	平手打ち		
-CF711C	str	11	呪いの言葉		
-CF7128	str	11	疫病の風		
-CF7134	str	7	活人剣		
-CF713C	str	11	外道の群		
-CF7148	str	11	結界の霧		
-CF7154	str	7	空振り		
-CF715C	str	15	捨て身の看護		
-CF716C	str	11	創り直し		
-CF7178	str	11	不死の血脈		
-CF7184	str	11	奇跡の生還		
-CF7190	str	7	手裏剣		
-CF7198	str	7	物忘れ		
-CF71A0	str	7	均衡		
-CF71A8	str	7	偵察		
-CF71B0	str	11	一刀両断		
-CF71BC	str	11	最後の賭け		
-CF71C8	str	7	招集		
-CF71D0	str	7	落葉		
-CF71D8	str	7	鎮火		
-CF71E0	str	7	溶解		
-CF71E8	str	7	地震		
-CF71F0	str	7	蒸発		
-CF71F8	str	11	死の烙印		
-CF7204	str	7	終焉		
-CF720C	str	11	氣の爆発		
-CF7218	str	15	滅亡への序曲		
-CF7228	str	11	急激な成長		
-CF7234	str	11	氣脈の流れ		
-CF7240	str	7	黒龍		
-CF7248	str	7	雪　		
-CF7250	str	7	常世		
-CF7258	str	7	雨　		
-CF7260	str	7	槐　		
-CF7268	str	7	高山		
-CF7270	str	7	月　		
-CF7278	str	7	椿　		
-CF7280	str	7	白龍		
-CF7288	str	7	菊　		
-CF7290	str	7	戦場		
-CF7298	str	7	宝物		
-CF72A0	str	7	梅　		
-CF72A8	str	7	大道		
-CF72B0	str	7	夕陽		
-CF72B8	str	7	紅葉		
-CF72C0	str	7	黄龍		
-CF72C8	str	7	瑞光		
-CF72D0	str	7	仙境		
-CF72D8	str	7	神社		
-CF72E0	str	7	赤龍		
-CF72E8	str	7	嵐　		
-CF72F0	str	7	雲　		
-CF72F8	str	7	竹　		
-CF7300	str	7	桐　		
-CF7308	str	7	湖畔		
-CF7310	str	7	炎天		
-CF7318	str	7	青葉		
-CF7320	str	7	風　		
-CF7328	str	7	蝶　		
-CF7330	str	7	薔薇		
-CF7338	str	7	柳　		
-CF7340	str	7	流水		
-CF7348	str	7	曙　		
-CF7350	str	5	桜　		
-CF7A78	str	15	　　對出演對{wc}		
-CF7A88	str	3	【		
-CF7A8C	str	7	】{rt}		
+CF7010	str	11	儚い栄光	Fleeting Glory	
+CF701C	str	11	混沌の渦	Chaos Vortex	
+CF7028	str	7	枯渇	Exhaustion	
+CF7030	str	11	血肉の供物	Flesh Offering	
+CF703C	str	11	見えざる手	Unseen Hand	
+CF7048	str	7	祈り	Prayer	
+CF7050	str	7	暴露	Exposure	
+CF7058	str	7	昇華	Sublimation	
+CF7060	str	7	禁呪	Forbidden Art	
+CF7068	str	11	霊力還元	Spirit Return	
+CF7074	str	11	浄化する光	Purifying Light	
+CF7080	str	11	濁流たる水	Muddy Water	
+CF708C	str	11	堅牢たる金	Solid Metal	
+CF7098	str	11	肥沃たる土	Fertile Earth	
+CF70A4	str	11	燃え盛る火	Blazing Fire	
+CF70B0	str	11	繁茂する木	Lush Wood	
+CF70BC	str	7	神隠し	Spirited Away	
+CF70C4	str	7	刻の道	Path of Time	
+CF70CC	str	15	巡り来る因果	Karma Returns	
+CF70DC	str	7	転移	Teleport	
+CF70E4	str	11	荒れ狂う嵐	Raging Storm	
+CF70F0	str	11	失意の風	Wind of Despair	
+CF70FC	str	11	式神返し	Shiki Reversal	
+CF7108	str	7	無力化	Neutralize	
+CF7110	str	11	平手打ち	Slap	
+CF711C	str	11	呪いの言葉	Curse Words	
+CF7128	str	11	疫病の風	Plague Wind	
+CF7134	str	7	活人剣	Saving Blade	
+CF713C	str	11	外道の群	Heretic Horde	
+CF7148	str	11	結界の霧	Barrier Mist	
+CF7154	str	7	空振り	Swing and Miss	
+CF715C	str	15	捨て身の看護	Reckless Nursing	
+CF716C	str	11	創り直し	Remake	
+CF7178	str	11	不死の血脈	Undying Blood	
+CF7184	str	11	奇跡の生還	Miracle Return	
+CF7190	str	7	手裏剣	Shuriken	
+CF7198	str	7	物忘れ	Forgetfulness	
+CF71A0	str	7	均衡	Balance	
+CF71A8	str	7	偵察	Scouting	
+CF71B0	str	11	一刀両断	Clean Cut	
+CF71BC	str	11	最後の賭け	Last Gamble	
+CF71C8	str	7	招集	Muster	
+CF71D0	str	7	落葉	Falling Leaves	
+CF71D8	str	7	鎮火	Quench	
+CF71E0	str	7	溶解	Dissolve	
+CF71E8	str	7	地震	Earthquake	
+CF71F0	str	7	蒸発	Evaporate	
+CF71F8	str	11	死の烙印	Death Brand	
+CF7204	str	7	終焉	The End	
+CF720C	str	11	氣の爆発	Ki Burst	
+CF7218	str	15	滅亡への序曲	Prelude to Ruin	
+CF7228	str	11	急激な成長	Sudden Growth	
+CF7234	str	11	氣脈の流れ	Ki Vein Flow	
+CF7240	str	7	黒龍	Black	
+CF7248	str	7	雪　	Snow	
+CF7250	str	7	常世	Ever	
+CF7258	str	7	雨　	Rain	
+CF7260	str	7	槐　	Enju	
+CF7268	str	7	高山	Peak	
+CF7270	str	7	月　	Moon	
+CF7278	str	7	椿　	Cam.	
+CF7280	str	7	白龍	White	
+CF7288	str	7	菊　	Mums	
+CF7290	str	7	戦場	War	
+CF7298	str	7	宝物	Loot	
+CF72A0	str	7	梅　	Plum	
+CF72A8	str	7	大道	Road	
+CF72B0	str	7	夕陽	Eve	
+CF72B8	str	7	紅葉	Maple	
+CF72C0	str	7	黄龍	Gold	
+CF72C8	str	7	瑞光	Glow	
+CF72D0	str	7	仙境	Eden	
+CF72D8	str	7	神社	Kami	
+CF72E0	str	7	赤龍	Red	
+CF72E8	str	7	嵐　	Gale	
+CF72F0	str	7	雲　	Cloud	
+CF72F8	str	7	竹　	Cane	
+CF7300	str	7	桐　	Kiri	
+CF7308	str	7	湖畔	Lake	
+CF7310	str	7	炎天	Heat	
+CF7318	str	7	青葉	Leaf	
+CF7320	str	7	風　	Wind	
+CF7328	str	7	蝶　	Moth	
+CF7330	str	7	薔薇	Rose	
+CF7338	str	7	柳　	Wilw	
+CF7340	str	7	流水	Flow	
+CF7348	str	7	曙　	Dawn	
+CF7350	str	5	桜　	Bloom	
+CF7A78	str	15	　　對出演對{wc}	  -- Cast --{wc}	
+CF7A88	str	3	【	【	
+CF7A8C	str	7	】{rt}	】{rt}	
