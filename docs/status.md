@@ -277,6 +277,10 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   D72810 "[n] held, # [m]" (was "1 cards, # 1"); both seen in game (`work/qa/p8s24/sellfix.png`, `sellfix2.png`);
   story gate 0 open (`zz_recheck24_20261122.tsv`). Coverage runs `cover/sell1..3` (+6 system strings). Branch
   pass resumed in the background (branch3 ~125 of ~165 when the session ended).
+  Session 25 (2026-11-22): haiku password table for the release README: `tools/haiku_list.py` -> `docs/haiku.md`
+  (kana, typing romaji, meaning; D14 done). Branch pass resumed: branch3 finished, branch4 reached A8 when the
+  run was killed for low system memory (incomplete dirs branch4/A8_0..A8_3 left: delete them, then resume; consider
+  `--jobs 2`). gaps + report not run yet.
 - **Next (phase 8):** (A) text coverage: the branch pass was resumed again in session 22 (`--jobs 4`, log
   `work/qa/cover_branches.log`; resumed again in sessions 23 and 24: branch0-2 done, branch3+ (A scenes only) running
   when session 24 ended). A rebuild moves 12 207 string addresses (scenes re-pack), so after the rebuild the whole
