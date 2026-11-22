@@ -4,7 +4,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator (started 2026-11-22). Last build: `build/tmgfh_en.gba` 2026-11-22 (session 19; sessions 20-29 did not
   rebuild it, because the coverage runs use it; unbuilt there: session 22's 4 text edits, session 23's haiku fix,
-  session 24's tab-sprite fix + 2 text edits, sessions 26-29's graphics + D64260), sha1 82aef7599a18..; side
+  session 24's tab-sprite fix + 2 text edits, sessions 26-29's graphics + D64260, session 30's D72710), sha1 82aef7599a18..; side
   build with everything: `build.py --out work/next/tmgfh_en.gba` (sha1 cb3b225f..); check.py 38 passed.
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
@@ -329,10 +329,24 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   details `docs/re/graphics.md` §session 29. Side build sha1 cb3b225f..; check.py 38 passed. System unshown now 202
   (list: `python -X utf8 work/qa/p8s29/unshown.py` -> `work/qa/p8s29/unshown_sys.txt`; 32 of them are the haiku
   rows D168-D16F that leave strings.tsv at the rebuild). Branch pass still running (PID 37736, branch5 at A2).
-- **Next (phase 8):** (session 29 leads) from `work/states/shop_after_pack.mss` find how to leave the pack screen
-  (A toggles register/remove; try B then the Next button), then Sell -> Trade tab for the sell-all-trade texts
-  D724EC / D72710-D727A0; discard texts (D72548, D726FC, D72C1C-D72C98) did not trigger at 999+8 cards: find the
-  collection cap (try ~5000 records with `save.py set --add-cards`); D728xx-D72Cxx registration rules are printed
+  Session 30 (2026-11-22, no rebuild): **pack-opening screen exit found**: the Next button sits left of the first
+  card; `left` from card 0 focuses it (bright, arrows), `left` again wraps to the last card; A on it leaves. From
+  `shop_after_pack.mss`: `30 -;6 left;54 -;6 left;54 -;6 a` -> shop menu (`cover/p8s30_packexit12`). New probes
+  `tools/debug/modeset.lua` (write a mode at frame AT), `pokeat.lua` (one-shot u16 pokes, also behind a pointer),
+  `ptrlog.lua` (log a state struct's fields when they change). **Sell-all of trade cards shown, all fit**
+  (D724EC, D72710, D72748, D7277C, D727A0: `cover/p8s30_tradesell4`, `tradesell5`; route: shop_after_pack +
+  register via A on cards, `modeset.lua AT=800 TO=9`, then Sell, down to the Trade tab, A, A, left (Yes), A).
+  D72710 reworded "unchecked" -> "not one by one" (story gate 0 open, `zz_recheck30_20261122.tsv`).
+  **Discard (collection cap) mapped, not yet shown:** card count = s16 0x03003818; the post-battle flow
+  (function around 0x08048B66, struct [0x030035B8], context +0x36 == 4) sets substate +0x38 = 7 (discard) when the
+  count > 5000 (literal 0x1388) and asks for count-5000 discards (D72548 at 0x08048E24). The shop instead refuses
+  to sell packs at the cap, so the discard follows only a battle reward. `full5020_en.sav` (5020 cards) made.
+  Post-battle pack screen (`pack_select_pre.mss` + `4 a;300 -;6 a`) reveals cards one by one; `left;left;a`
+  there did not reach Next (cursor index differs), nor did 8 x (A, right, A) then 8 x left: find the Next focus
+  on that screen (shot every 20 frames while pressing left), with count poked >= 5000 at frame 10
+  (`pokeat.lua --var "POKES={[0x03003818]=5000}"`). Poking +0x38 = 7 on either pack screen did nothing.
+- **Next (phase 8):** (session 30 leads) the discard flow above (D72548, D726FC, D72C1C-D72C98, D72CB4+); then
+  D728xx-D72Cxx registration rules are printed
   by code 0x0804AF4E-0x0804B0xx (0x08018B4C at x 0x70 y 0x50, when a state value == 6) that no route reached yet
   (not the Trading Hall deck edit, not View All -> Trade): breakpoint 0x0804AFCE never hit. Sort badges AP-/AP+..
   and kana-row badges still unshown.
@@ -347,8 +361,8 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   waive with a note naming the changed rows). System strings left (228 after session 23, total 4 781 of 17 151; list them with
   `cover.shown_ids()` against `work/qa/cover/strings.tsv`): CF64E8-CF7340 short labels and land/spell names,
   D720A0-D72C98 sell / trade-registration / discard prompts (sell: from `work/states/shop_all.mss`, flow in session
-  24; trade registration = deck editor Trade tab; discard = when the collection overflows?; still unshown: sell-all
-  of trade cards D724EC/D72710-D727A0, D728xx-D72Cxx registration rules), sort badges AP-/AP+.. (sort popup), kana-row badges
+  24; trade registration = pack-opening screen; discard = count > 5000 after a battle reward (session 30); still
+  unshown: D728xx-D72Cxx registration rules; sell-all of trade cards shown in session 30), sort badges AP-/AP+.. (sort popup), kana-row badges
   (scroll a name-sorted list), sutra board sin descriptions: 8 of 9 shown (`cover/board_sins`: board.mss, cursor
   move + A on each label); Theft D78850 not yet (find its label's cursor path),
   (D78990-D78C8C shop booster purchase: done in session 29), D6526C link error / D6E3D4 sync test / D78E04-D79138 link cable

@@ -1468,7 +1468,7 @@ D726C0	str	19	編集を行います。	you edit.
 D726D4	str	19	売る符を選びます。	you pick to sell.	
 D726E8	str	19	交換を行います。	you trade.	
 D726FC	str	19	捨てる符を選びます	Pick cards to discard	
-D72710	str	55	売買符　　を{rt}一枚毎の確認はせず{rt}一括して売ります。	Sell all[81][40][81][40]{rt}trade cards at once,{rt}unchecked.	
+D72710	str	55	売買符　　を{rt}一枚毎の確認はせず{rt}一括して売ります。	Sell all[81][40][81][40]{rt}trade cards at once,{rt}not one by one.	
 D72748	str	35	一括して売っても{rt}よろしいですか？	Sell them all{rt}at once. Sure?	
 D7276C	str	15	はい　いいえ	Yes[81][40]No	
 D7277C	str	35	売買符　　枚を{rt}全て売りました。	Sold all[81][40][81][40]{rt}trade cards.	
