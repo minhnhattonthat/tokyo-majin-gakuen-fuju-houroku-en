@@ -420,7 +420,9 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   RAM 0x03003830 / 0x03005A70 via poke.lua, `work/qa/p8s35/ln18/sheet*.png`: "ShiShiShiShi" lines and wraps fit).
   **VS (対) sprite seen in game** for the first time (hub -> Move On, `tools/routes/hub_move_on.txt`,
   `work/qa/p8s35/vs_cmp.png`), but that path from hub_ch05.sav hangs into garbage in the JP original too, so its
-  left portrait garbage there is not ours. VS plate / profile with long names still to check in a real battle.
+  left portrait garbage there is not ours. VS name plate with 4+4-unit names overflows both plate ends
+  (`work/qa/p8s35/vs_plate_cmp.png`), **as the JP original does with 4+4 kana** (`work/qa/p8s35/vs_jplong.png`):
+  standing non-bug, add to `docs/visual-qa-brief.md`. Profile with long names not checked yet.
 - **Next (phase 8):** (1) wait for the branch pass (PID 37736, branch8 when session 34 ended; it runs on
   `build/tmgfh_en.gba`, so do not rebuild before it ends), then `cover.py gaps --jobs 2` + `report --by-scene` to
   find unreachable scene lines (scene unshown 1461 before branch7/8). (2) Rebuild (everything since session 19 incl.

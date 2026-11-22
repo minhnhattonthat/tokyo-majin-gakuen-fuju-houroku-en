@@ -36,3 +36,5 @@ Standing non-bugs, `ok`:
   in the verdict note, verdict `ok` only once `docs/re/graphics.md` lists it as a pending redraw.
 - the kana name-entry grids (kind `grid`) until English name entry lands.
 - the staff roll keeps 﨤 in B39.0020 on purpose.
+- the VS name plate (surname + given name, no space) overflows both plate ends with 4+4-unit names: the original does
+  the same with 4+4 kana (`work/qa/p8s35/vs_jplong.png`).
