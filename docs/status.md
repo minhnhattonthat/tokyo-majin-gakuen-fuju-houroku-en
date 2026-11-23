@@ -2,6 +2,16 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
+- **Session 42 (owner request):** title logo English (D17): TOKYO MAJIN GAKUEN / FUJU HOUROKU / THE TALISMAN
+  SEALING CHRONICLE in Permanent Marker (`tools/gfx_logo.py`, group title_logo, 269 tiles in place at 0xD23140),
+  and the same logo on the 完 end card (end_card row kind `logo`). Build sha1 fa0db65125e4.., check.py 38 passed,
+  smoke ok; warp shots `work/qa/logo/built/{title,card_end}`. Open: booster-pack art (S18, 8bpp OBJ 64x96 per pack,
+  table 0xD81E64: tiles/palette/layout per pack) keeps the small JP logo (owner's call, D17). Re-run
+  `tools/release.py` before publishing.
+- **Session 41 (owner request):** emotion-choice dials now show pictogram icons instead of WOR/SAD/... letters
+  (D16 revised; `ICON` in `tools/gfx_emotion.py`, styled after the DS remake's blocks, ref `rom/tmgk-en__18412.png`).
+  Dial render check `work/qa/dials.png`.
+  The v1.0 zip below predates this: re-run `tools/release.py` before publishing.
 - **Phase:** 9. Release: done-when met 2026-11-23, session 40. Last build `build/tmgfh_en.gba` sha1 2851823e9e2f..
   (crc32 2F067CFC); check.py 38 passed, smoke ok. `python -X utf8 tools/release.py` exits 0 and wrote
   `release/v1.0/Tokyo_Majin_Gakuen_Fuju_Houroku_EN_v1.0.zip` (BPS e8add26d.., re-applied to a clean dump == build,

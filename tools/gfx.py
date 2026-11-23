@@ -419,6 +419,11 @@ def edit_canvas(canvas, edits, rom, pal, white):
                                 if not canvas[py + 1][pxx + 1]:
                                     canvas[py + 1][pxx + 1] = int(r['sx'])
                     tx += len(g[0]) + 1
+        elif r['kind'] == 'logo':    # the English title logo, two lines, in end-card indices (tools/gfx_logo.py)
+            import gfx_logo
+            px = gfx_logo.small(w, h)
+            for yy in range(h):
+                canvas[y + yy][x:x + w] = px[yy]
         elif r['kind'] == 'shadow':  # transparent backdrop: centred text (size sy), drop shadow index sx down-right
             canvas_shadow(canvas, x, y, w, h, r['en'], int(r['sy']), list(white), int(r['sx']))
 
@@ -763,7 +768,13 @@ def warn_box(rom):
     return gfx_warnbox.warn_box(rom)
 
 
-GROUPS = {'attack_types': attack_types, 'icons': icons, 'mini_labels': mini_labels, 'frames': frames, 'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': dungeon_menu,
+def title_logo(rom):
+    """title-screen logo (G3, BG0 raw tiles 0xD23140, map 0xD25660) -> English (tools/gfx_logo.py, D17)"""
+    import gfx_logo
+    return gfx_logo.title_logo(rom)
+
+
+GROUPS = {'title_logo': title_logo, 'attack_types': attack_types, 'icons': icons, 'mini_labels': mini_labels, 'frames': frames, 'title_menu': title_menu, 'menu_labels': menu_labels, 'dungeon_menu': dungeon_menu,
           'room_banners': room_banners, 'floor_numerals': floor_numerals, 'signs': signs,
           'settings_screen': settings_screen, 'haiku_screen': haiku_screen, 'haiku_input': haiku_input,
           'deck_name_screen': deck_name_screen,

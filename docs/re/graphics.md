@@ -7,7 +7,7 @@ Tour: `tools/routes/tour1.txt` (cold boot -> opening) and `tools/routes/mash_a.t
 |---|---|---|---|---|
 | G1 | boot | シャウトデザインワークス logo | raw tiles, region 0xD23000.. | tour f000900 |
 | G2 | boot | マーベラスインタラクティブ logo | raw tiles, 0xD23000.. | tour |
-| G3 | title | 東京魔人學園 符咒封録 logo | raw 4bpp 0xD1BF50-0xD2DA47 (vramfind, `work/qa/ppu_title`) | keep JP unless an official EN logo exists (D5) |
+| G3 | title | 東京魔人學園 符咒封録 logo | BG0 bank 3: palette 0xD23120, raw 4bpp tiles 0xD23140 (297 tiles), 30x20 map 0xD25660, from the title (ptr, size) table 0xD289E0; the game scrolls BG0 up 16 px | **English** (D17): TOKYO MAJIN GAKUEN / FUJU HOUROKU / THE TALISMAN SEALING CHRONICLE, group title_logo (`tools/gfx_logo.py`, Permanent Marker), 269 tiles in place; shot `work/qa/logo/built/title/f001800.png` |
 | G4 | title | 始めから / 続きから / 通信 / 設定 / 通信対戦 / 通信交換; PUSH START | **verified in sweep**: 0xD25E50 (0xC00, 4bpp, 4 cols), PUSH START 0xD25B30 | **English (phase 8 pilot)**: `tools/gfx.py` group title_menu, `gfx/title_menu.tsv`; shot `work/qa/gfx_title/menu_zoom.png` |
 | G5 | story | vertical scene captions (暗黒の渦――, etc.) | sweep candidates S9/S10 below | tour f008880 |
 | G6 | name entry | 名前は？, 苗字, 名前, 進む 戻る 終了, かな カナ 漢字 | BG2 screen, screen-table entry 0xD7DF1C: LZ77 tiles 0xBEAC20 (234 tiles, bank 10, VRAM 0x0600C000), palette 0xE51FDA, raw 30x20 map 0xE577AA; loader 0x08003268 sizes the buffer and the VRAM copy from the LZ77 header | **English** (group name_entry_screen, `gfx.lz_screen_edit`; `work/qa/ne_en.png`) |
@@ -95,7 +95,7 @@ Other triples that render as menus: 0xC36408 商品選択 (shop list), 0xC6D898 
 | W8 | `sound_test` | サウンドテスト, BGM, SE, セリフ, ボイス + song/line names (S22) |
 | W9 | `haiku` | 句会 banner **English** (haiku_screen, BG2 0xD0E320, pointers 0xD16F94..), 蛍火の句会 (font) |
 | W10 | `ending_38`, `ending_39` | staff roll: role captions ◎グラフィック◎, ◎企画・開発◎, ◎プロデューサー◎, ◎監督◎, names (D3: English) |
-| W11 | `ending_39` | 東京魔人學園 符咒封録 完 end card (tiles) |
+| W11 | `ending_39` | 東京魔人學園 符咒封録 完 end card (tiles): **English**, logo redrawn too (end_card row kind `logo`, D17; `warp.py card_end`, `work/qa/logo/endcard_en_z.png`) |
 | W12 | `story_00`, `story_NN` | vertical scene captions (暗黒の渦――: G5) at the top right of story scenes |
 | W13 | `board` | sutra board (mode 7): the ten sin labels 悪口 貪欲 妄語 好色 綺語 両舌 邪見 殺生 偸盗 瞋恚 are the zones the player picks (Add / Cancel menu, font text explains each): **English** Abuse, Greed, Lies, Lust, Flattery, Double Tongue, False View, Killing, Theft, Malice (glossary b072-b074; group sutra_board, `tools/gfx_board.py`): BG3 entry 0xD81B7C retiled into 0xFC0000 (the setup's fixed copy size literal 0x080567E4 raised), side labels rotated; red highlight sprites 0xC1ADF8 + k * 0x100 redrawn to match. Seen in game, cursor moved over each (`work/qa/p8s18/bm_z.png`). The other board text (神, 真, 太極, 宿星, talismans) is art |
 | W14 | `battle_tutorial` | battle HUD; これから戦闘の基本的なルールを説明します (font) |
