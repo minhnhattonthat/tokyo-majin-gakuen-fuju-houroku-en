@@ -2,6 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
+- **Session 43: v1.0 published** (GitHub release v1.0). Build sha1 7796f84dfd7f.. (crc32 2EC60BF5), BPS 1363410 bytes
+  verified, zip = bps + README.txt. Tour/popup gates waived (graphics-only since the tour); re-shot on the English
+  build in `work/qa/rel_s43/{title,card_end,event_00_1}`. Note: `tools/debug/warp.py` defaults to the JP base ROM,
+  so always pass `--rom build/tmgfh_en.gba` to check English graphics.
 - **Session 42 (owner request):** title logo English (D17): TOKYO MAJIN GAKUEN / FUJU HOUROKU / THE TALISMAN
   SEALING CHRONICLE in Permanent Marker (`tools/gfx_logo.py`, group title_logo, 269 tiles in place at 0xD23140),
   and the same logo on the 完 end card (end_card row kind `logo`). Build sha1 fa0db65125e4.., check.py 38 passed,
