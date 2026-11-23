@@ -50,11 +50,36 @@ def inside(x, y):
     return (x - 7.5) ** 2 + (y - 7.5) ** 2 < 5.6 ** 2
 
 
+# Pictograms (D16 revised), after the DS remake's emotion blocks (rom/tmgk-en__18412.png): spiral 悩, drop 悲,
+# snowflake 冷, flame 怒 / heart 愛, two people 友, linked rings 同, smiley 喜. Keyed by the abbreviation in
+# gfx/emotion_dial.tsv; an abbreviation without an icon falls back to the 3x5 letters.
+ICON = {
+    'WOR': ('.#######.', '#.......#', '#.#####.#', '#.#...#.#', '#.#.#.#.#', '#.#.###.#', '#.#.....#',
+            '.#.######'),
+    'SAD': ('...#...', '..###..', '..###..', '.#####.', '#######', '##.####', '#.#####', '.#####.', '..###..'),
+    'CLM': ('....#....', '.#..#..#.', '..#.#.#..', '...###...', '#########', '...###...', '..#.#.#..',
+            '.#..#..#.', '....#....'),
+    'ANG': ('....#....', '...##....', '...###...', '..####.#.', '.#######.', '.###.###.', '.##...##.',
+            '.##...##.', '..#####..'),
+    'LOV': ('..##...##..', '.####.####.', '.#########.', '.#########.', '..#######..', '...#####...',
+            '....###....', '.....#.....'),
+    'FRN': ('..##...##..', '.####.####.', '..##...##..', '...........', '.####.####.', '#####.#####',
+            '#####.#####'),
+    'SYM': ('..###.###..', '.#...#...#.', '#...#.#...#', '#...#.#...#', '#...#.#...#', '.#...#...#.',
+            '..###.###..'),
+    'JOY': ('..#####..', '.#.....#.', '#..#.#..#', '#..#.#..#', '#.......#', '#.#...#.#', '#..###..#',
+            '.#.....#.', '..#####..'),
+}
+
+
 def letter(px, text, ink, shadow, fill):
-    rows = [''] * 5
-    for k, ch in enumerate(text):
-        for r in range(5):
-            rows[r] += ('.' if k else '') + gfx_minilabels.FONT[ch][r]
+    if text in ICON:
+        rows = list(ICON[text])
+    else:
+        rows = [''] * 5
+        for k, ch in enumerate(text):
+            for r in range(5):
+                rows[r] += ('.' if k else '') + gfx_minilabels.FONT[ch][r]
     w = len(rows[0])
     if w > 11:
         raise SystemExit(f'gfx_emotion: {text!r} is {w} px wide, room 11')
@@ -62,7 +87,7 @@ def letter(px, text, ink, shadow, fill):
         for x in range(16):
             if inside(x, y):
                 px[y][x] = fill
-    sx, sy = (16 - w) // 2, 5
+    sx, sy = (16 - w) // 2, (16 - len(rows)) // 2
     if shadow:
         for r, line in enumerate(rows):
             for c, ch in enumerate(line):
