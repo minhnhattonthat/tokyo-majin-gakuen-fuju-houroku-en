@@ -1,7 +1,7 @@
-# <Game title> English translation
+# Tokyo Majin Gakuen: Fuju Houroku English translation
 
-Unofficial English fan translation of **<Game title>** (<platform>, <publisher>, <year>): the source text and tools
-that build the patch.
+Unofficial English fan translation of **Tokyo Majin Gakuen: Fuju Houroku** (東京魔人學園符咒封録; Game Boy Advance,
+Marvelous Interactive, developed by Shout Designworks): the source text and tools that build the patch.
 
 **Just want to play?** Download the patch from [Releases](../../releases) and follow its README. This repository holds
 no game data you can play; you need your own dump of the Japanese game.
@@ -13,13 +13,16 @@ helps most.
 
 | Part | Status |
 |---|---|
-| <Dialogue / story> | <Translated> |
-| <Menus, items, skills, system messages> | <Translated> |
-| <Title screen, logos, graphics with text> | <Translated / Left in Japanese> |
-| <Name entry> | <Translated / Japanese kana only> |
-| <Songs, voiced lines, credits roll> | <Left in Japanese> |
+| Dialogue / story (main story and all side scenes) | Translated |
+| Menus, cards, rules help, tutorials, system messages | Translated |
+| Title screen, menus and banners drawn as graphics, card frames, sutra board labels | Translated |
+| Boot logos (Shout Designworks / Marvelous, series anniversary emblem) | Left in Japanese (logos) |
+| Name entry | Romaji syllables (each kana cell becomes ka, shi, tsu ...) |
+| Haiku club passwords | Typed in kana, as the game checks them; all 32 are listed in the release README |
+| Staff roll | Translated (name readings romanized from the kanji, a few unconfirmed) |
 
-Known issues: <none known / see [Issues](../../issues)>.
+Known issues: the link-cable messages (two-GBA trade and battle) were fitted by measurement but not seen in game. See
+[Issues](../../issues) for anything reported since.
 
 ## What's here
 
@@ -40,11 +43,11 @@ Known issues: <none known / see [Issues](../../issues)>.
 Needs Python 3.12+ and your own dump of the Japanese game.
 
 ```sh
-git clone https://github.com/minhnhattonthat/<repo>
-cd <repo>
-# copy your dump to: rom/<file>
-#   (<size> bytes, SHA-1 <sha1>; the build refuses any other dump, see rom.sha1)
-python -X utf8 tools/build.py                          # -> build/<game>_en.<ext>
+git clone https://github.com/minhnhattonthat/tokyo-majin-gakuen-fuju-houroku-en
+cd tokyo-majin-gakuen-fuju-houroku-en
+# copy your dump to: rom/base.gba
+#   (16777216 bytes, SHA-1 8d9efb85a8f22ea72c17e4cfcac6877e16b9d5ac; the build refuses any other dump, see rom.sha1)
+python -X utf8 build.py                                # -> build/tmgfh_en.gba
 python -X utf8 tools/check.py                          # tests + text lint
 ```
 
@@ -56,8 +59,8 @@ If you enjoy this translation, you can support my work on Ko-fi:
 
 ## Licence
 
-Tools and English translation: MIT. The original Japanese text in `script/` is <publisher>'s and is included only so
-the translation can be checked against it. <Game title> is (c) <publisher>; this project is not affiliated with them.
-Do not share patched ROMs.
+Tools and English translation: MIT. The original Japanese text in `script/` is Marvelous's and is included only so the
+translation can be checked against it. Tokyo Majin Gakuen: Fuju Houroku is (c) Marvelous / Shout Designworks; this
+project is not affiliated with them. Do not share patched ROMs.
 
 The translation was made with extensive AI assistance (Claude by Anthropic). Corrections are very welcome.

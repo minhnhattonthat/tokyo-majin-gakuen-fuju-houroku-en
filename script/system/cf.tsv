@@ -153,7 +153,7 @@ CF2C7C	str	31	{I000}の交換ができな{rt}くなります	{I000} can no{rt}lo
 CF2C9C	str	95	{I000}がターン始めに{rt}オープンしません{rt}全{I000}が伏せてある{rt}時と場に無い時に{rt}休戦は破壊される	{I000} don't open at{rt}turn start. Truce{rt}breaks when all {I000}{rt}are face down or{rt}none are on field.	
 CF2CFC	str	31	味方{I000}が【速攻】{rt}を得ます	Allied {I000} gain{rt}【Haste】.	
 CF2D1C	str	79	{I001}{I002}を破壊した{rt}符咒士に破壊した{rt}符のＡＰ×１０の{rt}ダメージを与えま{rt}す	A Talismancer who{rt}destroys a {I001}{I002}{rt}takes that card's{rt}AP x 10 in{rt}damage.	
-CF2D6C	str	51	この{I002}静寂の闇以{rt}外の{I001}{I002}が無効化{rt}されます	Every {I001}{I002} but{rt}this {I002}Silent{rt}Darkness is{rt}nullified.	
+CF2D6C	str	51	この{I002}静寂の闇以{rt}外の{I001}{I002}が無効化{rt}されます	Every {I001}{I002} but{rt}this {I002}Silent{rt}Dark is{rt}nullified.	
 CF2DA0	str	59	ターン終了時に{rt}全ての{I000}に１０の{rt}ダメージを与えま{rt}す	At turn end, deals{rt}10 damage to{rt}every {I000}.	
 CF2DDC	str	39	{I000}の全ての能力が{rt}使えなくなります	{I000} can't use any{rt}abilities.	
 CF2E04	str	51	{I000}を出した符咒士{rt}に２０のダメージ{rt}を与えます	A Talismancer who{rt}plays a {I000} takes{rt}20 damage.	

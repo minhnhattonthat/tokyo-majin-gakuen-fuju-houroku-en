@@ -718,14 +718,14 @@ B18.0715	choice		知っている{rt}知らない{wc}	I know{rt}I don't{wc}
 B18.0716	line		【伊涼】{rt}{name2}ちゃんは、{rt}《蝦夷》の事、知ってる？	【Isuzu】{rt}{name2}-chan, do you know about{rt}the Emishi?	
 B18.0717	choice		知っている{rt}知らない{wc}	I know{rt}I don't{wc}	
 B18.0718	line		【伊涼】{rt}《蝦夷》は、	【Isuzu】{rt}The Emishi	
-B18.0719	line		【伊涼】{rt}今の東北地方を中心に、国を{rt}作っていた人々の事なの。	【Isuzu】{rt}were people who built a nation centerd{rt}on what's now Tohoku.	
+B18.0719	line		【伊涼】{rt}今の東北地方を中心に、国を{rt}作っていた人々の事なの。	【Isuzu】{rt}were people who built a nation{rt}centered on what's now Tohoku.	
 B18.0720	line		【伊涼】{rt}今、私たちが住んでいる{rt}関東から―――	【Isuzu】{rt}From Kanto, where we live now--	
 B18.0721	line		【伊涼】{rt}奥羽、北海道も、	【Isuzu】{rt}to Ou and Hokkaido,	
 B18.0722	line		【伊涼】{rt}もとは彼らの領域だったと{rt}この本は書いている…。	【Isuzu】{rt}it was all their land originally, this book{rt}says...	
 B18.0723	line		【伊涼】{rt}北海道が《エゾ》って呼ばれる{rt}のも、その名残なんだって。	【Isuzu】{rt}They say that's why Hokkaido was{rt}called Ezo.	
 B18.0724	line		【伊涼】{rt}そうだね。	【Isuzu】{rt}Yeah.	
 B18.0725	line		【伊涼】{rt}日本史にもこの名前は{rt}何度も出てくるからね。	【Isuzu】{rt}The name comes up again and again in{rt}Japanese history, after all.	
-B18.0726	line		【伊涼】{rt}《蝦夷》の場合は{rt}東北を中心にしてだけど、	【Isuzu】{rt}The Emishi were centerd on Tohoku,{rt}but	
+B18.0726	line		【伊涼】{rt}《蝦夷》の場合は{rt}東北を中心にしてだけど、	【Isuzu】{rt}The Emishi were centered on Tohoku,{rt}but	
 B18.0727	line		【伊涼】{rt}朝廷の手の届かない地方に	【Isuzu】{rt}in regions out of the Court's reach,	
 B18.0728	line		【伊涼】{rt}彼らは独自の社会を持ち、	【Isuzu】{rt}they had their own society,	
 B18.0729	line		【伊涼】{rt}王を信じて、	【Isuzu】{rt}believed in their kings,	

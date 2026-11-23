@@ -2,10 +2,16 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release (phase 8 done 2026-11-23, session 39: every phase-8 gate passes on build 2e4ada7f). Last build:
-  `build/tmgfh_en.gba` 2026-11-23 10:30, sha1 2e4ada7f7fea..; check.py 38 passed, smoke ok, fit 0 problems.
-  Phase 9 first: the independent story re-run (Gap / Important 1 below; codex after 2026-11-26, or a fresh read-only
-  pass), then `tools/release.py` (not written yet).
+- **Phase:** 9. Release: done-when met 2026-11-23, session 40. Last build `build/tmgfh_en.gba` sha1 2851823e9e2f..
+  (crc32 2F067CFC); check.py 38 passed, smoke ok. `python -X utf8 tools/release.py` exits 0 and wrote
+  `release/v1.0/Tokyo_Majin_Gakuen_Fuju_Houroku_EN_v1.0.zip` (BPS e8add26d.., re-applied to a clean dump == build,
+  + README.txt with base hashes and the 32 haiku). Not published: `gh release create` is the user's call.
+  Session 40: independent story re-run done (Gap / Important 1 closed): main session read B00-B27, six fresh
+  read-only forks read B28-B39, A0-A12 and sys; 38 rows fixed (`work/qa/story/reports/indep_s40.md`), verdicts
+  `work/qa/story/verdicts/zz_indep_s40_20261123.tsv`, story gate exits 0. Tour + popup gates waived for 2851823e
+  (text-only: 32 dialogue + 6 system rows; rules-help tables re-shot in `work/qa/s40_rules`); old popup round
+  retired (`work/qa/popups_qa_b19/manifest.tsv.retired`). `tools/jp_known.txt`: 31 haiku runs + 0x803B27 false hit.
+  README.md filled from the template; zip README source `docs/release_readme.md` (@FIELD@ slots filled by release.py).
 - **Progress:** Phase 7 done 2026-11-22: build green, `tools/fit.py` 17 151 rows 0 problems, `tests/test_script.py`
   (batch rules incl. control-code multiset over the merged script), `tests/test_romdiff.py` (English build writes
   only scene tables/REGION, string slots + pointer sites, SPILL/hook area, the two hook stubs). `jp_left.py --sjis
@@ -16,7 +22,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (`../.harness/reviews/...-phase6.md`) found no Critical; its Important 2/3 are fixed (D11: 焔羅様 = Enra-sama, 80
   rows; default surname Hiyuu; lint now checks kanji name + 様 and the glossary Avoid "Hiyu"), and its minors
   (glossary b003 note, style-reference voice rows, polish ids, B28.0015/16, A11.9.0051/52, B39 notes, 先生 rule).
-  **Gap (Important 1):** the story-pass verdicts were written by the translating session, not an independent
+  **Gap (Important 1), closed in session 40 (independent re-run, see Phase):** the story-pass verdicts were written by the translating session, not an independent
   reviewer; codex is rate-limited until 2026-11-26 and Orca workers have no subagents. Before release, re-run the
   story pass with an independent reviewer (`qa_gate.py todo work/qa/story/manifest.tsv work/qa/story/verdicts
   --size 1`, a `translate-retro-game:reviewer` per chapter or `codex exec -s read-only`, reports in
@@ -484,7 +490,10 @@ System unshown 2532 -> 1843. What is left in system (by prefix):
   0; the 4-line possession texts' real window is the 5-line card panel, all fit there (`work/qa/possession_panel`).
   Old set moved to `work/qa/popups_qa_b19`. **Coverage** carried by `remap work/qa/cover_b38 --base 02db491` + runs
   `p8s39_disc6`, rows stress_*: `cover.py report` 17073/17119 shown, 46 waived, 0 failing.
-- **Next (phase 9, release):** (a) independent story re-run: `qa_gate.py todo work/qa/story/manifest.tsv
+- **Next:** the user decides on publishing v1.0 (`gh release create` with the zip from `release/v1.0/`; never done by a
+  worker). After any later `en` edit: `tools/check.py`, `tools/story.py` + `qa_gate.py init` on the story manifest
+  and a verdict line per changed sheet, rebuild, re-shoot or waive the tour/popup gates, then `tools/release.py
+  --version 1.x`. Old phase-9 plan, done in session 40: (a) independent story re-run: `qa_gate.py todo work/qa/story/manifest.tsv
   work/qa/story/verdicts --size 1` (re-run `tools/story.py` + `qa_gate.py init` first: B18 typo, D723B8/D723E8 and
   the D724xx headers changed since), one fresh read-only reviewer per chapter (`codex exec -s read-only` after
   2026-11-26, or a fresh pass that did not translate), new verdict files; (b) write `tools/release.py` (patch +

@@ -593,7 +593,7 @@ D6A0B8	str	35	…なます斬りに{rt}してくれるッ！！	...I'll cut you{
 D6A0DC	str	19	ウオオオオッ！！	Wooooh!!	
 D6A0F0	str	19	（やめろッ――）	(Stop it--)	
 D6A104	str	31	望み通り斬って{rt}やるぞッ！！	I'll cut you{rt}down, as you wish!!	
-D6A124	str	23	命により、{rt}斬るッ！！	By my orders,{rt}I cut!!	
+D6A124	str	23	命により、{rt}斬るッ！！	On orders,{rt}I cut!!	
 D6A13C	str	47	ひるむなッ。{rt}　戦に死人は{rt}　つきものよッ。	Don't flinch.{rt} Death goes{rt} with war.	
 D6A16C	str	35	（やっと…私は{rt}　死ねるのか？）	(At last... can{rt} I die?)	
 D6A190	str	31	（私は―――{rt}　一体何を――）	(What--{rt} what am I--)	
@@ -980,7 +980,7 @@ D6D300	str	27	どうした？{rt}もう終わりか？	What's wrong?{rt}Done alr
 D6D31C	str	35	それが君の答え{rt}だという訳か……	So that's{rt}your answer......	
 D6D340	str	23	闘いは{rt}これからだよ	The fight{rt}is just beginning	
 D6D358	str	11	ふッ……	Heh......	
-D6D364	str	19	これも血筋か……	Is this blood too......	
+D6D364	str	19	これも血筋か……	In the blood, too......	
 D6D378	str	11	ほう……	Oh......	
 D6D384	str	27	そろそろ{rt}クライマックスだ	Time for{rt}the climax	
 D6D3A0	str	31	クックック……{rt}地獄へ堕ちな	Heh heh heh......{rt}Go to hell	
@@ -1314,12 +1314,12 @@ D70014	str	39	符の種類のアイコンは{nl}次の５種類です	The five t
 D7003C	str	103	【吹飛】{nl}攻撃した{I000}人物符を吹き飛ばし{nl}後ろの{I000}人物符や{nl}符咒士本体へ{nl}ダメージの半分を与えます{wc}	【Blast】{nl}Knocks back the {I000}Character{nl}it attacks, dealing half{nl}the damage to the {I000}Character{nl}or Talismancer behind.{wc}	
 D700A4	str	59	正面以外の{I000}人物符を{nl}攻撃した場合、反撃を{nl}受けません{wc}	Attacking a {I000}Character{nl}not in front draws{nl}no counterattack.{wc}	
 D700E0	str	59	【狙い】{nl}攻撃時にどの{I000}人物符を{nl}攻撃するかを選べます	【Aim】{nl}Choose which {I000}Character{nl}to attack.	
-D7011C	str	143	{I005}に必殺　必{I005}{nl}{I006}に必殺　必{I006}{nl}{I007}に必殺　必{I007}{nl}{I008}に必殺　必{I008}{nl}{I009}に必殺　必{I009}{nl}{I010}に必殺　必{I010}{nl}{I011}に必殺　必{I011}{wc}	Bane vs {I005}  {I005}B{nl}Bane vs {I006}  {I006}B{nl}Bane vs {I007}  {I007}B{nl}Bane vs {I008}  {I008}B{nl}Bane vs {I009}  {I009}B{nl}Bane vs {I010}  {I010}B{nl}Bane vs {I011}  {I011}B{wc}	
+D7011C	str	143	{I005}に必殺　必{I005}{nl}{I006}に必殺　必{I006}{nl}{I007}に必殺　必{I007}{nl}{I008}に必殺　必{I008}{nl}{I009}に必殺　必{I009}{nl}{I010}に必殺　必{I010}{nl}{I011}に必殺　必{I011}{wc}	Bane vs {I005}  B{I005}{nl}Bane vs {I006}  B{I006}{nl}Bane vs {I007}  B{I007}{nl}Bane vs {I008}  B{I008}{nl}Bane vs {I009}  B{I009}{nl}Bane vs {I010}  B{I010}{nl}Bane vs {I011}  B{I011}{wc}	
 D701AC	str	47	対象の属性ごとに次のように{nl}表示が異なります	The label differs by{nl}target element:	
 D701DC	str	67	【必殺】{nl}対象の属性の{I000}人物符に{nl}１．５倍のダメージを{nl}与えます	【Bane】{nl}Deals 1.5x damage to{nl}{I000}Characters of the{nl}target element.	
-D70220	str	103	{I020}を見切　見{I020}{nl}{I021}を見切　見{I021}{nl}{I022}を見切　見{I022}{nl}{I023}を見切　見{I023}{nl}{I024}を見切　見{I024}{wc}	Dodge {I020}  {I020}D{nl}Dodge {I021}  {I021}D{nl}Dodge {I022}  {I022}D{nl}Dodge {I023}  {I023}D{nl}Dodge {I024}  {I024}D{wc}	
+D70220	str	103	{I020}を見切　見{I020}{nl}{I021}を見切　見{I021}{nl}{I022}を見切　見{I022}{nl}{I023}を見切　見{I023}{nl}{I024}を見切　見{I024}{wc}	Dodge {I020}  D{I020}{nl}Dodge {I021}  D{I021}{nl}Dodge {I022}  D{I022}{nl}Dodge {I023}  D{I023}{nl}Dodge {I024}  D{I024}{wc}	
 D70288	str	51	【見切】{nl}対象の攻撃種からの{nl}攻撃を無効化します	【Dodge】{nl}Nullifies attacks of{nl}the target type.	
-D702BC	str	143	{I005}に即死　即{I005}{nl}{I006}に即死　即{I006}{nl}{I007}に即死　即{I007}{nl}{I008}に即死　即{I008}{nl}{I009}に即死　即{I009}{nl}{I010}に即死　即{I010}{nl}{I011}に即死　即{I011}{wc}	Slay {I005}  {I005}S{nl}Slay {I006}  {I006}S{nl}Slay {I007}  {I007}S{nl}Slay {I008}  {I008}S{nl}Slay {I009}  {I009}S{nl}Slay {I010}  {I010}S{nl}Slay {I011}  {I011}S{wc}	
+D702BC	str	143	{I005}に即死　即{I005}{nl}{I006}に即死　即{I006}{nl}{I007}に即死　即{I007}{nl}{I008}に即死　即{I008}{nl}{I009}に即死　即{I009}{nl}{I010}に即死　即{I010}{nl}{I011}に即死　即{I011}{wc}	Slay {I005}  S{I005}{nl}Slay {I006}  S{I006}{nl}Slay {I007}  S{I007}{nl}Slay {I008}  S{I008}{nl}Slay {I009}  S{I009}{nl}Slay {I010}  S{I010}{nl}Slay {I011}  S{I011}{wc}	
 D7034C	str	71	【即死】{nl}対象の属性のダメージを与えた{nl}{I000}人物符を一撃で破壊します	【Slay】{nl}One blow destroys a {I000}Character{nl}of the target element it damages.	
 D70394	str	35	２ターン続けては{nl}使用できません{wc}	Can't be used two{nl}turns in a row.{wc}	
 D703B8	str	55	【跳躍】{nl}オープンした次の相手の{nl}ターンを飛ばします	【Leap】{nl}Skips the foe's turn{nl}after it opens.	
