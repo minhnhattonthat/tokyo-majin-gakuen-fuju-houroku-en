@@ -30,6 +30,14 @@ Main loop 0x08000262 calls `handler[mode]` every frame; handler table 0x08D7A424
 | 20 | 0x0800DA5D | サウンドテスト sound test (S22); no normal path found yet |
 | 21 | 0x0805A98D | 通信エラー link error |
 
+Per-frame work (issue #1, session 44): the table handlers set a mode up; each screen's frame logic is the callback
+in **0x03001780**, called by 0x08000664 at 0x08000672 (`bl 0x08063784` = bx r0; deck editor 0x08055A0D). While a
+screen runs, 0x03003828 can read 0 (handler 0 = `bx lr`); the current mode is the u16 at **0x03005538** (read by
+0x080003EC; 1 in a chapter battle and the rules tutorial, 6 in the deck editor). Mani icons: 0x0801CE60 (r0 =
+index 0-9) copies one 16x16 icon to OBJ tile 1 + 4i when the mode is 1 or 0x16, else to the fixed tile 704 + 4i;
+outside battle the card panel 0x08020F40 calls it for card class 0x10 (Land cards), so a Land card view in the deck
+editor / shop fills tiles 704-743 (`tools/patches.py` TAB_RESTORE).
+
 ## Story position
 - **Chapter byte 0x03005AA8** (0..39) indexes scene table B 0x08D82078 (40 chapter scenes; B[0] = opening).
 - Chapter end (0x0805E37C): next mode/param from the 41x2-byte table 0x08D7919D (`mode, param`; mode 6 for every

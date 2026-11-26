@@ -90,6 +90,15 @@ TAG_FIRST_PX = 64
 # The panel (0x08021438) calls the glyph routine exactly twice per label, 2 bytes apart and with no NUL check, one
 # cell each: the text must be one unit, then one unit or one icon {Innn} (JP 必{I010} = char + icon).
 LABEL_LO, LABEL_HI = 0xCF64E8, 0xCF6800
+# Battle-tutorial pages (windows.tsv tutorial_page). The page-wait icon of a page ending in {wc}/{wk}/{wd} is drawn
+# over the last cell of the last line, from x+ICON_X in that cell (JP: the right half of the final 。), so the line's
+# ink must end before it (issue #1: "base colo[icon]"). A JP line indented with 　 is in a box that starts one cell
+# further in (D640F0 page 2): the English line starts with [81][40] too.
+TUTORIAL_LO, TUTORIAL_HI = 0xD63B68, 0xD64ADC
+ICON_X = 5
+# Rules-help topic lists (Start in the hand phase): each row is drawn over the previous screen's tiles and only its
+# own cells get cleared, so it must take exactly as many units as the JP (pad with [81][40], issue #1).
+HELP_LIST_LO, HELP_LIST_HI = 0xD6E71C, 0xD6E908
 
 
 def label_problems(en, enc):
@@ -310,6 +319,32 @@ def problems(row, en, enc):
                 out.append('page %d line %d: %d px > %d (%s)' % (pi + 1, li + 1, w, p, name))
             if u > ulim:
                 out.append('page %d line %d: %d units > %d (%s)' % (pi + 1, li + 1, u, ulim, name))
+    rid = int(row['id'], 16) if re.fullmatch(r'[0-9A-F]+', row['id']) else -1
+    if TUTORIAL_LO <= rid < TUTORIAL_HI and name == 'jp_layout':
+        out += tutorial_problems(jp_pages, en_pages, waits, enc)
+    if HELP_LIST_LO <= rid < HELP_LIST_HI:
+        u, ju = measure(en_pages[0][0], enc)[1], cells(jp_pages[0][0])
+        if u != ju:
+            out.append('help list row: %d units, the JP clears %d (pad with [81][40])' % (u, ju))
+    return out
+
+
+def tutorial_problems(jp_pages, en_pages, waits, enc):
+    out = []
+    for pi, (jpg, pg) in enumerate(zip(jp_pages, en_pages)):
+        for li, (jl, el) in enumerate(zip(jpg, pg)):
+            if jl and jl[0][0] == 'lit' and jl[0][1].startswith('　') and el[:2] != [('raw', '81'), ('raw', '40')]:
+                out.append('page %d line %d: JP is indented one cell (its box starts there): start with [81][40]'
+                           % (pi + 1, li + 1))
+    if waits:
+        line = [t for t in en_pages[-1][-1] if not (t[0] == 'code' and t[1] in WAIT)]
+        u = measure(line, enc)[1]
+        while line[-2:] == [('raw', '81'), ('raw', '40')]:     # blank cells: no ink
+            line = line[:-2]
+        w = measure(line, enc)[0]
+        if u and w >= 16 * (u - 1) + ICON_X:
+            out.append('last line: ink to %d px runs under the page icon (cell %d from x=%d): end with [81][40]'
+                       % (w, u, 16 * (u - 1) + ICON_X))
     return out
 
 
@@ -376,7 +411,8 @@ def wrap_dialogue(speaker, body, enc):
 def encoder(rows, extra=()):
     from vwf import Encoder, load_font
     font = load_font(ROM.read_bytes())
-    return Encoder(font, [r['en'] for r in rows.values() if r.get('en')] + list(extra))
+    # the same corpus as build.py (pref rows excluded), so units are counted on the chunks the build makes
+    return Encoder(font, [r['en'] for r in rows.values() if r.get('en') and r['kind'] != 'pref'] + list(extra))
 
 
 def lint(rows=None):

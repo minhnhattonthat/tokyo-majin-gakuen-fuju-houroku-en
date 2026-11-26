@@ -1,29 +1,29 @@
 id	kind	max	jp	en	notes
-D63B68	str	47	これから戦闘の基本的な{rt}ルールを説明します。{wc}	Now I'll explain the basic{rt}rules of battle.{wc}	
-D63B98	str	47	スタートボタンを押せば{rt}説明は終了します。{wc}	Press START at any time{rt}to end the explanation.{wc}	
-D63BC8	str	99	戦闘は敵符咒士のライフを{rt}０にすれば勝利、{pp}{rt}{rt}{rt}自分のライフが０にされれば{rt}敗北となります。{wc}	You win by bringing the foe{rt}Talismancer's Life to 0,{pp}{rt}{rt}{rt}and lose if your own Life{rt}is brought to 0.{wc}	
+D63B68	str	47	これから戦闘の基本的な{rt}ルールを説明します。{wc}	Now I'll explain the basic{rt}rules of battle.[81][40]{wc}	
+D63B98	str	47	スタートボタンを押せば{rt}説明は終了します。{wc}	Press START at any time{rt}to end the explanation.[81][40]{wc}	
+D63BC8	str	99	戦闘は敵符咒士のライフを{rt}０にすれば勝利、{pp}{rt}{rt}{rt}自分のライフが０にされれば{rt}敗北となります。{wc}	You win by bringing the foe{rt}Talismancer's Life to 0,{pp}{rt}{rt}{rt}and lose if your own Life{rt}is brought to 0.[81][40]{wc}	
 D63C2C	str	75	敵のライフを{rt}減らす為には{rt}{I000}人物符を場に{rt}配置して攻撃を{rt}行います。{wk}	To lower the{rt}foe's Life, put{rt}{I000}Characters{rt}on the field{rt}and attack.{wk}	
 D63C78	str	119	◆カードの出し方について{rt}{rt}{I000}人物符を含む符を{rt}使用するにはこのＡＰが{rt}必要になります。{rt}左が現在値、右が最大値。{wd}	[81][9F]Playing talismans{rt}{rt}Every talisman, even{rt}a {I000}Character, needs{rt}AP to be played.{rt}Left: current. Right: max.{wd}	
-D63CF0	str	83	必要なＡＰのポイントは{rt}符によって異なり{rt}必要になるＡＰは{rt}ここに表示されます。{wc}	The AP a talisman{rt}needs varies, and{rt}the AP needed is{rt}shown here.{wc}	
-D63D44	str	127	◆オープンに{rt}　ついて{rt}{rt}場にだしたばかり{rt}の{I000}人物符は{rt}通常は、裏返った{rt}状態になり、{rt}すぐには闘うこと{rt}ができません。{wc}	[81][9F]About{rt}  Opening{rt}{rt}A {I000}Character{rt}just put on the{rt}field is normally{rt}face down and{rt}can't fight right{rt}away.{wc}	
+D63CF0	str	83	必要なＡＰのポイントは{rt}符によって異なり{rt}必要になるＡＰは{rt}ここに表示されます。{wc}	The AP a talisman{rt}needs varies, and{rt}the AP needed is{rt}shown here.[81][40]{wc}	
+D63D44	str	127	◆オープンに{rt}　ついて{rt}{rt}場にだしたばかり{rt}の{I000}人物符は{rt}通常は、裏返った{rt}状態になり、{rt}すぐには闘うこと{rt}ができません。{wc}	[81][9F]About{rt}[81][40]Opening{rt}{rt}A {I000}Character{rt}just put on the{rt}field is normally{rt}face down and{rt}can't fight right{rt}away.[81][40]{wc}	
 D63DC4	str	143	次の自分のターン{rt}になるか、{rt}敵からの攻撃を{rt}受けると、{rt}{I000}人物符が表に{rt}なり、戦闘可能に{rt}なります。{rt}これを「オープン{rt}」と呼びます。{wk}	On your next{rt}turn, or when{rt}the foe attacks{rt}it, the{rt}{I000}Character{rt}turns face up{rt}and can fight.{rt}This is called{rt}"opening."{wk}	
 D63E54	str	95	◆攻撃の仕方{rt}{rt}オープンした{rt}{I000}人物符は{rt}戦闘フェイズで{rt}攻撃が行えるよう{rt}になります。{wc}	[81][9F]Attacking{rt}{rt}An opened{rt}{I000}Character{rt}can attack in{rt}the battle{rt}phase.{wc}	
-D63EB4	str	115	攻撃は基本的に{rt}正面に対して{rt}行われます。{rt}正面に敵{I000}人物符{rt}がない場合は、{rt}敵符咒士を直接{rt}攻撃できます。{wk}	Attacks normally{rt}go straight{rt}ahead. With no{rt}foe {I000}Character{rt}in front, you{rt}hit the foe{rt}Talismancer.{wk}	
-D63F28	str	67	正面に敵{I000}人物符{rt}がある場合、{rt}敵{I000}人物符を攻撃{rt}します。{wk}	With a foe{rt}{I000}Character in{rt}front, you attack{rt}that {I000}Character.{wk}	
-D63F6C	str	63	次に、手札画面での{rt}{I000}人物符の詳細に{rt}ついて説明します。{wd}	Next, the {I000}Character{rt}details on the hand{rt}screen.{wd}	
-D63FAC	str	51	{I012}ＡＴ{rt}攻撃時に{rt}相手に与える{rt}ダメージです。{wc}	{I012}AT{rt}Damage{rt}dealt when{rt}attacking.{wc}	
-D63FE0	str	63	{I013}ＨＰ{rt}０になると{rt}場から消え{rt}「墓地」へ{rt}送られます。{wc}	{I013}HP{rt}At 0, the{rt}card leaves{rt}the field for{rt}the graveyard.{wc}	
-D64020	str	67	{I014}ＳＰ{rt}このＳＰが{rt}高いキャラほど{rt}優先的に行動が{rt}できます。{wc}	{I014}SP{rt}The higher{rt}a card's SP,{rt}the sooner{rt}it acts.{wc}	
-D64064	str	87	攻撃時に{I014}ＳＰが{rt}高い{I000}人物符の方{rt}が先にダメージを{rt}与えることが{rt}できます。{wk}	When attacking,{rt}the {I000}Character{rt}with higher {I014}SP{rt}deals its{rt}damage first.{wk}	
-D640BC	str	51	カードの価値は{rt}下地の塗り色で{rt}決まっています。{wd}	A card's value{rt}is set by its{rt}base color.{wd}	
-D640F0	str	131	{I020}拳　{I021}武　{I022}飛{rt}{I023}術　{I024}氣{rt}の５種類の攻撃種{rt}があります。{pp}{rt}{rt}{rt}　陰属性{I010}と{rt}　陽属性{I011}の２つ{rt}　があります。{wc}	{I020}Fist {I021}Arms{rt}{I022}Ranged {I023}Art{rt}{I024}Ki: the five{rt}attack types.{pp}{rt}{rt}{rt}  The two alignments{rt}  are Yin {I010} and{rt}  Yang {I011}.{wc}	
+D63EB4	str	115	攻撃は基本的に{rt}正面に対して{rt}行われます。{rt}正面に敵{I000}人物符{rt}がない場合は、{rt}敵符咒士を直接{rt}攻撃できます。{wk}	Attacks normally{rt}go straight{rt}ahead. With no{rt}foe {I000}Character{rt}in front, you{rt}hit the foe{rt}Talismancer.[81][40]{wk}	
+D63F28	str	67	正面に敵{I000}人物符{rt}がある場合、{rt}敵{I000}人物符を攻撃{rt}します。{wk}	With a foe{rt}{I000}Character in{rt}front, you attack{rt}that {I000}Character.[81][40]{wk}	
+D63F6C	str	63	次に、手札画面での{rt}{I000}人物符の詳細に{rt}ついて説明します。{wd}	Next, the {I000}Character{rt}details on the hand{rt}screen.[81][40]{wd}	
+D63FAC	str	51	{I012}ＡＴ{rt}攻撃時に{rt}相手に与える{rt}ダメージです。{wc}	{I012}AT{rt}Damage{rt}dealt when{rt}attacking.[81][40]{wc}	
+D63FE0	str	63	{I013}ＨＰ{rt}０になると{rt}場から消え{rt}「墓地」へ{rt}送られます。{wc}	{I013}HP{rt}At 0, the card{rt}leaves the field{rt}and goes to the{rt}graveyard.[81][40]{wc}	
+D64020	str	67	{I014}ＳＰ{rt}このＳＰが{rt}高いキャラほど{rt}優先的に行動が{rt}できます。{wc}	{I014}SP{rt}The higher{rt}a card's SP,{rt}the sooner{rt}it acts.[81][40]{wc}	
+D64064	str	87	攻撃時に{I014}ＳＰが{rt}高い{I000}人物符の方{rt}が先にダメージを{rt}与えることが{rt}できます。{wk}	When attacking,{rt}the {I000}Character{rt}with higher {I014}SP{rt}deals its{rt}damage first.[81][40]{wk}	
+D640BC	str	51	カードの価値は{rt}下地の塗り色で{rt}決まっています。{wd}	A card's value{rt}is set by its{rt}base color.[81][40]{wd}	
+D640F0	str	131	{I020}拳　{I021}武　{I022}飛{rt}{I023}術　{I024}氣{rt}の５種類の攻撃種{rt}があります。{pp}{rt}{rt}{rt}　陰属性{I010}と{rt}　陽属性{I011}の２つ{rt}　があります。{wc}	{I020}Fist {I021}Arms{rt}{I022}Ranged {I023}Art{rt}{I024}Ki: the five{rt}attack types.{pp}{rt}{rt}{rt}[81][40]Two alignments:{rt}[81][40]Yin {I010} and{rt}[81][40]Yang {I011}.{wc}	
 D64174	str	79	攻撃種、陰陽属性は{rt}「必殺」や「再生」{rt}などの能力に深く{rt}関わってきます。{wc}	Attack types and{rt}Yin/Yang matter{rt}to abilities such{rt}as Bane and Renew.{wc}	
 D641C4	str	79	{I000}人物符が始めから{rt}使うことができる{rt}基本能力で、２つまで{rt}持っています。{wc}	Basic abilities a{rt}{I000}Character can use{rt}from the start; it{rt}has up to two.{wc}	
-D64214	str	75	摩尼ＬＶによって{rt}得られる能力です。{rt}摩尼能力は３つまで{rt}持っています。{wc}	Abilities gained by{rt}Mani LV. A card has{rt}up to three Mani{rt}abilities.{wc}	
-D64260	str	75	{I000}人物符が必ず持つ{rt}特殊能力です。{rt}背景と人物の能力で{rt}決定されます。{wc}	A special ability{rt}all {I000}Characters{rt}have, set by their{rt}origin and person.{wc}	背景 = the panel plate under BATTLE (Leaf, Eden, Kami): "origin", matching the tutorial callout "Origin" (gfx/tutorial/D63420.png)
-D642AC	str	107	◆摩尼について{rt}　最後に摩尼について{rt}　説明します。{pp}{rt}{rt}{rt}{rt}{rt}場の中央に表示されて{rt}いるのが摩尼です。{wc}	[81][9F]About Mani{rt}  Finally, about{rt}  the Mani.{pp}{rt}{rt}{rt}{rt}{rt}The Mani is shown{rt}in the field's center.{wc}	
+D64214	str	75	摩尼ＬＶによって{rt}得られる能力です。{rt}摩尼能力は３つまで{rt}持っています。{wc}	Abilities gained by{rt}Mani LV. A card has{rt}up to three Mani{rt}abilities.[81][40]{wc}	
+D64260	str	75	{I000}人物符が必ず持つ{rt}特殊能力です。{rt}背景と人物の能力で{rt}決定されます。{wc}	A special ability{rt}all {I000}Characters{rt}have, set by their{rt}origin and person.[81][40]{wc}	背景 = the panel plate under BATTLE (Leaf, Eden, Kami): "origin", matching the tutorial callout "Origin" (gfx/tutorial/D63420.png)
+D642AC	str	107	◆摩尼について{rt}　最後に摩尼について{rt}　説明します。{pp}{rt}{rt}{rt}{rt}{rt}場の中央に表示されて{rt}いるのが摩尼です。{wc}	[81][9F]About Mani{rt}[81][40]Finally, about{rt}[81][40]the Mani.{pp}{rt}{rt}{rt}{rt}{rt}The Mani is shown{rt}in the field's center.[81][40]{wc}	
 D64318	str	123	{I005}{I006}{I007}{I008}{I009}の５属性は{rt}{I004}土地符を使用すること{rt}によって{pp}{rt}{rt}{rt}{rt}{rt}それぞれの摩尼ＬＶが{rt}変化していきます。{wc}	Playing {I004}Land{rt}talismans changes{rt}the Mani LV{pp}{rt}{rt}{rt}{rt}{rt}of each of the five{rt}elements {I005}{I006}{I007}{I008}{I009}.{wc}	
-D64394	str	107	{I000}人物符は同じ属性{rt}の摩尼ＬＶに応じて{rt}地形効果を得ます。{pp}{rt}{rt}{rt}{rt}摩尼ＬＶｘ１０の{rt}ダメージを軽減。{wk}	A {I000}Character gets{rt}terrain effects by its{rt}element's Mani LV.{pp}{rt}{rt}{rt}{rt}Damage taken is cut{rt}by Mani LV x 10.{wk}	
+D64394	str	107	{I000}人物符は同じ属性{rt}の摩尼ＬＶに応じて{rt}地形効果を得ます。{pp}{rt}{rt}{rt}{rt}摩尼ＬＶｘ１０の{rt}ダメージを軽減。{wk}	A {I000}Character gets{rt}terrain effects by its{rt}element's Mani LV.{pp}{rt}{rt}{rt}{rt}Damage taken is cut{rt}by Mani LV x 10.[81][40]{wk}	
 D64400	str	95	場に出ている{I000}人物符は同じ属性{rt}の摩尼ＬＶによって摩尼能力が{rt}使用できるようになります。{wk}	A {I000}Character on the field can use{rt}its Mani abilities according to the{rt}Mani LV of its element.{wk}	
 D64460	str	87	場の{I000}人物符と同じ属性の摩尼の{rt}ＬＶを上げることが戦闘を有利に{rt}進めるコツです。{wc}	Raising the Mani LV of the elements{rt}your {I000}Characters share is the{rt}key to winning battles.{wc}	
 D644B8	str	171	◆詳細画面への行き方{rt}ゲーム中、分からないことが{rt}あればスタートボタンを押す{rt}ことで説明が表示されます{rt}ので参照して下さい。{rt}{rt}それでは勝利を目指して{rt}頑張って下さい。{wc}	[81][9F]Getting help{rt}If anything puzzles you in a{rt}game, press START to see{rt}an explanation, so please{rt}check it.{rt}{rt}Now, go for victory!{wc}	
@@ -1137,35 +1137,35 @@ D6E6EC	grid	11	サシスセソ	Sa¦Şhi¦Su¦Se¦So
 D6E6F8	grid	11	カキクケコ	Ka¦Ki¦Ku¦Ke¦Ko	
 D6E704	grid	11	アイウエオ	A¦I¦U¦E¦O	
 D6E710	grid	11	わ　　　　	wa¦[81][40]¦[81][40]¦[81][40]¦[81][40]	
-D6E71C	str	19	【能力】　　　　	【Abilities】	
-D6E730	str	19	【アイコン】　　	【Icons】	
-D6E744	str	19	【攻撃】　　　　	【Attack】	
-D6E758	str	19	【人物符の配置】	【Placement】	
-D6E76C	str	19	【墓地】　　　　	【Graveyard】	
-D6E780	str	19	【地形効果】　　	【Terrain】	
-D6E794	str	19	【摩尼の昇華】　	【Mani Rise】	
-D6E7A8	str	19	【摩尼】　　　　	【Mani】	
-D6E7BC	str	19	【相生・相剋】　	【Feed/Counter】	
-D6E7D0	str	19	【土地符】　　　	【Land】	
-D6E7E4	str	19	【法術符】　　　	【Spell】	
-D6E7F8	str	19	【結界式神符】　	【Barrier Shiki】	
-D6E80C	str	19	【憑依式神符】　	【Possess Shiki】	
-D6E820	str	19	【人物符の詳細】	【Card Details】	
-D6E834	str	19	【人物符】　　　	【Character】	
-D6E848	str	19	【符の使い方】　	【Using Cards】	
-D6E85C	str	19	【勝利条件】　　	【Victory】	
-D6E870	str	19	【基本ルール】　	【Basic Rules】	
-D6E884	str	11	　【耐性】	【Ward】	
-D6E890	str	11	　【霊媒】	【Medium】	
-D6E89C	str	11	　【鎮守】	【Guardian】	
-D6E8A8	str	11	　【魅了】	【Charm】	
-D6E8B4	str	11	　【盗み】	【Steal】	
-D6E8C0	str	11	　【居合】	【Iai】	
-D6E8CC	str	11	　【共鳴】	【Echo】	
-D6E8D8	str	11	　【崩し】	【Break】	
-D6E8E4	str	11	　【葉隠】	【Stealth】	
-D6E8F0	str	11	　【恩恵】	【Boon】	
-D6E8FC	str	11	　【外法】	【Heresy】	
+D6E71C	str	19	【能力】　　　　	【Abilities】[81][40][81][40][81][40][81][40]	
+D6E730	str	19	【アイコン】　　	【Icons】[81][40][81][40][81][40][81][40][81][40]	
+D6E744	str	19	【攻撃】　　　　	【Attack】[81][40][81][40][81][40][81][40]	
+D6E758	str	19	【人物符の配置】	【Placement】[81][40][81][40][81][40]	
+D6E76C	str	19	【墓地】　　　　	【Graveyard】[81][40][81][40][81][40]	
+D6E780	str	19	【地形効果】　　	【Terrain】[81][40][81][40][81][40][81][40]	
+D6E794	str	19	【摩尼の昇華】　	【Mani Rise】[81][40][81][40][81][40]	
+D6E7A8	str	19	【摩尼】　　　　	【Mani】[81][40][81][40][81][40][81][40][81][40]	
+D6E7BC	str	19	【相生・相剋】　	【Feed/Counter】[81][40][81][40]	
+D6E7D0	str	19	【土地符】　　　	【Land】[81][40][81][40][81][40][81][40][81][40]	
+D6E7E4	str	19	【法術符】　　　	【Spell】[81][40][81][40][81][40][81][40][81][40]	
+D6E7F8	str	19	【結界式神符】　	【Barrier Shiki】[81][40][81][40]	
+D6E80C	str	19	【憑依式神符】　	【Possess Shiki】[81][40][81][40]	
+D6E820	str	19	【人物符の詳細】	【Card Details】[81][40][81][40]	
+D6E834	str	19	【人物符】　　　	【Character】[81][40][81][40][81][40]	
+D6E848	str	19	【符の使い方】　	【Using Cards】[81][40][81][40]	
+D6E85C	str	19	【勝利条件】　　	【Victory】[81][40][81][40][81][40][81][40]	
+D6E870	str	19	【基本ルール】　	【Basic Rules】[81][40][81][40][81][40]	
+D6E884	str	11	　【耐性】	【Ward】[81][40][81][40]	
+D6E890	str	11	　【霊媒】	【Medium】[81][40]	
+D6E89C	str	11	　【鎮守】	【Guardian】[81][40]	
+D6E8A8	str	11	　【魅了】	【Charm】[81][40][81][40]	
+D6E8B4	str	11	　【盗み】	【Steal】[81][40][81][40]	
+D6E8C0	str	11	　【居合】	【Iai】[81][40][81][40][81][40]	
+D6E8CC	str	11	　【共鳴】	【Echo】[81][40][81][40]	
+D6E8D8	str	11	　【崩し】	【Break】[81][40][81][40]	
+D6E8E4	str	11	　【葉隠】	【Stealth】[81][40]	
+D6E8F0	str	11	　【恩恵】	【Boon】[81][40][81][40]	
+D6E8FC	str	11	　【外法】	【Heresy】[81][40]	
 D6E908	str	11	　【変生】	【Morph】	
 D6E914	str	11	　【創造】	【Create】	
 D6E920	str	11	　【賭け】	【Gamble】	

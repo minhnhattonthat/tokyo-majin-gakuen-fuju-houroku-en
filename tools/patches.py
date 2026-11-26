@@ -37,9 +37,13 @@ TABS_ORIG = bytes.fromhex(
     '01920b9902910c9a039251460491002100222b1c10f02af8')
 
 
+COND = {'beq': 0, 'bne': 1, 'bcs': 2, 'bcc': 3}
+
+
 def thumb(base, items, labels=None):
     """tiny Thumb assembler: items are ints (halfwords), ('label', n), ('ldr', rd, n) (pc-relative literal),
-    ('bl', n|addr), ('b', n), ('bne', n), ('word', n, value) (4-aligned literal); base = GBA address of item 0.
+    ('bl', n|addr), ('b', n), ('beq'|'bne'|'bcs'|'bcc', n), ('word', n, value) (4-aligned literal); base = GBA address
+    of item 0.
     labels (a dict) receives each label's address."""
     def walk(labels):
         out, pc = [], base
@@ -59,9 +63,11 @@ def thumb(base, items, labels=None):
                 off = labels.get(it[2], pc + 4) - ((pc + 4) & ~3)
                 assert 0 <= off < 1024 and off % 4 == 0 or it[2] not in labels, it
                 out.append(struct.pack('<H', 0x4800 | it[1] << 8 | (off >> 2 & 0xFF))); pc += 2
-            elif op in ('b', 'bne'):
+            elif op == 'b' or op in COND:
                 off = labels.get(it[1], pc + 4) - (pc + 4)
-                out.append(struct.pack('<H', (0xE000 | (off >> 1 & 0x7FF)) if op == 'b' else (0xD100 | (off >> 1 & 0xFF))))
+                assert op == 'b' or -256 <= off < 256 or it[1] not in labels, it
+                out.append(struct.pack('<H', (0xE000 | (off >> 1 & 0x7FF)) if op == 'b'
+                                       else (0xD000 | COND[op] << 8 | (off >> 1 & 0xFF))))
                 pc += 2
             elif op == 'bl':
                 to = it[1] if isinstance(it[1], int) else labels.get(it[1], pc + 4)
@@ -126,7 +132,94 @@ TAB_HOOK_CODE = thumb(0x08000000 + TAB_HOOK, [
     ('word', 'tab6', 0x08000000 + TAB_RIGHTS + 0x600),
     ('word', 'loader', LOADER | 1),
 ], _hook_labels)
-TABS_NEW = thumb(0x08000000 + TABS_FN, [
+
+# Tiles 716-763 are not always free (issue #1): a Land card's panel outside battle (deck editor / shop card view,
+# 0x08021850 -> 0x0801CE60 with mode 0x03005538 != 1 / 0x16) copies the ten mani icons to the FIXED OBJ tiles
+# 704-743 (16x16 sprites, both pentagrams), over the tab right halves; back on the list the Owned / Character / Land
+# tabs showed mani drops. Nothing reloads the tabs there. These screens run in the per-frame callback that 0x08000664
+# calls through [0x03001780] (0x08000672: bl 0x08063784 = bx r0; deck editor r0 = 0x08055A0D), not in the main
+# loop's handler[0x03003828] (the 0x08D7A424 table holds mode set-up handlers). VB_HOOK replaces that call: in modes
+# 6, 9 and 10 ([0x03005538], the deck editor / shop / trade room) it runs TAB_RESTORE first, then the callback. When a
+# tab right half (32x16 OBJ, tile 716-763) is on screen and no 16x16 OBJ uses tiles 704-743 (the mani icons are not
+# shown), TAB_RESTORE copies the six right halves back from ROM (CpuFastSet 0x600 bytes; the same bytes otherwise).
+TAB_RESTORE = TAB_HOOK + 0x100
+VB_CALL = 0x000672
+VB_ORIG = bytes.fromhex('63f087f8')     # bl 0x08063784
+CUR_MODE = 0x03005538                   # u16, read by 0x080003EC
+RESTORE_MODES = (6, 9, 10)
+_restore_labels = {}
+TAB_RESTORE_CODE = thumb(0x08000000 + TAB_RESTORE, [
+    ('label', 'check'),
+    0xB5F0,          # push {r4-r7, lr}
+    ('ldr', 4, 'oam'),
+    0x2500,          # movs r5, #0             a tab right half is shown
+    0x2680,          # movs r6, #128           OAM entries
+    ('label', 'loop'),
+    0x8820,          # ldrh r0, [r4]           attr0
+    0x8861,          # ldrh r1, [r4, #2]       attr1
+    0x88A2,          # ldrh r2, [r4, #4]       attr2
+    0x3408,          # adds r4, #8
+    0x0583, 0x0F9B,  # lsls r3, r0, #22; lsrs r3, r3, #30   attr0 bits 8-9
+    0x2B02,          # cmp r3, #2              disabled
+    ('beq', 'next'),
+    0x0603, 0x0E1B,  # lsls r3, r0, #24; lsrs r3, r3, #24   y
+    0x2BA0,          # cmp r3, #160
+    ('bcc', 'vis'),
+    0x2BE0,          # cmp r3, #224            160-223: off screen (224+ wraps to the top)
+    ('bcc', 'next'),
+    ('label', 'vis'),
+    0x0592, 0x0D92,  # lsls r2, r2, #22; lsrs r2, r2, #22   tile
+    0x0B83,          # lsrs r3, r0, #14        shape
+    ('bne', 'notsq'),
+    0x27B0, 0x00BF,  # movs r7, #0xB0; lsls r7, r7, #2      704
+    0x1BD3,          # subs r3, r2, r7
+    0x2B28,          # cmp r3, #40
+    ('bcc', 'done'),                          # a mani icon is shown: leave the tiles alone
+    ('b', 'next'),
+    ('label', 'notsq'),
+    0x2B01,          # cmp r3, #1              wide
+    ('bne', 'next'),
+    0x0B8B,          # lsrs r3, r1, #14        size
+    0x2B02,          # cmp r3, #2              32x16
+    ('bne', 'next'),
+    0x27B3, 0x00BF,  # movs r7, #0xB3; lsls r7, r7, #2      716
+    0x1BD3,          # subs r3, r2, r7
+    0x2B30,          # cmp r3, #48
+    ('bcs', 'next'),
+    0x2501,          # movs r5, #1
+    ('label', 'next'),
+    0x3E01,          # subs r6, #1
+    ('bne', 'loop'),
+    0x2D00,          # cmp r5, #0
+    ('beq', 'done'),
+    ('ldr', 0, 'tabs05'),
+    ('ldr', 1, 'dst'),
+    0x22C0, 0x0052,  # movs r2, #0xC0; lsls r2, r2, #1      0x180 words
+    0xDF0C,          # swi 0x0C                CpuFastSet
+    ('label', 'done'),
+    0xBCF0,          # pop {r4-r7}
+    0xBC01,          # pop {r0}
+    0x4700,          # bx r0
+    # VB_HOOK (from VB_CALL, r0 = the frame callback)
+    ('label', 'vb_hook'),
+    0xB501,          # push {r0, lr}
+    ('ldr', 1, 'cur_mode'),
+    0x8809,          # ldrh r1, [r1]
+] + [it for m in RESTORE_MODES for it in (0x2900 | m, ('beq', 'vb_check'))] + [   # cmp r1, #m; beq
+    ('b', 'vb_go'),
+    ('label', 'vb_check'),
+    ('bl', 'check'),
+    ('label', 'vb_go'),
+    0xBC03,          # pop {r0, r1}
+    0x468E,          # mov lr, r1
+    0x4700,          # bx r0                   the callback returns to 0x08000676
+    ('word', 'oam', 0x07000000),
+    ('word', 'tabs05', 0x08000000 + TAB_RIGHTS),
+    ('word', 'dst', 0x06010000 + 716 * 32),
+    ('word', 'cur_mode', CUR_MODE),
+], _restore_labels)
+
+_TABS_ITEMS = [
     ('ldr', 3, 'hook'),          # 978
     ('bl', 'bx_r3'),             # 97A  lr = 97E
     ('b', 'after'),              # 97E  on to 0x080449C4 (the OBJ loop)
@@ -135,11 +228,18 @@ TABS_NEW = thumb(0x08000000 + TABS_FN, [
     ('label', 'tramp_rt'),       # 0x0449F0 BLs here: r3 is free there (it receives the tile)
     ('ldr', 3, 'rt'),
     0x4718,                      # bx r3
+    ('label', 'tramp_vb'),       # VB_CALL BLs here (BL cannot reach 0x08FDxxxx): r1 is free there
+    ('ldr', 1, 'vb'),
+    0x4708,                      # bx r1
     ('word', 'hook', 0x08000000 + TAB_HOOK | 1),
     ('word', 'rt', _hook_labels['right_tile'] | 1),
-] + [0x46C0] * 26 + [('label', 'after')], _tabs_labels)
+    ('word', 'vb', _restore_labels['vb_hook'] | 1),
+]
+_pad = (len(TABS_ORIG) - len(thumb(0x08000000 + TABS_FN, _TABS_ITEMS))) // 2
+TABS_NEW = thumb(0x08000000 + TABS_FN, _TABS_ITEMS + [0x46C0] * _pad + [('label', 'after')], _tabs_labels)
 assert len(TABS_NEW) == len(TABS_ORIG) == 0x4C and _tabs_labels['after'] == 0x080449C4, (len(TABS_NEW), _tabs_labels)
 RIGHT_CALL = thumb(0x080449F0, [('bl', _tabs_labels['tramp_rt'])])   # replaces add r1, sp, #0x14; ldrh r3, [r1]
+VB_NEW = thumb(0x08000000 + VB_CALL, [('bl', _tabs_labels['tramp_vb'])])
 
 # (offset, original bytes, new bytes, what)
 PATCHES = [
@@ -149,6 +249,8 @@ PATCHES = [
     (0x0449F0, bytes.fromhex('05a90b88'), RIGHT_CALL, 'tabs 0-6: right tile from TAB_HOOK right_tile'),
     (TAB_HOOK, b'\xff' * len(TAB_HOOK_CODE), TAB_HOOK_CODE, 'tab hook: load the split right halves (see TABS_FN)'),
     (0x044A16, bytes.fromhex('0b990b88'), bytes.fromhex('089bc046'), 'sort keys 7-12: right tile = [sp+0x20]'),
+    (TAB_RESTORE, b'\xff' * len(TAB_RESTORE_CODE), TAB_RESTORE_CODE, 'tab restore after a Land card view (issue #1)'),
+    (VB_CALL, VB_ORIG, VB_NEW, 'frame callback call: VB_HOOK first (see TAB_RESTORE)'),
     # link-error screen (mode 21, setup 0x0805AA20) copies its screens with fixed sizes (0x08000884 r0 src, r1 dst,
     # r2 bytes): the English needs more tiles (tools/gfx_linkerr.py, room_banners C11C58). VRAM: BG3 chars 0x0000,
     # BG0 chars 0x4000, screens 0xF000 / 0xF800, so both still fit.

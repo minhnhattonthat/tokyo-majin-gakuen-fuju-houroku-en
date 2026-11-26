@@ -2,6 +2,21 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
+- **Session 44: issue #1 fixed** (player report on v1.0; save + 3 RetroArch mGBA states in `work/states/issue1/`,
+  read with new `tools/debug/ra_state.py render|oam|dump`). Build sha1 6cf2462ade31.., check.py 38 passed, smoke ok,
+  warps deck_edit / shop / stress_viewall / battle_tutorial ok. Not released: re-run `tools/release.py` for v1.1.
+  (1) Rules-help topic lists (Start in the hand phase) showed stale tiles right of each label: rows D6E71C-D6E908 are
+  drawn over the old screen and only their own cells are cleared; now padded with [81][40] to the JP cell count, new
+  fit rule (HELP_LIST). (2) Battle-tutorial pages: the page-wait icon is drawn over the LAST cell of the last line
+  from x+5 (JP: the right of 。), so "base colo[icon]"; 17 pages end with a [81][40] cell, new fit rule (TUTORIAL,
+  ICON_X); D640F0 page 2 is a box one cell further in, JP lines indented with 　 now start with [81][40] (also
+  D63D44, D642AC); D63FE0 reworded to fit. fit.encoder now uses build.py's MTE corpus (pref rows excluded), so unit
+  counts match the build. Shots: `work/issue1/iconpages_fix.png`, `help_cmp2.png`, `tut_fix2.png`. (3) Deck editor:
+  a Land card's panel outside battle loads the 10 mani icons to fixed OBJ tiles 704-743, over the English tab right
+  halves (716-763), so Owned / Character / Land showed mani drops after viewing a Land card. New `VB_HOOK` /
+  `TAB_RESTORE` in `tools/patches.py` reload the tab halves in modes 6/9/10 when tabs are shown and no mani icon is
+  (before/after `work/issue1/lb_cmp3.png`, Land view unchanged `lv_cmp.png`). Issue #1 also asks for help text on
+  the summon rule (needs AP and at least 1 matching Mani): game content, not a bug; answer on the issue.
 - **Session 43: v1.0 published** (GitHub release v1.0). Build sha1 7796f84dfd7f.. (crc32 2EC60BF5), BPS 1363410 bytes
   verified, zip = bps + README.txt. Tour/popup gates waived (graphics-only since the tour); re-shot on the English
   build in `work/qa/rel_s43/{title,card_end,event_00_1}`. Note: `tools/debug/warp.py` defaults to the JP base ROM,
