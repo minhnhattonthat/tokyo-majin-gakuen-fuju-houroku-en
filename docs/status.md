@@ -4,7 +4,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Session 44: issue #1 fixed** (player report on v1.0; save + 3 RetroArch mGBA states in `work/states/issue1/`,
   read with new `tools/debug/ra_state.py render|oam|dump`). Build sha1 6cf2462ade31.., check.py 38 passed, smoke ok,
-  warps deck_edit / shop / stress_viewall / battle_tutorial ok. Not released: re-run `tools/release.py` for v1.1.
+  warps deck_edit / shop / stress_viewall / battle_tutorial ok. **v1.1 published** (GitHub release v1.1, crc32
+  F4416474, BPS 1363469 bytes verified); tour + popups_qa3 gates waived by the owner as a hotfix; issue #1 closed and
+  answered (summon rule, other games' saves).
   (1) Rules-help topic lists (Start in the hand phase) showed stale tiles right of each label: rows D6E71C-D6E908 are
   drawn over the old screen and only their own cells are cleared; now padded with [81][40] to the JP cell count, new
   fit rule (HELP_LIST). (2) Battle-tutorial pages: the page-wait icon is drawn over the LAST cell of the last line
